@@ -1,0 +1,293 @@
+{
+  "$schema_izoh": {
+    "tavsif": "Yo'naltiruvchi bot RAG bilim bazasi. Har bir yozuv bitta 'muammo → idora' juftligi.",
+    "MUHIM": "Telefon raqamlari, portal manzillari va idora nomlari VAQT O'TISHI BILAN O'ZGARADI. 1-haftada har bir yozuv rasmiy manbadan tekshirilishi SHART. 'tekshirilgan': false bo'lgan yozuv botga yuklanmaydi.",
+    "maydonlar": {
+      "id": "unikal identifikator (lotin, defis bilan)",
+      "kategoriya": "Kommunal | Mehnat | Ijtimoiy himoya | Yer-mulk | Tadbirkorlik | Iste'molchi | Ta'lim | Sog'liqni saqlash | Boshqa",
+      "muammo": "muammoning fuqaro tilida tavsifi (embedding uchun asosiy matn)",
+      "kalit_sozlar": "qidiruv sifatini oshiruvchi so'zlar, xato yozilishlar va kirillcha variantlar ham",
+      "masul_idora": "idora nomi va darajasi (tuman/shahar/viloyat/respublika)",
+      "murojaat_kanallari": "telefon, onlayn portal, jismoniy manzil turi",
+      "kerakli_hujjatlar": "ro'yxat",
+      "murojaat_tartibi": "qadamlar ro'yxati",
+      "korish_muddati": "qonuniy muddat, ma'lum bo'lsa",
+      "eskalatsiya": "hal bo'lmasa keyingi bosqich",
+      "manba": "rasmiy manba URL yoki hujjat nomi",
+      "tekshirilgan": "true faqat rasmiy manbadan tasdiqlangandan keyin",
+      "tekshirilgan_sana": "YYYY-MM-DD"
+    }
+  },
+  "yozuvlar": [
+    {
+      "id": "elektr-uzilishi",
+      "kategoriya": "Kommunal",
+      "muammo": "Uyda yoki mahallada elektr energiyasi tez-tez o'chib qolyapti, svet yo'q, elektr uzilib qolgan, kuchlanish past",
+      "kalit_sozlar": ["svet", "elektr", "tok", "chiroq o'chdi", "света нет", "elektr uzilish", "kuchlanish", "napryajeniya"],
+      "masul_idora": {
+        "nomi": "Hududiy elektr tarmoqlari korxonasi (tuman/shahar elektr tarmog'i)",
+        "daraja": "tuman",
+        "yuqori_tashkilot": "'Hududiy elektr tarmoqlari' AJ"
+      },
+      "murojaat_kanallari": {
+        "telefon": "1000 (yagona call-markaz) — TEKSHIRILSIN",
+        "onlayn": "my.gov.uz orqali murojaat yoki korxonaning rasmiy Telegram-boti",
+        "jismoniy": "tuman elektr tarmog'i abonent bo'limi"
+      },
+      "kerakli_hujjatlar": ["Abonent (hisob) raqami", "manzil"],
+      "murojaat_tartibi": [
+        "Avval call-markazga qo'ng'iroq qilib avariya/rejali o'chirish emasligini aniqlang",
+        "Muammo takrorlansa — yozma/onlayn murojaat qoldiring, murojaat raqamini saqlang",
+        "Javob bo'lmasa hokimlik yoki pm.gov.uz ga eskalatsiya qiling"
+      ],
+      "korish_muddati": "Murojaatlar to'g'risidagi qonun bo'yicha 15–30 kun (aniqlashtirilsin)",
+      "eskalatsiya": "Tuman hokimligi → Energetika vazirligi → Prezident virtual qabulxonasi (pm.gov.uz, tel: 1000)",
+      "manba": "my.gov.uz — TEKSHIRILSIN va aniq URL qo'yilsin",
+      "tekshirilgan": false,
+      "tekshirilgan_sana": null
+    },
+    {
+      "id": "gaz-taminoti",
+      "kategoriya": "Kommunal",
+      "muammo": "Tabiiy gaz kelmayapti, gaz bosimi past, gaz hidi kelyapti, gaz uzilib qolgan",
+      "kalit_sozlar": ["gaz", "gaz yo'q", "gaz hidi", "bosim past", "газ", "gaz uzilish", "metan"],
+      "masul_idora": {
+        "nomi": "Tuman/shahar gaz ta'minoti filiali ('Hududgazta'minot')",
+        "daraja": "tuman",
+        "yuqori_tashkilot": "'Hududgazta'minot' AJ"
+      },
+      "murojaat_kanallari": {
+        "telefon": "104 (gaz avariya xizmati — gaz hidi kelsa DARHOL shu raqam) — TEKSHIRILSIN",
+        "onlayn": "my.gov.uz yoki korxona rasmiy kanallari",
+        "jismoniy": "tuman gaz ta'minoti abonent bo'limi"
+      },
+      "kerakli_hujjatlar": ["Abonent raqami", "manzil"],
+      "murojaat_tartibi": [
+        "DIQQAT: gaz hidi kelsa — avval xonani shamollatib, olov/elektr yoqmasdan 104 ga qo'ng'iroq qiling",
+        "Ta'minot muammosida abonent bo'limiga yozma murojaat qiling",
+        "Hal bo'lmasa hokimlik/pm.gov.uz ga eskalatsiya"
+      ],
+      "korish_muddati": "Avariya — darhol; yozma murojaat — 15–30 kun (aniqlashtirilsin)",
+      "eskalatsiya": "Tuman hokimligi → Energetika vazirligi → pm.gov.uz",
+      "manba": "TEKSHIRILSIN",
+      "tekshirilgan": false,
+      "tekshirilgan_sana": null
+    },
+    {
+      "id": "ichimlik-suvi",
+      "kategoriya": "Kommunal",
+      "muammo": "Ichimlik suvi kelmayapti, suv bosimi past, suv sifati yomon, quvur yorilgan, kanalizatsiya to'lib ketgan",
+      "kalit_sozlar": ["suv", "suv yo'q", "vodoprovod", "kanalizatsiya", "quvur", "вода", "suv bosimi", "oqova"],
+      "masul_idora": {
+        "nomi": "Tuman/shahar suv ta'minoti korxonasi ('Suvsoz' / 'Suvoqava' hududiy filiali)",
+        "daraja": "tuman",
+        "yuqori_tashkilot": "'O'zsuvta'minot' AJ"
+      },
+      "murojaat_kanallari": {
+        "telefon": "1055 yoki hududiy dispetcher — TEKSHIRILSIN",
+        "onlayn": "my.gov.uz",
+        "jismoniy": "hududiy suv ta'minoti abonent bo'limi"
+      },
+      "kerakli_hujjatlar": ["Abonent raqami", "manzil"],
+      "murojaat_tartibi": [
+        "Dispetcherga qo'ng'iroq qilib avariya emasligini aniqlang",
+        "Doimiy muammoda yozma murojaat, raqamini saqlang",
+        "Suv sifati bo'yicha — Sanitariya-epidemiologik xizmatga parallel murojaat mumkin"
+      ],
+      "korish_muddati": "15–30 kun (aniqlashtirilsin)",
+      "eskalatsiya": "Tuman hokimligi → 'O'zsuvta'minot' → pm.gov.uz",
+      "manba": "TEKSHIRILSIN",
+      "tekshirilgan": false,
+      "tekshirilgan_sana": null
+    },
+    {
+      "id": "chiqindi-olib-ketilmayapti",
+      "kategoriya": "Kommunal",
+      "muammo": "Maishiy chiqindi olib ketilmayapti, axlat konteynerlari to'lib ketgan, mahallada axlatxona hosil bo'lgan",
+      "kalit_sozlar": ["axlat", "chiqindi", "musor", "konteyner", "мусор", "chiqindixona", "tozalik"],
+      "masul_idora": {
+        "nomi": "Hududiy sanitar tozalash korxonasi ('Toza hudud' / 'Maxsustrans' kabi)",
+        "daraja": "tuman/shahar",
+        "yuqori_tashkilot": "Ekologiya, atrof-muhitni muhofaza qilish va iqlim o'zgarishi vazirligi"
+      },
+      "murojaat_kanallari": {
+        "telefon": "Hududiy korxona dispetcheri — TEKSHIRILSIN",
+        "onlayn": "my.gov.uz; ekologiya vazirligi murojaat kanallari",
+        "jismoniy": "mahalla fuqarolar yig'ini orqali ham jamoaviy murojaat mumkin"
+      },
+      "kerakli_hujjatlar": ["Manzil", "iloji bo'lsa foto"],
+      "murojaat_tartibi": [
+        "Mahalla raisiga xabar bering (ko'p hollarda shu bosqichda hal bo'ladi)",
+        "Hal bo'lmasa korxona dispetcheriga, keyin yozma murojaat",
+        "Foto bilan onlayn murojaat samaraliroq"
+      ],
+      "korish_muddati": "15–30 kun (aniqlashtirilsin)",
+      "eskalatsiya": "Tuman hokimligi → Ekologiya vazirligi → pm.gov.uz",
+      "manba": "TEKSHIRILSIN",
+      "tekshirilgan": false,
+      "tekshirilgan_sana": null
+    },
+    {
+      "id": "ish-haqi-tolanmayapti",
+      "kategoriya": "Mehnat",
+      "muammo": "Ish beruvchi oylik maoshni kechiktiryapti yoki to'lamayapti, mehnat shartnomasisiz ishlatyapti, noqonuniy ishdan bo'shatildim",
+      "kalit_sozlar": ["oylik", "maosh", "ish haqi", "zarplata", "ishdan bo'shatish", "mehnat shartnomasi", "работодатель", "uvolneniya"],
+      "masul_idora": {
+        "nomi": "Mehnat inspeksiyasi (Kambag'allikni qisqartirish va bandlik vazirligi hududiy boshqarmasi)",
+        "daraja": "viloyat",
+        "yuqori_tashkilot": "Kambag'allikni qisqartirish va bandlik vazirligi — NOMI TEKSHIRILSIN"
+      },
+      "murojaat_kanallari": {
+        "telefon": "Vazirlik ishonch telefoni — TEKSHIRILSIN",
+        "onlayn": "my.gov.uz orqali mehnat inspeksiyasiga murojaat; mehnat.uz — TEKSHIRILSIN",
+        "jismoniy": "hududiy mehnat inspeksiyasi"
+      },
+      "kerakli_hujjatlar": ["Mehnat shartnomasi (bo'lsa)", "ish haqi hisob varaqalari", "ish joyini tasdiqlovchi dalillar (guvohlar, xabarlar)"],
+      "murojaat_tartibi": [
+        "Avval ish beruvchiga yozma talab yuboring (nusxasini saqlang)",
+        "Mehnat inspeksiyasiga onlayn/yozma shikoyat qiling",
+        "Katta summa yoki nizo bo'lsa — fuqarolik sudiga da'vo (mehnat nizolarida davlat boji imtiyozlari bor — aniqlashtirilsin)"
+      ],
+      "korish_muddati": "Inspeksiya tekshiruvi — 15–30 kun (aniqlashtirilsin)",
+      "eskalatsiya": "Vazirlik markaziy apparati → Prokuratura → Sud",
+      "manba": "Mehnat kodeksi (lex.uz) — aniq moddalar 1-haftada qo'yilsin",
+      "tekshirilgan": false,
+      "tekshirilgan_sana": null
+    },
+    {
+      "id": "pensiya-nafaqa",
+      "kategoriya": "Ijtimoiy himoya",
+      "muammo": "Pensiya rasmiylashtirish, pensiya miqdori noto'g'ri hisoblangan, nafaqa (bolalar, nogironlik) olish tartibi",
+      "kalit_sozlar": ["pensiya", "nafaqa", "пенсия", "пособие", "nogironlik nafaqasi", "bolalar nafaqasi", "ijtimoiy to'lov"],
+      "masul_idora": {
+        "nomi": "Ijtimoiy himoya milliy agentligi hududiy bo'limi ('Inson' ijtimoiy xizmatlar markazi) — TUZILMA TEKSHIRILSIN",
+        "daraja": "tuman",
+        "yuqori_tashkilot": "Ijtimoiy himoya milliy agentligi"
+      },
+      "murojaat_kanallari": {
+        "telefon": "Agentlik call-markazi — TEKSHIRILSIN",
+        "onlayn": "my.gov.uz (pensiya tayinlash xizmati onlayn mavjud — TEKSHIRILSIN)",
+        "jismoniy": "tuman 'Inson' markazi / Davlat xizmatlari markazi"
+      },
+      "kerakli_hujjatlar": ["Pasport/ID", "mehnat daftarchasi", "nafaqa turi bo'yicha qo'shimcha hujjatlar (vaziyatga qarab)"],
+      "murojaat_tartibi": [
+        "my.gov.uz da tegishli xizmatni qidiring — ko'p xizmatlar onlayn",
+        "Onlayn bo'lmasa tuman bo'limiga hujjatlar bilan boring",
+        "Hisob-kitobga norozi bo'lsangiz yozma qayta hisoblash so'rovi bering"
+      ],
+      "korish_muddati": "Xizmat turiga qarab, odatda 10–30 kun (aniqlashtirilsin)",
+      "eskalatsiya": "Agentlik markaziy apparati → pm.gov.uz → Sud",
+      "manba": "TEKSHIRILSIN",
+      "tekshirilgan": false,
+      "tekshirilgan_sana": null
+    },
+    {
+      "id": "yer-kadastr",
+      "kategoriya": "Yer-mulk",
+      "muammo": "Uy/yer hujjatlarini rasmiylashtirish, kadastr pasporti olish, mulkni ro'yxatdan o'tkazish, qo'shni bilan chegara nizosi",
+      "kalit_sozlar": ["kadastr", "yer hujjati", "kadastr pasporti", "мулк", "davreestr", "chegara nizosi", "uy hujjati", "order"],
+      "masul_idora": {
+        "nomi": "Kadastr agentligi tuman bo'limi",
+        "daraja": "tuman",
+        "yuqori_tashkilot": "Iqtisodiyot va moliya vazirligi huzuridagi Kadastr agentligi — BO'YSUNISH TEKSHIRILSIN"
+      },
+      "murojaat_kanallari": {
+        "telefon": "Agentlik call-markazi — TEKSHIRILSIN",
+        "onlayn": "davreestr.uz — TEKSHIRILSIN; my.gov.uz",
+        "jismoniy": "Davlat xizmatlari markazi (ko'p kadastr xizmatlari DXM orqali)"
+      },
+      "kerakli_hujjatlar": ["Pasport/ID", "mulk huquqini tasdiqlovchi hujjat (order, oldi-sotdi shartnomasi, meros guvohnomasi)"],
+      "murojaat_tartibi": [
+        "Davlat xizmatlari markaziga hujjatlar bilan murojaat qiling yoki onlayn ariza bering",
+        "Kadastr o'lchov ishlari kerak bo'lsa navbat belgilanadi",
+        "Chegara nizosi sudgacha yetsa — avval kadastr xulosasini oling"
+      ],
+      "korish_muddati": "Xizmatga qarab 1–15 ish kuni (aniqlashtirilsin)",
+      "eskalatsiya": "Agentlik markaziy apparati → Sud",
+      "manba": "TEKSHIRILSIN",
+      "tekshirilgan": false,
+      "tekshirilgan_sana": null
+    },
+    {
+      "id": "tadbirkorlik-royxat",
+      "kategoriya": "Tadbirkorlik",
+      "muammo": "Yakka tartibdagi tadbirkor (YaTT) yoki MChJ ochish, o'zini o'zi band qilgan sifatida ro'yxatdan o'tish, faoliyatni to'xtatish",
+      "kalit_sozlar": ["YaTT", "MChJ", "biznes ochish", "tadbirkor", "o'zini o'zi band qilgan", "samozanyatiy", "ИП", "soliq"],
+      "masul_idora": {
+        "nomi": "Davlat xizmatlari markazi (ro'yxatga olish) va Soliq qo'mitasi (hisobga qo'yish)",
+        "daraja": "tuman",
+        "yuqori_tashkilot": "Adliya vazirligi (DXM) / Soliq qo'mitasi"
+      },
+      "murojaat_kanallari": {
+        "telefon": "DXM call-markazi 1008 — TEKSHIRILSIN",
+        "onlayn": "fo.birdarcha.uz / my.gov.uz orqali onlayn ro'yxatdan o'tish — TEKSHIRILSIN; o'zini o'zi band qilganlar Soliq mobil ilovasi orqali",
+        "jismoniy": "istalgan Davlat xizmatlari markazi"
+      },
+      "kerakli_hujjatlar": ["Pasport/ID", "MChJ uchun: ustav, ta'sis qarori, yuridik manzil"],
+      "murojaat_tartibi": [
+        "Faoliyat turini tanlang (o'zini o'zi band qilgan / YaTT / MChJ — soliq rejimi farq qiladi)",
+        "Onlayn ariza bering — ko'p hollarda ro'yxatdan o'tish 30 daqiqadan 1 kungacha",
+        "Bank hisobi va (kerak bo'lsa) onlayn-kassa rasmiylashtiring"
+      ],
+      "korish_muddati": "Odatda 1 ish kunigacha (aniqlashtirilsin)",
+      "eskalatsiya": "Adliya vazirligi / Soliq qo'mitasi call-markazlari → biznes ombudsman",
+      "manba": "TEKSHIRILSIN",
+      "tekshirilgan": false,
+      "tekshirilgan_sana": null
+    },
+    {
+      "id": "istemolchi-huquqlari",
+      "kategoriya": "Iste'molchi",
+      "muammo": "Sifatsiz mahsulot sotildi, do'kon tovarni qaytarib olmayapti, xizmat sifatsiz ko'rsatildi, kafolat rad etilyapti",
+      "kalit_sozlar": ["qaytarish", "sifatsiz tovar", "kafolat", "vozvrat", "do'kon", "aldash", "защита прав потребителей", "chek"],
+      "masul_idora": {
+        "nomi": "Raqobatni rivojlantirish va iste'molchilar huquqlarini himoya qilish qo'mitasi hududiy boshqarmasi — NOMI TEKSHIRILSIN",
+        "daraja": "viloyat",
+        "yuqori_tashkilot": "Raqobat qo'mitasi"
+      },
+      "murojaat_kanallari": {
+        "telefon": "Qo'mita ishonch telefoni — TEKSHIRILSIN",
+        "onlayn": "my.gov.uz; qo'mita rasmiy sayti",
+        "jismoniy": "hududiy boshqarma"
+      },
+      "kerakli_hujjatlar": ["Chek yoki to'lovni tasdiqlovchi hujjat", "kafolat taloni (bo'lsa)", "sotuvchiga yozma talabnoma nusxasi"],
+      "murojaat_tartibi": [
+        "Avval sotuvchiga yozma talabnoma (pretenziya) bering — 10 kunlik javob muddati (aniqlashtirilsin)",
+        "Rad etilsa yoki javob bo'lmasa qo'mitaga shikoyat qiling",
+        "Zarar katta bo'lsa sudga da'vo (iste'molchilar davlat bojidan ozod — TEKSHIRILSIN)"
+      ],
+      "korish_muddati": "Qo'mitada 15–30 kun (aniqlashtirilsin)",
+      "eskalatsiya": "Qo'mita markaziy apparati → Sud",
+      "manba": "'Iste'molchilarning huquqlarini himoya qilish to'g'risida'gi qonun (lex.uz) — aniq havola qo'yilsin",
+      "tekshirilgan": false,
+      "tekshirilgan_sana": null
+    },
+    {
+      "id": "yol-holati",
+      "kategoriya": "Kommunal",
+      "muammo": "Ko'chada chuqurlar bor, yo'l buzilgan, svetofor ishlamayapti, ko'cha yoritilishi yo'q, piyodalar o'tish joyi kerak",
+      "kalit_sozlar": ["yo'l", "chuqur", "asfalt", "svetofor", "yoritish", "дорога", "яма", "piyoda o'tish"],
+      "masul_idora": {
+        "nomi": "Tuman hokimligi (obodonlashtirish bo'limi) va hududiy yo'l xo'jaligi korxonasi",
+        "daraja": "tuman",
+        "yuqori_tashkilot": "Transport vazirligi (Yo'l qo'mitasi) — TUZILMA TEKSHIRILSIN"
+      },
+      "murojaat_kanallari": {
+        "telefon": "Hokimlik ishonch telefoni — TEKSHIRILSIN",
+        "onlayn": "my.gov.uz; svetofor/belgilar bo'yicha YHXX (yo'l harakati xavfsizligi) kanallari",
+        "jismoniy": "tuman hokimligi qabulxonasi, mahalla orqali jamoaviy murojaat"
+      },
+      "kerakli_hujjatlar": ["Aniq manzil/mo'ljal", "foto — kuchli dalil"],
+      "murojaat_tartibi": [
+        "Foto bilan onlayn murojaat qoldiring (aniq manzil ko'rsating)",
+        "Svetofor/belgi masalasida YHXXga parallel yozing",
+        "Javob bo'lmasa pm.gov.uz ga eskalatsiya"
+      ],
+      "korish_muddati": "15–30 kun (aniqlashtirilsin)",
+      "eskalatsiya": "Viloyat hokimligi → Transport vazirligi → pm.gov.uz",
+      "manba": "TEKSHIRILSIN",
+      "tekshirilgan": false,
+      "tekshirilgan_sana": null
+    }
+  ]
+}
