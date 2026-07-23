@@ -45,3 +45,13 @@ export GEMINI_API_KEY=...   # https://ai.google.dev dan
 python -m bot.index_qurish  # bazani indekslash (bir marta / baza yangilanganda)
 python -m bot.main          # botni ishga tushirish
 ```
+
+## Web-versiya
+
+Bir xil `bot/rag.py` yadrosidan foydalanadigan oddiy web-chat interfeysi (`http://127.0.0.1:8000`):
+
+```bash
+uvicorn web.main:app --reload
+```
+
+`BOT_TOKEN`/`GEMINI_API_KEY` bot bilan bir xil environment variable'lardan o'qiladi — alohida sozlash shart emas, faqat baza avval indekslangan bo'lishi kerak (`python -m bot.index_qurish`).

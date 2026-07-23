@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<title>Yo'naltiruvchi chat</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background: #ffffff;
+    color: #1a1a1a;
+  }
+  @media (prefers-color-scheme: dark) {
+    html, body { background: #1f2126; color: #e8e9ec; }
+  }
+  .wrap {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .head {
+    padding: 14px 16px;
+    border-bottom: 1px solid rgba(127,127,127,0.25);
+    font-weight: 600;
+  }
+  .chat {
+    flex: 1;
+    overflow-y: auto;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .msg {
+    max-width: 88%;
+    padding: 9px 13px;
+    border-radius: 13px;
+    line-height: 1.4;
+    font-size: 0.9rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  .msg.user {
+    align-self: flex-end;
+    background: #2563eb;
+    color: #fff;
+    border-bottom-right-radius: 4px;
+  }
+  .msg.bot {
+    align-self: flex-start;
+    background: rgba(127,127,127,0.15);
+    border-bottom-left-radius: 4px;
+  }
+  .msg.bot.pending { font-style: italic; opacity: 0.7; }
+  form {
+    display: flex;
+    gap: 8px;
+    padding: 10px;
+    border-top: 1px solid rgba(127,127,127,0.25);
+  }
+  textarea {
+    flex: 1;
+    resize: none;
+    height: 40px;
+    border: 1px solid rgba(127,127,127,0.35);
+    border-radius: 8px;
+    padding: 8px 10px;
+    font-size: 0.9rem;
+    font-family: inherit;
+    background: transparent;
+    color: inherit;
+  }
+  button {
+    border: none;
+    border-radius: 8px;
+    padding: 0 16px;
+    background: #2563eb;
+    color: #fff;
+    cursor: pointer;
+  }
+  button:disabled { opacity: 0.6; cursor: default; }
+  .disclaimer {
+    font-size: 0.7rem;
+    opacity: 0.6;
+    text-align: center;
+    padding: 4px 10px 10px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="head">Yo'naltiruvchi</div>
+  <div class="chat" id="chat"></div>
+  <form id="form">
+    <textarea id="savol" placeholder="Muammoingizni yozing..." required></textarea>
+    <button type="submit" id="yuborBtn">Yubor</button>
+  </form>
+  <div class="disclaimer">Bu bot huquqiy maslahat bermaydi, faqat yo'naltiradi.</div>
+</div>
+
+<script>
+  const chat = document.getElementById('chat');
+  const form = document.getElementById('form');
+  const savolInput = document.getElementById('savol');
+  const yuborBtn = document.getElementById('yuborBtn');
+  const sessionId = (crypto.randomUUID && crypto.randomUUID()) || String(Date.now()) + Math.random();
+
+  function xabarQosh(matn, rol) {
+    const div = document.createElement('div');
+    div.className = 'msg ' + rol;
+    div.textContent = matn;
+    chat.appendChild(div);
+    chat.scrollTop = chat.scrollHeight;
+    return div;
+  }
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const savol = savolInput.value.trim();
+    if (!savol) return;
+
+    xabarQosh(savol, 'user');
+    savolInput.value = '';
+    yuborBtn.disabled = true;
+
+    const kutish = xabarQosh('Qidiryapman... ⏳', 'bot pending');
+
+    try {
+      const resp = await fetch('/api/savol', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ savol, session_id: sessionId }),
+      });
+      const data = await resp.json();
+      kutish.textContent = data.javob;
+      kutish.classList.remove('pending');
+    } catch (err) {
+      kutish.textContent = 'Kechirasiz, texnik xatolik yuz berdi. Birozdan keyin qayta urinib ko\'ring.';
+      kutish.classList.remove('pending');
+    } finally {
+      yuborBtn.disabled = false;
+      savolInput.focus();
+    }
+  });
+
+  form.addEventListener('keydown', (e) => {
+    if (e.target === savolInput && e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      form.requestSubmit();
+    }
+  });
+</script>
+</body>
+</html>

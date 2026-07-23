@@ -7,11 +7,16 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 
 from bot.config import BOT_TOKEN
-from bot.rag import javob_olish
+from bot.rag import javob_olish, TokenlarTugadi, TOKENLAR_TUGADI_XABARI
 from bot.index_qurish import bazani_yuklash
 
 bot = Bot(BOT_TOKEN)
 dp = Dispatcher()
+
+# Har bir chat uchun suhbat tarixi (aniqlashtiruvchi savol-javob oqimi uchun).
+# MVP uchun xotirada saqlanadi; bot qayta ishga tushsa tarix yo'qoladi.
+SUHBAT_TARIXI: dict[int, list[dict]] = {}
+TARIX_UZUNLIGI = 8  # so'nggi N ta xabar (fuqaro+bot) saqlanadi
 
 
 @dp.message(Command("start"))
@@ -27,8 +32,17 @@ async def start(msg: types.Message):
 @dp.message()
 async def savol(msg: types.Message):
     await msg.answer("Qidiryapman... ⏳")
+
+    tarix = SUHBAT_TARIXI.setdefault(msg.chat.id, [])
+    tarix.append({"rol": "fuqaro", "matn": msg.text})
+
     try:
-        javob = javob_olish(msg.text)
+        javob = javob_olish(tarix)
+        tarix.append({"rol": "bot", "matn": javob})
+        del tarix[:-TARIX_UZUNLIGI]
+    except TokenlarTugadi:
+        javob = TOKENLAR_TUGADI_XABARI
+        tarix.pop()  # foydalanuvchi savoli javobsiz qoldi, tarixga qo'shilmasin
     except Exception as e:
         javob = "Kechirasiz, texnik xatolik. Birozdan keyin qayta urinib ko'ring."
         print("XATO:", e)
