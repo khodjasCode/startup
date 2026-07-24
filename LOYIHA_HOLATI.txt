@@ -108,8 +108,22 @@ vektor_baza/      — ChromaDB lokal papka (index_qurish ishga tushgach yaratila
     moddalar lex.uz dan tekshirilgan); data/savol-javob.json yaratildi
     (advice.uz dan 20 tayyor savol-javob). SYSTEM_PROMPT'ga 10-qoida
     qo'shildi: manbalar ustuvorligi my.gov.uz -> pm.gov.uz -> lex.uz,
-    huquqiy javob doim lex.uz havolasi bilan tugaydi. Jami indeks: 129
-    yozuv, sinov qidiruvlari 6/6 to'g'ri
+    huquqiy javob doim lex.uz havolasi bilan tugaydi
+[x] KATTA KENGAYTIRISH (2026-07-24 kechqurun): my-gov.json 102 xizmatga
+    yetkazildi (+33: sug'urta/OSAGO, soliqlar, ekologiya/ov, bojxona/IMEI,
+    xorij pasporti, uy-joy navbati/xususiylashtirish, sport, aloqa);
+    savol-javob.json 178 yozuvga yetkazildi (advice.uz kategoriyalaridan —
+    pm.gov.uz dagi 64 toifa aynan shu bazadan oziqlanadi: oila/ajrim/aliment,
+    notariat, harbiy, migratsiya, uy-joy/ijara, transport/avtohuquq,
+    pensiya/ijtimoiy/nogironlik, sog'liqni saqlash, bepul huquqiy yordam,
+    ishonch telefonlari, mehnat, ta'lim, soliq, bank, iste'molchi, mahalla,
+    majburiy ijro); lex.json 31 ta (+8: meros, kredit/qarz, yer nizosi,
+    xorijda ishlash, harbiy kechiktirish, uy ro'yxati, firibgarlik,
+    kasallik varaqasi); pm-gov.json ga 14 viloyat Xalq qabulxonasi manzili
+    va telefoni qo'shildi (president.uz dan). index_qurish 429 limitga
+    chidamli qilindi. Jami indeks: 329 yozuv. QA: Top-1 80%, Top-3 93%
+    (2 "xato" — yangi mazmunan to'g'ri yozuvlar eski kutilgan id o'rnini
+    egallagani), sinov qidiruvlari 8/8
 
 ===========================================================
 4. QOLGAN ISH (KEYINGI QADAM)

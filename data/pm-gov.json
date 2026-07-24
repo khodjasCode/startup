@@ -31,7 +31,116 @@
       "OneID (id.egov.uz) orqali tizimga kiring; hisob bo'lmasa pasport/ID-karta va JSHSHIR bilan ro'yxatdan o'ting",
       "Murojaat turi (ariza/shikoyat/taklif), idora va hududni tanlab, matnni yozing va yuboring",
       "Berilgan murojaat raqami va tekshiruv kodini saqlang — holatni shu ma'lumotlar bilan kuzatasiz"
-    ]
+    ],
+    "xalq_qabulxonalari": {
+      "markaziy": {
+        "nomi": "O'zbekiston Respublikasi Prezidentining Virtual qabulxonasi (markaziy/respublika darajasi)",
+        "manzil": "alohida markaziy jismoniy manzil rasmiy sahifada ko'rsatilmagan; murojaatlar virtual qabulxona orqali qabul qilinadi (pm.gov.uz)",
+        "telefon": "1000 (call-markaz), 0-800-210-00-00",
+        "manba_url": "https://pm.gov.uz/uz"
+      },
+      "hududiy": [
+        {
+          "hudud": "Toshkent shahri",
+          "manzil": "Toshkent sh., Amir Temur shox ko'chasi, 14-uy",
+          "telefon": "0(371) 232-30-12",
+          "ish_vaqti": "09:00–18:00, tushlik 13:00–14:00 (2GIS ma'lumoti)",
+          "manba_url": "https://president.uz/oz/site/contact"
+        },
+        {
+          "hudud": "Toshkent viloyati",
+          "manzil": "O'rtachirchiq tumani, Qumovul QFY, Yangi-hayot ko'chasi",
+          "telefon": "0(371) 230-24-27",
+          "ish_vaqti": "ko'rsatilmagan",
+          "manba_url": "https://president.uz/oz/site/contact"
+        },
+        {
+          "hudud": "Andijon",
+          "manzil": "Andijon sh., Milliy tiklanish ko'chasi, 24-uy",
+          "telefon": "0(374) 223-10-00",
+          "ish_vaqti": "ko'rsatilmagan",
+          "manba_url": "https://president.uz/oz/site/contact"
+        },
+        {
+          "hudud": "Buxoro",
+          "manzil": "Buxoro sh., I.Mo'minov ko'chasi, 1a-uy",
+          "telefon": "0(365) 220-10-00",
+          "ish_vaqti": "ko'rsatilmagan",
+          "manba_url": "https://president.uz/oz/site/contact"
+        },
+        {
+          "hudud": "Farg'ona",
+          "manzil": "Farg'ona sh., Sayilgoh ko'chasi, 27-uy",
+          "telefon": "0(373) 244-10-00",
+          "ish_vaqti": "ko'rsatilmagan",
+          "manba_url": "https://president.uz/oz/site/contact"
+        },
+        {
+          "hudud": "Jizzax",
+          "manzil": "Jizzax sh., Sh.Rashidov shoh ko'chasi, 117-uy",
+          "telefon": "0(372) 226-30-22",
+          "ish_vaqti": "ko'rsatilmagan",
+          "manba_url": "https://president.uz/oz/site/contact"
+        },
+        {
+          "hudud": "Xorazm",
+          "manzil": "Urganch sh., G'.G'ulom 1-tor ko'chasi, 6-uy",
+          "telefon": "0(362) 224-10-10",
+          "ish_vaqti": "ko'rsatilmagan",
+          "manba_url": "https://president.uz/oz/site/contact"
+        },
+        {
+          "hudud": "Namangan",
+          "manzil": "Namangan sh., 3-kichik tuman, Ququmboy ko'chasi, 7-uy",
+          "telefon": "0(369) 226-10-00",
+          "ish_vaqti": "ko'rsatilmagan",
+          "manba_url": "https://president.uz/oz/site/contact"
+        },
+        {
+          "hudud": "Navoiy",
+          "manzil": "Navoiy sh., Navoiy ko'chasi, 48a-uy",
+          "telefon": "0(336) 223-10-00",
+          "ish_vaqti": "ko'rsatilmagan",
+          "manba_url": "https://president.uz/oz/site/contact"
+        },
+        {
+          "hudud": "Qashqadaryo",
+          "manzil": "Qarshi sh., O'zbekiston ko'chasi, 249-uy",
+          "telefon": "0(375) 226-06-20",
+          "ish_vaqti": "ko'rsatilmagan",
+          "manba_url": "https://president.uz/oz/site/contact"
+        },
+        {
+          "hudud": "Qoraqalpog'iston Respublikasi",
+          "manzil": "Nukus sh., Tatibayev ko'chasi, 9-uy",
+          "telefon": "0(361) 223-10-00",
+          "ish_vaqti": "ko'rsatilmagan",
+          "manba_url": "https://president.uz/oz/site/contact"
+        },
+        {
+          "hudud": "Samarqand",
+          "manzil": "Samarqand sh., Zargaron ko'chasi, 32-uy",
+          "telefon": "0(366) 229-10-00",
+          "ish_vaqti": "ko'rsatilmagan",
+          "manba_url": "https://president.uz/oz/site/contact"
+        },
+        {
+          "hudud": "Sirdaryo",
+          "manzil": "Guliston sh., Xalqlar Do'stligi ko'chasi, 31-uy",
+          "telefon": "0(367) 240-10-01",
+          "ish_vaqti": "ko'rsatilmagan",
+          "manba_url": "https://president.uz/oz/site/contact"
+        },
+        {
+          "hudud": "Surxondaryo",
+          "manzil": "Termiz sh., At-Termiziy ko'chasi, 2-uy",
+          "telefon": "0(376) 226-10-00",
+          "ish_vaqti": "ko'rsatilmagan",
+          "manba_url": "https://president.uz/oz/site/contact"
+        }
+      ],
+      "izoh": "Barcha 14 hududiy (viloyat darajasidagi) manzil va telefonlar Prezidentning rasmiy sayti bog'lanish sahifasidan (president.uz/oz/site/contact) olindi (2026-07-24). Umumiy call-markaz: 1000 yoki 0-800-210-00-00; onlayn murojaat — pm.gov.uz. Jami 222 ta qabulxona mavjud (tuman darajasidagilar bilan); tuman qabulxonalari ro'yxati data.gov.uz/uz/datasets/3956 to'plamida. Tuman qabulxonasi manzilini bilish uchun 1000 raqamiga qo'ng'iroq qilish tavsiya etiladi."
+    }
   },
   "xizmatlar": [
     {
@@ -264,6 +373,49 @@
       "kimlar_uchun": "Smartfondan foydalanadigan barcha fuqarolar",
       "korsatuvchi_idora": "O'zbekiston Respublikasi Prezidentining Xalq qabulxonalari / virtual qabulxonasi",
       "qoshimcha": "Shaxsiy ma'lumotlar «Shaxsga doir ma'lumotlar to'g'risida»gi qonun (O'RQ-547, 02.07.2019) asosida himoyalanadi. Ilova va sayt bitta tizim — murojaatlar qaysi kanaldan yuborilmasin, yagona bazada ro'yxatga olinadi.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "xalq-qabulxonalari-manzillari",
+      "soha": "Murojaat (pm.gov.uz)",
+      "xizmat_nomi": "Viloyat Xalq qabulxonalari manzillari va telefonlari",
+      "url": "https://president.uz/oz/site/contact",
+      "tavsif": "Prezident Xalq qabulxonalarining barcha 14 hududiy (viloyat darajasidagi) bo'limi manzillari va telefon raqamlari. Fuqaro o'z viloyatidagi qabulxonaga shaxsan borib murojaat topshirishi mumkin; tuman qabulxonasi manzilini 1000 raqamidan so'rash mumkin.",
+      "muammolar": [
+        "viloyatimizdagi xalq qabulxonasi qayerda",
+        "prezident qabulxonasining manzili kerak",
+        "qabulxona telefon raqami qancha",
+        "xalq qabulxonasiga qanday boraman"
+      ],
+      "qadamlar": [
+        "Quyidagi ro'yxatdan o'z viloyatingizni toping va manzil/telefonni ko'ring:",
+        "Toshkent shahri: Toshkent sh., Amir Temur shox ko'chasi, 14-uy, tel: 0(371) 232-30-12",
+        "Toshkent viloyati: O'rtachirchiq tumani, Qumovul QFY, Yangi-hayot ko'chasi, tel: 0(371) 230-24-27",
+        "Andijon: Andijon sh., Milliy tiklanish ko'chasi, 24-uy, tel: 0(374) 223-10-00",
+        "Buxoro: Buxoro sh., I.Mo'minov ko'chasi, 1a-uy, tel: 0(365) 220-10-00",
+        "Farg'ona: Farg'ona sh., Sayilgoh ko'chasi, 27-uy, tel: 0(373) 244-10-00",
+        "Jizzax: Jizzax sh., Sh.Rashidov shoh ko'chasi, 117-uy, tel: 0(372) 226-30-22",
+        "Xorazm: Urganch sh., G'.G'ulom 1-tor ko'chasi, 6-uy, tel: 0(362) 224-10-10",
+        "Namangan: Namangan sh., 3-kichik tuman, Ququmboy ko'chasi, 7-uy, tel: 0(369) 226-10-00",
+        "Navoiy: Navoiy sh., Navoiy ko'chasi, 48a-uy, tel: 0(336) 223-10-00",
+        "Qashqadaryo: Qarshi sh., O'zbekiston ko'chasi, 249-uy, tel: 0(375) 226-06-20",
+        "Qoraqalpog'iston Respublikasi: Nukus sh., Tatibayev ko'chasi, 9-uy, tel: 0(361) 223-10-00",
+        "Samarqand: Samarqand sh., Zargaron ko'chasi, 32-uy, tel: 0(366) 229-10-00",
+        "Sirdaryo: Guliston sh., Xalqlar Do'stligi ko'chasi, 31-uy, tel: 0(367) 240-10-01",
+        "Surxondaryo: Termiz sh., At-Termiziy ko'chasi, 2-uy, tel: 0(376) 226-10-00",
+        "Aniq ish vaqti va tuman qabulxonasi manzili uchun 1000 raqamiga (yoki bepul 0-800-210-00-00) qo'ng'iroq qiling.",
+        "Borishdan oldin pasport/ID-karta va muammoga oid hujjatlarni tayyorlab oling."
+      ],
+      "kerakli_hujjatlar": [
+        "Pasport yoki ID-karta",
+        "Muammoga oid hujjatlar nusxalari"
+      ],
+      "muddat": "Qabul — ish kunlari (Toshkent sh. bo'yicha 09:00-18:00, tushlik 13:00-14:00; boshqa hududlarda aniqlashtiring)",
+      "narx": "Bepul",
+      "aloqa": "1000 (call-markaz), 0-800-210-00-00; hududiy raqamlar ro'yxatda",
+      "kimlar_uchun": "Barcha fuqarolar",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Prezidentining Xalq qabulxonalari",
+      "qoshimcha": "Manzillar president.uz rasmiy sayti bog'lanish sahifasidan olingan (2026-07-24). Jami 222 qabulxona mavjud (tuman darajasi bilan); tuman ro'yxati data.gov.uz/uz/datasets/3956 to'plamida.",
       "sahifa_ochildi": true
     }
   ]

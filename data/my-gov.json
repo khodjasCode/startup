@@ -2329,6 +2329,1085 @@
       "korsatuvchi_idora": "O'zbekiston Respublikasi Iqtisodiyot va moliya vazirligi huzuridagi Kadastr agentligi",
       "qoshimcha": "Xizmatdan 1 511 040 marta foydalanilgan, baho 4.57/5 (1 847 baho).",
       "sahifa_ochildi": true
+    },
+    {
+      "id": "yovvoyi-hayvonlarni-ovlash-ruxsatnomasi",
+      "soha": "Ekologiya",
+      "xizmat_nomi": "Yovvoyi hayvonlarni ovlash uchun ruxsatnoma olishga ariza yuborish",
+      "url": "https://my.gov.uz/uz/service/324",
+      "tavsif": "Ov mavsumida yovvoyi hayvonlarni qonuniy ovlash uchun Ekologiya vazirligidan rasmiy ruxsatnoma olish xizmati. Ariza portal orqali yuboriladi, hujjatlar 15 ish kuni ichida ko'rib chiqiladi va ijobiy xulosa bo'lsa, to'lovdan so'ng ruxsatnoma elektron shaklda yuboriladi.",
+      "muammolar": [
+        "Ovga chiqish uchun ruxsatnomani qayerdan olsam bo'ladi?",
+        "Ov ruxsatnomasi qancha turadi?",
+        "Ruxsatnomasiz ov qilsam jarima bormi?",
+        "Ov ruxsatnomasini onlayn olsa bo'ladimi?",
+        "Ariza qancha vaqtda ko'rib chiqiladi?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Sahifaning yuqori qismidagi «Kirish» tugmasini bosing va OneID orqali tizimga kiring. Agar hisobingiz bo'lmasa, pasport (ID-karta) ma'lumotlaringiz va pasportga bog'langan telefon raqamingiz bilan ro'yxatdan o'ting — telefoningizga SMS-kod keladi, uni kiritib tasdiqlang.",
+        "Bosh sahifadagi qidiruv maydoniga «Yovvoyi hayvonlarni ovlash uchun ruxsatnoma olishga ariza yuborish» deb yozing va chiqqan xizmatni tanlang. Yoki to'g'ridan-to'g'ri havolani oching: https://my.gov.uz/uz/service/324",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Ochilgan anketada shaxsiy ma'lumotlaringizni tekshiring, ov qilmoqchi bo'lgan hudud va hayvon turini ko'rsatib, arizani yuboring. Qo'shimcha hujjat talab etilmaydi.",
+        "Ekologiya vazirligi arizangizni 15 ish kuni ichida ko'rib chiqadi. Ijobiy xulosa bo'lsa, portalda to'lov rekvizitlari chiqadi — jismoniy shaxslar uchun 37 080 so'm (0,09 BHM) to'lovni onlayn amalga oshiring.",
+        "To'lovdan so'ng ruxsatnoma elektron shaklda «Mening arizalarim» bo'limiga keladi. Savol bo'lsa +998 (71) 207-07-70 (ichki 1026) raqamiga qo'ng'iroq qiling."
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjatlar talab etilmaydi (pasport ma'lumotlari OneID orqali olinadi)"
+      ],
+      "muddat": "15 ish kuni mobaynida",
+      "narx": "Jismoniy shaxslar uchun 37 080 so'm (0,09 BHM), yuridik shaxslar uchun 74 160 so'm (0,18 BHM)",
+      "aloqa": "+998 (71) 207-07-70 (1026)",
+      "kimlar_uchun": "Jismoniy va yuridik shaxslar",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Ekologiya, atrof-muhitni muhofaza qilish va iqlim o'zgarishi vazirligi",
+      "qoshimcha": "Huquqiy asos: «Ov qilish va ovchilik xo'jaligi to'g'risida»gi qonun hamda Vazirlar Mahkamasining 2022-yil 2-fevraldagi 86-son qarori. Ov qilish uchun avval ovchilik guvohnomasi ham bo'lishi kerak.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ovchilik-guvohnomasini-olish",
+      "soha": "Ekologiya",
+      "xizmat_nomi": "Ovchilik guvohnomasini olish",
+      "url": "https://my.gov.uz/uz/service/1179",
+      "tavsif": "Ovchi bo'lish huquqini beruvchi rasmiy ovchilik guvohnomasini onlayn olish xizmati. Ariza portal orqali yuboriladi va 5 ish kuni ichida ko'rib chiqilib, guvohnoma rasmiylashtiriladi.",
+      "muammolar": [
+        "Ovchilik guvohnomasini qanday olaman?",
+        "Ovchi bo'lish uchun qanday hujjat kerak?",
+        "Ovchilik guvohnomasi necha pul turadi?",
+        "Guvohnomani onlayn rasmiylashtirsa bo'ladimi?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Sahifaning yuqori qismidagi «Kirish» tugmasini bosing va OneID orqali tizimga kiring. Agar hisobingiz bo'lmasa, pasport (ID-karta) ma'lumotlaringiz va pasportga bog'langan telefon raqamingiz bilan ro'yxatdan o'ting — telefoningizga SMS-kod keladi, uni kiritib tasdiqlang.",
+        "Bosh sahifadagi qidiruv maydoniga «Ovchilik guvohnomasini olish» deb yozing va chiqqan xizmatni tanlang. Yoki to'g'ridan-to'g'ri havolani oching: https://my.gov.uz/uz/service/1179",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Anketadagi shaxsiy ma'lumotlaringizni tekshirib, arizani to'ldiring va yuboring. Qo'shimcha hujjat talab etilmaydi.",
+        "Xizmat haqi 741 600 so'mni (1,8 BHM) portal orqali onlayn to'lang.",
+        "Ariza 5 ish kuni ichida ko'rib chiqiladi. Natijani «Mening arizalarim» bo'limidan kuzating; guvohnoma elektron shaklda shu yerga keladi. Savol bo'lsa +998 (71) 207-07-70 raqamiga qo'ng'iroq qiling."
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjatlar talab etilmaydi (pasport ma'lumotlari OneID orqali olinadi)"
+      ],
+      "muddat": "5 ish kuni",
+      "narx": "741 600 so'm (1,8 BHM)",
+      "aloqa": "+998 (71) 207-07-70",
+      "kimlar_uchun": "Jismoniy shaxslar",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Ekologiya, atrof-muhitni muhofaza qilish va iqlim o'zgarishi vazirligi",
+      "qoshimcha": "Huquqiy asos: Prezidentning 2024-yil 23-iyuldagi PF-105-son farmoni. Xizmatdan 15 833 marta foydalanilgan, reytingi 4,93/5 — portalda eng yuqori baholangan xizmatlardan biri.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "osimliklar-karantini-inspektorini-chaqirish",
+      "soha": "Qishloq xo'jaligi",
+      "xizmat_nomi": "O'simliklar karantini va himoyasi bo'yicha inspektorni chaqirish",
+      "url": "https://my.gov.uz/uz/service/1178",
+      "tavsif": "Tomorqa, bog' yoki ekin maydonida zararkunanda va kasalliklar aniqlanganda o'simliklar karantini inspektorini bepul chaqirish xizmati. Ariza bir ish kuni ichida ko'rib chiqiladi va inspektor joyiga chiqadi.",
+      "muammolar": [
+        "Bog'imdagi daraxtlarga kasallik tushdi, kimga murojaat qilaman?",
+        "Ekinlarimga zararkunanda tushdi, mutaxassis kerak",
+        "O'simlik kasalligini tekshirtirmoqchiman",
+        "Karantin inspektorini uyga chaqirsa bo'ladimi?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Sahifaning yuqori qismidagi «Kirish» tugmasini bosing va OneID orqali tizimga kiring. Agar hisobingiz bo'lmasa, pasport (ID-karta) ma'lumotlaringiz va pasportga bog'langan telefon raqamingiz bilan ro'yxatdan o'ting — telefoningizga SMS-kod keladi, uni kiritib tasdiqlang.",
+        "Bosh sahifadagi qidiruv maydoniga «O'simliklar karantini va himoyasi bo'yicha inspektorni chaqirish» deb yozing va chiqqan xizmatni tanlang. Yoki to'g'ridan-to'g'ri havolani oching: https://my.gov.uz/uz/service/1178",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Ochilgan so'rovnomada manzilingiz va muammoni (qaysi o'simlik, qanday belgi) yozib, arizani yuboring. Hujjat talab etilmaydi, xizmat bepul.",
+        "Ariza bir ish kuni mobaynida ko'rib chiqiladi va inspektor siz bilan bog'lanib, joyiga chiqadi.",
+        "Ariza holatini «Mening arizalarim» bo'limidan kuzating. Savol bo'lsa +998 71 202-10-00 raqamiga qo'ng'iroq qiling."
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjatlar talab etilmaydi"
+      ],
+      "muddat": "Bir ish kuni mobaynida",
+      "narx": "Bepul",
+      "aloqa": "+998 71 202-10-00",
+      "kimlar_uchun": "Jismoniy shaxslar",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi O'simliklar karantini va himoyasi agentligi",
+      "qoshimcha": "Huquqiy asos: Vazirlar Mahkamasining 2022-yil 7-iyundagi 311-son qarori. Portalda bu xizmat Ekologiya sohasi ichida joylashgan. Reytingi 4,98/5.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "fermer-xojaliklari-reyestri",
+      "soha": "Qishloq xo'jaligi",
+      "xizmat_nomi": "Ko'p tarmoqli fermer xo'jaliklari reyestriga kiritish, chiqarish va ma'lumotlarni o'zgartirish",
+      "url": "https://my.gov.uz/uz/service/1180",
+      "tavsif": "Fermer xo'jaligini ko'p tarmoqli fermer xo'jaliklari reyestriga kiritish, undan chiqarish yoki reyestrdagi ma'lumotlarni o'zgartirish xizmati. Reyestrga kiritish va o'zgartirish 3 ish kunida, chiqarish 1 ish kunida bepul amalga oshiriladi.",
+      "muammolar": [
+        "Fermer xo'jaligimni ko'p tarmoqli reyestrga qanday kiritaman?",
+        "Fermer xo'jaligi ma'lumotlarini o'zgartirmoqchiman",
+        "Ko'p tarmoqli fermer maqomini olish uchun nima kerak?",
+        "Reyestrdan chiqarish qancha vaqt oladi?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Sahifaning yuqori qismidagi «Kirish» tugmasini bosing va fermer xo'jaligi rahbari sifatida OneID orqali (yuridik shaxs profili bilan) tizimga kiring. Hisobingiz bo'lmasa, pasportga bog'langan telefon raqamingiz orqali SMS-kod bilan ro'yxatdan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Ko'p tarmoqli fermer xo'jaliklari reyestriga kiritish, chiqarish va ma'lumotlarni o'zgartirish» deb yozing va chiqqan xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/1180",
+        "«Ariza yuborish» tugmasini bosing.",
+        "So'rovnomani to'ldiring: xo'jalikning ixtisoslashuvi haqidagi ma'lumotlar, asosiy texnika-uskunalar ro'yxati nusxasi, faoliyatni tasdiqlovchi shartnoma va hisobvaraq-fakturalar hamda moliyaviy natijalar hisobotini biriktiring.",
+        "Arizani yuboring — O'zbekiston fermerlari kengashi uni 3 ish kuni ichida (chiqarish bo'yicha 1 ish kunida) ko'rib chiqadi va tasdiqlash yoki rad javobini elektron yuboradi.",
+        "Natijani «Mening arizalarim» bo'limidan kuzating. Savol bo'lsa +998 71 233-06-18 raqamiga qo'ng'iroq qiling."
+      ],
+      "kerakli_hujjatlar": [
+        "Ko'p tarmoqli fermer xo'jaligi ixtisoslashuvi to'g'risidagi ma'lumot",
+        "Asosiy texnika va uskunalar ro'yxati nusxasi",
+        "Faoliyatni (qayta ishlash, saqlash, sotish, sanoat, xizmatlar) tasdiqlovchi shartnomalar va hisobvaraq-fakturalar",
+        "Moliyaviy natijalar hisoboti",
+        "O'zgartirish uchun — o'zgarishni asoslovchi hujjatlar"
+      ],
+      "muddat": "Reyestrga kiritish va o'zgartirish — 3 ish kuni, chiqarish — 1 ish kuni",
+      "narx": "Bepul",
+      "aloqa": "+998 71 233-06-18",
+      "kimlar_uchun": "Yuridik shaxslar (fermer xo'jaliklari)",
+      "korsatuvchi_idora": "O'zbekiston fermerlari kengashi",
+      "qoshimcha": "Xo'jalik tugatilganda yoki qayta tashkil etilganda (qo'shilish, bo'linish) reyestrdan avtomatik chiqariladi. Portalda xizmat Ekologiya sohasi ro'yxatida turadi.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "karantin-ruxsatnoma-sertifikat-tekshirish",
+      "soha": "Qishloq xo'jaligi",
+      "xizmat_nomi": "Karantin agentligi ruxsatnoma va sertifikatlarini tekshirish",
+      "url": "https://my.gov.uz/uz/service/1087",
+      "tavsif": "O'simliklar karantini va himoyasi agentligi bergan ruxsatnoma yoki fitosanitariya sertifikatining haqiqiyligini onlayn tekshirish xizmati. Hujjat raqami kiritilsa, natija avtomatik tarzda darhol chiqadi va xizmat bepul.",
+      "muammolar": [
+        "Menga berilgan fitosanitariya sertifikati haqiqiymi?",
+        "Karantin ruxsatnomasini qanday tekshiraman?",
+        "Sotib olayotgan ko'chat/urug'ning sertifikatini tekshirmoqchiman",
+        "Sertifikat raqami orqali hujjatni tekshirsa bo'ladimi?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Sahifaning yuqori qismidagi «Kirish» tugmasini bosing va OneID orqali tizimga kiring. Hisobingiz bo'lmasa, pasportga bog'langan telefon raqamingiz orqali SMS-kod bilan ro'yxatdan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Karantin agentligi ruxsatnoma va sertifikatlarini tekshirish» deb yozing va chiqqan xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/1087",
+        "«Ariza yuborish» (so'rov yuborish) tugmasini bosing.",
+        "Ochilgan maydonga Karantin agentligi bergan ruxsatnoma yoki sertifikat raqamini kiriting.",
+        "Natija avtomatik tarzda ekranda chiqadi — hujjat haqiqiy yoki haqiqiy emasligi ko'rsatiladi; so'rov tarixi «Mening arizalarim» bo'limida saqlanadi.",
+        "Savol bo'lsa +998 71 202-10-00 yoki portalning 1242 qo'ng'iroq markaziga murojaat qiling."
+      ],
+      "kerakli_hujjatlar": [
+        "Karantin agentligi tomonidan berilgan ruxsatnoma yoki sertifikat raqami"
+      ],
+      "muddat": "Avtomatik tarzda",
+      "narx": "Bepul",
+      "aloqa": "+998 71 202-10-00, 1242",
+      "kimlar_uchun": "Jismoniy va yuridik shaxslar",
+      "korsatuvchi_idora": "O'simliklar karantini va himoyasi agentligi",
+      "qoshimcha": "Huquqiy asos: Vazirlar Mahkamasining 2018-yil 29-yanvardagi 65-son qarori. Portalda xizmat Ekologiya sohasi ro'yxatida turadi.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "osago-avtotransport-majburiy-sugurta",
+      "soha": "Sug'urtalash",
+      "xizmat_nomi": "Transport vositalari egalarining fuqarolik javobgarligini majburiy sug'urtalash",
+      "url": "https://my.gov.uz/uz/service/853",
+      "tavsif": "Avtomobil egalari uchun majburiy sug'urta (OSAGO) polisini onlayn rasmiylashtirish xizmati. Sug'urta turi tanlanib, haydovchilar qo'shiladi va to'lovdan so'ng 30 daqiqa ichida elektron polis shakllanadi. Xizmatdan 1 milliondan ortiq marta foydalanilgan.",
+      "muammolar": [
+        "Mashinamga OSAGO polisini onlayn qanday olaman?",
+        "Sug'urta polisim muddati tugadi, yangilash kerak",
+        "Polisga qo'shimcha haydovchi qo'shsa bo'ladimi?",
+        "Elektron sug'urta polisi qancha vaqtda tayyor bo'ladi?",
+        "Qaysi sug'urta kompaniyasini tanlasam bo'ladi?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Sahifaning yuqori qismidagi «Kirish» tugmasini bosing va OneID orqali tizimga kiring. Hisobingiz bo'lmasa, pasport ma'lumotlaringiz va pasportga bog'langan telefon raqamingiz bilan ro'yxatdan o'ting — telefoningizga SMS-kod keladi, uni kiritib tasdiqlang.",
+        "Bosh sahifadagi qidiruv maydoniga «Transport vositalari egalarining fuqarolik javobgarligini majburiy sug'urtalash» deb yozing va chiqqan xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/853",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Sug'urta kompaniyasini (ALSKOM, O'zagrosug'urta, Kapital Sug'urta, APEX INSURANCE, INSON, Kafolat, O'zbekinvest, MY INSURANCE, SQB Insurance) va sug'urta turini tanlang, avtomobil ma'lumotlarini tekshiring va polisga kiritiladigan haydovchilarni qo'shing.",
+        "Polis amal qilish sanasini belgilab, sug'urta badalini onlayn (bank kartasi orqali) to'lang.",
+        "To'lovdan so'ng elektron polis 30 daqiqa ichida shakllanadi va «Mening arizalarim» bo'limida ko'rinadi (o'rtacha jarayon 6 daqiqa). Savol bo'lsa 1242 qo'ng'iroq markaziga yoki tanlagan sug'urta kompaniyangiz raqamiga murojaat qiling."
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjatlar talab etilmaydi (avtomobil va haydovchi ma'lumotlari bazadan avtomatik olinadi)"
+      ],
+      "muddat": "30 daqiqa mobaynida",
+      "narx": "Sug'urta badali tarifga qarab (transport turi, muddat va haydovchilar soniga bog'liq)",
+      "aloqa": "1242 (sug'urta kompaniyalari raqamlari xizmat sahifasida)",
+      "kimlar_uchun": "Jismoniy va yuridik shaxslar",
+      "korsatuvchi_idora": "Sug'urta tashkilotlari (ALSKOM, O'zagrosug'urta, Kapital Sug'urta, APEX INSURANCE, INSON, Kafolat, O'zbekinvest EISK, MY INSURANCE, SQB Insurance)",
+      "qoshimcha": "Xizmatdan 1 130 090 marta foydalanilgan, reytingi 4,75/5. Polissiz yurish jarimaga sabab bo'ladi — polisni har yili yangilash kerak.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "avtotransport-sugurtasini-tekshirish",
+      "soha": "Sug'urtalash",
+      "xizmat_nomi": "Avtotransport sug'urtasi amal qilinishini tekshirish",
+      "url": "https://my.gov.uz/uz/service/470",
+      "tavsif": "Avtomobilning majburiy sug'urta polisi amalda yoki yo'qligini bir daqiqada onlayn tekshirish xizmati. Xizmat bepul va avtomatik tarzda ishlaydi, 1,2 milliondan ortiq marta foydalanilgan.",
+      "muammolar": [
+        "Mashinamning sug'urtasi hali amaldami?",
+        "Sug'urta polisim qachon tugashini bilmoqchiman",
+        "Sotib olayotgan mashinaning sug'urtasi bormi?",
+        "Polis haqiqiyligini qanday tekshiraman?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Sahifaning yuqori qismidagi «Kirish» tugmasini bosing va OneID orqali tizimga kiring. Hisobingiz bo'lmasa, pasportga bog'langan telefon raqamingiz orqali SMS-kod bilan ro'yxatdan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Avtotransport sug'urtasi amal qilinishini tekshirish» deb yozing va chiqqan xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/470",
+        "«Ariza yuborish» (so'rov yuborish) tugmasini bosing.",
+        "So'ralgan maydonlarga avtomobil ma'lumotlarini kiriting va so'rovni yuboring.",
+        "Natija avtomatik tarzda taxminan 1 daqiqada chiqadi — polis amalda yoki amalda emasligi ko'rsatiladi; so'rov «Mening arizalarim» bo'limida saqlanadi.",
+        "Savol bo'lsa +998 (71) 200-02-21 raqamiga qo'ng'iroq qiling."
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjatlar talab etilmaydi"
+      ],
+      "muddat": "Avtomatik tarzda",
+      "narx": "Bepul",
+      "aloqa": "+998 (71) 200-02-21",
+      "kimlar_uchun": "Jismoniy va yuridik shaxslar",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Istiqbolli loyihalar milliy agentligi",
+      "qoshimcha": "Xizmatdan 1 260 412 marta foydalanilgan, reytingi 4,73/5.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "sugurta-davosini-topshirish",
+      "soha": "Sug'urtalash",
+      "xizmat_nomi": "Majburiy va ixtiyoriy sug'urta bo'yicha sug'urta da'volari uchun arizalar berish",
+      "url": "https://my.gov.uz/uz/service/886",
+      "tavsif": "Sug'urta hodisasi (masalan, YTH) yuz berganda majburiy yoki ixtiyoriy sug'urta bo'yicha da'vo arizasini onlayn topshirish xizmati. Majburiy sug'urta bo'yicha ariza 15 ish kunida ko'rib chiqiladi, to'lov 5 ish kunida amalga oshiriladi.",
+      "muammolar": [
+        "Avariya bo'ldi, sug'urta pulini qanday olaman?",
+        "Sug'urta da'vosini onlayn topshirsa bo'ladimi?",
+        "Sug'urta kompaniyasi pulni qachon to'laydi?",
+        "Da'vo arizasiga qanday hujjat kerak?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Sahifaning yuqori qismidagi «Kirish» tugmasini bosing va OneID orqali tizimga kiring. Hisobingiz bo'lmasa, pasportga bog'langan telefon raqamingiz orqali SMS-kod bilan ro'yxatdan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Majburiy va ixtiyoriy sug'urta bo'yicha sug'urta da'volari uchun arizalar berish» deb yozing va chiqqan xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/886",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Anketada sug'urta turini (majburiy yoki ixtiyoriy) va polis ma'lumotlarini ko'rsating; majburiy sug'urta bo'yicha sug'urta hodisasi yuz berganini tasdiqlovchi dalillarni, ixtiyoriy sug'urta bo'yicha esa shartnomada nazarda tutilgan hujjatlarni biriktiring.",
+        "Arizani yuboring — sug'urta tashkiloti uni ko'rib chiqadi (majburiy sug'urta bo'yicha 15 ish kuni) va yakuniy qarorni elektron shaklda yuboradi; ijobiy qarorda to'lov 5 ish kuni ichida amalga oshiriladi.",
+        "Ariza holatini «Mening arizalarim» bo'limidan kuzating. Savollar bo'yicha o'z sug'urta tashkilotingiz telefon raqamiga yoki 1242 qo'ng'iroq markaziga murojaat qiling."
+      ],
+      "kerakli_hujjatlar": [
+        "Majburiy sug'urta bo'yicha — sug'urta hodisasi yuz berganini tasdiqlovchi hujjatlar",
+        "Ixtiyoriy sug'urta bo'yicha — shartnoma shartlarida nazarda tutilgan hujjatlar"
+      ],
+      "muddat": "Majburiy sug'urta: arizani ko'rib chiqish — 15 ish kuni, to'lov — 5 ish kuni; ixtiyoriy sug'urta: shartnoma shartlariga muvofiq",
+      "narx": "Bepul",
+      "aloqa": "Sug'urta tashkilotlari telefon raqamlari (xizmat sahifasida), 1242",
+      "kimlar_uchun": "Jismoniy shaxslar",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Istiqbolli loyihalar milliy agentligi (sug'urta tashkilotlari bilan birga)",
+      "qoshimcha": "O'rtacha to'ldirish vaqti 8 daqiqa. Xizmatdan 424 marta foydalanilgan.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "majburiy-sugurta-kompensatsiyasi-iltimosnoma",
+      "soha": "Sug'urtalash",
+      "xizmat_nomi": "Transport vositalari egalarining fuqarolik javobgarligi majburiy sug'urtasi bo'yicha kompensatsiya to'lovlarini olish uchun elektron iltimosnoma yuborish",
+      "url": "https://my.gov.uz/uz/service/254",
+      "tavsif": "YTHda aybdor haydovchining sug'urtasi bo'lmaganda yoki boshqa qonuniy holatlarda Kafolat jamg'armasidan kompensatsiya to'lovini olish uchun elektron iltimosnoma yuborish xizmati. Jamg'arma hujjatlarni bir ish kunida tekshiradi, umumiy muddat 30 kun.",
+      "muammolar": [
+        "Avariyada aybdorning sug'urtasi yo'q ekan, zararni kim qoplaydi?",
+        "Kompensatsiya olish uchun qayerga murojaat qilaman?",
+        "YTHda jabrlangan bo'lsam qanday hujjat topshiraman?",
+        "Kompensatsiya qancha vaqtda to'lanadi?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Sahifaning yuqori qismidagi «Kirish» tugmasini bosing va OneID orqali tizimga kiring. Hisobingiz bo'lmasa, pasportga bog'langan telefon raqamingiz orqali SMS-kod bilan ro'yxatdan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Transport vositalari egalarining fuqarolik javobgarligi majburiy sug'urtasi bo'yicha kompensatsiya to'lovlarini olish uchun elektron iltimosnoma yuborish» deb yozing va chiqqan xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/254",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Iltimosnomaga hujjatlarni biriktiring: transport vositasining texnik pasporti, YTH bo'yicha qaror yoki xulosa, hayot/sog'liqqa zarar bo'lsa tibbiy ma'lumotnoma yoki o'lim guvohnomasi, mol-mulk zarari bo'lsa baholash hisoboti va tasdiqlovchi hujjatlar.",
+        "Jamg'arma hujjatlarni bir ish kuni ichida tekshiradi; javobgarlik tasdiqlansa, kompensatsiya 5 kun ichida to'lanadi (umumiy ko'rib chiqish muddati 30 kungacha).",
+        "Qaror (to'lash, shartli tasdiqlash yoki rad etish) «Mening arizalarim» bo'limiga keladi. Savol bo'lsa +998 (71) 200-02-21 raqamiga qo'ng'iroq qiling."
+      ],
+      "kerakli_hujjatlar": [
+        "Transport vositasining texnik pasporti",
+        "YTH yuzasidan qaror yoki xulosa",
+        "Hayot/sog'liqqa yetkazilgan zararni tasdiqlovchi hujjatlar (tibbiy ma'lumotnoma, o'lim guvohnomasi)",
+        "Mol-mulk zararini tasdiqlovchi hujjatlar (baholash hisoboti va boshqalar)"
+      ],
+      "muddat": "30 kun (hujjatlar tekshiruvi — 1 ish kuni, to'lov — 5 kun)",
+      "narx": "Bepul",
+      "aloqa": "+998 (71) 200-02-21",
+      "kimlar_uchun": "Jismoniy shaxslar",
+      "korsatuvchi_idora": "Transport vositalari egalarining fuqarolik javobgarligini majburiy sug'urta qilish bo'yicha to'lovlarni kafolatlash jamg'armasi",
+      "qoshimcha": "Huquqiy asos: 2008-yil 21-apreldagi O'RQ-155-son qonun.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "chet-elga-chiquvchilar-sugurtasi",
+      "soha": "Sug'urtalash",
+      "xizmat_nomi": "Chet elga chiquvchilarni baxtsiz hodisa va kasallanishdan sug'urtalash",
+      "url": "https://my.gov.uz/uz/service/1344",
+      "tavsif": "Xorijga (sayohat, ish yoki o'qishga) chiquvchilar uchun baxtsiz hodisa va kasallanishdan sug'urta polisini onlayn rasmiylashtirish xizmati. Narx sug'urta muddati, tanlangan dastur, yosh, sug'urtalanuvchilar soni, safar maqsadi va xavf darajasiga qarab avtomatik hisoblanadi.",
+      "muammolar": [
+        "Chet elga chiqishim uchun sayohat sug'urtasi kerak",
+        "Viza uchun sug'urta polisini qayerdan olaman?",
+        "Xorijda kasal bo'lib qolsam sug'urta qoplaydimi?",
+        "Sayohat sug'urtasi qancha turadi?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Sahifaning yuqori qismidagi «Kirish» tugmasini bosing va OneID orqali tizimga kiring. Hisobingiz bo'lmasa, pasportga bog'langan telefon raqamingiz orqali SMS-kod bilan ro'yxatdan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Chet elga chiquvchilarni baxtsiz hodisa va kasallanishdan sug'urtalash» deb yozing va chiqqan xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/1344",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Anketada safar davri, sug'urta dasturi, sug'urtalanuvchilar soni va yoshi, safar maqsadi va faoliyat sohasini ko'rsating — tizim sug'urta badalini avtomatik hisoblab beradi.",
+        "Hisoblangan summani onlayn to'lang — elektron polis avtomatik shakllanadi (jarayon taxminan 7 daqiqa).",
+        "Polisni «Mening arizalarim» bo'limidan yuklab oling. Savol bo'lsa +998 (71) 201-11-00 raqamiga qo'ng'iroq qiling."
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjatlar talab etilmaydi"
+      ],
+      "muddat": "Avtomatik tarzda",
+      "narx": "O'zgaruvchan — sug'urta muddati, dasturi, yosh, sug'urtalanuvchilar soni, safar maqsadi va xavf darajasiga qarab hisoblanadi",
+      "aloqa": "+998 (71) 201-11-00",
+      "kimlar_uchun": "Jismoniy va yuridik shaxslar",
+      "korsatuvchi_idora": "\"ALSKOM SUG'URTA KOMPANIYASI\" AJ",
+      "qoshimcha": "Ko'pgina davlatlar vizasi uchun bunday sug'urta polisi majburiy talab hisoblanadi.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ixtiyoriy-tibbiy-sugurta",
+      "soha": "Sug'urtalash",
+      "xizmat_nomi": "Ixtiyoriy tibbiy sug'urtani rasmiylashtirish",
+      "url": "https://my.gov.uz/uz/service/1370",
+      "tavsif": "Jismoniy shaxslar uchun ixtiyoriy tibbiy sug'urta polisini onlayn rasmiylashtirish xizmati. Sug'urta turi va muddati tanlanib, to'lovdan so'ng 30 daqiqa ichida elektron polis shakllanadi.",
+      "muammolar": [
+        "O'zimga tibbiy sug'urta rasmiylashtirmoqchiman",
+        "Tibbiy sug'urta polisini onlayn olsa bo'ladimi?",
+        "Oilam uchun tibbiy sug'urta qancha turadi?",
+        "Tibbiy sug'urta nimalarni qoplaydi?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Sahifaning yuqori qismidagi «Kirish» tugmasini bosing va OneID orqali tizimga kiring. Hisobingiz bo'lmasa, pasportga bog'langan telefon raqamingiz orqali SMS-kod bilan ro'yxatdan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Ixtiyoriy tibbiy sug'urtani rasmiylashtirish» deb yozing va chiqqan xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/1370",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Anketada sug'urta turi va muddatini tanlang, sug'urtalanuvchilar ma'lumotlarini kiriting va polis amal qilish boshlanish sanasini belgilang.",
+        "Sug'urta badalini onlayn to'lang — elektron polis to'lovdan so'ng 30 daqiqa ichida shakllanadi.",
+        "Polisni «Mening arizalarim» bo'limidan yuklab oling. Savol bo'lsa 1242 qo'ng'iroq markaziga (24/7) murojaat qiling."
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjatlar talab etilmaydi"
+      ],
+      "muddat": "30 daqiqa mobaynida",
+      "narx": "Tanlangan sug'urta dasturi va muddatiga qarab (sahifada aniq summa ko'rsatilmagan)",
+      "aloqa": "1242 (24/7)",
+      "kimlar_uchun": "Jismoniy shaxslar",
+      "korsatuvchi_idora": "\"ALSKOM SUG'URTA KOMPANIYASI\" AJ",
+      "qoshimcha": "Xizmatdan 5 089 marta foydalanilgan.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "mulk-va-yer-soligi",
+      "soha": "Soliqlar",
+      "xizmat_nomi": "Ko'chmas mulk va yer solig'i",
+      "url": "https://my.gov.uz/uz/service/64",
+      "tavsif": "Jismoniy shaxslar o'zlarining ko'chmas mulk va yer solig'i bo'yicha hisoblangan summalari hamda qarzdorligini onlayn ko'rish xizmati. Ma'lumot Soliq qo'mitasi bazasidan avtomatik tarzda bir daqiqada olinadi va xizmat bepul.",
+      "muammolar": [
+        "Uyim uchun qancha soliq to'lashim kerak?",
+        "Yer solig'i bo'yicha qarzim bormi?",
+        "Mulk solig'ini qayerdan tekshiraman?",
+        "Soliq qarzimni onlayn ko'rsam bo'ladimi?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Sahifaning yuqori qismidagi «Kirish» tugmasini bosing va OneID orqali tizimga kiring. Hisobingiz bo'lmasa, pasport ma'lumotlaringiz va pasportga bog'langan telefon raqamingiz bilan ro'yxatdan o'ting — telefoningizga SMS-kod keladi, uni kiritib tasdiqlang.",
+        "Bosh sahifadagi qidiruv maydoniga «Ko'chmas mulk va yer solig'i» deb yozing va chiqqan xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/64",
+        "«Ariza yuborish» (so'rov yuborish) tugmasini bosing.",
+        "So'rov yuborilgach, tizim Soliq qo'mitasi bazasidan sizning ko'chmas mulk va yer solig'i bo'yicha hisoblangan summalar va qarzdorlik ma'lumotini avtomatik tarzda taxminan 1 daqiqada chiqarib beradi.",
+        "Natijada qarzdorlik ko'rinsa, uni bank ilovalari yoki soliq organlari orqali to'lashingiz mumkin; so'rov natijasi «Mening arizalarim» bo'limida saqlanadi.",
+        "Savol bo'lsa +998 (71) 244-98-09 (ichki 01270) raqamiga qo'ng'iroq qiling."
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjatlar talab etilmaydi"
+      ],
+      "muddat": "Avtomatik tarzda",
+      "narx": "Bepul",
+      "aloqa": "+998 (71) 244-98-09 (01270)",
+      "kimlar_uchun": "Jismoniy shaxslar",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Soliq qo'mitasi",
+      "qoshimcha": "Mulk va yer solig'ini har yili belgilangan muddatgacha to'lash kerak — qarzdorlikni vaqtida tekshirib borish penyadan saqlaydi.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "yillik-daromad-deklaratsiyasi",
+      "soha": "Soliqlar",
+      "xizmat_nomi": "Yillik daromadlar to'g'risida deklaratsiya yuborish",
+      "url": "https://my.gov.uz/uz/service/951",
+      "tavsif": "Fuqarolar yillik daromadlari to'g'risidagi deklaratsiyani davlat xizmatlari markazlari orqali yoki yagona portal orqali onlayn topshirish xizmati. Xizmat bepul, deklaratsiya 5 kun ichida ko'rib chiqiladi.",
+      "muammolar": [
+        "Yillik daromad deklaratsiyasini qanday topshiraman?",
+        "Ijara daromadim bor, deklaratsiya berishim kerakmi?",
+        "Deklaratsiyani onlayn yuborsa bo'ladimi?",
+        "Deklaratsiya topshirish muddati qachongacha?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Sahifaning yuqori qismidagi «Kirish» tugmasini bosing va OneID orqali tizimga kiring. Hisobingiz bo'lmasa, pasportga bog'langan telefon raqamingiz orqali SMS-kod bilan ro'yxatdan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Yillik daromadlar to'g'risida deklaratsiya yuborish» deb yozing va chiqqan xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/951",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Deklaratsiya shaklini to'ldiring: yil davomida olingan daromadlaringizni ko'rsating hamda shartnoma va to'lov hujjatlari nusxalari, ish haqi to'g'risidagi ma'lumotnomani biriktiring (to'ldirish o'rtacha 15 daqiqa oladi).",
+        "Deklaratsiyani yuboring — Soliq qo'mitasi uni 5 kun ichida ko'rib chiqadi va natijani elektron yuboradi.",
+        "Holatni «Mening arizalarim» bo'limidan kuzating. Savol bo'lsa +998 71 244-98-09 (ichki 01586) raqamiga qo'ng'iroq qiling."
+      ],
+      "kerakli_hujjatlar": [
+        "Shartnoma va to'lov hujjatlarining nusxalari",
+        "Oylik ish haqi to'g'risidagi ma'lumotnoma"
+      ],
+      "muddat": "5 kun",
+      "narx": "Bepul",
+      "aloqa": "+998 71 244-98-09 (01586)",
+      "kimlar_uchun": "Jismoniy shaxslar",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Soliq qo'mitasi",
+      "qoshimcha": "Huquqiy asos: Vazirlar Mahkamasining 2022-yil 2-apreldagi 150-son qarori. Xizmatdan 131 705 marta foydalanilgan. Deklaratsiyani davlat xizmatlari markazida ham topshirish mumkin.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "xaridlar-uchun-keshbek",
+      "soha": "Soliqlar",
+      "xizmat_nomi": "Xaridlar uchun keshbek olish",
+      "url": "https://my.gov.uz/uz/service/1470",
+      "tavsif": "Onlayn-kassa cheklarini ro'yxatdan o'tkazgan fuqarolarga xaridlari uchun keshbek (pul qaytimi) olish imkonini beruvchi xizmat. So'rov yuborilgach, natija avtomatik tarzda bir daqiqada chiqadi va xizmat bepul.",
+      "muammolar": [
+        "Chek uchun keshbekni qanday olaman?",
+        "Xariddan pul qaytimi berilarkan, qayerdan olsam bo'ladi?",
+        "Keshbek pulim qayerga tushadi?",
+        "Soliq keshbeki kimlarga beriladi?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Sahifaning yuqori qismidagi «Kirish» tugmasini bosing va OneID orqali tizimga kiring. Hisobingiz bo'lmasa, pasportga bog'langan telefon raqamingiz orqali SMS-kod bilan ro'yxatdan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Xaridlar uchun keshbek olish» deb yozing va chiqqan xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/1470",
+        "«Ariza yuborish» tugmasini bosing.",
+        "So'rovni yuboring — tizim ro'yxatdan o'tkazilgan xarid cheklaringiz bo'yicha keshbek summasini avtomatik tarzda taxminan 1 daqiqada hisoblab chiqaradi. Hujjat talab etilmaydi.",
+        "Keshbek summasi va so'rov natijasi «Mening arizalarim» bo'limida ko'rinadi.",
+        "Savol bo'lsa +998 71 244-98-09 (ichki 01885) raqamiga qo'ng'iroq qiling."
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjatlar talab etilmaydi"
+      ],
+      "muddat": "Avtomatik tarzda",
+      "narx": "Bepul",
+      "aloqa": "+998 71 244-98-09 (01885)",
+      "kimlar_uchun": "Jismoniy shaxslar",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Soliq qo'mitasi",
+      "qoshimcha": "Huquqiy asos: Prezidentning 2025-yil 16-sentabrdagi PQ-286-son qarori. Keshbek olish uchun xarid cheklarini (QR-kod orqali) Soliq qo'mitasi tizimida ro'yxatdan o'tkazib borish kerak.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ob-havo-malumoti",
+      "soha": "Ekologiya",
+      "xizmat_nomi": "Ob-havo haqida ma'lumot",
+      "url": "https://my.gov.uz/uz/service/995",
+      "tavsif": "O'zgidromet agentligining rasmiy ob-havo ma'lumotlarini yagona portal orqali olish xizmati. Ma'lumot avtomatik tarzda bir daqiqada taqdim etiladi va xizmat bepul.",
+      "muammolar": [
+        "Ertaga ob-havo qanday bo'ladi?",
+        "Rasmiy ob-havo prognozini qayerdan olsam bo'ladi?",
+        "Viloyatimdagi ob-havo ma'lumoti kerak",
+        "Dala ishlari uchun ishonchli prognoz qayerda?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Sahifaning yuqori qismidagi «Kirish» tugmasini bosing va OneID orqali tizimga kiring. Hisobingiz bo'lmasa, pasportga bog'langan telefon raqamingiz orqali SMS-kod bilan ro'yxatdan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Ob-havo haqida ma'lumot» deb yozing va chiqqan xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/995",
+        "«Ariza yuborish» (so'rov yuborish) tugmasini bosing.",
+        "Hududingizni tanlab so'rov yuboring — hujjat talab etilmaydi.",
+        "Ob-havo ma'lumoti avtomatik tarzda taxminan 1 daqiqada ekranda chiqadi; so'rov «Mening arizalarim» bo'limida saqlanadi.",
+        "Savol bo'lsa +998 (55) 503-21-20 raqamiga qo'ng'iroq qiling."
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjatlar talab etilmaydi"
+      ],
+      "muddat": "Avtomatik",
+      "narx": "Bepul",
+      "aloqa": "+998 (55) 503-21-20",
+      "kimlar_uchun": "Yuridik va jismoniy shaxslar",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Ekologiya, atrof-muhitni muhofaza qilish va iqlim o'zgarishi vazirligi huzuridagi Gidrometeorologiya xizmati agentligi (O'zgidromet)",
+      "qoshimcha": "Xizmat o'zbek, rus, ingliz va qoraqalpoq tillarida mavjud. Dehqon va fermerlar uchun dala ishlarini rejalashtirishda foydali.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "xorijga-chiqish-pasporti",
+      "soha": "Fuqarolik",
+      "xizmat_nomi": "Xorijga chiqish pasportini rasmiylashtirishga ariza berish",
+      "url": "https://my.gov.uz/uz/service/418",
+      "tavsif": "O'zbekiston fuqarolari chet elga chiqish uchun biometrik xorijga chiqish pasportini rasmiylashtirishga arizani onlayn topshirishlari mumkin. Ariza yagona portal orqali yuboriladi, keyin barmoq izi va surat topshirish uchun bo'limga borish belgilanadi. Xizmat Ichki ishlar vazirligi tomonidan ko'rsatiladi.",
+      "muammolar": [
+        "Chet elga chiqish pasportini qanday olsam bo'ladi?",
+        "Biometrik pasportga onlayn ariza berish mumkinmi?",
+        "Xorijga chiqish pasporti qancha turadi va necha kunda tayyor bo'ladi?",
+        "Bolamga xorijga chiqish pasporti kerak, nima qilay?",
+        "Pasport uchun OVIRga navbatsiz qanday yozilaman?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Saytning yuqori o'ng burchagidagi «Kirish» tugmasini bosib, OneID orqali tizimga kiring: pasport (ID karta) ma'lumotlaringiz bilan ro'yxatdan o'ting yoki pasportga bog'langan telefon raqamingizga kelgan SMS-kod bilan avtorizatsiyadan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Xorijga chiqish pasportini rasmiylashtirishga ariza berish» deb yozing va chiqqan xizmatni tanlang. Yoki havolani to'g'ridan-to'g'ri oching: https://my.gov.uz/uz/service/418",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Anketani to'ldiring: shaxsiy ma'lumotlar, yashash manzili, pasport (ID karta) ma'lumotlari; voyaga yetmagan bola uchun ota-ona yoki vasiyning notarial tasdiqlangan roziligi, harbiy xizmatga oid hujjat kabi qo'shimcha hujjatlar so'ralishi mumkin. Davlat boji — 370 800 so'm (0,9 BHM) — portal orqali onlayn to'lanadi.",
+        "Belgilangan sana va vaqtda migratsiya va fuqarolikni rasmiylashtirish bo'limiga (ma'lumot yig'ish punktiga) shaxsan boring: u yerda barmoq izlaringiz olinadi va suratga tushasiz, ID karta yoki fuqarolik pasportingizni ko'rsatasiz.",
+        "Ariza holati «Mening arizalarim» bo'limida ko'rinadi; pasport odatda 10 ish kunida (16-25 yoshdagilar uchun ayrim hollarda 1 oygacha) tayyor bo'ladi. Savollar bo'lsa 1242 (24/7) yoki bo'limlar telefonlariga qo'ng'iroq qiling."
+      ],
+      "kerakli_hujjatlar": [
+        "O'zbekiston biometrik pasporti yoki ID karta",
+        "Voyaga yetmaganlar uchun ota-ona/vasiyning notarial tasdiqlangan roziligi",
+        "Harbiy xizmatga oid hujjat (talab qilinganda)",
+        "Doimiy yashash uchun chiqishda turmush o'rtog'ining roziligi"
+      ],
+      "muddat": "10 ish kuni (16-25 yoshdagilar uchun ayrim hollarda 1 oygacha)",
+      "narx": "370 800 so'm (0,9 BHM)",
+      "aloqa": "1242 (24/7); migratsiya bo'limlari telefonlari portalda ko'rsatilgan",
+      "kimlar_uchun": "Jismoniy shaxslar — O'zbekiston fuqarolari",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Ichki ishlar vazirligi",
+      "qoshimcha": "Huquqiy asos: Prezidentning 2022-yil 16-iyundagi PQ-282-son qarori. Ariza onlayn berilsa ham, barmoq izi va surat uchun bo'limga shaxsan borish shart. Xizmatdan 239 980 marta foydalanilgan.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "xorijga-chiqish-cheklovini-tekshirish",
+      "soha": "Fuqarolik",
+      "xizmat_nomi": "O'zbekiston Respublikasidan chiqishiga vaqtincha cheklov qo'yilganligi holatini tekshirish",
+      "url": "https://my.gov.uz/uz/service/412",
+      "tavsif": "Fuqaro sud ijro hujjatlari (qarzdorlik, aliment va h.k.) asosida chet elga chiqishiga vaqtincha cheklov qo'yilgan-qo'yilmaganligini bir daqiqada onlayn tekshirishi mumkin. Xizmat avtomatik va bepul ishlaydi.",
+      "muammolar": [
+        "Chet elga chiqishga cheklovim bormi, qanday bilaman?",
+        "Aeroportda qaytarib yuborishmasligi uchun oldindan tekshirmoqchiman",
+        "Qarzim sababli chegaradan chiqara olmasligim mumkinmi?",
+        "Aliment bo'yicha chiqishga taqiq qo'yilganmi tekshirish kerak"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Saytning yuqori o'ng burchagidagi «Kirish» tugmasini bosib, OneID orqali tizimga kiring: pasportga bog'langan telefon raqamingizga kelgan SMS-kod bilan avtorizatsiyadan o'ting (birinchi marta bo'lsa, pasport ma'lumotlari bilan ro'yxatdan o'ting).",
+        "Bosh sahifadagi qidiruv maydoniga «O'zbekiston Respublikasidan chiqishiga vaqtincha cheklov qo'yilganligi holatini tekshirish» deb yozing va xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/412",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Hech qanday hujjat talab etilmaydi — tizim sizning shaxsingiz bo'yicha ijro hujjatlarini avtomatik tekshiradi.",
+        "Natija taxminan 1 daqiqada avtomatik shakllanadi: chiqishga cheklov bor-yo'qligi haqida ma'lumot ekranda va «Mening arizalarim» bo'limida ko'rinadi.",
+        "Cheklov aniqlansa, Majburiy ijro byurosining 1107 call-markaziga yoki portalning 1242 raqamiga qo'ng'iroq qilib aniqlashtiring."
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat": "Avtomatik tarzda (taxminan 1 daqiqa)",
+      "narx": "Bepul",
+      "aloqa": "1107 (Majburiy ijro byurosi call-markazi); 1242",
+      "kimlar_uchun": "Jismoniy shaxslar",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Bosh prokuraturasi huzuridagi Majburiy ijro byurosi",
+      "qoshimcha": "Xizmatdan 288 757 marta foydalanilgan. Chet elga chiqishdan oldin tekshirib olish tavsiya etiladi.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "chegara-kesib-otish-malumoti",
+      "soha": "Fuqarolik",
+      "xizmat_nomi": "O'zbekiston Respublikasi chegarasini kesib o'tuvchi jismoniy shaxs to'g'risidagi ma'lumotlar bilan tanishish",
+      "url": "https://my.gov.uz/uz/service/946",
+      "tavsif": "Fuqaro o'zining O'zbekiston chegarasini qachon va necha marta kesib o'tgani haqidagi rasmiy ma'lumotni onlayn olishi mumkin. Ma'lumot avtomatik tarzda, bepul taqdim etiladi va viza, fuqarolik yoki mehnat migratsiyasi masalalarida kerak bo'ladi.",
+      "muammolar": [
+        "Chet elda qancha bo'lganimni rasmiy tasdiqlash kerak",
+        "Chegaradan o'tganlarim tarixini qayerdan olsam bo'ladi?",
+        "Viza uchun kirdi-chiqdi ma'lumotnomasi so'rashyapti",
+        "Rossiyaga necha marta borganimni tekshirmoqchiman"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Saytning yuqori o'ng burchagidagi «Kirish» tugmasini bosib, OneID orqali tizimga kiring: pasportga bog'langan telefon raqamingizga kelgan SMS-kod bilan avtorizatsiyadan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «O'zbekiston Respublikasi chegarasini kesib o'tuvchi jismoniy shaxs to'g'risidagi ma'lumotlar bilan tanishish» deb yozing va xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/946",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Hujjat talab etilmaydi — so'rov sizning pasport ma'lumotlaringiz asosida avtomatik yuboriladi.",
+        "Taxminan 1 daqiqada chegarani kesib o'tishlaringiz ro'yxati (sana, yo'nalish) shakllanadi va «Mening arizalarim» bo'limida ko'rinadi.",
+        "Savollar bo'lsa +998 (71) 207-44-23 yoki 1242 raqamiga qo'ng'iroq qiling."
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat": "Avtomatik tarzda (taxminan 1 daqiqa)",
+      "narx": "Bepul",
+      "aloqa": "+998 (71) 207-44-23; 1242",
+      "kimlar_uchun": "Jismoniy shaxslar",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Iqtisodiyot va moliya vazirligi huzuridagi Bojxona qo'mitasi",
+      "qoshimcha": "Xizmatdan 276 572 marta foydalanilgan, reytingi 4,87/5. Faqat o'zingiz haqingizdagi ma'lumotni olasiz.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "haj-navbatiga-yozilish",
+      "soha": "Fuqarolik",
+      "xizmat_nomi": "Haj ziyoratiga borish uchun navbatga yozilish",
+      "url": "https://my.gov.uz/uz/service/1272",
+      "tavsif": "Fuqarolar Haj ziyoratiga borish uchun elektron navbatga portal orqali yozilishlari mumkin. Ariza Din ishlari bo'yicha qo'mitaga avtomatik yuboriladi va fuqaro navbatga qo'yilgani haqida elektron xabarnoma oladi.",
+      "muammolar": [
+        "Hajga navbatga qanday yozilaman?",
+        "Haj navbati uchun qayerga ariza beriladi?",
+        "Haj ro'yxatiga onlayn turish mumkinmi?",
+        "Hajga yozilish qancha turadi?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Saytning yuqori o'ng burchagidagi «Kirish» tugmasini bosib, OneID orqali tizimga kiring: pasportga bog'langan telefon raqamingizga kelgan SMS-kod bilan avtorizatsiyadan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Haj ziyoratiga borish uchun navbatga yozilish» deb yozing va xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/1272",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Anketa avtomatik to'ldiriladi (pasport ma'lumotlari OneID dan olinadi); yig'im — 103 000 so'm (0,25 BHM) — portal orqali onlayn to'lanadi.",
+        "Ariza Din ishlari bo'yicha qo'mitaga elektron yuboriladi, ma'lumotlaringiz tekshirilib, navbatga qo'yilasiz — natija avtomatik shakllanadi.",
+        "Navbatga qo'yilganingiz haqidagi elektron xabarnoma «Mening arizalarim» bo'limida saqlanadi. Savollar uchun: +998 77 882 18 58 yoki +998 99 882 18 58."
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat": "Avtomatik tarzda",
+      "narx": "103 000 so'm (0,25 BHM)",
+      "aloqa": "+998 77 882 18 58; +998 99 882 18 58",
+      "kimlar_uchun": "Jismoniy shaxslar",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Din ishlari bo'yicha qo'mita",
+      "qoshimcha": "Huquqiy asos: Prezidentning 2025-yil 21-apreldagi PF-68-son farmoni. Navbat yetganda qo'shimcha hujjatlar va to'lovlar alohida rasmiylashtiriladi.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "sport-maktabiga-kirish",
+      "soha": "Madaniyat, turizm va sport",
+      "xizmat_nomi": "Sport maktablari va ixtisoslashtirilgan sport maktablariga kirish uchun onlayn ariza berish",
+      "url": "https://my.gov.uz/uz/service/945",
+      "tavsif": "Ota-onalar farzandlarini sport maktablari va ixtisoslashtirilgan sport ta'lim muassasalariga qabul qilish uchun onlayn ariza topshirishlari mumkin. Xizmat bepul, ariza 3 daqiqada yuboriladi va sport turi hamda maktab tanlanadi.",
+      "muammolar": [
+        "Bolamni sport maktabiga qanday yozdiraman?",
+        "Sport sektsiyasiga onlayn ariza berish mumkinmi?",
+        "Farzandimni suzish/kurash maktabiga berish uchun qanday hujjat kerak?",
+        "Sport maktabiga qabul qachon va qanday bo'ladi?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Saytning yuqori o'ng burchagidagi «Kirish» tugmasini bosib, OneID orqali tizimga kiring: pasportga bog'langan telefon raqamingizga kelgan SMS-kod bilan avtorizatsiyadan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Sport maktablari va ixtisoslashtirilgan sport maktablariga kirish uchun onlayn ariza berish» deb yozing va xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/945",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Anketada hudud, sport maktabi va sport turini tanlang, farzandingiz ma'lumotlarini kiriting hamda F-086-u shakldagi tibbiy ma'lumotnomani ilova qiling (poliklinikadan olinadi).",
+        "Ariza tanlangan sport maktabiga yuboriladi; maktab qabul sinovlari (saralash) sanasi haqida xabar beradi.",
+        "Ariza holatini «Mening arizalarim» bo'limida kuzating. Savollar uchun: +998 (71) 239-24-22 yoki 1242."
+      ],
+      "kerakli_hujjatlar": [
+        "F-086-u shakldagi tibbiy ma'lumotnoma"
+      ],
+      "muddat": "3 daqiqa (ariza yuborish)",
+      "narx": "Bepul",
+      "aloqa": "+998 (71) 239-24-22; 1242",
+      "kimlar_uchun": "Jismoniy shaxslar (ota-onalar farzandlari uchun)",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Yoshlar siyosati va sport vazirligi",
+      "qoshimcha": "Huquqiy asos: Vazirlar Mahkamasining 2023-yil 3-noyabrdagi 583-son qarori. Xizmatdan 712 613 marta foydalanilgan, reytingi 4,38/5.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "futbol-akademiyasiga-qabul",
+      "soha": "Madaniyat, turizm va sport",
+      "xizmat_nomi": "O'zbekiston futbol assotsiatsiyasi futbol akademiyalariga nomzodlarni qabul qilish",
+      "url": "https://my.gov.uz/uz/service/932",
+      "tavsif": "Farzandini futbol akademiyasiga bermoqchi bo'lgan ota-onalar nomzodlik arizasini onlayn topshirishlari mumkin. Hujjatlar ko'rib chiqilgach, bola belgilangan muddatda amaliy saralash sinovlaridan o'tadi. Xizmat bepul.",
+      "muammolar": [
+        "Bolamni futbol akademiyasiga qanday topshiraman?",
+        "Futbol maktabiga qabul qachon boshlanadi?",
+        "Futbol akademiyasi uchun qanday tibbiy hujjatlar kerak?",
+        "O'g'limni futbolga berish uchun onlayn ariza beriladimi?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Saytning yuqori o'ng burchagidagi «Kirish» tugmasini bosib, OneID orqali tizimga kiring: pasportga bog'langan telefon raqamingizga kelgan SMS-kod bilan avtorizatsiyadan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «O'zbekiston futbol assotsiatsiyasi futbol akademiyalariga nomzodlarni qabul qilish» deb yozing va xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/932",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Anketada akademiyani tanlang, bola ma'lumotlarini kiriting va tibbiy hujjatlarni ilova qiling: F-026-u maktab tibbiy varaqasi, F-063-u emlash kartasi, F-086-u tibbiy ma'lumotnoma va uchastka pediatrining kasallik tarixi haqidagi ma'lumotnomasi.",
+        "Hujjatlar ko'rib chiqiladi, ma'lumotnoma yuklab olinadi va bola belgilangan muddatda amaliy (saralash) imtihonlariga chaqiriladi.",
+        "Ariza holatini «Mening arizalarim» bo'limida kuzating. Savollar uchun: +998 (71) 239-24-22 yoki 1242."
+      ],
+      "kerakli_hujjatlar": [
+        "F-026-u shakldagi maktab tibbiy varaqasi",
+        "F-063-u shakldagi profilaktik emlash kartasi",
+        "F-086-u shakldagi tibbiy ma'lumotnoma",
+        "Uchastka pediatridan bolaning kasallik tarixi haqida ma'lumotnoma"
+      ],
+      "muddat": "7 daqiqa (ariza yuborish); sinovlar belgilangan muddatlarda",
+      "narx": "Bepul",
+      "aloqa": "+998 (71) 239-24-22; 1242",
+      "kimlar_uchun": "Jismoniy shaxslar (ota-onalar farzandlari uchun)",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Yoshlar siyosati va sport vazirligi (O'zbekiston futbol assotsiatsiyasi bilan)",
+      "qoshimcha": "Huquqiy asos: Vazirlar Mahkamasining 2023-yil 9-sentabrdagi 458-son qarori. Xizmatdan 8 419 marta foydalanilgan.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "basseyn-elektron-abonement",
+      "soha": "Madaniyat, turizm va sport",
+      "xizmat_nomi": "Pullik basseynlarda suzish mashg'ulotlari uchun elektron abonement olish",
+      "url": "https://my.gov.uz/uz/service/1038",
+      "tavsif": "Fuqarolar davlat sport inshootlaridagi pullik suzish havzalariga elektron abonementni portal orqali rasmiylashtirishlari mumkin. Tibbiy ma'lumotnomalar ilova qilinadi, sport tashkiloti tasdiqlagach elektron hisob-faktura bo'yicha to'lov qilinadi.",
+      "muammolar": [
+        "Basseynga abonementni onlayn olsam bo'ladimi?",
+        "Suzishga yozilish uchun qanday spravkalar kerak?",
+        "Basseyn abonementi qancha turadi?",
+        "Farzandimni suzishga qaysi basseynga yozdiray?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Saytning yuqori o'ng burchagidagi «Kirish» tugmasini bosib, OneID orqali tizimga kiring: pasportga bog'langan telefon raqamingizga kelgan SMS-kod bilan avtorizatsiyadan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Pullik basseynlarda suzish mashg'ulotlari uchun elektron abonement olish» deb yozing va xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/1038",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Anketada basseyn (sport inshooti) va mashg'ulot vaqtini tanlang, tibbiy hujjatlarni ilova qiling: dermatolog ma'lumotnomasi, kardiolog ma'lumotnomasi va 086/h shakldagi ma'lumotnoma.",
+        "Sport tashkiloti ma'lumotlarni tekshiradi va sizga hisob-faktura raqami hamda tashkilot rekvizitlari ko'rsatilgan elektron chipta yuboriladi; to'lovni onlayn yoki tashkilot hisobiga amalga oshiring.",
+        "To'lovdan so'ng mashg'ulotlarga qatnashish uchun ruxsat olasiz; abonement va ariza holati «Mening arizalarim» bo'limida ko'rinadi. Savollar uchun: +998 (71) 239-24-22."
+      ],
+      "kerakli_hujjatlar": [
+        "Dermatolog ma'lumotnomasi",
+        "Kardiolog ma'lumotnomasi",
+        "086/h shakldagi tibbiy ma'lumotnoma"
+      ],
+      "muddat": "3 ish kuni",
+      "narx": "Basseyn tariflari asosida (abonement narxi tashkilotga qarab farq qiladi)",
+      "aloqa": "+998 (71) 239-24-22; 1242",
+      "kimlar_uchun": "Jismoniy shaxslar",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Yoshlar siyosati va sport vazirligi",
+      "qoshimcha": "Xizmatdan 6 179 marta foydalanilgan; ariza yuborish taxminan 7 daqiqa oladi.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "madaniyat-markazi-togarakka-azolik",
+      "soha": "Madaniyat, turizm va sport",
+      "xizmat_nomi": "Madaniyat markazlarida qo'shimcha to'garak va badiiy havaskorlik to'garaklarga a'zo bo'lish",
+      "url": "https://my.gov.uz/uz/service/1472",
+      "tavsif": "Fuqarolar va ularning farzandlari mahalladagi madaniyat markazlaridagi qo'shimcha to'garaklar hamda badiiy havaskorlik to'garaklariga (musiqa, raqs, teatr va h.k.) onlayn a'zo bo'lishlari mumkin. Xizmat bepul, hujjat talab etilmaydi.",
+      "muammolar": [
+        "Bolamni musiqa/raqs to'garagiga qanday yozdiraman?",
+        "Madaniyat markazidagi to'garaklarga qanday a'zo bo'linadi?",
+        "Mahallamizda qanday to'garaklar bor?",
+        "To'garakka yozilish pullikmi?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Saytning yuqori o'ng burchagidagi «Kirish» tugmasini bosib, OneID orqali tizimga kiring: pasportga bog'langan telefon raqamingizga kelgan SMS-kod bilan avtorizatsiyadan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Madaniyat markazlarida qo'shimcha to'garak va badiiy havaskorlik to'garaklarga a'zo bo'lish» deb yozing va xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/1472",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Anketada hududingizni, madaniyat markazini va qiziqqan to'garakni tanlang, a'zo bo'luvchi (o'zingiz yoki farzandingiz) ma'lumotlarini kiriting — qo'shimcha hujjat talab etilmaydi.",
+        "Ariza Madaniyat vazirligi tizimiga yuboriladi va 3 ish kuni ichida ko'rib chiqiladi; qabul haqida xabarnoma keladi.",
+        "Natijani «Mening arizalarim» bo'limida ko'ring. Savollar uchun: +998 (55) 502-33-77 yoki 1242."
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat": "3 ish kuni",
+      "narx": "Bepul",
+      "aloqa": "+998 (55) 502-33-77; 1242",
+      "kimlar_uchun": "Jismoniy shaxslar",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Madaniyat vazirligi",
+      "qoshimcha": "Huquqiy asos: Prezidentning 2025-yil 16-sentabrdagi PQ-286-son qarori. Yangi xizmat — 2025-2026 yillarda ishga tushirilgan.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "bojxona-mobil-qurilma-royxati",
+      "soha": "Bojxona",
+      "xizmat_nomi": "Bojxona organlarida rasmiylashtirilmagan mobil qurilmalarni ro'yxatdan o'tkazish",
+      "url": "https://my.gov.uz/uz/service/1313",
+      "tavsif": "Chet eldan olib kelingan yoki bojxonada rasmiylashtirilmagan telefon va planshetlarni IMEI kodi bo'yicha bojxona to'lovini to'lab ro'yxatdan o'tkazish xizmati. To'lov miqdori qurilmaning holati va modeliga qarab hisoblanadi.",
+      "muammolar": [
+        "Chet eldan olib kelgan telefonim o'chib qoldi, nima qilay?",
+        "Telefonning bojxona to'lovini qanday to'layman?",
+        "IMEI bloklangan, bojxonada ro'yxatdan o'tkazish qancha turadi?",
+        "Ikkinchi telefonni ro'yxatdan o'tkazish kerakmi?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Saytning yuqori o'ng burchagidagi «Kirish» tugmasini bosib, OneID orqali tizimga kiring: pasportga bog'langan telefon raqamingizga kelgan SMS-kod bilan avtorizatsiyadan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Bojxona organlarida rasmiylashtirilmagan mobil qurilmalarni ro'yxatdan o'tkazish» deb yozing va xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/1313",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Telefoningizda *#06# terib IMEI raqam(lar)ini chiqaring, ekran suratini (skrinshot) oling va anketaga qurilma ma'lumotlari bilan birga ilova qiling.",
+        "Bojxona qo'mitasi qurilma modeli va holatiga qarab bojxona to'lovini hisoblaydi — to'lovni portal orqali amalga oshiring.",
+        "Ariza 10 ish kunigacha ko'rib chiqiladi; natija «Mening arizalarim» bo'limida ko'rinadi, shundan so'ng IMEI ro'yxatga kiritiladi. Savollar uchun: +998 55 502-76-00."
+      ],
+      "kerakli_hujjatlar": [
+        "Qurilmada *#06# kodi orqali chiqarilgan IMEI raqam(lar)i aks etgan ekran surati (skrinshot)"
+      ],
+      "muddat": "10 ish kuni",
+      "narx": "Bojxona to'lovlari qurilma holati va modeliga qarab hisoblanadi",
+      "aloqa": "+998 55 502-76-00; 1242",
+      "kimlar_uchun": "Jismoniy shaxslar",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Iqtisodiyot va moliya vazirligi huzuridagi Bojxona qo'mitasi",
+      "qoshimcha": "Huquqiy asos: Vazirlar Mahkamasining 2019-yil 17-sentabrdagi 778-son qarori. Bepul IMEI ro'yxati uchun «IMEI raqamni FaceID orqali ro'yxatdan o'tkazish» (service/565) xizmatiga qarang — u faqat imtiyozli holatlarda amal qiladi.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "pochta-deklaratsiyasi",
+      "soha": "Bojxona",
+      "xizmat_nomi": "Pochta deklaratsiyasi",
+      "url": "https://my.gov.uz/uz/service/91",
+      "tavsif": "Xalqaro pochta jo'natmalari uchun bojxona deklaratsiyasini onlayn to'ldirish xizmati. Ma'lumot yuborilgach, 15 daqiqa ichida avtomatik tasdiqlangan identifikatsiya kodi beriladi. Xizmat bepul.",
+      "muammolar": [
+        "Chet elga posilka yuborishda deklaratsiyani qayerda to'ldiraman?",
+        "Pochta jo'natmasi uchun bojxona deklaratsiyasi kerakmi?",
+        "Xalqaro jo'natma deklaratsiyasini onlayn rasmiylashtirish mumkinmi?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Saytning yuqori o'ng burchagidagi «Kirish» tugmasini bosib, OneID orqali tizimga kiring: pasportga bog'langan telefon raqamingizga kelgan SMS-kod bilan avtorizatsiyadan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Pochta deklaratsiyasi» deb yozing va xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/91",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Deklaratsiya shaklida jo'natma tarkibi (nima yuborilayotgani), qiymati, og'irligi, yuboruvchi va qabul qiluvchi ma'lumotlarini kiriting — qo'shimcha hujjat talab etilmaydi.",
+        "15 daqiqa ichida avtomatik tekshirilgan identifikatsiya kodi shakllanadi — uni pochta bo'limida jo'natmani topshirishda ko'rsatasiz.",
+        "Deklaratsiya va kodni «Mening arizalarim» bo'limidan topasiz. Savollar uchun: +998 (55) 502-76-00 (74-19, 77-09) yoki 1242."
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat": "15 daqiqa (avtomatik)",
+      "narx": "Bepul",
+      "aloqa": "+998 (55) 502-76-00 (74-19, 77-09); 1242",
+      "kimlar_uchun": "Jismoniy va yuridik shaxslar (pochta aloqasi foydalanuvchilari)",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Iqtisodiyot va moliya vazirligi huzuridagi Bojxona qo'mitasi",
+      "qoshimcha": "Huquqiy asos: O'zbekiston Respublikasi Bojxona kodeksi. Xizmatdan 138 162 marta foydalanilgan, reytingi 4,68/5.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "kuryerlik-jonatmalari-malumoti",
+      "soha": "Bojxona",
+      "xizmat_nomi": "Jismoniy shaxslarga kelayotgan xalqaro kuryerlik jo'natmalari to'g'risida ma'lumot",
+      "url": "https://my.gov.uz/uz/service/717",
+      "tavsif": "Fuqarolar o'z nomiga kelayotgan xalqaro kuryerlik jo'natmalari (posilkalar) haqidagi bojxona ma'lumotlarini onlayn ko'rishlari mumkin. Xizmat avtomatik, bepul va 1 daqiqada natija beradi.",
+      "muammolar": [
+        "Nomimga kelgan posilkalar ro'yxatini qanday ko'raman?",
+        "Yillik bojsiz limitim qancha ishlatilganini bilmoqchiman",
+        "Kuryerlik jo'natmam bojxonadan o'tganmi?",
+        "Nomimdan boshqa birov posilka olyaptimi, tekshirsam bo'ladimi?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Saytning yuqori o'ng burchagidagi «Kirish» tugmasini bosib, OneID orqali tizimga kiring: pasportga bog'langan telefon raqamingizga kelgan SMS-kod bilan avtorizatsiyadan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Jismoniy shaxslarga kelayotgan xalqaro kuryerlik jo'natmalari to'g'risida ma'lumot» deb yozing va xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/717",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Hujjat talab etilmaydi — so'rov pasport ma'lumotlaringiz asosida avtomatik yuboriladi.",
+        "Taxminan 1 daqiqada nomingizga kelgan xalqaro kuryerlik jo'natmalari ro'yxati shakllanadi.",
+        "Natijani «Mening arizalarim» bo'limida ko'ring. Savollar uchun: +998 (55) 502-76-00 (74-12, 74-19, 74-21) yoki 1242."
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat": "Avtomatik tarzda (taxminan 1 daqiqa)",
+      "narx": "Bepul",
+      "aloqa": "+998 (55) 502-76-00 (74-12, 74-19, 74-21); 1242",
+      "kimlar_uchun": "Jismoniy va yuridik shaxslar",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Iqtisodiyot va moliya vazirligi huzuridagi Bojxona qo'mitasi",
+      "qoshimcha": "Xitoy, AQSh va boshqa davlatlardan onlayn-do'kon xaridlari kuzatuvida foydali.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "imei-faceid-royxat",
+      "soha": "Axborot va aloqa",
+      "xizmat_nomi": "IMEI raqamni FaceID orqali ro'yxatdan o'tkazish",
+      "url": "https://my.gov.uz/uz/service/565",
+      "tavsif": "Fuqarolar mobil qurilmalarini IMEI kodi bo'yicha UZIMEI tizimida FaceID (yuzni tanish) orqali masofadan ro'yxatdan o'tkazishlari mumkin. Xizmat avtomatik va bepul ishlaydi, hujjat talab etilmaydi.",
+      "muammolar": [
+        "Yangi telefonim IMEI ro'yxatdan o'tmagan, o'chib qolmasligi uchun nima qilay?",
+        "IMEI ni uydan turib ro'yxatdan o'tkazish mumkinmi?",
+        "Telefon IMEI sini FaceID bilan qanday ro'yxatdan o'tkazaman?",
+        "SIM karta solganimda telefon ishlamayapti"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Saytning yuqori o'ng burchagidagi «Kirish» tugmasini bosib, OneID orqali tizimga kiring: pasportga bog'langan telefon raqamingizga kelgan SMS-kod bilan avtorizatsiyadan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «IMEI raqamni FaceID orqali ro'yxatdan o'tkazish» deb yozing va xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/565",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Qurilmangizda *#06# terib IMEI raqamini aniqlang va formaga kiriting; so'ngra kamera orqali yuzingizni skanerlashdan (FaceID identifikatsiyasi) o'ting.",
+        "Tizim ma'lumotlarni avtomatik tekshiradi va IMEI raqam ro'yxatga olinadi — natija bir necha daqiqada tayyor bo'ladi.",
+        "Natijani «Mening arizalarim» bo'limida ko'ring. Savollar uchun: 1170 (call-markaz) yoki 1242."
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat": "Avtomatik tarzda",
+      "narx": "Bepul",
+      "aloqa": "1170; 1242",
+      "kimlar_uchun": "Jismoniy shaxslar",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Raqamli texnologiyalar vazirligi",
+      "qoshimcha": "Huquqiy asos: Vazirlar Mahkamasining 2019-yil 17-sentabrdagi 778-son qarori. Xizmatdan 3 052 954 martadan ortiq foydalanilgan. Bojxonada rasmiylashtirilmagan qurilmalar uchun avval bojxona to'lovi (service/1313) talab qilinishi mumkin.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "pochta-jonatmasini-qidirish",
+      "soha": "Axborot va aloqa",
+      "xizmat_nomi": "Ro'yxatga olinadigan pochta jo'natmalarini qidirish",
+      "url": "https://my.gov.uz/uz/service/246",
+      "tavsif": "Fuqarolar ro'yxatga olinadigan pochta jo'natmalarini (posilka, xat) trek-raqam bo'yicha onlayn kuzatishlari mumkin. Xizmat «O'zbekiston pochtasi» AJ tomonidan bepul, avtomatik ko'rsatiladi.",
+      "muammolar": [
+        "Posilkam qayerda ekanini qanday bilaman?",
+        "Trek-raqam bo'yicha jo'natmani kuzatish",
+        "Pochtadan kelayotgan xatim yo'qolib qoldi",
+        "Buyurtmam O'zbekistonga kirdimi?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Saytning yuqori o'ng burchagidagi «Kirish» tugmasini bosib, OneID orqali tizimga kiring: pasportga bog'langan telefon raqamingizga kelgan SMS-kod bilan avtorizatsiyadan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Ro'yxatga olinadigan pochta jo'natmalarini qidirish» deb yozing va xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/246",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Jo'natmaning pochta (trek) raqamini yoki shtrix-kod raqamini kiriting — bu raqam kvitansiyada yoki sotuvchi yuborgan xabarda bo'ladi.",
+        "Taxminan 1 daqiqada jo'natmaning joriy holati va harakat tarixi ekranda ko'rsatiladi.",
+        "Natijani «Mening arizalarim» bo'limida ham ko'rish mumkin. Savollar uchun: 1242 (24/7)."
+      ],
+      "kerakli_hujjatlar": [
+        "Pochta jo'natmasining trek-raqami yoki shtrix-kod raqami"
+      ],
+      "muddat": "Avtomatik tarzda (taxminan 1 daqiqa)",
+      "narx": "Bepul",
+      "aloqa": "1242 (24/7)",
+      "kimlar_uchun": "Jismoniy va yuridik shaxslar",
+      "korsatuvchi_idora": "«O'zbekiston pochtasi» AJ",
+      "qoshimcha": "Xizmatdan 78 796 marta foydalanilgan, reytingi 3,67/5.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "mobiuz-esim-ulanish",
+      "soha": "Axborot va aloqa",
+      "xizmat_nomi": "Mobiuz mobil tarmog'iga ulanish (e-Sim)",
+      "url": "https://my.gov.uz/uz/service/923",
+      "tavsif": "Fuqarolar uydan chiqmasdan Mobiuz mobil tarmog'iga eSIM orqali ulanishlari mumkin: raqam va tarif rejasi onlayn tanlanadi, to'lovdan so'ng eSIM QR-kodi 24 soat ichida yuboriladi. Narx tanlangan raqam va tarifga bog'liq.",
+      "muammolar": [
+        "Uydan chiqmasdan yangi SIM karta olsam bo'ladimi?",
+        "eSIM ni onlayn qanday rasmiylashtiraman?",
+        "Mobiuz raqamini masofadan ochish mumkinmi?",
+        "Chiroyli raqam tanlab onlayn ulansam bo'ladimi?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Saytning yuqori o'ng burchagidagi «Kirish» tugmasini bosib, OneID orqali tizimga kiring: pasportga bog'langan telefon raqamingizga kelgan SMS-kod bilan avtorizatsiyadan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Mobiuz mobil tarmog'iga ulanish (e-Sim)» deb yozing va xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/923",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Formada ulanish turini, o'zingizga yoqqan telefon raqamini va tarif rejasini tanlang — narx tanlovingizga qarab avtomatik hisoblanadi.",
+        "Boshlang'ich to'lovni onlayn amalga oshiring; operator eSIM QR-kodini (sozlamalarini) 24 soat ichida (ish kuni davomida) yuboradi — uni telefoningiz sozlamalarida skanerlab, tarmoqqa ulaning.",
+        "Ariza holatini «Mening arizalarim» bo'limida kuzating. Savollar uchun operatorning 0890 raqamiga qo'ng'iroq qiling."
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi (shaxs OneID orqali tasdiqlanadi; eSIM-ni qo'llab-quvvatlaydigan telefon kerak)"
+      ],
+      "muddat": "eSIM QR-kodi to'lovdan keyin 24 soat ichida yuboriladi",
+      "narx": "Tanlangan raqam, tarif reja va ulanish turiga qarab",
+      "aloqa": "0890 (Mobiuz); 1242",
+      "kimlar_uchun": "Jismoniy shaxslar",
+      "korsatuvchi_idora": "«UMS» MChJ (Mobiuz)",
+      "qoshimcha": "Reytingi 4,2/5. Telefon eSIM texnologiyasini qo'llab-quvvatlashi shart.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "davlat-uy-joyini-xususiylashtirish",
+      "soha": "Davlat aktivlari",
+      "xizmat_nomi": "Davlat uy-joy fondi obyektini xususiylashtirish bo'yicha ariza yuborish",
+      "url": "https://my.gov.uz/uz/service/1084",
+      "tavsif": "Davlat uy-joy fondidagi kvartira yoki uyda yashovchi, imtiyozli xususiylashtirish huquqiga ega fuqarolar uy-joyni o'z mulkiga o'tkazish uchun onlayn ariza topshirishlari mumkin. Ariza mahalliy hokimiyat tomonidan bir oy ichida ko'rib chiqiladi.",
+      "muammolar": [
+        "Davlat kvartirasini o'z nomimga qanday o'tkazaman?",
+        "Uy-joyni xususiylashtirish uchun qanday hujjatlar kerak?",
+        "Xususiylashtirish arizasini onlayn bersam bo'ladimi?",
+        "Ordersiz uyni privatizatsiya qilish mumkinmi?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Saytning yuqori o'ng burchagidagi «Kirish» tugmasini bosib, OneID orqali tizimga kiring: pasportga bog'langan telefon raqamingizga kelgan SMS-kod bilan avtorizatsiyadan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Davlat uy-joy fondi obyektini xususiylashtirish bo'yicha ariza yuborish» deb yozing va xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/1084",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Anketaga uy-joy manzili va o'zingiz haqingizdagi ma'lumotlarni kiriting hamd hujjatlarni ilova qiling: imtiyozli xususiylashtirish huquqini tasdiqlovchi ma'lumotnoma, uy daftari yoki kvartira kartochkasi (17-shakl) nusxasi, barcha voyaga yetgan oila a'zolarining notarial tasdiqlangan roziligi, uy-joy qiymatini baholash hisoboti.",
+        "Davlat boji — 370 800 so'm (0,9 BHM) — portal orqali to'lanadi; ariza mahalliy hokimiyatga yuboriladi.",
+        "Ariza bir oy ichida ko'rib chiqiladi; natija «Mening arizalarim» bo'limida ko'rinadi. Savollar uchun: +998 71 259-20-82 yoki 1242."
+      ],
+      "kerakli_hujjatlar": [
+        "Imtiyozli xususiylashtirish huquqini tasdiqlovchi ma'lumotnoma",
+        "Uy daftari nusxasi yoki kvartira kartochkasi (17-shakl) nusxasi",
+        "Barcha voyaga yetgan oila a'zolarining notarial tasdiqlangan roziligi",
+        "Uy-joy qiymatini baholash hisoboti (qoldiq qiymat usulida)"
+      ],
+      "muddat": "Bir oy",
+      "narx": "370 800 so'm (0,9 BHM)",
+      "aloqa": "+998 71 259-20-82; 1242",
+      "kimlar_uchun": "Jismoniy shaxslar — imtiyozli xususiylashtirish huquqiga ega fuqarolar",
+      "korsatuvchi_idora": "Mahalliy hokimiyat organlari",
+      "qoshimcha": "Huquqiy asos: Vazirlar Mahkamasining 2024-yil 11-martdagi 124-son qarori. Arizani Davlat xizmatlari markazlari orqali ham topshirish mumkin.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "uy-joy-navbatiga-turish",
+      "soha": "Davlat aktivlari",
+      "xizmat_nomi": "Uy-joy sharoitlarini yaxshilashga muhtoj bo'lgan fuqarolarni hisobga olish, davlat uy-joy fondidagi turar joylarni taqsimlash",
+      "url": "https://my.gov.uz/uz/service/1028",
+      "tavsif": "Uy-joy sharoitini yaxshilashga muhtoj fuqarolar davlat uy-joy fondidan turar joy olish uchun hisobga (navbatga) turish arizasini onlayn topshirishlari mumkin. Ariza mahalliy hokimiyat tomonidan 11 ish kuni ichida bepul ko'rib chiqiladi.",
+      "muammolar": [
+        "Uy-joy navbatiga qanday turaman?",
+        "Davlatdan uy olish uchun ro'yxatga qanday kiraman?",
+        "Uy sharoitim og'ir, ijtimoiy uy-joy so'rasam bo'ladimi?",
+        "Hokimiyatdagi uy-joy hisobiga onlayn yozilish mumkinmi?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Saytning yuqori o'ng burchagidagi «Kirish» tugmasini bosib, OneID orqali tizimga kiring: pasportga bog'langan telefon raqamingizga kelgan SMS-kod bilan avtorizatsiyadan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Uy-joy sharoitlarini yaxshilashga muhtoj bo'lgan fuqarolarni hisobga olish, davlat uy-joy fondidagi turar joylarni taqsimlash» deb yozing va xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/1028",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Anketaga oilangiz tarkibi, yashash sharoitingiz va manzilingiz haqidagi ma'lumotlarni kiriting; agar vakil orqali topshirsangiz, notarial tasdiqlangan ishonchnoma nusxasini ilova qiling.",
+        "Ariza mahalliy hokimiyatga yuboriladi va 11 ish kuni ichida ko'rib chiqiladi — hisobga olinganingiz (navbatga qo'yilganingiz) haqida qaror qabul qilinadi.",
+        "Natijani «Mening arizalarim» bo'limida ko'ring. Savollar uchun: +998 71 259-20-82 yoki 1242 (24/7)."
+      ],
+      "kerakli_hujjatlar": [
+        "Vakil orqali topshirilganda — notarial tasdiqlangan ishonchnoma nusxasi",
+        "Boshqa hujjatlar tizim orqali avtomatik olinadi"
+      ],
+      "muddat": "11 ish kuni",
+      "narx": "Bepul",
+      "aloqa": "+998 71 259-20-82; 1242",
+      "kimlar_uchun": "Jismoniy shaxslar — uy-joy sharoitini yaxshilashga muhtoj fuqarolar",
+      "korsatuvchi_idora": "Mahalliy hokimiyat organlari",
+      "qoshimcha": "Huquqiy asos: Vazirlar Mahkamasining 2024-yil 11-martdagi 124-son qarori. Arizani Davlat xizmatlari markazlari orqali ham topshirish mumkin.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "avtotransport-elektron-ishonchnoma",
+      "soha": "Transport",
+      "xizmat_nomi": "Avtotransport boshqaruvi uchun jismoniy shaxslarga elektron ishonchnoma",
+      "url": "https://my.gov.uz/uz/service/640",
+      "tavsif": "Avtomobil egasi boshqa shaxsga transport vositasini boshqarish huquqini beruvchi elektron ishonchnomani notariusga bormasdan onlayn rasmiylashtirishi mumkin. Ishonchnoma QR-kodli hujjat ko'rinishida bir necha daqiqada tayyor bo'ladi.",
+      "muammolar": [
+        "Mashinamni ukamga ishonchnoma qilib bermoqchiman, notariusga borish shartmi?",
+        "Avtomobilga elektron doverennost qanday qilinadi?",
+        "Ishonchnoma qancha turadi va qancha muddatga beriladi?",
+        "Mashina ishonchnomasini onlayn rasmiylashtirish mumkinmi?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Saytning yuqori o'ng burchagidagi «Kirish» tugmasini bosib, OneID orqali tizimga kiring: pasportga bog'langan telefon raqamingizga kelgan SMS-kod bilan avtorizatsiyadan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Avtotransport boshqaruvi uchun jismoniy shaxslarga elektron ishonchnoma» deb yozing va xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/640",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Formada transport vositangizni, ishonchnoma beriladigan shaxsning ma'lumotlarini (pasport/ID raqami) va muddatni tanlang: 1 oygacha — 74 160 so'm, 6 oygacha — 370 800 so'm, 3 yilgacha — 741 600 so'm.",
+        "Shakllangan hisob-faktura (invoys) bo'yicha to'lovni onlayn amalga oshiring — ishonchnoma avtomatik rasmiylashtiriladi (taxminan 7 daqiqa).",
+        "QR-kodli elektron ishonchnomani «Mening arizalarim» bo'limidan yuklab oling; rad etilganda to'lov 10 kun ichida qaytariladi. Savollar uchun: 1148 yoki 1242 (24/7)."
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi (transport vositasi va ishonchli shaxs ma'lumotlari formada kiritiladi)"
+      ],
+      "muddat": "Avtomatik tarzda (taxminan 7 daqiqa)",
+      "narx": "1 oygacha — 74 160 so'm (0,18 BHM); 6 oygacha — 370 800 so'm (0,9 BHM); 3 yilgacha — 741 600 so'm (1,8 BHM)",
+      "aloqa": "1148; 1242 (24/7)",
+      "kimlar_uchun": "Jismoniy shaxslar — transport vositasi egalari",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Adliya vazirligi",
+      "qoshimcha": "Huquqiy asos: Vazirlar Mahkamasining 2023-yil 20-noyabrdagi 613-son qarori. Xizmatdan 6 208 153 marta foydalanilgan, reytingi 4,76/5 — portaldagi eng ommabop xizmatlardan biri.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "daraxt-kesish-ruxsatnomasi",
+      "soha": "Geologiya",
+      "xizmat_nomi": "Davlat o'rmon fondiga kirmaydigan daraxtlar va butalarni kesish uchun ruxsatnoma",
+      "url": "https://my.gov.uz/uz/service/651",
+      "tavsif": "Hovlisi yoki yer uchastkasidagi (davlat o'rmon fondiga kirmaydigan) daraxt va butalarni qonuniy kesish uchun ruxsatnoma olish xizmati. Ariza portal orqali onlayn topshiriladi; ruxsatnomasiz daraxt kesish uchun jarima solinadi.",
+      "muammolar": [
+        "Hovlimdagi qurigan daraxtni kesish uchun ruxsat kerakmi?",
+        "Daraxt kesish ruxsatnomasini qayerdan olaman?",
+        "Ruxsatsiz daraxt kessam jarima bormi?",
+        "Tomorqamdagi daraxtni olib tashlash uchun kimga murojaat qilaman?"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga my.gov.uz deb yozib, saytga kiring.",
+        "Saytning yuqori o'ng burchagidagi «Kirish» tugmasini bosib, OneID orqali tizimga kiring: pasportga bog'langan telefon raqamingizga kelgan SMS-kod bilan avtorizatsiyadan o'ting.",
+        "Bosh sahifadagi qidiruv maydoniga «Davlat o'rmon fondiga kirmaydigan daraxtlar va butalarni kesish uchun ruxsatnoma» deb yozing va xizmatni tanlang. Yoki havolani oching: https://my.gov.uz/uz/service/651",
+        "«Ariza yuborish» tugmasini bosing.",
+        "Anketada daraxt(lar) joylashgan manzilni, kesish sababini (qurigan, xavfli, qurilish va h.k.), daraxt turi va sonini ko'rsating; so'ralgan qo'shimcha ma'lumotlarni kiriting.",
+        "Ariza vakolatli ekologiya organiga yuboriladi — joyida o'rganib chiqilgach, ruxsatnoma berish yoki rad etish to'g'risida qaror qabul qilinadi (kompensatsiya to'lovi belgilanishi mumkin).",
+        "Ruxsatnoma va ariza holatini «Mening arizalarim» bo'limida kuzating. Savollar uchun: 1242 (24/7) yoki shikoyatlar bo'yicha 1148."
+      ],
+      "kerakli_hujjatlar": [
+        "Portal sahifasida hujjatlar ro'yxati ko'rsatilmagan — kerakli ma'lumotlar ariza shaklida kiritiladi"
+      ],
+      "muddat": "Portal sahifasida ko'rsatilmagan",
+      "narx": "Portal sahifasida ko'rsatilmagan (kesish uchun kompensatsiya to'lovi belgilanishi mumkin)",
+      "aloqa": "1242 (24/7); 1148 (shikoyatlar)",
+      "kimlar_uchun": "Jismoniy va yuridik shaxslar",
+      "korsatuvchi_idora": "Ekologiya, atrof-muhitni muhofaza qilish va iqlim o'zgarishi vazirligi (portal sahifasida aniq ko'rsatilmagan)",
+      "qoshimcha": "Sahifa ochildi, ammo muddat, narx va hujjatlar ro'yxati kabi tafsilotlar sahifada dinamik yuklanishi sababli ko'rinmadi; asosiy ma'lumotlar «Ariza yuborish» bosqichida ko'rsatiladi. Xizmat Geologiya sohasi ro'yxatida keltirilgan.",
+      "sahifa_ochildi": true
     }
   ]
 }

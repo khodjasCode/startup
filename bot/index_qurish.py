@@ -2,9 +2,22 @@
 # Ishga tushirish:  python -m bot.index_qurish
 
 import json
+import time
 
 from bot.config import BILIM_BAZASI_YOLI, MY_GOV_YOLI, PM_GOV_YOLI, LEX_YOLI, SAVOL_JAVOB_YOLI
-from bot.rag import embed, collection
+from bot.rag import embed, collection, TokenlarTugadi
+
+
+def _embed_sabr_bilan(matn: str, urinishlar: int = 10):
+    """Katta bazani indekslashda barcha kalitlar limitga urilsa, 30 soniya
+    kutib qayta urinadi — indekslash o'rtada uzilib qolmasligi uchun."""
+    for _ in range(urinishlar):
+        try:
+            return embed(matn)
+        except TokenlarTugadi:
+            print("    ... limit (429), 30 soniya kutilmoqda")
+            time.sleep(30)
+    raise TokenlarTugadi()
 
 # Portal bazalari bir xil sxemada (xizmatlar ro'yxati): fayl yo'li va id-prefiks.
 # Prefiks turli bazalardagi id to'qnashuvining oldini oladi.
@@ -29,7 +42,7 @@ def bazani_yuklash():
 
     for y in yozuvlar:
         qidiruv_matni = y["muammo"] + " " + " ".join(y["kalit_sozlar"])
-        emb = embed(qidiruv_matni)
+        emb = _embed_sabr_bilan(qidiruv_matni)
         collection.upsert(
             ids=[y["id"]],
             embeddings=[emb],
@@ -50,7 +63,7 @@ def bazani_yuklash():
             nomi = x.get("xizmat_nomi") or x.get("savol", "")
             tavsifi = x.get("tavsif") or x.get("qisqa_javob", "")
             qidiruv_matni = nomi + " " + " ".join(x["muammolar"]) + " " + tavsifi
-            emb = embed(qidiruv_matni)
+            emb = _embed_sabr_bilan(qidiruv_matni)
             collection.upsert(
                 ids=[prefiks + x["id"]],
                 embeddings=[emb],

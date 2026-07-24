@@ -545,6 +545,150 @@
       "qoshimcha": "Shikoyatni anonim tarzda ham ishonch telefonlari orqali berish mumkin. Majburiy yig'im dalillari (yozishmalar, e'lonlar) saqlansin — prokuratura tekshiruvida asqotadi. Bola ta'limdan chetlashtirilsa yoki bosim o'tkazilsa, bu alohida qonunbuzarlik sifatida ko'riladi.",
       "manba": "lex.uz",
       "sahifa_ochildi": true
+    },
+    {
+      "id": "meros-qabul-qilish",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "Otam vafot etdi, uyni meros qilib olishim kerak. Qancha vaqtim bor va qayerga borishim kerak?",
+      "qisqa_javob": "Fuqarolik kodeksining V bo'limi (meros huquqi) bo'yicha meros fuqaro vafot etgan kunda ochiladi (1112-modda). Merosni qabul qilish uchun meros ochilgan kundan boshlab OLTI OY ichida meros ochilgan joydagi notariusga ariza bilan murojaat qiling — merosga bo'lgan huquq to'g'risidagi guvohnoma olti oy o'tgach notarius tomonidan beriladi (1146-modda). O'zingiz bilan pasport, marhumning o'lim guvohnomasi va qarindoshlikni tasdiqlovchi hujjatlarni olib boring. Vasiyatnoma bo'lsa, meros vasiyatnoma bo'yicha, bo'lmasa qonun bo'yicha navbat tartibida taqsimlanadi. Muddat o'tkazib yuborilgan bo'lsa, uzrli sabab bilan sud orqali tiklash mumkin. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/docs/180552",
+      "muammolar": [
+        "otam o'lgandan keyin uy kimga qoladi",
+        "meros olish uchun qayerga borish kerak",
+        "merosni qabul qilish muddati qancha",
+        "notariusga meros uchun qanday ariza beriladi",
+        "vasiyatnoma bo'lsa meros qanday bo'linadi"
+      ],
+      "url": "https://lex.uz/docs/180552",
+      "huquqiy_asos": "O'zbekiston Respublikasining Fuqarolik kodeksi (ikkinchi qism), V bo'lim — meros huquqi; 1112-modda (meros ochilishi), 1146-modda (olti oylik muddat, notarius guvohnomasi)",
+      "qoshimcha": "Muddat: meros ochilgan kundan 6 oy. Muddat o'tgan bo'lsa — uzrli sabab bilan sudga muddatni tiklash haqida ariza. Nizo bo'lsa — fuqarolik sudi.",
+      "manba": "lex.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "kredit-tolay-olmaslik-qarz",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "Bank kreditini to'lay olmayapman, qarz undiruvchilar qo'ng'iroq qilib qo'rqitmoqda. Nima qilishim kerak?",
+      "qisqa_javob": "Kredit va qarz munosabatlari Fuqarolik kodeksi (ikkinchi qism) bilan tartibga solinadi — qarz faqat shartnoma shartlari va qonun asosida undiriladi, hech kim sizni qo'rqitish, tahdid qilish yoki mulkingizni o'zboshimchalik bilan olib qo'yish huquqiga ega emas. Avvalo bankka yozma murojaat qilib, restrukturizatsiya yoki to'lov muddatini uzaytirishni so'rang — banklar buni ko'rib chiqishi shart. Qarz faqat sud qarori va ijro hujjati asosida majburiy undirilishi mumkin. Tahdid va qo'rqitish bo'lsa, IIVga (102) arz qiling. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/docs/180552",
+      "muammolar": [
+        "kreditni to'lay olmayapman nima bo'ladi",
+        "kollektorlar qo'rqitmoqda",
+        "qarzim uchun uyimni olib qo'yishlari mumkinmi",
+        "kafil bo'lgan edim endi mendan undirishmoqda",
+        "bank kreditini kechiktirsam nima qilishadi"
+      ],
+      "url": "https://lex.uz/docs/180552",
+      "huquqiy_asos": "O'zbekiston Respublikasining Fuqarolik kodeksi (ikkinchi qism) — qarz va kredit shartnomalari bo'yicha majburiyatlar",
+      "qoshimcha": "Bankka yozma murojaat → Markaziy bank (bank ombudsmani) → sud. Majburiy undirish faqat sud qarori va ijro hujjati orqali. Tahdid bo'lsa — IIV (102).",
+      "manba": "lex.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "yer-chegara-nizosi",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "Qo'shnim tomorqamning chegarasini buzib, yerimning bir qismini egallab oldi. Qanday himoyalanaman?",
+      "qisqa_javob": "Yer munosabatlari Yer kodeksi bilan tartibga solinadi — yer uchastkangizga bo'lgan huquqingiz kadastr hujjatlari bilan tasdiqlanadi va qonun bilan himoyalanadi, hech kim uni o'zboshimchalik bilan egallashga haqli emas. Avvalo yer uchastkangizning kadastr hujjatlarini (kadastr pasporti, chegara rejasi) tayyorlang. Tuman kadastr bo'limiga chegarani joyida aniqlash (chiqarish) uchun murojaat qiling. Qo'shni ixtiyoriy bo'shatmasa, tuman hokimiyatiga, so'ngra sudga yerni qaytarish va to'siqni bartaraf etish talabi bilan da'vo bering. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/docs/149947",
+      "muammolar": [
+        "qo'shni chegarani buzdi",
+        "tomorqamni egallab olishdi",
+        "yer hujjatlarim bor lekin qo'shni bermayapti",
+        "kadastr chegarasi bo'yicha nizo",
+        "devorni mening yerimga qurib oldi"
+      ],
+      "url": "https://lex.uz/docs/149947",
+      "huquqiy_asos": "O'zbekiston Respublikasining Yer kodeksi (30.04.1998)",
+      "qoshimcha": "Tartib: kadastr bo'limi (chegarani aniqlash) → tuman hokimiyati → fuqarolik sudi. Kadastr hujjatlari asosiy dalil bo'ladi.",
+      "manba": "lex.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "xorijda-ishlash-rasmiy-tartib",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "Xorijga ishga yubormoqchi bo'lgan firma pul so'rayapti, aldanib qolishdan qo'rqaman. Rasmiy tartib qanday?",
+      "qisqa_javob": "«Xususiy bandlik agentliklari to'g'risida»gi Qonun (16.10.2018, O'RQ-501) bo'yicha fuqarolarni xorijda ishga joylashtirish bilan faqat LITSENZIYAGA ega bo'lgan agentliklar shug'ullanishi mumkin (23-modda — xorijga ishga joylashtirish faoliyati uchun litsenziya). Firma bilan ishlashdan oldin uning litsenziyasini so'rang va Bandlik va mehnat munosabatlari vazirligi (yoki Tashqi mehnat migratsiyasi agentligi) orqali tekshiring. Litsenziyasiz vositachi xizmatidan foydalanmang — bu firibgarlik xavfi. Agar allaqachon aldangan bo'lsangiz, IIVga (102) va prokuraturaga arz qiling. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/docs/-3992869",
+      "muammolar": [
+        "xorijga ishga qanday rasmiy ketiladi",
+        "ishga yollovchi firma pul so'rayapti",
+        "Rossiyaga ishga yuboraman deb aldashdi",
+        "xorijga ishga joylashtiruvchi agentlik litsenziyasi",
+        "chet elda ishlash uchun qayerga murojaat qilish kerak"
+      ],
+      "url": "https://lex.uz/docs/-3992869",
+      "huquqiy_asos": "«Xususiy bandlik agentliklari to'g'risida»gi O'zbekiston Respublikasi Qonuni (16.10.2018, O'RQ-501), 23-modda — xorijga ishga joylashtirish uchun litsenziya",
+      "qoshimcha": "Litsenziyani Bandlik vazirligi/Tashqi mehnat migratsiyasi agentligi orqali tekshiring. Aldanganda: IIV (102), prokuratura. Pulni fuqarolik sudi orqali qaytarish mumkin.",
+      "manba": "lex.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "harbiy-xizmat-kechiktirish",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "O'qishim tugamagan, lekin harbiy xizmatga chaqirishyapti. Muddatni kechiktirish huquqim bormi?",
+      "qisqa_javob": "«Umumiy harbiy majburiyat va harbiy xizmat to'g'risida»gi Qonun (12.12.2002, 436-II) 21-moddasida muddatli harbiy xizmatga chaqirilish muddatini kechiktirish huquqi belgilangan — jumladan ta'lim muassasasida o'qish, sog'liq holati va oilaviy ahvol bo'yicha. Kechiktirish olish uchun tuman mudofaa ishlari bo'limiga (harbiy komissariatga) o'qish joyidan ma'lumotnoma va boshqa tasdiqlovchi hujjatlar bilan murojaat qiling. Chaqiruv komissiyasining qaroridan norozi bo'lsangiz, yuqori turuvchi komissiyaga yoki sudga shikoyat qilishingiz mumkin. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/docs/-78717",
+      "muammolar": [
+        "o'qiyotgan bo'lsam armiyaga olishadimi",
+        "harbiy xizmatni kechiktirish mumkinmi",
+        "chaqiruv komissiyasi qaroriga shikoyat",
+        "otsrochka qanday olinadi",
+        "oilaviy sharoit bo'yicha harbiy xizmatdan kechiktirish"
+      ],
+      "url": "https://lex.uz/docs/-78717",
+      "huquqiy_asos": "«Umumiy harbiy majburiyat va harbiy xizmat to'g'risida»gi O'zbekiston Respublikasi Qonuni (12.12.2002, 436-II), 21-modda — chaqirilish muddatini kechiktirish",
+      "qoshimcha": "Hujjatlarni chaqiruv boshlanishidan oldin topshiring. Shikoyat: tuman chaqiruv komissiyasi → viloyat komissiyasi → sud.",
+      "manba": "lex.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "kvartira-royxatdan-otkazish",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "Kvartira sotib oldim, lekin hujjatlarni rasmiylashtirmaganman. Ro'yxatdan o'tkazish shartmi?",
+      "qisqa_javob": "Ha, shart. «Ko'chmas mulkka bo'lgan huquqlarni davlat ro'yxatidan o'tkazish to'g'risida»gi Qonun (28.11.2022, O'RQ-803) 6-moddasiga ko'ra ko'chmas mulkka bo'lgan mulk huquqi va boshqa ashyoviy huquqlar davlat ro'yxatidan o'tkazilishi lozim — ro'yxatdan o'tkazilgan huquq ustuvor hisoblanadi va sizni nizolardan himoya qiladi. Oldi-sotdi shartnomasini notarial tasdiqlang, so'ngra kadastr organida (Davlat xizmatlari markazi orqali) huquqni ro'yxatdan o'tkazing. Ro'yxatdan o'tkazilmagan kvartirani sotish, meros qoldirish yoki garovga qo'yish mumkin emas. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/docs/-6297080",
+      "muammolar": [
+        "kvartira oldim lekin hujjat qilmadim",
+        "uy hujjatini qanday rasmiylashtiraman",
+        "kadastrdan ro'yxatdan o'tkazish shartmi",
+        "qo'lda shartnoma bilan uy olganman",
+        "uy sotib olishda qanday hujjatlar kerak"
+      ],
+      "url": "https://lex.uz/docs/-6297080",
+      "huquqiy_asos": "«Ko'chmas mulkka bo'lgan huquqlarni davlat ro'yxatidan o'tkazish to'g'risida»gi O'zbekiston Respublikasi Qonuni (28.11.2022, O'RQ-803), 6-modda — davlat ro'yxatidan o'tkazish majburiyati",
+      "qoshimcha": "Tartib: notarial shartnoma → Davlat xizmatlari markazi/kadastr organi. Sotuvchi rasmiylashtirishdan bo'yin tovlasa — sud orqali huquqni tan olish mumkin.",
+      "manba": "lex.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "firibgarlik-pul-aldab-olindi",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "Bir odam mendan pul olib, va'dasini bajarmasdan g'oyib bo'ldi. Firibgarlik uchun qayerga murojaat qilaman?",
+      "qisqa_javob": "Aldash yoki ishonchni suiiste'mol qilish yo'li bilan birovning mulkini egallab olish — firibgarlik, Jinoyat kodeksining 168-moddasi bo'yicha jinoiy javobgarlikka tortiladi. Darhol yashash joyingizdagi IIB (militsiya) bo'limiga yozma ariza bering yoki 102 ga qo'ng'iroq qiling — arizangiz ro'yxatga olinishi va tekshirilishi shart. Dalillarni saqlang: yozishmalar, o'tkazma cheklari, guvohlar. Pulni jinoyat ishi doirasida fuqarolik da'vosi orqali ham qaytarib olishingiz mumkin. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/docs/-111453",
+      "muammolar": [
+        "pulimni aldab olishdi",
+        "firibgarga qanday ariza beriladi",
+        "internetda aldanib pul o'tkazdim",
+        "militsiya arizamni olmayapti",
+        "aldangan pulni qaytarib olish"
+      ],
+      "url": "https://lex.uz/docs/-111453",
+      "huquqiy_asos": "O'zbekiston Respublikasining Jinoyat kodeksi, 168-modda (firibgarlik)",
+      "qoshimcha": "Murojaat: IIB (102) → ariza qabul qilinmasa prokuratura. Ariza ro'yxatga olinishi shart. Zararni undirish — jinoyat ishi doirasidagi fuqarolik da'vosi orqali.",
+      "manba": "lex.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "kasallik-varaqasi-tolanmayapti",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "Kasal bo'lib kasallik varaqasi oldim, lekin ish beruvchi uni to'lamayapti. Bu qonuniymi?",
+      "qisqa_javob": "Yo'q, qonuniy emas. Mehnat kodeksi (28.10.2022) bo'yicha xodim kasalligi sababli vaqtincha mehnatga qobiliyatsiz bo'lganda unga nafaqa to'lanishi kafolatlangan — tibbiy muassasa bergan mehnatga layoqatsizlik varaqasi to'lov uchun asos bo'ladi. Ish beruvchiga yozma talabnoma bering va varaqa nusxasini ilova qiling. To'lamasa, Mehnat inspeksiyasiga shikoyat qiling — inspeksiya ish beruvchini majburlashi va jarimaga tortishi mumkin. Undan keyin sudga murojaat qilish huquqingiz bor, sud orqali nafaqa va kechiktirilgan to'lovlarni undirasiz. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/uz/docs/6257288",
+      "muammolar": [
+        "bolnichniy to'lanmayapti",
+        "kasallik varaqasini ish beruvchi olmayapti",
+        "kasal bo'lgan kunlarim uchun pul berishmadi",
+        "mehnatga layoqatsizlik nafaqasi qanday to'lanadi",
+        "ish beruvchi bolnichniyni tan olmayapti"
+      ],
+      "url": "https://lex.uz/uz/docs/6257288",
+      "huquqiy_asos": "O'zbekiston Respublikasining Mehnat kodeksi (28.10.2022) — vaqtincha mehnatga qobiliyatsizlik nafaqasi kafolati",
+      "qoshimcha": "Tartib: ish beruvchiga yozma talab → Mehnat inspeksiyasi → sud. Mehnat nizolari bo'yicha sudga murojaat uchun muddatlarni o'tkazib yubormang.",
+      "manba": "lex.uz",
+      "sahifa_ochildi": true
     }
   ]
 }

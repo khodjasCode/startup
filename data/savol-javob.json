@@ -341,6 +341,2673 @@
       "qoshimcha": "Shartnoma soliq organida ro'yxatga olinsa dastlabki deklaratsiya shart emas",
       "manba": "advice.uz",
       "sahifa_ochildi": true
+    },
+    {
+      "id": "nikoh-tuzish-tartibi",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Oilaviy munosabatlar",
+      "savol": "Nikoh tuzish tartibi qanday: qachon va qayerda qayd etiladi?",
+      "qisqa_javob": "Nikoh FHDYo organiga ariza berilgandan keyin bir oy o'tgach, nikohlanuvchilarning shaxsan ishtirokida qayd etiladi; uzrli sabablar (homiladorlik, bola tug'ilishi) bo'lsa bir oy o'tmasdan, hatto ariza berilgan kuni ham tuzilishi mumkin, muddat esa uch oygacha uzaytirilishi mumkin. Nikoh yoshi erkak va ayollar uchun 18 yosh, uzrli sabab bo'lsa hokim yoshni ko'pi bilan bir yilga kamaytirishi mumkin. Nikohlanuvchilar psixiatr, narkolog va teri-tanosil vrachlarida bepul tibbiy ko'rikdan o'tadi (50 yoshdan oshganlar faqat roziligi bilan), nikoh qayd etilganda davlat boji undiriladi.",
+      "muammolar": [
+        "Nikohga ariza berganmiz, qachon yozilishimiz mumkin?",
+        "ZAGSga qanday hujjat topshiriladi?",
+        "18 yoshga to'lmagan qizni nikohdan o'tkazsa bo'ladimi?",
+        "Nikoh oldidan tibbiy ko'rik majburiymi?"
+      ],
+      "url": "https://advice.uz/oz/document/1455",
+      "huquqiy_asos": "O'zbekiston Respublikasi Oila kodeksi",
+      "qoshimcha": "Onlayn ariza: my.gov.uz/uz/marriage-registration-v1/passport; FHDYo navbatiga yozilish: my.gov.uz/uz/zags-queue/passport",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "tugilishni-qayd-etish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Oilaviy munosabatlar",
+      "savol": "Bola tug'ilishini qayd etish tartibi va muddati qanday?",
+      "qisqa_javob": "Tug'ilish bola tug'ilgan joydagi yoki ota-onadan birining doimiy yashash joyidagi FHDYo organida qayd etiladi, ariza bola tug'ilgan kundan 1 oy ichida berilishi kerak. Tibbiy ma'lumotnoma, ota-onalar pasportlari va nikoh guvohnomasi (yoki otalikni aniqlash arizasi) talab qilinadi. Guvohnoma berish uchun BHMning 10 foizi, takroriy guvohnoma uchun 15 foizi to'lanadi; 16 yoshdan oshgan shaxsning tug'ilishi faqat sud qarori asosida qayd etiladi.",
+      "muammolar": [
+        "Bolamga guvohnoma olish uchun qayerga boraman?",
+        "Tug'ilganlik guvohnomasi uchun qancha to'lanadi?",
+        "Bola tug'ilganini kech qayd etsak nima bo'ladi?",
+        "Metirka olish tartibi"
+      ],
+      "url": "https://advice.uz/oz/document/1444",
+      "huquqiy_asos": "O'zbekiston Respublikasi Oila kodeksi",
+      "qoshimcha": "Onlayn: my.gov.uz; 24/7 huquqiy maslahat: t.me/Odil_chat_bot",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "familiya-ism-ozgartirish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Oilaviy munosabatlar",
+      "savol": "Familiya, ism va ota ismini o'zgartirish tartibi qanday?",
+      "qisqa_javob": "16 yoshga to'lgan fuqaro yashash joyidagi FHDYo organiga yoki my.gov.uz portali orqali ariza beradi; ariza 2 oyda ko'rib chiqiladi, uzrli sabab bo'lsa yana 1 oyga uzaytirilishi mumkin. Tug'ilganlik va nikoh guvohnomalari, bolalarning guvohnomalari, pasport nusxasi va 3x4 fotosurat talab qilinadi, davlat boji to'lanadi. Rad etilsa, FHDYo xulosasi ustidan sudga shikoyat qilish mumkin.",
+      "muammolar": [
+        "Ismimni almashtirmoqchiman, qayerga murojaat qilaman?",
+        "Familiyani o'zgartirish qancha vaqt oladi?",
+        "Otchestvoni o'zgartirish uchun qanday hujjatlar kerak?"
+      ],
+      "url": "https://advice.uz/oz/document/1476",
+      "huquqiy_asos": "O'zbekiston Respublikasi Oila kodeksi",
+      "qoshimcha": "Onlayn ariza: my.gov.uz",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "nikoh-shartnomasi-tuzish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Oilaviy munosabatlar",
+      "savol": "Nikoh shartnomasi qanday tuziladi va unda nimalar belgilanadi?",
+      "qisqa_javob": "Nikoh shartnomasi er-xotinning nikoh davridagi va ajralgandagi mulkiy huquq-majburiyatlarini belgilaydi; u nikoh ro'yxatga olinguniga qadar ham, nikoh davrida ham yozma shaklda tuzilib, notarial tasdiqlanadi (davlat boji undirilmaydi). Shartnomada umumiy mulk tartibi, o'zaro ta'minot va ajralganda mulk taqsimoti belgilanishi mumkin, ammo huquq layoqatini yoki mehnatga layoqatsiz tomonning ta'minot huquqini cheklovchi shartlar taqiqlanadi. Shartnoma tomonlar kelishuvi bilan istalgan vaqtda o'zgartiriladi yoki bekor qilinadi, bir tomonlama voz kechishga yo'l qo'yilmaydi.",
+      "muammolar": [
+        "Brachniy kontrakt qanday tuziladi?",
+        "Nikoh shartnomasini turmushdan keyin tuzsa bo'ladimi?",
+        "Nikoh shartnomasida nimani yozish mumkin emas?"
+      ],
+      "url": "https://advice.uz/oz/document/583",
+      "huquqiy_asos": "O'zbekiston Respublikasi Oila kodeksi",
+      "qoshimcha": "Notariuslar ro'yxati: minjust.uz/uz/interactive/notarius_list; navbatga yozilish: my.gov.uz/uz/notaries-queue/passport",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "farzandlikka-olish-tartibi",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Oilaviy munosabatlar",
+      "savol": "Farzandlikka olish va uni bekor qilish qanday tartibda amalga oshiriladi?",
+      "qisqa_javob": "Farzandlikka olish sud tomonidan, vasiylik va homiylik organining asoslilik to'g'risidagi xulosasi bilan amalga oshiriladi; oluvchi va bola o'rtasida kamida 15 yosh farq bo'lishi, 10 yoshga to'lgan bolaning esa roziligi talab qilinadi. Ota-onalik huquqidan mahrum qilinganlar, muomalaga layoqatsizlar, narkologiya/asab kasalliklari ro'yxatida turuvchilar va sudlanganlar farzandlikka ololmaydi. Farzandlikka olingan bola oluvchining o'z bolalari bilan huquqlarda tenglashtiriladi; bekor qilish faqat sud tartibida bo'ladi.",
+      "muammolar": [
+        "Bolani usinovleniye qilish uchun nima kerak?",
+        "Farzandlikka olishga kimlar ruxsat berolmaydi?",
+        "Asrab olingan bolani qaytarish mumkinmi?"
+      ],
+      "url": "https://advice.uz/oz/document/590",
+      "huquqiy_asos": "O'zbekiston Respublikasi Oila kodeksi; Vazirlar Mahkamasining 21.11.2020-yildagi 739-son qarori",
+      "qoshimcha": "Vasiylik va homiylik organlari, prokuratura yoki sudga murojaat qilinadi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ota-onalik-huquqidan-mahrum-qilish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Oilaviy munosabatlar",
+      "savol": "Ota-onalik huquqidan mahrum qilish va uni tiklash qanday amalga oshiriladi?",
+      "qisqa_javob": "Ota-ona aliment to'lashdan bo'yin tovlasa, bolaga shafqatsiz muomalada bo'lsa, muttasil ichkilikbozlik yoki giyohvandlikka mubtalo bo'lsa yoxud bola/turmush o'rtog'i hayotiga qasddan jinoyat qilsa, sud tartibida ota-onalik huquqidan mahrum qilinadi; sud bir vaqtda aliment undirish masalasini ham hal qiladi. Huquqni tiklash ham sud orqali, ota-ona xulq-atvorini o'zgartirganda mumkin, bunda 10 yoshga to'lgan bolaning roziligi kerak; bola farzandlikka olingan bo'lsa tiklashga yo'l qo'yilmaydi.",
+      "muammolar": [
+        "Otani ota-onalik huquqidan mahrum qilish uchun qayerga murojaat qilinadi?",
+        "Ichkilikboz ota-onadan bolani olib qo'yish",
+        "Ota-onalik huquqini qaytarib olsa bo'ladimi?"
+      ],
+      "url": "https://advice.uz/oz/document/618",
+      "huquqiy_asos": "O'zbekiston Respublikasi Oila kodeksi",
+      "qoshimcha": "Da'vo bilan sudga, shuningdek prokuratura organlariga murojaat qilish mumkin",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "nikohni-bekor-qilish-fhdyo",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ajrim va aliment masalalari",
+      "savol": "O'zaro rozilik bilan FHDYo orqali nikohdan ajralish tartibi qanday?",
+      "qisqa_javob": "Oila kodeksining 42-moddasiga ko'ra mulkiy nizosi va voyaga yetmagan farzandlari bo'lmagan er-xotin o'zaro rozilik bilan FHDYo organida ajralishi mumkin; xotin homilador bo'lsa ariza qabul qilinmaydi. Ariza YaIDXP (my.gov.uz) orqali Face-ID/MyID bilan elektron berilishi mumkin, FHDYo 3 kun ichida mahalladagi oilaviy qadriyatlar komissiyasini xabardor qiladi. Davlat boji birinchi ajralishda BHMning 2 baravari, takroriy ajralishda 4 baravari; mulk yoki ta'minot nizosi bo'lsa masala sudda hal etiladi.",
+      "muammolar": [
+        "Er-xotin kelishib ajrashmoqchimiz, qayerga boramiz?",
+        "ZAGS orqali ajrashish qancha turadi?",
+        "Ajrashish arizasini onlayn bersa bo'ladimi?"
+      ],
+      "url": "https://advice.uz/oz/document/1467",
+      "huquqiy_asos": "Oila kodeksi 42, 218-moddalar; Vazirlar Mahkamasining 20.10.2023-yildagi 550-son qarori",
+      "qoshimcha": "FHDYo navbati: my.gov.uz/uz/zags-queue/passport",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "nikohdan-sudsiz-ajrashish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ajrim va aliment masalalari",
+      "savol": "Nikohdan sudsiz ajrashish mumkinmi?",
+      "qisqa_javob": "Mumkin: Oila kodeksining 42-moddasiga ko'ra voyaga yetmagan farzandlari va mulkiy nizosi bo'lmagan er-xotin o'zaro rozilik bilan FHDYoda ajrashadi; 43-moddaga ko'ra turmush o'rtoq bedarak yo'qolgan, muomalaga layoqatsiz deb topilgan yoki 3 yildan ortiq muddatga ozodlikdan mahrum etilgan bo'lsa, bir tomonlama ariza bilan, farzandlar borligidan qat'i nazar ajrashish mumkin. Ariza my.gov.uz orqali Face-ID/MyID bilan beriladi, yarashtirish uchun 3 oylik muhlat beriladi, davlat boji BHMning 1,5 baravari.",
+      "muammolar": [
+        "Erim qamoqda, sudga bormasdan ajrasha olamanmi?",
+        "Sudga bormasdan razvod olish yo'llari",
+        "ZAGS orqali ajrashish shartlari nima?"
+      ],
+      "url": "https://advice.uz/oz/document/4204",
+      "huquqiy_asos": "Oila kodeksi 38, 42, 43-moddalar",
+      "qoshimcha": "Elektron ariza: my.gov.uz",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "aliment-miqdori-voyaga-yetmagan-bolalar",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ajrim va aliment masalalari",
+      "savol": "Voyaga yetmagan bolalarga aliment miqdori qancha bo'ladi?",
+      "qisqa_javob": "Kelishuv bo'lmaganda aliment sud tomonidan oylik ish haqi/daromadning bitta bolaga 1/4, ikkita bolaga 1/3, uch va undan ortiq bolaga 1/2 qismi miqdorida undiriladi. Har bir bola uchun aliment mehnatga haq to'lashning eng kam miqdorining 26,5 foizidan kam bo'lmasligi kerak. Ixtiyoriy to'lanmasa, sud buyrug'i asosida majburiy undiriladi.",
+      "muammolar": [
+        "Bitta bolaga qancha aliment to'lanadi?",
+        "Aliment maoshdan necha foiz ushlanadi?",
+        "Eng kam aliment miqdori qancha?"
+      ],
+      "url": "https://advice.uz/oz/document/625",
+      "huquqiy_asos": "Oila kodeksi 99-modda va boshqalar; Oliy sud Plenumining 29.07.2016-yildagi 11-son qarori",
+      "qoshimcha": "Aliment kalkulyatori: mib.uz/calculator; 24/7 maslahat: t.me/Odil_chat_bot",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "alimentni-sud-orqali-undirish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ajrim va aliment masalalari",
+      "savol": "Alimentni sud tartibida qanday undirish mumkin?",
+      "qisqa_javob": "Aliment olish huquqiga ega shaxs istalgan vaqtda sudga murojaat qilishi mumkin; aliment sudga murojaat etilgan paytdan boshlab undiriladi. Agar sudgacha ta'minot olishga harakat qilingani, lekin to'lovchi bosh tortgani sud tomonidan aniqlansa, o'tgan davr uchun aliment uch yillik muddat doirasida undirib olinadi. Ijro uchun Majburiy ijro byurosiga murojaat qilinadi.",
+      "muammolar": [
+        "Er aliment bermayapti, sudga qanday beraman?",
+        "O'tgan yillar uchun aliment undirsa bo'ladimi?",
+        "Aliment arizasini qayerga topshiraman?"
+      ],
+      "url": "https://advice.uz/oz/document/645",
+      "huquqiy_asos": "O'zbekiston Respublikasi Oila kodeksi",
+      "qoshimcha": "MIB'ga onlayn murojaat: pm.gov.uz (Majburiy ijro byurosi bo'limi)",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "aliment-tolamaslik-javobgarlik",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ajrim va aliment masalalari",
+      "savol": "Aliment to'lamaganlik uchun qanday javobgarlik bor?",
+      "qisqa_javob": "Sud qarori bo'yicha aliment o'z vaqtida to'lanmasa, kechiktirilgan har bir kun uchun to'lanmagan summaning 0,1 foizi miqdorida neustoyka to'lanadi, oluvchi neustoyka qoplamagan zararlarni ham undirishga haqli. Bo'yin tovlash davom etsa ma'muriy jazo qo'llaniladi, voyaga yetmagan bolalarga aliment bermaslik ota-onalik huquqidan mahrum qilish yoki jinoiy javobgarlikka olib kelishi mumkin. Qarzdor majburiyatni to'liq bajarsa javobgarlikdan ozod qilinadi.",
+      "muammolar": [
+        "Sobiq erim aliment to'lamayapti, nima qilay?",
+        "Aliment qarzi uchun qamaladimi?",
+        "Alimentchi uchun penya qancha?"
+      ],
+      "url": "https://advice.uz/oz/document/657",
+      "huquqiy_asos": "Oila kodeksi; Ma'muriy javobgarlik kodeksi; Jinoyat kodeksi",
+      "qoshimcha": "Prokuraturaga onlayn murojaat: pm.gov.uz",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "aliment-chet-elga-ketishda",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ajrim va aliment masalalari",
+      "savol": "Aliment to'lovchi chet elga ketayotganda aliment qanday ta'minlanadi?",
+      "qisqa_javob": "Doimiy yashash uchun yoki 3 oydan ortiq muddatga chet davlatga ketayotgan aliment to'lovchi aliment oluvchi bilan to'lash shartlari haqida kelishuv tuzishi shart; kelishuv bo'lmasa oluvchi alimentni qat'iy pul summasida belgilash to'g'risida sudga da'vo berishi mumkin. Voyaga yetmagan bolalar alimenti oldindan to'lansa yoki garov shartnomasi tuzilsa, kelishuv majburiyatidan ozod qilinadi va chiqishga qo'yilgan vaqtincha cheklov olib tashlanadi.",
+      "muammolar": [
+        "Rossiyaga ishlashga ketyapman, aliment qarzim bor — chiqara olishadimi?",
+        "Alimentchi chet elga chiqishi uchun nima qilishi kerak?",
+        "Aliment bo'yicha garov shartnomasi nima?"
+      ],
+      "url": "https://advice.uz/oz/document/651",
+      "huquqiy_asos": "Oila kodeksi; Vazirlar Mahkamasining 06.10.2018-yildagi 808-son qarori",
+      "qoshimcha": "Majburiy ijro byurosi orqali rasmiylashtiriladi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "fuqarolikni-olish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Fuqarolik masalalari",
+      "savol": "O'zbekiston fuqaroligini olish shartlari qanday?",
+      "qisqa_javob": "Fuqarolik tug'ilganlik bo'yicha, farzandlikka olinganda, fuqarolikka qabul qilish yoki tiklash orqali olinadi. Qabul qilish uchun chet davlat fuqaroligidan chiqish, yashash guvohnomasi olingan kundan boshlab 5 yil uzluksiz yashash, tirikchilikning qonuniy manbai, Konstitutsiyaga rioya qilish majburiyati va davlat tilini zarur darajada bilish talab etiladi. So'rovnoma, pasport/ID-karta, tug'ilganlik guvohnomasi, daromad manbai va sudlanmaganlik haqidagi hujjatlar bilan ichki ishlar organlariga murojaat qilinadi.",
+      "muammolar": [
+        "Grajdanstvo olish uchun necha yil yashash kerak?",
+        "O'zbekiston pasportini olish shartlari",
+        "Fuqarolikka qanday hujjatlar topshiriladi?"
+      ],
+      "url": "https://advice.uz/oz/document/42",
+      "huquqiy_asos": "O'zbekiston Respublikasining \"O'zbekiston Respublikasining fuqaroligi to'g'risida\"gi Qonuni",
+      "qoshimcha": "Ichki ishlar organlariga (tuman/shahar bo'limi) murojaat qilinadi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "id-karta-olish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Fuqarolik masalalari",
+      "savol": "ID-karta (pasport) olish tartibi va muddati qanday?",
+      "qisqa_javob": "ID-karta 16 yoshga to'lganda, muddati tugaganda, shaxsiy ma'lumotlar o'zgarganda, hujjat yaroqsiz bo'lganda yoki yo'qolganda beriladi; bolalarga tug'ilgandan ota-ona xohishiga ko'ra rasmiylashtiriladi. Ariza-anketa, oldingi pasport/ID-karta, tug'ilganlik guvohnomasi (birinchi marta) va davlat boji kvitansiyasi topshiriladi. Hujjatlar to'liq qabul qilingandan so'ng ID-karta 1 ish kuni ichida beriladi; ma'lumot o'zgarganda 1 oy ichida murojaat qilish lozim, nogironlar va qariyalarga uyga borib xizmat 15 kunda qo'shimcha to'lovsiz ko'rsatiladi.",
+      "muammolar": [
+        "ID karta necha kunda tayyor bo'ladi?",
+        "16 yoshda pasport olish uchun nima kerak?",
+        "ID kartani yo'qotib qo'ydim, qanday tiklayman?"
+      ],
+      "url": "https://advice.uz/oz/document/1628",
+      "huquqiy_asos": "\"O'zbekiston Respublikasining fuqaroligi to'g'risida\"gi Qonun; Prezidentning 22.09.2020-yildagi PF-6065-son Farmoni; VM 30.01.2020-yildagi 49-son qarori",
+      "qoshimcha": "Davlat xizmatlari markazlari orqali rasmiylashtiriladi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "pasport-id-karta-almashtirish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Fuqarolik masalalari",
+      "savol": "Pasport/ID-kartani almashtirish qachon va qanday amalga oshiriladi?",
+      "qisqa_javob": "ID-karta familiya, ism, ota ismi, tug'ilgan sana yoki jins o'zgarganda, ma'lumotlarda noaniqlik yoki texnik nuqson aniqlanganda va hujjat yo'qolganda almashtiriladi; yangi ID-karta hujjatlar qabul qilingandan so'ng bir ish kuni ichida beriladi. Ariza-anketa, eski hujjat va davlat boji kvitansiyasi kerak. Millati chipga ota-ona millatiga muvofiq yoziladi, aralash nikohda birinchi berishda fuqaro xohishiga ko'ra tanlanadi va keyin faqat bir marta o'zgartirilishi mumkin.",
+      "muammolar": [
+        "Turmushga chiqib familiyam o'zgardi, pasportni almashtirish",
+        "ID kartadagi xatoni tuzatish",
+        "Pasport almashtirish necha kun davom etadi?"
+      ],
+      "url": "https://advice.uz/oz/document/1631",
+      "huquqiy_asos": "\"Fuqarolik to'g'risida\"gi va \"Davlat boji to'g'risida\"gi qonunlar; Prezident farmoni (pasport tizimi islohoti)",
+      "qoshimcha": "Davlat xizmatlari markazlari; elektron to'lovda kvitansiya shart emas",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "chet-elga-chiqish-pasporti",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Fuqarolik masalalari",
+      "savol": "Chet elga chiqish (xorij) pasportini qanday olish mumkin?",
+      "qisqa_javob": "Xorijga chiqish uchun biometrik chet elga chiqish pasporti my.gov.uz/uz/service/418 orqali yoki ma'lumotlarni yig'ish punktiga bevosita murojaat qilib rasmiylashtiriladi. Amal qilish muddati: 1 yoshgacha bolalarga 2 yil, 1-25 yoshda 5 yil, 25 yoshdan keyin 10 yil. 15-18 yoshli fuqarolar ota-onasining yozma roziligi bilan mustaqil chiqishi mumkin; 18-27 yoshli harbiy xizmatga majburlar haqida mudofaa organlari elektron tizim orqali xabardor qilinadi.",
+      "muammolar": [
+        "Zagranpasport qayerdan olinadi?",
+        "Xorij pasporti necha yilga beriladi?",
+        "Bolaga chet el pasporti qanday ochiladi?"
+      ],
+      "url": "https://advice.uz/oz/document/1632",
+      "huquqiy_asos": "Prezidentning 16.06.2022-yildagi PQ-282-son va 26.12.2018-yildagi PQ-4079-son qarorlari",
+      "qoshimcha": "Onlayn ariza: my.gov.uz/uz/service/418",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "doimiy-royxatga-olish-propiska",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Fuqarolik masalalari",
+      "savol": "Doimiy yashash joyi bo'yicha ro'yxatga olish (propiska) qanday rasmiylashtiriladi?",
+      "qisqa_javob": "Doimiy yashash joyi bo'yicha ro'yxatga turish arizasi my.gov.uz/uz/service/363 davlat xizmatlari portali orqali elektron topshiriladi. Tartib \"Fuqarolik to'g'risida\"gi va \"Davlat boji to'g'risida\"gi qonunlar hamda doimiy propiska tartibini isloh qilishga oid Prezident farmonlari bilan belgilangan.",
+      "muammolar": [
+        "Propiska qilish uchun qayerga murojaat qilinadi?",
+        "Yangi uyga ro'yxatdan o'tish (propiska) onlayn bo'ladimi?",
+        "Vaqtincha ro'yxatga turish tartibi"
+      ],
+      "url": "https://advice.uz/oz/document/2104",
+      "huquqiy_asos": "O'RQ-296-son Qonun (14.09.2011); \"Davlat boji to'g'risida\"gi qonun; Prezident farmonlari",
+      "qoshimcha": "Onlayn ariza: my.gov.uz/uz/service/363; 24/7 maslahat: t.me/Odil_chat_bot",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "chiqish-cheklovini-olib-tashlash",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Fuqarolik masalalari",
+      "savol": "O'zbekistondan chiqishga qo'yilgan cheklovni olib tashlash mumkinmi?",
+      "qisqa_javob": "Mumkin: ijro ishi tamomlanganda qarzdorga qo'yilgan cheklovlar, jumladan chiqish taqiqi bekor bo'ladi. Aliment bo'yicha esa alimentlar oldindan to'lansa yoki qiymati BHMning kamida 250 baravari bo'lgan garov shartnomasi tuzilsa, davlat ijrochisi ertasi kunidan kechiktirmay IIV va Chegara qo'shinlarini cheklov olib tashlangani haqida xabardor qiladi. Sud ajrimiga asosan oldindan to'lash va mol-mulk topshirish 10 ish kunidan oshmagan muddatda amalga oshiriladi.",
+      "muammolar": [
+        "Chegaradan chiqarishmayapti, qarzim bor — nima qilay?",
+        "Vizani emas, chiqish taqiqini qanday olib tashlataman?",
+        "Aliment qarzi bilan chet elga chiqish"
+      ],
+      "url": "https://advice.uz/oz/document/4244",
+      "huquqiy_asos": "\"Sud hujjatlari va boshqa organlar hujjatlarini ijro etish to'g'risida\"gi Qonun; VM 06.10.2018-yildagi 808-son qarori",
+      "qoshimcha": "Majburiy ijro byurosi (davlat ijrochisi) orqali hal qilinadi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ishonchnoma-tasdiqlash",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Notariat",
+      "savol": "Ishonchnoma qanday tasdiqlanadi va qancha muddatga beriladi?",
+      "qisqa_javob": "Ishonchnoma ko'pi bilan 3 yil muddatga beriladi, muddat ko'rsatilmagan bo'lsa 1 yil amal qiladi; ko'chmas mulk va transportni tasarruf etish ishonchnomalari notarius tomonidan tasdiqlanadi, ishonchli vakilning ishtiroki shart emas. Ish haqi, pensiya, nafaqa, xat-xabar olishga oid ayrim ishonchnomalarni tashkilot, mahalla yig'ini yoki kasalxona ma'muriyati ham tasdiqlashi mumkin. Qonunga zid bo'lsa yoki hujjatlar talabga javob bermasa tasdiqlash rad etiladi.",
+      "muammolar": [
+        "Doverennost necha yilga beriladi?",
+        "Mashinaga ishonchnoma qayerda qilinadi?",
+        "Pensiya olishga ishonchnomani kim tasdiqlaydi?"
+      ],
+      "url": "https://advice.uz/oz/document/1981",
+      "huquqiy_asos": "Fuqarolik kodeksi; \"Notariat to'g'risida\"gi Qonun",
+      "qoshimcha": "E-notarius portali: e-notarius.uz; Adliya vazirligi ishonch telefoni: 1008",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "avto-sotish-notariusga-bormasdan",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Notariat",
+      "savol": "Avtomobilni notarial idoraga bormasdan onlayn sotish mumkinmi?",
+      "qisqa_javob": "Mumkin: E-notarius.uz portalida sotuvchi mashinani va narxni tanlab, xaridorning JSHSHIR, hujjat seriyasi va telefonini kiritadi; xaridor SMS orqali kelgan havolada Face-ID verifikatsiyasidan o'tib rozilik bildiradi. Tanlangan notarius belgilangan vaqtda videokonferensaloqa orqali bitimni rasmiylashtiradi, shartnoma asl nusxalari taraflarga kuryer yoki pochta orqali yuboriladi.",
+      "muammolar": [
+        "Mashinani onlayn sotsa bo'ladimi?",
+        "Boshqa viloyatdagi xaridorga avtomobilni qanday o'tkazaman?",
+        "E-notarius orqali mashina sotish tartibi"
+      ],
+      "url": "https://advice.uz/oz/document/3127",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "Portal: e-notarius.uz",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "notarial-davlat-boji-miqdorlari",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Notariat",
+      "savol": "Uy-joy va avtotransportni o'tkazishda davlat boji qancha to'lanadi?",
+      "qisqa_javob": "Ko'chmas mulk shartnomalarini tasdiqlash uchun Toshkent, Nukus va viloyat markazlarida BHMning 1 baravari, boshqa aholi punktlarida 50 foizi to'lanadi. Avtomobil oldi-sotdi shartnomasi uchun BHMning 3 baravari, mototransport uchun 25 foizi; avtomobil boshqarish ishonchnomasi yaqin qarindoshlarga BHMning 50 foizi, boshqalarga 2 baravari. Ijara shartnomasi yaqin qarindoshlar uchun BHMning 10, jismoniy shaxslarga 25, yuridik shaxslarga 50 foizi; garov/ipoteka jismoniy shaxslarga BHMning 1, yuridik shaxslarga 2 baravari.",
+      "muammolar": [
+        "Uy oldi-sotdisida notariusga qancha to'lanadi?",
+        "Mashina o'tkazishda gosposhlina qancha?",
+        "Kvartira ijara shartnomasini tasdiqlash narxi"
+      ],
+      "url": "https://advice.uz/oz/document/2820",
+      "huquqiy_asos": "O'zbekiston Respublikasining 06.12.2022-yildagi O'RQ-808-son Qonuni (Davlat boji to'g'risida)",
+      "qoshimcha": "To'lovlar BHM (bazaviy hisoblash miqdori)ga nisbatan hisoblanadi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "qonun-boyicha-meros-guvohnomasi",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Notariat",
+      "savol": "Qonun bo'yicha merosga bo'lgan huquq to'g'risidagi guvohnoma qanday olinadi?",
+      "qisqa_javob": "Guvohnoma meros ochilgan kundan e'tiboran 6 oy o'tganidan keyin notarial idora tomonidan beriladi. Pasport, meros qoldiruvchining o'lim guvohnomasi, uning doimiy yashash joyi haqidagi ma'lumot, meros tarkibini tasdiqlovchi hujjatlar hamda merosxo'rlarning tug'ilganlik/nikoh guvohnomalari talab qilinadi. Soliq kodeksiga ko'ra ayrim hollarda davlat bojidan ozod etilishi mumkin.",
+      "muammolar": [
+        "Otam vafot etdi, merosni qanday rasmiylashtiraman?",
+        "Meros guvohnomasi qachon beriladi?",
+        "Nasledstvo uchun notariusga qanday hujjat olib boriladi?"
+      ],
+      "url": "https://advice.uz/oz/document/2602",
+      "huquqiy_asos": "Fuqarolik kodeksi; Oila kodeksi; \"Notariat to'g'risida\"gi va \"Davlat boji to'g'risida\"gi qonunlar",
+      "qoshimcha": "Portal: e-notarius.uz",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "chet-eldan-notarial-bitim",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Notariat",
+      "savol": "Chet eldan turib notarial bitimlarni rasmiylashtirish mumkinmi?",
+      "qisqa_javob": "2024-yil 1-martdan boshlab chet eldagi shaxslar mol-mulk bilan bog'liq bitimlarni (mulk huquqini o'tkazishdan tashqari) notarial idoraga kelmasdan, elektron raqamli imzo va videokonferensaloqa yordamida rasmiylashtirishi mumkin. \"Notarius\" avtomatlashtirilgan axborot tizimi orqali ariza beruvchilardan ortiqcha hujjatlar so'rash taqiqlangan.",
+      "muammolar": [
+        "Rossiyada ishlayman, O'zbekistondagi ishlarim uchun ishonchnoma qilishim kerak",
+        "Chet turib notarius xizmatidan foydalanish",
+        "Konsulga bormasdan hujjat rasmiylashtirsa bo'ladimi?"
+      ],
+      "url": "https://advice.uz/oz/document/3114",
+      "huquqiy_asos": "Prezidentning 11.09.2023-yildagi PF-158-son Farmoni",
+      "qoshimcha": "\"Notarius\" AAT va videokonferensaloqa orqali; ERI talab qilinadi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "meros-imtiyozli-huquq",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Notariat",
+      "savol": "Kimlar meros olishda imtiyozli huquqqa ega?",
+      "qisqa_javob": "Fuqarolik kodeksining 1153-moddasiga ko'ra, meros tarkibidagi bo'linmaydigan mulk (masalan uy, avtomashina) taqsimlanayotganda meros qoldiruvchi bilan u vafot etgan paytda birga doimiy yashagan va o'sha yerda yashashni davom ettirmoqchi bo'lgan merosxo'rlar imtiyozli huquqqa ega bo'ladi.",
+      "muammolar": [
+        "Uyda otam bilan birga yashaganman, meros bo'lishida ustunligim bormi?",
+        "Merosdagi uyni kim birinchi oladi?",
+        "Bo'linmaydigan mulk merosda qanday taqsimlanadi?"
+      ],
+      "url": "https://advice.uz/oz/document/4098",
+      "huquqiy_asos": "Fuqarolik kodeksi 1153-modda",
+      "qoshimcha": "Notarial idoraga murojaat qilinadi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "muddatli-harbiy-xizmat",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Umumiy harbiy majburiyat",
+      "savol": "Muddatli harbiy xizmat nima va qancha davom etadi?",
+      "qisqa_javob": "Muddatli harbiy xizmat — chaqiruv yoshidagi fuqarolarning oddiy askarlar va serjantlar lavozimlarida Qurolli Kuchlardagi majburiy xizmati bo'lib, muddati kalendar hisobida 12 oy. Tartibi \"Umumiy harbiy majburiyat va harbiy xizmat to'g'risida\"gi qonun bilan belgilanadi.",
+      "muammolar": [
+        "Armiya xizmati necha oy?",
+        "Srochniy xizmat muddati qancha?",
+        "Harbiy xizmatga kimlar chaqiriladi?"
+      ],
+      "url": "https://advice.uz/oz/document/3130",
+      "huquqiy_asos": "O'zbekiston Respublikasining 12.12.2002-yildagi 436-II-son Qonuni",
+      "qoshimcha": "Normativ hujjatlar matni: lex.uz",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "harbiy-xizmatga-chaqirilish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Umumiy harbiy majburiyat",
+      "savol": "Muddatli harbiy xizmatga chaqiruv qachon va qanday o'tkaziladi?",
+      "qisqa_javob": "Chaqiruv Prezident qaroriga muvofiq yiliga bir marta mart-aprel oylarida o'tkaziladi, qaror chaqiruv boshlanishidan kamida bir oy oldin OAVda e'lon qilinadi. Chaqiriluvchi chaqiruv qog'ozida ko'rsatilgan muddatda chaqiruv punktida hozir bo'lishi shart; kasallik, yaqin qarindosh vafoti yoki og'ir kasalligi, tabiiy ofat uzrli sabab hisoblanadi. Kechiktirish/ozod etish huquqiga ega bo'lganlar hamda surishtiruv yoki jinoyat ishi ostidagilar chaqirilmaydi.",
+      "muammolar": [
+        "Prizыv qachon boshlanadi?",
+        "Povestka kelsa nima qilishim kerak?",
+        "Voyenkomatga bormaslik oqibati nima?"
+      ],
+      "url": "https://advice.uz/oz/document/3139",
+      "huquqiy_asos": "\"Umumiy harbiy majburiyat va harbiy xizmat to'g'risida\"gi Qonun; VM 22.02.2003-yildagi 99-son qarori",
+      "qoshimcha": "Yashash joyidagi mudofaa ishlari organiga murojaat qilinadi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "harbiy-xizmatni-kechiktirish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Umumiy harbiy majburiyat",
+      "savol": "Harbiy xizmatga chaqirilishni kechiktirish (otsrochka) kimga beriladi?",
+      "qisqa_javob": "Kechiktirish territorial komissiya qarori bilan oilaviy sharoit, salomatlik yoki ta'limni davom ettirish asosida beriladi: ota-onasi mehnatga qobiliyatsiz bo'lsa, aka-ukalaridan biri xizmatda bo'lsa, onasiz tarbiyalanayotgan farzandi yoki nogironligi bo'lgan xotini va 2+ voyaga yetmagan farzandi bo'lsa. O'rta maxsus/professional ta'lim o'quvchilari va oliy ta'limning kunduzgi talabalari o'qish tugagunicha kechiktiriladi. Harbiy xizmatga yaroqsizlar, aka-ukasi xizmatda halok bo'lganlar va ro'yxatdan o'tgan diniy tashkilot rahbarlari tinchlik davrida xizmatdan ozod etiladi.",
+      "muammolar": [
+        "O'qishim bor, armiyaga olib ketishadimi?",
+        "Otsrochka olish shartlari nima?",
+        "Kasal ota-onam bor, xizmatdan kechiktirish mumkinmi?"
+      ],
+      "url": "https://advice.uz/oz/document/3140",
+      "huquqiy_asos": "\"Umumiy harbiy majburiyat va harbiy xizmat to'g'risida\"gi Qonun; VM 22.02.2003-yildagi 99-son qarori",
+      "qoshimcha": "Territorial chaqiruv komissiyasi hal qiladi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "kontrakt-harbiy-xizmat",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Umumiy harbiy majburiyat",
+      "savol": "Kontrakt bo'yicha harbiy xizmatga kirish talablari qanday?",
+      "qisqa_javob": "Oddiy askar va serjant lavozimlariga 30 yoshgacha bo'lgan harbiy xizmatga majburlar va ayollar, ofitserlar tarkibiga 40 yoshgacha bo'lgan rezerv/zaxira ofitserlari qabul qilinadi; harbiy oliy ta'lim muassasalariga kursantlikka 17-23 yoshdagilar kirishi mumkin. Kirishda majburiy tibbiy ko'rikdan o'tiladi va davlat bilan kontrakt tuziladi.",
+      "muammolar": [
+        "Kontrakt xizmatiga necha yoshgacha olishadi?",
+        "Ayollar armiyada kontraktda ishlay oladimi?",
+        "Harbiy institutga kirish yoshi"
+      ],
+      "url": "https://advice.uz/oz/document/3141",
+      "huquqiy_asos": "\"Umumiy harbiy majburiyat va harbiy xizmat to'g'risida\"gi Qonun",
+      "qoshimcha": "Yashash joyidagi mudofaa ishlari organiga murojaat qilinadi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "muqobil-xizmat",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Umumiy harbiy majburiyat",
+      "savol": "Muqobil xizmat nima va uni kim o'taydi?",
+      "qisqa_javob": "Muqobil xizmat — diniy ta'limoti qurol ishlatishga yo'l qo'ymaydigan, harbiy ro'yxatda turuvchi 18-27 yoshli fuqarolar uchun harbiy xizmat o'rniga iqtisodiyot va ijtimoiy sohalarda ishlash. Muddati oddiy fuqarolar uchun 24 oy, oliy ma'lumotlilar uchun 18 oy; ish haqining 80 foizi xizmatchiga to'lanadi, 20 foizi respublika byudjetiga o'tkaziladi.",
+      "muammolar": [
+        "Dinim qurol ushlashga ruxsat bermaydi, armiya o'rniga nima qilsam bo'ladi?",
+        "Alternativ xizmat necha oy?",
+        "Muqobil xizmatda maosh to'lanadimi?"
+      ],
+      "url": "https://advice.uz/oz/document/3153",
+      "huquqiy_asos": "436-II-son Qonun (12.12.2002); Prezidentning 12.09.2019-yildagi PQ-4447-son qarori",
+      "qoshimcha": "O'tash tartibi Prezident tomonidan belgilanadi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "migrant-yol-chiptasi-kompensatsiya",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Migratsiya",
+      "savol": "Mehnat migratsiyasiga ketayotgan fuqarolarga qanday kompensatsiyalar beriladi?",
+      "qisqa_javob": "\"Xorijda ish\" dasturida ro'yxatdan o'tgan tashkillashtirilgan mehnat migrantlariga: til/kasb imtihonlari uchun BHMning 3 baravarigacha (sertifikat olish sharti bilan), ishchi vizani rasmiylashtirish uchun BHMning 5 baravarigacha, yo'l chiptasi uchun BHMning 2 baravarigacha kompensatsiya beriladi. Ijtimoiy reestrdagi fuqarolarning hayot sug'urtasi uchun yiliga 300 ming so'mgacha subsidiya, xorijda huquqi buzilganlarga advokat xizmatlari uchun kompensatsiya nazarda tutilgan.",
+      "muammolar": [
+        "Chet elga ishlashga ketyapman, aviabilet pulini davlat qoplaydimi?",
+        "Ishchi viza xarajatlarini kim to'laydi?",
+        "Migrantlar uchun qanday imtiyozlar bor?"
+      ],
+      "url": "https://advice.uz/oz/document/3245",
+      "huquqiy_asos": "Prezidentning 04.04.2024-yildagi PF-59-son Farmoni",
+      "qoshimcha": "Migratsiya agentligi va \"Xorijda ish\" dasturi orqali rasmiylashtiriladi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "rossiyada-patent-olish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Migratsiya",
+      "savol": "Rossiyada ishlash uchun patent qanday olinadi?",
+      "qisqa_javob": "Patent chet el fuqarosiga jismoniy yoki yuridik shaxsda ishlash huquqini beradi va faqat berilgan hudud hamda ko'rsatilgan kasb bo'yicha amal qiladi; migratsiya kartasida kirish maqsadi \"RABOTA\" deb ko'rsatilishi shart. Patent 1 oydan 12 oygacha beriladi, to'lov avans shaklida amalga oshiriladi, 12 oydan keyin Rossiyadan chiqmasdan bir marta qayta rasmiylashtirish mumkin. Patentsiz yoki hududdan tashqarida ishlash uchun 7 ming rublgacha jarima, deportatsiya va 5-10 yilga kirish taqiqi qo'llanilishi mumkin.",
+      "muammolar": [
+        "Rossiyada patentsiz ishlasam nima bo'ladi?",
+        "Patent necha oyga beriladi va qancha turadi?",
+        "Moskvada ishlash uchun qanday hujjat kerak?"
+      ],
+      "url": "https://advice.uz/oz/document/3274",
+      "huquqiy_asos": "Rossiya Federatsiyasi migratsiya qonunchiligi",
+      "qoshimcha": "Rossiya IIV migratsiya bo'limlarida rasmiylashtiriladi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "koreya-ish-vizasi",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Migratsiya",
+      "savol": "Janubiy Koreya ish vizasini qanday olish mumkin?",
+      "qisqa_javob": "Asosiy tur — H-2 ko'p martalik viza bo'lib, u bilan Koreyada 3 yil ishlash va jami 4 yil 10 oygacha qolish mumkin; qishloq xo'jaligi, baliqchilik va ishlab chiqarishda mehnat qilish uchun maxsus trening talab etiladi. Ariza, fotosurat, davlat boji, tug'ilganlik guvohnomasi, xorijga chiqish pasporti va oilaviy aloqalarni tasdiqlovchi hujjatlar bilan Koreya Respublikasining O'zbekistondagi elchixonasiga murojaat qilinadi.",
+      "muammolar": [
+        "Koreyaga ishlashga qanday ketiladi?",
+        "H-2 viza nima va necha yilga beriladi?",
+        "Koreya vizasi uchun qanday hujjatlar topshiriladi?"
+      ],
+      "url": "https://advice.uz/oz/document/2485",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "Koreya Respublikasining Toshkentdagi elchixonasi orqali",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "qaytish-guvohnomasi-olish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Migratsiya",
+      "savol": "Chet elda pasport yo'qolsa O'zbekistonga qaytish guvohnomasi qanday olinadi?",
+      "qisqa_javob": "Qaytish guvohnomasi chet eldagi O'zbekiston diplomatik vakolatxonalari va konsullik muassasalari tomonidan pasporti yaroqsiz, muddati o'tgan yoki yo'qolgan fuqarolarga beriladi va 1 oydan 3 oygacha amal qiladi. Eski pasport yoki uning nusxasi, 2 ta rangli fotosurat (35x45 mm), elektron so'rovnoma-ariza va to'lov kvitansiyasi kerak; kattalar uchun 50 AQSh dollari konsullik to'lovi va 5 dollar ma'muriy xarajat, bolalar to'lovdan ozod.",
+      "muammolar": [
+        "Rossiyada pasportimni yo'qotdim, uyga qanday qaytaman?",
+        "Vatanga qaytish sertifikati qancha turadi?",
+        "Konsullikdan vaqtinchalik hujjat olish"
+      ],
+      "url": "https://advice.uz/oz/document/3275",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "TIV konsullik muassasalari; tel: +74992300076, +74992383620",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "rossiya-kirish-taqiqini-bekor-qilish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Migratsiya",
+      "savol": "Rossiyaga kirishga qo'yilgan taqiqni qanday bekor qilish mumkin?",
+      "qisqa_javob": "Taqiq 2+ marta ma'muriy javobgarlik, har 180 kunda 90 kundan ortiq qolish yoki muddat tugagach 30 kun ichida chiqib ketmaslik uchun 3 yilga, deportatsiya uchun 5-10 yilga qo'yiladi. Bekor qilish uchun Rossiya IIV Migratsiya departamentiga yoki sudga murojaat qilinadi; Rossiya fuqarosi bo'lgan turmush o'rtoq, u yerda yashovchi bolalar, doimiy yashash joyi, ijtimoiy ahamiyatga ega ish yoki amaldagi ruxsatnoma jiddiy asos hisoblanadi.",
+      "muammolar": [
+        "Rossiyaga kirishim taqiqlangan, qanday ochtiraman?",
+        "Zapret borligini qayerdan tekshiraman?",
+        "Deportatsiyadan keyin qachon kirsa bo'ladi?"
+      ],
+      "url": "https://advice.uz/oz/document/3271",
+      "huquqiy_asos": "Rossiya Federatsiyasi migratsiya qonunchiligi",
+      "qoshimcha": "Onlayn murojaat: mvd.rf (Rossiya IIV)",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "qozogistonda-ishlash-ruxsatnomasi",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Migratsiya",
+      "savol": "Qozog'istonda ishlash uchun ruxsatnoma qanday olinadi?",
+      "qisqa_javob": "O'zbekiston fuqarosi milliy pasport bilan kirib, 30 kungacha ruxsatnomasiz turishi mumkin; ishlash uchun ish beruvchi bilan mehnat shartnomasi tuzib, vaqtincha yashash joyidagi Davlat xizmatlari markaziga (DXM) murojaat qilinadi va STIR (soliq raqami) olinadi. Pasport, ariza, daromad solig'i kvitansiyasi, tibbiy ko'rik sertifikati, barmoq izi/fotosurat va tibbiy sug'urta talab etiladi; ruxsatnoma 3 oydan oshmagan muddatga beriladi va 1 yilga uzaytirilishi mumkin.",
+      "muammolar": [
+        "Qozog'istonga ishlashga borsam qanday hujjat kerak?",
+        "Qozog'istonda necha kun ro'yxatsiz tursa bo'ladi?",
+        "Qozog'istonda ishchi patent qanday olinadi?"
+      ],
+      "url": "https://advice.uz/oz/document/2484",
+      "huquqiy_asos": "Qozog'iston Respublikasi migratsiya qonunchiligi",
+      "qoshimcha": "Qozog'iston davlat xizmatlari portali: egov.kz",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "uy-joy-sotib-olish-tartibi",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Uy-joy, yer va kommunal masalalari",
+      "savol": "Fuqarolarning uy-joy sotib olish tartibi qanday?",
+      "qisqa_javob": "Uy-joy oldi-sotdi shartnomasi notarial tasdiqlanishi shart, buning uchun davlat notarial idorasiga murojaat qilinadi. Rasmiylashtirish tartibi, taqdim etiladigan hujjatlar va undiriladigan to'lovlar notarial idorada aniqlashtiriladi. Munosabatlar Fuqarolik, Uy-joy, Yer va Shaharsozlik kodekslari bilan tartibga solinadi.",
+      "muammolar": [
+        "Uy sotib olmoqchiman, qayerdan boshlayman?",
+        "Kvartira oldi-sotdisini qanday rasmiylashtiraman?",
+        "Uy olishda notariusga borish shartmi?"
+      ],
+      "url": "https://advice.uz/oz/document/1416",
+      "huquqiy_asos": "O'zbekiston Respublikasi Fuqarolik kodeksi, Uy-joy kodeksi, Yer kodeksi, Shaharsozlik kodeksi",
+      "qoshimcha": "Notarial rasmiylashtirish tafsilotlari: advice.uz/uz/document/1966",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "uy-joy-subsidiya-olish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Uy-joy, yer va kommunal masalalari",
+      "savol": "Uy-joy sotib olish uchun davlat subsidiyasini qanday olish mumkin?",
+      "qisqa_javob": "Subsidiya — ipoteka bo'yicha boshlang'ich badal va kredit foizining bir qismini qoplash uchun byudjetdan beriladigan mablag'; 18-60 yoshli, daromadi belgilangan chegaradan (viloyatlarda MHTEKMning 2,7-8 baravari, Toshkentda 2,7-9,2 baravari) oshmaydigan fuqarolar oladi. Ariza Davlat xizmatlari markaziga yoki my.gov.uz (xizmat 325) orqali beriladi. Boshlang'ich badalga 32 mln so'mgacha qoplanadi, foizning 10 foizlik punktdan oshgan qismi dastlabki 5 yil qoplanadi; baholash 7 ish kuni, komissiya qarori 3 kunda.",
+      "muammolar": [
+        "Ipotekaga subsidiya qanday olinadi?",
+        "Uy olishga davlat yordami bormi?",
+        "Boshlang'ich badalga pul yetmayapti, subsidiya olsam bo'ladimi?"
+      ],
+      "url": "https://advice.uz/oz/document/2301",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "my.gov.uz/uz/service/325 yoki istalgan Davlat xizmatlari markazi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "kvartirani-xususiylashtirish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Uy-joy, yer va kommunal masalalari",
+      "savol": "Davlat uy-joy fondidagi kvartirani xususiylashtirish tartibi qanday?",
+      "qisqa_javob": "Xususiylashtirish ikki usulda: ayrim toifalarga kvartirani tekinga berish yoki davlat kvartiralarini sotish; ariza tuman (shahar) hokimligiga yoki uy mulkdori bo'lgan tashkilotga beriladi va 2 oygacha ko'rib chiqiladi. Xususiylashtirish huquqi har bir shaxsga faqat bir marta beriladi. Xizmat kvartiralari, harbiy shaharchalardagi uylar va uy-muzeylar xususiylashtirilmaydi; hujjatlar: qaror nusxasi, pasport, uy daftari, imtiyoz ma'lumotnomasi.",
+      "muammolar": [
+        "Davlat kvartirasini o'z nomimga o'tkazsam bo'ladimi?",
+        "Kvartirani privatizatsiya qilish uchun qayerga boraman?",
+        "Xususiylashtirishga qanday hujjat kerak?"
+      ],
+      "url": "https://advice.uz/oz/document/4175",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "Ariza — tuman (shahar) hokimligi yoki mulkdor tashkilot ma'muriyatiga",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "davlat-ehtiyoji-uchun-yer-ajratish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Uy-joy, yer va kommunal masalalari",
+      "savol": "Davlat va jamoat ehtiyojlari uchun yer uchastkasi qanday ajratiladi?",
+      "qisqa_javob": "Buyurtmachi yer ajratish uchun Qoraqalpog'iston Vazirlar Kengashi, viloyatlar yoki Toshkent shahar hokimligiga buyurtma beradi; materiallarga uchastka ma'lumoti, topografik joylashtirish rejasi (M 1:500-1:1000), chegaradosh uchastkalar sxemasi va atrof-muhitga ta'sir bayonnomasi kiradi. Vakolatli tashkilotlar kelishuvidan so'ng qaror 2 kun ichida «E-qaror» tizimi orqali qabul qilinadi.",
+      "muammolar": [
+        "Yerimni davlat ehtiyoji uchun olishmoqchi, tartibi qanday?",
+        "Yer uchastkasi ajratish qanday rasmiylashtiriladi?",
+        "E-qaror orqali yer masalasi qanday hal bo'ladi?"
+      ],
+      "url": "https://advice.uz/oz/document/1434",
+      "huquqiy_asos": "Vazirlar Mahkamasining 27.08.2021-yildagi 543-son qarori",
+      "qoshimcha": "Qaror «E-qaror» tizimi orqali qabul qilinadi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "mol-mulk-davlat-boji",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Uy-joy, yer va kommunal masalalari",
+      "savol": "Mol-mulk (ko'chmas mulk) sotib olishda davlat boji qancha?",
+      "qisqa_javob": "Yaqin qarindoshlarga (er/xotin, ota-ona, bolalar, nabiralar, buvi-buva, aka-uka, opa-singil) ko'chmas mulk o'tkazishda davlat boji belgilangan stavkaning 50 foizi miqdorida undiriladi. Toshkent shahri va viloyatida yangi qurilgan mulkni chet el fuqarolari sotib olganda (BHMning 3300 baravaridan kam bo'lmagan summada) shartnoma summasining 10 foizi miqdorida boj olinadi.",
+      "muammolar": [
+        "Otamdan uy o'tkazishda boj qancha?",
+        "Qarindoshga kvartira o'tkazish qancha turadi?",
+        "Chet ellik uy olsa qancha boj to'laydi?"
+      ],
+      "url": "https://advice.uz/oz/document/2105",
+      "huquqiy_asos": "O'zbekiston Respublikasining «Davlat boji to'g'risida»gi qonuni",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ijara-shartnomasi-tuzish-645",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Uy-joy ijara masalalari",
+      "savol": "Uy-joy (kvartira)ni ijaraga berish shartnomasi qanday tuziladi?",
+      "qisqa_javob": "Ijara shartnomasi yozma shaklda tuziladi, notarial tasdiqlash talab etilmaydi va 5 yilgacha muddatga tuzilishi mumkin. Shartnomada ijaraga oluvchi bilan birga doimiy yashaydigan fuqarolar ko'rsatilishi shart. Shartnomani davlat hisobiga qo'yish ijara.soliq.uz portali orqali bepul amalga oshiriladi.",
+      "muammolar": [
+        "Kvartirani ijaraga berish uchun shartnoma kerakmi?",
+        "Ijara shartnomasini notariusdan o'tkazish shartmi?",
+        "Ijara shartnomasini soliqda qanday ro'yxatga qo'yaman?"
+      ],
+      "url": "https://advice.uz/oz/document/2778",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "Davlat hisobiga qo'yish — ijara.soliq.uz (bepul)",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ijara-uy-tamirlash",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Uy-joy ijara masalalari",
+      "savol": "Ijaraga olingan uy-joyni ta'mirlash kimning zimmasida?",
+      "qisqa_javob": "Agar shartnomada boshqacha tartib bo'lmasa, joriy ta'mirlash ijaraga oluvchining, kapital ta'mirlash esa ijaraga beruvchining zimmasida. Uy-joydan foydalanish sharoitlarini jiddiy o'zgartiradigan qayta jihozlashga ijaraga oluvchining roziligisiz yo'l qo'yilmaydi.",
+      "muammolar": [
+        "Ijaradagi uyning remontini kim qiladi?",
+        "Uy egasi remont qilishga majburmi?",
+        "Kvartira kapital remontini ijarachi to'lashi kerakmi?"
+      ],
+      "url": "https://advice.uz/oz/document/2781",
+      "huquqiy_asos": "O'zbekiston Respublikasi Fuqarolik kodeksi",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ijara-haqi-tolash",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Uy-joy ijara masalalari",
+      "savol": "Ijara haqi qanday belgilanadi va to'lanadi?",
+      "qisqa_javob": "Ijara haqi miqdori taraflarning kelishuviga binoan shartnomada belgilanadi va bir tomonlama o'zgartirilishiga yo'l qo'yilmaydi (qonun yoki shartnomada nazarda tutilgan hollar bundan mustasno). Muddat shartnomada ko'rsatilmasa, haq har oyda to'lanadi. 6 oy davomida haq to'lanmasa (qisqa muddatli ijarada 2 martadan ko'p kechiktirilsa) ijaraga beruvchi sud orqali shartnomani bekor qilishi mumkin.",
+      "muammolar": [
+        "Uy egasi ijara haqini birdan oshirsa nima qilaman?",
+        "Ijara pulini qachon to'lash kerak?",
+        "Ijarachi pul to'lamasa uni chiqarib yuborsa bo'ladimi?"
+      ],
+      "url": "https://advice.uz/oz/document/2782",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ijara-shartnoma-muddati",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Uy-joy ijara masalalari",
+      "savol": "Uy-joy ijara shartnomasining muddati qancha bo'ladi?",
+      "qisqa_javob": "Ijara shartnomasi 5 yildan ortiq bo'lmagan muddatga tuziladi; muddat ko'rsatilmagan bo'lsa, 5 yilga tuzilgan hisoblanadi. 1 yilgacha bo'lgan qisqa muddatli ijaraga Fuqarolik kodeksining ayrim qoidalari (606-modda 2-3-qismlari, 609-modda) qo'llanmaydi. Ijaraga oluvchi yangi muddatga shartnoma tuzishda imtiyozli huquqqa ega.",
+      "muammolar": [
+        "Ijara shartnomasini necha yilga tuzsa bo'ladi?",
+        "Shartnomada muddat yozilmagan bo'lsa nima bo'ladi?",
+        "Ijara muddati tugagach uzaytirish huquqim bormi?"
+      ],
+      "url": "https://advice.uz/oz/document/2783",
+      "huquqiy_asos": "O'zbekiston Respublikasi Fuqarolik kodeksi (606, 609-moddalar)",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ikkilamchi-ijara",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Uy-joy ijara masalalari",
+      "savol": "Ijaraga olingan uyni boshqa shaxsga (ikkilamchi ijaraga) berish mumkinmi?",
+      "qisqa_javob": "Mumkin, lekin faqat ijaraga beruvchining roziligi bilan va haq evaziga; jon boshiga uy-joy maydoni normalariga rioya etilishi shart. Ikkilamchi ijaraga oluvchi uy-joydan mustaqil foydalanish huquqiga ega bo'lmaydi. Ikkilamchi ijara muddati asosiy shartnoma muddatidan oshmasligi kerak, asosiy shartnoma bekor bo'lsa u ham bekor bo'ladi.",
+      "muammolar": [
+        "Ijaraga olgan kvartiramni boshqaga bersam bo'ladimi?",
+        "Subarenda qonuniymi?",
+        "Uy egasidan so'ramasdan xonani ijaraga berish mumkinmi?"
+      ],
+      "url": "https://advice.uz/oz/document/2784",
+      "huquqiy_asos": "O'zbekiston Respublikasi Fuqarolik kodeksi",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ijara-shartnomasini-bekor-qilish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Uy-joy ijara masalalari",
+      "savol": "Ijara shartnomasi qanday bekor qilinadi?",
+      "qisqa_javob": "Shartnoma taraflar kelishuvi bilan bekor qilinadi; ijaraga oluvchi birga yashovchilar roziligi bilan, uy egasini 3 oy oldin yozma ogohlantirib, istalgan vaqtda bekor qilishga haqli. Ijaraga beruvchi sud orqali bekor qilishi mumkin: 6 oy haq to'lanmasa (qisqa muddatli ijarada 2 martadan ko'p), uy vayron qilinsa yoki g'ayrihuquqiy maqsadda foydalanilsa.",
+      "muammolar": [
+        "Ijaradan chiqmoqchiman, qachon aytishim kerak?",
+        "Uy egasi meni chiqarib yubormoqchi, huquqi bormi?",
+        "Ijarachi uyni buzsa shartnomani qanday bekor qilaman?"
+      ],
+      "url": "https://advice.uz/oz/document/2786",
+      "huquqiy_asos": "O'zbekiston Respublikasi Fuqarolik kodeksi, Uy-joy kodeksi",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "gazga-ulash-tartibi",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Kommunal xizmatlar",
+      "savol": "Uyni gazga ulash tartibi qanday?",
+      "qisqa_javob": "Iste'molchi gaz ta'minoti tashkilotiga kadastr hujjati nusxasi bilan ariza beradi; mutaxassislar 3 ish kunida joyiga chiqib texnik imkoniyatni o'rganadi, ijobiy bo'lsa gazlashtiriladi va shartnoma 2 nusxada tuziladi. Joy 2 va undan ortiq iste'molchiga ajratilsa, har biriga alohida hisoblagich o'rnatiladi. Gaz uskunasini o'zboshimchalik bilan almashtirish, gaz plitasida xona isitish va olov bilan gaz sizishini tekshirish taqiqlanadi.",
+      "muammolar": [
+        "Yangi uyga gaz o'tkazish uchun qayerga boraman?",
+        "Gaz ulash arizasi qancha vaqtda ko'riladi?",
+        "Gaz hisoblagichni kim o'rnatadi?"
+      ],
+      "url": "https://advice.uz/oz/document/1798",
+      "huquqiy_asos": "Vazirlar Mahkamasining 31.05.2024-yildagi 319-son qarori",
+      "qoshimcha": "Ariza — hududiy gaz ta'minoti tashkilotiga",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "gaz-tolovi-tartibi",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Kommunal xizmatlar",
+      "savol": "Gaz uchun to'lov qanday va qachon amalga oshiriladi?",
+      "qisqa_javob": "Yetkazilgan gaz hajmi billing tizimi orqali aniqlanadi va iste'molchi oy tugaganidan so'ng 10 kun ichida to'lovni amalga oshirishi shart. Vaqtida to'lanmasa penya hisoblanadi. To'lovni Upay (fast.upay.uz/merchant/166) yoki Click orqali qilish mumkin.",
+      "muammolar": [
+        "Gaz pulini qachongacha to'lash kerak?",
+        "Gaz to'lovini onlayn qanday to'layman?",
+        "Gaz haqini kechiktirsam nima bo'ladi?"
+      ],
+      "url": "https://advice.uz/oz/document/1805",
+      "huquqiy_asos": "Vazirlar Mahkamasining 15.09.2023-yildagi 475-son va 31.05.2024-yildagi 319-son qarorlari",
+      "qoshimcha": "Upay: fast.upay.uz/merchant/166; Click: click.uz",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "elektr-tolovi-tartibi",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Kommunal xizmatlar",
+      "savol": "Elektr energiyasi uchun to'lov qanday amalga oshiriladi?",
+      "qisqa_javob": "Maishiy iste'molchi har oyning 10-sanasiga qadar elektr uchun hisob-kitob qilishi shart; qarzdorlik bo'lsa har o'tgan kun uchun 0,1 foiz miqdorida penya to'lanadi, qarz bartaraf etilmasa iste'molchi tarmoqdan uziladi. Haqiqiy sarf hisoblagich ko'rsatkichlari asosida aniqlanadi; oldindan to'lash qurilmasiga ega iste'molchilarga elektr to'langan summa doirasida beriladi.",
+      "muammolar": [
+        "Svet pulini qachongacha to'lash kerak?",
+        "Elektr qarzim uchun penya qancha?",
+        "Qarz uchun svetni o'chirib qo'yishlari mumkinmi?"
+      ],
+      "url": "https://advice.uz/oz/document/1779",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "24/7 huquqiy maslahat: t.me/Odil_chat_bot",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "kommunal-kompensatsiya-imtiyozlilar",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Kommunal xizmatlar",
+      "savol": "Kommunal xizmatlarni to'lash uchun kompensatsiya kimga va qancha beriladi?",
+      "qisqa_javob": "Imtiyozli toifadagi shaxslarga kompensatsiya pensiya va nafaqalar bilan birga to'lanadi: harbiy nogironlar, parvarishga muhtoj pensionerlar, Qahramonlar va Chernobil qurbonlariga pensiya hisoblash bazaviy miqdorining 45 foizi, boshqa imtiyozli toifalarga 50 foizi, mehnat fronti qatnashchilariga 25 foizi. To'lov ariza topshirilgan oydan keyingi oyning 1-kunidan tayinlanadi; pensionerlarga pensiya olish joyida, ishlaydiganlarga ish joyida beriladi.",
+      "muammolar": [
+        "Kommunalga imtiyoz kimlarga beriladi?",
+        "Nogironlik bilan kommunal to'lovga chegirma bormi?",
+        "Kompensatsiya olish uchun qayerga ariza beraman?"
+      ],
+      "url": "https://advice.uz/oz/document/2655",
+      "huquqiy_asos": "Prezidentning 28.01.2022-yildagi PF-58-son Farmoni",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "gaz-elektr-kompensatsiya-kambagal",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Kommunal xizmatlar",
+      "savol": "Gaz va elektr energiyasi uchun kompensatsiya qanday to'lanadi?",
+      "qisqa_javob": "Kompensatsiya Ijtimoiy himoya yagona reestri va Kambag'al oilalar reestriga kiritilgan, jon boshiga oylik daromadi 669 ming so'mdan kam oilalarga (mol-mulki kam, daromadi 1 mln so'mdan kam oilalar ham) beriladi. Elektr bo'yicha bazaviy me'yordan (200 kVt·soat) ortiq foydalanilgan 150 kVt·soatgacha, gaz bo'yicha isitish mavsumida 250 m³gacha, boshqa davrda 150 m³gacha qoplanadi. Ariza — Inson ijtimoiy xizmatlar markazi, mahalladagi ijtimoiy xodim yoki 1140 qisqa raqami orqali.",
+      "muammolar": [
+        "Qishda gaz puliga yordam bormi?",
+        "Kam ta'minlangan oilaga svet-gaz kompensatsiyasi qanday olinadi?",
+        "1140 raqamiga qo'ng'iroq qilsam kompensatsiya berisharmikan?"
+      ],
+      "url": "https://advice.uz/oz/document/4055",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "Qisqa raqam: 1140; mahalla ijtimoiy xodimi; Inson ijtimoiy xizmatlar markazi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "jek-shikoyat-qilish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Kommunal xizmatlar",
+      "savol": "«ЖЭК» (uy-joy shirkati)dan qanday shikoyat qilish mumkin?",
+      "qisqa_javob": "Qisqa, aniq va dalillar (suratlar, cheklar, guvohlar) bilan yozma murojaat tayyorlab, «ЖЭК» rahbariyatiga elektron pochta, Telegram yoki qog'oz shaklida yuboriladi; murojaat rasmiy ro'yxatga olinishi kerak. Javob muddati — 15 kun. Javob kelmasa, mahalliy hokimiyat yoki prokuraturaga murojaat qilinadi.",
+      "muammolar": [
+        "JEK ishlamayapti, kimga shikoyat qilaman?",
+        "Uy-joy shirkati javob bermasa nima qilish kerak?",
+        "Podezd ta'miri uchun JEKka qanday ariza yozaman?"
+      ],
+      "url": "https://advice.uz/oz/document/4042",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "Javob bo'lmasa — hokimiyat yoki prokuratura",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "eski-guvohnomani-almashtirish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Transport",
+      "savol": "Eski haydovchilik guvohnomasini yangisiga qanday almashtirish mumkin?",
+      "qisqa_javob": "Davlat xizmatlari markaziga ID-karta/pasport, eski guvohnoma va taloni hamda davlat boji kvitansiyasi bilan murojaat qilinadi; oxirgi 12 oy davomida transport boshqargan shaxslarga guvohnoma imtihonsiz almashtiriladi, boshqarmaganlar nazariy va amaliy imtihon topshiradi. Yangi guvohnoma rasmga tushib imzo qo'yilgach, taxminan 5 daqiqada chop etiladi. Eski namunadagi guvohnomalar 2024-yil 1-yanvardan haqiqiy emas.",
+      "muammolar": [
+        "Eski pravamni yangisiga qanday almashtiraman?",
+        "Eski guvohnoma bilan yursam bo'ladimi?",
+        "Prava almashtirishda imtihon topshirish kerakmi?"
+      ],
+      "url": "https://advice.uz/oz/document/149",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "Davlat xizmatlari markazlari orqali",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "avtoni-royxatdan-otkazish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Transport",
+      "savol": "Avtotransportni ro'yxatdan o'tkazish va davlat raqami olish tartibi qanday?",
+      "qisqa_javob": "Notarial tasdiqlangan shartnoma tuzilgach, avtomobil 10 kun ichida egasining doimiy yashash joyidagi YHXDXda ro'yxatdan o'tkazilishi va davlat raqam belgisi olinishi shart. Ro'yxatdan o'tkazish yangi avtomobil olishda, importda, egasi yoki yashash joyi o'zgarganda amalga oshiriladi. 2024-yildan to'lovlar: elektromobil va mototransport uchun 1,5 BHM, boshqa avtomobillar uchun 6,84 BHM.",
+      "muammolar": [
+        "Mashina oldim, uchyotga qanday qo'yaman?",
+        "Avtomobilni ro'yxatdan o'tkazishga necha kun beriladi?",
+        "Mashina uchyoti qancha turadi?"
+      ],
+      "url": "https://advice.uz/oz/document/152",
+      "huquqiy_asos": "Vazirlar Mahkamasining 2017-yil 683-son qarori; IIV vazirining 31.03.2024-yildagi 2303-5-son buyrug'i",
+      "qoshimcha": "Hududiy YHXDX organlari",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "qarindoshlar-ishonchnomasiz-boshqarish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Transport",
+      "savol": "Yaqin qarindoshning mashinasini ishonchnomasiz boshqarish mumkinmi?",
+      "qisqa_javob": "2019-yil 1-oktabrdan er (xotin), ota-ona, bolalar, aka-uka va opa-singillar transport vositasini notarial ishonchnomasiz boshqarishi mumkin. Buning sharti — qarindosh egasining majburiy sug'urta (OSGO) polisida ko'rsatilgan bo'lishi kerak.",
+      "muammolar": [
+        "Otamning mashinasini haydasam ishonchnoma kerakmi?",
+        "Akamning mashinasida yursam jarima yozisharmikan?",
+        "Doverennostsiz mashina haydash mumkinmi?"
+      ],
+      "url": "https://advice.uz/oz/document/2101",
+      "huquqiy_asos": "Prezidentning 09.09.2019-yildagi PF-5816-son Farmoni",
+      "qoshimcha": "Qarindosh sug'urta polisiga kiritilgan bo'lishi shart",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "majburiy-texnik-korik",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Transport",
+      "savol": "Yengil avtomobillar majburiy texnik ko'rikdan qachon o'tkaziladi?",
+      "qisqa_javob": "Tijorat asosida yo'lovchi tashuvchi yengil avtomobillar, avtobuslar va maxsus transport yiliga ikki marta (1-mart—30-iyun va 1-sentabr—31-oktabr) ko'rikdan o'tadi. Jismoniy shaxslarga tegishli M1 toifadagi 11-14 yoshli avtomobillar ikki yilda bir marta, 15 yosh va undan ortiqlari yiliga bir marta; qolgan transport 1-yanvar—31-dekabr oralig'ida o'tkaziladi.",
+      "muammolar": [
+        "Texosmotrga qachon borishim kerak?",
+        "Eski mashina texnik ko'rikdan necha marta o'tadi?",
+        "Texnik ko'rik muddatlari qanday?"
+      ],
+      "url": "https://advice.uz/oz/document/2755",
+      "huquqiy_asos": "IIV vazirining 21.12.2011-yildagi buyrug'i (ro'yxat raqami 2303)",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "fotoradar-jarima-qayd-etish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Transport",
+      "savol": "Fotoradar (kamera) orqali qayd etilgan qoidabuzarlik uchun kim javob beradi?",
+      "qisqa_javob": "Kamera qayd etgan qoidabuzarlik uchun transport vositasining mulkdori yoki undan foydalangan shaxs ma'muriy javobgarlikka tortiladi. Shikoyat ko'rilayotganda buzilish paytida mashinani boshqa shaxs boshqargani yoki transport g'ayrihuquqiy yo'l bilan egalikdan chiqib ketgani isbotlansa, mulkdor javobgarlikdan ozod etiladi. Qoidabuzarlik to'g'risidagi ma'lumot 48 soat ichida yuborilmasa, ish tugatiladi; tez yordam va maxsus xizmatlar uchun «oxirgi zarurat» istisnosi bor.",
+      "muammolar": [
+        "Kameradan kelgan jarima menga yozildi, lekin mashinani boshqa odam haydagan",
+        "Radar jarimasiga qanday shikoyat qilaman?",
+        "Mashinam o'g'irlanganda kelgan jarimani to'lashim kerakmi?"
+      ],
+      "url": "https://advice.uz/oz/document/1760",
+      "huquqiy_asos": "Ma'muriy javobgarlik to'g'risidagi kodeks; 05.07.2011-yildagi 2240-son yo'riqnoma",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "davlat-raqamini-saqlab-qolish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Transport",
+      "savol": "Mashinani sotganda davlat raqamini olib qolsam bo'ladimi?",
+      "qisqa_javob": "Bo'ladi: avvalgi egasining arizasiga ko'ra raqam hududiy YHXDX organiga 12 oy muddatga saqlashga topshiriladi va saqlash uchun to'lov olinmaydi. Raqam keyin o'sha shaxsga yoki yaqin qarindoshlariga (er-xotin, ota-ona, farzand, aka-uka, opa-singil, buvi-buva, nevara, merosxo'rlar) tegishli boshqa avtomobilga takroran beriladi. Raqam belgisi egasining mulki hisoblanmaydi, maqsadli foydalanish uchun beriladi.",
+      "muammolar": [
+        "Nomerimni yangi mashinamga o'tkazsam bo'ladimi?",
+        "Raqamni saqlab qolish qancha turadi?",
+        "Sotilgan mashina raqamini o'g'limga bersam bo'ladimi?"
+      ],
+      "url": "https://advice.uz/oz/document/151",
+      "huquqiy_asos": "Vazirlar Mahkamasining 31.08.2017-yildagi 683-son qarori",
+      "qoshimcha": "Ariza — hududiy YHXDX organiga; saqlash muddati 12 oy, bepul",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "jarima-ballari-tizimi",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Avtohuquq — yo'ldagi huquq",
+      "savol": "Yo'l harakati qoidabuzarliklari uchun jarima ballari qanday hisoblanadi?",
+      "qisqa_javob": "2025-yil 1-iyundan jarima ballari YHXX xodimlari bayonnomalari asosidagi qarorlar bo'yicha «E-jarimaball» moduli orqali avtomatik hisoblanadi; hisoblash davri — qoidabuzarlik sodir etilgan kundan keyingi yil shu kunigacha. Ballar 12 taga yetmasa keyingi davrga o'tkazilmaydi; 8 ballga yetganda haydovchiga SMS yuboriladi. Haydovchi ballarini istalgan payt «E-jarimaball» tizimidan tekshirishi mumkin.",
+      "muammolar": [
+        "Jarima ballarim qancha yig'ilganini qanday bilaman?",
+        "Ball tizimi qachondan ishlaydi?",
+        "Ballar qachon o'chib ketadi?"
+      ],
+      "url": "https://advice.uz/oz/document/3995",
+      "huquqiy_asos": "Vazirlar Mahkamasining 06.05.2025-yildagi 296-son qarori",
+      "qoshimcha": "«E-jarimaball» tizimi orqali tekshirish mumkin",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "guvohnoma-yoqolganda",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Avtohuquq — yo'ldagi huquq",
+      "savol": "Haydovchilik guvohnomasini yo'qotganda nima qilish kerak?",
+      "qisqa_javob": "DYHXX organi, Davlat xizmatlari markazi yoki Yagona interaktiv davlat xizmatlari portali (YIDXP) orqali murojaat qilinadi; oxirgi 12 oyda transport boshqargan shaxslarga guvohnoma imtihonsiz almashtiriladi. To'lov — 1 BHM miqdorida. Berish rad etilsa, 30 ish kuni ichida takroran murojaat qilish huquqi bor.",
+      "muammolar": [
+        "Pravamni yo'qotib qo'ydim, qayerga boraman?",
+        "Yo'qolgan guvohnoma o'rniga dublikat olish qancha?",
+        "Prava yo'qolsa imtihon qayta topshiriladimi?"
+      ],
+      "url": "https://advice.uz/oz/document/4013",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "my.gov.uz (YIDXP), Davlat xizmatlari markazi yoki DYHXX",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "haydash-huquqidan-mahrum-qilish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Avtohuquq — yo'ldagi huquq",
+      "savol": "Qanday huquqbuzarliklar uchun transport boshqarish huquqidan mahrum qilinadi?",
+      "qisqa_javob": "MJtKning 23-moddasiga ko'ra mahrum etish asosiy yoki qo'shimcha jazo sifatida qo'llanadi: mastlik holatida boshqarish (131-modda) va tekshiruvdan bo'yin tovlash (136-modda) — 3 yil; yo'l bezoriligi, drift (128-10-modda) — 1-2 yil; YTHdan keyin qochish (137-modda) — 3 yilgacha; mast shaxsga rul berish (140-modda) — 2-3 yil. Yengil jarohat yoki zarar bilan qoidabuzarlik (133-modda) 1-3 yil, mulk shikastlanishi (134-modda) 6 oy-1 yil mahrum etishga olib kelishi mumkin.",
+      "muammolar": [
+        "Mast holda haydasa pravadan necha yilga ayriladi?",
+        "Qanday hollarda prava olib qo'yiladi?",
+        "Avariyadan keyin qochsam nima bo'ladi?"
+      ],
+      "url": "https://advice.uz/oz/document/4104",
+      "huquqiy_asos": "Ma'muriy javobgarlik to'g'risidagi kodeks, 23, 128-10, 131, 133, 134, 136, 137, 140, 194-moddalar",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "birinchi-marta-qoidabuzarlik-ogohlantirish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Avtohuquq — yo'ldagi huquq",
+      "savol": "Birinchi marta qoida buzgan haydovchilar jarimaga tortilmasligi rostmi?",
+      "qisqa_javob": "Ma'muriy javobgarlik kodeksiga «ma'muriy ogohlantirish» jazo chorasini kiritish taklif etilgan: birinchi marta qoida buzganlarga jarima o'rniga ogohlantirish beriladi. Ro'yxatga xavfsizlik kamarini taqmaslik, telefon/monitordan foydalanish, to'xtash qoidalarini buzish, sug'urta talablarini buzish va piyodalarning qoidabuzarliklari kiradi; radar qayd etgan 13 ta modda bo'yicha ham ogohlantirish qo'llanadi. Qaror bir oydan kechiktirilsa, jarima qo'llanmaydi; norma Qonunchilik palatasi tasdig'idan keyin kuchga kiradi.",
+      "muammolar": [
+        "Birinchi jarima kechiriladimi?",
+        "Kamardan birinchi marta ushlansa jarima yozадimi?",
+        "Ogohlantirish qachon beriladi, jarima qachon?"
+      ],
+      "url": "https://advice.uz/oz/document/4108",
+      "huquqiy_asos": "Ma'muriy javobgarlik to'g'risidagi kodeksga taklif etilgan o'zgartirishlar",
+      "qoshimcha": "Loyiha bosqichida — Qonunchilik palatasi tasdig'i talab etiladi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "avtoturargoh-bepul-toifalar",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Avtohuquq — yo'ldagi huquq",
+      "savol": "Qaysi toifadagi shaxslar avtoturargohlardan bepul foydalanadi?",
+      "qisqa_javob": "I va II guruh nogironligi bo'lgan shaxslar «Nogiron boshqaradigan transport» belgisi bilan yurganda va nogironlikni tasdiqlovchi ma'lumotnoma bo'lsa, hamda 16 yoshgacha nogiron bola ota-onasi (vasiysi) tegishli pensiya guvohnomasi bilan ajratilgan joylardan bepul foydalanadi. Turargohda jami joylarning kamida 5 foizi (kamida 2 ta joy) nogironlar uchun ajratilishi va 5.15 hamda 7.17 yo'l belgilari qo'yilishi shart.",
+      "muammolar": [
+        "Nogironlar parkovkada pul to'laydimi?",
+        "Nogiron bola uchun turargoh bepulmi?",
+        "Parkovkada nogironlar joyi qancha bo'lishi kerak?"
+      ],
+      "url": "https://advice.uz/oz/document/4142",
+      "huquqiy_asos": "Vazirlar Mahkamasining 07.03.2018-yildagi 183-son qarori",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "yth-haydovchi-majburiyatlari",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Avtohuquq — yo'ldagi huquq",
+      "savol": "Yo'l-transport hodisasi sodir bo'lganda haydovchi nima qilishi shart?",
+      "qisqa_javob": "Haydovchi darhol to'xtab avariya ishoralarini yoqishi va avariya belgisini o'rnatishi, buyumlarni qo'zg'atmasligi kerak. Jabrlanganlarga birinchi yordam ko'rsatib, tez tibbiy yordam chaqiradi; hodisa joyini guvohlar ishtirokida foto/video bilan qayd etadi, guvohlar ma'lumotini yozib olib, IIO xodimlarini kutadi. Majburiy sug'urta bo'yicha xabarnoma tuzilsa, IIOga xabar bermaslik mumkin.",
+      "muammolar": [
+        "Avariya bo'lsa birinchi nima qilaman?",
+        "YTHda GAIni chaqirish shartmi?",
+        "Avariyada mashinani joyidan qo'zg'atsam bo'ladimi?"
+      ],
+      "url": "https://advice.uz/oz/document/4235",
+      "huquqiy_asos": "Vazirlar Mahkamasining 12.04.2022-yildagi 172-son qarori (Qoidalarning 51-bandi)",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "haydovchilik-guvohnomasi-olish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Haydovchilik huquqini olish",
+      "savol": "Haydovchilik guvohnomasini olish tartibi qanday?",
+      "qisqa_javob": "Guvohnoma 10 yil muddatga beriladi; ariza, pasport/ID-karta, 083-forma va avtomaktabni tugatganlik guvohnomasi bilan Yagona imtihon markaziga (cabinet.yim.uz) onlayn yoki oflayn ariza topshiriladi. Nazariy va amaliy imtihonlar narxi 1 mln so'mdan boshlanadi, qayta topshirish har imtihon uchun 1,2 mln so'mdan. Imtihondan o'tganlarga 1 yil amal qiladigan sertifikat beriladi, so'ng YHXX, Davlat xizmatlari markazi yoki YIDXP orqali 0,7 BHM to'lab guvohnoma rasmiylashtiriladi.",
+      "muammolar": [
+        "Prava olish uchun qayerga ariza beraman?",
+        "Haydovchilik imtihoni qancha turadi?",
+        "Imtihondan o'tganimdan keyin guvohnomani qayerdan olaman?"
+      ],
+      "url": "https://advice.uz/oz/document/3388",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "cabinet.yim.uz; Davlat xizmatlari markazi; my.gov.uz",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "xorijiy-guvohnoma-amal-qilishi",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Haydovchilik huquqini olish",
+      "savol": "Xorijda olingan haydovchilik guvohnomasi O'zbekistonda amal qiladimi?",
+      "qisqa_javob": "1968-yilgi Vena konvensiyasi talablariga javob beradigan milliy guvohnomalar O'zbekistonda haqiqiy hisoblanadi. Milliy guvohnomaga almashtirish uchun xorijiy guvohnoma Tashqi ishlar vazirligi orqali tekshiriladi, so'ng egasi tibbiy ko'rikdan o'tib nazariy va amaliy imtihon topshiradi. Almashtirilgach, xorijiy guvohnoma uni bergan davlat tashkilotiga qaytariladi.",
+      "muammolar": [
+        "Rossiyada olgan pravam bu yerda ishlaydimi?",
+        "Chet el guvohnomasini o'zbekchaga almashtirish tartibi qanday?",
+        "Xorijiy prava bilan imtihon topshirish kerakmi?"
+      ],
+      "url": "https://advice.uz/oz/document/2507",
+      "huquqiy_asos": "Vena konvensiyasi (1968); Vazirlar Mahkamasining 31.05.2018-yildagi 408-son qarori",
+      "qoshimcha": "Tekshiruv Tashqi ishlar vazirligi orqali amalga oshiriladi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "gai-toxtatish-asoslari",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Haydovchilik huquqini olish",
+      "savol": "GAI (YHXX) xodimi transportni qanday asoslarda to'xtatishi mumkin?",
+      "qisqa_javob": "To'xtatish asoslari: qoidabuzarlik vizual yoki maxsus moslama bilan qayd etilganda; transport, haydovchi yoki yo'lovchi qidiruvda yoki YTHga aloqador bo'lganda; hodisa guvohidan ma'lumot olish zarurati; vakolatli organlarning harakatni cheklash buyruqlari; hujjatlarni tekshirish zarurati va maxsus tadbirlar. Boshqa asoslarda to'xtatish taqiqlanadi, xodim ishorasi tushunarli va o'z vaqtida berilishi shart.",
+      "muammolar": [
+        "GAI sababsiz to'xtatsa nima qilaman?",
+        "Inspektor hujjat tekshirishga haqlimi?",
+        "Meni nima uchun to'xtatishlari mumkin?"
+      ],
+      "url": "https://advice.uz/oz/document/3385",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "piyodalar-majburiyatlari",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Haydovchilik huquqini olish",
+      "savol": "Piyodalarning majburiyatlari qanday?",
+      "qisqa_javob": "Piyodalar trotuar va piyodalar yo'lkalaridan, ular bo'lmasa yo'l yoqasidan yurishi kerak; qatnov qismini piyodalar o'tish joylari, yer osti/usti o'tish joylari, ular bo'lmaganda chorrahalarda kesib o'tadi. Uyushgan guruh bir qatorda 4 kishidan oshmasdan o'ng tomondan yuradi, oldida va orqasida kuzatuvchilar bo'ladi. Bolalar guruhi faqat kunduzi, trotuar orqali, kattalar kuzatuvida olib o'tiladi.",
+      "muammolar": [
+        "Piyoda qayerdan yo'l kesib o'tishi kerak?",
+        "Trotuar bo'lmasa qayerdan yuraman?",
+        "Bolalarni guruh bilan olib o'tish qoidasi qanday?"
+      ],
+      "url": "https://advice.uz/oz/document/3384",
+      "huquqiy_asos": "Vazirlar Mahkamasining 12.04.2022-yildagi 172-son qarori",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "yolovchilar-majburiyatlari",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Haydovchilik huquqini olish",
+      "savol": "Yo'lovchilarning majburiyatlari qanday?",
+      "qisqa_javob": "Yo'lovchilar transport to'liq to'xtagandan so'ng faqat trotuar yoki yo'l yoqasi tomondan chiqishi va tushishi, harakatdan oldin xavfsizlik kamarini taqishi, mototsikl va skuterda motoshlem kiyishi shart. Harakat vaqtida haydovchini chalg'itish, eshik ochish, saldan tana qismlarini chiqarish va bortli yuk mashinasida tik turish taqiqlanadi; bu talablar bajarilishini haydovchi nazorat qiladi.",
+      "muammolar": [
+        "Orqa o'rindiqda kamar taqish shartmi?",
+        "Yo'lovchi qaysi tomondan tushishi kerak?",
+        "Skuterda yo'lovchiga shlem kerakmi?"
+      ],
+      "url": "https://advice.uz/oz/document/3387",
+      "huquqiy_asos": "Vazirlar Mahkamasining 12.04.2022-yildagi 172-son qarori",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "pensiya-ish-staji",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Pensiya va nafaqalar",
+      "savol": "Pensiya tayinlashda ish stajiga qaysi davrlar kiritiladi?",
+      "qisqa_javob": "Ish stajiga sug'urta badallari to'langan ish davrlari, harbiy xizmat, oliy ta'limda o'qish hamda har bir bola uchun 3 yoshgacha (jami ko'pi bilan 6 yil) bola parvarishi davri kiritiladi. Ayrim davrlar imtiyozli hisoblanadi: jangovar harakatlar davri 3 baravar, urush davridagi mehnat va yuqumli kasalliklar muassasalaridagi ish 2 baravar qilib hisoblanadi. Ma'lumot uchun Pensiya jamg'armasining 1271 raqamiga qo'ng'iroq qilish yoki pfru.uz saytiga kirish mumkin.",
+      "muammolar": [
+        "Stajimga o'qigan yillarim kiradimi?",
+        "Dekret davri stajga qo'shiladimi?",
+        "Armiya xizmati pensiya stajiga hisoblanadimi?",
+        "Stajim yetarli emas deb aytishdi, nima qilay?"
+      ],
+      "url": "https://advice.uz/oz/document/214",
+      "huquqiy_asos": "Fuqarolarning davlat pensiya ta'minoti to'g'risidagi qonun; VM 13.10.2022-yildagi 592-son qarori",
+      "qoshimcha": "Ishonch telefoni: 1271; portal: pfru.uz",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "pensiya-hisoblash-tartibi",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Pensiya va nafaqalar",
+      "savol": "Pensiya qanday hisoblanadi va uni qayta hisoblatish mumkinmi?",
+      "qisqa_javob": "Pensiya oxirgi 10 yillik mehnat faoliyatidagi istalgan ketma-ket 5 yildagi ish haqidan kelib chiqib hisoblanadi, bu davrni fuqaroning o'zi tanlaydi. Nogironlik guruhi o'zgarganda, qo'shimcha hujjatlar taqdim etilganda, boquvchidagi oila a'zolari soni yoki tayanch miqdor o'zgarganda pensiyani qayta hisoblatish uchun ariza beriladi va u Pensiya jamg'armasi bo'limi tomonidan 5 kun ichida ko'rib chiqiladi. 100 yoshga to'lgan fuqarolarga tayanch miqdorning 100 foizi hajmida oylik qo'shimcha to'lanadi.",
+      "muammolar": [
+        "Pensiyam qaysi yillardagi maoshdan hisoblanadi?",
+        "Pensiyani qayta hisoblatish uchun qayerga boraman?",
+        "Pensiyamni kamaytirib hisoblashgan deb o'ylayman"
+      ],
+      "url": "https://advice.uz/oz/document/221",
+      "huquqiy_asos": "Fuqarolarning davlat pensiya ta'minoti to'g'risidagi qonun; VM 13.10.2022-yildagi 592-son qarori",
+      "qoshimcha": "Ishonch telefoni: 1271; portal: pfru.uz",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "pensiya-tolash-tartibi",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Pensiya va nafaqalar",
+      "savol": "Pensiyalar qanday to'lanadi va pensiyadan qancha ushlab qolish mumkin?",
+      "qisqa_javob": "Pensiya naqd pulda yoki pensionerning xohishiga ko'ra bank kartasiga o'tkazib to'lanadi; ishlamaydigan pensionerlar yashash joyidagi Pensiya jamg'armasi bo'limi orqali oladi. Pensiyadan ushlab qolish faqat sud qarori, notarial hujjat yoki Pensiya jamg'armasi qarori asosida bo'lishi mumkin va oyiga pensiya miqdorining 50 foizidan oshmasligi kerak. Pensioner vafot etganda dafn nafaqasi tayanch miqdorning 4 baravari hajmida to'lanadi, olinmagan pensiya uchun 60 kun ichida murojaat qilinadi.",
+      "muammolar": [
+        "Pensiyamdan qancha ushlab qolishlari mumkin?",
+        "Vafot etgan otamning olinmagan pensiyasini kim oladi?",
+        "Chet elga ko'chib ketsam pensiyam nima bo'ladi?"
+      ],
+      "url": "https://advice.uz/oz/document/225",
+      "huquqiy_asos": "Fuqarolarning davlat pensiya ta'minoti to'g'risidagi qonun",
+      "qoshimcha": "Pensiya jamg'armasi: 1140, pfru.uz; Xalq banki: 1106",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "chet-elda-pensiya-ishonchnoma",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Pensiya va nafaqalar",
+      "savol": "Chet eldagi pensionerga ishonchnoma orqali pensiya qanday to'lanadi?",
+      "qisqa_javob": "Chet eldagi pensioner qonunchilikka muvofiq ishonchnoma rasmiylashtirib, unga apostil qo'ydirishi va asl nusxasini O'zbekistondagi ishonchli vakiliga topshirishi kerak; vakil uni pensiya olinadigan bankka taqdim etadi. Bu jarayonni chet elga chiqqan kundan boshlab 3 oy ichida amalga oshirish lozim, aks holda pensiya vaqtincha to'xtatib qo'yilishi mumkin. Pensioner yiliga kamida 1 marta Pensiya jamg'armasi bo'limiga kelib pensiyaga bo'lgan huquqini tasdiqlashi kerak.",
+      "muammolar": [
+        "Rossiyada ishlayapman, pensiyamni onam olib tursa bo'ladimi?",
+        "Chet elda yurganimda pensiyam to'xtab qoldi",
+        "Pensiya uchun ishonchnomani qanday rasmiylashtiraman?"
+      ],
+      "url": "https://advice.uz/oz/document/3365",
+      "huquqiy_asos": "Fuqarolik, oilaviy va jinoiy ishlar bo'yicha huquqiy yordam Konventsiyasi (lex.uz/docs/2741647)",
+      "qoshimcha": "Ishonchnomaga apostil qo'yish talab etiladi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "yoshga-doir-pensiya-6-savol",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Pensiya va nafaqalar",
+      "savol": "Yoshga doir pensiya kimga, qachon va qanday tayinlanadi?",
+      "qisqa_javob": "Yoshga doir pensiya erkaklarga 60 yoshda kamida 25 yil, ayollarga 55 yoshda kamida 20 yil ish staji bo'lganda umrbod tayinlanadi; staji kamida 7 yil bo'lganlarga ham pensiya beriladi, lekin u eng kam pensiyaning 50 foizidan kam bo'lmaydi. Pensiya oxirgi 10 yildagi istalgan ketma-ket 5 yillik o'rtacha oylik ish haqining 55 foizi qilib hisoblanadi. Huquq paydo bo'lgan kundan 60 kun ichida murojaat qilinsa, pensiya yoshga to'lgan kundan tayinlanadi; 2025-yil 1-martdan pensiya hujjatsiz, proaktiv tarzda tayinlanadi.",
+      "muammolar": [
+        "Necha yoshda pensiyaga chiqaman?",
+        "Pensiya olish uchun qancha staj kerak?",
+        "Pensiyaga chiqish uchun qayerga ariza beraman?",
+        "Stajim 10 yil bo'lsa pensiya olamanmi?"
+      ],
+      "url": "https://advice.uz/oz/document/4033",
+      "huquqiy_asos": "Fuqarolarning davlat pensiya ta'minoti to'g'risidagi qonun",
+      "qoshimcha": "Pensiya jamg'armasi bo'limlari, Davlat xizmatlari markazlari, my.gov.uz orqali murojaat qilinadi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "bolalar-nafaqasi-tolash-toxtatish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Pensiya va nafaqalar",
+      "savol": "Bolalar nafaqasi qanday to'lanadi va qachon to'xtatiladi?",
+      "qisqa_javob": "Bolalar nafaqasi va moddiy yordam Xalq banki bo'limlari orqali naqd yoki plastik kartaga har oyning 4-sanasidan 27-sanasiga qadar to'lanadi. To'lov qonunchilikdagi muddat tugaganda, fuqaroning arizasiga ko'ra, doimiy yashash uchun chet elga ko'chib ketganda yoki noto'g'ri ma'lumot taqdim etilgani aniqlanganda to'xtatiladi. Ortiqcha to'langan summa 12 oy ichida qoplanmasa, sud tartibida undiriladi.",
+      "muammolar": [
+        "Bola pulim to'xtab qoldi, sababi nima?",
+        "Nafaqa har oyning qaysi kunlari to'lanadi?",
+        "Ortiqcha to'langan nafaqani qaytarishim kerakmi?"
+      ],
+      "url": "https://advice.uz/oz/document/2591",
+      "huquqiy_asos": "VM 21.10.2021-yildagi 654-son qarori",
+      "qoshimcha": "Masalalar bo'yicha 'Inson' ijtimoiy xizmatlar markazlariga murojaat qilinadi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "talaba-ijara-kompensatsiya",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ijtimoiy himoya",
+      "savol": "Talabalarga ijara to'lovining bir qismi qanday qoplab beriladi?",
+      "qisqa_javob": "Davlat oliy ta'lim muassasalarining kunduzgi bo'lim talabalariga ijara xarajatining bir qismi byudjetdan qoplanadi: Toshkent shahrida bazaviy hisoblash miqdorining 1 baravari, boshqa hududlarda yarmi miqdorida. Talaba anketa va ijara shartnomasi nusxasini fakultet dekan o'rinbosariga yoki talabalar turar joyi bo'limiga har oyning 7-sanasigacha topshiradi; kechikkan arizalar ko'rib chiqilmaydi. Qoplash har yili 1-sentabrdan 1-iyulgacha amal qiladi, akademik ta'til yoki o'qishdan chetlashtirilganda to'xtatiladi.",
+      "muammolar": [
+        "Talabaman, ijara pulini davlat qoplab beradimi?",
+        "Ijara kompensatsiyasi uchun qanday hujjat kerak?",
+        "Kvartira ijarasiga subsidiya olsam bo'ladimi?"
+      ],
+      "url": "https://advice.uz/oz/document/2562",
+      "huquqiy_asos": "VM 24.09.2021-yildagi 605-son va 14.08.2023-yildagi 376-son qarorlari",
+      "qoshimcha": "Ariza har oyning 7-sanasigacha topshiriladi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "shahar-transport-bepul",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ijtimoiy himoya",
+      "savol": "Kimlar shahar jamoat transportidan bepul foydalanadi?",
+      "qisqa_javob": "Shahar yo'lovchi transportidan (taksidan tashqari) urush qatnashchilari va nogironlari hamda ularning hamrohlari, afg'on urushi qatnashchilari, Chernobil fojiasi qurbonlari, 'Faxriy donor' ko'krak nishoni sohiblari, yolg'iz keksalar, nogironligi bo'lgan shaxslar va ko'zi ojizlar hamrohlari bepul foydalanadi. 2023-yil 1-apreldan pensionerlar Toshkent metrosidan ham bepul foydalanadi — pensiya guvohnomasini ko'rsatib bitta bepul jeton oladi, u faqat pensionerning o'ziga beriladi.",
+      "muammolar": [
+        "Pensioner metroda bepul yuradimi?",
+        "Nogironman, avtobus uchun pul to'lashim kerakmi?",
+        "Kimlarga transport imtiyozi beriladi?"
+      ],
+      "url": "https://advice.uz/oz/document/1552",
+      "huquqiy_asos": "Prezidentning 15.03.2023-yildagi PQ-94-son qarori; lex.uz/docs/39646",
+      "qoshimcha": "Imtiyoz taksiga taalluqli emas",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "sanatoriy-yollanma",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ijtimoiy himoya",
+      "savol": "Keksalar va nogironligi bo'lgan shaxslar sanatoriyga bepul yo'llanmani qanday oladi?",
+      "qisqa_javob": "2022-yil 1-iyuldan sanatoriylarda davolanish uchun yo'llanmalar Davlat xizmatlari markazlari yoki my.gov.uz portali orqali bepul rasmiylashtiriladi. Yo'llanma 12 kunlik davolanish uchun beriladi va amal qilish muddati boshlanishidan 10 kun oldin taqdim etiladi. Huquqqa ega toifalar qatoriga I-II guruh nogironligi bo'lgan shaxslar, yoshga doir pensiya oluvchilar, urush nogironlariga tenglashtirilganlar, Chernobil qurbonlari va yolg'iz keksalar kiradi; yo'llanmadan faqat ko'rsatilgan shaxsning o'zi foydalanadi.",
+      "muammolar": [
+        "Sanatoriyga bepul yo'llanma qanday olinadi?",
+        "Pensionerlarga sanatoriy putyovkasi beriladimi?",
+        "Nogiron onamga sanatoriy yo'llanmasini qayerdan so'rayman?"
+      ],
+      "url": "https://advice.uz/oz/document/2616",
+      "huquqiy_asos": "VM 19.11.2021-yildagi 693-son qarori",
+      "qoshimcha": "Murojaat: Davlat xizmatlari markazi yoki my.gov.uz",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "kop-bolali-oila-himoya",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ijtimoiy himoya",
+      "savol": "Ko'p bolali oilalarga qanday davlat kafolatlari beriladi?",
+      "qisqa_javob": "Oila kodeksining 41-moddasiga ko'ra 18 yoshga to'lmagan (kunduzgi ta'limda o'qisa 22 yoshgacha) to'rt va undan ortiq bolasi bo'lgan oila ko'p bolali hisoblanadi. Bunday oilalarga Mehnat kodeksining 96-moddasi bo'yicha bandlik kafolatlari beriladi, boquvchisini yo'qotgan ko'p bolali oilalar Soliq kodeksining 436-moddasiga ko'ra jismoniy shaxslardan olinadigan daromad solig'idan ozod etiladi. Shuningdek, ular uy-joy sharoitini yaxshilash uchun davlat uy-joy hisobiga olinadi.",
+      "muammolar": [
+        "4 ta bolam bor, qanday imtiyozlarim bor?",
+        "Ko'p bolali oila maqomi qanday beriladi?",
+        "Ko'p bolali onalarga soliq imtiyozi bormi?"
+      ],
+      "url": "https://advice.uz/oz/document/4026",
+      "huquqiy_asos": "Oila kodeksi 41-modda; Mehnat kodeksi 96-modda; Soliq kodeksi 436-modda",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "kambagallik-rangli-toifalar",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ijtimoiy himoya",
+      "savol": "Kambag'allikka qarshi Qizil, Sariq va Yashil toifalar nimani anglatadi?",
+      "qisqa_javob": "2025-yil 15-maydan kambag'al va kambag'allik xavfi bo'lgan oilalar reestrda uch toifaga ajratiladi. Qizil toifa — jon boshiga daromadi eng kam iste'mol xarajatlaridan past bo'lgan, mehnatga layoqatli a'zosi yo'q eng nochor oilalar bo'lib, ularga ijtimoiy yordam birinchi navbatda beriladi. Sariq toifa — daromadi past, lekin mehnatga layoqatli a'zosi bor oilalar (ishga joylashtirish va kasbga o'qitish bilan qo'llab-quvvatlanadi), Yashil toifa — daromadi eng kam iste'mol darajasining 1-1,5 baravari oralig'idagi oilalar (monitoring va profilaktik yordam).",
+      "muammolar": [
+        "Oilamiz qizil ro'yxatga kiradimi?",
+        "Sariq toifadagi oilaga qanday yordam beriladi?",
+        "Kambag'al oilalar ro'yxatiga qanday kiriladi?"
+      ],
+      "url": "https://advice.uz/oz/document/4110",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "Tizim 2025-yil 15-maydan joriy etilgan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "temir-daftar-nima",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ijtimoiy himoya",
+      "savol": "'Temir daftar' nima va unga qanday oilalar kiritiladi?",
+      "qisqa_javob": "'Temir daftar' — og'ir ijtimoiy-maishiy sharoitda yashayotgan oilalarni hisobga olish, muammolarini aniqlash va hal etish uchun yuritiladigan ma'lumotlar bazasi. Unga mehnatga layoqatli a'zosi bo'lmagan yoki yolg'iz boquvchisi og'ir kasal/nogiron bo'lgan, moddiy ahvoli og'ir va uy-joy sharoiti nochor oilalar, shuningdek 3 va undan ortiq voyaga yetmagan bolani yolg'iz tarbiyalayotgan ota-onalar kiritiladi. Ro'yxatga olish 'Yagona milliy ijtimoiy himoya' tizimi yoki 'Inson' ijtimoiy xizmatlar markazlari orqali amalga oshiriladi va holat 2 ish kunida o'rganiladi; a'zolarga subsidiyalar hamda xayriya yordami beriladi.",
+      "muammolar": [
+        "Temir daftarga qanday kiriladi?",
+        "Oilamiz og'ir ahvolda, davlatdan qanday yordam olamiz?",
+        "Temir daftardagilarga nima beriladi?"
+      ],
+      "url": "https://advice.uz/oz/document/2393",
+      "huquqiy_asos": "VM 31.05.2024-yildagi 313-son qarori",
+      "qoshimcha": "Murojaat: 'Inson' ijtimoiy xizmatlar markazlari",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "nogironlik-yagona-imtiyozlar",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Nogironligi bo'lgan shaxslarga imtiyozlar",
+      "savol": "Nogironligi bo'lgan shaxslar va ularning parvarishchilari uchun qanday imtiyozlar bor?",
+      "qisqa_javob": "Qonunchilikda 80 dan ortiq yagona imtiyoz belgilangan: soliq imtiyozlari (Soliq kodeksining 337, 380, 383, 405, 421, 436, 467-moddalari bo'yicha mol-mulk, yer va daromad solig'i bo'yicha), kvota asosida ishga joylashtirish kafolati, I-II guruh uchun haftasiga 30-36 soatlik qisqartirilgan ish vaqti va uzaytirilgan ta'til, oliy ta'limga qabulda 2 foizlik kvota, ambulator davolanishda bepul dori-darmon, shahar transportida bepul yurish, kommunal xizmatlar bo'yicha kompensatsiya va sanatoriy yo'llanmalari. Mas'ul organlar — Ijtimoiy himoya milliy agentligi, Soliq qo'mitasi va tegishli vazirliklar.",
+      "muammolar": [
+        "Nogironlik guruhim bor, qanday imtiyozlarga haqliman?",
+        "Nogiron bolani parvarish qilyapman, menga imtiyoz bormi?",
+        "Nogironlar uchun soliq imtiyozlari qanday?"
+      ],
+      "url": "https://advice.uz/oz/document/3125",
+      "huquqiy_asos": "Soliq kodeksi (337, 380, 383, 405, 421, 436, 467-moddalar); Mehnat kodeksi; Prezident farmonlari va VM qarorlari",
+      "qoshimcha": "Ijtimoiy himoya milliy agentligi mas'ul",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "nogironlik-elektron-belgilash",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Nogironligi bo'lgan shaxslarga imtiyozlar",
+      "savol": "Nogironlik elektron tarzda qanday belgilanadi?",
+      "qisqa_javob": "Prezidentning 16.07.2024-yildagi PQ-257-son qaroriga ko'ra nogironlikni elektron belgilash 2024-yil 1-sentabrdan Toshkent shahri va Navoiy viloyatida, 2025-yil 1-iyuldan barcha hududlarda joriy etilgan. Fuqaro my.gov.uz portali, 'Inson' markazlari yoki oilaviy shifokor orqali murojaat qiladi — tibbiy hujjatlarni shifokorning o'zi tibbiy-ijtimoiy ekspertiza komissiyasiga elektron yuboradi. 2027-yil 1-yanvardan nogironlik to'liq JSST funksional baholash shkalasi natijalari asosida belgilanadi, muddati va reabilitatsiya ehtiyojlari tizim tomonidan avtomatik shakllantiriladi.",
+      "muammolar": [
+        "Nogironlik guruhini olish uchun endi qayerga boraman?",
+        "VTEKdan o'tish tartibi o'zgardimi?",
+        "Nogironlikni onlayn rasmiylashtirsa bo'ladimi?"
+      ],
+      "url": "https://advice.uz/oz/document/3285",
+      "huquqiy_asos": "Prezidentning 16.07.2024-yildagi PQ-257-son qarori",
+      "qoshimcha": "Murojaat: my.gov.uz, 'Inson' markazlari yoki oilaviy shifokor",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "nogironlik-pensiyasi",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Nogironligi bo'lgan shaxslarga imtiyozlar",
+      "savol": "Nogironlik pensiyasi kimga va qanday shartlarda tayinlanadi?",
+      "qisqa_javob": "Nogironlik pensiyasi I va II guruh nogironligi bo'lgan shaxslarga, shuningdek Chernobil avariyasi oqibatida III guruh nogironligi bo'lganlarga tayinlanadi. Mehnat majburiyati yoki kasb kasalligi tufayli nogironlikda pensiya stajdan qat'i nazar, umumiy kasallikda esa yoshga qarab 2 yildan (20-23 yosh) 20 yilgacha (56 yoshdan katta) staj talab etiladi. Pensiya proaktiv, arizasiz tayinlanadi; har 2 yilda staj va ish haqi bo'yicha qayta hisoblanadi.",
+      "muammolar": [
+        "2-guruh nogironman, pensiya olamanmi?",
+        "Nogironlik pensiyasi uchun qancha staj kerak?",
+        "Ishlab turib nogiron bo'ldim, pensiya qanday tayinlanadi?"
+      ],
+      "url": "https://advice.uz/oz/document/3073",
+      "huquqiy_asos": "Fuqarolarning davlat pensiya ta'minoti to'g'risidagi qonun (15-18, 28, 47, 49-moddalar); VM 13.10.2022-yildagi 592-son qarori",
+      "qoshimcha": "Murojaat: Pensiya jamg'armasi bo'limi, Davlat xizmatlari markazi yoki my.gov.uz",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "chipta-50-foiz-imtiyoz",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Nogironligi bo'lgan shaxslarga imtiyozlar",
+      "savol": "Temir yo'l va aviachiptalarga 50 foizlik imtiyoz kimga beriladi?",
+      "qisqa_javob": "2022-yil 15-sentabrdan Qoraqalpog'iston Respublikasi va Xorazm viloyatida doimiy yashovchi yoshga doir pensiya va nafaqa oluvchilar hamda nogironligi bo'lgan shaxslar temir yo'l va aviachiptalarni 50 foizlik imtiyozli tarifda sotib oladi. Buning uchun doimiy yashash joyi va imtiyoz huquqini tasdiqlovchi hujjat taqdim etiladi. Tashuvchilarning xarajatlari davlat byudjetidan qoplanadi.",
+      "muammolar": [
+        "Nukusda yashayman, aviachiptaga chegirma bormi?",
+        "Pensionerlarga poyezd chiptasi arzon beriladimi?",
+        "50 foizlik chipta imtiyozini qanday olaman?"
+      ],
+      "url": "https://advice.uz/oz/document/3208",
+      "huquqiy_asos": "Prezidentning 31.08.2022-yildagi PF-213-son farmoni, 11-band",
+      "qoshimcha": "Faqat Qoraqalpog'iston va Xorazm viloyati doimiy aholisi uchun",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "benzin-kompensatsiya",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Nogironligi bo'lgan shaxslarga imtiyozlar",
+      "savol": "Avtomobil benzini xarajatlari uchun oylik kompensatsiya kimga to'lanadi?",
+      "qisqa_javob": "Urush qatnashchilari va ularga tenglashtirilganlar, urush tufayli nogiron bo'lganlar, mehnat majburiyati yoki bolalikdan I-II guruh nogironligi bo'lgan, yengil avtomobil, mototsikl yoki motoarava egasi bo'lgan shaxslarga oylik pul kompensatsiyasi to'lanadi. Miqdori har chorakda 20 litr benzin qiymatidan kelib chiqib belgilanadi. Ariza, pasport va imtiyoz guvohnomasi bilan yashash joyidagi Pensiya jamg'armasi bo'limiga murojaat qilinadi, 5 ish kunida ko'rib chiqiladi.",
+      "muammolar": [
+        "Nogironman, mashinam bor — benzin puli beriladimi?",
+        "Benzin kompensatsiyasi qancha va qayerdan olinadi?",
+        "Urush nogironiga yoqilg'i imtiyozi bormi?"
+      ],
+      "url": "https://advice.uz/oz/document/3226",
+      "huquqiy_asos": "VM 30.10.2006-yildagi 223-son qarori",
+      "qoshimcha": "Avtomobil davlat texnik ko'rigidan o'tgan bo'lishi kerak",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "shifokor-chaqirish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Sog'liqni saqlash",
+      "savol": "Uyga shifokorni qanday chaqirish mumkin va bu pullikmi?",
+      "qisqa_javob": "Kasallik tufayli poliklinikaga mustaqil borolmaydigan bemor o'zi biriktirilgan oilaviy poliklinikaga telefon qilib, ahvoli va manzilini aytib shifokorni uyga chaqirishi mumkin — oilaviy poliklinika shifokorini chaqirish bepul. Shoshilinch holatlarda 103 raqami orqali tez tibbiy yordam chaqiriladi. Xususiy klinikadan shifokor chaqirish pullik bo'lishi mumkin.",
+      "muammolar": [
+        "Uyga vrach chaqirsam pul to'laymanmi?",
+        "Kasal bo'lib qoldim, shifokorni qanday chaqiraman?",
+        "Tez yordam raqami qaysi?"
+      ],
+      "url": "https://advice.uz/oz/document/1089",
+      "huquqiy_asos": "Prezidentning 06.06.2017-yildagi PQ-3039-son qarori",
+      "qoshimcha": "Tez tibbiy yordam: 103",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "bepul-tibbiy-yordam-hajmi",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Sog'liqni saqlash",
+      "savol": "Davlat kafolatlagan bepul tibbiy yordamga nimalar kiradi?",
+      "qisqa_javob": "Davlat muassasalarida shoshilinch va tez tibbiy yordam, birlamchi tibbiy-sanitariya yordami, emlashlar, ijtimoiy ahamiyatli kasalliklar (sil, onkologiya, ruhiy kasalliklar, narkologiya, endokrinologiya, kasb kasalliklari) bo'yicha ixtisoslashtirilgan yordam bepul ko'rsatiladi. Bolalarni, 15-17 yoshli o'smirlarni va 18-27 yoshli chaqiriluvchilarni tekshirish-davolash hamda tug'ruq yordami ham bepul (xususiy klinikalardan tashqari). Imtiyozli toifalar — nogironligi bo'lgan shaxslar, urush faxriylari, yetimlar davlat muassasalarida bepul davolanadi.",
+      "muammolar": [
+        "Qaysi tibbiy xizmatlar bepul bo'lishi kerak?",
+        "Shifoxonada bepul davolanish huquqim bormi?",
+        "Bolamni tekshirtirish uchun pul so'rashyapti, to'g'rimi?"
+      ],
+      "url": "https://advice.uz/oz/document/1595",
+      "huquqiy_asos": "Prezidentning 10.11.1998-yildagi PF-2107-son farmoni",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "davlat-tibbiy-sugurta",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Sog'liqni saqlash",
+      "savol": "Davlat tibbiy sug'urtasi doirasida qanday bepul xizmatlar va dorilar beriladi?",
+      "qisqa_javob": "Prezidentning 05.09.2024-yildagi PQ-311-son qaroriga ko'ra 2024-yil sentabrdan bosqichma-bosqich davlat tibbiy sug'urtasi joriy etilmoqda: kafolatlangan tibbiy xizmatlar paketi byudjet hisobidan, fuqarolardan qo'shimcha haq olinmasdan ko'rsatiladi. Shifokorning elektron retsepti asosida dorixonalardan bepul dori-darmonlar beriladi, dorixona xarajatlari sug'urta jamg'armasidan reimbursatsiya dasturi orqali qoplanadi. Tuman, viloyat va respublika shifoxonalarida belgilangan kasalliklar bo'yicha bepul davolash protokollari amal qiladi, imtiyozli shaxslar shifokor yo'llanmasi asosida bepul davolanadi.",
+      "muammolar": [
+        "Tibbiy sug'urta bo'yicha qaysi dorilar bepul?",
+        "Elektron retsept bilan dori qanday olinadi?",
+        "Davlat tibbiy sug'urtasi qachon va qayerda ishlaydi?"
+      ],
+      "url": "https://advice.uz/oz/document/3320",
+      "huquqiy_asos": "Prezidentning 05.09.2024-yildagi PQ-311-son qarori",
+      "qoshimcha": "Davlat va xususiy tibbiyot muassasalari jalb etiladi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ixtisoslashgan-tibbiy-yordam",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Sog'liqni saqlash",
+      "savol": "Ixtisoslashtirilgan tibbiy yordamni qanday olish mumkin?",
+      "qisqa_javob": "Ixtisoslashtirilgan tibbiy yordam olish uchun yashash joyidagi qishloq vrachlik punkti yoki oilaviy poliklinikaga murojaat qilib yo'llanma olinadi — yo'llanma bo'yicha davolanish bepul, yo'llanmasiz esa shartnoma asosida pullik xizmat ko'rsatiladi. Yo'llanma imtiyozli toifalarga (nogironligi bo'lgan shaxslar, urush faxriylari, yetimlar), ijtimoiy ahamiyatli kasalliklarga chalinganlarga (sil, onkologiya, psixiatriya, narkologiya, endokrinologiya) hamda davlat kafolatlagan bepul xizmatlar zarur bo'lganda rasmiylashtiriladi.",
+      "muammolar": [
+        "Respublika markazida bepul davolanish uchun nima kerak?",
+        "Yo'llanmasiz ixtisoslashgan klinikaga borsam bo'ladimi?",
+        "Onkologiya bo'yicha bepul davolanish tartibi qanday?"
+      ],
+      "url": "https://advice.uz/oz/document/1087",
+      "huquqiy_asos": "VM 05.09.2017-yildagi 696-son qarori",
+      "qoshimcha": "Murojaat: oilaviy poliklinika yoki qishloq vrachlik punkti",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "yollanma-shifoxonaga-yotqizish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Sog'liqni saqlash",
+      "savol": "Yo'llanma qanday rasmiylashtiriladi va shifoxonaga yotqizish tartibi qanday?",
+      "qisqa_javob": "Yo'llanma bosqichma-bosqich beriladi: qishloq vrachlik punktlari va oilaviy poliklinikalar markaziy ko'p tarmoqli poliklinikaga, ular shifoxona bo'limlari yoki viloyat tibbiyot muassasalariga, viloyat muassasalari esa respublika darajasidagi muassasalarga yo'llanma beradi. Toshkent shahrida oilaviy poliklinikalar markaziy poliklinikalarga, ular shahar yoki respublika muassasalariga yo'naltiradi. Imtiyozli toifadagi bemorlarni yotqizish uchun tibbiy-tanlov komissiyasi xulosasi asosida order rasmiylashtiriladi.",
+      "muammolar": [
+        "Viloyat kasalxonasiga yo'llanmani kim beradi?",
+        "Shifoxonaga yotish uchun qanday hujjat kerak?",
+        "Order qanday rasmiylashtiriladi?"
+      ],
+      "url": "https://advice.uz/oz/document/1088",
+      "huquqiy_asos": "VM 05.09.2017-yildagi 696-son qarori",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "reimbursatsiya-dori",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Sog'liqni saqlash",
+      "savol": "Reimbursatsiya dasturi bo'yicha dorilar qanday bepul beriladi?",
+      "qisqa_javob": "Davlat tibbiy sug'urta jamg'armasi bilan shartnoma tuzgan birlamchi tibbiyot muassasalari shifokorlari ambulator davolanish uchun dorilarni reimbursatsiya dasturi orqali tayinlaydi: elektron retsept tibbiy axborot tizimida yaratiladi, har bir tashxisga ko'pi bilan 3 ta dori yoziladi va retsept 7 kalendar kun amal qiladi. Bemorga retsept ma'lumotlari SMS orqali avtomatik yuboriladi, dorixona dorini beradi va qiymatini sug'urta jamg'armasidan qoplab oladi.",
+      "muammolar": [
+        "Shifokor yozgan dorini bepul qayerdan olaman?",
+        "Elektron retsept qancha muddat amal qiladi?",
+        "Dori pulini davlat qoplab beradimi?"
+      ],
+      "url": "https://advice.uz/oz/document/3324",
+      "huquqiy_asos": "VM 02.10.2024-yildagi 619-son qarori",
+      "qoshimcha": "Retsept haqida SMS-xabar keladi; retsept 7 kun amal qiladi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "davlat-yuridik-yordam",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Bepul huquqiy yordam",
+      "savol": "Davlat hisobidan yuridik yordam nima va kimga beriladi?",
+      "qisqa_javob": "Davlat hisobidan yuridik yordam — jismoniy shaxslarning huquq va manfaatlarini himoya qilish uchun to'liq yoki qisman davlat hisobidan ko'rsatiladigan malakali yuridik yordam. Unga kam ta'minlangan fuqarolar (fuqarolik ishlarida da'vogar/javobgar, ma'muriy qamoq xavfi bo'lganlar, jinoyat ishida gumon qilinuvchi va sudlanuvchilar), psixiatrik yordam oluvchilar, gender tengligi buzilganidan sudga murojaat qilganlar hamda advokat ishtiroki majburiy bo'lgan jinoyat ishi ishtirokchilari haqli. Yordamni faqat davlat hisobidan yuridik yordam ko'rsatuvchilar reestriga kiritilgan advokatlar ko'rsatadi.",
+      "muammolar": [
+        "Advokatga pulim yo'q, davlat advokat beradimi?",
+        "Bepul advokat olish uchun nima qilish kerak?",
+        "Kam ta'minlanganlarga yuridik yordam bormi?"
+      ],
+      "url": "https://advice.uz/oz/document/3374",
+      "huquqiy_asos": "O'zbekiston Respublikasining 16.06.2023-yildagi O'RQ-848-son qonuni",
+      "qoshimcha": "24/7 bepul maslahat: @Odil_chat_bot (Telegram), advice.uz",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "yuridik-yordam-ishlar",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Bepul huquqiy yordam",
+      "savol": "Qaysi ishlar bo'yicha davlat hisobidan yuridik yordam ko'rsatiladi?",
+      "qisqa_javob": "Davlat hisobidan yuridik yordam ijtimoiy nafaqa va moddiy yordam tayinlash, ishga tiklash, ish haqi undirish, aliment, uy-joydan ko'chirish, mehnatda mayib bo'lish yoki boquvchining o'limi tufayli zararni qoplash bo'yicha fuqarolik ishlarida ko'rsatiladi. Shuningdek, tergov, prokuratura va sud organlarining g'ayriqonuniy xatti-harakatlaridan yetgan zararni undirish, ma'muriy qamoq xavfi bo'lgan ishlar, psixiatrik yordam bilan bog'liq ishlar, gender tengligi ishlari va Jinoyat-protsessual kodeksiga muvofiq jinoyat ishlari ham qamrab olinadi.",
+      "muammolar": [
+        "Aliment ishida bepul advokat beriladimi?",
+        "Ishdan noqonuniy bo'shatishdi, bepul yurist olsam bo'ladimi?",
+        "Uydan ko'chirmoqchi bo'lishyapti, davlat yordam beradimi?"
+      ],
+      "url": "https://advice.uz/oz/document/3375",
+      "huquqiy_asos": "O'zbekiston Respublikasining 16.06.2023-yildagi O'RQ-848-son qonuni",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "advokat-tanlash-tizim",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Bepul huquqiy yordam",
+      "savol": "'Yuridik yordam' axborot tizimi orqali advokat qanday tanlanadi?",
+      "qisqa_javob": "Davlat organi, tergovchi, prokuror yoki sud davlat hisobidan yuridik yordam to'g'risida qaror qabul qilganda ish 'Yuridik yordam' axborot tizimida ro'yxatga olinadi va tizim advokatni avtomatik tanlaydi. Tanlashda advokatning ixtisosligi, xizmat ko'rsatadigan hududi va ish yuritish tili hisobga olinadi; advokat rad etsa, sababini darhol tizimga kiritadi va boshqa advokat tanlanadi. Tanlangan advokat haqidagi ma'lumot yordam so'ragan shaxsga yoki so'rov yuborgan organga yuboriladi.",
+      "muammolar": [
+        "Bepul advokatni kim tayinlaydi?",
+        "Advokat ishimni olishdan bosh tortsa nima bo'ladi?",
+        "Davlat advokati qanday biriktiriladi?"
+      ],
+      "url": "https://advice.uz/oz/document/3377",
+      "huquqiy_asos": "O'zbekiston Respublikasining 16.06.2023-yildagi O'RQ-848-son qonuni",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "bepul-birlamchi-yuridik-yordam",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Bepul huquqiy yordam",
+      "savol": "Fuqarolarga bepul birlamchi yuridik yordam qanday ko'rsatiladi?",
+      "qisqa_javob": "2024-yil 1-iyuldan Adliya vazirligi 'Madad' tashkiloti bilan hamkorlikda aholiga bepul huquqiy maslahatlar beradi, nizolarni hal etishda protsessual hujjatlarni tayyorlashda ko'maklashadi va kundalik huquqiy muammolarni hal etishga yordam beradi. 'Mahalla huquqshunosi' loyihasi doirasida qisqa muddatli bepul o'quv kurslari tashkil etiladi, har chorshanba huquqiy targ'ibot kuni o'tkaziladi. 24/7 maslahat uchun @Odil_chat_bot Telegram-boti ishlaydi, byurolar manzillari advice.uz/uz/offices sahifasida.",
+      "muammolar": [
+        "Bepul yuridik maslahatni qayerdan olsam bo'ladi?",
+        "Ariza-shikoyat yozishga kim yordam beradi?",
+        "Madad byurosi qayerda joylashgan?"
+      ],
+      "url": "https://advice.uz/oz/document/3378",
+      "huquqiy_asos": "Prezidentning 24.05.2024-yildagi PF-80-son farmoni",
+      "qoshimcha": "24/7: t.me/Odil_chat_bot; byurolar: advice.uz/uz/offices",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "xalq-qabulxonasi-murojaat",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Bepul huquqiy yordam",
+      "savol": "Xalq qabulxonalariga qanday murojaat qilinadi?",
+      "qisqa_javob": "Xalq qabulxonalariga shaxsan borib yoki telefon orqali bepul murojaat qilish mumkin; qabulxonaga borolmaydiganlar 1000 qisqa raqami orqali Prezidentning virtual qabulxonasiga qo'ng'iroq qilishi mumkin. Murojaatda F.I.Sh. va yashash joyi ko'rsatiladi, shaxsni tasdiqlovchi hujjat talab etiladi, yozma murojaat imzolanadi; davlat tilida yoki boshqa tillarda topshirish mumkin. Murojaatlar 15 kundan 1 oygacha muddatda ko'rib chiqiladi.",
+      "muammolar": [
+        "Xalq qabulxonasiga shikoyat qanday yoziladi?",
+        "Prezident qabulxonasiga qanday murojaat qilaman?",
+        "Murojaatim qancha vaqtda ko'rib chiqiladi?"
+      ],
+      "url": "https://advice.uz/oz/document/4129",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "Virtual qabulxona: 1000",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ishonch-telefonlari-respublika",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ishonch telefonlari",
+      "savol": "Asosiy davlat organlari va vazirliklarning ishonch telefonlari qanday?",
+      "qisqa_javob": "Asosiy qisqa raqamlar: Prezident virtual qabulxonasi — 1000, Bosh prokuratura — 1007, Adliya vazirligi — 1008, Ichki ishlar vazirligi — 1102, Sog'liqni saqlash vazirligi — 1003, Favqulodda vaziyatlar vazirligi — 1050/1101, Oliy ta'lim vazirligi — 1006, Majburiy ijro byurosi — 1107, Davlat soliq qo'mitasi — 1198, Bojxona qo'mitasi — 1108, Transport vazirligi — 1167, Qurilish va kommunal xo'jalik vazirligi — 1298. Kambag'allikni qisqartirish va bandlik vazirligi: (71) 203-01-30; Vazirlar Mahkamasi: (71) 239-82-60; Oliy sud: (71) 239-02-13.",
+      "muammolar": [
+        "Vazirlikka shikoyat qilish uchun qaysi raqamga telefon qilaman?",
+        "Soliq bo'yicha ishonch telefoni qaysi?",
+        "Prokuraturaning qaynoq liniyasi raqami nima?"
+      ],
+      "url": "https://advice.uz/oz/document/2263",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "To'liq ro'yxat (vazirliklar, qo'mitalar, agentliklar) hujjat sahifasida keltirilgan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ishonch-telefonlari-hokimliklar",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ishonch telefonlari",
+      "savol": "Viloyat hokimliklarining ishonch telefonlari qanday?",
+      "qisqa_javob": "Toshkent shahar hokimligi: (71) 210-03-36; Toshkent viloyati: (71) 232-80-73; Qoraqalpog'iston Vazirlar Kengashi: (61) 222-26-14; Andijon: (74) 225-80-00; Buxoro: (65) 222-22-22; Jizzax: (72) 226-00-11; Qashqadaryo: (75) 221-07-60; Navoiy: (79) 220-10-20; Namangan: 1056; Samarqand: 1177, (66) 230-47-77; Surxondaryo: 1088; Sirdaryo: (67) 225-29-82; Farg'ona: (73) 244-05-23; Xorazm: (62) 223-00-54. Mahalliy muammolar (yo'l, kommunal, hujjat) bo'yicha avval hokimlik ishonch telefoniga murojaat qilish mumkin.",
+      "muammolar": [
+        "Hokimlikka qanday telefon qilaman?",
+        "Viloyat hokimining qabulxona raqami qaysi?",
+        "Mahalliy muammoni kimga aytsam bo'ladi?"
+      ],
+      "url": "https://advice.uz/oz/document/2263",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "Barcha hududlar raqamlari hujjat sahifasida",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "zoravonlik-ishonch-telefoni",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ishonch telefonlari",
+      "savol": "Tazyiq va zo'ravonlikdan himoya uchun qaysi raqamlarga qo'ng'iroq qilinadi?",
+      "qisqa_javob": "Tazyiq va zo'ravonlik holatlarida 112 yagona dispetcherlik xizmatiga yoki 1146 qisqa raqamli ishonch telefoniga murojaat qilinadi. Murojaat kelib tushganda mutaxassislar xotin-qizlarga ijtimoiy, psixologik, huquqiy va boshqa masalalarda maslahat berib, axborot taqdim etadi.",
+      "muammolar": [
+        "Oiladagi zo'ravonlik bo'yicha qayerga qo'ng'iroq qilay?",
+        "Xotin-qizlarni himoya qilish raqami qaysi?",
+        "Zo'ravonlikka uchradim, kimdan yordam so'rayman?"
+      ],
+      "url": "https://advice.uz/oz/document/3440",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "Raqamlar: 112 va 1146 (24 soat)",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "adliya-ishonch-telefoni",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ishonch telefonlari",
+      "savol": "Adliya organlarining maxsus ishonch telefoni qanday ishlaydi?",
+      "qisqa_javob": "Adliya organlarining 1008 raqamli bepul ishonch telefoni butun respublika bo'ylab ishlaydi va asosan tadbirkorlik subyektlarining huquqlarini himoya qilish bo'yicha ariza, taklif va shikoyatlarni qabul qiladi. Ish vaqti: dushanba-juma, 09:00-13:00 va 14:00-18:00 (bayram kunlaridan tashqari). Qo'ng'iroq qiluvchi noto'g'ri ma'lumot berganlik uchun javobgarlik haqida ogohlantiriladi.",
+      "muammolar": [
+        "Tadbirkor sifatida huquqim buzildi, qayerga telefon qilay?",
+        "Adliya vazirligining ishonch raqami qaysi?",
+        "1008 raqami qanday masalalarni ko'radi?"
+      ],
+      "url": "https://advice.uz/oz/document/3439",
+      "huquqiy_asos": "VM 19.03.2011-yildagi 80-son qarori",
+      "qoshimcha": "Raqam: 1008; ish vaqti 09:00-18:00 (tushlik 13:00-14:00)",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ish-haqi-saqlanmagan-tatil",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Mehnat munosabatlari",
+      "savol": "Ish haqi saqlanmagan ta'tilni qanday olish mumkin va u qancha muddatga beriladi?",
+      "qisqa_javob": "Ish haqi saqlanmagan ta'til xodimning yozma arizasiga ko'ra, ish beruvchi bilan kelishilgan holda beriladi va bir kalendar yilda 3 oydan oshmasligi kerak (karantin, favqulodda vaziyatlarda 6 oygacha uzaytirilishi mumkin). I va II guruh nogironligi bo'lgan xodimlar hamda 12 yoshga to'lmagan ikki va undan ortiq bolasi yoki 16 yoshgacha nogiron bolasi bor ota-onalar har yili o'z xohishiga ko'ra 14 kalendar kungacha bunday ta'til olishga haqli — bunda ish beruvchining roziligi shart emas. Ta'til davrida ish o'rni (lavozimi) saqlanadi.",
+      "muammolar": [
+        "O'z hisobimdan ta'til olmoqchiman, necha kunga beriladi?",
+        "Ishxona bepul otpuska bermayapti, nima qilay?",
+        "Otpuska bez soderjaniya qancha muddatga olinadi?"
+      ],
+      "url": "https://advice.uz/oz/document/4214",
+      "huquqiy_asos": "O'zbekiston Respublikasi Mehnat kodeksi",
+      "qoshimcha": "Yozma ariza asosida rasmiylashtiriladi; keyingi yil 1-yanvardan yana olish mumkin",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ishga-qabulda-sinov-muddati",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Mehnat munosabatlari",
+      "savol": "Ishga qabul qilishda sinov muddati qancha bo'ladi va kimlarga sinov belgilanmaydi?",
+      "qisqa_javob": "Dastlabki sinov muddati oddiy xodimlar uchun 3 oydan, tashkilot rahbarlari, ularning o'rinbosarlari, bosh buxgalterlar va bo'lim rahbarlari uchun 6 oydan oshmasligi kerak. Sinov homilador ayollarga, 3 yoshgacha bolasi bor ayollarga, 18 yoshga to'lmaganlarga, oliy ta'limni yangi bitirganlarga va 6 oygacha muddatli shartnomalarda belgilanmaydi. Sinov davrida har bir taraf ikkinchi tarafni kamida 3 kun oldin yozma ogohlantirib shartnomani bekor qilishga haqli.",
+      "muammolar": [
+        "Ispitatelniy srok qancha davom etadi?",
+        "Sinov muddatida ishdan bo'shatishlari mumkinmi?",
+        "Homilador ayolga sinov muddati qo'yiladimi?"
+      ],
+      "url": "https://advice.uz/oz/document/2913",
+      "huquqiy_asos": "O'zbekiston Respublikasi Mehnat kodeksi",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "dekret-puli-qachon-tolanadi",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Mehnat munosabatlari",
+      "savol": "Dekret puli (homiladorlik va tug'ish nafaqasi) qachon va qancha miqdorda to'lab berilishi kerak?",
+      "qisqa_javob": "Vazirlar Mahkamasining 2024-yil 31-maydagi 314-son qarori bo'yicha nafaqa mehnatga layoqatsizlik varaqasi ish beruvchiga topshirilgan kundan boshlab 16 kalendar kun ichida to'lanishi kerak. Ish staji 12 oydan kam bo'lsa o'rtacha oylik ish haqining 75 foizi, 12 oy va undan ortiq bo'lsa 100 foizi miqdorida to'lanadi. To'lov kechiktirilsa, ish beruvchi aybidan qat'i nazar har kechiktirilgan kun uchun Markaziy bank asosiy stavkasidan kelib chiqib pulli kompensatsiya to'laydi.",
+      "muammolar": [
+        "Dekret pulimni berishmayapti, qayerga murojaat qilay?",
+        "Tug'ruq ta'tili puli necha kunda to'lanadi?",
+        "Dekretniy necha foiz to'lanadi?"
+      ],
+      "url": "https://advice.uz/oz/document/4132",
+      "huquqiy_asos": "Mehnat kodeksi 404 va 333-moddalari; VM 2024-yil 31-maydagi 314-son qarori",
+      "qoshimcha": "Homiladorlik va tug'ish ta'tili: tug'ishgacha 70, tug'ishdan keyin 56 (murakkab tug'ruq/egizaklarda 70) kalendar kun",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ishdan-boshatish-nafaqasi",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Mehnat munosabatlari",
+      "savol": "Ishdan bo'shatilganda nafaqa (vixodnoy posobiye) qancha miqdorda to'lanadi?",
+      "qisqa_javob": "Mehnat shartnomasi ish beruvchi tashabbusi bilan (xodimning aybli harakatlaridan tashqari), tashkilot tugatilishi, xodim yangi mehnat sharoitlarini rad etishi kabi asoslarda bekor qilinganda ishdan bo'shatish nafaqasi to'lanadi. Miqdori ish stajiga bog'liq: 3 yilgacha — o'rtacha oylik ish haqining 50%, 3-5 yil — 75%, 5-10 yil — 100%, 10-15 yil — 150%, 15 yildan ortiq — kamida 200%. Jamoa shartnomasida kattaroq miqdor belgilanishi mumkin.",
+      "muammolar": [
+        "Qisqartirishga tushdim, qancha pul berishadi?",
+        "Ishdan bo'shaganda kompensatsiya to'lanadimi?",
+        "Vixodnoy posobiye qanday hisoblanadi?"
+      ],
+      "url": "https://advice.uz/oz/document/2922",
+      "huquqiy_asos": "O'zbekiston Respublikasi Mehnat kodeksi 168-moddasi",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ish-beruvchi-tashabbusi-bilan-boshatish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ishdagi muammolar",
+      "savol": "Ish beruvchining tashabbusi bilan ishdan bo'shatish asoslariga nimalar kiradi?",
+      "qisqa_javob": "Asosiy asoslar: tashkilot yoki tadbirkor faoliyatining tugatilishi; texnologiya va ishlab chiqarish o'zgarishi munosabati bilan xodimlar soni yoki shtatning qisqarishi; xodimning egallab turgan lavozimiga malakasi muvofiq emasligi; mehnat majburiyatlarini muntazam buzish (intizomiy jazodan keyin bir yil ichida takroran); mehnat majburiyatlarini bir marta qo'pol buzish (Mehnat kodeksi 162-moddasi) hamda qonunchilikda belgilangan boshqa asoslar.",
+      "muammolar": [
+        "Meni qanday asoslarda ishdan haydashlari mumkin?",
+        "Ish beruvchi o'zi xohlab ishdan bo'shata oladimi?",
+        "Shtat qisqarishi qonuniymi?"
+      ],
+      "url": "https://advice.uz/oz/document/3339",
+      "huquqiy_asos": "O'zbekiston Respublikasi Mehnat kodeksi (jumladan 162-modda)",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "oylik-kechiktirilsa-kompensatsiya",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ishdagi muammolar",
+      "savol": "Ish beruvchi oylik, otpuska puli yoki hisob-kitob to'lovlarini kechiktirsa nima bo'ladi?",
+      "qisqa_javob": "To'lov muddati buzilganda kechiktirilgan summaga majburiy pulli kompensatsiya (foiz) qo'shib to'lanadi — u Markaziy bankning qayta moliyalashtirish stavkasining 10 foizi miqdorida, to'lov muddatidan keyingi kundan haqiqiy to'lov kunigacha hisoblanadi. Kompensatsiya ish beruvchining aybi bor-yo'qligidan qat'i nazar to'lanadi; jamoa yoki mehnat shartnomasida uning miqdori oshirilishi mumkin.",
+      "muammolar": [
+        "Oyligimni bir necha oy berishmayapti, nima qilay?",
+        "Otpuska pulini kechiktirishsa jarima bormi?",
+        "Ish haqi kechiksa foiz to'lanadimi?"
+      ],
+      "url": "https://advice.uz/oz/document/3341",
+      "huquqiy_asos": "O'zbekiston Respublikasi Mehnat kodeksi",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "homiladorlik-sababli-oylik-kamaytirish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ishdagi muammolar",
+      "savol": "Homiladorligi yoki yosh bolalari borligi sababli xodimning oyligini kamaytirish mumkinmi?",
+      "qisqa_javob": "Yo'q, taqiqlanadi. Mehnat kodeksiga ko'ra homiladorlik yoki bolalari borligi sababli ishga olishni rad etish, ishdan bo'shatish yoki ish haqini kamaytirish man etiladi. Ishga olish rad etilsa, homilador ayol yoki ota-onaning talabiga binoan ish beruvchi 3 kun ichida rad etish sababini yozma bayon qilishi shart, uning ustidan shikoyat qilish mumkin.",
+      "muammolar": [
+        "Homiladorman deb maoshimni kamaytirishdi, bu qonuniymi?",
+        "Bolam bor deb ishga olishmayapti",
+        "Dekretdan keyin oyligimni kamaytirishlari mumkinmi?"
+      ],
+      "url": "https://advice.uz/oz/document/3344",
+      "huquqiy_asos": "O'zbekiston Respublikasi Mehnat kodeksi 392-moddasi",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "nogiron-xodim-ish-vaqti",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ishdagi muammolar",
+      "savol": "I va II guruh nogironligi bo'lgan xodimlar uchun ish vaqti haftasiga necha soat bo'lishi kerak?",
+      "qisqa_javob": "I va II guruh nogironligi bo'lgan xodimlar uchun ish vaqti haftasiga 36 soatdan oshmasligi kerak. Kunlik ish (smena) davomiyligi tibbiy-ijtimoiy ekspert komissiyasi tavsiyasi asosida belgilanadi: 6 kunlik ish haftasida kuniga 6 soatdan, 5 kunlik ish haftasida 7 soat 30 daqiqadan oshmaydi.",
+      "muammolar": [
+        "Nogironligim bor, to'liq stavkada ishlashim shartmi?",
+        "Invalidlarga qisqartirilgan ish kuni beriladimi?",
+        "2-guruh nogironi necha soat ishlashi kerak?"
+      ],
+      "url": "https://advice.uz/oz/document/3345",
+      "huquqiy_asos": "O'zbekiston Respublikasi Mehnat kodeksi",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "birinchi-sinfga-qabul",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ta'lim",
+      "savol": "Bolani 1-sinfga qanday qabul qilishadi va hujjatlar qachon topshiriladi?",
+      "qisqa_javob": "1-sinfga qabul bepul, onlayn arizalar 20-iyundan 31-iyulgacha my.maktab.uz va my.gov.uz orqali qabul qilinadi; bolalar 7 yoshga to'ladigan yilda, tayyorgarlik darajasidan qat'i nazar tanlovsiz qabul qilinadi (musiqa/san'at maktablari bundan mustasno). Mikrohudud tashqarisidagi maktabga 1-15 avgustda bo'sh joy bo'lsa ariza berish mumkin, ariza 1 kunda ko'riladi. Ro'yxatga olish usulida direktor nomiga ariza, tibbiy ma'lumotnoma va 4 dona 3,5x4,5 sm foto kerak.",
+      "muammolar": [
+        "Bolamni maktabga qanday yozdiraman?",
+        "1-sinfga onlayn ariza qachongacha topshiriladi?",
+        "Boshqa mahalladagi maktabga bera olamanmi?"
+      ],
+      "url": "https://advice.uz/oz/document/4137",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "Portallar: my.maktab.uz, my.gov.uz",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "bogcha-navbatiga-ariza",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ta'lim",
+      "savol": "Bolani davlat bog'chasiga (MTM) navbatga qanday qo'yish va navbatni qanday tekshirish mumkin?",
+      "qisqa_javob": "Ariza YaIDXP (my.gov.uz) orqali bepul topshiriladi: ro'yxatdan o'tib so'rovnoma to'ldiriladi, vakolatli organ bolani navbatga qo'yilgani haqida xabarnoma yuboradi, bola 3 yoshga to'lgach yo'llanma elektron shakllantiriladi. Navbat holatini ariza raqami orqali onlayn tekshirish mumkin. Xizmat Maktabgacha va maktab ta'limi vazirligi tomonidan ko'rsatiladi.",
+      "muammolar": [
+        "Bolamni bog'chaga navbatga qanday qo'yaman?",
+        "MTM navbatini qayerdan tekshirsam bo'ladi?",
+        "Bog'chaga yo'llanma qachon beriladi?"
+      ],
+      "url": "https://advice.uz/oz/document/2462",
+      "huquqiy_asos": "Vazirlar Mahkamasining 2018-yil 28-martdagi 244-son qarori",
+      "qoshimcha": "Ishonch telefoni: +998 (71) 202-09-09; portal: my.gov.uz; xizmat bepul",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "super-kontrakt-olish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ta'lim",
+      "savol": "Super kontrakt nima va uni olish uchun qancha to'lanadi?",
+      "qisqa_javob": "Super kontrakt — o'tish balidan yetmagan yoki grant/kontraktga kirmagan abituriyentlarga tabaqalashtirilgan to'lov asosida o'qish imkoniyati; buning uchun OTM rektori nomiga ariza beriladi. Narxi to'plangan balga bog'liq: o'tish balidan 1 ballgacha kam bo'lsa bazaviy kontraktning 1,5 baravari, undan yuqori farqlarda 2, 2,5, 3 baravargacha, katta farqlarda 8 dan 25 baravargacha yetadi. To'lovni ta'lim krediti orqali qoplash imkoniyati ham mavjud.",
+      "muammolar": [
+        "Balim yetmadi, super kontraktga o'qishga kira olamanmi?",
+        "Super kontrakt necha pul turadi?",
+        "Super shartnoma uchun qayerga ariza beriladi?"
+      ],
+      "url": "https://advice.uz/oz/document/2775",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "Ariza OTM rektori nomiga topshiriladi; ta'lim kreditiga onlayn ariza berish mumkin",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "diplom-dublikati-olish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Ta'lim",
+      "savol": "Yo'qolgan yoki yaroqsiz holga kelgan diplom o'rniga dublikat qanday olinadi?",
+      "qisqa_javob": "Diplom yo'qolganda, yaroqsiz holga kelganda yoki F.I.Sh. o'zgarganda Davlat xizmatlari markazlari yoki my.gov.uz orqali murojaat qilinadi. Xizmat narxi BHMning 1 baravari (300 ming so'm), dublikat ariza tushgandan boshlab 10 ish kunida rasmiylashtiriladi. Dublikat asl nusxa bilan bir xil yuridik kuchga ega, uni shaxsan yoki pochta orqali olish mumkin.",
+      "muammolar": [
+        "Diplomim yo'qolib qoldi, qayta tiklasam bo'ladimi?",
+        "Attestat dublikati qancha turadi?",
+        "Familiyam o'zgardi, diplomni almashtirish kerakmi?"
+      ],
+      "url": "https://advice.uz/oz/document/2765",
+      "huquqiy_asos": "Vazirlar Mahkamasining 2022-yil 21-iyuldagi 395-son qarori",
+      "qoshimcha": "Murojaat: Davlat xizmatlari markazlari yoki my.gov.uz",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "test-natijasiga-apellyatsiya",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Abituriyentlar uchun",
+      "savol": "Test sinovlari natijasidan norozi abituriyent qanday apellyatsiya beradi?",
+      "qisqa_javob": "Norozi abituriyent pasport va abituriyent ruxsatnomasi bilan apellyatsiya komissiyasiga 21-30 avgust kunlari yozma yoki elektron shaklda murojaat qiladi. Unga javob varaqasi nusxasi, noto'g'ri javoblar ro'yxati va test kitobchasi beriladi; har bir e'tirozli javob bo'yicha yozma izoh bilan materiallarni komissiyaga topshiradi. Apellyatsiya komissiyasi xulosasi 5 ish kuni ichida Davlat komissiyasiga taqdim etiladi.",
+      "muammolar": [
+        "Test balimga rozi emasman, qayerga shikoyat qilaman?",
+        "DTM natijasiga apellyatsiya qachon beriladi?",
+        "Test javoblarim noto'g'ri tekshirilgan bo'lsa nima qilay?"
+      ],
+      "url": "https://advice.uz/oz/document/3558",
+      "huquqiy_asos": "Vazirlar Mahkamasining 2018-yil 3-apreldagi 261-son qarori",
+      "qoshimcha": "Kerakli hujjatlar: pasport va abituriyent ruxsatnomasi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "otm-imtiyoz-hujjatlari",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Abituriyentlar uchun",
+      "savol": "OTMga hujjat topshirishda qanday imtiyoz hujjatlari inobatga olinadi?",
+      "qisqa_javob": "Imtiyozga ega toifalar: muddatli harbiy xizmatni o'tab harbiy qism qo'mondonligi tavsiyanomasini olganlar, I-II guruh nogironligi bo'lganlar, harbiy xizmatchilarning farzandlari, xalqaro va respublika olimpiadalari g'oliblari, B1 va undan yuqori darajadagi chet tili sertifikati (IELTS, TOEFL, CEFR va h.k.) egalari, to'liq davlat ta'minotidagi yetim bolalar, Zulfiya mukofoti kabi davlat mukofotlari sovrindorlari hamda Navoiy viloyatining olis cho'l hududi abituriyentlari.",
+      "muammolar": [
+        "Armiyadan kelganlarga qanday imtiyoz bor?",
+        "IELTS sertifikati qabulda hisobga olinadimi?",
+        "OTMga kirishda kimlarga yengillik beriladi?"
+      ],
+      "url": "https://advice.uz/oz/document/3517",
+      "huquqiy_asos": "Vazirlar Mahkamasining 2019-yil 7-iyundagi 468-son qarori",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "xotin-qizlar-4-foiz-kvota",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Abituriyentlar uchun",
+      "savol": "OTMga kirishda 4 foizlik davlat granti kvotasi kimlarga beriladi?",
+      "qisqa_javob": "4 foizlik grant kvotasi ehtiyojmand oilalardagi xotin-qizlarga beriladi: kam ta'minlangan oilalar (jon boshiga daromad eng kam ish haqining 0,527 baravaridan oshmasa), ota-onasi vafot etgan to'liqsiz oilada tarbiyalanayotganlar, turmush o'rtog'i vafot etib voyaga yetmagan farzandini boqayotgan ayollar, nogiron farzandi yoki I-II guruh nogiron ota-onasi bor oilalardagi qizlar. Tavsiyanoma uchun ariza onlayn topshiriladi (2025-yilda 30-maydan 8-iyungacha), tasdiqlovchi hujjatlar mahalla raisi o'rinbosariga beriladi.",
+      "muammolar": [
+        "Kam ta'minlangan oila qiziman, grant kvotasi olsam bo'ladimi?",
+        "Ayollar uchun 4% kvotaga qanday ariza beriladi?",
+        "Otam yo'q, o'qishga imtiyoz bormi?"
+      ],
+      "url": "https://advice.uz/oz/document/4097",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "Hujjatlar mahalla raisining o'rinbosari orqali rasmiylashtiriladi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "nogironlar-otm-imtiyozlari",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Abituriyentlar uchun",
+      "savol": "Nogironligi bo'lgan shaxslar OTMga kirishda qanday imtiyozlarga ega?",
+      "qisqa_javob": "I va II guruh nogironligi bo'lgan abituriyentlar uchun davlat granti umumiy qabul sonining 2 foizi miqdorida qo'shimcha kvota ajratilgan (III guruhga qo'llanilmaydi). Hujjatlar my.uzbmb.uz orqali onlayn yoki oflayn topshiriladi: pasport/ID, attestat yoki diplom, nogironlikni tasdiqlovchi hujjat kerak. OTMlar pandus, maxsus uskunalar va imo-ishora tarjimonlari bilan sharoit yaratishi shart.",
+      "muammolar": [
+        "Nogironman, o'qishga kirishda qanday yengillik bor?",
+        "2 foizlik kvota kimlarga tegishli?",
+        "3-guruh nogironiga imtiyoz beriladimi?"
+      ],
+      "url": "https://advice.uz/oz/document/4154",
+      "huquqiy_asos": "\"Nogironligi bo'lgan shaxslarning huquqlari to'g'risida\"gi 641-son Qonun 40-moddasi",
+      "qoshimcha": "Portal: my.uzbmb.uz; ro'yxatdan o'tish 5-25 iyun",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "daromad-soligi-stavkalari",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Soliqlar",
+      "savol": "Jismoniy shaxslarning daromad solig'i stavkalari qanday?",
+      "qisqa_javob": "O'zbekiston rezidenti bo'lgan jismoniy shaxslarning daromadlariga 12 foizlik stavka, dividendlar va foizlarga 5 foizlik stavka qo'llaniladi. Norezidentlarning O'zbekistondagi manbalardan olingan daromadlariga alohida stavkalar belgilangan. Soliqni my.soliq.uz saytidagi kalkulyator orqali hisoblash mumkin.",
+      "muammolar": [
+        "Oylikdan necha foiz soliq ushlanadi?",
+        "Podoxodniy nalog qancha?",
+        "Dividenddan qancha soliq to'lanadi?"
+      ],
+      "url": "https://advice.uz/oz/document/1325",
+      "huquqiy_asos": "O'zbekiston Respublikasi Soliq kodeksi 382-moddasi",
+      "qoshimcha": "Kalkulyator: my.soliq.uz/calc/padaxod; Telegram-bot: @Odil_chat_bot",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "mol-mulk-soligi-imtiyozlari",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Soliqlar",
+      "savol": "Kimlar mol-mulk solig'idan ozod etilgan yoki imtiyozga ega?",
+      "qisqa_javob": "To'liq ozod etilganlar: \"O'zbekiston Qahramoni\" unvoni sohiblari, urush nogironlari va qatnashchilari, halok bo'lgan harbiylarning ota-onalari, yetim bolalar (23 yoshgacha). Pensionerlar, I-II guruh nogironlari va o'n va undan ortiq bolali ota-onalardan biri uy-joyning 60 kvadrat metrigacha bo'lgan qismi uchun soliqdan ozod. Imtiyoz faqat bitta yashash obyektiga qo'llaniladi, tasdiqlovchi hujjatlar soliq organiga taqdim etiladi.",
+      "muammolar": [
+        "Pensionerlar uy solig'i to'laydimi?",
+        "Nogironlar mol-mulk solig'idan ozodmi?",
+        "Imushestvo nalogidan kimlar ozod?"
+      ],
+      "url": "https://advice.uz/oz/document/1330",
+      "huquqiy_asos": "O'zbekiston Respublikasi Soliq kodeksi",
+      "qoshimcha": "Guvohnoma/ma'lumotnoma bilan soliq organiga murojaat qilinadi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "yillik-daromad-deklaratsiyasi",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Soliqlar",
+      "savol": "Jami yillik daromad deklaratsiyasini kim va qachon topshirishi kerak?",
+      "qisqa_javob": "Asosiy ish joyidan tashqari daromad (mulkdan, mualliflik haqi, chet eldagi manbalardan va h.k.) olgan jismoniy shaxslar deklaratsiyani yashash joyidagi soliq organiga 1-aprelgacha topshirishi shart. Topshirish usullari: shaxsan, pochta orqali yoki my.soliq.uz shaxsiy kabineti orqali elektron shaklda (ERI bilan). Hisoblangan soliq keyingi yilning 1-iyunigacha to'lanadi.",
+      "muammolar": [
+        "Deklaratsiya qachongacha topshiriladi?",
+        "Ijara daromadi uchun deklaratsiya kerakmi?",
+        "Chet eldan pul topsam soliq to'layman-mi?"
+      ],
+      "url": "https://advice.uz/oz/document/1336",
+      "huquqiy_asos": "O'zbekiston Respublikasi Soliq kodeksi",
+      "qoshimcha": "Portal: my.soliq.uz; ERI Davlat xizmatlari markazlarida bepul olinadi; to'lov UPay, Payme orqali ham mumkin",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "yer-soligi-imtiyozlari",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Soliqlar",
+      "savol": "Yer solig'ini to'lash bo'yicha qanday imtiyozlar bor?",
+      "qisqa_javob": "Yer solig'idan ozod etilganlar: \"O'zbekiston Qahramoni\" va unga tenglashtirilgan unvon sohiblari, urush faxriylari va qatnashchilari, I-II guruh nogironlari, yolg'iz pensionerlar, boquvchisini yo'qotgan ko'p bolali oilalar hamda Chernobil oqibatlarini bartaraf etishda qatnashganlar. Imtiyoz olish uchun maqomni tasdiqlovchi hujjatlar soliq organiga topshiriladi; har bir soliq to'lovchi imtiyozni o'zi tanlagan faqat bitta yer uchastkasiga qo'llashi mumkin.",
+      "muammolar": [
+        "Yer solig'idan kimlar ozod?",
+        "Pensioner yer solig'i to'laydimi?",
+        "Ikki uchastkam bor, ikkalasiga imtiyoz beriladimi?"
+      ],
+      "url": "https://advice.uz/oz/document/1334",
+      "huquqiy_asos": "O'zbekiston Respublikasi Soliq kodeksi",
+      "qoshimcha": "Kalkulyator: my.soliq.uz/calc/earth",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ipoteka-krediti-olish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Bank sohasi",
+      "savol": "Ipoteka kreditini olish uchun qanday hujjatlar kerak va shartlari qanday?",
+      "qisqa_javob": "Bankka qarz oluvchi(lar)ning pasporti, uy-joy oldi-sotdi shartnomasi va so'nggi 12 oylik daromad ma'lumotlari topshiriladi; ariza barcha hujjatlar taqdim etilgandan keyin 30 ish kunidan oshmagan muddatda ko'rib chiqiladi. Kredit muddati 20 yilgacha uzaytirilgan. Maksimal summalar hududga qarab: masalan, Toshkentda 1-2 xonali uy uchun 198-264 mln so'm, 3 va undan ortiq xonali uchun 255-352 mln so'mgacha; qarz oluvchi notarial to'lov, sug'urta va baholash xarajatlarini ham qoplaydi.",
+      "muammolar": [
+        "Ipoteka olish uchun nima kerak?",
+        "Uy kreditini necha yilga berishadi?",
+        "Ipoteka arizasi qancha vaqtda ko'riladi?"
+      ],
+      "url": "https://advice.uz/oz/document/1204",
+      "huquqiy_asos": "\"Ipoteka to'g'risida\"gi Qonun; VM 05.02.2021-yildagi 56-son qarori; PF-5886; PQ-4701",
+      "qoshimcha": "Tijorat banklarining hududiy filiallariga murojaat qilinadi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "shikastlangan-pulni-almashtirish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Bank sohasi",
+      "savol": "Yirtilgan yoki shikastlangan banknotalarni almashtirish mumkinmi?",
+      "qisqa_javob": "Asosiy belgilarining 50 foizidan ko'pi ko'rinib turgan, eni to'rtdan biridan oshmagan yopishtirilgan yirtig'i yoki mayda dog'lari bor banknotalar muomalaga yaroqli hisoblanadi va tijorat banklari ularni qabul qilishdan bosh tortishga haqli emas. Bo'laklarga bo'lingan, yongan, rangi o'chgan, suv belgisi yoki himoya ipi yo'q banknotalar yaroqsiz sanaladi va inkassoga topshiriladi. Banklar yaroqsiz banknotalarni inkassoga qabul qilishni rad etishi taqiqlanadi.",
+      "muammolar": [
+        "Yirtilgan pulni do'kon olmayapti, nima qilay?",
+        "Kuygan pulni bankka topshirsam bo'ladimi?",
+        "Eski so'm kupyurasini qayerda almashtiraman?"
+      ],
+      "url": "https://advice.uz/oz/document/1033",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "Tijorat banklariga murojaat qilinadi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "bank-siri-oshkor-qilish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Bank sohasi",
+      "savol": "Bank siriga nimalar kiradi va u qachon oshkor qilinishi mumkin?",
+      "qisqa_javob": "Bank siriga mijoz operatsiyalari, hisobvaraqlari, omonatlari, seyflari va saqlanayotgan mol-mulki haqidagi ma'lumotlar kiradi. Ularni faqat mijozning o'zi yoki vakili, sud (yozma so'rov asosida), prokuratura va tergov organlari, soliq xizmati kabi qonunda ko'rsatilgan organlar olishi mumkin. Bank sirini oshkor etganlik uchun fuqarolarga BHMning yarmidan 2 baravarigacha, mansabdor shaxslarga 2 baravaridan 5 baravarigacha jarima solinadi.",
+      "muammolar": [
+        "Bank hisobim haqida ma'lumotni kim ko'ra oladi?",
+        "Bank mening ma'lumotimni tarqatsa nima bo'ladi?",
+        "Soliq organi bank hisobimni tekshira oladimi?"
+      ],
+      "url": "https://advice.uz/oz/document/4232",
+      "huquqiy_asos": "ko'rsatilmagan (bank qonunchiligi va ma'muriy javobgarlik normalari)",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "istemol-krediti-olish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Bank sohasi",
+      "savol": "Iste'mol kreditini kim va qanday maqsadlarga olishi mumkin?",
+      "qisqa_javob": "Iste'mol krediti doimiy yashash joyi va barqaror daromadga ega voyaga yetgan fuqarolarga maishiy texnika, mebel, davolanish, O'zbekiston ichida dam olish, to'y-marosimlar va shaxsiy avtomobil ta'miri kabi maqsadlarga beriladi. Kredit mablag'i naqd berilmaydi — bank pulni to'g'ridan-to'g'ri sotuvchi hisobiga o'tkazadi; boshlang'ich to'lov miqdorini bank belgilaydi. Kerakli hujjatlar: ariza, pasport/ID, daromad ma'lumotnomasi va ta'minot hujjatlari (kafillik, garov yoki sug'urta polisi).",
+      "muammolar": [
+        "Telefon yoki texnika olishga kredit berishadimi?",
+        "Iste'mol krediti uchun nima hujjat kerak?",
+        "Kredit pulini naqd olsam bo'ladimi?"
+      ],
+      "url": "https://advice.uz/oz/document/1202",
+      "huquqiy_asos": "Fuqarolik kodeksi; \"Banklar va bank faoliyati to'g'risida\"gi Qonun; \"Iste'mol krediti to'g'risida\"gi Qonun",
+      "qoshimcha": "Batafsil shartlar banklarning rasmiy saytlarida",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "nuqsonli-tovarni-almashtirish-muddatlari",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Iste'molchi huquqi",
+      "savol": "Nuqsonli tovar qancha muddatda almashtirilishi yoki tuzatilishi kerak?",
+      "qisqa_javob": "Nuqsonli tovar talab qo'yilgach 7 kun ichida (sifat tekshiruvi zarur bo'lsa 20 kun, ayni marka mavjud bo'lmasa 1 oy ichida) almashtirilishi kerak; nuqsonni bepul bartaraf etish sotuvchida 20 kun, ishlab chiqaruvchida 10 kun ichida bajariladi. Muddat o'tkazilgan har bir kun uchun iste'molchiga tovar bahosining 1 foizi miqdorida penya to'lanadi. Iste'molchi almashtirish, narxni kamaytirish, bepul ta'mirlash yoki shartnomani bekor qilib zararni qoplashni talab qilishga haqli; kafolat belgilanmagan tovarlarga talab 6 oy ichida qo'yiladi.",
+      "muammolar": [
+        "Buzuq mahsulot sotib olibman, almashtirib berisharmikan?",
+        "Kafolat muddatida telefonim buzildi, necha kunda tuzatib berishadi?",
+        "Sotuvchi brak tovarni qaytarib olmayapti"
+      ],
+      "url": "https://advice.uz/oz/document/1304",
+      "huquqiy_asos": "\"Iste'molchilarning huquqlarini himoya qilish to'g'risida\"gi Qonun",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "nuqsonli-tovar-hisob-kitob",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Iste'molchi huquqi",
+      "savol": "Nuqsonli tovar qaytarilganda pul qanday qaytariladi?",
+      "qisqa_javob": "Shartnoma bekor qilinganda tovar narxi oshgan bo'lsa hisob-kitob talab qo'yilgan paytdagi qiymat bo'yicha, pasaygan bo'lsa xarid paytidagi qiymat bo'yicha amalga oshiriladi. Ayni shu markali tovarga almashtirishda narx o'zgargan bo'lsa qayta hisob-kitob qilinmaydi. Kreditga olingan tovar qaytarilsa, to'langan summa, kredit bilan bog'liq xarajatlar va hisoblangan foizlar ham qaytariladi.",
+      "muammolar": [
+        "Tovar narxi oshgan bo'lsa qanchasini qaytarishadi?",
+        "Kreditga olgan tovarni qaytarsam foizlar-chi?",
+        "Brak tovar uchun pulni to'liq qaytarisharmi?"
+      ],
+      "url": "https://advice.uz/oz/document/1309",
+      "huquqiy_asos": "\"Iste'molchilarning huquqlarini himoya qilish to'g'risida\"gi Qonun",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "aviareys-kechiksa-yolovchi-huquqlari",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Iste'molchi huquqi",
+      "savol": "Aviareys kechiktirilganda yo'lovchi qanday huquqlarga ega?",
+      "qisqa_javob": "Kechikish tashuvchining aybi bilan yuz bersa, u javobgar bo'ladi; yo'lovchiga bepul telefon qo'ng'irog'i, oziq-ovqat va ichimlik, zarur bo'lsa mehmonxona va transport taqdim etilishi kerak. Ichki reyslar bo'yicha talab voqea kunidan 6 oy ichida (jarima da'volari 45 kun ichida) qo'yiladi, tashuvchi talabni 3 oy ichida ko'rib chiqadi. Natijadan norozi bo'lsa, 2 yil ichida sudga murojaat qilish mumkin; xalqaro tashishlar 1929-yilgi Varshava konventsiyasi bilan tartibga solinadi.",
+      "muammolar": [
+        "Reysim kechikdi, kompensatsiya olsam bo'ladimi?",
+        "Samolyot kechiksa aviakompaniya nima berishi kerak?",
+        "Aviabilet puli uchun da'voni qayerga beraman?"
+      ],
+      "url": "https://advice.uz/oz/document/4057",
+      "huquqiy_asos": "ko'rsatilmagan (Havo kodeksi normalari, Varshava konventsiyasi 1929)",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "xarid-cheki-talab-qilish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Iste'molchi huquqi",
+      "savol": "Sotuvchi chek bermasa nima qilish kerak va chek nima uchun muhim?",
+      "qisqa_javob": "2022-yil 1-yanvardan barcha savdo va xizmat ko'rsatish sohalari onlayn nazorat-kassa mashinalaridan foydalanishi va har bir xaridda chek berishi shart — kassa buzilgani bahona bo'lmaydi. Chek bermaslik uchun ma'muriy javobgarlik bor: birinchi marta ogohlantirish yoki jarima, takrorlanganda faoliyatni to'xtatib qo'yishgacha, hisobot topshirmagan holda NKM ishlatilganda 5 mln so'mgacha jarima. Chek bermaslik holatini xabar qilgan fuqaroga solingan jarimaning 20 foizi rag'bat sifatida beriladi; chek nizolarda xaridni isbotlovchi asosiy hujjatdir.",
+      "muammolar": [
+        "Do'kon chek bermadi, qayerga shikoyat qilaman?",
+        "Cheksiz tovarni qaytara olamanmi?",
+        "Chek bermagani uchun sotuvchiga qanday jazo bor?"
+      ],
+      "url": "https://advice.uz/oz/document/4208",
+      "huquqiy_asos": "Prezidentning 2019-yil 6-sentabrdagi qarori (onlayn-NKM joriy etish to'g'risida)",
+      "qoshimcha": "Xabar qilgan fuqaroga jarimaning 20% miqdorida rag'bat to'lanadi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "mahalla-rais-saylovi",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Mahalla",
+      "savol": "Mahalla (fuqarolar yig'ini) raisi saylovi qanday o'tkaziladi?",
+      "qisqa_javob": "Saylovda tegishli hududda doimiy yashovchi 18 yoshga to'lgan fuqarolar ixtiyoriy va erkin ishtirok etadi; saylov sanasi, vaqti va joyi haqidagi ma'lumot kamida 5 kun oldin mahallani qo'llab-quvvatlash kengashlarining rasmiy saytlariga joylashtiriladi. Nomzodlar aholi fikri inobatga olinib ishchi guruh tomonidan taqdim etiladi, ovoz berish yashirin o'tkaziladi. Ovozlarning yarmidan ko'pini olgan nomzod saylangan hisoblanadi.",
+      "muammolar": [
+        "Mahalla raisini kim saylaydi?",
+        "Oqsoqol saylovida qatnashishim shartmi?",
+        "Mahalla raisligiga nomzod qanday ko'rsatiladi?"
+      ],
+      "url": "https://advice.uz/oz/document/2866",
+      "huquqiy_asos": "\"Fuqarolar yig'ini raisi (oqsoqoli) saylovi to'g'risida\"gi Qonun",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "kochaboshi-kompensatsiya",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Mahalla",
+      "savol": "Mahalla faoliyatida faol qatnashuvchi ko'chaboshi va uyboshilarga qanday kompensatsiya to'lanadi?",
+      "qisqa_javob": "2021-yil 1-martdan boshlab kamida 3 oy davomida faol qatnashib, belgilangan mezonlar bo'yicha 70 balldan yuqori baho olgan ko'chaboshi va uyboshilarga har oyda eng kam ish haqining 50 foizi miqdorida kommunal xizmatlar bo'yicha kompensatsiya to'lanadi. To'lov faollik to'xtaganda to'xtatiladi; mablag' Bandlik vazirligining tuman/shahar bo'linmalari orqali mahalliy byudjet hisobidan ajratiladi.",
+      "muammolar": [
+        "Ko'chaboshiga maosh to'lanadimi?",
+        "Mahalla faollariga qanday rag'bat bor?",
+        "Uyboshi kompensatsiyani qanday oladi?"
+      ],
+      "url": "https://advice.uz/oz/document/2862",
+      "huquqiy_asos": "Vazirlar Mahkamasining 2021-yil 23-fevraldagi 99-son qarori",
+      "qoshimcha": "To'lov Bandlik vazirligi tuman (shahar) bo'linmalari orqali amalga oshiriladi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "mahallada-xotin-qizlarni-kasbga-orgatish",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Mahalla",
+      "savol": "Mahallalarda xotin-qizlarni kasbga o'rgatish va ijtimoiy xizmat tizimi qanday ishlaydi?",
+      "qisqa_javob": "PQ-300-son qaror asosida 2022-yil 1-iyuldan mahallalarda xotin-qizlarni kasbga o'qitish va ijtimoiy xizmat tizimi joriy etilgan. Mahalladagi xotin-qizlar faollari har bir xonadon ahvolini o'rganib, oilalarning ijtimoiy xizmatlarga ehtiyojini aniqlaydi, individual ijtimoiy himoya rejasini ishlab chiqadi va xizmatlar sifatini nazorat qiladi. Tizim \"Mahallada ijtimoiy xizmat\" elektron moduli orqali yuritiladi.",
+      "muammolar": [
+        "Mahallada ayollar uchun kasb kurslari bormi?",
+        "Xotin-qizlar faoliga qanday murojaat qilinadi?",
+        "Mahalla orqali ijtimoiy yordam olish mumkinmi?"
+      ],
+      "url": "https://advice.uz/oz/document/2871",
+      "huquqiy_asos": "Prezidentning 2022-yil 29-iyundagi PQ-300-son qarori",
+      "qoshimcha": "Murojaat: mahalladagi xotin-qizlar faoli orqali",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "undiruvga-qaratilmaydigan-mablaglar",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Majburiy ijro",
+      "savol": "Xodimning qaysi mablag'lariga undiruv qaratib bo'lmaydi?",
+      "qisqa_javob": "Undiruv qaratilmaydigan to'lovlar qatoriga: sog'liqqa yetkazilgan zarar uchun kompensatsiya, bola tug'ilganda beriladigan nafaqa, homiladorlik va tug'ish nafaqasi, bola parvarishi to'lovlari, aliment sifatida olinayotgan mablag'lar, dafn nafaqasi, oilaviy voqealar (tug'ilish, o'lim, nikoh) munosabati bilan berilgan mukofotlar, xizmat safari va ko'chish to'lovlari hamda ishdan bo'shatish nafaqasi kiradi. Ushlab qolish soliqlar chegirilgandan keyin qolgan ish haqidan hisoblanadi.",
+      "muammolar": [
+        "Sud ijrochisi dekret pulimdan ushlab qolishi mumkinmi?",
+        "Alimentdan qarz undirilsa bo'ladimi?",
+        "Qaysi pullardan qarz ushlab qolinmaydi?"
+      ],
+      "url": "https://advice.uz/oz/document/4133",
+      "huquqiy_asos": "Adliya vazirligining 2009-yil 8-iyuldagi 1980-son buyrug'i bilan tasdiqlangan ijro yo'riqnomasi",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ijro-harakatlari-muddatlari",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Majburiy ijro",
+      "savol": "Ijro harakatlari qanday muddatlarda amalga oshiriladi va ijro hujjati qachongacha topshiriladi?",
+      "qisqa_javob": "Ijro harakatlari ish kunlari soat 8:00 dan 22:00 gacha o'tkaziladi; ixtiyoriy ijro muddati tugagach, davlat ijrochisi ijroni 2 oy ichida yakunlashi kerak (aliment, ish haqi undirish va ishga tiklash ishlari darhol ijro etiladi). Ijro hujjatlarini topshirish muddatlari: sud hujjatlari va notarial hujjatlar — 3 yil, hakamlik sudi qarorlari — 6 oy, mehnat nizolari komissiyasi guvohnomalari va ma'muriy organlar qarorlari — 3 oy. Muddat hujjat topshirilganda yoki qarzdor qisman to'laganda uziladi va qaytadan boshlanadi.",
+      "muammolar": [
+        "Sud qarori necha yil ichida ijroga beriladi?",
+        "Ijrochi qarzni qancha muddatda undirishi kerak?",
+        "Ijro ishi qachon to'xtatiladi?"
+      ],
+      "url": "https://advice.uz/oz/document/1218",
+      "huquqiy_asos": "\"Sud hujjatlari va boshqa organlar hujjatlarini ijro etish to'g'risida\"gi Qonun",
+      "qoshimcha": "Ijro ishi qarzdor vafoti, bankrotlik, harbiy xizmat, kasallik yoki mediatsiya (15 kungacha) davrida to'xtatib turilishi mumkin",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "majburiy-ijro-byurosi",
+      "soha": "Savol-javob (advice.uz)",
+      "kategoriya": "Majburiy ijro",
+      "savol": "Majburiy ijro byurosi nima bilan shug'ullanadi?",
+      "qisqa_javob": "Bosh prokuratura huzuridagi Majburiy ijro byurosi sud hujjatlari va boshqa organlar hujjatlarining o'z vaqtida hamda to'liq ijro etilishini ta'minlaydi, ijro hujjatlari va undirilgan mablag'lar hisobini yuritadi. Bundan tashqari energiya resurslariga noqonuniy ulanish holatlarini aniqlash, to'lovlarning undirilishini ta'minlash, ma'muriy huquqbuzarlik ishlarini yuritish va surishtiruv faoliyati ham uning vazifasiga kiradi.",
+      "muammolar": [
+        "Sud qarorini kim ijro qiladi?",
+        "MIB qanday organ?",
+        "Ijrochi ustidan qayerga shikoyat qilinadi?"
+      ],
+      "url": "https://advice.uz/oz/document/1220",
+      "huquqiy_asos": "\"Sud hujjatlari va boshqa organlar hujjatlarini ijro etish to'g'risida\"gi Qonun; Prezidentning 2017-yil 30-maydagi PQ-3016-son qarori",
+      "qoshimcha": "ko'rsatilmagan",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "mulk-huquqi-10-fakt",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Mulk huquqi qanday vujudga keladi va qachon davlat ro'yxatidan o'tkazish talab qilinadi?",
+      "qisqa_javob": "Mulk huquqi mehnat, tadbirkorlik, meros, xususiylashtirish kabi qonuniy asoslarda vujudga keladi va hech kim sud qarorisiz mulkidan mahrum etilmaydi. Ko'chmas mulkka egalik huquqi davlat ro'yxatidan o'tkazilgandan keyin vujudga keladi. Egasi bo'lmagan shaxs ko'chmas mulkka 15 yil, ko'char mulkka 5 yil davomida oshkora va uzluksiz egalik qilsa, egalik huquqini (davolat huquqi) qo'lga kiritadi.",
+      "muammolar": [
+        "Uzoq yil yashagan uyim menga o'tadimi?",
+        "Ijara mulkka egalik huquqi beradimi?",
+        "Ko'chmas mulk huquqi qachondan boshlanadi?"
+      ],
+      "url": "https://advice.uz/oz/document/4185",
+      "huquqiy_asos": "O'zbekiston Respublikasi Fuqarolik kodeksi",
+      "qoshimcha": "",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ozboshimcha-yer-huquq-tan-olish",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "O'zboshimchalik bilan egallangan yer va unda qurilgan imoratlarga huquq tan olinadimi?",
+      "qisqa_javob": "2024-yil 5-avgustdagi O'RQ-937-son qonun (2024-yil 8-noyabrdan kuchda) bo'yicha 2018-yil 1-maygacha o'zboshimchalik bilan egallanib, yakka tartibda uy-joy qurilgan yer uchastkalari va imoratlarga, shuningdek bog'dorchilik shirkatlaridagi uy-joylar va boshqa 8 toifadagi obyektlarga mulk huquqi tan olinadi. Tan olish tuman (shahar) komissiyalari orqali amalga oshiriladi.",
+      "muammolar": [
+        "Hujjatsiz qurilgan uyimni qonuniylashtirsam bo'ladimi?",
+        "Samovolniy qurilishga hujjat qilish mumkinmi?",
+        "Egallab olingan tomorqa yerini rasmiylashtirish"
+      ],
+      "url": "https://advice.uz/oz/document/3295",
+      "huquqiy_asos": "O'RQ-937-son Qonun, 05.08.2024",
+      "qoshimcha": "Tuman (shahar) hokimligi komissiyasiga murojaat qilinadi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "umumiy-harbiy-majburiyat",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Umumiy harbiy majburiyat kimlarga tatbiq etiladi?",
+      "qisqa_javob": "Umumiy harbiy majburiyat harbiy xizmatga tayyorgarlik, chaqiruv, muddatli yoki kontrakt bo'yicha xizmat, zaxira xizmati va harbiy hisobga olishni qamrab oladi. O'zbekistonda doimiy yoki vaqtincha yashovchi chet el fuqarolari va fuqaroligi bo'lmagan shaxslarga harbiy majburiyat tatbiq etilmaydi.",
+      "muammolar": [
+        "Harbiy xizmat kimlar uchun majburiy?",
+        "Chet ellik harbiy xizmatga chaqiriladimi?",
+        "Harbiy hisobda turish sharti"
+      ],
+      "url": "https://advice.uz/oz/document/1441",
+      "huquqiy_asos": "\"Umumiy harbiy majburiyat va harbiy xizmat to'g'risida\"gi Qonun (lex.uz/docs/78717)",
+      "qoshimcha": "",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "vasiyatnoma-tuzish",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Vasiyatnomani notarial tasdiqlash qanday amalga oshiriladi?",
+      "qisqa_javob": "Vasiyatnoma — fuqaroning vafoti holatiga o'z mol-mulkini tasarruf etish borasidagi xohish-irodasi bo'lib, notariusda pasport (ID-karta) asosida rasmiylashtiriladi va jarayon 20 daqiqagacha vaqt oladi. Chet el fuqarolari milliy pasport yoki yashash guvohnomasi taqdim etadi.",
+      "muammolar": [
+        "Vasiyat qanday yoziladi?",
+        "Uyimni nevarama vasiyat qilmoqchiman, qayerga boraman?",
+        "Vasiyatnomani o'zgartirish mumkinmi?"
+      ],
+      "url": "https://advice.uz/oz/document/2601",
+      "huquqiy_asos": "Fuqarolik kodeksi; \"Notariat to'g'risida\"gi Qonun; Adliya vazirligining 04.01.2019-y. 2-mh-son buyrug'i",
+      "qoshimcha": "Notarial idoraga murojaat qilinadi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "merosdan-majburiy-ulush",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Merosdan majburiy ulush olish huquqi kimlarga tegishli?",
+      "qisqa_javob": "Vasiyatnoma mazmunidan qat'i nazar, marhumning voyaga yetmagan yoki mehnatga layoqatsiz farzandlari (farzandlikka olinganlar ham), mehnatga layoqatsiz turmush o'rtog'i va ota-onasi qonun bo'yicha tegishi lozim bo'lgan ulushning kamida yarmini oladi. Meros ochilgan kunda 55 yoshga to'lgan ayollar, 60 yoshga to'lgan erkaklar hamda I-II guruh nogironlari mehnatga layoqatsiz hisoblanadi. Guvohnoma 6 oy o'tgach beriladi (FK 1146-modda).",
+      "muammolar": [
+        "Vasiyatda nomim yo'q, ulush olamanmi?",
+        "Nogiron farzandga meros tegadimi?",
+        "Pensioner ota-onaga majburiy ulush"
+      ],
+      "url": "https://advice.uz/oz/document/2603",
+      "huquqiy_asos": "Fuqarolik kodeksi V kitob, 1146-modda",
+      "qoshimcha": "",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "meros-guvohnoma-muddatidan-oldin",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Notarius meros guvohnomasini 6 oylik muddat tugashidan oldin bera oladimi?",
+      "qisqa_javob": "Fuqarolik kodeksining 1146-moddasiga ko'ra, guvohnoma so'ragan shaxslardan tashqari boshqa merosxo'rlar yo'qligi haqida notariusda ishonchli ma'lumotlar bo'lsa, guvohnoma belgilangan muddatdan oldin ham berilishi mumkin. Bu qoida qonun bo'yicha ham, vasiyat bo'yicha meroslarga ham taalluqli.",
+      "muammolar": [
+        "Meros ishini tezlashtirsa bo'ladimi?",
+        "6 oy kutmasdan meros olish",
+        "Gazetada e'lon berilgandan keyin guvohnoma qachon chiqadi?"
+      ],
+      "url": "https://advice.uz/oz/document/4125",
+      "huquqiy_asos": "Fuqarolik kodeksi 1146-moddasi",
+      "qoshimcha": "",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "hadya-shartnomasini-bekor-qilish",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Qaysi hollarda hadya shartnomasini bekor qilish mumkin?",
+      "qisqa_javob": "Hadya oluvchi hadya qiluvchining yoki uning yaqinlarining hayoti va sog'lig'iga qarshi qasddan jinoyat sodir etsa, sud orqali hadya bekor qilinadi; hadya qiluvchi o'ldirilgan bo'lsa, bu huquq merosxo'rlarga o'tadi. Shuningdek, hadya olingan buyumga munosabat uni butunlay yo'qotish xavfini tug'dirsa yoki tadbirkor bankrotlikdan oldingi 1 yil ichida hadya qilgan bo'lsa ham bekor qilish mumkin. Bekor qilinganda buyum saqlanib qolgan bo'lsa qaytariladi; og'zaki hadyalarga bu qoidalar qo'llanilmaydi.",
+      "muammolar": [
+        "Hadya qilgan uyimni qaytarib olsam bo'ladimi?",
+        "Darstvenniyni bekor qilish shartlari",
+        "Hadya shartnomasidan voz kechish"
+      ],
+      "url": "https://advice.uz/oz/document/4233",
+      "huquqiy_asos": "Fuqarolik kodeksi (hadya shartnomasi normalari)",
+      "qoshimcha": "",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "import-avto-bojxona-rasmiylashtirish",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Import qilinayotgan avtotransportni bojxonada qanday rasmiylashtiraman?",
+      "qisqa_javob": "Chet davlatda ro'yxatdan o'tgan yoki o'tmagan, O'zbekistonga olib kirilayotgan avtotransport egasining doimiy yashash joyi bo'yicha bojxona postida \"erkin muomala\" rejimida rasmiylashtiriladi va bojxona to'lovlari undiriladi. Buning uchun egasining pasporti va mulk huquqini tasdiqlovchi hujjat taqdim etiladi; qayta olib chiqish majburiyati talab etilmaydi.",
+      "muammolar": [
+        "Chetdan mashina olib kelsam qayerda rasmiylashtiraman?",
+        "Avtomobil rastamojkasi qanday?",
+        "Import mashina uchun qanday hujjat kerak?"
+      ],
+      "url": "https://advice.uz/oz/document/2092",
+      "huquqiy_asos": "19.11.2010-y. 2156-son nizom (avtotransportni bojxona rasmiylashtiruvi tartibi)",
+      "qoshimcha": "",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "harbiy-xizmatga-chaqiruv",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Fuqarolar harbiy xizmatga qanday tayyorlanadi va chaqiriladi?",
+      "qisqa_javob": "Fuqarolar bitiruv sinfida o'qish yilining oktabr-noyabr oylarida yashash joyidagi tuman (shahar) mudofaa ishlari bo'limlarida chaqiruv hisobiga olinadi. Chaqiruv harbiy-tibbiy komissiyalar xulosasi asosida amalga oshiriladi; sog'lig'i bo'yicha yaroqsiz deb topilganlar hamda yaqin qarindoshi harbiy xizmat paytida halok bo'lganlar chaqiruvdan ozod etiladi.",
+      "muammolar": [
+        "Armiyaga hisobga qachon olinadi?",
+        "Kimlar harbiy xizmatdan ozod?",
+        "Chaqiruv komissiyasi qanday ishlaydi?"
+      ],
+      "url": "https://advice.uz/oz/document/1442",
+      "huquqiy_asos": "\"Umumiy harbiy majburiyat va harbiy xizmat to'g'risida\"gi Qonun",
+      "qoshimcha": "Tuman (shahar) mudofaa ishlari bo'limi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "muddatli-harbiy-xizmat-2",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Muddatli harbiy xizmat muddati qancha va kimlar chaqiriladi?",
+      "qisqa_javob": "Muddatli harbiy xizmat muddati kalendar hisobida 12 oy etib belgilangan. Harbiy hisobda turgan, sog'lig'i yaroqli 18 yoshdan 27 yoshgacha bo'lgan fuqarolar chaqiriladi. Xizmat chaqiriluvchi harbiy qismga kelib ro'yxatga olinganda boshlanadi va qism komandiri buyrug'i bilan shaxsiy tarkib ro'yxatidan chiqarilganda tugaydi.",
+      "muammolar": [
+        "Armiya necha oy?",
+        "Necha yoshgacha harbiy xizmatga olinadi?",
+        "Muddatli xizmat qachon boshlanadi?"
+      ],
+      "url": "https://advice.uz/oz/document/1443",
+      "huquqiy_asos": "\"Umumiy harbiy majburiyat va harbiy xizmat to'g'risida\"gi Qonun (lex.uz/docs/78717)",
+      "qoshimcha": "",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "fuqarolikdan-chiqish",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "O'zbekiston fuqaroligidan qanday chiqiladi?",
+      "qisqa_javob": "Fuqarolikdan chiqish fuqaroning yozma arizasi asosida amalga oshiriladi: so'rovnoma, pasport yoki ID-karta, zarur bo'lsa nikoh (ajralish) va farzandlarning tug'ilganlik guvohnomalari taqdim etiladi. O'zbekistonda doimiy yashovchi turmush o'rtog'i, ota-onasi yoki qaramog'idagi shaxslar bo'lsa, ularning mulkiy da'volari yo'qligi haqidagi notarial tasdiqlangan arizalari ham talab qilinadi.",
+      "muammolar": [
+        "Boshqa davlat fuqaroligini olish uchun O'zbekistonnikidan chiqish",
+        "Fuqarolikdan chiqish uchun qanday hujjatlar kerak?",
+        "Grajdanstvodan voz kechish tartibi"
+      ],
+      "url": "https://advice.uz/oz/document/43",
+      "huquqiy_asos": "\"O'zbekiston Respublikasining fuqaroligi to'g'risida\"gi Qonun; \"Davlat boji to'g'risida\"gi Qonun",
+      "qoshimcha": "",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "nevarani-xorijga-olib-chiqish",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Nevaramni (10 yosh) xorijga sayohatga olib chiqish uchun qanday hujjatlar kerak?",
+      "qisqa_javob": "Voyaga yetmagan bolani xorijga olib chiqish uchun avvalo uning ota-onasidan notarial tartibda tasdiqlangan rozilik arizasi olinishi lozim. Shuningdek, bolaga xorijda hamrohlik qiluvchi shaxsdan (buvi/buvadan) ham bola uchun javobgarlikni tasdiqlovchi notarial majburiyatnoma talab etiladi.",
+      "muammolar": [
+        "Bolani ota-onasiz chet elga olib chiqish",
+        "Nabiram bilan sayohatga chiqish uchun rozilik",
+        "Voyaga yetmagan bola uchun notarial rozilik"
+      ],
+      "url": "https://advice.uz/oz/document/4005",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "Notarial idorada rasmiylashtiriladi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "biznes-boshlash-royxatdan-otish",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Biznes boshlash uchun qanday harakatlar amalga oshiriladi?",
+      "qisqa_javob": "Tadbirkorlik bilan shug'ullanish uchun davlat ro'yxatidan o'tish shart: bu onlayn fo.birdarcha.uz tizimi orqali yoki Davlat xizmatlari markazlarida amalga oshiriladi. Yakka tartibdagi tadbirkor, oilaviy tadbirkorlik, MChJ, AJ, xususiy korxona kabi shakllardan birini tanlash mumkin. Ro'yxatdan o'tmasdan faoliyat yuritish ma'muriy va jinoiy javobgarlikka olib keladi.",
+      "muammolar": [
+        "Yakka tartibdagi tadbirkor qanday ochiladi?",
+        "Firma ochish uchun qayerga murojaat qilaman?",
+        "Ro'yxatdan o'tmay savdo qilsam nima bo'ladi?"
+      ],
+      "url": "https://advice.uz/oz/document/179",
+      "huquqiy_asos": "Tadbirkorlik faoliyati to'g'risidagi normativ hujjatlar (2011-2018)",
+      "qoshimcha": "fo.birdarcha.uz; Davlat xizmatlari markazlari",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "aliment-tolash-kelishuvi",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Aliment to'lash to'g'risidagi kelishuv qanday rasmiylashtiriladi?",
+      "qisqa_javob": "Oila kodeksining 131-moddasiga ko'ra aliment kelishuvi yozma shaklda tuzilib, notarial tasdiqlanishi shart va ijro kuchiga ega bo'ladi. 133-moddaga ko'ra voyaga yetmagan bolalar uchun kelishuvdagi aliment miqdori sud orqali undirilishi mumkin bo'lgan miqdordan kam bo'lishi mumkin emas. Xizmat davlat bojisiz, 60 daqiqagacha rasmiylashtiriladi.",
+      "muammolar": [
+        "Sudsiz aliment kelishib olsak bo'ladimi?",
+        "Aliment shartnomasi qancha turadi?",
+        "Aliment miqdorini kelishuv bilan belgilash"
+      ],
+      "url": "https://advice.uz/oz/document/2598",
+      "huquqiy_asos": "Oila kodeksi 131, 133-moddalari; Fuqarolik kodeksi; \"Notariat to'g'risida\"gi Qonun",
+      "qoshimcha": "Notarial idorada, boj olinmaydi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "yer-uchastkasini-xususiylashtirish",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Qishloq xo'jaligiga mo'ljallanmagan yer uchastkasini kim va qanday xususiylashtirishi mumkin?",
+      "qisqa_javob": "Xususiylashtirish huquqi O'zbekiston fuqarolari va rezident yuridik shaxslarga berilgan; chet el fuqarolari va norezidentlar bundan mustasno. Yakka tartibda uy-joy qurish uchun berilgan tomorqa, bino-inshootlar joylashgan va bo'sh yer uchastkalarini xususiylashtirish mumkin, ariza Davlat xizmatlari markazlari yoki yagona portal orqali beriladi va komissiya 10 ish kuni ichida ko'rib chiqadi. Muhofaza zonalari, strategik obyektlar va ifloslangan yerlar xususiylashtirilmaydi.",
+      "muammolar": [
+        "Tomorqa yerini o'z mulkim qilib olsam bo'ladimi?",
+        "Yerni xususiylashtirish arizasi qayerga beriladi?",
+        "Chet ellik yer xususiylashtira oladimi?"
+      ],
+      "url": "https://advice.uz/oz/document/2358",
+      "huquqiy_asos": "Yer kodeksi; \"Qishloq xo'jaligiga mo'ljallanmagan yer uchastkalarini xususiylashtirish to'g'risida\"gi Qonun; PQ-4427 (2019); VM 71-son qarori (2022)",
+      "qoshimcha": "my.gov.uz yoki Davlat xizmatlari markazi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "xorijda-ishlovchilar-imtiyozlari",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Xorijda ishlayotgan fuqarolar va ularning oila a'zolariga qanday imtiyozlar beriladi?",
+      "qisqa_javob": "2022-yil 1-martdan boqiuvchisi xorijda bo'lgan, ijtimoiy himoya reyestridagi oilalarga eng kam iste'mol xarajatlarining 2 baravari miqdorida bir martalik yordam, nogironligi bo'lgan oila a'zolariga dori va protez-ortopediya uchun 5 baravar miqdorda mablag' hamda bepul sanatoriy yo'llanmalari beriladi. Uyushgan migratsiya orqali ketganlarga 1 yilgacha 10 million so'mgacha mikroqarz ajratiladi, migrant farzandlariga bepul oromgoh yo'llanmalari beriladi.",
+      "muammolar": [
+        "Migrant oilasiga qanday yordam bor?",
+        "Xorijdagi ishchining bolalariga imtiyoz",
+        "Migrantlarga mikroqarz berilishi"
+      ],
+      "url": "https://advice.uz/oz/document/3331",
+      "huquqiy_asos": "Prezidentning 01.03.2022-y. PQ-149-son qarori",
+      "qoshimcha": "Ijtimoiy himoya yagona reyestri",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "uy-joy-ijara-shartnomasi",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Uy-joy ijara shartnomasi qanday rasmiylashtiriladi?",
+      "qisqa_javob": "Ijara shartnomasi yozma shaklda tuziladi, notarial tasdiqlash shart emas, eng ko'p muddati 5 yil. Shartnoma ijara.soliq.uz orqali soliq organlarida bepul ro'yxatdan o'tkazilishi shart — ro'yxatdan o'tkazmaslik jarimaga sabab bo'ladi. Ijarachi bilan doimiy yashovchi barcha fuqarolar shartnomada ko'rsatilishi lozim.",
+      "muammolar": [
+        "Kvartira ijarasini qanday rasmiylashtiraman?",
+        "Ijara shartnomasini soliqqa ro'yxatdan o'tkazish",
+        "Arenda shartnomasi notariusdan o'tishi kerakmi?"
+      ],
+      "url": "https://advice.uz/oz/document/1374",
+      "huquqiy_asos": "Fuqarolik kodeksi; VM 02.04.2022-y. 150-son qarori",
+      "qoshimcha": "ijara.soliq.uz",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "mchj-qonuni-yangi-tahrir",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "MChJ to'g'risidagi qonunning yangi tahririda qanday o'zgarishlar bor?",
+      "qisqa_javob": "2025-yil 10-iyunda Qonunchilik palatasi \"Mas'uliyati cheklangan jamiyatlar to'g'risida\"gi qonunni yangi tahrirda qabul qildi. Unga ko'ra MChJlar ta'sis hujjatlarida ko'rsatilmagan faoliyat turlari bilan ham shug'ullanishi, filial va sho''ba korxonalar ochishi mumkin; kuzatuv kengashida masofaviy ovoz berish, ozchilik ishtirokchilar huquqlarini himoya qilish va moliyaviy hisobotlarni oshkor qilish qoidalari joriy etildi.",
+      "muammolar": [
+        "MChJ ochish qoidalari o'zgardimi?",
+        "OOO to'g'risidagi yangi qonun nima beradi?",
+        "MChJ ustavida yo'q faoliyat bilan shug'ullansa bo'ladimi?"
+      ],
+      "url": "https://advice.uz/oz/document/4051",
+      "huquqiy_asos": "\"Mas'uliyati cheklangan jamiyatlar to'g'risida\"gi Qonun (yangi tahrir, 10.06.2025)",
+      "qoshimcha": "",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "vasiyat-va-majburiy-ulush-savoli",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Buvam va buvim kvartirani menga vasiyat qilgan, lekin 60 yoshli amakim ulush talab qilyapti. Bu qonuniymi?",
+      "qisqa_javob": "Fuqarolik kodeksining 1142-moddasiga ko'ra majburiy ulush faqat mehnatga layoqatsiz shaxslarga — voyaga yetmagan yoki mehnatga layoqatsiz farzandlar, mehnatga layoqatsiz turmush o'rtog'i va ota-onaga tegishli bo'lib, ular qonun bo'yicha tegadigan ulushning kamida yarmini oladi. Amakining yoshi o'z-o'zidan huquq bermaydi: mehnatga layoqatsizligi tasdiqlanmagan bo'lsa, vasiyatga qarshi ulush talab qila olmaydi.",
+      "muammolar": [
+        "Vasiyat qilingan uyga boshqa qarindosh da'vo qilsa",
+        "Amakim merosdan ulush so'rayapti, haqlimi?",
+        "Vasiyatnoma bo'lsa ham kim ulush oladi?"
+      ],
+      "url": "https://advice.uz/oz/document/3953",
+      "huquqiy_asos": "Fuqarolik kodeksi 1142-moddasi",
+      "qoshimcha": "",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "marhum-turmush-ortogi-mashinasi",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Vafot etgan turmush o'rtog'i nomidagi mashinani sotish yoki qayta rasmiylashtirish mumkinmi?",
+      "qisqa_javob": "Avval notarius orqali merosga bo'lgan huquq guvohnomasi rasmiylashtiriladi, so'ngra avtomobil YHXX organlarida merosxo'r nomiga ro'yxatdan o'tkazilib, yangi texnik hujjatlar olinadi. Faqat shundan keyingina oldi-sotdi shartnomasi tuzish mumkin — merossiz to'g'ridan-to'g'ri xaridor nomiga o'tkazib bo'lmaydi.",
+      "muammolar": [
+        "Erim vafot etdi, mashinasini qanday sotaman?",
+        "Merosdagi avtomobilni qayta rasmiylashtirish",
+        "Marhum otam mashinasini o'tkazish tartibi"
+      ],
+      "url": "https://advice.uz/oz/document/4037",
+      "huquqiy_asos": "ko'rsatilmagan (notarial meros rasmiylashtiruvi talab etiladi)",
+      "qoshimcha": "Notarius, so'ng YHXX",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "pasport-muddati-otgan-jarima",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Pasportim muddati 17 kun oldin tugagan. ID-karta olishda jarima to'laymanmi?",
+      "qisqa_javob": "Biometrik pasport to'g'risidagi nizomga ko'ra pasport muddati tugaganidan keyin uni 1 oy ichida ID-kartaga almashtirish lozim, ya'ni 1 oylik almashtirish muddati mavjud. 16 yoshga to'lganda ID-kartani o'z vaqtida olmagan 18 yoshgacha bo'lgan shaxslar ma'muriy javobgarlikka tortilmaydi.",
+      "muammolar": [
+        "Pasport muddati o'tib ketsa nima bo'ladi?",
+        "ID-kartani kech olsam shtraf bormi?",
+        "Pasportni almashtirish muddati qancha?"
+      ],
+      "url": "https://advice.uz/oz/document/4300",
+      "huquqiy_asos": "05.01.2011-y. Prezident farmoni bilan tasdiqlangan Biometrik pasport nizomi; Ma'muriy javobgarlik to'g'risidagi kodeks",
+      "qoshimcha": "",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "sudga-murojaat-shakli",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Sudga qanday shaklda murojaat qilinadi?",
+      "qisqa_javob": "Sudga og'zaki, yozma yoki elektron shaklda murojaat qilish mumkin. Muayyan nizoga bog'liq bo'lmagan ariza va shikoyatlar 15 kun (qo'shimcha o'rganish zarur bo'lsa 1 oygacha) ichida ko'riladi; nizolar bo'yicha da'vo arizalari esa Fuqarolik, Jinoyat yoki Ma'muriy protsessual kodekslar bo'yicha yuritiladi. Da'vo arizasida sud nomi, taraflar ma'lumotlari, talab mazmuni, da'vo bahosi, dalillar va ilova hujjatlar ro'yxati ko'rsatilishi shart.",
+      "muammolar": [
+        "Sudga ariza qanday yoziladi?",
+        "Da'vo arizasida nimalar bo'lishi kerak?",
+        "Sudga onlayn murojaat qilsa bo'ladimi?"
+      ],
+      "url": "https://advice.uz/oz/document/1553",
+      "huquqiy_asos": "Fuqarolik protsessual kodeksi; Iqtisodiy protsessual kodeks; Ma'muriy sud ishlarini yuritish to'g'risidagi kodeks",
+      "qoshimcha": "",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "davo-muddati",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Sudga murojaat qilishda da'vo muddati qancha?",
+      "qisqa_javob": "Fuqarolik va iqtisodiy sudlarda umumiy da'vo muddati 3 yil; ma'muriy sudlarga murojaat uchun umumiy muddat 3 oy, mansabdor shaxslarning noqonuniy qarorlari ustidan ayrim hollarda 10 kun. Hakamlik sudi qarorini majburiy ijroga qo'yish ixtiyoriy ijro muddati tugagach 6 oy ichida so'raladi. Uzrli sabab bilan o'tkazib yuborilgan muddat sud tomonidan tiklanishi mumkin.",
+      "muammolar": [
+        "Necha yilgacha sudga berish mumkin?",
+        "Da'vo muddati o'tib ketsa nima qilaman?",
+        "Ma'muriy sudga murojaat muddati"
+      ],
+      "url": "https://advice.uz/oz/document/1557",
+      "huquqiy_asos": "Fuqarolik protsessual kodeksi; Iqtisodiy protsessual kodeks; Ma'muriy sud ishlarini yuritish to'g'risidagi kodeks",
+      "qoshimcha": "",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
     }
   ]
 }
