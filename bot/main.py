@@ -7,7 +7,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 
 from bot.config import BOT_TOKEN
-from bot.rag import javob_olish, TokenlarTugadi, TOKENLAR_TUGADI_XABARI
+from bot.rag import javob_olish, collection, TokenlarTugadi, TOKENLAR_TUGADI_XABARI
 from bot.index_qurish import bazani_yuklash
 
 bot = Bot(BOT_TOKEN)
@@ -50,5 +50,11 @@ async def savol(msg: types.Message):
 
 
 if __name__ == "__main__":
-    bazani_yuklash()
+    # Indeks bo'sh bo'lsagina qayta quramiz — har startda 300+ yozuvni
+    # qayta indekslash bir necha daqiqa olib, botni kechiktiradi.
+    # Baza yangilanganda qo'lda: python3 -m bot.index_qurish
+    if collection.count() == 0:
+        print("Vektor baza bo'sh — indekslanmoqda...", flush=True)
+        bazani_yuklash()
+    print("Bot ishga tushdi, polling boshlandi.", flush=True)
     asyncio.run(dp.start_polling(bot))
