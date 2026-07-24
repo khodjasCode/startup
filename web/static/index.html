@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yo'naltiruvchi</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f5f6f8;
+    --panel: #ffffff;
+    --text: #1a1a1a;
+    --muted: #6b7280;
+    --border: #e2e4e8;
+    --accent: #2563eb;
+    --bubble-user: #2563eb;
+    --bubble-user-text: #ffffff;
+    --bubble-bot: #eef0f3;
+    --bubble-bot-text: #1a1a1a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17181c;
+      --panel: #1f2126;
+      --text: #e8e9ec;
+      --muted: #9aa0a8;
+      --border: #2c2f36;
+      --accent: #4f8cff;
+      --bubble-user: #2f5fd8;
+      --bubble-user-text: #ffffff;
+      --bubble-bot: #2a2d33;
+      --bubble-bot-text: #e8e9ec;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 24px 12px;
+  }
+  .app {
+    width: 100%;
+    max-width: 640px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 48px);
+  }
+  header {
+    padding: 4px 4px 16px;
+  }
+  header h1 {
+    margin: 0 0 4px;
+    font-size: 1.4rem;
+  }
+  header p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  .chat {
+    flex: 1;
+    overflow-y: auto;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .msg {
+    max-width: 85%;
+    padding: 10px 14px;
+    border-radius: 14px;
+    line-height: 1.45;
+    font-size: 0.95rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  .msg.user {
+    align-self: flex-end;
+    background: var(--bubble-user);
+    color: var(--bubble-user-text);
+    border-bottom-right-radius: 4px;
+  }
+  .msg.bot {
+    align-self: flex-start;
+    background: var(--bubble-bot);
+    color: var(--bubble-bot-text);
+    border-bottom-left-radius: 4px;
+  }
+  .msg.bot.pending {
+    color: var(--muted);
+    font-style: italic;
+  }
+  form {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+  }
+  textarea {
+    flex: 1;
+    resize: none;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 10px 12px;
+    font-size: 0.95rem;
+    font-family: inherit;
+    background: var(--panel);
+    color: var(--text);
+    height: 46px;
+  }
+  button {
+    border: none;
+    border-radius: 10px;
+    padding: 0 20px;
+    background: var(--accent);
+    color: #fff;
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+  button:disabled {
+    opacity: 0.6;
+    cursor: default;
+  }
+  .disclaimer {
+    margin-top: 10px;
+    font-size: 0.78rem;
+    color: var(--muted);
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <h1>Yo'naltiruvchi</h1>
+    <p>Muammoingizni oddiy tilda yozing — qaysi idoraga murojaat qilish kerakligini aytib beraman.</p>
+  </header>
+
+  <div class="chat" id="chat"></div>
+
+  <form id="form">
+    <textarea id="savol" placeholder="Masalan: 3 kundan beri suv kelmayapti" required></textarea>
+    <button type="submit" id="yuborBtn">Yubor</button>
+  </form>
+
+  <div class="disclaimer">
+    Bu bot huquqiy maslahat bermaydi, faqat yo'naltiradi.
+  </div>
+</div>
+
+<script>
+  const chat = document.getElementById('chat');
+  const form = document.getElementById('form');
+  const savolInput = document.getElementById('savol');
+  const yuborBtn = document.getElementById('yuborBtn');
+
+  function xabarQosh(matn, rol) {
+    const div = document.createElement('div');
+    div.className = 'msg ' + rol;
+    div.textContent = matn;
+    chat.appendChild(div);
+    chat.scrollTop = chat.scrollHeight;
+    return div;
+  }
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const savol = savolInput.value.trim();
+    if (!savol) return;
+
+    xabarQosh(savol, 'user');
+    savolInput.value = '';
+    yuborBtn.disabled = true;
+
+    const kutish = xabarQosh('Qidiryapman... ⏳', 'bot pending');
+
+    try {
+      const resp = await fetch('/api/savol', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ savol }),
+      });
+      const data = await resp.json();
+      kutish.textContent = data.javob;
+      kutish.classList.remove('pending');
+    } catch (err) {
+      kutish.textContent = 'Kechirasiz, texnik xatolik yuz berdi. Birozdan keyin qayta urinib ko\'ring.';
+      kutish.classList.remove('pending');
+    } finally {
+      yuborBtn.disabled = false;
+      savolInput.focus();
+    }
+  });
+
+  form.addEventListener('keydown', (e) => {
+    if (e.target === savolInput && e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      form.requestSubmit();
+    }
+  });
+</script>
+</body>
+</html>

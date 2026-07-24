@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yo'naltiruvchi — Davlat xizmatlari navigatori</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f2f4f7;
+    --panel: #ffffff;
+    --text: #1a1a1a;
+    --muted: #64748b;
+    --border: #e2e8f0;
+    --primary: #0068e0;
+    --primary-hover: #0153b2;
+    --card-shadow: 0 2px 12px rgba(13,60,115,0.08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1b1e23;
+      --panel: #24282f;
+      --text: #e8e9ec;
+      --muted: #9aa4b2;
+      --border: #333944;
+      --primary: #4a97f0;
+      --primary-hover: #6fb0ff;
+      --card-shadow: 0 2px 12px rgba(0,0,0,0.35);
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    font-size: 15px;
+  }
+  header {
+    background: var(--panel);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--primary);
+  }
+  .logo-badge {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, var(--primary), #34d399);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.05rem;
+  }
+  header .tag {
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  .banner {
+    background: linear-gradient(65deg, var(--primary) 0%, #34c48d 130%);
+    color: #fff;
+    padding: 56px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .banner h1 {
+    margin: 0 0 14px;
+    font-size: clamp(1.6rem, 2.6vw, 2.2rem);
+    line-height: 1.25;
+    font-weight: 700;
+    max-width: 780px;
+  }
+  .banner p {
+    margin: 0;
+    opacity: 0.95;
+    max-width: 620px;
+    margin-inline: auto;
+    line-height: 1.55;
+    font-size: 1rem;
+  }
+  main {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+    width: 100%;
+  }
+  .section-title {
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin: 0 0 20px;
+    color: var(--text);
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 18px;
+  }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 22px;
+    box-shadow: var(--card-shadow);
+    transition: transform .15s ease, border-color .15s ease;
+  }
+  .card:hover {
+    transform: translateY(-3px);
+    border-color: var(--primary);
+  }
+  .card h3 {
+    margin: 0 0 8px;
+    font-size: 1.1rem;
+    color: var(--primary);
+  }
+  .card p {
+    margin: 0;
+    font-size: 0.92rem;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .cta {
+    margin-top: 40px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 36px;
+    text-align: center;
+    box-shadow: var(--card-shadow);
+  }
+  .cta h2 {
+    margin: 0 0 10px;
+    font-size: 1.4rem;
+  }
+  .cta p {
+    margin: 0 0 20px;
+    color: var(--muted);
+    font-size: 0.98rem;
+  }
+  .cta button {
+    background: var(--primary);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 28px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .cta button:hover { background: var(--primary-hover); }
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 20px 24px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <span class="logo-badge">Y</span>
+    Yo'naltiruvchi
+  </div>
+  <div class="tag">Davlat xizmatlari navigatori</div>
+</header>
+
+<section class="banner">
+  <h1>Muammoingizni oddiy tilda yozing — biz yo'naltiramiz</h1>
+  <p>Qaysi idoraga, qanday hujjatlar bilan, qanday tartibda murojaat qilishni aytib beramiz. Pastki-o'ng burchakdagi chat orqali savolingizni yozing.</p>
+</section>
+
+<main>
+  <h2 class="section-title">Kategoriyalar</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Kommunal</h3>
+      <p>Suv, gaz, elektr, chiqindi, yo'l holati</p>
+    </div>
+    <div class="card">
+      <h3>Mehnat</h3>
+      <p>Ish haqi, mehnat shartnomasi, ishdan bo'shatish</p>
+    </div>
+    <div class="card">
+      <h3>Ijtimoiy himoya</h3>
+      <p>Pensiya, nafaqa, ijtimoiy to'lovlar</p>
+    </div>
+    <div class="card">
+      <h3>Yer-mulk</h3>
+      <p>Kadastr, uy hujjatlari, chegara nizolari</p>
+    </div>
+    <div class="card">
+      <h3>Tadbirkorlik</h3>
+      <p>YaTT, MChJ, soliq ro'yxatidan o'tish</p>
+    </div>
+    <div class="card">
+      <h3>Iste'molchi huquqlari</h3>
+      <p>Sifatsiz tovar, kafolat, do'kon bilan nizo</p>
+    </div>
+  </div>
+
+  <div class="cta">
+    <h2>Savolingiz bormi?</h2>
+    <p>Pastki-o'ng burchakdagi chat tugmasini bosing va muammoingizni yozing.</p>
+    <button onclick="document.getElementById('__chat_widget_toggle').click()">Chatni ochish</button>
+  </div>
+</main>
+
+<footer>
+  Yo'naltiruvchi — bu bot huquqiy maslahat bermaydi, faqat yo'naltiradi.
+</footer>
+
+<button id="__chat_widget_toggle" class="chat-widget-toggle" aria-label="Toggle chat">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" fill="none">
+    <path d="M53.0828 24.5002V29.1669C53.1048 30.3695 52.7883 31.5541 52.1695 32.5855C51.5506 33.6169 50.6543 34.4537 49.5828 35.0002V18.7835C50.6365 19.3212 51.521 20.1397 52.1386 21.1485C52.7563 22.1574 53.083 23.3173 53.0828 24.5002ZM2.91615 24.5002V29.1669C2.89416 30.3695 3.21065 31.5541 3.8295 32.5855C4.44836 33.6169 5.34466 34.4537 6.41615 35.0002V18.7835C5.36252 19.3212 4.47801 20.1397 3.86036 21.1485C3.2427 22.1574 2.91593 23.3173 2.91615 24.5002ZM46.0828 18.6669V39.6669C46.0828 41.3687 45.4068 43.0008 44.2034 44.2041C43.0001 45.4075 41.368 46.0835 39.6662 46.0835H28.1862L22.5162 50.9835C21.9938 51.4443 21.3227 51.7011 20.6262 51.7069C20.1985 51.677 19.7833 51.5492 19.4128 51.3335C18.9035 51.1069 18.4712 50.7369 18.1687 50.2687C17.8663 49.8005 17.7067 49.2543 17.7095 48.6969V46.0835H16.3328C14.631 46.0835 12.9989 45.4075 11.7956 44.2041C10.5922 43.0008 9.91615 41.3687 9.91615 39.6669V18.6669C9.91615 16.9651 10.5922 15.333 11.7956 14.1296C12.9989 12.9262 14.631 12.2502 16.3328 12.2502H33.2495V4.66686C33.2495 4.20274 33.4339 3.75762 33.7621 3.42943C34.0902 3.10124 34.5354 2.91686 34.9995 2.91686C35.4636 2.91686 35.9087 3.10124 36.2369 3.42943C36.5651 3.75762 36.7495 4.20274 36.7495 4.66686V12.2502H39.6662C41.368 12.2502 43.0001 12.9262 44.2034 14.1296C45.4068 15.333 46.0828 16.9651 46.0828 18.6669ZM36.7495 33.8335C36.7434 33.3713 36.5571 32.9297 36.2302 32.6028C35.9034 32.2759 35.4617 32.0896 34.9995 32.0835H20.9995C20.5354 32.0835 20.0902 32.2679 19.7621 32.5961C19.4339 32.9243 19.2495 33.3694 19.2495 33.8335C19.2495 34.2977 19.4339 34.7428 19.7621 35.071C20.0902 35.3992 20.5354 35.5835 20.9995 35.5835H34.9995C35.4617 35.5775 35.9034 35.3912 36.2302 35.0643C36.5571 34.7374 36.7434 34.2958 36.7495 33.8335ZM36.7495 24.5002C36.7434 24.0379 36.5571 23.5963 36.2302 23.2694C35.9034 22.9426 35.4617 22.7562 34.9995 22.7502H20.9995C20.5354 22.7502 20.0902 22.9346 19.7621 23.2628C19.4339 23.591 19.2495 24.0361 19.2495 24.5002C19.2495 24.9643 19.4339 25.4094 19.7621 25.7376C20.0902 26.0658 20.5354 26.2502 20.9995 26.2502H34.9995C35.4617 26.2442 35.9034 26.0578 36.2302 25.731C36.5571 25.4041 36.7434 24.9624 36.7495 24.5002Z" fill="#FFFFFF"></path>
+  </svg>
+</button>
+<div id="__chat_widget">
+  <iframe id="__chat_widget_iframe" title="Yo'naltiruvchi chat widget" aria-label="Chat support widget" allow="clipboard-write; clipboard-read" src="/static/widget.html"></iframe>
+</div>
+
+<style>
+  .chat-widget-toggle {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 9999;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: none;
+    background: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+  }
+  .chat-widget-toggle:hover { background: var(--primary-hover); }
+  .chat-widget-toggle svg { width: 26px; height: 26px; }
+  #__chat_widget {
+    display: none;
+    position: fixed;
+    right: 24px;
+    bottom: 92px;
+    z-index: 9998;
+    width: 400px;
+    height: 700px;
+    max-width: calc(100vw - 32px);
+    max-height: calc(100vh - 120px);
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+  }
+  #__chat_widget iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  @media (max-width: 600px) {
+    header { padding: 14px 18px; }
+    .logo { font-size: 1.1rem; }
+    .logo-badge { width: 32px; height: 32px; font-size: 0.95rem; }
+    header .tag { font-size: 0.8rem; }
+    .banner { padding: 36px 20px; }
+    .banner h1 { font-size: 1.4rem; }
+    main { padding: 32px 16px 60px; }
+    .cards { grid-template-columns: 1fr; }
+    .card { padding: 18px; }
+    .cta { padding: 26px 18px; }
+    .cta h2 { font-size: 1.2rem; }
+    .cta button { padding: 12px 24px; font-size: 0.95rem; }
+    .chat-widget-toggle {
+      right: 16px;
+      bottom: 16px;
+      width: 50px;
+      height: 50px;
+    }
+    .chat-widget-toggle svg { width: 22px; height: 22px; }
+    #__chat_widget {
+      right: 0;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 0;
+    }
+  }
+</style>
+<script>
+  (function () {
+    var toggle = document.getElementById('__chat_widget_toggle');
+    var panel = document.getElementById('__chat_widget');
+    toggle.addEventListener('click', function () {
+      panel.style.display = panel.style.display === 'none' || !panel.style.display ? 'block' : 'none';
+    });
+  })();
+</script>
+</body>
+</html>

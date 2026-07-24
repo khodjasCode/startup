@@ -1,0 +1,68 @@
+YO'NALTIRUVCHI BOT — LOYIHA HOLATI
+Yangilangan sana: 2026-07-23
+
+===========================================================
+1. UMUMIY HOLAT
+===========================================================
+RAG yadro (backend) ishlab chiqilgan va jonli API bilan sinalgan.
+Telegram-bot qismini yakuniy integratsiyaga ulash bosqichi qoldi.
+
+===========================================================
+2. LOYIHA TUZILISHI
+===========================================================
+bot/
+  main.py         — Telegram bot kirish nuqtasi (aiogram 3, long polling) — ISHLATILADIGAN VERSIYA
+  bot.py          — ESKI/MOCK versiya, endi ortiqcha — o'chirilishi kerak
+  rag.py          — RAG yadro: javob_olish(savol) -> str (Gemini embedding + ChromaDB + Gemini Flash)
+  prompt.py       — SYSTEM_PROMPT (gallyutsinatsiyaga qarshi qat'iy qoidalar)
+  config.py       — BOT_TOKEN, GEMINI_API_KEY, model nomlari, yo'llar
+  index_qurish.py — bilim_bazasi.json -> ChromaDB indekslash skripti
+data/
+  bilim_bazasi.json — 10 ta yozuv, hammasi "tekshirilgan": false (hali rasmiy manbadan tasdiqlanmagan)
+docs/
+  ISH_REJA.md     — 4 haftalik reja
+vektor_baza/      — ChromaDB lokal saqlash papkasi (index_qurish.py ishga tushirilgach yaratiladi)
+feedback.csv      — foydalanuvchi 👍/👎 baholari uchun (bot ishga tushib, birinchi baho berilganda yaratiladi)
+
+===========================================================
+3. BAJARILGAN ISHLAR
+===========================================================
+[x] bot/ papkasi tuzilmasi o'rganildi, AK ning haqiqiy RAG paketi allaqachon main branchdan
+    ikrombek branchiga birlashtirilgani aniqlandi (commit 7bf8afc)
+[x] Kerakli kutubxonalar o'rnatildi: google-genai, chromadb (venv ichida)
+[x] bilim_bazasi.json formati tekshirildi — schema to'liq va to'g'ri
+[x] index_qurish.py sinaldi — 10 ta yozuv ChromaDB'ga muvaffaqiyatli indekslandi
+[x] javob_olish() haqiqiy GEMINI_API_KEY bilan 3 xil holatda sinaldi:
+    - lotin savol (bazada bor)     -> to'g'ri javob, manba bilan
+    - kirill savol (bazada bor)    -> to'g'ri javob, kirill alifboda
+    - tuzoq savol (bazada yo'q)    -> to'qib chiqarmadi, my.gov.uz/pm.gov.uz ga yo'naltirdi
+[x] config.py da MUHIM TUZATISH: LLM_MODEL "gemini-2.5-flash" dan "gemini-flash-latest" ga
+    o'zgartirildi, chunki "gemini-2.5-flash" ushbu API kalit uchun 404 (yangi
+    foydalanuvchilarga yopilgan) qaytardi. EMBEDDING_MODEL ("gemini-embedding-001")
+    hali amal qiladi, o'zgartirilmadi.
+
+===========================================================
+4. QOLGAN ISH (KEYINGI QADAM)
+===========================================================
+[ ] bot/bot.py (eski mock versiya)ni o'chirish — bot/main.py yagona kirish nuqtasi bo'ladi
+[ ] GEMINI_API_KEY ni doimiy environment variable sifatida sysdm.cpl orqali qo'shish
+    (setx ISHLATILMAYDI — avval PATH buzilgan edi)
+[ ] botni to'liq (main.py) jonli ishga tushirib, Telegram orqali real sinash
+[ ] eski Telegram bot bo'yicha qadamlar (kategoriya tugmalari, feedback tugmalari)
+    bot/main.py ga hali ko'chirilmagan — avvalgi mock bot.py da bor edi, main.py da yo'q
+
+===========================================================
+5. XAVFSIZLIK ESLATMASI
+===========================================================
+Ushbu suhbat davomida haqiqiy GEMINI_API_KEY chatga ochiq matnda yuborilgan edi
+(sinov uchun ishlatildi). Ishlar tugagach ushbu kalitni Google AI Studio'da
+ROTATSIYA qilish (bekor qilib, yangisini olish) tavsiya etiladi.
+
+===========================================================
+6. BILIM BAZASI HOLATI
+===========================================================
+Hozircha 10 ta yozuv (Kommunal, Mehnat, Ijtimoiy himoya, Yer-mulk, Tadbirkorlik,
+Iste'molchi kategoriyalarida). Barchasi "tekshirilgan": false — MVP/test bosqichida
+index_qurish.py hammasini baribir yuklaydi, lekin ishlab chiqarishga chiqishdan oldin
+har bir yozuv rasmiy manbadan tasdiqlanishi va "tekshirilgan": true qilinishi kerak.
+ISH_REJA.md bo'yicha maqsad: kamida 40 ta tasdiqlangan yozuv.

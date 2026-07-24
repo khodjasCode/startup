@@ -3,8 +3,8 @@
 
 import json
 
-from bot.config import BILIM_BAZASI_YOLI, EMBEDDING_MODEL
-from bot.rag import client, collection
+from bot.config import BILIM_BAZASI_YOLI
+from bot.rag import embed, collection
 
 
 def bazani_yuklash():
@@ -17,10 +17,7 @@ def bazani_yuklash():
 
     for y in yozuvlar:
         qidiruv_matni = y["muammo"] + " " + " ".join(y["kalit_sozlar"])
-        emb = client.models.embed_content(
-            model=EMBEDDING_MODEL,
-            contents=qidiruv_matni,
-        ).embeddings[0].values
+        emb = embed(qidiruv_matni)
         collection.upsert(
             ids=[y["id"]],
             embeddings=[emb],
