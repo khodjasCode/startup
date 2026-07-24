@@ -1,6 +1,6 @@
 {
   "$schema_izoh": {
-    "tavsif": "lex.uz — O'zbekiston Respublikasi Qonunchilik ma'lumotlari milliy bazasi bo'yicha bilim bazasi. Fuqaro qonun/kodeks/farmon matnini so'raganda bot shu baza orqali hujjatni lex.uz da topish va o'qishning to'liq yo'riqnomasini beradi.",
+    "tavsif": "lex.uz — O'zbekiston Respublikasi Qonunchilik ma'lumotlari milliy bazasi bo'yicha bilim bazasi. Fuqaro qonun/kodeks/farmon matnini so'raganda bot shu baza orqali hujjatni lex.uz da topish va o'qishning to'liq yo'riqnomasini beradi. Bazada ikki tur yozuv bor: (1) lex.uz dan foydalanish yo'riqnomalari; (2) 'Huquqiy javob' yozuvlari — fuqaro shikoyatiga aniq huquqiy javob (qisqa_javob, huquqiy_asos) va to'liq matn uchun lex.uz havolasi.",
     "MUHIM": "Ma'lumotlar 2026-07-24 kuni lex.uz ochiq sahifalaridan yig'ilgan. Sayt bepul va ro'yxatdan o'tishsiz ishlaydi; interfeys elementlari nomlari vaqt o'tishi bilan o'zgarishi mumkin.",
     "maydonlar": {
       "id": "unikal identifikator (lotin, defis bilan)",
@@ -268,6 +268,282 @@
       "kimlar_uchun": "Barcha foydalanuvchilar (ro'yxatdan o'tish shart emas)",
       "korsatuvchi_idora": "O'zbekiston Respublikasi Adliya vazirligi («Adolat» milliy huquqiy axborot markazi)",
       "qoshimcha": "Saytda sun'iy intellekt yordamchisi ai.lex.uz ham ishlaydi — savolni oddiy tilda yozib, tegishli qonun hujjatlariga havola olish mumkin. «Nashrlar» bo'limida (https://lex.uz/uz/publication) qonunlar to'plamlari va xalqaro shartnomalar jamlangan.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ish-haqi-kechiktirilishi",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "Ish beruvchi oyligimni o'z vaqtida bermayapti",
+      "qisqa_javob": "Bu noqonuniy. Mehnat kodeksining 21-moddasiga ko'ra xodim ish haqini o'z vaqtida hamda to'liq hajmda olish huquqiga ega, 25-moddaga ko'ra esa ish beruvchi ish haqini belgilangan muddatlarda to'liq hajmda to'lashi shart. Ish beruvchidan qarzni yozma ravishda talab qiling, rad etilsa Mehnat inspeksiyasiga shikoyat qiling yoki sudga murojaat qiling — to'lanmagan ish haqi majburiy tartibda undiriladi. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/uz/docs/6257288",
+      "muammolar": [
+        "oylik maoshim kechikyapti",
+        "ish haqimni to'lashmayapti",
+        "maoshni ikki oydan beri berishmadi",
+        "ish beruvchi pulimni ushlab qolyapti"
+      ],
+      "url": "https://lex.uz/uz/docs/6257288",
+      "huquqiy_asos": "O'zbekiston Respublikasining Mehnat kodeksi (28.10.2022), 21 va 25-moddalar",
+      "qoshimcha": "Dalil sifatida mehnat shartnomasi, hisob varag'i va bank ko'chirmalarini saqlang. Avval ish beruvchiga yozma talabnoma, so'ng Mehnat inspeksiyasi, hal bo'lmasa sud. Kechiktirilgan davr uchun kompensatsiya masalasi ham kodeksda tartibga solingan — aniq shartlarni lex.uz dagi matndan tekshiring.",
+      "manba": "lex.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "noqonuniy-ishdan-boshatish",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "Meni hech qanday asossiz ishdan bo'shatishdi",
+      "qisqa_javob": "Ish beruvchi xodimni faqat Mehnat kodeksining 155-moddasida nazarda tutilgan tushuncha va asoslar doirasida ishdan bo'shatishi mumkin — asossiz bo'shatish noqonuniy. Kodeksning 174-moddasi mehnat shartnomasini qonunga xilof ravishda bekor qilishning huquqiy oqibatlarini belgilaydi: xodim ishga tiklanishni va tegishli to'lovlarni talab qilishga haqli. Bo'shatilganda ish beruvchi 172-moddaga muvofiq siz bilan to'liq hisob-kitob qilishi shart. Buyruq nusxasini oling va sudga yoki Mehnat inspeksiyasiga murojaat qiling. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/uz/docs/6257288",
+      "muammolar": [
+        "ishdan haydab yuborishdi",
+        "sababsiz bo'shatishdi",
+        "ariyozasiz ishdan chetlatishdi",
+        "mehnat shartnomamni noqonuniy bekor qilishdi"
+      ],
+      "url": "https://lex.uz/uz/docs/6257288",
+      "huquqiy_asos": "O'zbekiston Respublikasining Mehnat kodeksi (28.10.2022), 155, 172 va 174-moddalar",
+      "qoshimcha": "Sudga murojaatni kechiktirmang — mehnat nizolari uchun qisqa da'vo muddatlari belgilangan, aniq muddatni lex.uz dagi matndan tekshiring. Ishdan noqonuniy chetlashtirish oqibatlari alohida 154-moddada berilgan.",
+      "manba": "lex.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "mehnat-shartnomasisiz-ishlatish",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "Ish beruvchi meni mehnat shartnomasisiz ishlatyapti",
+      "qisqa_javob": "Bu noqonuniy. Mehnat kodeksining 106-moddasi mehnat shartnomasining shaklini, 107-moddasi esa uning majburiy rekvizitlarini belgilaydi — mehnat munosabatlari yozma shartnoma bilan rasmiylashtirilishi shart. Shartnomasiz ishlash sizni ish haqi, ta'til, ijtimoiy sug'urta va pensiya stajidan himoyasiz qoldiradi. Ish beruvchidan shartnomani rasmiylashtirishni yozma talab qiling, rad etilsa Mehnat inspeksiyasiga shikoyat qiling. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/uz/docs/6257288",
+      "muammolar": [
+        "norasmiy ishlayapman",
+        "shartnomasiz ishga olishdi",
+        "ish beruvchi rasmiylashtirmayapti",
+        "qora ishchi qilib ishlatishyapti"
+      ],
+      "url": "https://lex.uz/uz/docs/6257288",
+      "huquqiy_asos": "O'zbekiston Respublikasining Mehnat kodeksi (28.10.2022), 106 va 107-moddalar",
+      "qoshimcha": "Amalda ishlaganingizni tasdiqlovchi dalillarni (yozishmalar, pul o'tkazmalari, guvohlar) saqlang — ular inspeksiya va sudda mehnat munosabatlari mavjudligini isbotlashga yordam beradi.",
+      "manba": "lex.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "mehnat-tatili-berilmasligi",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "Ish beruvchi menga mehnat ta'tili bermayapti",
+      "qisqa_javob": "Bu noqonuniy. Mehnat kodeksining 216-moddasi har yilgi mehnat ta'tili tushunchasi va turlarini belgilaydi — har bir xodim har yili haq to'lanadigan ta'til olish huquqiga ega, 217-moddada esa har yilgi asosiy eng kam mehnat ta'tilining davomiyligi belgilangan. Ta'tilni yozma ravishda talab qiling; berilmasa Mehnat inspeksiyasiga shikoyat qiling yoki sudga murojaat qiling. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/uz/docs/6257288",
+      "muammolar": [
+        "otpuska berishmayapti",
+        "ikki yildan beri ta'tilga chiqmadim",
+        "ta'til pulini to'lashmayapti",
+        "dam olish ta'tilim yo'q"
+      ],
+      "url": "https://lex.uz/uz/docs/6257288",
+      "huquqiy_asos": "O'zbekiston Respublikasining Mehnat kodeksi (28.10.2022), 216 va 217-moddalar",
+      "qoshimcha": "Ishdan bo'shatilayotganda foydalanilmagan ta'til bo'yicha to'lovlar masalasi ham kodeksda alohida tartibga solingan (ta'tilga chiqish yoki kompensatsiya). Eng kam davomiylik va qismlarga bo'lish shartlarini lex.uz dagi matndan tekshiring.",
+      "manba": "lex.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "sifatsiz-tovarni-qaytarish",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "Do'kon sifatsiz (nuqsonli) mahsulotni qaytarib olmayapti",
+      "qisqa_javob": "Bu noqonuniy. «Iste'molchilarning huquqlarini himoya qilish to'g'risida»gi Qonunning 13-moddasi nuqsonli tovar sotilganda iste'molchining huquqlarini belgilaydi: 14-moddaga ko'ra nuqsonli tovarni almashtirib berish, 15-moddaga ko'ra nuqsonlarni bepul bartaraf etish, 16-moddaga ko'ra narxni kamaytirish yoki shartnomani bekor qilishni talab qilishingiz mumkin. Sotuvchiga yozma da'vo bilan murojaat qiling; rad etilsa Iste'molchilar huquqlarini himoya qilish agentligiga shikoyat qiling yoki 29-moddaga muvofiq sud orqali himoyalaning. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/docs/-4704",
+      "muammolar": [
+        "buzuq tovar sotishdi, pulni qaytarishmayapti",
+        "nuqsonli mahsulotni almashtirib berishmayapti",
+        "sifatsiz tovar uchun pulimni qaytarib olmoqchiman",
+        "kafolatli tovar buzildi, do'kon tan olmayapti"
+      ],
+      "url": "https://lex.uz/docs/-4704",
+      "huquqiy_asos": "«Iste'molchilarning huquqlarini himoya qilish to'g'risida»gi O'zbekiston Respublikasi Qonuni (26.04.1996, 221-I-son), 13, 14, 15, 16 va 29-moddalar",
+      "qoshimcha": "Chek yoki to'lovni tasdiqlovchi hujjatni saqlang. Almashtirish va talablarni qondirishning aniq muddatlari qonunda belgilangan — kunlar sonini lex.uz dagi matndan tekshiring.",
+      "manba": "lex.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "sifatli-tovarni-almashtirish",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "Tovar mos kelmadi, do'kon almashtirib berishni rad etyapti",
+      "qisqa_javob": "«Iste'molchilarning huquqlarini himoya qilish to'g'risida»gi Qonunning 18-moddasi iste'molchining maqbul (nuqsonsiz) sifatli tovarni ham almashtirib olish huquqini belgilaydi — o'lchami, fasoni yoki boshqa sabablarga ko'ra mos kelmagan noozik-ovqat tovarini qonunda belgilangan muddat ichida va shartlarga rioya etilgan holda almashtirishni talab qilishingiz mumkin. Sotuvchiga yozma murojaat qiling; rad etilsa Iste'molchilar huquqlarini himoya qilish agentligiga yoki sudga (29-modda) murojaat qiling. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/docs/-4704",
+      "muammolar": [
+        "kiyim o'lchami to'g'ri kelmadi, qaytarib olishmayapti",
+        "tovarni almashtirib berishmayapti",
+        "sotib olgan narsam yoqmadi, do'kon rad etyapti"
+      ],
+      "url": "https://lex.uz/docs/-4704",
+      "huquqiy_asos": "«Iste'molchilarning huquqlarini himoya qilish to'g'risida»gi O'zbekiston Respublikasi Qonuni (26.04.1996, 221-I-son), 18-modda",
+      "qoshimcha": "Almashtirish muddati va qaysi tovarlar almashtirilmasligi qonun hujjatlarida belgilangan — aniq muddat va istisnolar ro'yxatini lex.uz dagi matndan tekshiring. Chekni saqlab qo'ying.",
+      "manba": "lex.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "sifatsiz-xizmat-davo",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "Xizmat sifatsiz ko'rsatildi (ta'mirlash, tikish, servis), pulimni qaytarishmayapti",
+      "qisqa_javob": "Siz haqlisiz. «Iste'molchilarning huquqlarini himoya qilish to'g'risida»gi Qonunning 19-moddasi ishni bajarish, xizmat ko'rsatish to'g'risidagi shartnoma shartlari buzilgan taqdirda iste'molchining huquqlarini belgilaydi — kamchiliklarni bartaraf etishni yoki boshqa qonuniy talablarni qo'yishingiz mumkin. Ijrochiga yozma da'vo yuboring; qondirilmasa Iste'molchilar huquqlarini himoya qilish agentligiga shikoyat qiling yoki 29-moddaga muvofiq sudga murojaat qiling — sud orqali zarar va ma'naviy ziyonni ham undirish mumkin. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/docs/-4704",
+      "muammolar": [
+        "usta ishni sifatsiz bajardi",
+        "xizmat uchun pul oldi, ish qilmadi",
+        "remont sifatsiz chiqdi, javob berishmayapti",
+        "xizmat ko'rsatish shartnomasi buzildi"
+      ],
+      "url": "https://lex.uz/docs/-4704",
+      "huquqiy_asos": "«Iste'molchilarning huquqlarini himoya qilish to'g'risida»gi O'zbekiston Respublikasi Qonuni (26.04.1996, 221-I-son), 19 va 29-moddalar",
+      "qoshimcha": "Shartnoma, kvitansiya va ish natijasi suratlarini dalil sifatida saqlang. Da'voni qondirish muddatlari va kechiktirilganlik uchun javobgarlik qonunda nazarda tutilgan — aniq shartlarni lex.uz dagi matndan tekshiring.",
+      "manba": "lex.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "kommunal-xizmat-sifatsiz-qayta-hisob",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "Kommunal xizmat sifatsiz yoki umuman ko'rsatilmayapti, lekin to'lov to'liq hisoblanyapti",
+      "qisqa_javob": "Siz qayta hisob-kitobni talab qilishga haqlisiz. Uy-joy kodeksining 133-moddasi kommunal xizmatlar uchun majburiy to'lovlarni, 134-moddasi esa ularni to'lash muddatlarini belgilaydi — to'lov real ko'rsatilgan xizmat uchun amalga oshiriladi. Xizmat ko'rsatilmagan yoki sifatsiz bo'lsa, siz iste'molchi sifatida «Iste'molchilarning huquqlarini himoya qilish to'g'risida»gi Qonunning 19-moddasiga tayangan holda kamchiliklarni bartaraf etish va qayta hisob-kitobni talab qilishingiz mumkin. Yetkazib beruvchiga yozma da'vo yuboring (uzilishlar sanasini qayd eting); hal bo'lmasa Iste'molchilar huquqlarini himoya qilish agentligiga shikoyat qiling — Uy-joy kodeksining 140-moddasiga ko'ra uy-joyga oid nizolar sud tartibida ham hal etiladi. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/docs/-106136",
+      "muammolar": [
+        "issiq suv yo'q, lekin pul hisoblanyapti",
+        "kommunal to'lovni qayta hisoblab berishmayapti",
+        "svet tez-tez o'chadi, kompensatsiya yo'q",
+        "isitish ishlamaydi, to'lov to'liq olinyapti"
+      ],
+      "url": "https://lex.uz/docs/-106136",
+      "huquqiy_asos": "O'zbekiston Respublikasining Uy-joy kodeksi, 133, 134 va 140-moddalar; «Iste'molchilarning huquqlarini himoya qilish to'g'risida»gi Qonun, 19-modda (https://lex.uz/docs/-4704)",
+      "qoshimcha": "Uzilish faktini qayd qilish uchun dispetcherlik xizmatiga qo'ng'iroq raqamini oling yoki dalolatnoma tuzishni talab qiling. Ko'p kvartirali uydagi umumiy mol-mulkni saqlash xarajatlari 126-moddada tartibga solingan.",
+      "manba": "lex.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "aliment-tolanmayapti",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "Sobiq turmush o'rtog'im bolaga aliment to'lamayapti, nima qilay?",
+      "qisqa_javob": "Bu qonunbuzarlik: Oila kodeksining 96-moddasiga ko'ra ota-ona voyaga yetmagan bolalarini ta'minlash majburiyatiga ega, kelishuv bo'lmasa aliment sud tartibida undiriladi (miqdori 99-moddada belgilangan). Yashash joyingizdagi fuqarolik ishlari bo'yicha sudga aliment undirish to'g'risida ariza bering — bunday arizalar davlat bojisiz qabul qilinadi. Sud qarori yoki sud buyrug'ini Majburiy ijro byurosiga (MIB) topshiring: MIB qarzdorning ish haqi va mol-mulkidan majburiy undiradi. Ataylab to'lamaslik davom etsa, MIB orqali qarzdorni javobgarlikka tortishni talab qiling. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/uz/docs/104720",
+      "muammolar": [
+        "eski erim aliment bermayapti",
+        "bola uchun aliment qanday undiriladi",
+        "aliment qarzi yig'ilib qoldi",
+        "otasi bolaga pul bermayapti",
+        "aliment undirish uchun qayerga murojaat qilaman"
+      ],
+      "url": "https://lex.uz/uz/docs/104720",
+      "huquqiy_asos": "O'zbekiston Respublikasining Oila kodeksi, 96-modda (ota-onaning voyaga yetmagan bolalarini ta'minlash majburiyati), 99-modda (aliment miqdori)",
+      "qoshimcha": "Sud buyrug'i tartibi tezroq: nizosiz holatlarda sud buyrug'i chiqariladi. Ijro etilmasa — MIB ustidan yuqori organga yoki sudga, shuningdek prokuraturaga shikoyat qilish mumkin. Aliment o'tgan davr uchun ham (qonunda belgilangan doirada) undirilishi mumkin.",
+      "manba": "lex.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ajrashish-tartibi",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "Ajrashmoqchiman, qanday tartibda bo'ladi?",
+      "qisqa_javob": "Ajrashish tartibi Oila kodeksining 38-moddasida belgilangan: voyaga yetmagan umumiy bolalar bo'lsa yoki tomonlardan biri rozi bo'lmasa, nikoh 40-moddaga muvofiq sud tartibida bekor qilinadi. Buning uchun yashash joyingizdagi fuqarolik ishlari bo'yicha sudga ariza bering; sud bolalar kim bilan qolishi va aliment masalasini ham hal qiladi. O'zaro rozilik bo'lib, voyaga yetmagan bolalar bo'lmasa, FHDYo organida ajrashish mumkin. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/uz/docs/104720",
+      "muammolar": [
+        "erimdan ajrashmoqchiman",
+        "nikohni bekor qilish tartibi",
+        "sud orqali ajrashish qancha davom etadi",
+        "ajrimda bola kim bilan qoladi"
+      ],
+      "url": "https://lex.uz/uz/docs/104720",
+      "huquqiy_asos": "O'zbekiston Respublikasining Oila kodeksi, 38-modda (nikohdan ajratish tartibi), 40-modda (nikohdan sud tartibida ajratish)",
+      "qoshimcha": "Sud yarashtirish uchun muddat berishi mumkin. Ajrashish bilan birga aliment undirish va bolaning yashash joyini belgilash talablarini bitta arizada qo'yish mumkin.",
+      "manba": "lex.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "bola-bilan-korishish-huquqi",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "Ajrashganmiz, sobiq turmush o'rtog'im bolani ko'rsatmayapti",
+      "qisqa_javob": "Bu qonunga zid: Oila kodeksining 66-moddasiga ko'ra bola ota-onasi va boshqa qarindoshlari bilan ko'rishish huquqiga ega, alohida yashovchi ota-onaning bola bilan muloqot qilish huquqini boshqa tomon cheklashi mumkin emas. Avval tuman (shahar) hokimligi huzuridagi vasiylik va homiylik organiga murojaat qilib, ko'rishish tartibini belgilashni so'rang. Kelishuvga erishilmasa, sudga ariza bering — sud ko'rishish jadvalini majburiy tartibda belgilaydi. Sud qarori bajarilmasa, Majburiy ijro byurosi orqali ijroni talab qiling. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/uz/docs/104720",
+      "muammolar": [
+        "bolamni ko'rishga ruxsat berishmayapti",
+        "sobiq xotinim bolani ko'rsatmayapti",
+        "ota sifatida bola bilan ko'rishish huquqim bormi",
+        "buvisi nabirasini ko'ra oladimi"
+      ],
+      "url": "https://lex.uz/uz/docs/104720",
+      "huquqiy_asos": "O'zbekiston Respublikasining Oila kodeksi, 66-modda (bolaning ota-onasi va boshqa qarindoshlari bilan ko'rishish huquqi), 77-modda (bobo, buvi, aka-uka, opa-singil va boshqa yaqin qarindoshlarning bola bilan ko'rishib turish huquqi)",
+      "qoshimcha": "Buvi-bobo va boshqa yaqin qarindoshlar ham 77-modda asosida ko'rishish huquqiga ega. Vasiylik organi xulosasi sudda muhim dalil bo'ladi.",
+      "manba": "lex.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "nikoh-yoshi-majburiy-nikoh",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "Qizimizni majburlab turmushga bermoqchi bo'lishyapti, bu qonuniymi?",
+      "qisqa_javob": "Majburiy nikoh qonunga ziddir: nikoh faqat ikkala tomonning ixtiyoriy roziligi bilan va Oila kodeksining 15-moddasida belgilangan nikoh yoshiga (18 yosh) yetganda tuziladi. Rozilik bo'lmagan yoki majburlab tuzilgan nikoh haqiqiy emas deb topilishi mumkin. Majburlash holatlarida darhol vasiylik va homiylik organiga, ichki ishlar organlariga yoki prokuraturaga murojaat qiling — nikohga majburlash uchun qonunda javobgarlik nazarda tutilgan. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/uz/docs/104720",
+      "muammolar": [
+        "necha yoshdan turmush qurish mumkin",
+        "majburlab uzatishmoqchi",
+        "voyaga yetmaganni nikohlash mumkinmi",
+        "nikoh yoshi nechada"
+      ],
+      "url": "https://lex.uz/uz/docs/104720",
+      "huquqiy_asos": "O'zbekiston Respublikasining Oila kodeksi, 15-modda (nikoh yoshi)",
+      "qoshimcha": "18 yoshga to'lmagan shaxs bilan diniy nikoh (nikoh o'qitish) ham javobgarlikka olib keladi. Ishonch telefonlari va mahalladagi xotin-qizlar maslahatchisiga ham murojaat qilish mumkin; jiddiy holatlarda prokuraturaga yozma ariza bering.",
+      "manba": "lex.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "jarima-notogri-yozilgan",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "Menga jarima noto'g'ri yozilgan, qanday shikoyat qilaman?",
+      "qisqa_javob": "Ma'muriy javobgarlik to'g'risidagi kodeksga ko'ra ma'muriy huquqbuzarlik to'g'risidagi ish yuzasidan chiqarilgan qaror ustidan shikoyat qilish huquqiga egasiz: shikoyat qarorni chiqargan organdan yuqori turuvchi organga (mansabdor shaxsga) yoki sudga beriladi. Shikoyatda qaror raqami, sanasi va nima uchun noto'g'ri deb hisoblashingizni (dalillar bilan) ko'rsating. Muhim: shikoyat muddati qaror nusxasi sizga topshirilgan kundan boshlab hisoblanadi va qisqa, shuning uchun kechiktirmasdan bering — shikoyat berilganda qarorning ijrosi qonunda belgilangan hollarda to'xtatiladi. Prokuraturaga ham qaror ustidan protest keltirish so'rovi bilan murojaat qilish mumkin. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/uz/docs/97664",
+      "muammolar": [
+        "GAI jarimani noto'g'ri yozdi",
+        "jarima ustidan qayerga shikoyat qilaman",
+        "radar jarimasi adolatsiz",
+        "men qilmagan huquqbuzarlik uchun jarima kelibdi",
+        "jarimani bekor qilish tartibi"
+      ],
+      "url": "https://lex.uz/uz/docs/97664",
+      "huquqiy_asos": "O'zbekiston Respublikasining Ma'muriy javobgarlik to'g'risidagi kodeksi",
+      "qoshimcha": "Uzrli sabab bilan o'tkazib yuborilgan shikoyat muddatini tiklashni so'rash mumkin. Avtomatik foto-video qayd etish jarimalari bo'yicha ham xuddi shu tartib: chiqargan organga yoki sudga shikoyat. Javobdan qoniqmasangiz — sudga murojaat qiling.",
+      "manba": "lex.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "murojaatga-javob-berilmadi",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "Davlat idorasiga ariza yozgan edim, muddatida javob berishmadi",
+      "qisqa_javob": "Bu qonunbuzarlik: «Jismoniy va yuridik shaxslarning murojaatlari to'g'risida»gi Qonunning 28-moddasi murojaatlarni ko'rib chiqish muddatlarini belgilaydi — qo'shimcha o'rganish talab etilmaydigan murojaatlar 15 kun ichida, boshqalari bir oygacha ko'rib chiqilishi shart, javob esa yozma (yoki elektron) shaklda berilishi lozim (27-modda). Muddat buzilgan bo'lsa, o'sha organning rahbariga, so'ngra yuqori turuvchi organga yozma shikoyat qiling. Natija bo'lmasa — prokuraturaga yoki sudga murojaat qiling: murojaatlar to'g'risidagi qonun hujjatlarini buzganlik uchun mansabdor shaxslar javobgarlikka tortiladi. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/uz/docs/3336171",
+      "muammolar": [
+        "arizamga javob kelmadi",
+        "hokimiyat murojaatimni ko'rib chiqmadi",
+        "necha kunda javob berishlari kerak",
+        "murojaatim javobsiz qoldi",
+        "idoradan javob kutish muddati"
+      ],
+      "url": "https://lex.uz/uz/docs/3336171",
+      "huquqiy_asos": "«Jismoniy va yuridik shaxslarning murojaatlari to'g'risida»gi O'zbekiston Respublikasi Qonuni (yangi tahriri, 11.09.2017, O'RQ-445), 27-modda (murojaatlarga javoblar), 28-modda (murojaatlarni ko'rib chiqish muddatlari)",
+      "qoshimcha": "Qo'shimcha tekshirish zarur bo'lsa muddat qonunda belgilangan tartibda uzaytirilishi mumkin, bu haqda sizga xabar berilishi shart. Prezident xalq qabulxonalari orqali ham murojaat qilish mumkin; muddat buzilishi ma'muriy javobgarlikka olib keladi.",
+      "manba": "lex.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "pensiya-notogri-hisoblangan",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "Pensiyam noto'g'ri hisoblangan yoki tayinlash rad etilgan",
+      "qisqa_javob": "«Fuqarolarning davlat pensiya ta'minoti to'g'risida»gi Qonunning 48-moddasiga ko'ra pensiya tayinlash to'g'risidagi qarorlar ustidan shikoyat qilish huquqiga egasiz. Avval tuman (shahar) byudjetdan tashqari Pensiya jamg'armasi bo'limidan pensiyangiz hisob-kitobini yozma so'rang — ish staji (qonunning 27-moddasi) va o'rtacha oylik ish haqi (31—32-moddalar) to'g'ri hisoblanganini tekshiring. Xato aniqlansa, qayta hisoblashni yozma talab qiling; rad etilsa — yuqori turuvchi Pensiya jamg'armasi organiga, so'ngra sudga shikoyat bering. Etishmayotgan stajni tasdiqlovchi hujjatlarni (mehnat daftarchasi, arxiv ma'lumotnomalari) taqdim etish mumkin. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/uz/docs/112312",
+      "muammolar": [
+        "pensiyam kam hisoblangan",
+        "pensiya tayinlashni rad etishdi",
+        "ish stajim hisobga olinmadi",
+        "pensiya qayta hisoblansin",
+        "pensiya bo'limi ustidan shikoyat"
+      ],
+      "url": "https://lex.uz/uz/docs/112312",
+      "huquqiy_asos": "«Fuqarolarning davlat pensiya ta'minoti to'g'risida»gi O'zbekiston Respublikasi Qonuni (03.09.1993, 938-XII), 48-modda (pensiya tayinlash to'g'risidagi qarorlar ustidan shikoyat qilish)",
+      "qoshimcha": "Hisob-kitob asoslari qonunning 25—32-moddalarida (pensiya miqdori, staj uchun oshirish, o'rtacha oylik ish haqini aniqlash tartibi) belgilangan. Prokuratura ham pensiya organi qarorini tekshirishi mumkin.",
+      "manba": "lex.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "maktabda-pul-yigish",
+      "soha": "Huquqiy javob (lex.uz)",
+      "savol": "Maktabda ta'mirlash uchun majburiy pul yig'ishyapti, bu qonuniymi?",
+      "qisqa_javob": "Majburiy pul yig'ish qonunga zid: «Ta'lim to'g'risida»gi Qonunning 5-moddasiga muvofiq har kim ta'lim olish huquqiga ega va davlat ta'lim muassasalarida umumiy o'rta ta'lim davlat hisobidan, bepul kafolatlanadi; 4-moddada ta'lim olishning hamma uchun ochiqligi asosiy prinsip sifatida belgilangan. Ota-onalar faqat ixtiyoriy ravishda homiylik qilishi mumkin — majburlash, baho yoki bolaga bosim bilan bog'lash mumkin emas. Pul talab qilinsa, maktab direktoriga yozma murojaat qiling, natija bo'lmasa tuman xalq ta'limi bo'limiga, ishonch telefoniga yoki prokuraturaga shikoyat bering. To'liq ma'lumot uchun lex.uz dagi hujjatni o'qing: https://lex.uz/uz/docs/5013007",
+      "muammolar": [
+        "maktabda pul yig'ishyapti",
+        "o'qituvchi ta'mirlash puli so'rayapti",
+        "sinf jamg'armasi majburiymi",
+        "bog'chada qo'shimcha pul talab qilishyapti",
+        "maktab bepul emasmi"
+      ],
+      "url": "https://lex.uz/uz/docs/5013007",
+      "huquqiy_asos": "«Ta'lim to'g'risida»gi O'zbekiston Respublikasi Qonuni (23.09.2020, O'RQ-637), 4-modda (ta'lim sohasidagi asosiy prinsiplar), 5-modda (ta'lim olish huquqi)",
+      "qoshimcha": "Shikoyatni anonim tarzda ham ishonch telefonlari orqali berish mumkin. Majburiy yig'im dalillari (yozishmalar, e'lonlar) saqlansin — prokuratura tekshiruvida asqotadi. Bola ta'limdan chetlashtirilsa yoki bosim o'tkazilsa, bu alohida qonunbuzarlik sifatida ko'riladi.",
+      "manba": "lex.uz",
       "sahifa_ochildi": true
     }
   ]

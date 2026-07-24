@@ -54,9 +54,17 @@ data/
                       ko'rib chiqish muddatlari (15 kun / 1 oy), idoralar
                       ma'lumotnomasi, mobil ilova. Bazada javob topilmaganda
                       fallback yo'riqnoma sifatida ishlatiladi
-  lex.json          — Qonunchilik bazasi (lex.uz): 7 yozuv — qonun/kodeks
-                      qidirish, amaldagi tahrirni aniqlash, yangi hujjatlarni
-                      kuzatish, yuklab olish, til versiyalari, BHM kalkulyatori
+  lex.json          — Qonunchilik bazasi (lex.uz): 23 yozuv — 7 ta foydalanish
+                      yo'riqnomasi (qidirish, tahrirlar, yuklab olish) + 16 ta
+                      "Huquqiy javob": fuqaro shikoyatiga aniq javob (qaysi
+                      qonun/modda buzilgan, nimani talab qilish mumkin, qayerga
+                      murojaat) va to'liq matn uchun lex.uz havolasi. Moddalar
+                      lex.uz sahifalaridan tekshirilgan
+  savol-javob.json  — advice.uz (Adliya huquqiy maslahat portali): 20 ta tayyor
+                      savol-javob (aliment, ijara, kontrakt imtiyozlari, pensiya,
+                      bola puli, soliq va h.k.), har birida manba havolasi.
+                      Eslatma: pm.gov.uz mavzu toifalari JS orqali yuklanadi,
+                      savol-javoblarning o'qiladigan manbasi — advice.uz
 instructions/
   BOT.md, WEB.md  — sheriklar uchun o'rnatish/ishga tushirish yo'riqnomalari
 docs/
@@ -92,10 +100,16 @@ vektor_baza/      — ChromaDB lokal papka (index_qurish ishga tushgach yaratila
     (qa/hisobot_2026-07-24.md): Top-1 26/30 (87%), Top-3 30/30 (100%),
     10/10 tuzoq savol muvaffaqiyatli — maqsad >=80% bajarildi
 [x] data/pm-gov.json (Prezident virtual qabulxonasi, 7 yozuv) va
-    data/lex.json (lex.uz qonunchilik bazasi, 7 yozuv) yaratildi va RAG'ga
+    data/lex.json (lex.uz qonunchilik bazasi) yaratildi va RAG'ga
     ulandi — index_qurish endi barcha data/ bazalarini umumiy tarzda
-    indekslaydi (pmgov-/lex- prefikslari bilan). Jami indeks: 93 yozuv,
-    sinov qidiruvlari 5/5 to'g'ri
+    indekslaydi (pmgov-/lex-/advice- prefikslari bilan)
+[x] lex.json ga 16 ta "Huquqiy javob" qo'shildi (Mehnat, Oila, Uy-joy
+    kodekslari, iste'molchi huquqlari, murojaatlar va pensiya qonunlari —
+    moddalar lex.uz dan tekshirilgan); data/savol-javob.json yaratildi
+    (advice.uz dan 20 tayyor savol-javob). SYSTEM_PROMPT'ga 10-qoida
+    qo'shildi: manbalar ustuvorligi my.gov.uz -> pm.gov.uz -> lex.uz,
+    huquqiy javob doim lex.uz havolasi bilan tugaydi. Jami indeks: 129
+    yozuv, sinov qidiruvlari 6/6 to'g'ri
 
 ===========================================================
 4. QOLGAN ISH (KEYINGI QADAM)

@@ -1,0 +1,346 @@
+{
+  "$schema_izoh": {
+    "tavsif": "advice.uz (Adliya vazirligining huquqiy maslahat portali) dan yig'ilgan tayyor savol-javoblar bazasi. Fuqaro savoli tez-tez so'raladigan savolga mos kelsa, bot tayyor aniq javobni beradi va to'liq ma'lumot uchun manba havolasini ko'rsatadi. Eslatma: pm.gov.uz saytining mavzu toifalari JS orqali yuklanadi va to'g'ridan-to'g'ri o'qib bo'lmadi — savol-javoblarning asl manbasi advice.uz.",
+    "MUHIM": "Javoblar 2026-07-24 kuni advice.uz ochiq sahifalaridan olingan va qisqartirilgan. Nafaqa miqdorlari, BHM va muddatlar vaqt o'tishi bilan o'zgaradi — javob oxiridagi havola orqali dolzarbligini tekshirish kerak.",
+    "maydonlar": {
+      "id": "unikal identifikator",
+      "soha": "bo'lim",
+      "savol": "fuqaro savoli",
+      "qisqa_javob": "aniq qisqa javob (manbadan)",
+      "muammolar": "muqobil iboralar",
+      "url": "javob joylashgan sahifa",
+      "huquqiy_asos": "qonun/modda (manbada ko'rsatilgan bo'lsa)",
+      "qoshimcha": "qo'shimcha",
+      "manba": "advice.uz",
+      "sahifa_ochildi": "sahifa o'qildi-o'qilmadi"
+    }
+  },
+  "yigilgan_sana": "2026-07-24",
+  "portal": {
+    "nomi": "Advice.uz — huquqiy maslahatlar portali",
+    "url": "https://advice.uz/oz",
+    "tavsif": "Adliya vazirligi tizimidagi bepul huquqiy maslahat portali: toifalar bo'yicha savol-javoblar (oila, fuqarolik, migratsiya, sog'liqni saqlash, ijtimoiy himoya, mehnat va h.k.)."
+  },
+  "xizmatlar": [
+    {
+      "id": "aliment-xorijga-chiqish-taqiqini-bekor-qilish",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Aliment to'lovchi shaxs xorijga chiqishi uchun ta'qiq qo'yilgan bo'lsa, uni qanday bekor qilish mumkin?",
+      "qisqa_javob": "Ta'qiqni bekor qilishning uch yo'li bor: undiruvchining (sobiq turmush o'rtoqning) ijroni to'xtatish haqidagi arizasi — «Sud hujjatlari va boshqa organlar hujjatlarini ijro etish to'g'risida»gi qonunning 40-moddasiga asosan; alimentni oldindan to'lash yoki qiymati kamida 250 BHM bo'lgan garov shartnomasini tuzish; yoki davlat ijrochisining chiqishni cheklash to'g'risidagi qarori ustidan sudga shikoyat qilish.",
+      "muammolar": [
+        "Aliment qarzim bor, chet elga chiqolmayapman, nima qilay?",
+        "Xorijga chiqish taqig'ini qanday olib tashlash mumkin?",
+        "Aliment tufayli chegaradan chiqarishmayapti"
+      ],
+      "url": "https://advice.uz/oz/questions/11",
+      "huquqiy_asos": "«Sud hujjatlari va boshqa organlar hujjatlarini ijro etish to'g'risida»gi qonun, 40-modda",
+      "qoshimcha": "Garov qiymati BHM ning 250 baravaridan kam bo'lmasligi lozim",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ijara-haqini-bir-tomonlama-oshirish",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Uy egasi bir tomonlama ravishda uy-joy uchun to'lov miqdorini o'zgartirishi mumkinmi?",
+      "qisqa_javob": "Yo'q. Fuqarolik kodeksining 611-moddasiga ko'ra uy-joy uchun to'lanadigan haq miqdori taraflarning o'zaro kelishuviga binoan ijara shartnomasida belgilanadi, shartnoma shartlarini bir tomonlama o'zgartirishga yo'l qo'yilmaydi. Uy egasi noqonuniy talab qo'ysa, ijarachi fuqarolik ishlari bo'yicha sudga murojaat qilib buzilgan huquqini tiklashi mumkin.",
+      "muammolar": [
+        "Kvartira egasi ijara narxini birdan oshirib yubordi, bu qonuniymi?",
+        "Ijara haqini xo'jayin o'zboshimchalik bilan ko'tarsa nima qilish kerak?",
+        "Uy ijarasi shartnomasidagi narxni egasi o'zgartira oladimi?"
+      ],
+      "url": "https://advice.uz/oz/questions/12",
+      "huquqiy_asos": "O'zbekiston Respublikasi Fuqarolik kodeksi, 611-modda",
+      "qoshimcha": "Nizo bo'lsa fuqarolik ishlari bo'yicha sudga murojaat qilinadi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "tolov-kontrakt-qisman-tolab-berish",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Professional va oliy ta'lim muassasalarida ta'lim olish bo'yicha to'lov-kontrakt summasining bir qismini to'lab berish tartibi qanday?",
+      "qisqa_javob": "«Temir daftar» va «Yoshlar daftari»ga kiritilgan shaxslarga «Yoshlar daftari» jamg'armasi hisobidan to'lov-kontrakt summasining 50 foizigacha, ammo bazaviy hisoblash miqdorining 50 baravaridan oshmagan miqdorda to'lab beriladi. Buning uchun ariza, o'qish muddati va yillik to'lov ko'rsatilgan kontrakt hamda qolgan summani to'lash imkoniyatini asoslovchi hujjatlar taqdim etiladi; mablag' ta'lim muassasasi hisob raqamiga o'tkaziladi.",
+      "muammolar": [
+        "Yoshlar daftaridan kontrakt pulini to'lab berisharmikan?",
+        "Temir daftarga kirganlar uchun o'qish kontraktiga yordam bormi?",
+        "Kontraktimning bir qismini davlat to'lab beradimi?"
+      ],
+      "url": "https://advice.uz/oz/questions/13",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "Chegara: kontraktning 50 foizigacha va ko'pi bilan 50 BHM",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "xususiy-klinikada-bepul-tibbiy-xizmat",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Qaysi toifadagi shaxslar xususiy pullik tibbiyot muassasalarida tibbiy xizmatni bepul olishlari mumkin?",
+      "qisqa_javob": "Xususiy tibbiyot muassasalari (stomatologiya va kosmetologiyadan tashqari) yolg'iz keksalar, I–II guruh nogironlari va nogiron bolalar, muomalaga layoqatsiz fuqarolar, ijtimoiy ahamiyatga molik kasalliklarga chalinganlar, yetim bolalar hamda 1941–1945 yillardagi urush nogironlari va qatnashchilariga bepul xizmat ko'rsatadi. Buning uchun shaxsni va ijtimoiy toifaga mansublikni tasdiqlovchi hujjat talab etiladi; asossiz rad etilsa Sog'liqni saqlash vazirligining 1003 raqamiga murojaat qilish mumkin.",
+      "muammolar": [
+        "Nogironman, xususiy klinikada bepul davolana olamanmi?",
+        "Pullik shifoxonada kimlarga imtiyoz beriladi?",
+        "Xususiy poliklinikada bepul ko'rik olish mumkinmi?"
+      ],
+      "url": "https://advice.uz/oz/questions/14",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "Ishonch raqami: 1003 (Sog'liqni saqlash vazirligi)",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "uy-joy-subsidiya-olish-tartibi",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Uy-joy sotib olish uchun fuqarolarga subsidiya to'lash tartibi qanday?",
+      "qisqa_javob": "Subsidiya — ipoteka bo'yicha boshlang'ich badal va kredit foizining bir qismini Davlat byudjetidan qoplash uchun fuqaro nomiga bankda ochilgan hisobvaraqqa o'tkaziladigan mablag'. Arizani 18–60 yoshdagi O'zbekiston fuqarolari yil davomida my.gov.uz portalidagi 325-xizmat orqali topshiradi; oila daromadi belgilangan minimal mehnat haqining 2,7–9,2 baravari oralig'ida bo'lishi kerak, baholash subsidiya.idm.uz tizimida avtomatlashtirilgan tarzda o'tkaziladi.",
+      "muammolar": [
+        "Ipoteka uchun davlat subsidiyasini qanday olsam bo'ladi?",
+        "Uy olishga subsidiyaga kimlar ariza bera oladi?",
+        "Subsidiya arizasi qayerdan topshiriladi?"
+      ],
+      "url": "https://advice.uz/oz/questions/15",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "Ariza: https://my.gov.uz/uz/service/325",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ayollar-daftari-kontrakt-imtiyozi",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "«Ayollar daftari»ga kiritilgan ehtiyojmand xotin-qizlar yoki ularning oliy ta'limda tahsil olayotgan farzandlari to'lov-kontrakt imtiyozlaridan foydalanishlari mumkinmi?",
+      "qisqa_javob": "Ha. Vazirlar Mahkamasining 2022-yil 31-martdagi 145-son qaroriga ko'ra, «Ayollar daftari»ga kiritilgan ehtiyojmand xotin-qizlarga yoxud ularning oliy ta'limda tahsil olayotgan ikki va undan ortiq farzandlarining bir nafariga bazaviy hisoblash miqdorining 15 baravarigacha bir marotaba to'lov-kontrakt to'lab beriladi. Murojaat hokim yordamchisi orqali amalga oshiriladi.",
+      "muammolar": [
+        "Ayollar daftaridagilarga o'qish kontraktida qanday yengillik bor?",
+        "Onam Ayollar daftarida, kontraktimni to'lab berisharmikan?",
+        "Ehtiyojmand ayollar uchun kontrakt imtiyozi qanday olinadi?"
+      ],
+      "url": "https://advice.uz/oz/questions/16",
+      "huquqiy_asos": "Vazirlar Mahkamasining 31.03.2022-yildagi 145-son qarori",
+      "qoshimcha": "Bir marotaba, 15 BHM gacha",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "otm-hujjat-topshirish-hujjatlari",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Abituriyentlar OTMga hujjat topshirish uchun davlat xizmatlari markaziga qanday hujjatlar taqdim qiladi?",
+      "qisqa_javob": "Ma'muriy reglamentning 8-bandiga asosan abituriyent pasport (yoki 09-shakl ma'lumotnomasi), pasport yoshiga yetmaganlar uchun tug'ilganlik guvohnomasi, umumiy o'rta yoki o'rta maxsus ta'limni tugatganlik to'g'risidagi hujjat (ilovasi bilan) taqdim etadi. Imtiyozga ega abituriyentlar qo'shimcha ravishda imtiyoz huquqini tasdiqlovchi hujjatni topshiradi.",
+      "muammolar": [
+        "Universitetga hujjat topshirishda nimalar kerak?",
+        "OTMga kirish uchun qanday hujjatlar yig'ish kerak?",
+        "Davlat xizmatlari markazida abituriyentdan nima so'raladi?"
+      ],
+      "url": "https://advice.uz/oz/questions/17",
+      "huquqiy_asos": "Oliy ta'lim muassasalariga o'qishga kirish uchun hujjatlarni qabul qilish bo'yicha ma'muriy reglament, 8-band",
+      "qoshimcha": "",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "sirtqi-talim-oqish-tatili",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Sirtqi ta'lim shaklida o'qiyotgan xodimga ish haqi saqlangan holda ta'til beriladimi?",
+      "qisqa_javob": "Ha, Mehnat kodeksining 385-moddasiga asosan sirtqi ta'lim shaklidagi talaba-xodimlarga kamida 30 kalendar kun (yuqori kurslarda 40 kalendar kun) o'rtacha ish haqi saqlangan holda ta'til beriladi. Bundan tashqari, ish beruvchi imtihon sessiyasiga borish uchun yiliga bir marta yo'lkira haqining kamida 50 foizini to'laydi.",
+      "muammolar": [
+        "Sirtqi o'qiyman, sessiyaga o'qish ta'tili berisharmi?",
+        "Ishlab o'qiyotganlarga sessiya uchun ta'til to'lanadimi?",
+        "Sirtqi talabalarga ish joyidan qanday imtiyozlar bor?"
+      ],
+      "url": "https://advice.uz/oz/questions/18",
+      "huquqiy_asos": "O'zbekiston Respublikasi Mehnat kodeksi, 385-modda",
+      "qoshimcha": "Davlat attestatsiyasi uchun ham yo'lkira xarajati qoplanadi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "nikohni-sud-tartibida-bekor-qilish",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Qanday qilib nikohni sud tartibida bekor qilish mumkin?",
+      "qisqa_javob": "Birgalikda farzandlar bo'lsa, fuqarolik ishlari bo'yicha tumanlararo sudga da'vo arizasi bilan murojaat qilinadi; pasport nusxalari, bolalarning tug'ilganlik guvohnomalari, nikoh guvohnomasining asl nusxasi va davlat boji kvitansiyasi (2 BHM, takroriy ajrimda 4 BHM) taqdim etiladi. Sud yarashish uchun olti oygacha muhlat berishi mumkin; hal qiluv qarori kuchga kirgach, ajralish FHDYo organida qayd etiladi.",
+      "muammolar": [
+        "Ajrashish uchun sudga qanday ariza beriladi?",
+        "Bolali oilada nikohdan ajralish tartibi qanday?",
+        "Sud orqali ajrashish uchun qancha boj to'lanadi?"
+      ],
+      "url": "https://advice.uz/oz/questions/19",
+      "huquqiy_asos": "Davlat boji: 2 BHM, takroriy nikoh bekor qilinganda 4 BHM",
+      "qoshimcha": "Sud er-xotinga yarashish uchun 6 oygacha muhlat tayinlashga haqli",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "birinchi-kurs-akademik-tatil",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "1-kurs talabalari ham akademik ta'til olsa bo'ladimi?",
+      "qisqa_javob": "Ha. Vazirlar Mahkamasining 2021-yil 3-iyundagi 344-son qarori bilan tasdiqlangan Nizomga ko'ra akademik ta'til berishda talaba o'qiyotgan kursga nisbatan cheklov yo'q — avvalgi «1-kursga faqat kasallikda» degan tartib 2021/2022 o'quv yilidan bekor qilingan. Ta'til harbiy xizmat, salomatlikni tiklash, homiladorlik va tug'ish, bola yoki betob oila a'zosini parvarish qilish hollarida beriladi.",
+      "muammolar": [
+        "Birinchi kursda akademik olsa bo'ladimi?",
+        "Akademik ta'til qaysi hollarda beriladi?",
+        "1-bosqich talabasiga akademik ruxsat etiladimi?"
+      ],
+      "url": "https://advice.uz/oz/questions/20",
+      "huquqiy_asos": "Vazirlar Mahkamasining 03.06.2021-yildagi 344-son qarori",
+      "qoshimcha": "",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "sifatli-tovarni-qaytarish-10-kun",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Maqbul sifatli tovarni qaytarish yoki boshqasiga almashtirish uchun iste'molchiga qancha muddat beriladi?",
+      "qisqa_javob": "Iste'molchi xarid qilingan kundan boshlab 10 kun ichida sifatli tovarni almashtirib olish yoki pulini qaytarib olish huquqiga ega. Buning sharti — tovar foydalanilmagan, shikastlanmagan, qadog'i saqlangan va iste'mol xususiyatlari yo'qolmagan bo'lishi; bu holda sotuvchi talabni qanoatlantirishga majbur.",
+      "muammolar": [
+        "Sotib olgan tovarimni necha kun ichida qaytara olaman?",
+        "Yoqmagan mahsulotni do'konga qaytarish mumkinmi?",
+        "Tovar almashtirish uchun qonuniy muddat qancha?"
+      ],
+      "url": "https://advice.uz/oz/document/1293",
+      "huquqiy_asos": "«Iste'molchilarning huquqlarini himoya qilish to'g'risida»gi 26.04.1996-yildagi 221-I-son Qonun",
+      "qoshimcha": "To'lov qanday shaklda qilingan bo'lsa, pul xuddi shu shaklda qaytariladi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "nuqsonli-tovar-istemolchi-huquqlari",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Nuqsonli tovar sotilganda iste'molchi qanday huquqlarga ega?",
+      "qisqa_javob": "Iste'molchi o'z xohishiga ko'ra tovarni xuddi shu yoki boshqa markadagi tovarga (narxni qayta hisoblab) almashtirishni, nuqsonni bepul bartaraf etishni yoki xarajatlarini qoplashni, narxni kamaytirishni yoxud shartnomani bekor qilib zararni undirishni talab qilishi mumkin. Bu huquqlar kafolat muddati mobaynida, kafolat belgilanmagan tovarlar uchun esa 6 oy ichida aniqlangan nuqsonlarga nisbatan amal qiladi.",
+      "muammolar": [
+        "Buzuq tovar sotishdi, nima talab qila olaman?",
+        "Kafolatli mahsulot ishlamay qolsa nima qilish kerak?",
+        "Nuqsonli mahsulot uchun pulni qaytarib olsa bo'ladimi?"
+      ],
+      "url": "https://advice.uz/oz/document/1301",
+      "huquqiy_asos": "«Iste'molchilarning huquqlarini himoya qilish to'g'risida»gi Qonun",
+      "qoshimcha": "Kafolat bo'lmasa da'vo muddati — 6 oy",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "biometrik-pasport-yoqolganda",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Biometrik pasportini yo'qotib qo'ygan fuqaro nima qilishi kerak?",
+      "qisqa_javob": "Pasportini yo'qotgan fuqaro zudlik bilan o'ziga qulay ma'lumotlarni yig'ish punktiga xabar berishi lozim, shundan so'ng unga qonun hujjatlarida belgilangan tartibda va muddatlarda yangi ID-karta rasmiylashtirib beriladi. Xorijda pasportini yo'qotgan fuqarolar O'zbekistonga qaytish guvohnomasini olish uchun konsullik muassasasiga murojaat qiladi.",
+      "muammolar": [
+        "Pasportim yo'qolib qoldi, qayerga murojaat qilay?",
+        "ID-karta yo'qolsa qanday tiklanadi?",
+        "Chet elda pasportni yo'qotib qo'ysam nima qilaman?"
+      ],
+      "url": "https://advice.uz/oz/document/1630",
+      "huquqiy_asos": "«O'zbekiston Respublikasining fuqaroligi to'g'risida»gi Qonun; Ma'muriy javobgarlik kodeksi",
+      "qoshimcha": "Xorijda: konsullik orqali qaytish guvohnomasi olinadi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "voyaga-yetmaganni-xorijga-olib-chiqish",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Voyaga yetmagan (18 yoshgacha) fuqaroning xorijga chiqishi uchun qanday shartlar talab etiladi?",
+      "qisqa_javob": "Voyaga yetmaganning chiqishi uchun ota-onalar yoki vasiylarning notarial tasdiqlangan roziligi talab etiladi (YaIDXP orqali elektron ariza yuborilsa elektron imzo bilan). Hamrohlik qiluvchi shaxsning notarial tasdiqlangan majburiyati kerak, ota-ona yoki vasiy hamrohlik qilsa bundan mustasno; 15–18 yoshdagilar ota-onalarning notarial roziligi bilan mustaqil chiqishi mumkin.",
+      "muammolar": [
+        "Bolani chet elga olib chiqish uchun qanday ruxsat kerak?",
+        "O'smir yolg'iz xorijga chiqa oladimi?",
+        "Farzandni xorijga olib ketishda notarial rozilik shartmi?"
+      ],
+      "url": "https://advice.uz/oz/document/1731",
+      "huquqiy_asos": "Prezidentning 16.08.2017-yildagi PF-5156-son Farmoni; 26.12.2018-yildagi PQ-4079-son qarori",
+      "qoshimcha": "",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ayollar-54-yosh-imtiyozli-pensiya",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Ayollar qachon 54 yoshdan imtiyozli pensiyaga chiqishlari mumkin?",
+      "qisqa_javob": "Buning uchun «Fuqarolarning davlat pensiya ta'minoti to'g'risida»gi Qonunning 37-moddasida ko'rsatilgan faoliyat turlari (ijtimoiy sug'urtalangan ish, harbiy va IIV xizmati, harbiylashtirilgan qo'riqlash, yakka mehnat yoki dehqon xo'jaligi) bo'yicha to'liq 20 yil ish staji talab etiladi. Bolalarni parvarishlash (dekret) davrlari bu stajga kirmaydi — haqiqiy staj 20 yildan kam bo'lsa, pensiya 55 yoshdan tayinlanadi.",
+      "muammolar": [
+        "54 yoshda pensiyaga chiqish uchun qancha staj kerak?",
+        "Ayollarga imtiyozli pensiya qanday beriladi?",
+        "Dekret davri pensiya stajiga kiradimi?"
+      ],
+      "url": "https://advice.uz/oz/document/3241",
+      "huquqiy_asos": "«Fuqarolarning davlat pensiya ta'minoti to'g'risida»gi Qonun, 37-modda",
+      "qoshimcha": "",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "pensiya-kechiksa-kimga-murojaat",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Pensiya o'z vaqtida tushmasa, kimga murojaat qilish kerak?",
+      "qisqa_javob": "Bank kartasiga pensiya har oyning 5-sanasigacha, naqd pul oluvchilarga esa 4–27-sanalarda yetkaziladi. Pensiya kechiksa Pensiya jamg'armasining 1271 ishonch telefoni, @pensiyauzbot Telegram-boti, pensiyauzb ijtimoiy tarmoq sahifalari yoki pfru.uz sayti orqali murojaat qilinadi — murojaatlar shu zahoti ko'rib chiqiladi.",
+      "muammolar": [
+        "Pensiyam kartaga tushmadi, qayerga qo'ng'iroq qilay?",
+        "Pensiya kechikayapti, kim javob beradi?",
+        "Pensiya to'lovi ushlanib qolsa nima qilish kerak?"
+      ],
+      "url": "https://advice.uz/oz/document/3364",
+      "huquqiy_asos": "ko'rsatilmagan",
+      "qoshimcha": "Ishonch raqami: 1271; Telegram: @pensiyauzbot",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "bola-puli-olish-tartibi",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Bola puli (bolalar nafaqasi) kimlarga beriladi va qanday rasmiylashtiriladi?",
+      "qisqa_javob": "Nafaqa 3–18 yoshdagi bolasi bor kam ta'minlangan oilalarga eng kichik farzand 18 yoshga to'lguncha to'lanadi; joriy miqdorlar: 3–18 yoshdagi bitta bolaga 275 000 so'm, 3 yoshgacha bolaga 360 000 so'm, ikkinchi bolaga qo'shimcha 165 000 so'm, keyingilariga 110 000 so'mdan, moddiy yordam esa 420 000 so'm. Ariza kerakli hujjatlar bilan nafaqa oyidan oldingi oyning 16-sanasigacha fuqarolarning o'zini o'zi boshqarish organiga (mahallaga) topshiriladi.",
+      "muammolar": [
+        "Bola pulini qanday rasmiylashtirsam bo'ladi?",
+        "Bolalar nafaqasi miqdori qancha?",
+        "Kam ta'minlangan oilaga qanday yordam beriladi?"
+      ],
+      "url": "https://advice.uz/oz/document/3362",
+      "huquqiy_asos": "Vazirlar Mahkamasining 05.03.2021-yildagi 122-son va 21.10.2021-yildagi 654-son qarorlari",
+      "qoshimcha": "Egizaklar bo'lsa biri kichik bola, keyingilari ikkinchi/uchinchi/to'rtinchi bola hisoblanadi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ishsizlik-nafaqasi-olish-shartlari",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Ishsizlik nafaqasini kimlar va qancha muddatga oladi?",
+      "qisqa_javob": "20.10.2020-yildagi O'RQ-642-son Qonunga asosan belgilangan tartibda ishsiz deb e'tirof etilgan shaxslar ishsizlik nafaqasi olish huquqiga ega. Nafaqa mahalliy bandlik organida ro'yxatga olingan birinchi kundan hisoblanadi, 12 oylik davr ichida ko'pi bilan 26 kalendar hafta davomida to'lanadi va soliqqa tortilmaydi; ariza davlat xizmatlari portali orqali onlayn topshiriladi.",
+      "muammolar": [
+        "Ishsiz qoldim, nafaqa qanday olinadi?",
+        "Ishsizlik nafaqasi necha oy to'lanadi?",
+        "Bandlik markazida ro'yxatdan o'tsam nima beriladi?"
+      ],
+      "url": "https://advice.uz/oz/document/3361",
+      "huquqiy_asos": "O'zbekiston Respublikasining 20.10.2020-yildagi O'RQ-642-son Qonuni",
+      "qoshimcha": "Nafaqa soliqqa tortilmaydi",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ortiqcha-tolangan-soliqni-qaytarish",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Ortiqcha to'langan soliqni qanday qaytarib olish mumkin?",
+      "qisqa_javob": "Soliq kodeksiga ko'ra ortiqcha summa avval soliq qarzi, so'ng boshqa soliqlar, penya va jarimalarni qoplashga hisobga olinadi; hisobga olish to'g'risidagi qaror 10 kun ichida qabul qilinadi. Boshqa soliqlardan qarzi bo'lmagan soliq to'lovchiga ortiqcha summa ariza olingan kundan 15 kun ichida foizlari bilan qaytariladi; ariza soliq organiga yoki my.soliq.uz portali orqali beriladi, qaytarishni talab qilish muddati — 5 yil.",
+      "muammolar": [
+        "Soliqni ko'p to'lab yuboribman, pulni qaytarib olsam bo'ladimi?",
+        "Ortiqcha soliq summasi qanday hisobga olinadi?",
+        "Soliq qaytarish uchun qayerga ariza beriladi?"
+      ],
+      "url": "https://advice.uz/oz/document/4166",
+      "huquqiy_asos": "O'zbekiston Respublikasi Soliq kodeksi",
+      "qoshimcha": "Elektron ariza: my.soliq.uz",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ijara-daromadi-soliqqa-tortilishi",
+      "soha": "Savol-javob (advice.uz)",
+      "savol": "Uy-joyni ijaraga berishdan olingan daromad qanday soliqqa tortiladi?",
+      "qisqa_javob": "Soliq kodeksiga ko'ra ijara daromadi olina boshlagan birinchi oy tugagach 5 kun ichida dastlabki deklaratsiya topshiriladi; ijara shartnomasi soliq organida hisobga qo'yilgan bo'lsa, dastlabki deklaratsiya talab etilmaydi. Soliq har oyning 15-sanasigacha to'lab boriladi, yillik jami daromad deklaratsiyasi 1-fevralgacha topshiriladi va yakuniy hisob-kitob keyingi yilning 1-iyunigacha amalga oshiriladi.",
+      "muammolar": [
+        "Kvartirani ijaraga bersam soliq to'lashim kerakmi?",
+        "Ijara shartnomasini soliqqa qanday ro'yxatdan o'tkazaman?",
+        "Ijara daromadi deklaratsiyasi qachon topshiriladi?"
+      ],
+      "url": "https://advice.uz/oz/document/1338",
+      "huquqiy_asos": "O'zbekiston Respublikasi Soliq kodeksi",
+      "qoshimcha": "Shartnoma soliq organida ro'yxatga olinsa dastlabki deklaratsiya shart emas",
+      "manba": "advice.uz",
+      "sahifa_ochildi": true
+    }
+  ]
+}

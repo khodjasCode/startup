@@ -3,7 +3,7 @@
 
 import json
 
-from bot.config import BILIM_BAZASI_YOLI, MY_GOV_YOLI, PM_GOV_YOLI, LEX_YOLI
+from bot.config import BILIM_BAZASI_YOLI, MY_GOV_YOLI, PM_GOV_YOLI, LEX_YOLI, SAVOL_JAVOB_YOLI
 from bot.rag import embed, collection
 
 # Portal bazalari bir xil sxemada (xizmatlar ro'yxati): fayl yo'li va id-prefiks.
@@ -12,6 +12,7 @@ PORTAL_BAZALARI = [
     (MY_GOV_YOLI, "mygov-", "my-gov"),
     (PM_GOV_YOLI, "pmgov-", "pm-gov"),
     (LEX_YOLI, "lex-", "lex"),
+    (SAVOL_JAVOB_YOLI, "advice-", "savol-javob"),
 ]
 
 
@@ -45,9 +46,10 @@ def bazani_yuklash():
 
         xizmatlar = baza["xizmatlar"]
         for x in xizmatlar:
-            qidiruv_matni = (
-                x["xizmat_nomi"] + " " + " ".join(x["muammolar"]) + " " + x["tavsif"]
-            )
+            # ikki tur yozuv: xizmat (xizmat_nomi+tavsif) yoki savol-javob (savol+qisqa_javob)
+            nomi = x.get("xizmat_nomi") or x.get("savol", "")
+            tavsifi = x.get("tavsif") or x.get("qisqa_javob", "")
+            qidiruv_matni = nomi + " " + " ".join(x["muammolar"]) + " " + tavsifi
             emb = embed(qidiruv_matni)
             collection.upsert(
                 ids=[prefiks + x["id"]],
