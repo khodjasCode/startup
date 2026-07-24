@@ -1,14 +1,17 @@
 YO'NALTIRUVCHI BOT — LOYIHA HOLATI
-Yangilangan sana: 2026-07-24
+Yangilangan sana: 2026-07-24 (kechqurun)
 
 ===========================================================
 1. UMUMIY HOLAT
 ===========================================================
 RAG yadro, Telegram-bot va web-interfeys ishlab chiqilgan, QA sinovlaridan
-o'tgan. ikrombek va Umar vetkalari main'ga birlashtirildi — endi main'da
-loyihaning to'liq holati jamlangan: suhbat tarixi bilan ishlaydigan bot,
-web-chat (sayt + widget), QA-paket va zaxira kalit/model mexanizmi.
-Qoldi: botni Telegram orqali jonli sinash va bilim bazasini kengaytirish.
+o'tgan. ikrombek va Umar vetkalari main'ga birlashtirildi. Bilim bazasi
+sezilarli kengaytirildi: data/my-gov.json — my.gov.uz portalining 69 ta
+xizmati bo'yicha batafsil yo'riqnomalar bazasi (aniq URL, qadam-baqadam
+ko'rsatma, narx, muddat, aloqa telefonlari) yaratildi va RAG'ga ulandi.
+Ikkala baza birga indekslanadi (jami 79 yozuv), QA qayta o'tkazildi.
+Qoldi: botni Telegram orqali jonli sinash va eski bazadagi yozuvlarni
+rasmiy manbadan tasdiqlash.
 
 ===========================================================
 2. LOYIHA TUZILISHI
@@ -21,10 +24,12 @@ bot/
                     kalit-rotatsiya (asosiy + zaxira kalit) va zaxira model
                     fallback; barcha limitlar tugasa TokenlarTugadi
   prompt.py       — SYSTEM_PROMPT (gallyutsinatsiyaga qarshi qat'iy qoidalar,
-                    aniqlashtiruvchi savollar, hudud bo'yicha shaxsiylashtirish)
+                    aniqlashtiruvchi savollar, hudud bo'yicha shaxsiylashtirish,
+                    9-qoida: my.gov.uz xizmatlarida URL/qadamlar/narxni aniq berish)
   config.py       — .env avtomatik yuklanadi; BOT_TOKEN, GEMINI_API_KEY,
                     GEMINI_API_KEY_ZAXIRA (ixtiyoriy), model nomlari, yo'llar
-  index_qurish.py — bilim_bazasi.json -> ChromaDB indekslash skripti
+  index_qurish.py — bilim_bazasi.json + my-gov.json -> ChromaDB indekslash
+                    (my-gov yozuvlari "mygov-" prefiksi bilan saqlanadi)
 web/
   main.py         — FastAPI: POST /api/savol (session bo'yicha suhbat tarixi),
                     ishga tushirish: uvicorn web.main:app --reload
@@ -36,7 +41,13 @@ qa/
   foydalanuvchi_testi.md — real foydalanuvchi sinovi rejasi
   demo_ssenariy.md       — demo ssenariy va slaydlar rejasi
 data/
-  bilim_bazasi.json — 10 ta yozuv, hammasi "tekshirilgan": false
+  bilim_bazasi.json — 10 ta yozuv (muammo → idora), hammasi "tekshirilgan": false
+  my-gov.json       — my.gov.uz bo'yicha 69 ta xizmat: aniq URL, bola tushunadigan
+                      qadam-baqadam yo'riqnoma (OneID kirish → xizmatni topish →
+                      forma → to'lov → natija), narx (BHM), muddat, aloqa telefoni,
+                      kimlar uchun, qo'shimcha ma'lumotlar. 2026-07-24 da portal
+                      sahifalaridan yig'ilgan; 4 ta yozuvda sahifa_ochildi=false
+                      (portal o'sha kuni 500 xato bergan)
 instructions/
   BOT.md, WEB.md  — sheriklar uchun o'rnatish/ishga tushirish yo'riqnomalari
 docs/
@@ -60,6 +71,17 @@ vektor_baza/      — ChromaDB lokal papka (index_qurish ishga tushgach yaratila
     to'qib chiqarmaydi, bazada yo'q bo'lsa my.gov.uz/pm.gov.uz ga yo'naltiradi
 [x] QA o'tkazildi (qa/hisobot_2026-07-17.md): qidiruv aniqligi Top-1 30/30,
     Top-3 30/30 (maqsad >=80% — bajarildi)
+[x] data/my-gov.json yaratildi: my.gov.uz portalining 16 sohasi o'rganilib,
+    69 ta fuqarolarga eng kerakli xizmat bo'yicha to'liq baza yig'ildi
+    (har birida: rasmiy nom, URL, 7 bosqichli batafsil yo'riqnoma, narx,
+    muddat, aloqa telefoni). Portal bo'limi: OneID kirish tartibi, 1242
+    call-markaz, sohalar xaritasi
+[x] my-gov.json RAG'ga ulandi: index_qurish ikkala bazani indekslaydi,
+    SYSTEM_PROMPT'ga 9-qoida qo'shildi (portal xizmatlarida aniq URL,
+    qadamlar va narxni berish)
+[x] Baza qayta indekslandi (10 + 69 = 79 yozuv) va QA qayta o'tkazildi
+    (qa/hisobot_2026-07-24.md): Top-1 26/30 (87%), Top-3 30/30 (100%),
+    10/10 tuzoq savol muvaffaqiyatli — maqsad >=80% bajarildi
 
 ===========================================================
 4. QOLGAN ISH (KEYINGI QADAM)
@@ -68,27 +90,36 @@ vektor_baza/      — ChromaDB lokal papka (index_qurish ishga tushgach yaratila
     real foydalanuvchilar bilan sinash (qa/foydalanuvchi_testi.md rejasi bo'yicha)
 [ ] Kategoriya tugmalari va 👍/👎 feedback tugmalari (eski mock botda bor edi)
     bot/main.py ga hali ko'chirilmagan
-[ ] Bilim bazasini kengaytirish: hozir 10 yozuv, maqsad (ISH_REJA) — kamida
-    40 ta rasmiy manbadan tasdiqlangan yozuv
+[ ] Eski bazadagi (bilim_bazasi.json) 10 yozuvni rasmiy manbadan tasdiqlash;
+    my-gov.json'dagi sahifa_ochildi=false bo'lgan 4 yozuvni portal tuzalgach
+    qayta tekshirish (486, 348, 232, 482-xizmatlar 500 xato bergan)
 [ ] .env.example ga GEMINI_API_KEY_ZAXIRA qatorini qo'shish (ixtiyoriy kalit)
 [ ] Deploy: bot va web'ni serverda doimiy ishlatish masalasi hal qilinmagan
 
 ===========================================================
 5. XAVFSIZLIK ESLATMASI
 ===========================================================
-Avvalgi ish sessiyasida haqiqiy GEMINI_API_KEY chatga ochiq matnda yuborilgan
-edi. Agar hali qilinmagan bo'lsa, kalitni Google AI Studio'da ROTATSIYA qilish
-(bekor qilib, yangisini olish) tavsiya etiladi.
+Ish sessiyalarida haqiqiy GEMINI_API_KEY kalitlari (asosiy va zaxira)
+chatga ochiq matnda yuborilgan. Ishlar yakunlangach ikkala kalitni ham
+Google AI Studio'da ROTATSIYA qilish (bekor qilib, yangisini olish)
+tavsiya etiladi. Kalitlar .env faylda saqlanadi (.gitignore'da).
 
 ===========================================================
 6. BILIM BAZASI VA SIFAT HOLATI
 ===========================================================
-Bazada 10 ta yozuv, kategoriyalar: Kommunal, Mehnat, Ijtimoiy himoya,
-Yer-mulk, Tadbirkorlik, Iste'molchi. Barchasi "tekshirilgan": false —
-MVP bosqichida index_qurish.py ularni baribir yuklaydi, lekin ishlab
-chiqarishdan oldin har bir yozuv rasmiy manbadan tasdiqlanishi kerak.
+Ikki baza birga ishlaydi (jami 79 yozuv):
+- bilim_bazasi.json: 10 ta muammo→idora yozuvi (Kommunal, Mehnat, Ijtimoiy
+  himoya, Yer-mulk, Tadbirkorlik, Iste'molchi). Barchasi "tekshirilgan":
+  false — ishlab chiqarishdan oldin rasmiy manbadan tasdiqlanishi kerak.
+- my-gov.json: 69 ta my.gov.uz xizmati, 16 soha (Kommunal 16, Ma'lumotnomalar 8,
+  Ijtimoiy himoya 5, Pensiya 5, Transport 4, Subsidiya 4, Sog'liqni saqlash 4,
+  Oila va bolalar 4 va h.k.). Ma'lumotlar portal sahifalaridan yig'ilgan,
+  narxlar BHM=412 000 so'm bo'yicha — BHM o'zgarsa yangilash kerak.
 
-Oxirgi QA (2026-07-17): 30 ta qidiruv savolida Top-1 va Top-3 aniqlik 100%
-(oddiy, xato yozilgan va kirill savollar bo'yicha ham). Tuzoq savollarda bot
-javob to'qimaydi — "aniq ma'lumotim yo'q" deb my.gov.uz ga yo'naltiradi.
-Bazaga yangi yozuv qo'shilganda QA'ni qayta o'tkazish: python3 -m qa.baholash
+Oxirgi QA (2026-07-24, qa/hisobot_2026-07-24.md): Top-1 26/30 (87%),
+Top-3 30/30 (100%) — bot javobi top-3 ga tayanadi, shuning uchun asosiy
+ko'rsatkich 100%. Top-1 ning 4 ta "xatosi" — yangi bazadagi yaqin xizmatlar
+(masalan, kadastr savolida turar-joy-kadastr-pasporti birinchi chiqqan) —
+bular ham mazmunan to'g'ri javoblar. 10/10 tuzoq savolda bot to'qimaydi.
+Bazaga yozuv qo'shilganda: python3 -m bot.index_qurish, so'ng
+python3 -m qa.baholash (yoki --javob bilan to'liq).
