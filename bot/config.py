@@ -33,6 +33,8 @@ GEMINI_API_KEY_ZAXIRA = os.environ.get("GEMINI_API_KEY_ZAXIRA")
 
 BILIM_BAZASI_YOLI = LOYIHA_ILDIZI / "data" / "bilim_bazasi.json"
 MY_GOV_YOLI = LOYIHA_ILDIZI / "data" / "my-gov.json"
+PM_GOV_YOLI = LOYIHA_ILDIZI / "data" / "pm-gov.json"
+LEX_YOLI = LOYIHA_ILDIZI / "data" / "lex.json"
 VEKTOR_BAZA_YOLI = LOYIHA_ILDIZI / "vektor_baza"
 
 EMBEDDING_MODEL = "gemini-embedding-001"  # 2026-07-22: tekshirildi, hali mavjud

@@ -1,0 +1,274 @@
+{
+  "$schema_izoh": {
+    "tavsif": "lex.uz — O'zbekiston Respublikasi Qonunchilik ma'lumotlari milliy bazasi bo'yicha bilim bazasi. Fuqaro qonun/kodeks/farmon matnini so'raganda bot shu baza orqali hujjatni lex.uz da topish va o'qishning to'liq yo'riqnomasini beradi.",
+    "MUHIM": "Ma'lumotlar 2026-07-24 kuni lex.uz ochiq sahifalaridan yig'ilgan. Sayt bepul va ro'yxatdan o'tishsiz ishlaydi; interfeys elementlari nomlari vaqt o'tishi bilan o'zgarishi mumkin.",
+    "maydonlar": {
+      "id": "unikal identifikator (lotin, defis bilan)",
+      "soha": "bo'lim nomi",
+      "xizmat_nomi": "rasmiy xizmat/bo'lim nomi",
+      "url": "to'g'ridan-to'g'ri manzil",
+      "tavsif": "qisqacha tavsif",
+      "muammolar": "fuqaro tilidagi iboralar (embedding/qidiruv uchun)",
+      "qadamlar": "batafsil, qadam-baqadam yo'riqnoma",
+      "kerakli_hujjatlar": "ro'yxat",
+      "muddat": "muddat",
+      "narx": "narx",
+      "aloqa": "aloqa telefonlari",
+      "kimlar_uchun": "kimlar foydalanadi",
+      "korsatuvchi_idora": "mas'ul idora",
+      "qoshimcha": "qo'shimcha ma'lumotlar",
+      "sahifa_ochildi": "true — ma'lumot sahifadan olingan"
+    }
+  },
+  "yigilgan_sana": "2026-07-24",
+  "portal": {
+    "nomi": "Qonunchilik ma'lumotlari milliy bazasi (Lex.uz)",
+    "url": "https://lex.uz/uz/",
+    "qidiruv": "https://lex.uz/uz/search",
+    "aloqa": "Rasmiy Telegram: t.me/lexuzofficial; huquqiy axborot: t.me/huquqiyaxborot",
+    "kirish_tartibi": [
+      "lex.uz saytini oching — hujjatlarni o'qish uchun ro'yxatdan o'tish shart emas, hammasi bepul",
+      "Bosh sahifadagi qidiruv paneliga hujjat nomi, raqami yoki matndagi so'zni yozing",
+      "«Kengaytirilgan qidiruv» orqali hujjat turi, organ, sana va holat bo'yicha filtrlang",
+      "Hujjat sahifasida «Variantlar» ro'yxatidan amaldagi tahrirni tanlang, til tugmalari bilan lotin/kirill/ruschaga o'ting"
+    ]
+  },
+  "xizmatlar": [
+    {
+      "id": "lex-uz-qonun-hujjatini-qidirish",
+      "soha": "Qonunchilik (lex.uz)",
+      "xizmat_nomi": "Qonun hujjatini nomi, raqami yoki sanasi bo'yicha qidirish (Lex.uz)",
+      "url": "https://lex.uz/uz/",
+      "tavsif": "Lex.uz — O'zbekiston Respublikasi Qonunchilik ma'lumotlari milliy bazasi bo'lib, unda barcha qonunlar, farmonlar, qarorlar va kodekslarning rasmiy matnlari joylashgan. Har qanday hujjatni nomi, raqami, qabul qilingan sanasi yoki matnidagi so'z bo'yicha bepul qidirish mumkin. Ro'yxatdan o'tish talab etilmaydi.",
+      "muammolar": [
+        "qonun matnini qayerdan topaman",
+        "prezident farmonini raqami bo'yicha qidirmoqchiman",
+        "qaysi qonunda yozilganini bilmoqchiman",
+        "vazirlar mahkamasi qarorini o'qimoqchiman",
+        "qonunning rasmiy matni kerak",
+        "hujjat raqamini bilaman, matnini topolmayapman"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni (Chrome, Safari va h.k.) oching va manzil qatoriga https://lex.uz/uz/ deb yozib, Enter tugmasini bosing — sayt o'zbek (lotin) tilida ochiladi.",
+        "Bosh sahifaning o'rtasida katta qidiruv paneli bor. U yerda «Hujjat raqami», «Hujjat nomi» va sana maydonlari joylashgan.",
+        "Agar hujjat NOMINI bilsangiz: «Hujjat nomi» maydoniga nomdan bir-ikki so'z yozing (masalan, «mehnat kodeksi» yoki «ta'lim to'g'risida») — yozayotganingizda sayt o'zi mos hujjatlar ro'yxatini taklif qiladi, keraklisini bosing.",
+        "Agar hujjat RAQAMINI bilsangiz (masalan, PF-60 yoki 149-son): raqamni «Hujjat raqami» maydoniga yozing va qidiruv (Izlash) tugmasini bosing.",
+        "Agar faqat mavzuni bilsangiz: «Matndagi so'z yoki jumla» maydoniga kalit so'zni yozing — sayt matnida shu so'z uchraydigan barcha hujjatlarni chiqaradi.",
+        "Aniqroq qidirish uchun qidiruv paneli ostidagi «Kengaytirilgan qidiruv» havolasini bosing. U yerda «Hujjat turi» (qonun, farmon, qaror, kodeks, nizom), «Organ» (Prezident, Oliy Majlis, Vazirlar Mahkamasi va h.k.), «Qabul qilingan sanasi» va «Hujjat holati» (amalda, kuchini yo'qotgan) bo'yicha filtrlarni tanlash mumkin.",
+        "Qidiruv natijalari ro'yxatida hujjat nomi, raqami va sanasi ko'rinadi — kerakli hujjat nomini bossangiz, to'liq matni ochiladi.",
+        "Natijalar tepasida «Hammasi», «Oliy Majlis», «Mahalliy hokimiyat», «Xalqaro», «Sud amaliyoti» kabi bo'lim yorliqlari bor — kerak bo'lsa shulardan birini tanlab natijani toraytiring.",
+        "Mikrofon belgisi orqali ovozli qidiruvdan ham foydalanish mumkin — belgini bosib, hujjat nomini ayting."
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat": "Darhol (onlayn ko'rish)",
+      "narx": "Bepul",
+      "aloqa": "Rasmiy Telegram: t.me/lexuzofficial; Huquqiy axborot kanali: t.me/huquqiyaxborot; telefon/e-mail saytda ko'rsatilmagan",
+      "kimlar_uchun": "Barcha foydalanuvchilar (ro'yxatdan o'tish shart emas)",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Adliya vazirligi («Adolat» milliy huquqiy axborot markazi, Qonunchilik ma'lumotlari milliy bazasi)",
+      "qoshimcha": "Saytda «Kirish» tugmasi bor, lekin u faqat qo'shimcha imkoniyatlar (tanlanganlar ro'yxati) uchun — hujjatlarni o'qish uchun login kerak emas. Sun'iy intellekt yordamchisi ai.lex.uz manzilida ishlaydi. Qidiruv parametrlari haqida to'liq ma'lumot: https://lex.uz/uz/search",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "lex-uz-kodekslarni-topish-oqish",
+      "soha": "Qonunchilik (lex.uz)",
+      "xizmat_nomi": "Kodekslarni topish va o'qish (Mehnat, Soliq, Oila kodekslari)",
+      "url": "https://lex.uz/uz/docs/6257288",
+      "tavsif": "Lex.uz saytida O'zbekistonning barcha kodekslari (Mehnat, Soliq, Oila, Jinoyat, Fuqarolik va boshqalar) to'liq va rasmiy matnda joylashgan. Har bir kodeks bo'lim va boblarga ajratilgan mundarija bilan ochiladi, ichida so'z bo'yicha izlash mumkin. Hammasi bepul va ro'yxatdan o'tishsiz o'qiladi.",
+      "muammolar": [
+        "mehnat kodeksini o'qimoqchiman",
+        "soliq kodeksi qayerda bor",
+        "oila kodeksining moddasini ko'rmoqchiman",
+        "kodeks ichidan kerakli moddani qanday topaman",
+        "jinoyat kodeksining to'liq matni kerak"
+      ],
+      "qadamlar": [
+        "Brauzerda https://lex.uz/uz/ saytini oching.",
+        "Bosh sahifadagi qidiruv panelida «Hujjat nomi» maydoniga kodeks nomini yozing, masalan: «Mehnat kodeksi», «Soliq kodeksi» yoki «Oila kodeksi» — sayt darhol mos hujjatni taklif qiladi.",
+        "Aniqroq bo'lishi uchun «Kengaytirilgan qidiruv»ni ochib, «Hujjat turi» ro'yxatidan «Kodeks»ni tanlang va qidiruvni bosing — barcha kodekslar ro'yxati chiqadi.",
+        "Kerakli kodeks nomini bosing — masalan, Mehnat kodeksi sahifasi ochiladi (https://lex.uz/uz/docs/6257288).",
+        "Sahifaning chap tomonida «Mundarija» paneli bor: unda UMUMIY QISM, MAXSUS QISM, bo'limlar va boblar ko'rsatilgan. Bob nomini bossangiz, matnning o'sha joyiga o'tasiz.",
+        "Kerakli moddani tez topish uchun mundarija tepasidagi «Izlash» maydoniga modda raqamini yoki kalit so'zni yozing.",
+        "Matn tepasidagi til tugmalari («O'zb», «Ўзб», «Рус») orqali kodeksni lotin, kirill yoki rus tilida o'qishingiz mumkin.",
+        "Hujjat sizga doim ochiq qoladi — hech qanday to'lov yoki ro'yxatdan o'tish so'ralmaydi."
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat": "Darhol (onlayn ko'rish)",
+      "narx": "Bepul",
+      "aloqa": "Rasmiy Telegram: t.me/lexuzofficial; boshqa aloqa ma'lumotlari saytda ko'rsatilmagan",
+      "kimlar_uchun": "Barcha foydalanuvchilar (ro'yxatdan o'tish shart emas)",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Adliya vazirligi («Adolat» milliy huquqiy axborot markazi)",
+      "qoshimcha": "Kodeks sahifasida «LexUZ sharhi» tugmasi bor — uni yoqsangiz, moddalarga berilgan izohlar ko'rinadi. «Tanlanganlarga qo'shish» tugmasi hujjatni xatcho'plarga saqlaydi (buning uchun tizimga kirish kerak bo'lishi mumkin). Konstitutsiya va qonunlar to'plami: https://lex.uz/uz/law_collection",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "lex-uz-amaldagi-tahrirni-aniqlash",
+      "soha": "Qonunchilik (lex.uz)",
+      "xizmat_nomi": "Hujjatning amaldagi (oxirgi) tahririni aniqlash va tahrirlarni solishtirish",
+      "url": "https://lex.uz/uz/docs/6257288",
+      "tavsif": "Qonunlarga tez-tez o'zgartirish kiritiladi, shuning uchun hujjatning aynan amaldagi tahririni o'qish muhim. Lex.uz har bir hujjatning barcha tahrirlarini sanasi bo'yicha saqlaydi va ularni solishtirish imkonini beradi. Hujjat ochilganda odatda hozirgi kunda amalda bo'lgan varianti ko'rsatiladi.",
+      "muammolar": [
+        "mehnat kodeksi oxirgi tahririni o'qimoqchiman",
+        "qonun o'zgarganmi yo'qmi qanday bilaman",
+        "eski tahrir bilan yangisini solishtirmoqchiman",
+        "bu modda hozir amaldami",
+        "qonunning qaysi varianti kuchda"
+      ],
+      "qadamlar": [
+        "Brauzerda https://lex.uz/uz/ saytini oching va qidiruv orqali kerakli hujjatni toping (masalan, «Mehnat kodeksi» deb yozib).",
+        "Hujjat sahifasi ochilgach, matn tepasidagi «Variantlar» degan ochiluvchi ro'yxatni toping — unda hujjatning barcha tahrirlari sanalari bilan ko'rsatilgan (masalan, 01.01.2026, 30.12.2025, 30.04.2023 va h.k.).",
+        "Hozir amalda bo'lgan tahrir ro'yxatda belgilangan (tanlangan) holda turadi — sayt sukut bo'yicha aynan shu variantni ochadi. Bugungi sanaga eng yaqin, lekin undan kechikmagan sana — amaldagi tahrir hisoblanadi.",
+        "Kelajakdagi sanali variantlar (masalan, 12.09.2026) — bu hali kuchga kirmagan, lekin qabul qilingan o'zgarishlar bilan bo'lajak tahrirlar. Eski sanali variantlar — avvalgi tahrirlar.",
+        "Eski tahrirni ko'rish uchun «Variantlar» ro'yxatidan kerakli sanani tanlang — matn o'sha sanadagi holatda ochiladi.",
+        "Ikki tahrirni taqqoslash uchun «Variantlarni solishtirish» tugmasini bosing va ikkita sanani tanlang — sayt o'zgargan joylarni ko'rsatib beradi.",
+        "Hujjat pastida yoki ma'lumot qismida qabul qilingan sana, kuchga kirish sanasi va o'zgartirish kiritgan hujjatlar ro'yxati keltiriladi — qaysi qonun bilan o'zgartirilganini shu yerdan bilib olasiz."
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat": "Darhol (onlayn ko'rish)",
+      "narx": "Bepul",
+      "aloqa": "Rasmiy Telegram: t.me/lexuzofficial; boshqa aloqa ma'lumotlari saytda ko'rsatilmagan",
+      "kimlar_uchun": "Barcha foydalanuvchilar (ro'yxatdan o'tish shart emas)",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Adliya vazirligi («Adolat» milliy huquqiy axborot markazi)",
+      "qoshimcha": "Kengaytirilgan qidiruvda «Hujjat holati» filtri bor: «Amalda», «Kuchini yo'qotgan» va «Kuchga kirmagan» — kuchini yo'qotgan hujjatni amaldagi deb o'ylab qolmaslik uchun shu holatga e'tibor bering.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "lex-uz-yangi-hujjatlarni-kuzatish",
+      "soha": "Qonunchilik (lex.uz)",
+      "xizmat_nomi": "Yangi qabul qilingan rasmiy hujjatlarni kuzatish (Bugun / Haftalik / Oylik)",
+      "url": "https://lex.uz/uz/search/official?lang=4&pub_date=today",
+      "tavsif": "Lex.uz saytida yangi e'lon qilingan rasmiy hujjatlarni kunlik, haftalik va oylik kesimda ko'rish mumkin. «Rasmiy hujjatlar» bo'limi qonun hujjatlarining rasmiy e'lon qilinish manbai hisoblanadi. Yangi farmon yoki qaror chiqqanini shu yerdan tekshirish mumkin.",
+      "muammolar": [
+        "yangi qaror chiqdimi",
+        "bugun qanday farmonlar e'lon qilindi",
+        "yangi qonunlarni qayerdan kuzataman",
+        "shu hafta qabul qilingan hujjatlar ro'yxati kerak",
+        "yangiliklardan xabardor bo'lib turmoqchiman"
+      ],
+      "qadamlar": [
+        "Brauzerda https://lex.uz/uz/ saytini oching.",
+        "Yuqoridagi menyudan «Rasmiy hujjatlar» bo'limini bosing — ochilgan ro'yxatda to'rtta bo'lim bor: «Bugun», «Haftalik», «Oylik» va «Kalendar».",
+        "Bugun e'lon qilingan hujjatlarni ko'rish uchun «Bugun»ni tanlang (to'g'ridan-to'g'ri manzil: https://lex.uz/uz/search/official?lang=4&pub_date=today).",
+        "So'nggi hafta yoki oy hujjatlari uchun «Haftalik» (pub_date=week) yoki «Oylik» (pub_date=month) bo'limini oching.",
+        "Muayyan sanada e'lon qilingan hujjatlarni ko'rish uchun «Kalendar» bo'limini (https://lex.uz/uz/search/calendar) oching va kalendardan kerakli kunni bosing.",
+        "Ro'yxatda har bir hujjatning nomi, raqami, qabul qilingan sanasi va qabul qilgan organi ko'rsatiladi — hujjat nomini bossangiz to'liq matni ochiladi.",
+        "Yorliqlar («Hammasi», «Oliy Majlis», «Mahalliy hokimiyat», «Xalqaro» va h.k.) orqali faqat kerakli organ hujjatlarini ko'rishingiz mumkin.",
+        "Telefonda tezkor xabar olish uchun Telegramdagi rasmiy kanallarga obuna bo'ling: t.me/lexuzofficial va t.me/huquqiyaxborot — yangi hujjatlar haqida e'lonlar shu kanallarda chiqadi."
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat": "Darhol (onlayn ko'rish)",
+      "narx": "Bepul",
+      "aloqa": "Rasmiy Telegram: t.me/lexuzofficial; Huquqiy axborot kanali: t.me/huquqiyaxborot",
+      "kimlar_uchun": "Barcha foydalanuvchilar (ro'yxatdan o'tish shart emas)",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Adliya vazirligi («Adolat» milliy huquqiy axborot markazi)",
+      "qoshimcha": "Ba'zi hujjatlar avval kirill yoki rus tilida e'lon qilinib, lotin tilidagi tarjimasi keyinroq qo'shilishi mumkin — hujjat topilmasa, til tugmasi orqali boshqa tildagi versiyani tekshiring.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "lex-uz-hujjatni-yuklab-olish-chop-etish",
+      "soha": "Qonunchilik (lex.uz)",
+      "xizmat_nomi": "Hujjatni yuklab olish (PDF, Word) va chop etish",
+      "url": "https://lex.uz/uz/docs/6257288",
+      "tavsif": "Lex.uz saytidagi har qanday hujjatni PDF yoki MS Word formatida bepul yuklab olish hamda to'g'ridan-to'g'ri chop etish mumkin. Bu ariza yoki shikoyatga qonun matnini ilova qilish, oflayn o'qish yoki bosma nusxa olish uchun qulay.",
+      "muammolar": [
+        "qonunni pdf qilib yuklab olmoqchiman",
+        "hujjatni printerda chiqarish kerak",
+        "kodeksni telefonimga saqlab olsam bo'ladimi",
+        "word formatida qonun matni kerak",
+        "internetsiz o'qish uchun saqlamoqchiman"
+      ],
+      "qadamlar": [
+        "Brauzerda https://lex.uz/uz/ saytini oching va qidiruv orqali kerakli hujjatni toping, nomini bosib hujjat sahifasini oching.",
+        "Yuklab olishdan oldin til tugmalari («O'zb», «Ўзб», «Рус») orqali kerakli tildagi versiyani va «Variantlar» ro'yxatidan kerakli tahrirni tanlang — fayl aynan ekranda ochiq turgan variantda saqlanadi.",
+        "PDF olish uchun hujjat sahifasidagi «PDF formatida yuklab olish» tugmasini bosing — fayl telefoningiz yoki kompyuteringizga yuklanadi.",
+        "Word fayli kerak bo'lsa «MS Word ga saqlash» tugmasini bosing — hujjat .doc formatida yuklanadi va uni tahrirlash mumkin.",
+        "Chop etish uchun «Chop etish» tugmasini bosing — brauzerning chop etish oynasi ochiladi, printerni tanlab «Print» tugmasini bosing.",
+        "Telefonda yuklangan fayl «Downloads» (Yuklanmalar) papkasida saqlanadi — uni internetsiz ham ochib o'qish mumkin.",
+        "Diqqat: yuklab olingan fayl o'sha kundagi tahrir bo'ladi; qonun keyinchalik o'zgarishi mumkin, shuning uchun muhim ishlarda saytdagi amaldagi tahrirni qayta tekshiring."
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat": "Darhol (onlayn ko'rish)",
+      "narx": "Bepul",
+      "aloqa": "Rasmiy Telegram: t.me/lexuzofficial; boshqa aloqa ma'lumotlari saytda ko'rsatilmagan",
+      "kimlar_uchun": "Barcha foydalanuvchilar (ro'yxatdan o'tish shart emas)",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Adliya vazirligi («Adolat» milliy huquqiy axborot markazi)",
+      "qoshimcha": "«Tizim haqida» bo'limida (https://lex.uz/uz/lexuz) bazaning oflayn versiyasi haqida ham ma'lumot bor. Saytda ko'rish rejimlari (oq, kulrang, qora fon) mavjud — «Ko'rinish» tugmasi orqali ko'zga qulay rejimni tanlash mumkin.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "lex-uz-til-versiyalari-tarjima",
+      "soha": "Qonunchilik (lex.uz)",
+      "xizmat_nomi": "Hujjatlarni turli tillarda o'qish (lotin, kirill, rus) va ikki tilli ko'rinish",
+      "url": "https://lex.uz/uz/",
+      "tavsif": "Lex.uz sayti va undagi hujjatlar o'zbek (lotin va kirill), rus, ayrim bo'limlar ingliz tilida mavjud. Hujjat sahifasida bir tugma bilan tilni almashtirish, hatto ikki tilni yonma-yon ko'rish mumkin. Bu rus tilidagi matnni asl matn bilan solishtirishda juda qulay.",
+      "muammolar": [
+        "qonunni rus tilida o'qimoqchiman",
+        "kirillda yozilgan, lotinchasi bormi",
+        "hujjatning ruscha va o'zbekcha matnini solishtirmoqchiman",
+        "saytni o'zbek tiliga o'tkazish",
+        "qonunning inglizcha tarjimasi bormi"
+      ],
+      "qadamlar": [
+        "Brauzerda https://lex.uz/uz/ saytini oching.",
+        "Sayt tilini almashtirish uchun yuqori burchakdagi «O'ZB» tugmasini bosing — ro'yxatdan «ЎЗБ» (kirill), «РУС» (ruscha), «ENG» (inglizcha) yoki «O'ZB» (lotin)ni tanlang; sahifa tanlangan tilda qayta ochiladi.",
+        "Qidiruv orqali kerakli hujjatni toping va oching.",
+        "Hujjat sahifasining tepasida shu hujjat uchun alohida til tugmalari bor: «O'zb» (lotin), «Ўзб» (kirill), «Рус» (ruscha) — bosganingizda hujjat matni o'sha tilga o'tadi.",
+        "Ikki tilni yonma-yon ko'rish uchun «Ўзб|Рус» tugmasini bosing — ekran ikkiga bo'linib, o'zbekcha va ruscha matn parallel ko'rsatiladi.",
+        "E'tibor bering: hujjatning rasmiy (yuridik kuchga ega) matni — qabul qilingan asl tilidagi matn; tarjima faqat tanishish uchun bo'lishi mumkin.",
+        "Agar hujjatning kerakli tildagi versiyasi bo'lmasa, saytdagi onlayn tarjimon vositasidan foydalaning yoki boshqa tildagi versiyani oching."
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat": "Darhol (onlayn ko'rish)",
+      "narx": "Bepul",
+      "aloqa": "Rasmiy Telegram: t.me/lexuzofficial; boshqa aloqa ma'lumotlari saytda ko'rsatilmagan",
+      "kimlar_uchun": "Barcha foydalanuvchilar (ro'yxatdan o'tish shart emas)",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Adliya vazirligi («Adolat» milliy huquqiy axborot markazi)",
+      "qoshimcha": "Kengaytirilgan qidiruvda «Hujjat tili» bo'yicha filtr ham bor — faqat ma'lum tildagi hujjatlarni qidirish mumkin. Inglizcha versiya asosan sayt interfeysi va ayrim tarjima qilingan hujjatlarni qamrab oladi.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "lex-uz-malumotnomalar-yordamchi-xizmatlar",
+      "soha": "Qonunchilik (lex.uz)",
+      "xizmat_nomi": "Ma'lumotnomalar va yordamchi xizmatlar (klassifikator, BHM kalkulyatori, huquqiy tushuntirishlar)",
+      "url": "https://lex.uz/uz/catalog",
+      "tavsif": "Lex.uz saytida qonun matnlaridan tashqari foydali ma'lumotnomalar ham bor: qonunchilik tarmoqlari klassifikatori, BHM (bazaviy hisoblash miqdori) kalkulyatori, huquqiy tushuntirishlar va foydalanuvchi qo'llanmalari. Bularning barchasi bepul va ro'yxatdan o'tishsiz ochiladi.",
+      "muammolar": [
+        "bhm miqdorini qanday hisoblayman",
+        "soha bo'yicha qonunlarni jamlangan holda ko'rmoqchiman",
+        "qonunni tushunmadim, tushuntirish bormi",
+        "saytdan foydalanishni o'rganmoqchiman",
+        "davlat ramzlari haqida rasmiy ma'lumot kerak"
+      ],
+      "qadamlar": [
+        "Brauzerda https://lex.uz/uz/ saytini oching.",
+        "Yuqori menyudan «Ma'lumotnomalar» bo'limini bosing — ochilgan ro'yxatda bir nechta xizmat bor.",
+        "Soha bo'yicha qonunlarni ko'rish uchun «Qonunchilik tarmoqlari umumhuquqiy klassifikatori»ni tanlang (https://lex.uz/uz/klassifkator) — sohani (masalan, mehnat, soliq, oila) bosib, unga tegishli hujjatlar ro'yxatini oching.",
+        "Jarima yoki to'lovlarni hisoblash uchun «BHM Kalkulyatori»ni oching (https://lex.uz/uz/bhm) — BHM sonini kiriting, kalkulyator so'mdagi miqdorni chiqaradi.",
+        "Qonunlarga berilgan rasmiy izohlar uchun yuqori menyudagi «Huquqiy tushuntirishlar» bo'limini oching (https://lex.uz/uz/explanation).",
+        "Saytdan foydalanishni o'rganish uchun «Tizim haqida» bo'limidagi (https://lex.uz/uz/lexuz) «Foydalanuvchi uchun qo'llanma»ni oching — u yerda qidiruv va boshqa imkoniyatlar tushuntirilgan.",
+        "Davlat ramzlari (bayroq, gerb, madhiya) rasmiy matnlari «O'zbekiston Respublikasining Davlat ramzlari» bo'limida (https://lex.uz/uz/symbols), yuridik atamalar lug'ati esa https://lex.uz/uz/dictionary sahifasida joylashgan."
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat": "Darhol (onlayn ko'rish)",
+      "narx": "Bepul",
+      "aloqa": "Rasmiy Telegram: t.me/lexuzofficial; Huquqiy axborot kanali: t.me/huquqiyaxborot; telefon/e-mail saytda ko'rsatilmagan",
+      "kimlar_uchun": "Barcha foydalanuvchilar (ro'yxatdan o'tish shart emas)",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Adliya vazirligi («Adolat» milliy huquqiy axborot markazi)",
+      "qoshimcha": "Saytda sun'iy intellekt yordamchisi ai.lex.uz ham ishlaydi — savolni oddiy tilda yozib, tegishli qonun hujjatlariga havola olish mumkin. «Nashrlar» bo'limida (https://lex.uz/uz/publication) qonunlar to'plamlari va xalqaro shartnomalar jamlangan.",
+      "sahifa_ochildi": true
+    }
+  ]
+}

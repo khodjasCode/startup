@@ -48,6 +48,15 @@ data/
                       kimlar uchun, qo'shimcha ma'lumotlar. 2026-07-24 da portal
                       sahifalaridan yig'ilgan; 4 ta yozuvda sahifa_ochildi=false
                       (portal o'sha kuni 500 xato bergan)
+  pm-gov.json       — Prezident virtual qabulxonasi (pm.gov.uz): 7 yozuv —
+                      onlayn murojaat yuborish (ariza/shikoyat/taklif), holatni
+                      tekshirish, 1000 call-markaz, Xalq qabulxonasiga borish,
+                      ko'rib chiqish muddatlari (15 kun / 1 oy), idoralar
+                      ma'lumotnomasi, mobil ilova. Bazada javob topilmaganda
+                      fallback yo'riqnoma sifatida ishlatiladi
+  lex.json          — Qonunchilik bazasi (lex.uz): 7 yozuv — qonun/kodeks
+                      qidirish, amaldagi tahrirni aniqlash, yangi hujjatlarni
+                      kuzatish, yuklab olish, til versiyalari, BHM kalkulyatori
 instructions/
   BOT.md, WEB.md  — sheriklar uchun o'rnatish/ishga tushirish yo'riqnomalari
 docs/
@@ -82,6 +91,11 @@ vektor_baza/      — ChromaDB lokal papka (index_qurish ishga tushgach yaratila
 [x] Baza qayta indekslandi (10 + 69 = 79 yozuv) va QA qayta o'tkazildi
     (qa/hisobot_2026-07-24.md): Top-1 26/30 (87%), Top-3 30/30 (100%),
     10/10 tuzoq savol muvaffaqiyatli — maqsad >=80% bajarildi
+[x] data/pm-gov.json (Prezident virtual qabulxonasi, 7 yozuv) va
+    data/lex.json (lex.uz qonunchilik bazasi, 7 yozuv) yaratildi va RAG'ga
+    ulandi — index_qurish endi barcha data/ bazalarini umumiy tarzda
+    indekslaydi (pmgov-/lex- prefikslari bilan). Jami indeks: 93 yozuv,
+    sinov qidiruvlari 5/5 to'g'ri
 
 ===========================================================
 4. QOLGAN ISH (KEYINGI QADAM)

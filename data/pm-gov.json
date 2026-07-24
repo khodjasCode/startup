@@ -1,0 +1,270 @@
+{
+  "$schema_izoh": {
+    "tavsif": "pm.gov.uz — O'zbekiston Respublikasi Prezidentining virtual qabulxonasi bo'yicha bilim bazasi. Fuqaro muammosiga oddiy bazalarda yechim topilmasa, bot shu baza orqali Prezident qabulxonasiga murojaat (ariza/shikoyat/taklif) qoldirishning to'liq yo'riqnomasini beradi.",
+    "MUHIM": "Ma'lumotlar 2026-07-24 kuni pm.gov.uz va murojaat.gov.uz ochiq sahifalaridan yig'ilgan. Muddatlar «Jismoniy va yuridik shaxslarning murojaatlari to'g'risida»gi qonunga asoslanadi; telefonlar va URL'lar o'zgarishi mumkin.",
+    "maydonlar": {
+      "id": "unikal identifikator (lotin, defis bilan)",
+      "soha": "bo'lim nomi",
+      "xizmat_nomi": "rasmiy xizmat/bo'lim nomi",
+      "url": "to'g'ridan-to'g'ri manzil",
+      "tavsif": "qisqacha tavsif",
+      "muammolar": "fuqaro tilidagi iboralar (embedding/qidiruv uchun)",
+      "qadamlar": "batafsil, qadam-baqadam yo'riqnoma",
+      "kerakli_hujjatlar": "ro'yxat",
+      "muddat": "muddat",
+      "narx": "narx",
+      "aloqa": "aloqa telefonlari",
+      "kimlar_uchun": "kimlar foydalanadi",
+      "korsatuvchi_idora": "mas'ul idora",
+      "qoshimcha": "qo'shimcha ma'lumotlar",
+      "sahifa_ochildi": "true — ma'lumot sahifadan olingan"
+    }
+  },
+  "yigilgan_sana": "2026-07-24",
+  "portal": {
+    "nomi": "O'zbekiston Respublikasi Prezidentining virtual qabulxonasi",
+    "url": "https://pm.gov.uz/uz",
+    "murojaat_platformasi": "https://murojaat.gov.uz/",
+    "aloqa_markazi": "1000 (qisqa raqam), 0-800-210-00-00 (bepul liniya)",
+    "kirish_tartibi": [
+      "pm.gov.uz saytini oching va «Murojaat yuborish» tugmasini bosing — murojaat.gov.uz platformasiga o'tasiz",
+      "OneID (id.egov.uz) orqali tizimga kiring; hisob bo'lmasa pasport/ID-karta va JSHSHIR bilan ro'yxatdan o'ting",
+      "Murojaat turi (ariza/shikoyat/taklif), idora va hududni tanlab, matnni yozing va yuboring",
+      "Berilgan murojaat raqami va tekshiruv kodini saqlang — holatni shu ma'lumotlar bilan kuzatasiz"
+    ]
+  },
+  "xizmatlar": [
+    {
+      "id": "pm-onlayn-murojaat-yuborish",
+      "soha": "Murojaat (pm.gov.uz)",
+      "xizmat_nomi": "Prezident virtual qabulxonasiga onlayn murojaat yuborish (ariza, shikoyat, taklif)",
+      "url": "https://murojaat.gov.uz/",
+      "tavsif": "O'zbekiston Respublikasi Prezidentining virtual qabulxonasi (pm.gov.uz) orqali har qanday fuqaro davlat idoralariga oid muammosi bo'yicha ariza, shikoyat yoki taklif yuborishi mumkin. Murojaat yagona murojaat.gov.uz platformasi orqali qabul qilinadi va tegishli vazirlik, agentlik yoki mahalliy hokimlikka yo'naltiriladi. Hech qaysi idora muammoni hal qilmagan holatlarda bu eng yuqori darajadagi murojaat kanali hisoblanadi.",
+      "muammolar": [
+        "hech qaysi idora muammoimni hal qilmayapti",
+        "shikoyatim javobsiz qoldi",
+        "Prezidentga qanday murojaat yozsam bo'ladi",
+        "hokimiyat arizamni qabul qilmayapti",
+        "haqqim poymol bo'ldi, qayerga yozay",
+        "mahalliy idoralar javob bermayapti"
+      ],
+      "qadamlar": [
+        "Telefon yoki kompyuterda brauzerni oching va manzil qatoriga pm.gov.uz deb yozib, saytga kiring.",
+        "Sayt bosh sahifasidagi «Murojaat yuborish» tugmasini bosing — sizni yagona murojaat platformasi https://murojaat.gov.uz/ sahifasiga o'tkazadi.",
+        "«OneID orqali kirish» tugmasini bosing. OneID (id.egov.uz) — davlat xizmatlarining yagona login tizimi: agar hisobingiz bo'lmasa, pasport (yoki ID-karta) seriya-raqami va JSHSHIR (PINFL) bilan ro'yxatdan o'ting, telefon raqamingizni SMS-kod bilan tasdiqlang.",
+        "Tizimga kirgach «Murojaat yuborish» bo'limini oching va murojaat turini tanlang: «Ariza» (biror huquqingizni amalga oshirish so'rovi), «Shikoyat» (buzilgan huquqni tiklash talabi) yoki «Taklif» (davlat faoliyatini yaxshilash g'oyasi).",
+        "Murojaat yo'naltiriladigan tashkilotni tanlang: ro'yxatda vazirliklar, agentliklar, qo'mitalar va mahalliy hokimliklar bor. Qaysi idora ekanini bilmasangiz, muammoga eng yaqin sohani tanlang — operatorlar murojaatni to'g'ri idoraga yo'naltiradi.",
+        "Hududingizni (viloyat, tuman) tanlang, murojaat matnini aniq va lo'nda yozing: nima bo'lgani, qachon, qaysi idoraga oldin murojaat qilganingiz va qanday javob olganingiz. Kerak bo'lsa tasdiqlovchi hujjatlarni (fotosurat, PDF va h.k.) ilova qiling.",
+        "Ma'lumotlarni tekshirib, «Yuborish» tugmasini bosing. Tizim sizga murojaat raqami va holatni tekshirish kodini beradi — ularni albatta yozib oling yoki suratga oling.",
+        "Javob qonun bo'yicha ariza va shikoyatlar uchun 15 kun (qo'shimcha o'rganish zarur bo'lsa 1 oygacha) ichida shaxsiy kabinetingizga, elektron pochtangizga yoki yozma ravishda keladi.",
+        "Savol bo'lsa yoki internet imkoni bo'lmasa, 1000 raqamiga (yoki bepul 0-800-210-00-00) qo'ng'iroq qiling."
+      ],
+      "kerakli_hujjatlar": [
+        "OneID hisobi (pasport/ID-karta va JSHSHIR asosida ochiladi)",
+        "SMS-kod qabul qilish uchun shaxsiy telefon raqami",
+        "Muammoni tasdiqlovchi hujjatlar nusxalari (ixtiyoriy, elektron ko'rinishda ilova qilinadi)"
+      ],
+      "muddat": "Murojaatlar to'g'risidagi qonunga ko'ra: qo'shimcha o'rganish talab qilinmasa 15 kun, aks holda 1 oygacha; zarurat bo'lsa muddat yana ko'pi bilan 1 oyga uzaytirilishi mumkin",
+      "narx": "Bepul (murojaatlar bepul ko'rib chiqiladi)",
+      "aloqa": "1000 (call-markaz), 0-800-210-00-00 (bepul liniya)",
+      "kimlar_uchun": "Barcha O'zbekiston fuqarolari, shuningdek jismoniy va yuridik shaxslar; xorijdagi fuqarolar ham onlayn yuborishi mumkin",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Prezidentining Xalq qabulxonalari / virtual qabulxonasi",
+      "qoshimcha": "Anonim murojaatlar (F.I.Sh. va manzil ko'rsatilmagan) ko'rib chiqilmaydi. Bir masala bo'yicha yangi dalilsiz takroriy murojaat qayta ko'rilmasligi mumkin. Sud vakolatiga kiruvchi nizolar sud tartibida hal qilinadi. Murojaat yuborishdan oldin muammoni quyi idorada hal qilishga urinish javobni tezlashtiradi — lekin bu majburiy emas.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "pm-murojaat-holatini-tekshirish",
+      "soha": "Murojaat (pm.gov.uz)",
+      "xizmat_nomi": "Murojaat holatini tekshirish",
+      "url": "https://pm.gov.uz/uz",
+      "tavsif": "Prezident virtual qabulxonasiga yuborilgan murojaatning qay bosqichda ekanini (qabul qilingan, ko'rib chiqilmoqda, ko'rib chiqilgan) onlayn kuzatish xizmati. Buning uchun murojaat topshirilganda berilgan murojaat raqami va holatni tekshirish kodi kerak bo'ladi.",
+      "muammolar": [
+        "murojaatim qayerga yetib bordi bilmayman",
+        "arizamga javob kelmayapti",
+        "murojaat raqamim bilan holatini qanday ko'raman",
+        "shikoyatim ko'rib chiqilyaptimi yo'qmi"
+      ],
+      "qadamlar": [
+        "Murojaat yuborganingizda tizim bergan murojaat raqami va holatni tekshirish kodini tayyorlab oling (ular SMS/elektron xabarda yoki shaxsiy kabinetda bo'ladi).",
+        "Brauzerda pm.gov.uz saytini oching (bosh sahifa: https://pm.gov.uz/uz).",
+        "Bosh sahifadagi «Murojaat holatini tekshirish» bo'limini toping (murojaat.gov.uz saytida ham xuddi shu bo'lim bor).",
+        "«Murojaat raqami» maydoniga murojaat raqamingizni kiriting.",
+        "«Holatni tekshirish kodi» maydoniga tekshiruv kodini kiriting.",
+        "«Rasmdagi misolning javobini kiriting» maydoniga ekranda ko'rsatilgan misol (captcha) javobini yozing va tekshirish tugmasini bosing.",
+        "Ekranda murojaatingiz holati chiqadi: qaysi idorada, qaysi bosqichda ekani ko'rinadi. OneID orqali kirsangiz, shaxsiy kabinetda barcha murojaatlaringiz tarixini ham ko'rasiz.",
+        "Holat uzoq vaqt o'zgarmasa yoki qonuniy muddat (15 kun / 1 oy) o'tib ketgan bo'lsa, 1000 raqamiga qo'ng'iroq qilib murojaat raqamingizni ayting."
+      ],
+      "kerakli_hujjatlar": [
+        "Murojaat raqami",
+        "Holatni tekshirish kodi"
+      ],
+      "muddat": "Holat real vaqtda ko'rsatiladi; javobning qonuniy muddati — 15 kun, murakkab holatlarda 1 oygacha",
+      "narx": "Bepul",
+      "aloqa": "1000 (call-markaz), 0-800-210-00-00",
+      "kimlar_uchun": "Virtual qabulxonaga murojaat yuborgan barcha shaxslar",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Prezidentining Xalq qabulxonalari / virtual qabulxonasi",
+      "qoshimcha": "Murojaat raqami va kodni yo'qotib qo'ysangiz, OneID bilan shaxsiy kabinetga kirib murojaatlar ro'yxatidan topishingiz yoki 1000 raqamiga qo'ng'iroq qilib pasport ma'lumotlari bilan aniqlashtirishingiz mumkin.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "pm-1000-call-markaz",
+      "soha": "Murojaat (pm.gov.uz)",
+      "xizmat_nomi": "1000 call-markazi orqali og'zaki murojaat qilish",
+      "url": "https://pm.gov.uz/uz",
+      "tavsif": "Prezident virtual qabulxonasining ishonch telefoni — qisqa 1000 raqami (yoki bepul 0-800-210-00-00). Internetdan foydalana olmaydigan yoki yozishga qiynaladigan fuqarolar murojaatini telefon orqali og'zaki topshirishi mumkin. Bu eng ko'p ishlatiladigan kanal — ishonch telefoni orqali 6,8 milliondan ortiq murojaat qabul qilingan.",
+      "muammolar": [
+        "internetim yo'q, qanday murojaat qilaman",
+        "yozishni bilmayman, telefon orqali shikoyat qilmoqchiman",
+        "Prezident qabulxonasining telefon raqami qancha",
+        "keksa odamman, sayt bilan ishlay olmayman"
+      ],
+      "qadamlar": [
+        "Telefoningizdan 1000 raqamini tering (O'zbekistondagi istalgan operator orqali) yoki bepul 0-800-210-00-00 raqamiga qo'ng'iroq qiling.",
+        "Operator javob berganda F.I.Sh., yashash manzilingiz va telefon raqamingizni ayting — anonim murojaat qabul qilinmaydi.",
+        "Muammoingizni aniq va qisqa tushuntiring: nima bo'lgani, qaysi idoraga aloqador ekani, oldin qayerga murojaat qilganingiz.",
+        "Operator murojaatingizni tizimga kiritadi va sizga murojaat raqamini aytadi — uni yozib oling.",
+        "Shu raqam va tekshiruv kodi bilan keyinchalik pm.gov.uz saytidagi «Murojaat holatini tekshirish» bo'limida holatni kuzatishingiz mumkin.",
+        "Javob ko'rsatgan aloqa vositangizga (telefon, pochta manzili) qonuniy muddatda — 15 kun, murakkab holatlarda 1 oygacha — yetkaziladi."
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjat shart emas — F.I.Sh., manzil va telefon raqamini og'zaki aytish kifoya"
+      ],
+      "muddat": "Qo'ng'iroq darhol qabul qilinadi; murojaatga javob — 15 kun, murakkab holatlarda 1 oygacha",
+      "narx": "Bepul (0-800-210-00-00 raqamiga qo'ng'iroq ham bepul)",
+      "aloqa": "1000 (call-markaz), 0-800-210-00-00",
+      "kimlar_uchun": "Barcha fuqarolar, ayniqsa internetdan foydalana olmaydigan, keksa yoki imkoniyati cheklangan shaxslar",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Prezidentining Xalq qabulxonalari / virtual qabulxonasi",
+      "qoshimcha": "Suhbat yozib olinadi. Haqoratli yoki tahdidli qo'ng'iroqlar ko'rib chiqilmaydi. Murojaat mazmuni murakkab bo'lsa, operator hujjatlar bilan yozma (onlayn) murojaat yuborishni tavsiya qilishi mumkin.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "pm-xalq-qabulxonasiga-borish",
+      "soha": "Murojaat (pm.gov.uz)",
+      "xizmat_nomi": "Xalq qabulxonasiga shaxsan borish (jonli qabul)",
+      "url": "https://pm.gov.uz/uz#public-receptions",
+      "tavsif": "Prezidentning Xalq qabulxonalari — respublika bo'ylab 222 ta ofisdan iborat tarmoq bo'lib, har bir tuman va shaharda mavjud. Fuqarolar u yerga shaxsan borib, murojaatini og'zaki yoki yozma topshirishi va mas'ul xodimlar bilan jonli qabulda uchrashishi mumkin. Toshkent shahrida 13 ta, Toshkent viloyatida 23 ta, Farg'onada 20 ta, Qoraqalpog'istonda 18 ta va boshqa viloyatlarda 12-17 tadan qabulxona ishlaydi.",
+      "muammolar": [
+        "muammoimni yozib tushuntira olmayman, uchrashib gaplashmoqchiman",
+        "xalq qabulxonasi qayerda joylashgan",
+        "hujjatlarimni ko'rsatib shikoyat qilmoqchiman",
+        "tumanimizdagi Prezident qabulxonasiga qanday boraman"
+      ],
+      "qadamlar": [
+        "pm.gov.uz saytini oching va bosh sahifadagi «Xalq qabulxonalari» bo'limiga o'ting (https://pm.gov.uz/uz#public-receptions) — u yerda viloyatingizni tanlab, tuman/shahar qabulxonalari ro'yxatini ko'rasiz.",
+        "Aniq manzilni bilmasangiz, 1000 raqamiga qo'ng'iroq qilib, o'z tumaningizdagi Xalq qabulxonasi manzili va ish vaqtini so'rang.",
+        "Pasport yoki ID-kartangizni va muammoga oid barcha hujjatlar (shartnomalar, avvalgi javob xatlari, ma'lumotnomalar) nusxalarini olib boring.",
+        "Ish kunlari qabulxonaga boring, navbatga yoziling va qabulxona xodimiga muammoingizni tushuntiring.",
+        "Murojaatingiz yozma ravishda rasmiylashtiriladi va tizimga kiritiladi — sizga murojaat raqami beriladi; zarur bo'lsa, mas'ul rahbarlar bilan jonli qabulga yozib qo'yishadi.",
+        "Murojaat raqami orqali holatni pm.gov.uz saytida yoki 1000 raqamiga qo'ng'iroq qilib kuzatib boring.",
+        "Javob 15 kun (murakkab masalalarda 1 oygacha) ichida yozma yoki og'zaki (jonli qabulda) beriladi."
+      ],
+      "kerakli_hujjatlar": [
+        "Pasport yoki ID-karta",
+        "Muammoga oid hujjatlar nusxalari (avvalgi murojaatlarga olingan javoblar, shartnomalar va h.k.)"
+      ],
+      "muddat": "Qabul — jonli navbat/yozilish asosida; murojaatga javob — 15 kun, murakkab holatlarda 1 oygacha",
+      "narx": "Bepul",
+      "aloqa": "1000 (call-markaz), 0-800-210-00-00; manzillar pm.gov.uz saytidagi «Xalq qabulxonalari» bo'limida",
+      "kimlar_uchun": "Barcha fuqarolar; hujjatli murakkab masalalar va yuzma-yuz tushuntirish talab qiladigan holatlar uchun ayniqsa qulay",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Prezidentining Xalq qabulxonalari / virtual qabulxonasi",
+      "qoshimcha": "Xalq qabulxonalari orqali 1,3 milliondan ortiq murojaat qabul qilingan. Sayyor qabullar ham o'tkaziladi — mas'ul rahbarlar mahalla va uzoq hududlarga chiqib fuqarolarni joyida qabul qiladi (sayyor qabul orqali 258 mingdan ortiq murojaat qabul qilingan); sayyor qabul jadvalini tuman qabulxonasidan yoki 1000 raqamidan so'rang.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "pm-korib-chiqish-tartibi-muddatlari",
+      "soha": "Murojaat (pm.gov.uz)",
+      "xizmat_nomi": "Murojaatlarni ko'rib chiqish tartibi va muddatlari",
+      "url": "https://pm.gov.uz/uz",
+      "tavsif": "Prezident virtual qabulxonasiga kelgan murojaatlar «Jismoniy va yuridik shaxslarning murojaatlari to'g'risida»gi qonun asosida ko'rib chiqiladi. Murojaat mazmuniga qarab tegishli vazirlik, idora yoki hokimlikka yuboriladi va qonuniy muddatda asoslantirilgan javob berilishi shart. Ba'zi turdagi murojaatlar (anonim, haqoratli, sud vakolatidagi) ko'rib chiqilmaydi.",
+      "muammolar": [
+        "murojaatimga qachon javob kelishi kerak",
+        "javob muddati o'tib ketdi, nima qilay",
+        "arizam nega ko'rib chiqilmadi",
+        "murojaatim boshqa idoraga yuborib yuborilibdi",
+        "javobdan noroziman, yana kimga yozay"
+      ],
+      "qadamlar": [
+        "Murojaat yuborilgach, u ro'yxatga olinadi va sizga murojaat raqami hamda tekshiruv kodi beriladi.",
+        "Murojaat mazmuniga qarab masalani hal qilishga vakolatli idoraga (vazirlik, agentlik, hokimlik) yuboriladi — bu haqda sizga xabar beriladi.",
+        "Muddatlarni bilib oling: ariza va shikoyat — qo'shimcha o'rganish talab qilinmasa 15 kun ichida, o'rganish zarur bo'lsa 1 oygacha; taklif — 1 oygacha ko'rib chiqiladi.",
+        "Alohida hollarda (qo'shimcha tekshiruv, ekspertiza zarur bo'lsa) muddat ko'pi bilan yana 1 oyga uzaytirilishi mumkin — bu haqda sizga xabar berilishi shart.",
+        "Javob yozma yoki elektron shaklda, siz ko'rsatgan aloqa kanali orqali keladi; holatni pm.gov.uz saytidagi «Murojaat holatini tekshirish» bo'limida kuzating.",
+        "Muddat o'tsa-yu javob kelmasa, 1000 raqamiga qo'ng'iroq qilib murojaat raqamingiz bo'yicha ma'lumot so'rang yoki muddatni buzgan idora ustidan qaytadan shikoyat yuboring.",
+        "Javobdan norozi bo'lsangiz, yuqori turuvchi organga yoki sudga murojaat qilish huquqingiz bor — javob xatida shikoyat qilish tartibi ko'rsatiladi."
+      ],
+      "kerakli_hujjatlar": [
+        "Murojaat raqami (kuzatish uchun)",
+        "Muddat buzilgani bo'yicha shikoyatda — avvalgi murojaat ma'lumotlari"
+      ],
+      "muddat": "Ariza/shikoyat: 15 kun; qo'shimcha o'rganish zarur bo'lsa 1 oygacha; taklif: 1 oygacha; muddat ko'pi bilan yana 1 oyga uzaytirilishi mumkin",
+      "narx": "Bepul",
+      "aloqa": "1000 (call-markaz), 0-800-210-00-00",
+      "kimlar_uchun": "Murojaat yuborgan yoki yuborishni rejalashtirayotgan barcha jismoniy va yuridik shaxslar",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Prezidentining Xalq qabulxonalari / virtual qabulxonasi",
+      "qoshimcha": "Ko'rib chiqilmaydigan murojaatlar: anonim (F.I.Sh. va manzilsiz) murojaatlar; haqorat va tahdid mazmunidagi murojaatlar; sud tomonidan hal qilinishi lozim bo'lgan nizolar; bir masala bo'yicha yangi dalilsiz takroriy murojaatlar. Boshqa shaxs nomidan murojaat qilish uchun vakolat (ishonchnoma) bo'lishi kerak.",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "pm-idoralar-ishonch-telefonlari",
+      "soha": "Murojaat (pm.gov.uz)",
+      "xizmat_nomi": "Davlat idoralari va ularning ishonch telefonlari ma'lumotnomasi",
+      "url": "https://pm.gov.uz/uz/authority-categories",
+      "tavsif": "pm.gov.uz saytidagi ma'lumotnoma bo'limi — barcha davlat tashkilotlari (vazirliklar, qo'mitalar, agentliklar, inspeksiyalar, hokimliklar, banklar, OTMlar va boshqalar) ro'yxati va ularning aloqa/ishonch telefonlari. Prezident qabulxonasiga yozishdan oldin muammoni bevosita mas'ul idoraga aytib ko'rish uchun foydali.",
+      "muammolar": [
+        "muammoim qaysi idoraga tegishli bilmayman",
+        "vazirlikning ishonch telefonini qayerdan topaman",
+        "avval qaysi tashkilotga murojaat qilishim kerak",
+        "idoraning o'zi bilan bog'lanmoqchiman"
+      ],
+      "qadamlar": [
+        "Brauzerda https://pm.gov.uz/uz/authority-categories sahifasini oching.",
+        "Kerakli toifani tanlang: «Vazirliklar», «Qo'mitalar», «Agentliklar», «Inspeksiyalar», «Mahalliy hokimliklar», «Banklar» va boshqalar.",
+        "Ro'yxatdan muammoingizga mas'ul tashkilotni toping va uning sahifasini ochib, ishonch telefoni va aloqa ma'lumotlarini ko'ring.",
+        "Avval shu idoraning o'ziga (ishonch telefoni yoki qabulxonasi orqali) murojaat qilib ko'ring — ko'p masalalar joyida hal bo'ladi.",
+        "Idora muammoni hal qilmasa yoki javob bermasa, pm.gov.uz orqali Prezident virtual qabulxonasiga murojaat yuboring va avvalgi murojaatingiz natijasini matnda ko'rsating.",
+        "Qaysi idora mas'ulligini aniqlay olmasangiz, 1000 raqamiga qo'ng'iroq qiling — operator yo'naltirib beradi."
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjat talab qilinmaydi — ochiq ma'lumotnoma"
+      ],
+      "muddat": "Ma'lumotnoma doimiy ochiq",
+      "narx": "Bepul",
+      "aloqa": "1000 (call-markaz), 0-800-210-00-00",
+      "kimlar_uchun": "Qaysi idoraga murojaat qilishni bilmagan barcha fuqarolar",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Prezidentining Xalq qabulxonalari / virtual qabulxonasi",
+      "qoshimcha": "pm.gov.uz bosh sahifasida 40 dan ortiq mavzu bo'yicha (oila, uy-joy, pensiya, soliq, migratsiya va h.k.) yo'riqnoma-toifalar ham bor — muammoga mos toifani ochib, tayyor tushuntirishlarni o'qish mumkin. Foydali havolalar: my.gov.uz (davlat xizmatlari), lex.uz (qonunlar), xalqnazorati.uz (jamoatchilik nazorati).",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "pm-mobil-ilova-halq-bilan-muloqot",
+      "soha": "Murojaat (pm.gov.uz)",
+      "xizmat_nomi": "«Xalq bilan muloqot» mobil ilovasi orqali murojaat yuborish",
+      "url": "https://murojaat.gov.uz/privacy-policy",
+      "tavsif": "«Xalq bilan muloqot» — murojaatlar bilan ishlashning yagona onlayn platformasining rasmiy mobil ilovasi. U orqali telefondan turib Prezident virtual qabulxonasiga murojaat yuborish va holatini kuzatish mumkin. Ilovada shaxsiy ma'lumotlar (F.I.Sh., pasport, manzil, telefon) qonun asosida qayta ishlanadi.",
+      "muammolar": [
+        "telefondan murojaat yuborsam bo'ladimi",
+        "kompyuterim yo'q, faqat smartfonim bor",
+        "murojaat ilovasi qanday nomlanadi"
+      ],
+      "qadamlar": [
+        "Telefoningizdagi Play Market (Android) yoki App Store (iPhone) do'konini oching.",
+        "Qidiruvga «Xalq bilan muloqot» deb yozing va rasmiy ilovani o'rnating.",
+        "Ilovani ochib, OneID hisobingiz bilan tizimga kiring (hisob bo'lmasa, pasport/ID-karta va JSHSHIR bilan id.egov.uz da ro'yxatdan o'ting).",
+        "«Murojaat yuborish» bo'limida murojaat turini (ariza, shikoyat, taklif), tashkilotni va hududni tanlang, matnni yozing, kerak bo'lsa fayl ilova qiling.",
+        "Yuborilgach, murojaat raqami va tekshiruv kodini saqlab qo'ying — holatni ilovada yoki pm.gov.uz saytida kuzatasiz.",
+        "Ilova ishlamasa, murojaat.gov.uz sayti yoki 1000 raqami orqali murojaat qiling."
+      ],
+      "kerakli_hujjatlar": [
+        "OneID hisobi",
+        "F.I.Sh., pasport seriya-raqami, yashash manzili, telefon raqami (ro'yxatdan o'tishda talab qilinadi)"
+      ],
+      "muddat": "Javob muddati saytdagi kabi: 15 kun, murakkab holatlarda 1 oygacha",
+      "narx": "Bepul",
+      "aloqa": "1000 (call-markaz), 0-800-210-00-00",
+      "kimlar_uchun": "Smartfondan foydalanadigan barcha fuqarolar",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Prezidentining Xalq qabulxonalari / virtual qabulxonasi",
+      "qoshimcha": "Shaxsiy ma'lumotlar «Shaxsga doir ma'lumotlar to'g'risida»gi qonun (O'RQ-547, 02.07.2019) asosida himoyalanadi. Ilova va sayt bitta tizim — murojaatlar qaysi kanaldan yuborilmasin, yagona bazada ro'yxatga olinadi.",
+      "sahifa_ochildi": true
+    }
+  ]
+}
