@@ -124,6 +124,12 @@ vektor_baza/      — ChromaDB lokal papka (index_qurish ishga tushgach yaratila
     chidamli qilindi. Jami indeks: 329 yozuv. QA: Top-1 80%, Top-3 93%
     (2 "xato" — yangi mazmunan to'g'ri yozuvlar eski kutilgan id o'rnini
     egallagani), sinov qidiruvlari 8/8
+[x] To'liq QA (--javob bilan) o'tkazildi: tuzoq savollar avto-tekshiruvda
+    6/10, qolgan 4 tasi qo'lda tekshirildi — hammasi halol: baza endi o'sha
+    mavzularni (aliment, pasport, xorijda ishlash, harbiy otsrochka) real
+    qamrab olgani uchun bot rad javob o'rniga bazaga asoslangan to'g'ri
+    javob beradi (X02 da esa to'g'ri aniqlashtiruvchi savol berdi).
+    Gallyutsinatsiya topilmadi
 
 ===========================================================
 4. QOLGAN ISH (KEYINGI QADAM)
@@ -136,6 +142,10 @@ vektor_baza/      — ChromaDB lokal papka (index_qurish ishga tushgach yaratila
     my-gov.json'dagi sahifa_ochildi=false bo'lgan 4 yozuvni portal tuzalgach
     qayta tekshirish (486, 348, 232, 482-xizmatlar 500 xato bergan)
 [ ] .env.example ga GEMINI_API_KEY_ZAXIRA qatorini qo'shish (ixtiyoriy kalit)
+[ ] qa/test_savollar.json ni yangilash: baza 329 yozuvga o'sgani sabab
+    (1) eski "kutilgan id"larni yangi bazaga moslash (T16/T21 kabi),
+    (2) tuzoq savollarni haqiqatan bazadan tashqaridagi mavzular bilan
+    almashtirish (hozirgi 4 ta "tuzoq" endi bazada qamrab olingan)
 [ ] Deploy: bot va web'ni serverda doimiy ishlatish masalasi hal qilinmagan
 
 ===========================================================
