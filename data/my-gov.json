@@ -1,0 +1,1728 @@
+{
+  "$schema_izoh": {
+    "tavsif": "my.gov.uz (YIDXP — Yagona interaktiv davlat xizmatlari portali) bo'yicha yo'naltiruvchi bot bilim bazasi. Har bir yozuv bitta 'muammo → portal xizmati' juftligi: muammoga mos xizmat, uning aniq URL manzili va qadam-baqadam yo'riqnoma.",
+    "MUHIM": "Narxlar (BHM asosida), muddatlar va xizmat URL'lari vaqt o'tishi bilan o'zgaradi. Ma'lumotlar portalning ochiq sahifalaridan yig'ilgan; ishlab chiqarishdan oldin davriy qayta tekshirish tavsiya etiladi. sahifa_ochildi=false bo'lgan yozuvlar to'liq tasdiqlanmagan (sahifa yig'ish paytida ochilmagan).",
+    "maydonlar": {
+      "id": "unikal identifikator (lotin, defis bilan)",
+      "soha": "portal sohasi (Kommunal, Pensiya, Transport va h.k.)",
+      "xizmat_nomi": "portaldagi rasmiy xizmat nomi",
+      "url": "xizmatning to'g'ridan-to'g'ri manzili",
+      "tavsif": "xizmat qisqacha tavsifi",
+      "muammolar": "fuqaro tilidagi muammo iboralari (embedding/qidiruv uchun)",
+      "qadamlar": "portalda qadam-baqadam yo'riqnoma",
+      "kerakli_hujjatlar": "ro'yxat",
+      "muddat_narx": "ko'rib chiqish muddati va narxi",
+      "korsatuvchi_idora": "xizmatni ko'rsatuvchi idora",
+      "sahifa_ochildi": "true — ma'lumot xizmat sahifasidan olingan; false — faqat katalogdan"
+    }
+  },
+  "yigilgan_sana": "2026-07-24",
+  "portal": {
+    "nomi": "Yagona interaktiv davlat xizmatlari portali (YIDXP)",
+    "url": "https://my.gov.uz/uz",
+    "qidiruv": "https://my.gov.uz/uz/search",
+    "aloqa_markazi": "1242 (portal bo'yicha, 24/7); umumiy ma'lumot: 1148",
+    "kirish_tartibi": [
+      "my.gov.uz saytini oching va 'Kirish' tugmasini bosing — tizim OneID (id.egov.uz) orqali ishlaydi",
+      "Ro'yxatdan o'tmagan bo'lsangiz: pasportga bog'langan telefon raqamingizni kiriting, SMS orqali kelgan kodni tasdiqlang, so'ng OneID uchun login va parol o'ylab toping",
+      "Ro'yxatdan o'tgan bo'lsangiz: OneID login va parolingiz bilan kiring",
+      "Kirgandan so'ng shaxsiy kabinetda arizalar holatini, elektron hujjatlar va bildirishnomalarni kuzatishingiz mumkin"
+    ],
+    "yoriqnomalar": {
+      "royxatdan_otish": "https://my.gov.uz/uz/page/registration-ONEID-system",
+      "oneid_haqida": "https://my.gov.uz/uz/page/oneid-about",
+      "barcha_yoriqnomalar": "https://my.gov.uz/uz/instructions"
+    },
+    "sohalar": {
+      "UJKX (Kommunal)": "https://my.gov.uz/uz/spheres/1",
+      "Ko'chmas mulk": "https://my.gov.uz/uz/spheres/2",
+      "Transport": "https://my.gov.uz/uz/spheres/3",
+      "Oila va bolalar": "https://my.gov.uz/uz/spheres/4",
+      "Ijtimoiy himoya": "https://my.gov.uz/uz/spheres/5",
+      "Soliqlar": "https://my.gov.uz/uz/spheres/6",
+      "Ta'lim": "https://my.gov.uz/uz/spheres/8",
+      "Litsenziya": "https://my.gov.uz/uz/spheres/11",
+      "Iqtisodiyot va biznes": "https://my.gov.uz/uz/spheres/12",
+      "Adliya": "https://my.gov.uz/uz/spheres/16",
+      "Sog'liqni saqlash": "https://my.gov.uz/uz/spheres/23",
+      "Subsidiya": "https://my.gov.uz/uz/spheres/34",
+      "Bandlik va mehnat": "https://my.gov.uz/uz/spheres/38"
+    }
+  },
+  "xizmatlar": [
+    {
+      "id": "elektr-ulanish-texnik-shartlar-20kvt",
+      "soha": "Kommunal",
+      "xizmat_nomi": "20 kVt dan yuqori bo'lmagan elektr tarmoqlariga ulanish uchun texnik shartlarni olish",
+      "url": "https://my.gov.uz/uz/service/172",
+      "tavsif": "Quvvati 20 kVt gacha bo'lgan obyektlarni elektr tarmoqlariga ulash uchun texnik shartlarni onlayn olish xizmati. Texnik shartlar 3 ish kuni ichida elektron shaklda beriladi.",
+      "muammolar": [
+        "yangi uyni elektr tarmog'iga ulash kerak",
+        "elektr ulanish uchun texnik shartlar olish",
+        "elektr tarmog'iga ulanish uchun qayerga murojaat qilish kerak"
+      ],
+      "qadamlar": [
+        "my.gov.uz saytiga kiring va OneID orqali tizimga kiring (ro'yxatdan o'ting yoki avtorizatsiyadan o'ting)",
+        "Sohalar → UJKX (Kommunal) bo'limini oching yoki to'g'ridan-to'g'ri https://my.gov.uz/uz/service/172 manziliga o'ting",
+        "Ariza shaklini to'ldiring va so'rovnomani yagona portal orqali yuboring",
+        "Davlat boji 37 080 so'm (0,09 BHM) to'lovini amalga oshiring",
+        "3 ish kuni ichida texnik shartlarni shaxsiy kabinetda elektron shaklda oling"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi (hujjat topshirish shart emas)"
+      ],
+      "muddat_narx": "3 ish kuni; pullik — 37 080 so'm (0,09 BHM) yagona portal orqali",
+      "korsatuvchi_idora": "\"Hududiy elektr tarmoqlari\" AJ",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "maishiy-elektr-ulanish-20kvt",
+      "soha": "Kommunal",
+      "xizmat_nomi": "Maishiy iste'molchilarni 20 kVtgacha bo'lgan elektr tarmoqlariga ulash",
+      "url": "https://my.gov.uz/uz/service/656",
+      "tavsif": "Maishiy iste'molchilarni (uy-joylarni) quvvati 20 kVt gacha bo'lgan elektr tarmoqlariga amalda ulash xizmati. Ariza yagona portal orqali topshiriladi va 10 ish kuni ichida bajariladi.",
+      "muammolar": [
+        "uyni elektr tarmog'iga ulatish kerak",
+        "yangi qurilgan uyga svet o'tkazish",
+        "elektr ulanish arizasini onlayn topshirish"
+      ],
+      "qadamlar": [
+        "my.gov.uz saytiga kiring va OneID orqali tizimga kiring",
+        "To'g'ridan-to'g'ri https://my.gov.uz/uz/service/656 manziliga o'ting yoki Sohalar → UJKX bo'limidan xizmatni tanlang",
+        "Ariza shaklini to'ldiring (obyekt manzili va ma'lumotlari) va yuboring",
+        "Portal orqali 37 080 so'm (0,09 BHM) to'lovni amalga oshiring",
+        "10 ish kuni ichida ulanish amalga oshirilishini shaxsiy kabinetda kuzating"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "10 ish kuni; pullik — 37 080 so'm (0,09 BHM) yagona portal orqali",
+      "korsatuvchi_idora": "\"Hududiy elektr tarmoqlari\" AJ",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "elektr-hisoblagich-plombalash-shartnoma",
+      "soha": "Kommunal",
+      "xizmat_nomi": "Elektr energiyasini hisobga olish tizimini plombalash va elektr ta'minoti shartnomasini tuzish",
+      "url": "https://my.gov.uz/uz/service/185",
+      "tavsif": "Elektr hisoblagichni plombalash va elektr ta'minoti shartnomasini elektron tarzda tuzish xizmati. Shartnoma va dalolatnoma YIDXP orqali elektron shaklda beriladi.",
+      "muammolar": [
+        "elektr hisoblagichni plombalash kerak",
+        "elektr ta'minoti shartnomasini tuzish",
+        "yangi hisoblagichga plomba qo'ydirish"
+      ],
+      "qadamlar": [
+        "my.gov.uz saytiga kiring va OneID orqali tizimga kiring",
+        "https://my.gov.uz/uz/service/185 manziliga o'ting va ariza yuboring",
+        "Hisoblagich plombalanganidan so'ng elektr ta'minoti shartnomasi va dalolatnoma YIDXP orqali elektron shaklda yuboriladi",
+        "Shartnomani 5 ish kuni ichida ERI (elektron raqamli imzo) bilan tasdiqlang",
+        "Shartnoma shartlariga muvofiq elektr energiyasi yetkazib berilishini kuzating"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "3 ish kuni; bepul",
+      "korsatuvchi_idora": "\"Hududiy elektr tarmoqlari\" AJ",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "elektr-hisoblagich-yechish-ornatish",
+      "soha": "Kommunal",
+      "xizmat_nomi": "Elektr energiyasini hisobga olish uskunasini (hisoblagichini) yechish va o'rnatishga ariza yuborish",
+      "url": "https://my.gov.uz/uz/service/226",
+      "tavsif": "Elektr hisoblagichini yechish va/yoki o'rnatish uchun onlayn ariza yuborish xizmati. Ishlar ariza beruvchi ishtirokida bajarilib, dalolatnoma tuziladi.",
+      "muammolar": [
+        "elektr hisoblagichni almashtirish kerak",
+        "eski elektr schetchikni yechish",
+        "yangi elektr hisoblagich o'rnattirish"
+      ],
+      "qadamlar": [
+        "my.gov.uz saytiga kiring va OneID orqali tizimga kiring",
+        "https://my.gov.uz/uz/service/226 manziliga o'ting va ariza shaklini to'ldirib yuboring",
+        "Kelishilgan vaqtda korxona vakili sizning ishtirokingizda hisoblagichni yechadi va/yoki o'rnatadi",
+        "Tuzilgan dalolatnomaning bir nusxasini oling",
+        "Ariza holatini shaxsiy kabinetda kuzating"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "5 ish kuni; bepul",
+      "korsatuvchi_idora": "\"Hududiy elektr tarmoqlari\" AJ",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "nosoz-elektr-hisoblagich-qiyoslash",
+      "soha": "Kommunal",
+      "xizmat_nomi": "Texnik nosoz elektr energiyasi hisoblagichini qiyoslashdan o'tkazish (yechish va ulash bilan birga)",
+      "url": "https://my.gov.uz/uz/service/306",
+      "tavsif": "Nosoz elektr hisoblagichini yechib, metrologik qiyoslashdan o'tkazish va qayta o'rnatish xizmati. \"O'zstandart\" agentligi sertifikat beradi.",
+      "muammolar": [
+        "elektr hisoblagich noto'g'ri ko'rsatyapti",
+        "elektr schetchik buzilgan, tekshirtirish kerak",
+        "hisoblagichni qiyoslashdan o'tkazish"
+      ],
+      "qadamlar": [
+        "my.gov.uz saytiga kiring va OneID orqali tizimga kiring",
+        "https://my.gov.uz/uz/service/306 manziliga o'ting va ariza yuboring",
+        "To'lovni amalga oshiring (jismoniy shaxslar uchun 74 160 so'm)",
+        "Kelishilgan vaqtda hisoblagich 5 ish kuni ichida yechiladi va qiyoslashga topshiriladi",
+        "Qiyoslashdan so'ng hisoblagich 3 ish kuni ichida manzilingizga qayta o'rnatiladi, jarayonni shaxsiy kabinetda kuzating"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "14 ish kuni; pullik — jismoniy shaxslar uchun 74 160 so'm (0,18 BHM), yuridik shaxslar uchun 556 200 so'm (1,35 BHM)",
+      "korsatuvchi_idora": "\"Hududiy elektr tarmoqlari\" AJ",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "gaz-ulanish-texnik-shartlar",
+      "soha": "Kommunal",
+      "xizmat_nomi": "1,2 MPa bosimdan yuqori bo'lmagan gaz tarmoqlariga ulanishga texnik shartlarni olish",
+      "url": "https://my.gov.uz/uz/service/173",
+      "tavsif": "Bosimi 1,2 MPa gacha bo'lgan gaz tarmoqlariga ulanish uchun texnik shartlarni onlayn olish xizmati. Texnik shartlar 3 ish kuni ichida beriladi.",
+      "muammolar": [
+        "uyga gaz o'tkazish kerak",
+        "gaz tarmog'iga ulanish uchun texnik shartlar olish",
+        "yangi uyni gazlashtirish"
+      ],
+      "qadamlar": [
+        "my.gov.uz saytiga kiring va OneID orqali tizimga kiring",
+        "https://my.gov.uz/uz/service/173 manziliga o'ting yoki Sohalar → UJKX bo'limidan xizmatni tanlang",
+        "Ariza shaklini to'ldiring va yuboring",
+        "37 080 so'm (0,09 BHM) to'lovni portal orqali amalga oshiring",
+        "3 ish kuni ichida texnik shartlarni shaxsiy kabinetda oling"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "3 ish kuni; pullik — 37 080 so'm (0,09 BHM) yagona portal orqali",
+      "korsatuvchi_idora": "\"Hududgazta'minot\" AJ",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "gaz-hisoblagich-plombalash",
+      "soha": "Kommunal",
+      "xizmat_nomi": "Tabiiy gazni hisobga olish qurilmasini plombalash",
+      "url": "https://my.gov.uz/uz/service/199",
+      "tavsif": "Tabiiy gaz hisoblagichini joyida ko'zdan kechirib plombalash va gaz ta'minoti shartnomasini elektron tarzda rasmiylashtirish xizmati.",
+      "muammolar": [
+        "gaz hisoblagichga plomba qo'ydirish kerak",
+        "gaz schetchigi plombasi buzilgan",
+        "gaz shartnomasini rasmiylashtirish"
+      ],
+      "qadamlar": [
+        "my.gov.uz saytiga kiring va OneID orqali tizimga kiring",
+        "https://my.gov.uz/uz/service/199 manziliga o'ting va ariza yuboring",
+        "Xizmat ko'rsatuvchi vakili joyiga chiqib hisoblagichni ko'zdan kechiradi va plombalaydi",
+        "Gaz ta'minoti shartnomasini 5 ish kuni ichida YIDXP orqali tasdiqlab qaytaring",
+        "Oldindan to'lov (mavjud bo'lsa) amalga oshirilgach, gaz yetkazib berish boshlanadi"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "7 ish kuni; bepul",
+      "korsatuvchi_idora": "\"Hududgazta'minot\" AJ",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "gaz-hisoblagich-yechish-ornatish",
+      "soha": "Kommunal",
+      "xizmat_nomi": "Tabiiy gazni hisobga olish uskunasini (hisoblagichini) yechish va o'rnatishga ariza yuborish",
+      "url": "https://my.gov.uz/uz/service/236",
+      "tavsif": "Gaz hisoblagichini yechish va o'rnatish uchun onlayn ariza yuborish xizmati. Ishlar ariza beruvchi ishtirokida bajarilib, uch nusxada dalolatnoma tuziladi.",
+      "muammolar": [
+        "gaz hisoblagichni almashtirish kerak",
+        "gaz schetchikni yechish va yangisini o'rnatish",
+        "gaz hisoblagich o'rnattirish uchun ariza berish"
+      ],
+      "qadamlar": [
+        "my.gov.uz saytiga kiring va OneID orqali tizimga kiring",
+        "https://my.gov.uz/uz/service/236 manziliga o'ting va ariza shaklini to'ldirib yuboring",
+        "Kelishilgan vaqtda sizning ishtirokingizda hisoblagich yechiladi va tegishli dalolatnoma tuziladi",
+        "Ko'rsatilgan manzilda hisoblagich o'rnatiladi, dalolatnoma uch nusxada tuzilib, bir nusxasi sizda qoladi",
+        "Ariza holatini shaxsiy kabinetda kuzating"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "5 ish kuni; bepul",
+      "korsatuvchi_idora": "\"Hududgazta'minot\" AJ",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "nosoz-gaz-hisoblagich-qiyoslash",
+      "soha": "Kommunal",
+      "xizmat_nomi": "Texnik nosoz tabiiy gaz hisoblagichini qiyoslashdan o'tkazish (yechish va o'rnatish bilan birga)",
+      "url": "https://my.gov.uz/uz/service/307",
+      "tavsif": "Nosoz gaz hisoblagichini yechib, metrologiya xizmatida qiyoslashdan o'tkazish va qayta o'rnatish xizmati. Sertifikat ERI bilan tasdiqlanadi.",
+      "muammolar": [
+        "gaz hisoblagich noto'g'ri ishlayapti",
+        "gaz schetchik buzilgan, tekshirtirish kerak",
+        "gaz hisoblagichni qiyoslashdan o'tkazish"
+      ],
+      "qadamlar": [
+        "my.gov.uz saytiga kiring va OneID orqali tizimga kiring",
+        "https://my.gov.uz/uz/service/307 manziliga o'ting va ariza yuboring",
+        "To'lovni portal orqali amalga oshiring (556 200 so'm)",
+        "Kelishilgan vaqtda hisoblagich yechiladi va metrologiya xizmatiga topshiriladi, sinovdan so'ng sertifikat beriladi",
+        "Hisoblagich manzilingizga qayta o'rnatiladi, uch nusxadagi dalolatnomaning bir nusxasini oling"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "14 ish kuni; pullik — 556 200 so'm (1,35 BHM) yagona portal orqali",
+      "korsatuvchi_idora": "\"Hududgazta'minot\" AJ",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "gaz-jihozlari-texnik-xizmat",
+      "soha": "Kommunal",
+      "xizmat_nomi": "Aholi, sanoat va kommunal-maishiy korxonalarning gaz jihozlariga profilaktik va texnik xizmat ko'rsatish",
+      "url": "https://my.gov.uz/uz/service/1458",
+      "tavsif": "Gaz jihozlariga (plita, kotel va boshqalar) profilaktik va texnik xizmat ko'rsatish uchun onlayn ariza yuborish xizmati. Xizmat shartnoma asosida ko'rsatiladi.",
+      "muammolar": [
+        "gaz plitasi yoki koteliga texnik xizmat kerak",
+        "gaz jihozlarini profilaktik tekshirtirish",
+        "gaz uskunasi nosozligini bartaraf etish"
+      ],
+      "qadamlar": [
+        "my.gov.uz saytiga kiring va OneID orqali tizimga kiring",
+        "https://my.gov.uz/uz/service/1458 manziliga o'ting va ariza shaklini to'ldirib yuboring",
+        "Xizmat narxi va shartlari bo'yicha shartnoma tuziladi",
+        "Kelishilgan vaqtda mutaxassislar gaz jihozlariga texnik xizmat ko'rsatadi",
+        "Ariza holatini shaxsiy kabinetda kuzating (aloqa markazi: 1104)"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "9 ish kuni; shartnoma asosida (pullik)",
+      "korsatuvchi_idora": "\"Hududgazta'minot\" AJ",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "suv-ulanish-texnik-shartlar",
+      "soha": "Kommunal",
+      "xizmat_nomi": "Suv tarmoqlariga ulanish uchun texnik shartlarni olish",
+      "url": "https://my.gov.uz/uz/service/166",
+      "tavsif": "Suv ta'minoti tarmoqlariga ulanish uchun texnik shartlarni onlayn olish xizmati. Texnik shartlar 3 ish kuni ichida YIDXP orqali yuboriladi.",
+      "muammolar": [
+        "uyga suv o'tkazish kerak",
+        "suv tarmog'iga ulanish uchun texnik shartlar olish",
+        "vodoprovodga ulanish uchun ruxsat olish"
+      ],
+      "qadamlar": [
+        "my.gov.uz saytiga kiring va OneID orqali tizimga kiring",
+        "https://my.gov.uz/uz/service/166 manziliga o'ting yoki Sohalar → UJKX bo'limidan xizmatni tanlang",
+        "Ariza shaklini to'ldiring va yuboring",
+        "37 080 so'm (0,09 BHM) to'lovni portal orqali amalga oshiring",
+        "3 ish kuni ichida texnik shartlarni shaxsiy kabinetda YIDXP orqali oling"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "3 ish kuni; pullik — 37 080 so'm (0,09 BHM) yagona portal orqali",
+      "korsatuvchi_idora": "\"O'zsuvta'minot\" AJ",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "suv-taminoti-shartnoma",
+      "soha": "Kommunal",
+      "xizmat_nomi": "Suv ta'minoti va suvni chiqarib tashlash xizmatlari shartnomasini tuzish",
+      "url": "https://my.gov.uz/uz/service/169",
+      "tavsif": "Suv ta'minoti va oqava suvni chiqarib tashlash bo'yicha shartnomani onlayn tuzish xizmati. Shartnoma bilan birga suv hisoblagichi o'rnatilib plombalanadi.",
+      "muammolar": [
+        "suv shartnomasini tuzish kerak",
+        "suv ta'minoti uchun rasmiy shartnoma yo'q",
+        "kanalizatsiya xizmati shartnomasini rasmiylashtirish"
+      ],
+      "qadamlar": [
+        "my.gov.uz saytiga kiring va OneID orqali tizimga kiring",
+        "https://my.gov.uz/uz/service/169 manziliga o'ting va ariza yuboring",
+        "Suv tashkiloti 2 ish kuni ichida suv hisoblagichini o'rnatib plombalaydi va shartnoma ma'lumotlarini portal orqali yuboradi",
+        "Shartnomani 5 ish kuni ichida tasdiqlab portal orqali qaytaring",
+        "Oldindan to'lov amalga oshirilgach, suv yetkazib berish boshlanadi (aloqa markazi: 1255)"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "7 ish kuni; bepul",
+      "korsatuvchi_idora": "\"O'zsuvta'minot\" AJ",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "sovuq-suv-hisoblagich-yechish-ornatish",
+      "soha": "Kommunal",
+      "xizmat_nomi": "Sovuq suv hisoblagichini yechish, o'rnatish va tamg'alashga ariza yuborish",
+      "url": "https://my.gov.uz/uz/service/224",
+      "tavsif": "Sovuq suv hisoblagichini yechish, o'rnatish va tamg'alash (plombalash) uchun onlayn ariza yuborish xizmati. Ishlar ariza beruvchi ishtirokida bajariladi.",
+      "muammolar": [
+        "suv hisoblagichni almashtirish kerak",
+        "suv schetchigini o'rnattirish",
+        "suv hisoblagichga plomba qo'ydirish"
+      ],
+      "qadamlar": [
+        "my.gov.uz saytiga kiring va OneID orqali tizimga kiring",
+        "https://my.gov.uz/uz/service/224 manziliga o'ting va ariza shaklini to'ldirib yuboring",
+        "Suv ta'minoti tashkiloti 5 ish kuni ichida kelishilgan vaqtda sizning ishtirokingizda hisoblagichni yechadi va/yoki o'rnatadi hamda tamg'alaydi",
+        "Tuzilgan dalolatnomaning bir nusxasini oling",
+        "Ariza holatini shaxsiy kabinetda kuzating"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "9 ish kuni; bepul",
+      "korsatuvchi_idora": "Toshkent shahar \"Suvsoz\" DUK va \"O'zsuvta'minot\" AJ",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "kommunal-malumotlarni-tahrirlash",
+      "soha": "Kommunal",
+      "xizmat_nomi": "Kommunal ma'lumotlarni tahrirlash uchun ariza yuborish",
+      "url": "https://my.gov.uz/uz/service/661",
+      "tavsif": "Kommunal xizmatlar bo'yicha shaxsiy hisob raqamlari va boshqa ma'lumotlardagi xatolarni tuzatish uchun onlayn ariza yuborish xizmati. Ariza 1 ish kuni ichida ko'rib chiqiladi.",
+      "muammolar": [
+        "kommunal hisob raqamida xatolik bor",
+        "kommunal ma'lumotlar noto'g'ri ko'rsatilgan",
+        "mulk egasi o'zgargan, kommunal ma'lumotlarni yangilash kerak"
+      ],
+      "qadamlar": [
+        "my.gov.uz saytiga kiring va OneID orqali tizimga kiring",
+        "https://my.gov.uz/uz/service/661 manziliga o'ting",
+        "Ariza shaklini to'ldiring (qaysi ma'lumotni tahrirlash kerakligini ko'rsating) va yuboring",
+        "1 ish kuni ichida natijani shaxsiy kabinetda kuzating"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "1 ish kuni; bepul",
+      "korsatuvchi_idora": "\"Hududiy elektr tarmoqlari\" AJ, \"Hududgazta'minot\" AJ, \"O'zsuvta'minot\" AJ, \"VEOLIA ENERGY TASHKENT\" MChJ, Qurilish va uy-joy kommunal xo'jaligi vazirligi va boshqalar",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "kommunal-hisob-raqamlarni-korish",
+      "soha": "Kommunal",
+      "xizmat_nomi": "Ko'chmas mulk obyekti uchun kommunal hisob raqamlarni ko'rish",
+      "url": "https://my.gov.uz/uz/service/707",
+      "tavsif": "Ko'chmas mulk obyektiga biriktirilgan kommunal xizmatlar hisob raqamlarini va qarzdorlik holatini avtomatik tarzda ko'rish xizmati. Natija bir daqiqada shakllanadi.",
+      "muammolar": [
+        "kommunal hisob raqamlarimni bilmayman",
+        "uy bo'yicha kommunal qarzdorlikni tekshirish",
+        "kadastr bo'yicha kommunal hisoblarni ko'rish"
+      ],
+      "qadamlar": [
+        "my.gov.uz saytiga kiring va OneID orqali tizimga kiring",
+        "https://my.gov.uz/uz/service/707 manziliga o'ting",
+        "Ko'chmas mulkning kadastr raqamini tanlang",
+        "Tizim kommunal hisob raqamlari va qarzdorlik holati bo'yicha ma'lumotnomani avtomatik shakllantiradi"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Avtomatik tarzda (taxminan 1 daqiqa); bepul",
+      "korsatuvchi_idora": "Yagona interaktiv davlat xizmatlari portali",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "boshqaruv-kompaniya-qarzdorlik-tekshirish",
+      "soha": "Kommunal",
+      "xizmat_nomi": "Boshqaruv servis kompaniyalaridan qarzdorlik holatini tekshirish (Mening uyim)",
+      "url": "https://my.gov.uz/uz/service/755",
+      "tavsif": "Ko'p kvartirali uylarni boshqaruvchi servis kompaniyalari oldidagi qarzdorlik holatini onlayn tekshirish xizmati. Natija avtomatik tarzda darhol beriladi.",
+      "muammolar": [
+        "boshqaruv kompaniyasiga qarzim bormi bilmayman",
+        "uy boshqaruvi to'lovlari bo'yicha qarzdorlikni tekshirish",
+        "TSJ/boshqaruv kompaniyasi qarzini aniqlash"
+      ],
+      "qadamlar": [
+        "my.gov.uz saytiga kiring va OneID orqali tizimga kiring",
+        "https://my.gov.uz/uz/service/755 manziliga o'ting",
+        "So'rovni yuboring",
+        "Tizim qarzdorlik holati bo'yicha ma'lumotni avtomatik ko'rsatadi (taxminan 1 daqiqa, aloqa markazi: 1298)"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Avtomatik tarzda (taxminan 1 daqiqa); bepul",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Qurilish va uy-joy kommunal xo'jaligi vazirligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "bogcha-navbatni-tekshirish",
+      "soha": "Oila va bolalar",
+      "xizmat_nomi": "Bolalarni bog'chaga qabul navbatini tekshirish",
+      "url": "https://my.gov.uz/uz/service/265",
+      "tavsif": "Ariza raqamini kiritib, farzandingizni davlat maktabgacha ta'lim muassasasiga (bog'chaga) qabul qilish navbati holati haqida ma'lumot olish xizmati. Natija avtomatik tarzda ko'rsatiladi.",
+      "muammolar": [
+        "Bog'cha navbatim qayerda ekanligini bilmayapman",
+        "Bolamning bog'cha navbati necha ekanligini qanday tekshiraman",
+        "Ariza raqamim bo'yicha navbat holatini ko'rmoqchiman"
+      ],
+      "qadamlar": [
+        "my.gov.uz portalida ro'yxatdan o'ting yoki tizimga kiring",
+        "Xizmat sahifasida (service/265) ariza raqamingizni kiriting",
+        "Navbat holati haqidagi ma'lumotni avtomatik tarzda oling"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi (faqat ariza raqami kerak)"
+      ],
+      "muddat_narx": "Avtomatik tarzda; Bepul",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Maktabgacha va maktab ta'limi vazirligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "bolani-bogchaga-joylashtirish",
+      "soha": "Oila va bolalar",
+      "xizmat_nomi": "Bolani davlat maktabgacha ta'lim muassasasiga joylashtirish uchun ariza berish",
+      "url": "https://my.gov.uz/uz/service/285",
+      "tavsif": "Bolani davlat bog'chasiga joylashtirish uchun onlayn ariza berish xizmati. Bola navbatga qo'yiladi va navbat yetganda yo'llanma shakllantirilib yuboriladi.",
+      "muammolar": [
+        "Bolamni bog'chaga qanday joylashtiraman",
+        "Bog'cha navbatiga qanday yozilaman",
+        "Bog'chaga yo'llanma qachon keladi"
+      ],
+      "qadamlar": [
+        "YIDXP (my.gov.uz) da ro'yxatdan o'ting va tizimga kiring",
+        "Ariza shaklini to'ldirib vakolatli organga yuboring",
+        "Bola navbatga qo'yilgani haqida xabarnoma oling",
+        "Bola 3 yoshga to'lib navbati yetganda yo'llanma YIDXP orqali yuboriladi"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Avtomatik tarzda; Bepul",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Maktabgacha va maktab ta'limi vazirligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "bogcha-tolovlari-malumot",
+      "soha": "Oila va bolalar",
+      "xizmat_nomi": "Maktabgacha ta'lim tashkiloti uchun amalga oshirilgan to'lovlar to'g'risida ma'lumot",
+      "url": "https://my.gov.uz/uz/service/753",
+      "tavsif": "Bog'cha (maktabgacha ta'lim tashkiloti) uchun amalga oshirilgan to'lovlar to'g'risida ma'lumot olish xizmati. So'rov taxminan 1 daqiqada avtomatik bajariladi.",
+      "muammolar": [
+        "Bog'cha to'lovlarim qancha to'langanini bilmoqchiman",
+        "Bog'cha to'lovi bo'yicha qarzdorligim bormi",
+        "Bog'cha to'lovlari tarixini qayerdan ko'raman"
+      ],
+      "qadamlar": [
+        "YIDXP (my.gov.uz) da ro'yxatdan o'ting yoki avtorizatsiyadan o'ting",
+        "Xizmat sahifasida (service/753) so'rov yuboring",
+        "To'lovlar to'g'risidagi ma'lumotni avtomatik tarzda oling"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Avtomatik tarzda (taxminan 1 daqiqa); Bepul",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Maktabgacha ta'lim vazirligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "tugilganlik-guvohnomasi",
+      "soha": "Adliya",
+      "xizmat_nomi": "Tug'ilganlik haqidagi guvohnomani olish",
+      "url": "https://my.gov.uz/uz/service/913",
+      "tavsif": "Farzand tug'ilganligini davlat ro'yxatidan o'tkazib, tug'ilganlik haqidagi guvohnomani olish xizmati. Ariza yagona portal orqali onlayn yuboriladi.",
+      "muammolar": [
+        "bolamga tug'ilganlik guvohnomasi olishim kerak",
+        "tug'ilganlik guvohnomasini qayerdan olsam bo'ladi",
+        "yangi tug'ilgan farzandni ro'yxatdan o'tkazish",
+        "tug'ilganlik guvohnomasi qancha turadi"
+      ],
+      "qadamlar": [
+        "my.gov.uz portaliga OneID (YIDXP) orqali ro'yxatdan o'ting yoki tizimga kiring",
+        "'Tug'ilganlik haqidagi guvohnomani olish' xizmatini oching va 'Ariza yuborish' tugmasini bosing",
+        "So'ralgan ma'lumotlarni to'ldirib, davlat bojini onlayn to'lang",
+        "Ariza 1 ish kunida ko'rib chiqiladi, guvohnoma FHDY organidan olinadi"
+      ],
+      "kerakli_hujjatlar": [
+        "Qo'shimcha hujjat talab etilmaydi (ma'lumotlar tizimdan olinadi)"
+      ],
+      "muddat_narx": "1 ish kuni; 55 620 so'm (0,135 BHM) yagona portal orqali",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Adliya vazirligi (FHDY organlari)",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "oqish-joyidan-malumotnoma",
+      "soha": "Ta'lim",
+      "xizmat_nomi": "O'qish joyidan (oliy ta'lim muassasasidan) ma'lumotnoma",
+      "url": "https://my.gov.uz/uz/service/323",
+      "tavsif": "Oliy ta'lim muassasasida o'qishini tasdiqlovchi ma'lumotnomani onlayn olish xizmati. Ma'lumotnoma avtomatik tarzda shakllantiriladi.",
+      "muammolar": [
+        "Universitetdan o'qish joyidan ma'lumotnoma kerak",
+        "Talabalik spravkasini onlayn qanday olaman",
+        "Ish yoki viza uchun o'qish joyidan hujjat so'rashyapti"
+      ],
+      "qadamlar": [
+        "YIDXP (my.gov.uz) da ro'yxatdan o'ting yoki avtorizatsiyadan o'ting",
+        "Xizmat sahifasida (service/323) so'rov yuboring",
+        "Ma'lumotnomani avtomatik tarzda yuklab oling"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Avtomatik tarzda; Bepul",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Oliy ta'lim, fan va innovatsiyalar vazirligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "abituriyent-royxatdan-otish",
+      "soha": "Ta'lim",
+      "xizmat_nomi": "Abituriyentni onlayn ro'yxatdan o'tkazish",
+      "url": "https://my.gov.uz/uz/service/1075",
+      "tavsif": "Oliy ta'lim muassasalariga kirish imtihonlari uchun abituriyentni onlayn ro'yxatdan o'tkazish xizmati. Avvalgi yillarda ta'limni tugatgan abituriyentlar uchun to'lov qoidalari farq qiladi.",
+      "muammolar": [
+        "OTMga hujjat topshirishni qanday boshlayman",
+        "Abituriyent sifatida qayerda ro'yxatdan o'taman",
+        "Test imtihoniga onlayn yozilish qancha turadi"
+      ],
+      "qadamlar": [
+        "Xizmat sahifasida (service/1075) telefon raqamingizni kiriting",
+        "Telefonga kelgan maxsus kodni tegishli maydonga kiriting",
+        "Ariza shaklini to'ldirib Bilim va malakalarni baholash agentligiga yuboring",
+        "To'lovni amalga oshiring (yagona portal orqali 0,5 BHM)"
+      ],
+      "kerakli_hujjatlar": [
+        "Umumiy o'rta ta'lim (11-sinf negizida) yoki o'rta maxsus, kasb-hunar ta'limi muassasasini tugatganligi haqidagi hujjat ma'lumotlari"
+      ],
+      "muddat_narx": "Avtomatik tarzda; 206 000 so'm (0,5 BHM), avvalgi yillar bitiruvchilari uchun bepul holatlar mavjud",
+      "korsatuvchi_idora": "Oliy ta'lim, fan va innovatsiyalar vazirligi huzuridagi Bilim va malakalarni baholash agentligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "talabalar-turar-joyi",
+      "soha": "Ta'lim",
+      "xizmat_nomi": "Talabalar turar joyiga joylashish uchun ariza yuborish",
+      "url": "https://my.gov.uz/uz/service/870",
+      "tavsif": "Talabalar turar joyiga (yotoqxonaga) joylashish uchun onlayn ariza yuborish xizmati. Ariza taxminan 5 daqiqada rasmiylashtiriladi.",
+      "muammolar": [
+        "Yotoqxonaga qanday ariza beraman",
+        "Talabalar turar joyiga joylashish tartibi qanday",
+        "Yotoqxona uchun qayerga murojaat qilaman"
+      ],
+      "qadamlar": [
+        "YIDXP (my.gov.uz) da ro'yxatdan o'ting yoki avtorizatsiyadan o'ting",
+        "Xizmat sahifasida (service/870) ariza yuboring",
+        "Ariza natijasini kuting (ko'rib chiqish avtomatik tartibda)"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Avtomatik tarzda (taxminan 5 daqiqa); Bepul",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Oliy ta'lim, fan va innovatsiyalar vazirligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ruhiy-dispanser-malumotnoma",
+      "soha": "Sog'liqni saqlash",
+      "xizmat_nomi": "Fuqarolarning Ruhiy kasalliklar bo'yicha dispanser hisobida turishi yoki turmasligi to'g'risida ma'lumotnoma",
+      "url": "https://my.gov.uz/uz/service/334",
+      "tavsif": "Ruhiy kasalliklar dispanseri hisobida turish yoki turmaslik to'g'risidagi ma'lumotnomani onlayn olish xizmati. Ishga kirish, haydovchilik guvohnomasi va boshqa holatlar uchun kerak bo'ladi.",
+      "muammolar": [
+        "Ishga kirish uchun ruhiy dispanserdan spravka kerak",
+        "Psixdispanser ma'lumotnomasini onlayn olsa bo'ladimi",
+        "Dispanserga bormasdan ma'lumotnoma olish"
+      ],
+      "qadamlar": [
+        "YIDXP (my.gov.uz) da ro'yxatdan o'ting yoki avtorizatsiyadan o'ting",
+        "Xizmat sahifasida (service/334) so'rov yuboring",
+        "To'lovni amalga oshiring (0,018 BHM)",
+        "Ma'lumotnomani avtomatik tarzda yuklab oling"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Avtomatik tarzda; 7 416 so'm (0,018 BHM) yagona portal orqali",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Sog'liqni saqlash vazirligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "narkologiya-dispanser-malumotnoma",
+      "soha": "Sog'liqni saqlash",
+      "xizmat_nomi": "Fuqarolarning Narkologiya dispanseri hisobida turishi yoki turmasligi to'g'risida ma'lumotnoma (soddalashtirilgan tartibda)",
+      "url": "https://my.gov.uz/uz/service/338",
+      "tavsif": "Narkologiya dispanseri hisobida turish yoki turmaslik to'g'risidagi ma'lumotnomani soddalashtirilgan tartibda onlayn olish xizmati. Hujjat QR-kod bilan taqdim etiladi.",
+      "muammolar": [
+        "Narkodispanserdan spravkani onlayn qanday olaman",
+        "Haydovchilik guvohnomasi uchun narkologiya ma'lumotnomasi kerak",
+        "Navbatda turmasdan dispanser spravkasini olish"
+      ],
+      "qadamlar": [
+        "YIDXP (my.gov.uz) da ro'yxatdan o'ting yoki avtorizatsiyadan o'ting",
+        "Xizmat sahifasida (service/338) so'rov yuboring",
+        "To'lovni amalga oshiring (0,018 BHM)",
+        "QR-kodli ma'lumotnomani avtomatik tarzda yuklab oling"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Avtomatik tarzda (taxminan 3 daqiqa); 7 416 so'm (0,018 BHM) yagona portal orqali",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Sog'liqni saqlash vazirligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "sanatoriyga-navbatni-tekshirish",
+      "soha": "Sog'liqni saqlash",
+      "xizmat_nomi": "Sanatoriyga navbatni tekshirish",
+      "url": "https://my.gov.uz/uz/service/655",
+      "tavsif": "Imtiyozli sanatoriy-kurort yo'llanmasiga navbat holatini onlayn tekshirish xizmati. Natija taxminan 1 daqiqada avtomatik ko'rsatiladi.",
+      "muammolar": [
+        "Sanatoriyga navbatim qachon yetadi",
+        "Imtiyozli yo'llanma navbatini qayerdan tekshiraman",
+        "Sanatoriy navbati ro'yxatida turibmanmi"
+      ],
+      "qadamlar": [
+        "YIDXP (my.gov.uz) da ro'yxatdan o'ting yoki avtorizatsiyadan o'ting",
+        "Xizmat sahifasida (service/655) so'rov yuboring",
+        "Navbat holati haqidagi ma'lumotni avtomatik tarzda oling"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Avtomatik tarzda (taxminan 1 daqiqa); Bepul",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Prezidenti huzuridagi Ijtimoiy himoya milliy agentligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "mehnatga-layoqatsizlik-varaqasi",
+      "soha": "Sog'liqni saqlash",
+      "xizmat_nomi": "Vaqtincha mehnatga layoqatsizlik varaqalari ma'lumotnomalarini olish",
+      "url": "https://my.gov.uz/uz/service/855",
+      "tavsif": "Vaqtincha mehnatga layoqatsizlik varaqalari (kasallik varaqasi, bolnichniy) bo'yicha ma'lumotnomalarni onlayn olish xizmati. Faqat jismoniy shaxslar uchun.",
+      "muammolar": [
+        "Kasallik varaqam bo'yicha ma'lumotnoma kerak",
+        "Bolnichniy varaqamni onlayn qayerdan olaman",
+        "Ish beruvchiga mehnatga layoqatsizlik varaqasini taqdim etishim kerak"
+      ],
+      "qadamlar": [
+        "YIDXP (my.gov.uz) da ro'yxatdan o'ting yoki avtorizatsiyadan o'ting",
+        "Xizmat sahifasida (service/855) so'rov yuboring",
+        "Ma'lumotnomani avtomatik tarzda (taxminan 1 daqiqada) oling"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Avtomatik tarzda (taxminan 1 daqiqa); Bepul",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Sog'liqni saqlash vazirligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "bolalar-oromgohi-yollanma",
+      "soha": "Yoshlar",
+      "xizmat_nomi": "Bolalar sog'lomlashtirish oromgohlariga yo'llanma olish",
+      "url": "https://my.gov.uz/uz/service/1181",
+      "tavsif": "Bolalar sog'lomlashtirish oromgohlariga (yozgi lagerlarga) yo'llanmani onlayn band qilish va olish xizmati. Yo'llanma to'liq to'lov amalga oshirilgach shakllantiriladi.",
+      "muammolar": [
+        "Bolamni yozgi lagerga qanday yuboraman",
+        "Oromgohga yo'llanmani onlayn olsa bo'ladimi",
+        "Lager yo'llanmasi qancha turadi"
+      ],
+      "qadamlar": [
+        "YIDXP (my.gov.uz) da ro'yxatdan o'ting va tizimga kiring",
+        "Bo'sh smenani tanlab anketani to'ldiring va yuboring",
+        "30 daqiqa ichida yo'llanma uchun to'liq to'lovni amalga oshiring (aks holda bron avtomatik bekor qilinadi)",
+        "Shakllantirilgan yo'llanmani oling"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Avtomatik ravishda; Oromgoh tomonidan belgilangan tarif asosida to'lanadi",
+      "korsatuvchi_idora": "O'zbekiston kasaba uyushmalari federatsiyasi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "it-sertifikat-xarajatlarini-qoplash",
+      "soha": "Yoshlar",
+      "xizmat_nomi": "Yoshlarning xalqaro IT-sertifikatlarni olish xarajatlarini qoplab berish bo'yicha ariza yuborish",
+      "url": "https://my.gov.uz/uz/service/622",
+      "tavsif": "14-31 yoshdagi O'zbekiston fuqarolariga xalqaro IT-sertifikat olish xarajatlarini davlat tomonidan qoplab berish uchun ariza yuborish xizmati. Ariza 25 ish kunida ko'rib chiqiladi.",
+      "muammolar": [
+        "IT sertifikat uchun to'lagan pulimni qanday qaytarib olaman",
+        "Xalqaro IT-sertifikat xarajatlarini davlat qoplaydimi",
+        "IT kurs va sertifikat uchun kompensatsiya olish tartibi"
+      ],
+      "qadamlar": [
+        "YIDXP (my.gov.uz) da ro'yxatdan o'ting yoki avtorizatsiyadan o'ting",
+        "Xizmat sahifasida (service/622) ariza shaklini to'ldiring",
+        "Sertifikat nusxasi, to'lov kvitansiyasi va boshqa hujjatlarni PDF shaklida biriktiring",
+        "Arizani yuboring va 25 ish kuni ichida natijani kuting"
+      ],
+      "kerakli_hujjatlar": [
+        "Xalqaro IT-sertifikat nusxasi (PDF)",
+        "Sertifikat xarajatlarini tasdiqlovchi to'lov kvitansiyasi (PDF)",
+        "Milliy valyutadagi amaldagi bank karta ma'lumotlari",
+        "To'liq qoplash uchun: ingliz tili bo'yicha B2 va undan yuqori darajani tasdiqlovchi xalqaro sertifikat (PDF)",
+        "O'quv kurslari qoplamasi uchun: kursni tugatganlikni tasdiqlovchi sertifikatlar (PDF)"
+      ],
+      "muddat_narx": "25 ish kuni; Bepul",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Raqamli texnologiyalar vazirligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "nikoh-qayd-etish",
+      "soha": "Adliya",
+      "xizmat_nomi": "Nikohni qayd etish uchun FHDY organiga ariza yuborish",
+      "url": "https://my.gov.uz/uz/service/133",
+      "tavsif": "Nikohni davlat ro'yxatidan o'tkazish uchun FHDY organiga onlayn ariza yuborish xizmati. Ariza yuborish taxminan 6 daqiqa vaqt oladi.",
+      "muammolar": [
+        "nikoh qayd etishga qanday ariza beriladi",
+        "ZAGSga onlayn ariza topshirish",
+        "to'y uchun nikoh sanasini band qilish",
+        "nikohni ro'yxatdan o'tkazish qancha vaqt oladi"
+      ],
+      "qadamlar": [
+        "my.gov.uz portaliga OneID (YIDXP) orqali kiring",
+        "'Nikohni qayd etish' xizmatini tanlab, 'Ariza yuborish' tugmasini bosing",
+        "Kelin-kuyov ma'lumotlarini, FHDY organi va nikoh sanasini tanlab arizani to'ldiring",
+        "Belgilangan sanada FHDY organiga tashrif buyurib, nikohni qayd ettiring"
+      ],
+      "kerakli_hujjatlar": [
+        "Qo'shimcha hujjat talab etilmaydi (ariza onlayn to'ldiriladi)"
+      ],
+      "muddat_narx": "1 oy; bepul (ariza yuborish)",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Adliya vazirligi (FHDY organlari)",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "apostil-qoyish",
+      "soha": "Adliya",
+      "xizmat_nomi": "Rasmiy hujjatlarga apostil qo'yish",
+      "url": "https://my.gov.uz/uz/service/543",
+      "tavsif": "Gaaga konvensiyasiga a'zo davlatlarda foydalanish uchun rasmiy hujjatlarga apostil shtampini qo'yish xizmati. Jismoniy va yuridik shaxslar uchun.",
+      "muammolar": [
+        "diplomga apostil qo'yish kerak",
+        "chet elda hujjatim tan olinishi uchun nima qilay",
+        "apostil qancha turadi va qancha vaqtda tayyor bo'ladi",
+        "tug'ilganlik guvohnomasiga apostil qo'ydirish"
+      ],
+      "qadamlar": [
+        "my.gov.uz portaliga OneID orqali kiring",
+        "'Rasmiy hujjatlarga apostil qo'yish' xizmatini tanlang",
+        "Hujjat turini va apostil qo'yuvchi idorani (Adliya, TIV, Oliy sud va b.) tanlab arizani to'ldiring",
+        "Davlat bojini to'lang va tayyor bo'lganda apostil qo'yilgan hujjatni oling"
+      ],
+      "kerakli_hujjatlar": [
+        "Konvensiya qatnashchisi hududida foydalaniladigan rasmiy hujjat yoki norasmiy hujjatning notarial tasdiqlangan nusxasi"
+      ],
+      "muddat_narx": "2 ish kuni (zarur hollarda 10 ish kunigacha); 74 160 so'm (0,18 BHM)",
+      "korsatuvchi_idora": "Adliya vazirligi, Tashqi ishlar vazirligi, Oliy sud va boshqa vakolatli idoralar",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "id-karta-olish",
+      "soha": "Fuqarolik",
+      "xizmat_nomi": "ID karta olish yoki almashtirish uchun ariza yuborish",
+      "url": "https://my.gov.uz/uz/service/378",
+      "tavsif": "O'zbekiston fuqarolari va rezidentlari uchun ID kartani olish yoki almashtirishga onlayn ariza yuborish xizmati. Biometrik ma'lumotlar yig'ish punktida topshiriladi.",
+      "muammolar": [
+        "ID karta olmoqchiman, qanday ariza beraman",
+        "pasportni ID kartaga almashtirish",
+        "ID karta muddati tugadi, yangilash kerak",
+        "ID karta narxi qancha"
+      ],
+      "qadamlar": [
+        "my.gov.uz portaliga OneID orqali kiring va 'ID karta olish yoki almashtirish' xizmatini tanlang",
+        "Arizani to'ldirib, davlat bojini onlayn to'lang",
+        "Migratsiya va fuqarolikni rasmiylashtirish bo'limi yoki Davlat xizmatlari markazidagi ma'lumot yig'ish punktiga boring",
+        "Biometrik ma'lumotlar (barmoq izlari, raqamli surat) topshirib, tayyor ID kartani oling"
+      ],
+      "kerakli_hujjatlar": [
+        "O'zbekiston fuqarosining biometrik pasporti yoki amaldagi ID kartasi",
+        "Fuqaroligi bo'lmagan shaxslar uchun O'zbekistonda yashash guvohnomasi"
+      ],
+      "muddat_narx": "1 ish kuni (ariza ko'rib chiqish); 330 012 so'm (0,801 BHM)",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Ichki ishlar vazirligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "propiska-royxatdan-otkazish",
+      "soha": "Fuqarolik",
+      "xizmat_nomi": "Yashash joyi bo'yicha (doimiy) ro'yxatdan o'tkazish",
+      "url": "https://my.gov.uz/uz/service/363",
+      "tavsif": "Fuqarolar, chet el fuqarolari va fuqaroligi bo'lmagan shaxslarni yashash joyi bo'yicha doimiy ro'yxatdan (propiska) o'tkazish xizmati.",
+      "muammolar": [
+        "propiska qilish kerak",
+        "yangi manzilga ro'yxatdan o'tish",
+        "doimiy propiskani onlayn rasmiylashtirish",
+        "propiska qancha turadi"
+      ],
+      "qadamlar": [
+        "my.gov.uz portaliga OneID orqali kiring",
+        "'Yashash joyi bo'yicha (doimiy) ro'yxatdan o'tkazish' xizmatini tanlang",
+        "Yashash manzili va uy-joy ma'lumotlarini kiritib arizani yuboring, yig'imni to'lang",
+        "Ariza 1 ish kunida ko'rib chiqiladi va ro'yxatga olish rasmiylashtiriladi"
+      ],
+      "kerakli_hujjatlar": [
+        "Qo'shimcha hujjat talab etilmaydi (ma'lumotlar tizimdan olinadi)"
+      ],
+      "muddat_narx": "1 ish kuni; 7 416 so'm (0,018 BHM)",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Ichki ishlar vazirligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "yashash-joyi-malumotnoma",
+      "soha": "Ma'lumotnomalar",
+      "xizmat_nomi": "Doimiy yashash joyi to'g'risida ma'lumotnoma",
+      "url": "https://my.gov.uz/uz/service/367",
+      "tavsif": "Doimiy yashash joyini (propiskani) tasdiqlovchi QR-kodli ma'lumotnomani avtomatik shakllantirib olish xizmati. Ishga, bankka va boshqa idoralarga taqdim etish uchun ishlatiladi.",
+      "muammolar": [
+        "yashash joyidan ma'lumotnoma kerak",
+        "propiskadan spravka olish",
+        "oila tarkibi va yashash joyi haqida hujjat so'rashyapti",
+        "spravkani onlayn qayerdan olaman"
+      ],
+      "qadamlar": [
+        "my.gov.uz portaliga OneID orqali kiring",
+        "'Doimiy yashash joyi to'g'risida ma'lumotnoma' xizmatini tanlang va so'rov yuboring",
+        "Tizim QR-kodli ma'lumotnomani avtomatik shakllantiradi — uni yuklab oling yoki chop eting"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Avtomatik tarzda (bir necha daqiqa); bepul",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Ichki ishlar vazirligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "sudlanmaganlik-malumotnoma",
+      "soha": "Ma'lumotnomalar",
+      "xizmat_nomi": "Sudlanmaganlik (yoki sudlanganlik) to'g'risida ma'lumotnoma",
+      "url": "https://my.gov.uz/uz/service/135",
+      "tavsif": "Shaxsning sudlanmaganligi yoki sudlanganligi to'g'risidagi rasmiy ma'lumotnomani onlayn olish xizmati. Ishga kirish, viza va chet elda ishlash uchun tez-tez talab qilinadi.",
+      "muammolar": [
+        "sudlanmaganlik haqida spravka kerak",
+        "ishga kirishda sudlanmaganlik ma'lumotnomasi so'rashyapti",
+        "viza uchun sudlanmaganlik hujjati",
+        "sudlanmaganlik ma'lumotnomasi qancha vaqtda tayyor bo'ladi"
+      ],
+      "qadamlar": [
+        "my.gov.uz portaliga OneID orqali kiring",
+        "'Sudlanmaganlik to'g'risida ma'lumotnoma' xizmatini tanlang",
+        "So'rovni to'ldirib, yig'imni onlayn to'lang",
+        "2 ish kunida tayyor ma'lumotnomani shaxsiy kabinetdan yuklab oling"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "2 ish kuni; 11 124 so'm (0,027 BHM)",
+      "korsatuvchi_idora": "Huquqiy statistika va tezkor-hisob ma'lumotlar markazi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "farzand-tugilganligi-malumotnoma",
+      "soha": "Ma'lumotnomalar",
+      "xizmat_nomi": "Tug'ilganlik haqida dalolatnoma yozuvi qayd qilinganligi to'g'risida ma'lumotnoma",
+      "url": "https://my.gov.uz/uz/service/1402",
+      "tavsif": "Farzand tug'ilganligi FHDY organida qayd etilganligini tasdiqlovchi ma'lumotnomani avtomatik olish xizmati.",
+      "muammolar": [
+        "farzand tug'ilganligi haqida ma'lumotnoma kerak",
+        "tug'ilganlik qayd etilganini tasdiqlovchi hujjat",
+        "nafaqa rasmiylashtirish uchun tug'ilganlik spravkasi"
+      ],
+      "qadamlar": [
+        "my.gov.uz portaliga OneID orqali kiring",
+        "'Tug'ilganlik haqida dalolatnoma yozuvi qayd qilinganligi to'g'risida ma'lumotnoma' xizmatini tanlang",
+        "So'rov yuboring — ma'lumotnoma avtomatik shakllantiriladi va yuklab olinadi"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Avtomatik tarzda; bepul",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Adliya vazirligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "vafot-etganlik-malumotnoma",
+      "soha": "Ma'lumotnomalar",
+      "xizmat_nomi": "Vafot etganlik haqida dalolatnoma yozuvi qayd qilinganligi to'g'risida ma'lumotnoma",
+      "url": "https://my.gov.uz/uz/service/1391",
+      "tavsif": "Shaxsning vafoti FHDY organida qayd etilganligini tasdiqlovchi ma'lumotnomani avtomatik olish xizmati. Meros va nafaqa masalalarida talab qilinadi.",
+      "muammolar": [
+        "vafot etganlik haqida ma'lumotnoma olish",
+        "meros rasmiylashtirish uchun o'lim haqida spravka",
+        "vafot guvohnomasi qayd etilganini tasdiqlash"
+      ],
+      "qadamlar": [
+        "my.gov.uz portaliga OneID orqali kiring",
+        "'Vafot etganlik haqida dalolatnoma yozuvi qayd qilinganligi to'g'risida ma'lumotnoma' xizmatini tanlang",
+        "So'rov yuboring — ma'lumotnoma avtomatik shakllantiriladi"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Avtomatik tarzda; bepul",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Adliya vazirligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "fish-ozgartirganlik-malumotnoma",
+      "soha": "Ma'lumotnomalar",
+      "xizmat_nomi": "Familiya, ism, ota ismini o'zgartirganlik to'g'risidagi ma'lumotnoma",
+      "url": "https://my.gov.uz/uz/service/297",
+      "tavsif": "Familiya, ism yoki otasining ismi o'zgartirilganligini tasdiqlovchi FHDY ma'lumotnomasini onlayn olish xizmati.",
+      "muammolar": [
+        "familiyamni o'zgartirganman, buni tasdiqlovchi hujjat kerak",
+        "ism o'zgartirganlik haqida spravka",
+        "hujjatlarda eski va yangi familiya farq qiladi"
+      ],
+      "qadamlar": [
+        "my.gov.uz portaliga OneID orqali kiring va xizmatni tanlang",
+        "So'rovnomani to'ldirib, yig'imni onlayn to'lang",
+        "FHDY organi ma'lumotnomani rasmiylashtirib, portal orqali yuboradi — 3 ish kunida yuklab oling"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "3 ish kuni; 18 540 so'm (0,045 BHM)",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Adliya vazirligi (FHDY organlari)",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "aliment-tolovlarini-tekshirish",
+      "soha": "Ma'lumotnomalar",
+      "xizmat_nomi": "Aliment bo'yicha hisoblangan yoki kelib tushgan to'lovlarni tekshirish",
+      "url": "https://my.gov.uz/uz/service/537",
+      "tavsif": "Aliment bo'yicha hisoblangan yoki kelib tushgan to'lovlar holatini onlayn tekshirish xizmati. Natija avtomatik ko'rsatiladi.",
+      "muammolar": [
+        "aliment to'lovlari kelib tushganini qanday tekshiraman",
+        "aliment qarzdorligini bilish",
+        "aliment bo'yicha hisoblangan summani ko'rish"
+      ],
+      "qadamlar": [
+        "my.gov.uz portaliga OneID orqali kiring",
+        "'Aliment bo'yicha hisoblangan yoki kelib tushgan to'lovlarni tekshirish' xizmatini tanlang",
+        "So'rov yuboring — ma'lumot avtomatik tarzda (taxminan 1 daqiqada) ko'rsatiladi"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Avtomatik tarzda (1 daqiqa); bepul",
+      "korsatuvchi_idora": "Bosh prokuratura huzuridagi Majburiy ijro byurosi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "jarimalarni-tekshirish",
+      "soha": "Ma'lumotnomalar",
+      "xizmat_nomi": "Jarimalar",
+      "url": "https://my.gov.uz/uz/service/567",
+      "tavsif": "Fuqaroga nisbatan qo'llanilgan jarimalar bo'yicha ma'lumotni onlayn olish xizmati. Sahifada xizmat tafsilotlari qisqa ko'rsatilgan.",
+      "muammolar": [
+        "jarimalarimni qanday tekshiraman",
+        "menga jarima yozilganmi bilmoqchiman",
+        "jarima qarzdorligini onlayn ko'rish"
+      ],
+      "qadamlar": [
+        "my.gov.uz portaliga OneID orqali kiring",
+        "'Jarimalar' xizmatini oching va 'Ariza yuborish' tugmasini bosing",
+        "Ma'lumot avtomatik ravishda (taxminan 1 daqiqada) taqdim etiladi"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Avtomatik ravishda (1 daqiqa); bepul",
+      "korsatuvchi_idora": "Tashqi ishlar vazirligi qoshidagi Diplomatik korpusga xizmat ko'rsatish byurosi (portalda ko'rsatilgan)",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "manzil-malumot-axboroti",
+      "soha": "Ma'lumotnomalar",
+      "xizmat_nomi": "Manzil-ma'lumot axborotlari to'g'risida ma'lumotnoma",
+      "url": "https://my.gov.uz/uz/service/132",
+      "tavsif": "Shaxsning yashash manzili bo'yicha rasmiy manzil-ma'lumot axborotini (spravkasini) olish xizmati.",
+      "muammolar": [
+        "boshqa shaxsning ro'yxatda turgan manzilini rasmiy so'rash",
+        "manzil-ma'lumot spravkasi kerak",
+        "sudga taqdim etish uchun manzil haqida ma'lumot"
+      ],
+      "qadamlar": [
+        "my.gov.uz portaliga OneID orqali kiring",
+        "'Manzil-ma'lumot axborotlari to'g'risida ma'lumotnoma' xizmatini tanlang",
+        "So'rovni to'ldirib, yig'imni onlayn to'lang",
+        "2 ish kunida tayyor ma'lumotnomani shaxsiy kabinetdan oling"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "2 ish kuni; 11 124 so'm (0,027 BHM)",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Ichki ishlar vazirligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "bolalar-nafaqasi-moddiy-yordam",
+      "soha": "Ijtimoiy himoya",
+      "xizmat_nomi": "Bolalar nafaqasi yoki moddiy yordam tayinlash",
+      "url": "https://my.gov.uz/uz/service/1017",
+      "tavsif": "Kam ta'minlangan, \"Ijtimoiy himoya yagona reestri\"ga kiritilgan oilalarga bolalar nafaqasi yoki moddiy yordam tayinlash uchun onlayn ariza berish xizmati. Ariza bir oy mobaynida ko'rib chiqiladi.",
+      "muammolar": [
+        "bolalar nafaqasini qanday rasmiylashtiraman",
+        "kam ta'minlangan oilaga moddiy yordam olish",
+        "nafaqa arizam rad etildi nima qilay",
+        "nafaqa puli kelmayapti"
+      ],
+      "qadamlar": [
+        "OneID orqali YIDXP (my.gov.uz)ga kirish",
+        "Ijtimoiy himoya bo'limidagi xizmatni tanlash",
+        "So'rovnoma (ariza) shaklini to'ldirish va yuborish",
+        "Ijtimoiy himoya milliy agentligi qarorini shaxsiy kabinetda kuzatish"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi (ma'lumotlar idoralararo almashinuv orqali olinadi)"
+      ],
+      "muddat_narx": "Bepul; bir oy mobaynida ko'rib chiqiladi",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Prezidenti huzuridagi Ijtimoiy himoya milliy agentligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ijtimoiy-reyestrga-kirish",
+      "soha": "Ijtimoiy himoya",
+      "xizmat_nomi": "Ijtimoiy reyestrga kiritish yoki chiqarish uchun ariza berish",
+      "url": "https://my.gov.uz/uz/service/587",
+      "tavsif": "Fuqarolarning \"Ijtimoiy himoya yagona reestri\"ga kiritilishi yoki undan chiqarilishi bo'yicha onlayn ariza berish xizmati. Reyestrga kiritilgan oilalar nafaqa va boshqa ijtimoiy yordam turlariga da'vogar bo'ladi.",
+      "muammolar": [
+        "ijtimoiy reyestrga qanday kiraman",
+        "oilamiz reyestrga kiritilmadi",
+        "reyestrdan chiqarib yuborishdi sababini bilmayman",
+        "ijtimoiy himoya reestri holatimni tekshirish"
+      ],
+      "qadamlar": [
+        "OneID orqali YIDXPga kirish",
+        "\"Ijtimoiy reyestrlar\" bo'limiga o'tish",
+        "So'rovnomani to'ldirish va yuborish",
+        "Ijtimoiy himoya milliy agentligi natijasini YIDXP orqali kutish"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Bepul; bir oy",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Prezidenti huzuridagi Ijtimoiy himoya milliy agentligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "nafaqa-tayinlash-nogironlik",
+      "soha": "Ijtimoiy himoya",
+      "xizmat_nomi": "Nafaqa tayinlash uchun ariza berish",
+      "url": "https://my.gov.uz/uz/service/486",
+      "tavsif": "Bolalikdan nogironligi bo'lgan 18 yoshdan oshgan shaxslar hamda ish stajiga ega bo'lmagan I va II guruh nogironligi bo'lgan fuqarolar uchun nafaqa tayinlashga onlayn ariza berish xizmati.",
+      "muammolar": [
+        "nogironlik nafaqasini qanday rasmiylashtiraman",
+        "stajim yo'q nafaqa olsam bo'ladimi",
+        "bolalikdan nogiron farzandimga nafaqa",
+        "VTEK dan o'tdim endi nima qilay"
+      ],
+      "qadamlar": [
+        "OneID orqali YIDXPga kirish",
+        "Nafaqa tayinlash xizmatini tanlash",
+        "Ariza so'rovnomasini to'ldirish va yuborish",
+        "Pensiya jamg'armasi tuman bo'limi qarorini shaxsiy kabinetda kuzatish"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi (nogironlik ma'lumotlari tibbiy-ijtimoiy ekspertiza tizimidan olinadi)"
+      ],
+      "muddat_narx": "Bepul",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Iqtisodiyot va moliya vazirligi huzuridagi budjetdan tashqari Pensiya jamg'armasi",
+      "sahifa_ochildi": false
+    },
+    {
+      "id": "dafn-nafaqasi",
+      "soha": "Ijtimoiy himoya",
+      "xizmat_nomi": "Dafn marosimlarini o'tkazish uchun nafaqa pulini olishga ariza berish",
+      "url": "https://my.gov.uz/uz/service/348",
+      "tavsif": "Vafot etgan shaxsning dafn marosimlarini o'tkazish uchun beriladigan bir martalik nafaqani olishga onlayn ariza berish xizmati.",
+      "muammolar": [
+        "dafn puli qanday olinadi",
+        "yaqinim vafot etdi dafn nafaqasi kimga beriladi",
+        "dafn nafaqasi uchun qayerga murojaat qilaman"
+      ],
+      "qadamlar": [
+        "OneID orqali YIDXPga kirish",
+        "Xizmat sahifasida ariza shaklini to'ldirish",
+        "Vafot etgan shaxs ma'lumotlarini ko'rsatib yuborish",
+        "Natijani shaxsiy kabinetda kuzatish"
+      ],
+      "kerakli_hujjatlar": [
+        "Aniqlanmadi (sahifa ochilmadi)"
+      ],
+      "muddat_narx": "Aniqlanmadi (sahifa ochilmadi)",
+      "korsatuvchi_idora": "Budjetdan tashqari Pensiya jamg'armasi",
+      "sahifa_ochildi": false
+    },
+    {
+      "id": "ayollar-daftari-malumotnoma",
+      "soha": "Ijtimoiy himoya",
+      "xizmat_nomi": "Fuqarolarning \"Ayollar daftari\"ga kiritilgani to'g'risida ma'lumotnoma",
+      "url": "https://my.gov.uz/uz/service/745",
+      "tavsif": "Fuqaroning \"Ayollar daftari\"da mavjudligi haqida avtomatik tarzda ma'lumotnoma olish xizmati. Ma'lumotnoma 1 daqiqada shakllantiriladi.",
+      "muammolar": [
+        "ayollar daftarida borligimni qanday tekshiraman",
+        "ayollar daftari ma'lumotnomasi kerak",
+        "daftarga kiritilganman lekin yordam olmayapman"
+      ],
+      "qadamlar": [
+        "OneID orqali YIDXPga kirish",
+        "\"Ayollar huquqlarini himoya qilish\" bo'limidan xizmatni tanlash",
+        "So'rov yuborish — ma'lumotnoma avtomatik shakllantiriladi"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Bepul; avtomatik tarzda (taxminan 1 daqiqa)",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Oila va xotin-qizlar qo'mitasi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "pensiya-tayinlash",
+      "soha": "Pensiya",
+      "xizmat_nomi": "Pensiya tayinlash uchun ariza berish",
+      "url": "https://my.gov.uz/uz/service/975",
+      "tavsif": "Yoshga doir pensiya tayinlash uchun portal orqali murojaat qilish xizmati. Ish staji, ish haqi va boshqa ma'lumotlar asosida \"Pensiya\" axborot tizimi hisob-kitob qilib pensiya tayinlaydi.",
+      "muammolar": [
+        "pensiyaga qanday chiqaman",
+        "pensiya tayinlash uchun qayerga boraman",
+        "stajim to'g'ri hisoblanmadi",
+        "pensiya arizam qancha vaqtda ko'riladi"
+      ],
+      "qadamlar": [
+        "OneID orqali YIDXPga kirish",
+        "\"Pensiya tayinlash va to'lash\" bo'limidan xizmatni tanlash",
+        "So'rovnoma shaklini to'ldirib \"Pensiya\" dasturiy majmuasiga yuborish",
+        "Pensiya jamg'armasi hisob-kitobi natijasini shaxsiy kabinetda olish"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi (staj va ish haqi ma'lumotlari idoralararo almashinuvdan olinadi)"
+      ],
+      "muddat_narx": "Bepul; 10 kun",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Iqtisodiyot va moliya vazirligi huzuridagi budjetdan tashqari Pensiya jamg'armasi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "pensiya-jamgarmasi-malumotnoma",
+      "soha": "Pensiya",
+      "xizmat_nomi": "Pensiya jamg'armasi hisobida turishi to'g'risida ma'lumotnoma",
+      "url": "https://my.gov.uz/uz/service/990",
+      "tavsif": "Fuqaroning Pensiya jamg'armasi hisobida turishi to'g'risida ma'lumotnomani avtomatik tarzda, hujjatsiz olish xizmati.",
+      "muammolar": [
+        "pensiya hisobida turishim haqida spravka kerak",
+        "bankka pensioner ekanligimni tasdiqlash kerak",
+        "pensiya ma'lumotnomasini onlayn olish"
+      ],
+      "qadamlar": [
+        "OneID orqali YIDXPga kirish",
+        "\"Ma'lumotnomalar va tasdiqlar\" bo'limidan xizmatni tanlash",
+        "So'rov yuborish — ma'lumotnoma avtomatik shakllantiriladi"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Bepul; avtomatik tarzda",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Iqtisodiyot va moliya vazirligi huzuridagi budjetdan tashqari Pensiya jamg'armasi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "jamgarib-boriladigan-pensiya-hisobvaragi",
+      "soha": "Pensiya",
+      "xizmat_nomi": "Shaxsiy jamg'arib boriladigan pensiya hisobvarag'i holati haqida ma'lumot olish",
+      "url": "https://my.gov.uz/uz/service/53",
+      "tavsif": "Fuqarolarning shaxsiy jamg'arib boriladigan pensiya hisobvarag'idagi mablag' holatini onlayn, avtomatik tarzda bilib olish xizmati.",
+      "muammolar": [
+        "jamg'arib boriladigan pensiya hisobimda qancha pul bor",
+        "INPS hisobvaragimni qanday tekshiraman",
+        "jamg'arma pensiya pulini qachon olsam bo'ladi"
+      ],
+      "qadamlar": [
+        "OneID orqali YIDXPga kirish",
+        "\"Pensiya jamg'armalari\" bo'limidan xizmatni tanlash",
+        "So'rov yuborish — hisobvaraq holati avtomatik shakllantiriladi"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Bepul; avtomatik tarzda",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi aksiyadorlik tijorat Xalq banki",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "pensiya-toxtatib-turish",
+      "soha": "Pensiya",
+      "xizmat_nomi": "Pensiya berishni to'xtatib turish",
+      "url": "https://my.gov.uz/uz/service/957",
+      "tavsif": "Fuqaroga o'z pensiya to'lovini vaqtincha to'xtatib turish imkonini beruvchi elektron xizmat (masalan, chet elga chiqishda yoki ishga kirishda).",
+      "muammolar": [
+        "chet elga ketyapman pensiyamni to'xtatib turish kerak",
+        "pensiya to'lovini vaqtincha to'xtatish",
+        "pensiyani to'xtatgach qayta tiklash"
+      ],
+      "qadamlar": [
+        "OneID orqali YIDXPga kirish",
+        "Xizmatni tanlab so'rov yuborish",
+        "Pensiya jamg'armasi bo'limi arizani axborot tizimida rasmiylashtirib to'lovni vaqtincha to'xtatadi"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Bepul; avtomatik tarzda",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Iqtisodiyot va moliya vazirligi huzuridagi budjetdan tashqari Pensiya jamg'armasi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "pensiya-miqdori-malumotnoma",
+      "soha": "Pensiya",
+      "xizmat_nomi": "Pensiya va nafaqalar miqdori to'g'risida ma'lumotnoma olish",
+      "url": "https://my.gov.uz/uz/service/232",
+      "tavsif": "Fuqaroga tayinlangan pensiya va nafaqalar miqdori to'g'risida ma'lumotnoma olish xizmati.",
+      "muammolar": [
+        "pensiyam miqdori haqida spravka kerak",
+        "nafaqa miqdorini tasdiqlovchi hujjat olish",
+        "kreditga hujjat uchun pensiya miqdori ma'lumotnomasi"
+      ],
+      "qadamlar": [
+        "OneID orqali YIDXPga kirish",
+        "Xizmat sahifasida so'rov yuborish",
+        "Ma'lumotnomani shaxsiy kabinetdan yuklab olish"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Bepul",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Iqtisodiyot va moliya vazirligi (Pensiya jamg'armasi)",
+      "sahifa_ochildi": false
+    },
+    {
+      "id": "ipoteka-subsidiya",
+      "soha": "Subsidiya",
+      "xizmat_nomi": "Ipoteka kreditiga davlat subsidiyasini olishga ariza berish",
+      "url": "https://my.gov.uz/uz/service/325",
+      "tavsif": "Uy-joy sotib olish uchun ipoteka kreditining boshlang'ich badali va/yoki foizlarini qoplashga davlat subsidiyasi olishga onlayn ariza berish xizmati.",
+      "muammolar": [
+        "ipoteka subsidiyasini qanday olaman",
+        "boshlang'ich badalga davlat yordami",
+        "subsidiya navbati qachon keladi",
+        "ipoteka subsidiya arizam rad bo'ldi"
+      ],
+      "qadamlar": [
+        "OneID orqali YIDXPga kirish",
+        "Subsidiya bo'limidan ipoteka subsidiyasi xizmatini tanlash",
+        "Ariza shaklini to'ldirish va yuborish",
+        "4 ish kuni ichida natijani shaxsiy kabinetda kuzatish"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Bepul; 4 ish kuni mobaynida",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Adliya vazirligi; Urbanizatsiya va uy-joy bozorini barqaror rivojlantirish milliy qo'mitasi huzuridagi Kadastr agentligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "nogiron-yoshlar-oqish-subsidiya",
+      "soha": "Subsidiya",
+      "xizmat_nomi": "Nogironligi bo'lgan yoshlarga o'qish xarajati uchun subsidiya ajratishga ariza yuborish",
+      "url": "https://my.gov.uz/uz/service/628",
+      "tavsif": "Nogironligi bo'lgan yoshlarga oliy va boshqa ta'lim muassasalarida o'qish (kontrakt) xarajatlarini qoplash uchun subsidiya ajratishga onlayn ariza berish xizmati.",
+      "muammolar": [
+        "nogiron talabaman kontrakt pulini davlat to'laydimi",
+        "o'qish xarajati subsidiyasini qanday olaman",
+        "subsidiya arizasi qancha vaqtda ko'riladi"
+      ],
+      "qadamlar": [
+        "OneID orqali YIDXPga kirish",
+        "Subsidiya bo'limidan xizmatni tanlash",
+        "So'rov (ariza) yuborish",
+        "15 ish kuni ichida Yoshlar ishlari agentligi qarorini kutish"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Bepul; 15 ish kuni mobaynida",
+      "korsatuvchi_idora": "Yoshlar ishlari agentligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "nogiron-yoshlar-yashash-transport-subsidiya",
+      "soha": "Subsidiya",
+      "xizmat_nomi": "Nogironligi bo'lgan yoshlarga o'qish davrida yashash va transport xarajatlari uchun subsidiya ajratish uchun ariza yuborish",
+      "url": "https://my.gov.uz/uz/service/629",
+      "tavsif": "Nogironligi bo'lgan yoshlarga o'qish davrida ijara (yashash) va transport xarajatlarini qoplash uchun subsidiya ajratishga onlayn ariza berish xizmati.",
+      "muammolar": [
+        "nogiron talabaman ijara pulimni kim to'laydi",
+        "yo'l xarajatlari uchun subsidiya olish",
+        "ijara shartnomam soliqda ro'yxatda emas nima qilay"
+      ],
+      "qadamlar": [
+        "OneID orqali YIDXPga kirish",
+        "Subsidiya bo'limidan xizmatni tanlash",
+        "Tasdiqlovchi hujjatlarni biriktirib ariza yuborish",
+        "3 ish kuni ichida natijani kutish"
+      ],
+      "kerakli_hujjatlar": [
+        "Yo'l xarajatlari to'lovlarini tasdiqlovchi hujjatlar",
+        "Ijara shartnomasi",
+        "Ijara shartnomasining soliq organlarida hisobga qo'yilganligi haqida bildirishnoma"
+      ],
+      "muddat_narx": "Bepul; 3 ish kuni",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Yoshlar siyosati va sport vazirligi huzuridagi Yoshlar ishlari agentligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "yosh-oilalar-ijara-kompensatsiya",
+      "soha": "Subsidiya",
+      "xizmat_nomi": "Yosh oilalar uchun turar joy ijarasi kompensatsiyasi",
+      "url": "https://my.gov.uz/uz/service/1394",
+      "tavsif": "Yosh oilalarga turar joy ijarasi xarajatlarini qoplash uchun kompensatsiya (ijtimoiy yordam) ajratish bo'yicha davlat xizmati.",
+      "muammolar": [
+        "yosh oilamiz ijarada turamiz kompensatsiya olsak bo'ladimi",
+        "ijara kompensatsiyasi uchun qayerga murojaat qilaman",
+        "mahalla yettiligi arizamni ko'rmayapti"
+      ],
+      "qadamlar": [
+        "Ijtimoiy yordam ajratish bo'yicha Yagona portal orqali (OneID bilan) murojaat qilish",
+        "Ariza ro'yxatga olingan joydagi yoshlar yetakchisi orqali \"Mahalla yettiligi\"ga yuboriladi",
+        "\"Mahalla yettiligi\" hujjatlarni o'rganib, yordam ajratish yoki rad etish to'g'risida qaror qabul qiladi",
+        "8 ish kuni ichida natijani kuzatish"
+      ],
+      "kerakli_hujjatlar": [
+        "Talab etilmaydi"
+      ],
+      "muddat_narx": "Bepul; 8 ish kuni",
+      "korsatuvchi_idora": "Yoshlar ishlari agentligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "jarima-ustidan-shikoyat",
+      "soha": "Transport",
+      "xizmat_nomi": "Yo'l harakati qoidalarini buzganlik uchun jarima yuzasidan shikoyat qilish",
+      "url": "https://my.gov.uz/uz/service/1054",
+      "tavsif": "Yo'l harakati qoidabuzarligi uchun yozilgan jarima (shu jumladan radar/kamera qaydnomalari) ustidan IIV Yo'l harakati xavfsizligi xizmatiga elektron shikoyat yuborish xizmati. Shikoyat 10 kun ichida ko'rib chiqiladi va natija portal orqali xabar qilinadi.",
+      "muammolar": [
+        "Menga noto'g'ri jarima yozildi, qanday e'tiroz bildiraman?",
+        "Radar jarimasi mashinamni sotganimdan keyin keldi",
+        "Kamera jarimasiga rozi emasman, qayerga shikoyat qilaman?",
+        "Jarima haydamagan odamga yozilgan"
+      ],
+      "qadamlar": [
+        "my.gov.uz portalida OneID orqali ro'yxatdan o'ting yoki avtorizatsiyadan o'ting",
+        "Xizmat sahifasida (service/1054) 'Ariza yuborish' tugmasini bosing",
+        "Jarima (qaror/qaydnoma) ma'lumotlarini va e'tiroz asoslaringizni ko'rsatib ariza yuboring",
+        "Vakolatli organ ma'lumotlarni tekshiradi",
+        "10 kun ichida qoniqtirilgani yoki rad etilgani haqida elektron bildirishnoma olasiz"
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjat talab etilmaydi (jarima rekvizitlari va asoslovchi ma'lumotlar arizada ko'rsatiladi)"
+      ],
+      "muddat_narx": "Bepul; 10 kun ichida ko'rib chiqiladi",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi IIV Yo'l harakati xavfsizligi xizmati",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "haydovchilik-guvohnomasi-rasmiylashtirish",
+      "soha": "Transport",
+      "xizmat_nomi": "Haydovchilik guvohnomasini rasmiylashtirish",
+      "url": "https://my.gov.uz/uz/service/255",
+      "tavsif": "Milliy haydovchilik guvohnomasini (shu jumladan eski namunadagi guvohnomani yangisiga almashtirishni) uydan chiqmasdan rasmiylashtirish xizmati. Tayyor guvohnoma Davlat xizmatlari markazidan olinadi yoki pochta orqali yetkaziladi.",
+      "muammolar": [
+        "Haydovchilik guvohnomam muddati tugadi, qanday almashtiraman?",
+        "Eski namunadagi pravani yangisiga almashtirmoqchiman",
+        "Guvohnomani uydan chiqmay olsam bo'ladimi?",
+        "Pravani almashtirish qancha turadi?"
+      ],
+      "qadamlar": [
+        "Portalda ro'yxatdan o'ting yoki avtorizatsiyadan o'ting va ariza yuboring",
+        "ID-karta yoki biometrik pasportdagi suratdan foydalanishga rozilik bering (rozilik bermasangiz, tegishli ro'yxatga olish bo'limiga borishingiz kerak)",
+        "Yangi haydovchilik guvohnomasini elektron raqamli imzo bilan imzolang (kompyuter yoki mobil orqali)",
+        "To'lovni amalga oshiring",
+        "Arizada ko'rsatilgan Davlat xizmatlari markaziga boring yoki qo'shimcha to'lov evaziga 2 ish kunida pochta orqali oling"
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjat talab etilmaydi (shaxs ID-karta/pasport ma'lumotlari tizimdan olinadi; eski guvohnoma topshiriladi)"
+      ],
+      "muddat_narx": "1,4 BHM (taxminan 576 800 so'm); DXM orqali 1 ish kuni, pochta orqali 2 ish kuni",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Ichki ishlar vazirligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "haydovchilik-imtihoniga-ariza",
+      "soha": "Transport",
+      "xizmat_nomi": "Haydovchilik guvohnomasini olish uchun imtihonga ariza topshirish",
+      "url": "https://my.gov.uz/uz/service/482",
+      "tavsif": "Haydovchilik guvohnomasini birinchi marta olish uchun nazariy va amaliy imtihon topshirishga onlayn ariza yuborish xizmati.",
+      "muammolar": [
+        "Prava olish uchun imtihonga qanday yozilaman?",
+        "Avtomaktabni tugatdim, imtihonga qayerdan ariza beraman?",
+        "Imtihon sanasini onlayn tanlasam bo'ladimi?"
+      ],
+      "qadamlar": [
+        "my.gov.uz portalida avtorizatsiyadan o'ting",
+        "Xizmat sahifasida (service/482) ariza yuborish bo'limiga o'ting",
+        "Imtihon topshirish joyi va vaqtini tanlab arizani yuboring",
+        "Belgilangan kunda imtihon topshirish uchun boring"
+      ],
+      "kerakli_hujjatlar": [
+        "Portal ro'yxatida ko'rsatilmagan (sahifa ochilmadi)"
+      ],
+      "muddat_narx": "Sahifa ochilmagani sababli aniqlanmadi",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Ichki ishlar vazirligi",
+      "sahifa_ochildi": false
+    },
+    {
+      "id": "yangi-transport-vositasini-royxatdan-otkazish",
+      "soha": "Transport",
+      "xizmat_nomi": "Yangi transport vositalarini ro'yxatdan o'tkazish",
+      "url": "https://my.gov.uz/uz/service/985",
+      "tavsif": "Yangi avtotransport vositasini davlat ro'yxatidan o'tkazish, davlat raqam belgisi va texnik pasport olish xizmati. Xodimning uyga chiqib xizmat ko'rsatishi yoki bo'limga o'zi borish variantlari mavjud.",
+      "muammolar": [
+        "Yangi mashina oldim, qanday ro'yxatdan o'tkazaman?",
+        "Avtomobilni ro'yxatdan o'tkazish qancha turadi?",
+        "Davlat raqamini olish uchun qayerga murojaat qilaman?",
+        "Uyga kelib ro'yxatdan o'tkazib berisharmikan?"
+      ],
+      "qadamlar": [
+        "Portalda avtorizatsiyadan o'ting va xizmat turini tanlang",
+        "Xizmat ko'rsatish usulini tanlang: xodim ko'rsatilgan manzilga chiqadi yoki o'zingiz ro'yxatga olish bo'limiga borasiz",
+        "Ariza yuboring — to'lov uchun hisob-fakturalar shakllanadi",
+        "To'lovlarni amalga oshiring",
+        "Bildirishnoma oling va ro'yxatga olish guvohnomasi (texpasport) hamda davlat raqam belgisini qabul qilib oling"
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjat talab etilmaydi (ma'lumotlar idoralararo tizimlardan olinadi)"
+      ],
+      "muddat_narx": "2 ish kuni; ro'yxatga olish 6,84 BHM (elektromobil, tirkama, mototransport uchun 1,5 BHM), davlat raqami 7 BHM, texpasport 0,7 BHM; xodim chiqishi 2–4 BHM (muddatga qarab), 10 km dan ortiq masofaga har km uchun 0,05 BHM",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi IIV Yo'l harakati xavfsizligi xizmati",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "hisoblangan-ish-haqi-malumotnomasi",
+      "soha": "Soliqlar",
+      "xizmat_nomi": "Hisoblangan ish haqi to'g'risida ma'lumotnoma",
+      "url": "https://my.gov.uz/uz/service/263",
+      "tavsif": "Fuqaroning hisoblangan ish haqi (oylik daromadlari) to'g'risidagi rasmiy ma'lumotnomani avtomatik tarzda, bir daqiqada olish xizmati. Kredit, viza va boshqa holatlar uchun daromadlar ma'lumotnomasi sifatida ishlatiladi.",
+      "muammolar": [
+        "Kredit uchun daromadlar haqida ma'lumotnoma kerak",
+        "Oylik maoshim to'g'risida rasmiy spravka qayerdan olaman?",
+        "Ish haqi ma'lumotnomasini onlayn olsam bo'ladimi?",
+        "Viza uchun daromad spravkasi kerak"
+      ],
+      "qadamlar": [
+        "my.gov.uz portalida OneID orqali avtorizatsiyadan o'ting",
+        "Xizmat sahifasida (service/263) so'rov yuboring",
+        "Ma'lumotnoma avtomatik tarzda (taxminan 1 daqiqada) shakllanadi va shaxsiy kabinetingizga yuboriladi"
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjat talab etilmaydi"
+      ],
+      "muddat_narx": "Bepul; avtomatik tarzda (1 daqiqa)",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Soliq qo'mitasi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ozini-ozi-band-qilish-royxati",
+      "soha": "Soliqlar",
+      "xizmat_nomi": "O'zini o'zi band qilgan shaxslarni ro'yxatdan o'tkazish",
+      "url": "https://my.gov.uz/uz/service/491",
+      "tavsif": "Fuqarolarni o'zini o'zi band qilgan shaxs (samozanyatiy) sifatida soliq organlarida bepul va avtomatik ro'yxatdan o'tkazish xizmati. Ro'yxatdan o'tgach qonuniy faoliyat yuritish va imtiyozlardan foydalanish mumkin.",
+      "muammolar": [
+        "Samozanyatiy bo'lib qanday ro'yxatdan o'taman?",
+        "O'zini o'zi band qilish uchun qayerga murojaat qilaman?",
+        "Repetitorlik/dostavka qilaman — qonuniy rasmiylashtirmoqchiman",
+        "Samozanyatiy ro'yxati pullikmi?"
+      ],
+      "qadamlar": [
+        "my.gov.uz portalida OneID orqali ro'yxatdan o'ting yoki avtorizatsiyadan o'ting",
+        "Xizmat sahifasida (service/491) faoliyat turini tanlab so'rov yuboring",
+        "Ro'yxatga olish avtomatik tarzda amalga oshiriladi va tasdiqlovchi ma'lumot shaxsiy kabinetga keladi"
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjat talab etilmaydi"
+      ],
+      "muddat_narx": "Bepul; avtomatik tarzda",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Soliq qo'mitasi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "soliq-qarzi-malumotnomasi",
+      "soha": "Soliqlar",
+      "xizmat_nomi": "Soliqlar va yig'imlardan soliq qarzi mavjud yoki mavjud emasligi to'g'risida ma'lumotnoma",
+      "url": "https://my.gov.uz/uz/service/126",
+      "tavsif": "Jismoniy va yuridik shaxslar uchun soliq qarzi bor-yo'qligi to'g'risidagi rasmiy ma'lumotnomani avtomatik olish xizmati. Tender, kredit va boshqa rasmiy holatlarda talab qilinadi.",
+      "muammolar": [
+        "Soliqdan qarzim yo'qligi haqida spravka kerak",
+        "Tender uchun soliq qarzi yo'qligi ma'lumotnomasi so'rashyapti",
+        "Soliq qarzimni qanday tekshiraman?"
+      ],
+      "qadamlar": [
+        "my.gov.uz portalida OneID orqali avtorizatsiyadan o'ting",
+        "Xizmat sahifasida (service/126) so'rov yuboring",
+        "Ma'lumotnoma avtomatik shakllanadi va shaxsiy kabinetga yuboriladi"
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjat talab etilmaydi"
+      ],
+      "muddat_narx": "Bepul; avtomatik tarzda",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Soliq qo'mitasi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "kredit-tarixi-malumotnomasi",
+      "soha": "Iqtisodiyot va biznes",
+      "xizmat_nomi": "\"Kredit tarixi\" to'g'risida ma'lumotnoma",
+      "url": "https://my.gov.uz/uz/service/411",
+      "tavsif": "Jismoniy va yuridik shaxslarga o'z kredit tarixi to'g'risidagi ma'lumotnomani onlayn olish xizmati. So'rov avtomatik tarzda, bir necha daqiqada bajariladi.",
+      "muammolar": [
+        "Kredit tarixim qanday, qayerdan ko'raman?",
+        "Bank kredit bermadi — kredit tarixini tekshirmoqchiman",
+        "Ustimda qarz bor-yo'qligini bilmoqchiman",
+        "Kredit tarixi ma'lumotnomasi qancha turadi?"
+      ],
+      "qadamlar": [
+        "my.gov.uz portalida OneID orqali avtorizatsiyadan o'ting",
+        "Xizmat sahifasida (service/411) so'rov yuboring va to'lovni amalga oshiring",
+        "Vakolatli organ so'rovni ko'rib chiqib, kredit tarixini portal orqali shaxsiy kabinetingizga yuboradi"
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjat talab etilmaydi"
+      ],
+      "muddat_narx": "Jismoniy shaxslar uchun 0,036 BHM (taxminan 14 832 so'm); avtomatik tarzda (taxminan 3 daqiqa)",
+      "korsatuvchi_idora": "\"Kredit-axborot tahliliy markazi\" kredit byurosi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "yuridik-shaxs-malumotlari",
+      "soha": "Iqtisodiyot va biznes",
+      "xizmat_nomi": "Yuridik shaxslarning hisobga qo'yilgan ma'lumotlari bilan tanishish",
+      "url": "https://my.gov.uz/uz/service/77",
+      "tavsif": "STIR bo'yicha yuridik shaxs yoki tadbirkorning davlat ro'yxatidagi rasmiy ma'lumotlarini bepul tekshirish xizmati. Kontragentni tekshirish va biznes ishonchliligini baholashda ishlatiladi (yangi biznesni ro'yxatdan o'tkazish esa portalning register-business bo'limi orqali amalga oshiriladi).",
+      "muammolar": [
+        "Firma rasmiy ro'yxatdan o'tganmi, qanday tekshiraman?",
+        "Kontragentning STIR ma'lumotlarini ko'rmoqchiman",
+        "Tadbirkor sifatida ro'yxatdan o'tganligimni tasdiqlash kerak"
+      ],
+      "qadamlar": [
+        "my.gov.uz portalida avtorizatsiyadan o'ting",
+        "Xizmat sahifasida (service/77) yuridik shaxs yoki tadbirkorning STIR raqamini kiriting",
+        "Tekshiruvni amalga oshiring — ro'yxatga olingan ma'lumotlar avtomatik ko'rsatiladi"
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjat talab etilmaydi (faqat STIR raqami kerak)"
+      ],
+      "muddat_narx": "Bepul; avtomatik tarzda",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Adliya vazirligi va Soliq qo'mitasi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ishsizlik-nafaqasi",
+      "soha": "Bandlik va mehnat",
+      "xizmat_nomi": "Ishsiz deb e'tirof etish va ishsizlik nafaqasini tayinlash",
+      "url": "https://my.gov.uz/uz/service/903",
+      "tavsif": "Fuqaroni rasmiy ishsiz deb e'tirof etish va ishsizlik nafaqasini tayinlash uchun mahalliy bandlik organiga onlayn ariza berish xizmati. Ariza 15 ish kunida ko'rib chiqiladi.",
+      "muammolar": [
+        "Ishdan bo'shadim, ishsizlik nafaqasini qanday olaman?",
+        "Ishsiz sifatida qayerda ro'yxatdan o'taman?",
+        "Bandlik markaziga bormasdan ariza bersam bo'ladimi?",
+        "Nafaqa arizam rad etildi, nima qilay?"
+      ],
+      "qadamlar": [
+        "my.gov.uz portalida avtorizatsiyadan o'tib, mahalliy bandlik organiga so'rov yuboring",
+        "Bandlik organi sizni ish qidiruvchi sifatida ro'yxatga oladi va rad etish asoslari yo'qligini tekshiradi",
+        "Ro'yxatga olingandan keyin 10 kun ichida taklif etilgan munosib ishlar bo'yicha mahalliy bandlik organiga tashrif buyuring",
+        "Yakuniy qaror haqida QR-kodli elektron bildirishnoma portal orqali yuboriladi"
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjat talab etilmaydi"
+      ],
+      "muddat_narx": "Bepul; 15 ish kunida",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Kambag'allikni qisqartirish va bandlik vazirligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "mehnat-daftarchasidan-kochirma",
+      "soha": "Bandlik va mehnat",
+      "xizmat_nomi": "Mehnat faoliyati to'g'risida ma'lumotnoma (mehnat daftarchasidan ko'chirma)",
+      "url": "https://my.gov.uz/uz/service/496",
+      "tavsif": "Elektron mehnat daftarchasidagi mehnat faoliyati (ish joylari va staj) to'g'risidagi ma'lumotnomani avtomatik olish xizmati. Ishga kirish, pensiya va boshqa rasmiy holatlar uchun ishlatiladi.",
+      "muammolar": [
+        "Mehnat daftarchamdan ko'chirma qanday olaman?",
+        "Ish stajimni tasdiqlovchi hujjat kerak",
+        "Elektron mehnat daftarchasini qayerdan ko'raman?"
+      ],
+      "qadamlar": [
+        "my.gov.uz portalida OneID orqali avtorizatsiyadan o'ting",
+        "Xizmat sahifasida (service/496) so'rov yuboring",
+        "Ma'lumotnoma avtomatik tarzda (taxminan 1 daqiqada) shakllanib shaxsiy kabinetga yuboriladi"
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjat talab etilmaydi"
+      ],
+      "muddat_narx": "Bepul; avtomatik tarzda (1 daqiqa)",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Kambag'allikni qisqartirish va bandlik vazirligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "ish-haqi-staj-arxiv-malumotnomasi",
+      "soha": "Bandlik va mehnat",
+      "xizmat_nomi": "Ish haqi va ish stajini tasdiqlash haqida arxiv ma'lumotnoma",
+      "url": "https://my.gov.uz/uz/service/221",
+      "tavsif": "Davlat arxivlaridan o'tgan yillardagi ish haqi va ish stajini tasdiqlovchi rasmiy arxiv ma'lumotnomasini onlayn olish xizmati. Ko'pincha pensiya rasmiylashtirishda kerak bo'ladi.",
+      "muammolar": [
+        "Eski ish joyim yopilib ketgan, stajimni qanday tasdiqlayman?",
+        "Pensiya uchun arxivdan ish haqi ma'lumotnomasi kerak",
+        "Arxiv spravkasini onlayn olsam bo'ladimi?"
+      ],
+      "qadamlar": [
+        "my.gov.uz portalida avtorizatsiyadan o'tib so'rov yuboring",
+        "Vakolatli organ (arxiv) ma'lumotnomani rasmiylashtiradi",
+        "Tayyor ma'lumotnoma portal orqali elektron shaklda yuboriladi"
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjat talab etilmaydi"
+      ],
+      "muddat_narx": "Bepul; ish staji bo'yicha 5 ish kuni, ish haqi bo'yicha 20 ish kunigacha",
+      "korsatuvchi_idora": "O'zbekiston Respublikasi Adliya vazirligi (davlat arxivlari)",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "turar-joy-kadastr-pasporti",
+      "soha": "Ko'chmas mulk",
+      "xizmat_nomi": "Turar-joy obyektlarini kadastr pasportini shakllantirish va ularga bo'lgan huquqni davlat ro'yxatidan o'tkazish",
+      "url": "https://my.gov.uz/uz/service/939",
+      "tavsif": "Uy-joy (kvartira, xususiy uy) uchun kadastr pasportini shakllantirish va mulk huquqini davlat ro'yxatidan o'tkazish xizmati. Mutaxassis o'lchov ishlarini o'tkazib, kadastr hujjatlari rasmiylashtiriladi.",
+      "muammolar": [
+        "Uyimga kadastr hujjatlarini qanday rasmiylashtiraman?",
+        "Kvartira kadastr pasporti olish qancha vaqt oladi?",
+        "Mulk huquqini davlat ro'yxatidan o'tkazish kerak",
+        "Kadastr o'lchoviga qanday ariza beraman?"
+      ],
+      "qadamlar": [
+        "my.gov.uz portalida avtorizatsiyadan o'tib ariza yuboring",
+        "Kadastr mutaxassisi obyektda o'lchov ishlarini o'tkazadi, to'lov hisob-fakturasi elektron yuboriladi",
+        "To'lovni amalga oshiring",
+        "Vakolatli organ kadastr pasportini shakllantirib, huquqni davlat ro'yxatidan o'tkazadi — bildirishnoma portal orqali keladi"
+      ],
+      "kerakli_hujjatlar": [
+        "Ko'chmas mulkka bo'lgan huquqni tasdiqlovchi hujjat"
+      ],
+      "muddat_narx": "Ko'p qavatli uydagi kvartira 5 ish kunigacha, yakka turar-joy 8 ish kunigacha, huquqni ro'yxatdan o'tkazish 2 ish kunigacha; narx obyekt turiga qarab tariflar bo'yicha",
+      "korsatuvchi_idora": "Iqtisodiyot va moliya vazirligi huzuridagi Kadastr agentligi",
+      "sahifa_ochildi": true
+    },
+    {
+      "id": "kadastr-kochirmasini-tekshirish",
+      "soha": "Ko'chmas mulk",
+      "xizmat_nomi": "Davlat kadastr reyestridan ko'chmas mulk bo'yicha ko'chirma va kadastr pasportni tekshirish",
+      "url": "https://my.gov.uz/uz/service/506",
+      "tavsif": "Ko'chmas mulk bo'yicha kadastr ko'chirmasi va kadastr pasportining haqiqiyligini davlat reyestri orqali bepul tekshirish xizmati. Uy-joy oldi-sotdisidan oldin hujjatlarni tekshirishda foydali.",
+      "muammolar": [
+        "Uy sotib olyapman — kadastr hujjatlari haqiqiyligini qanday tekshiraman?",
+        "Sotuvchi bergan kadastr ko'chirmasi asl ekanini bilmoqchiman",
+        "Kadastr pasportini onlayn tekshirish mumkinmi?"
+      ],
+      "qadamlar": [
+        "my.gov.uz portalida OneID orqali avtorizatsiyadan o'ting",
+        "Xizmat sahifasida (service/506) so'rov yuboring va hujjat rekvizitlarini kiriting",
+        "Tekshiruv natijasi avtomatik tarzda ko'rsatiladi"
+      ],
+      "kerakli_hujjatlar": [
+        "Hujjat talab etilmaydi (tekshirilayotgan ko'chirma/pasport rekvizitlari kifoya)"
+      ],
+      "muddat_narx": "Bepul; avtomatik tarzda",
+      "korsatuvchi_idora": "Iqtisodiyot va moliya vazirligi huzuridagi Kadastr agentligi",
+      "sahifa_ochildi": true
+    }
+  ]
+}
