@@ -1,68 +1,94 @@
 YO'NALTIRUVCHI BOT — LOYIHA HOLATI
-Yangilangan sana: 2026-07-23
+Yangilangan sana: 2026-07-24
 
 ===========================================================
 1. UMUMIY HOLAT
 ===========================================================
-RAG yadro (backend) ishlab chiqilgan va jonli API bilan sinalgan.
-Telegram-bot qismini yakuniy integratsiyaga ulash bosqichi qoldi.
+RAG yadro, Telegram-bot va web-interfeys ishlab chiqilgan, QA sinovlaridan
+o'tgan. ikrombek va Umar vetkalari main'ga birlashtirildi — endi main'da
+loyihaning to'liq holati jamlangan: suhbat tarixi bilan ishlaydigan bot,
+web-chat (sayt + widget), QA-paket va zaxira kalit/model mexanizmi.
+Qoldi: botni Telegram orqali jonli sinash va bilim bazasini kengaytirish.
 
 ===========================================================
 2. LOYIHA TUZILISHI
 ===========================================================
 bot/
-  main.py         — Telegram bot kirish nuqtasi (aiogram 3, long polling) — ISHLATILADIGAN VERSIYA
-  bot.py          — ESKI/MOCK versiya, endi ortiqcha — o'chirilishi kerak
-  rag.py          — RAG yadro: javob_olish(savol) -> str (Gemini embedding + ChromaDB + Gemini Flash)
-  prompt.py       — SYSTEM_PROMPT (gallyutsinatsiyaga qarshi qat'iy qoidalar)
-  config.py       — BOT_TOKEN, GEMINI_API_KEY, model nomlari, yo'llar
+  main.py         — Telegram bot kirish nuqtasi (aiogram 3, long polling),
+                    har chat uchun suhbat tarixi (oxirgi 8 xabar, xotirada)
+  rag.py          — RAG yadro: javob_olish(savol yoki tarix) -> str
+                    (Gemini embedding + ChromaDB top-3 + Gemini Flash);
+                    kalit-rotatsiya (asosiy + zaxira kalit) va zaxira model
+                    fallback; barcha limitlar tugasa TokenlarTugadi
+  prompt.py       — SYSTEM_PROMPT (gallyutsinatsiyaga qarshi qat'iy qoidalar,
+                    aniqlashtiruvchi savollar, hudud bo'yicha shaxsiylashtirish)
+  config.py       — .env avtomatik yuklanadi; BOT_TOKEN, GEMINI_API_KEY,
+                    GEMINI_API_KEY_ZAXIRA (ixtiyoriy), model nomlari, yo'llar
   index_qurish.py — bilim_bazasi.json -> ChromaDB indekslash skripti
+web/
+  main.py         — FastAPI: POST /api/savol (session bo'yicha suhbat tarixi),
+                    ishga tushirish: uvicorn web.main:app --reload
+  static/         — homepage.html (landing), index.html (chat), widget.html
+qa/
+  test_savollar.json     — 40 ta test-savol (30 oddiy/xato/kirill + 10 tuzoq)
+  baholash.py            — avtomatik baholash: python3 -m qa.baholash [--javob]
+  hisobot_2026-07-17.md  — oxirgi hisobot (natijalar quyida, 6-bo'lim)
+  foydalanuvchi_testi.md — real foydalanuvchi sinovi rejasi
+  demo_ssenariy.md       — demo ssenariy va slaydlar rejasi
 data/
-  bilim_bazasi.json — 10 ta yozuv, hammasi "tekshirilgan": false (hali rasmiy manbadan tasdiqlanmagan)
+  bilim_bazasi.json — 10 ta yozuv, hammasi "tekshirilgan": false
+instructions/
+  BOT.md, WEB.md  — sheriklar uchun o'rnatish/ishga tushirish yo'riqnomalari
 docs/
   ISH_REJA.md     — 4 haftalik reja
-vektor_baza/      — ChromaDB lokal saqlash papkasi (index_qurish.py ishga tushirilgach yaratiladi)
-feedback.csv      — foydalanuvchi 👍/👎 baholari uchun (bot ishga tushib, birinchi baho berilganda yaratiladi)
+.env.example      — kalitlar namunasi (cp .env.example .env)
+vektor_baza/      — ChromaDB lokal papka (index_qurish ishga tushgach yaratiladi)
 
 ===========================================================
 3. BAJARILGAN ISHLAR
 ===========================================================
-[x] bot/ papkasi tuzilmasi o'rganildi, AK ning haqiqiy RAG paketi allaqachon main branchdan
-    ikrombek branchiga birlashtirilgani aniqlandi (commit 7bf8afc)
-[x] Kerakli kutubxonalar o'rnatildi: google-genai, chromadb (venv ichida)
-[x] bilim_bazasi.json formati tekshirildi — schema to'liq va to'g'ri
-[x] index_qurish.py sinaldi — 10 ta yozuv ChromaDB'ga muvaffaqiyatli indekslandi
-[x] javob_olish() haqiqiy GEMINI_API_KEY bilan 3 xil holatda sinaldi:
-    - lotin savol (bazada bor)     -> to'g'ri javob, manba bilan
-    - kirill savol (bazada bor)    -> to'g'ri javob, kirill alifboda
-    - tuzoq savol (bazada yo'q)    -> to'qib chiqarmadi, my.gov.uz/pm.gov.uz ga yo'naltirdi
-[x] config.py da MUHIM TUZATISH: LLM_MODEL "gemini-2.5-flash" dan "gemini-flash-latest" ga
-    o'zgartirildi, chunki "gemini-2.5-flash" ushbu API kalit uchun 404 (yangi
-    foydalanuvchilarga yopilgan) qaytardi. EMBEDDING_MODEL ("gemini-embedding-001")
-    hali amal qiladi, o'zgartirilmadi.
+[x] ikrombek vetkasi main'ga birlashtirildi (web-interfeys, suhbat tarixi,
+    zaxira kalit rotatsiyasi, TOKENLAR_TUGADI_XABARI)
+[x] Umar vetkasi main'ga birlashtirildi (qa/ paketi, .env avtomatik yuklash,
+    zaxira LLM model). Konfliktlar ikkala vetka yaxshiliklarini saqlab hal
+    qilindi: LLM_MODEL = "gemini-flash-latest" (2.5-flash yangi kalitlarga
+    yopilgani uchun), LLM_ZAXIRA_MODEL = "gemini-flash-lite-latest"
+[x] Eski mock versiya (bot/bot.py) allaqachon o'chirilgan — bot/main.py
+    yagona kirish nuqtasi
+[x] index_qurish.py sinaldi — 10 yozuv ChromaDB'ga indekslandi
+[x] javob_olish() jonli API bilan sinaldi: lotin, kirill va tuzoq savollar —
+    to'qib chiqarmaydi, bazada yo'q bo'lsa my.gov.uz/pm.gov.uz ga yo'naltiradi
+[x] QA o'tkazildi (qa/hisobot_2026-07-17.md): qidiruv aniqligi Top-1 30/30,
+    Top-3 30/30 (maqsad >=80% — bajarildi)
 
 ===========================================================
 4. QOLGAN ISH (KEYINGI QADAM)
 ===========================================================
-[ ] bot/bot.py (eski mock versiya)ni o'chirish — bot/main.py yagona kirish nuqtasi bo'ladi
-[ ] GEMINI_API_KEY ni doimiy environment variable sifatida sysdm.cpl orqali qo'shish
-    (setx ISHLATILMAYDI — avval PATH buzilgan edi)
-[ ] botni to'liq (main.py) jonli ishga tushirib, Telegram orqali real sinash
-[ ] eski Telegram bot bo'yicha qadamlar (kategoriya tugmalari, feedback tugmalari)
-    bot/main.py ga hali ko'chirilmagan — avvalgi mock bot.py da bor edi, main.py da yo'q
+[ ] Botni to'liq (python3 -m bot.main) jonli ishga tushirib, Telegram orqali
+    real foydalanuvchilar bilan sinash (qa/foydalanuvchi_testi.md rejasi bo'yicha)
+[ ] Kategoriya tugmalari va 👍/👎 feedback tugmalari (eski mock botda bor edi)
+    bot/main.py ga hali ko'chirilmagan
+[ ] Bilim bazasini kengaytirish: hozir 10 yozuv, maqsad (ISH_REJA) — kamida
+    40 ta rasmiy manbadan tasdiqlangan yozuv
+[ ] .env.example ga GEMINI_API_KEY_ZAXIRA qatorini qo'shish (ixtiyoriy kalit)
+[ ] Deploy: bot va web'ni serverda doimiy ishlatish masalasi hal qilinmagan
 
 ===========================================================
 5. XAVFSIZLIK ESLATMASI
 ===========================================================
-Ushbu suhbat davomida haqiqiy GEMINI_API_KEY chatga ochiq matnda yuborilgan edi
-(sinov uchun ishlatildi). Ishlar tugagach ushbu kalitni Google AI Studio'da
-ROTATSIYA qilish (bekor qilib, yangisini olish) tavsiya etiladi.
+Avvalgi ish sessiyasida haqiqiy GEMINI_API_KEY chatga ochiq matnda yuborilgan
+edi. Agar hali qilinmagan bo'lsa, kalitni Google AI Studio'da ROTATSIYA qilish
+(bekor qilib, yangisini olish) tavsiya etiladi.
 
 ===========================================================
-6. BILIM BAZASI HOLATI
+6. BILIM BAZASI VA SIFAT HOLATI
 ===========================================================
-Hozircha 10 ta yozuv (Kommunal, Mehnat, Ijtimoiy himoya, Yer-mulk, Tadbirkorlik,
-Iste'molchi kategoriyalarida). Barchasi "tekshirilgan": false — MVP/test bosqichida
-index_qurish.py hammasini baribir yuklaydi, lekin ishlab chiqarishga chiqishdan oldin
-har bir yozuv rasmiy manbadan tasdiqlanishi va "tekshirilgan": true qilinishi kerak.
-ISH_REJA.md bo'yicha maqsad: kamida 40 ta tasdiqlangan yozuv.
+Bazada 10 ta yozuv, kategoriyalar: Kommunal, Mehnat, Ijtimoiy himoya,
+Yer-mulk, Tadbirkorlik, Iste'molchi. Barchasi "tekshirilgan": false —
+MVP bosqichida index_qurish.py ularni baribir yuklaydi, lekin ishlab
+chiqarishdan oldin har bir yozuv rasmiy manbadan tasdiqlanishi kerak.
+
+Oxirgi QA (2026-07-17): 30 ta qidiruv savolida Top-1 va Top-3 aniqlik 100%
+(oddiy, xato yozilgan va kirill savollar bo'yicha ham). Tuzoq savollarda bot
+javob to'qimaydi — "aniq ma'lumotim yo'q" deb my.gov.uz ga yo'naltiradi.
+Bazaga yangi yozuv qo'shilganda QA'ni qayta o'tkazish: python3 -m qa.baholash
