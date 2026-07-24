@@ -10,6 +10,7 @@ from bot.config import (
     VEKTOR_BAZA_YOLI,
     EMBEDDING_MODEL,
     LLM_MODEL,
+    LLM_ZAXIRA_MODEL,
 )
 from bot.prompt import SYSTEM_PROMPT
 
@@ -74,6 +75,16 @@ def qidirish(savol: str, k: int = 3) -> list[str]:
     return natija["documents"][0] if natija["documents"] else []
 
 
+def _generatsiya(model: str, contents):
+    return _kalitlar_bilan_urin(
+        lambda mijoz: mijoz.models.generate_content(
+            model=model,
+            config={"system_instruction": SYSTEM_PROMPT},
+            contents=contents,
+        )
+    )
+
+
 def javob_olish(savol_yoki_tarix) -> str:
     """savol_yoki_tarix: yagona savol matni (eski interfeys) yoki suhbat
     tarixi — [{"rol": "fuqaro"|"bot", "matn": str}, ...] ro'yxati, oxirgi
@@ -81,9 +92,9 @@ def javob_olish(savol_yoki_tarix) -> str:
     "suv chiqmayapti" kabi noaniq savollarda aniqlashtiruvchi savol berib,
     keyingi xabarlar bilan to'ldirilgan kontekst asosida yakuniy javob beradi.
 
-    Barcha Gemini API kalitlari so'rov limitiga yetsa TokenlarTugadi
-    ko'tariladi — chaqiruvchi tomon buni alohida ushlab, foydalanuvchiga
-    mos xabar ko'rsatishi kerak."""
+    Asosiy model barcha kalitlarda limitga urilsa, zaxira model bilan qayta
+    uriniladi. U ham limitga yetsa TokenlarTugadi ko'tariladi — chaqiruvchi
+    tomon buni alohida ushlab, foydalanuvchiga mos xabar ko'rsatishi kerak."""
     if isinstance(savol_yoki_tarix, str):
         tarix = [{"rol": "fuqaro", "matn": savol_yoki_tarix}]
     else:
@@ -102,11 +113,9 @@ def javob_olish(savol_yoki_tarix) -> str:
         rol = "user" if xabar["rol"] == "fuqaro" else "model"
         contents.append({"role": rol, "parts": [{"text": matn}]})
 
-    resp = _kalitlar_bilan_urin(
-        lambda mijoz: mijoz.models.generate_content(
-            model=LLM_MODEL,
-            config={"system_instruction": SYSTEM_PROMPT},
-            contents=contents,
-        )
-    )
+    try:
+        resp = _generatsiya(LLM_MODEL, contents)
+    except TokenlarTugadi:
+        # asosiy model barcha kalitlarda limitga urildi — zaxira model bilan urinamiz
+        resp = _generatsiya(LLM_ZAXIRA_MODEL, contents)
     return resp.text

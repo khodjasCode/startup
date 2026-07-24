@@ -30,6 +30,11 @@ bot/
   config.py       — kalitlar (env), yo'llar, model nomlari
 data/
   bilim_bazasi.json — RAG bilim bazasi (muammo → idora yozuvlari)
+qa/
+  test_savollar.json    — 40 ta test-savol (30 oddiy + 10 "tuzoq")
+  baholash.py           — sifatni avtomatik baholash, hisobot chiqaradi
+  foydalanuvchi_testi.md — real foydalanuvchi sinovi rejasi va bug ro'yxati
+  demo_ssenariy.md      — demo ssenariy va slaydlar rejasi
 docs/
   ISH_REJA.md     — 4 haftalik ish reja
 ```
@@ -37,13 +42,15 @@ docs/
 ## Ishga tushirish
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
-export BOT_TOKEN=...        # BotFather'dan
-export GEMINI_API_KEY=...   # https://ai.google.dev dan
+cp .env.example .env         # so'ng .env ichiga kalitlarni yozing:
+                             #   BOT_TOKEN — BotFather'dan
+                             #   GEMINI_API_KEY — https://ai.google.dev dan
+                             # (.env o'zi yuklanadi, export shart emas)
 
-python -m bot.index_qurish  # bazani indekslash (bir marta / baza yangilanganda)
-python -m bot.main          # botni ishga tushirish
+python3 -m bot.index_qurish  # bazani indekslash (bir marta / baza yangilanganda)
+python3 -m bot.main          # botni ishga tushirish
 ```
 
 ## Web-versiya
@@ -55,3 +62,12 @@ uvicorn web.main:app --reload
 ```
 
 `BOT_TOKEN`/`GEMINI_API_KEY` bot bilan bir xil environment variable'lardan o'qiladi — alohida sozlash shart emas, faqat baza avval indekslangan bo'lishi kerak (`python -m bot.index_qurish`).
+
+## Sifatni tekshirish (QA)
+
+```bash
+python3 -m qa.baholash          # qidiruv aniqligi, ~30 soniya (BOT_TOKEN kerak emas)
+python3 -m qa.baholash --javob  # + tuzoq savollarga LLM javoblari (~3 daqiqa, bepul limit sekin)
+```
+
+Natija `qa/hisobot_YYYY-MM-DD.md` faylga yoziladi.
