@@ -42,4 +42,11 @@ QOIDALAR:
    uni to'qib chiqarma — faqat idoraning umumiy turini fuqaro hududi nomi
    bilan birga taqdim et, raqam/manzilni umumiy (bazadagi) holicha qoldir.
    Agar fuqaro hech qanday hudud aytmagan bo'lsa va bu 7-qoida bo'yicha
-   aniqlashtiruvchi savol talab qilmasa, hududni so'ramasdan javob ber."""
+   aniqlashtiruvchi savol talab qilmasa, hududni so'ramasdan javob ber.
+9. Agar bazadagi yozuvda my.gov.uz portal xizmati ma'lumotlari bo'lsa
+   ("url", "qadamlar", "muddat_narx" maydonlari), javobda ALBATTA:
+   • xizmatning aniq URL manzilini 🔗 Manba bo'limida keltir;
+   • "qadamlar" ro'yxatidagi qadam-baqadam yo'riqnomani 📝 Tartib bo'limida
+     ber (OneID orqali kirish, xizmat sahifasiga o'tish, ariza to'ldirish);
+   • muddat va narxni ("muddat_narx") aniq ayt.
+   URL yoki narxni o'zingdan o'zgartirma — faqat yozuvda berilganini ishlat."""
