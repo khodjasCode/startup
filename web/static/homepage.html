@@ -9,30 +9,42 @@
     color-scheme: light dark;
     --bg: #f2f4f7;
     --panel: #ffffff;
+    --sidebar: #0068e0;
+    --sidebar-secondary: #0050ac;
+    --sidebar-active: #0057bb;
+    --sidebar-text: #ffffff;
     --text: #1a1a1a;
+    --heading: #111827;
     --muted: #64748b;
     --border: #e2e8f0;
     --primary: #0068e0;
     --primary-hover: #0153b2;
-    --card-shadow: 0 2px 12px rgba(13,60,115,0.08);
+    --footer-bg: #e9ebee;
+    --footer-text: #454545;
+    --card-shadow: 0 2px 12px rgba(13, 60, 115, 0.08);
+    --sidebar-width: 260px;
   }
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #1b1e23;
       --panel: #24282f;
+      --sidebar: #232323;
+      --sidebar-secondary: #2d2d2d;
+      --sidebar-active: #333333;
+      --sidebar-text: #f1f1f1;
       --text: #e8e9ec;
+      --heading: #f5f6f8;
       --muted: #9aa4b2;
       --border: #333944;
       --primary: #4a97f0;
       --primary-hover: #6fb0ff;
-      --card-shadow: 0 2px 12px rgba(0,0,0,0.35);
+      --footer-bg: #202226;
+      --footer-text: #c7cad0;
+      --card-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
     }
   }
   * { box-sizing: border-box; }
-  html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-  }
+  html, body { max-width: 100%; overflow-x: hidden; }
   body {
     margin: 0;
     background: var(--bg);
@@ -40,106 +52,332 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
     font-size: 15px;
   }
-  header {
-    background: var(--panel);
-    border-bottom: 1px solid var(--border);
-    padding: 16px 32px;
+  a { text-decoration: none; color: inherit; }
+  button { font-family: inherit; }
+
+  /* ---------- inert (non-functional) UI elements ---------- */
+  .inert { cursor: default; }
+  .inert:hover { text-decoration: none; }
+
+  /* ---------- layout ---------- */
+  .layout {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 8px 16px;
+    min-height: 100vh;
   }
-  .logo {
+
+  /* ---------- sidebar ---------- */
+  .sidebar {
+    width: var(--sidebar-width);
+    flex-shrink: 0;
+    background: var(--sidebar);
+    color: var(--sidebar-text);
+    display: flex;
+    flex-direction: column;
+    padding: 22px 0 16px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  .sidebar-logo {
     display: flex;
     align-items: center;
     gap: 10px;
+    padding: 0 22px 24px;
     font-weight: 700;
-    font-size: 1.25rem;
-    color: var(--primary);
-  }
-  .logo-badge {
-    width: 36px;
-    height: 36px;
-    border-radius: 10px;
-    background: linear-gradient(135deg, var(--primary), #34d399);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
     font-size: 1.05rem;
   }
-  header .tag {
-    color: var(--muted);
-    font-size: 0.9rem;
-  }
-  .banner {
-    background: linear-gradient(65deg, var(--primary) 0%, #34c48d 130%);
-    color: #fff;
-    padding: 56px 24px;
+  .logo-badge {
+    width: 34px;
+    height: 34px;
+    border-radius: 9px;
+    background: linear-gradient(135deg, #ffffff, #bfe0ff);
+    color: var(--primary);
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    font-weight: 800;
+    flex-shrink: 0;
   }
-  .banner h1 {
-    margin: 0 0 14px;
-    font-size: clamp(1.6rem, 2.6vw, 2.2rem);
-    line-height: 1.25;
+  .sidebar-section { margin-bottom: 22px; }
+  .sidebar-title {
+    padding: 0 22px 10px;
+    font-size: 0.72rem;
+    letter-spacing: 1.2px;
     font-weight: 700;
-    max-width: 780px;
+    text-transform: uppercase;
+    opacity: 0.75;
+  }
+  .sidebar-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 22px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--sidebar-text);
+    opacity: 0.92;
+    border-radius: 0;
+  }
+  .sidebar-link:hover { background: var(--sidebar-active); opacity: 1; }
+  .sidebar-link svg { width: 18px; height: 18px; flex-shrink: 0; }
+  .sidebar-foot {
+    margin-top: auto;
+    padding: 16px 22px 0;
+    font-size: 0.72rem;
+    opacity: 0.65;
+    line-height: 1.5;
+  }
+
+  /* ---------- content column ---------- */
+  .content {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ---------- header ---------- */
+  header {
+    background: var(--panel);
+    border-bottom: 1px solid var(--border);
+    padding: 14px 28px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .menu-toggle {
+    display: none;
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text);
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .header-search {
+    flex: 1;
+    max-width: 480px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 9px 14px;
+    color: var(--muted);
+  }
+  .header-search svg { width: 18px; height: 18px; flex-shrink: 0; }
+  .header-search input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--text);
+    font-size: 0.92rem;
+    width: 100%;
+  }
+  .header-spacer { flex: 1; }
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .lang-pill {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 7px 12px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--muted);
+  }
+  .icon-btn {
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon-btn svg { width: 18px; height: 18px; }
+  .login-pill {
+    padding: 9px 20px;
+    border-radius: 999px;
+    background: linear-gradient(100deg, var(--primary), var(--primary-hover));
+    color: #fff;
+    font-size: 0.86rem;
+    font-weight: 700;
+  }
+
+  /* ---------- hero ---------- */
+  .banner {
+    margin: 20px 28px 0;
+    border-radius: 16px;
+    background: linear-gradient(65deg, var(--primary) 0%, #34c48d 130%);
+    color: #fff;
+    padding: 44px 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .banner-copy { max-width: 640px; }
+  .banner h1 {
+    margin: 0 0 12px;
+    font-size: clamp(1.5rem, 2.4vw, 2.1rem);
+    line-height: 1.28;
+    font-weight: 800;
   }
   .banner p {
     margin: 0;
     opacity: 0.95;
-    max-width: 620px;
-    margin-inline: auto;
     line-height: 1.55;
     font-size: 1rem;
   }
+  .banner-cta {
+    border: none;
+    border-radius: 999px;
+    padding: 13px 26px;
+    background: #ffffff;
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 0.95rem;
+    cursor: pointer;
+    flex-shrink: 0;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+  }
+  .banner-cta:hover { background: #eef4ff; }
+
+  /* ---------- main ---------- */
   main {
     max-width: 1180px;
-    margin: 0 auto;
-    padding: 48px 24px 80px;
     width: 100%;
+    margin: 0 auto;
+    padding: 40px 28px 72px;
+  }
+  .section-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 18px;
   }
   .section-title {
-    font-size: 1.35rem;
-    font-weight: 700;
-    margin: 0 0 20px;
-    color: var(--text);
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin: 0;
+    color: var(--heading);
   }
+  .section-more {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.86rem;
+    font-weight: 600;
+    color: var(--muted);
+  }
+  .section-more svg { width: 14px; height: 14px; }
+
   .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 18px;
+    gap: 16px;
   }
   .card {
+    position: relative;
     background: var(--panel);
     border: 1px solid var(--border);
     border-radius: 14px;
-    padding: 22px;
+    padding: 22px 22px 60px;
     box-shadow: var(--card-shadow);
-    transition: transform .15s ease, border-color .15s ease;
-  }
-  .card:hover {
-    transform: translateY(-3px);
-    border-color: var(--primary);
   }
   .card h3 {
-    margin: 0 0 8px;
-    font-size: 1.1rem;
+    margin: 0 0 14px;
+    font-size: 1.05rem;
+    color: var(--heading);
+  }
+  .card-example {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 5px 6px;
+    margin: 0 -6px;
+    font-size: 0.86rem;
+    color: var(--primary);
+    background: transparent;
+    border: none;
+    border-radius: 8px;
+    text-align: left;
+    width: calc(100% + 12px);
+    cursor: pointer;
+    transition: background 0.15s ease;
+  }
+  .card-example:hover { background: color-mix(in srgb, var(--primary) 10%, transparent); text-decoration: underline; }
+  .card-example:disabled { opacity: 0.55; cursor: default; text-decoration: none; }
+  .card-example svg { width: 14px; height: 14px; margin-top: 3px; flex-shrink: 0; color: var(--muted); }
+  .card-icon {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: color-mix(in srgb, var(--primary) 12%, transparent);
     color: var(--primary);
   }
-  .card p {
-    margin: 0;
-    font-size: 0.92rem;
+  .card-icon svg { width: 18px; height: 18px; }
+
+  /* ---------- promo strip ---------- */
+  .promo-row {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    margin-top: 36px;
+  }
+  .promo {
+    flex: 1;
+    min-width: 300px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px 26px;
+    box-shadow: var(--card-shadow);
+  }
+  .promo h3 {
+    margin: 0 0 8px;
+    font-size: 1.1rem;
+    color: var(--heading);
+  }
+  .promo p {
+    margin: 0 0 12px;
     color: var(--muted);
+    font-size: 0.9rem;
     line-height: 1.5;
   }
+  .promo-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: var(--primary);
+  }
+  .promo-link svg { width: 16px; height: 16px; }
+
+  /* ---------- cta ---------- */
   .cta {
-    margin-top: 40px;
+    margin-top: 36px;
     background: var(--panel);
     border: 1px solid var(--border);
     border-radius: 14px;
@@ -147,15 +385,8 @@
     text-align: center;
     box-shadow: var(--card-shadow);
   }
-  .cta h2 {
-    margin: 0 0 10px;
-    font-size: 1.4rem;
-  }
-  .cta p {
-    margin: 0 0 20px;
-    color: var(--muted);
-    font-size: 0.98rem;
-  }
+  .cta h2 { margin: 0 0 10px; font-size: 1.35rem; color: var(--heading); }
+  .cta p { margin: 0 0 20px; color: var(--muted); font-size: 0.96rem; }
   .cta button {
     background: var(--primary);
     color: #fff;
@@ -163,84 +394,90 @@
     border-radius: 10px;
     padding: 12px 28px;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
   }
   .cta button:hover { background: var(--primary-hover); }
+
+  /* ---------- footer ---------- */
   footer {
-    border-top: 1px solid var(--border);
-    padding: 20px 24px;
-    text-align: center;
-    color: var(--muted);
-    font-size: 0.85rem;
+    background: var(--footer-bg);
+    padding: 32px 28px 20px;
+    color: var(--footer-text);
   }
-</style>
-</head>
-<body>
+  .footer-inner {
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+  .footer-cols {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid var(--border);
+  }
+  .footer-col { min-width: 170px; }
+  .footer-col h4 {
+    margin: 0 0 10px;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: var(--heading);
+  }
+  .footer-col a {
+    display: block;
+    padding: 4px 0;
+    font-size: 0.86rem;
+    color: var(--footer-text);
+  }
+  .footer-col a:hover { text-decoration: underline; }
+  .footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding-top: 18px;
+    font-size: 0.8rem;
+  }
+  .footer-social { display: flex; gap: 10px; }
+  .footer-social span {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-social svg { width: 15px; height: 15px; }
 
-<header>
-  <div class="logo">
-    <span class="logo-badge">Y</span>
-    Yo'naltiruvchi
-  </div>
-  <div class="tag">Davlat xizmatlari navigatori</div>
-</header>
+  /* ---------- responsive ---------- */
+  @media (max-width: 960px) {
+    .sidebar {
+      position: fixed;
+      inset: 0 auto 0 0;
+      z-index: 40;
+      transform: translateX(-100%);
+      transition: transform 0.25s ease;
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+    }
+    .sidebar.open { transform: translateX(0); }
+    .menu-toggle { display: flex; }
+    .header-search { display: none; }
+    .lang-pill { display: none; }
+  }
+  @media (max-width: 600px) {
+    header { padding: 12px 16px; }
+    .banner { margin: 14px 16px 0; padding: 30px 22px; }
+    .banner h1 { font-size: 1.35rem; }
+    main { padding: 30px 16px 60px; }
+    .cards { grid-template-columns: 1fr; }
+    .promo-row { margin-top: 24px; }
+    footer { padding: 26px 16px 18px; }
+  }
 
-<section class="banner">
-  <h1>Muammoingizni oddiy tilda yozing — biz yo'naltiramiz</h1>
-  <p>Qaysi idoraga, qanday hujjatlar bilan, qanday tartibda murojaat qilishni aytib beramiz. Pastki-o'ng burchakdagi chat orqali savolingizni yozing.</p>
-</section>
-
-<main>
-  <h2 class="section-title">Kategoriyalar</h2>
-  <div class="cards">
-    <div class="card">
-      <h3>Kommunal</h3>
-      <p>Suv, gaz, elektr, chiqindi, yo'l holati</p>
-    </div>
-    <div class="card">
-      <h3>Mehnat</h3>
-      <p>Ish haqi, mehnat shartnomasi, ishdan bo'shatish</p>
-    </div>
-    <div class="card">
-      <h3>Ijtimoiy himoya</h3>
-      <p>Pensiya, nafaqa, ijtimoiy to'lovlar</p>
-    </div>
-    <div class="card">
-      <h3>Yer-mulk</h3>
-      <p>Kadastr, uy hujjatlari, chegara nizolari</p>
-    </div>
-    <div class="card">
-      <h3>Tadbirkorlik</h3>
-      <p>YaTT, MChJ, soliq ro'yxatidan o'tish</p>
-    </div>
-    <div class="card">
-      <h3>Iste'molchi huquqlari</h3>
-      <p>Sifatsiz tovar, kafolat, do'kon bilan nizo</p>
-    </div>
-  </div>
-
-  <div class="cta">
-    <h2>Savolingiz bormi?</h2>
-    <p>Pastki-o'ng burchakdagi chat tugmasini bosing va muammoingizni yozing.</p>
-    <button onclick="document.getElementById('__chat_widget_toggle').click()">Chatni ochish</button>
-  </div>
-</main>
-
-<footer>
-  Yo'naltiruvchi — bu bot huquqiy maslahat bermaydi, faqat yo'naltiradi.
-</footer>
-
-<button id="__chat_widget_toggle" class="chat-widget-toggle" aria-label="Toggle chat">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" fill="none">
-    <path d="M53.0828 24.5002V29.1669C53.1048 30.3695 52.7883 31.5541 52.1695 32.5855C51.5506 33.6169 50.6543 34.4537 49.5828 35.0002V18.7835C50.6365 19.3212 51.521 20.1397 52.1386 21.1485C52.7563 22.1574 53.083 23.3173 53.0828 24.5002ZM2.91615 24.5002V29.1669C2.89416 30.3695 3.21065 31.5541 3.8295 32.5855C4.44836 33.6169 5.34466 34.4537 6.41615 35.0002V18.7835C5.36252 19.3212 4.47801 20.1397 3.86036 21.1485C3.2427 22.1574 2.91593 23.3173 2.91615 24.5002ZM46.0828 18.6669V39.6669C46.0828 41.3687 45.4068 43.0008 44.2034 44.2041C43.0001 45.4075 41.368 46.0835 39.6662 46.0835H28.1862L22.5162 50.9835C21.9938 51.4443 21.3227 51.7011 20.6262 51.7069C20.1985 51.677 19.7833 51.5492 19.4128 51.3335C18.9035 51.1069 18.4712 50.7369 18.1687 50.2687C17.8663 49.8005 17.7067 49.2543 17.7095 48.6969V46.0835H16.3328C14.631 46.0835 12.9989 45.4075 11.7956 44.2041C10.5922 43.0008 9.91615 41.3687 9.91615 39.6669V18.6669C9.91615 16.9651 10.5922 15.333 11.7956 14.1296C12.9989 12.9262 14.631 12.2502 16.3328 12.2502H33.2495V4.66686C33.2495 4.20274 33.4339 3.75762 33.7621 3.42943C34.0902 3.10124 34.5354 2.91686 34.9995 2.91686C35.4636 2.91686 35.9087 3.10124 36.2369 3.42943C36.5651 3.75762 36.7495 4.20274 36.7495 4.66686V12.2502H39.6662C41.368 12.2502 43.0001 12.9262 44.2034 14.1296C45.4068 15.333 46.0828 16.9651 46.0828 18.6669ZM36.7495 33.8335C36.7434 33.3713 36.5571 32.9297 36.2302 32.6028C35.9034 32.2759 35.4617 32.0896 34.9995 32.0835H20.9995C20.5354 32.0835 20.0902 32.2679 19.7621 32.5961C19.4339 32.9243 19.2495 33.3694 19.2495 33.8335C19.2495 34.2977 19.4339 34.7428 19.7621 35.071C20.0902 35.3992 20.5354 35.5835 20.9995 35.5835H34.9995C35.4617 35.5775 35.9034 35.3912 36.2302 35.0643C36.5571 34.7374 36.7434 34.2958 36.7495 33.8335ZM36.7495 24.5002C36.7434 24.0379 36.5571 23.5963 36.2302 23.2694C35.9034 22.9426 35.4617 22.7562 34.9995 22.7502H20.9995C20.5354 22.7502 20.0902 22.9346 19.7621 23.2628C19.4339 23.591 19.2495 24.0361 19.2495 24.5002C19.2495 24.9643 19.4339 25.4094 19.7621 25.7376C20.0902 26.0658 20.5354 26.2502 20.9995 26.2502H34.9995C35.4617 26.2442 35.9034 26.0578 36.2302 25.731C36.5571 25.4041 36.7434 24.9624 36.7495 24.5002Z" fill="#FFFFFF"></path>
-  </svg>
-</button>
-<div id="__chat_widget">
-  <iframe id="__chat_widget_iframe" title="Yo'naltiruvchi chat widget" aria-label="Chat support widget" allow="clipboard-write; clipboard-read" src="/static/widget.html"></iframe>
-</div>
-
-<style>
+  /* ---------- chat widget (functional part) ---------- */
   .chat-widget-toggle {
     position: fixed;
     right: 24px;
@@ -255,7 +492,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
   }
   .chat-widget-toggle:hover { background: var(--primary-hover); }
   .chat-widget-toggle svg { width: 26px; height: 26px; }
@@ -271,54 +508,346 @@
     max-height: calc(100vh - 120px);
     border-radius: 14px;
     overflow: hidden;
-    box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
   }
-  #__chat_widget iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-  }
-
+  #__chat_widget iframe { width: 100%; height: 100%; border: none; }
   @media (max-width: 600px) {
-    header { padding: 14px 18px; }
-    .logo { font-size: 1.1rem; }
-    .logo-badge { width: 32px; height: 32px; font-size: 0.95rem; }
-    header .tag { font-size: 0.8rem; }
-    .banner { padding: 36px 20px; }
-    .banner h1 { font-size: 1.4rem; }
-    main { padding: 32px 16px 60px; }
-    .cards { grid-template-columns: 1fr; }
-    .card { padding: 18px; }
-    .cta { padding: 26px 18px; }
-    .cta h2 { font-size: 1.2rem; }
-    .cta button { padding: 12px 24px; font-size: 0.95rem; }
-    .chat-widget-toggle {
-      right: 16px;
-      bottom: 16px;
-      width: 50px;
-      height: 50px;
-    }
+    .chat-widget-toggle { right: 16px; bottom: 16px; width: 50px; height: 50px; }
     .chat-widget-toggle svg { width: 22px; height: 22px; }
     #__chat_widget {
-      right: 0;
-      bottom: 0;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      max-width: 100%;
-      max-height: 100%;
+      right: 0; bottom: 0; top: 0; left: 0;
+      width: 100%; height: 100%; max-width: 100%; max-height: 100%;
       border-radius: 0;
     }
   }
+  .sidebar-backdrop {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 39;
+  }
+  .sidebar-backdrop.open { display: block; }
 </style>
+</head>
+<body>
+
+<div class="layout">
+
+  <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-logo">
+      <span class="logo-badge">Y</span>
+      Yo'naltiruvchi
+    </div>
+
+    <nav class="sidebar-section">
+      <div class="sidebar-title">Xizmatlar</div>
+      <a href="#" class="sidebar-link inert" onclick="return false">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M10.586 2.1a2 2 0 0 1 2.7-.116l3.028 2.53a2 2 0 0 0 1.28.463H18a2 2 0 0 1 2 2v1.686l1.9 1.9a2 2 0 0 1 0 2.83l-1.9 1.9V18a2 2 0 0 1-2 2h-2.685l-1.9 1.9a2 2 0 0 1-2.83 0l-1.9-1.9H6a2 2 0 0 1-2-2v-2.685l-1.9-1.9a2 2 0 0 1 0-2.83l1.9-1.9V6a2 2 0 0 1 2-2h1.686l1.9-1.9Z"></path></svg>
+        Kategoriyalar
+      </a>
+      <a href="#" class="sidebar-link inert" onclick="return false">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M12 6a3 3 0 1 1 0 6a3 3 0 0 1 0-6Zm0 8c4 0 7 2 7 4v2H5v-2c0-2 3-4 7-4Z"></path></svg>
+        Barcha bazalar
+      </a>
+      <a href="#" class="sidebar-link inert" onclick="return false">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M4 4h16v2H4V4Zm0 7h16v2H4v-2Zm0 7h10v2H4v-2Z"></path></svg>
+        Manbalar (my.gov.uz, lex.uz)
+      </a>
+    </nav>
+
+    <nav class="sidebar-section">
+      <div class="sidebar-title">Yordam</div>
+      <a href="#" class="sidebar-link inert" onclick="return false">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20a10 10 0 0 0 0-20Zm.75 15h-1.5v-1.5h1.5V17Zm1.55-6.19c-.6.5-.8.7-.8 1.44v.25h-1.5v-.35c0-1.2.55-1.75 1.15-2.25c.5-.42.85-.72.85-1.35c0-.7-.55-1.2-1.4-1.2c-.75 0-1.35.45-1.5 1.15l-1.45-.3c.3-1.35 1.5-2.35 2.95-2.35c1.65 0 2.9 1.05 2.9 2.6c0 .95-.5 1.5-1.2 2.06Z"></path></svg>
+        Ko'p so'raladigan savollar
+      </a>
+      <a href="#" class="sidebar-link inert" onclick="return false">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M6.6 10.8c1.2 2.4 3.2 4.4 5.6 5.6l1.9-1.9c.3-.3.7-.4 1-.2c1 .3 2.1.5 3.2.5c.6 0 1 .4 1 1v3.4c0 .6-.4 1-1 1C10.6 20.2 3.8 13.4 3.8 5c0-.6.4-1 1-1H8.2c.6 0 1 .4 1 1c0 1.1.2 2.2.5 3.2c.1.3 0 .7-.2 1L6.6 10.8Z"></path></svg>
+        Bog'lanish
+      </a>
+      <a href="#" class="sidebar-link inert" onclick="return false">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4l-8 5l-8-5V6l8 5l8-5v2Z"></path></svg>
+        Fikr-mulohaza
+      </a>
+    </nav>
+
+    <div class="sidebar-foot">
+      Bu bot huquqiy maslahat bermaydi, faqat yo'naltiradi.
+    </div>
+  </aside>
+
+  <div class="content">
+
+    <header>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menyu">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M3 6h18v2H3V6Zm0 5h18v2H3v-2Zm0 5h18v2H3v-2Z"></path></svg>
+      </button>
+
+      <div class="header-search inert">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M21.7 20.3 18 16.6a9 9 0 1 0-1.4 1.4l3.7 3.7a1 1 0 0 0 1.4-1.4ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z"></path></svg>
+        <input type="text" placeholder="Muammoingizni yozing — masalan: qo'shnim tomdan suv oqizyapti" readonly onclick="acWidgetniOch()">
+      </div>
+
+      <div class="header-spacer"></div>
+
+      <div class="header-actions">
+        <div class="lang-pill inert">O'z</div>
+        <button class="icon-btn inert" aria-label="Sozlamalar" onclick="return false">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M12 6a3 3 0 1 1 0 6a3 3 0 0 1 0-6Zm7.4 3a7.4 7.4 0 0 0-.13-1.36l1.98-1.55a.5.5 0 0 0 .12-.64l-1.88-3.26a.5.5 0 0 0-.6-.22l-2.33.94a7.6 7.6 0 0 0-1.18-.68l-.35-2.48a.5.5 0 0 0-.5-.43h-3.75a.5.5 0 0 0-.5.43l-.35 2.48a7.6 7.6 0 0 0-1.18.68l-2.33-.94a.5.5 0 0 0-.6.22L2.63 5.45a.5.5 0 0 0 .12.64L4.73 7.64A7.4 7.4 0 0 0 4.6 9a7.4 7.4 0 0 0 .13 1.36L2.75 11.9a.5.5 0 0 0-.12.64l1.88 3.26a.5.5 0 0 0 .6.22l2.33-.94c.36.28.76.5 1.18.68l.35 2.48a.5.5 0 0 0 .5.43h3.75a.5.5 0 0 0 .5-.43l.35-2.48c.42-.18.82-.4 1.18-.68l2.33.94a.5.5 0 0 0 .6-.22l1.88-3.26a.5.5 0 0 0-.12-.64L19.27 10.36c.08-.44.13-.9.13-1.36Z"></path></svg>
+        </button>
+        <div class="login-pill inert">Kirish</div>
+      </div>
+    </header>
+
+    <section class="banner">
+      <div class="banner-copy">
+        <h1>Muammoingizni oddiy tilda yozing — biz yo'naltiramiz</h1>
+        <p>Qaysi idoraga, qanday hujjatlar bilan, qanday tartibda murojaat qilishni aytib beramiz — rasmiy manbaga havola bilan birga.</p>
+      </div>
+      <button class="banner-cta" onclick="acWidgetniOch()">Chatni ochish</button>
+    </section>
+
+    <main>
+      <div class="section-head">
+        <h2 class="section-title">Kategoriyalar</h2>
+        <a href="#" class="section-more inert" onclick="return false">
+          Barchasi
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M5 13h11.17l-4.88 4.88a1 1 0 1 0 1.41 1.41l6.59-6.58a1 1 0 0 0 0-1.42l-6.58-6.6a1 1 0 1 0-1.42 1.42L16.17 11H5a1 1 0 0 0 0 2Z"></path></svg>
+        </a>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Kommunal</h3>
+          <button class="card-example" onclick="kategoriyaBosildi(this)">
+            <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
+            Svet yoki suv uzilib qoldi
+          </button>
+          <button class="card-example" onclick="kategoriyaBosildi(this)">
+            <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
+            Chiqindi olib ketilmayapti
+          </button>
+          <div class="card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M12 3 3 10v11h6v-6h6v6h6V10L12 3Z"></path></svg>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Mehnat</h3>
+          <button class="card-example" onclick="kategoriyaBosildi(this)">
+            <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
+            3 oydan beri ish haqi berilmayapti
+          </button>
+          <button class="card-example" onclick="kategoriyaBosildi(this)">
+            <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
+            Asossiz ishdan bo'shatishdi
+          </button>
+          <div class="card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M10 2h4a2 2 0 0 1 2 2v2h4a2 2 0 0 1 2 2v3H2V8a2 2 0 0 1 2-2h4V4a2 2 0 0 1 2-2Zm0 4h4V4h-4v2ZM2 13h20v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-7Z"></path></svg>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Ijtimoiy himoya</h3>
+          <button class="card-example" onclick="kategoriyaBosildi(this)">
+            <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
+            Pensiya qanday hisoblanadi
+          </button>
+          <button class="card-example" onclick="kategoriyaBosildi(this)">
+            <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
+            Nafaqa olish tartibi
+          </button>
+          <div class="card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M12 21s-7-4.35-9.5-8.5C.7 8.9 2.6 5 6.2 5c1.9 0 3.3 1 4 2.4C10.9 6 12.3 5 14.2 5c3.6 0 5.5 3.9 3.7 7.5C19.5 16.65 12 21 12 21Z"></path></svg>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Yer-mulk</h3>
+          <button class="card-example" onclick="kategoriyaBosildi(this)">
+            <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
+            Qo'shni tomdan suv oqizyapti
+          </button>
+          <button class="card-example" onclick="kategoriyaBosildi(this)">
+            <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
+            Yer chegarasi bo'yicha nizo
+          </button>
+          <div class="card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M3 21V9l9-6l9 6v12h-6v-7H9v7H3Z"></path></svg>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Tadbirkorlik</h3>
+          <button class="card-example" onclick="kategoriyaBosildi(this)">
+            <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
+            YaTT qanday ochiladi
+          </button>
+          <button class="card-example" onclick="kategoriyaBosildi(this)">
+            <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
+            Soliq ro'yxatidan o'tish
+          </button>
+          <div class="card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M4 7h16v13H4V7Zm3-4h10a1 1 0 0 1 1 1v2H6V4a1 1 0 0 1 1-1Z"></path></svg>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Boshqa</h3>
+          <button class="card-example" onclick="kategoriyaBosildi(this)">
+            <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
+            Qayerga murojaat qilishni bilmayman
+          </button>
+          <button class="card-example" onclick="kategoriyaBosildi(this)">
+            <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
+            Umumiy savol bermoqchiman
+          </button>
+          <div class="card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20a10 10 0 0 0 0-20Zm.75 15h-1.5v-1.5h1.5V17Zm1.55-6.19c-.6.5-.8.7-.8 1.44v.25h-1.5v-.35c0-1.2.55-1.75 1.15-2.25c.5-.42.85-.72.85-1.35c0-.7-.55-1.2-1.4-1.2c-.75 0-1.35.45-1.5 1.15l-1.45-.3c.3-1.35 1.5-2.35 2.95-2.35c1.65 0 2.9 1.05 2.9 2.6c0 .95-.5 1.5-1.2 2.06Z"></path></svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="promo-row">
+        <div class="promo">
+          <h3>Qanday ishlaydi?</h3>
+          <p>Savolingiz bazadagi tasdiqlangan yozuvlar bilan solishtiriladi va faqat bazada bor ma'lumot asosida javob beriladi — hech qachan o'ylab topilmaydi.</p>
+          <a href="#" class="promo-link inert" onclick="return false">
+            Batafsil
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </a>
+        </div>
+        <div class="promo">
+          <h3>Rasmiy manbalar</h3>
+          <p>Javoblar my.gov.uz, pm.gov.uz va lex.uz kabi rasmiy manbalarga havola bilan beriladi, shuning uchun ma'lumotni o'zingiz ham tekshirishingiz mumkin.</p>
+          <a href="#" class="promo-link inert" onclick="return false">
+            Batafsil
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="cta">
+        <h2>Savolingiz bormi?</h2>
+        <p>Pastki-o'ng burchakdagi chat tugmasini bosing va muammoingizni yozing.</p>
+        <button onclick="acWidgetniOch()">Chatni ochish</button>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-cols">
+          <div class="footer-col">
+            <h4>Ma'lumot</h4>
+            <a href="#" class="inert" onclick="return false">Loyiha haqida</a>
+            <a href="#" class="inert" onclick="return false">Bazadagi manbalar</a>
+            <a href="#" class="inert" onclick="return false">Ko'p so'raladigan savollar</a>
+          </div>
+          <div class="footer-col">
+            <h4>Foydalanuvchilar uchun</h4>
+            <a href="#" class="inert" onclick="return false">Kategoriyalar</a>
+            <a href="#" class="inert" onclick="return false">Qanday ishlaydi</a>
+            <a href="#" class="inert" onclick="return false">Fikr-mulohaza</a>
+          </div>
+          <div class="footer-col">
+            <h4>Aloqa</h4>
+            <a href="#" class="inert" onclick="return false">Bog'lanish</a>
+            <a href="#" class="inert" onclick="return false">Telegram bot</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>Yo'naltiruvchi — bu bot huquqiy maslahat bermaydi, faqat yo'naltiradi.</span>
+          <div class="footer-social">
+            <span class="inert"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M9.78 18.65l.28-4.23l7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3L3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"></path></svg></span>
+            <span class="inert"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M9.78 18.65l.28-4.23l7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3L3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"></path></svg></span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+</div>
+
+<button id="__chat_widget_toggle" class="chat-widget-toggle" aria-label="Toggle chat">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" fill="none">
+    <path d="M53.0828 24.5002V29.1669C53.1048 30.3695 52.7883 31.5541 52.1695 32.5855C51.5506 33.6169 50.6543 34.4537 49.5828 35.0002V18.7835C50.6365 19.3212 51.521 20.1397 52.1386 21.1485C52.7563 22.1574 53.083 23.3173 53.0828 24.5002ZM2.91615 24.5002V29.1669C2.89416 30.3695 3.21065 31.5541 3.8295 32.5855C4.44836 33.6169 5.34466 34.4537 6.41615 35.0002V18.7835C5.36252 19.3212 4.47801 20.1397 3.86036 21.1485C3.2427 22.1574 2.91593 23.3173 2.91615 24.5002ZM46.0828 18.6669V39.6669C46.0828 41.3687 45.4068 43.0008 44.2034 44.2041C43.0001 45.4075 41.368 46.0835 39.6662 46.0835H28.1862L22.5162 50.9835C21.9938 51.4443 21.3227 51.7011 20.6262 51.7069C20.1985 51.677 19.7833 51.5492 19.4128 51.3335C18.9035 51.1069 18.4712 50.7369 18.1687 50.2687C17.8663 49.8005 17.7067 49.2543 17.7095 48.6969V46.0835H16.3328C14.631 46.0835 12.9989 45.4075 11.7956 44.2041C10.5922 43.0008 9.91615 41.3687 9.91615 39.6669V18.6669C9.91615 16.9651 10.5922 15.333 11.7956 14.1296C12.9989 12.9262 14.631 12.2502 16.3328 12.2502H33.2495V4.66686C33.2495 4.20274 33.4339 3.75762 33.7621 3.42943C34.0902 3.10124 34.5354 2.91686 34.9995 2.91686C35.4636 2.91686 35.9087 3.10124 36.2369 3.42943C36.5651 3.75762 36.7495 4.20274 36.7495 4.66686V12.2502H39.6662C41.368 12.2502 43.0001 12.9262 44.2034 14.1296C45.4068 15.333 46.0828 16.9651 46.0828 18.6669ZM36.7495 33.8335C36.7434 33.3713 36.5571 32.9297 36.2302 32.6028C35.9034 32.2759 35.4617 32.0896 34.9995 32.0835H20.9995C20.5354 32.0835 20.0902 32.2679 19.7621 32.5961C19.4339 32.9243 19.2495 33.3694 19.2495 33.8335C19.2495 34.2977 19.4339 34.7428 19.7621 35.071C20.0902 35.3992 20.5354 35.5835 20.9995 35.5835H34.9995C35.4617 35.5775 35.9034 35.3912 36.2302 35.0643C36.5571 34.7374 36.7434 34.2958 36.7495 33.8335ZM36.7495 24.5002C36.7434 24.0379 36.5571 23.5963 36.2302 23.2694C35.9034 22.9426 35.4617 22.7562 34.9995 22.7502H20.9995C20.5354 22.7502 20.0902 22.9346 19.7621 23.2628C19.4339 23.591 19.2495 24.0361 19.2495 24.5002C19.2495 24.9643 19.4339 25.4094 19.7621 25.7376C20.0902 26.0658 20.5354 26.2502 20.9995 26.2502H34.9995C35.4617 26.2442 35.9034 26.0578 36.2302 25.731C36.5571 25.4041 36.7434 24.9624 36.7495 24.5002Z" fill="#FFFFFF"></path>
+  </svg>
+</button>
+<div id="__chat_widget">
+  <iframe id="__chat_widget_iframe" title="Yo'naltiruvchi chat widget" aria-label="Chat support widget" allow="clipboard-write; clipboard-read" src="/static/widget.html"></iframe>
+</div>
+
 <script>
   (function () {
     var toggle = document.getElementById('__chat_widget_toggle');
     var panel = document.getElementById('__chat_widget');
+    var iframe = document.getElementById('__chat_widget_iframe');
+
+    // widget.html yuklanib, xabar tinglagichini ulagach "ready" deb xabar
+    // beradi — shundan oldin yuborilgan yashirin savol yo'qolib qolmasligi
+    // uchun navbatga qo'yib turamiz.
+    var widgetTayyor = false;
+    var navbat = [];
+
+    window.addEventListener('message', function (event) {
+      if (event.origin !== window.location.origin) return;
+      if (event.data && event.data.type === 'yonaltiruvchi:ready') {
+        widgetTayyor = true;
+        navbat.forEach(function (savol) { yashirinSavolYubor(savol); });
+        navbat = [];
+      }
+    });
+
+    function yashirinSavolYubor(savol) {
+      if (!widgetTayyor) {
+        navbat.push(savol);
+        return;
+      }
+      iframe.contentWindow.postMessage(
+        { type: 'yonaltiruvchi:hidden-savol', savol: savol },
+        window.location.origin
+      );
+    }
+
+    function widgetniOch() {
+      panel.style.display = 'block';
+    }
+
     toggle.addEventListener('click', function () {
       panel.style.display = panel.style.display === 'none' || !panel.style.display ? 'block' : 'none';
     });
+
+    window.acWidgetniOch = widgetniOch;
+
+    // Kategoriya kartochkasidagi misol savolga bosilganda: chatni ochamiz,
+    // savolni fuqaro xabari sifatida ko'rsatmasdan RAG'ga yuboramiz — javob
+    // esa chatda chiroyli, qisqa formatda ko'rinadi.
+    window.kategoriyaBosildi = function (tugma) {
+      var savol = tugma.textContent.trim();
+      if (!savol) return;
+      widgetniOch();
+      yashirinSavolYubor(savol);
+      tugma.disabled = true;
+      setTimeout(function () { tugma.disabled = false; }, 1500);
+    };
+
+    var menuToggle = document.getElementById('menuToggle');
+    var sidebar = document.getElementById('sidebar');
+    var backdrop = document.getElementById('sidebarBackdrop');
+
+    function sidebarniYop() {
+      sidebar.classList.remove('open');
+      backdrop.classList.remove('open');
+    }
+
+    menuToggle.addEventListener('click', function () {
+      sidebar.classList.toggle('open');
+      backdrop.classList.toggle('open');
+    });
+    backdrop.addEventListener('click', sidebarniYop);
   })();
 </script>
 </body>

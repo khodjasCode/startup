@@ -39,7 +39,6 @@
     border-radius: 13px;
     line-height: 1.4;
     font-size: 0.9rem;
-    white-space: pre-wrap;
     word-wrap: break-word;
   }
   .msg.user {
@@ -47,13 +46,33 @@
     background: #2563eb;
     color: #fff;
     border-bottom-right-radius: 4px;
+    white-space: pre-wrap;
   }
   .msg.bot {
     align-self: flex-start;
     background: rgba(127,127,127,0.15);
     border-bottom-left-radius: 4px;
+    white-space: pre-wrap;
   }
   .msg.bot.pending { font-style: italic; opacity: 0.7; }
+
+  /* pretty/structured bot answer (replaces plain pre-wrap once formatted) */
+  .msg.bot.formatted { white-space: normal; }
+  .javob-bolim {
+    font-weight: 700;
+    margin-top: 8px;
+  }
+  .javob-bolim:first-child { margin-top: 0; }
+  .javob-band, .javob-qadam {
+    padding-left: 14px;
+    margin-top: 2px;
+    font-size: 0.87rem;
+    opacity: 0.92;
+  }
+  .javob-matn {
+    margin-top: 4px;
+  }
+
   form {
     display: flex;
     gap: 8px;
@@ -116,15 +135,49 @@
     return div;
   }
 
-  form.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const savol = savolInput.value.trim();
+  function htmlChiqar(matn) {
+    const d = document.createElement('div');
+    d.textContent = matn;
+    return d.innerHTML;
+  }
+
+  // Bot javobini (emoji-sarlavhali, "•"/"1." bandli oddiy matn) o'qish uchun
+  // qulay, qisqa va tuzilgan ko'rinishga o'giradi.
+  const SARLAVHA_EMOJI = ['🏢', '📞', '📄', '📝', '🔗'];
+
+  function javobniChiroyliQil(matn) {
+    const qatorlar = matn.split('\n').map(q => q.trim()).filter(q => q.length > 0);
+    let html = '';
+    for (const qator of qatorlar) {
+      const emoji = SARLAVHA_EMOJI.find(e => qator.startsWith(e));
+      if (emoji) {
+        html += `<div class="javob-bolim">${htmlChiqar(qator)}</div>`;
+      } else if (qator.startsWith('•')) {
+        html += `<div class="javob-band">${htmlChiqar(qator)}</div>`;
+      } else if (/^\d+[.)]\s/.test(qator)) {
+        html += `<div class="javob-qadam">${htmlChiqar(qator)}</div>`;
+      } else {
+        html += `<div class="javob-matn">${htmlChiqar(qator)}</div>`;
+      }
+    }
+    return html || htmlChiqar(matn);
+  }
+
+  /**
+   * savol: yuboriladigan matn.
+   * korsatilsinmi: false bo'lsa, fuqaro xabari chatda ko'rsatilmaydi
+   * (masalan, kategoriya bosilganda) — lekin serverga xuddi shu tarzda,
+   * shu session_id bilan yuboriladi va suhbat tarixiga qo'shiladi.
+   */
+  async function savolYubor(savol, korsatilsinmi = true) {
+    savol = savol.trim();
     if (!savol) return;
 
-    xabarQosh(savol, 'user');
-    savolInput.value = '';
-    yuborBtn.disabled = true;
+    if (korsatilsinmi) {
+      xabarQosh(savol, 'user');
+    }
 
+    yuborBtn.disabled = true;
     const kutish = xabarQosh('Qidiryapman... ⏳', 'bot pending');
 
     try {
@@ -134,15 +187,24 @@
         body: JSON.stringify({ savol, session_id: sessionId }),
       });
       const data = await resp.json();
-      kutish.textContent = data.javob;
+      kutish.innerHTML = javobniChiroyliQil(data.javob);
       kutish.classList.remove('pending');
+      kutish.classList.add('formatted');
     } catch (err) {
       kutish.textContent = 'Kechirasiz, texnik xatolik yuz berdi. Birozdan keyin qayta urinib ko\'ring.';
       kutish.classList.remove('pending');
     } finally {
       yuborBtn.disabled = false;
-      savolInput.focus();
     }
+  }
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const savol = savolInput.value.trim();
+    if (!savol) return;
+    savolInput.value = '';
+    await savolYubor(savol, true);
+    savolInput.focus();
   });
 
   form.addEventListener('keydown', (e) => {
@@ -151,6 +213,23 @@
       form.requestSubmit();
     }
   });
+
+  // Bosh sahifadagi kategoriya bandlariga bosilganda (parent oyna) shu yerga
+  // "yashirin" savol keladi: chatda fuqaro xabari ko'rsatilmaydi, faqat
+  // botning javobi chiqadi.
+  window.addEventListener('message', (event) => {
+    if (event.origin !== window.location.origin) return;
+    const data = event.data;
+    if (data && data.type === 'yonaltiruvchi:hidden-savol' && data.savol) {
+      savolYubor(data.savol, false);
+    }
+  });
+
+  // Parent oynaga tayyor ekanligini bildiramiz — parent hali yuklanmagan
+  // widget'ga xabar yuborib qo'ymasligi uchun.
+  if (window.parent !== window) {
+    window.parent.postMessage({ type: 'yonaltiruvchi:ready' }, window.location.origin);
+  }
 </script>
 </body>
 </html>
