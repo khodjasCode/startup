@@ -39,6 +39,37 @@ TOKENLAR_TUGADI_XABARI = (
     "uchun katta ahamiyatga ega! 🚀✨"
 )
 
+# Veb interfeysdagi til tanlovi (uz/ru/en) uchun tarjimalar — TokenlarTugadi
+# va kutilmagan xatoliklarda ham foydalanuvchi tanlagan tilda javob ko'rinsin.
+TOKENLAR_TUGADI_XABARI_TARJIMALARI = {
+    "uz": TOKENLAR_TUGADI_XABARI,
+    "ru": (
+        "💙 На данный момент лимит запросов к ИИ исчерпан — наш сервис "
+        "работает на бесплатном API с суточным лимитом запросов.\n\n"
+        "⏳ Пожалуйста, попробуйте снова немного позже.\n\n"
+        "🙏 Если наш проект оказался вам полезен и вы хотите, чтобы он "
+        "развивался и помогал большему числу людей — вы можете поддержать "
+        "нас добровольным пожертвованием. Любая помощь очень важна для нас! 🚀✨"
+    ),
+    "en": (
+        "💙 The AI request limit has been reached for now — our service "
+        "runs on a free API with a daily request limit.\n\n"
+        "⏳ Please try again a little later.\n\n"
+        "🙏 If our project has been useful to you and you'd like to help it "
+        "grow and serve more people — you can support us with a voluntary "
+        "donation. Every bit of help means a lot to us! 🚀✨"
+    ),
+}
+
+XATOLIK_XABARI_TARJIMALARI = {
+    "uz": "Kechirasiz, texnik xatolik yuz berdi. Birozdan keyin qayta urinib ko'ring.",
+    "ru": "Извините, произошла техническая ошибка. Пожалуйста, попробуйте снова немного позже.",
+    "en": "Sorry, a technical error occurred. Please try again shortly.",
+}
+
+# javob_olish() ga uzatiladigan til kodi -> LLM ga beriladigan til nomi.
+TIL_NOMLARI = {"uz": "o'zbek", "ru": "rus", "en": "ingliz"}
+
 
 def _kalitlar_bilan_urin(vazifa):
     """vazifa(mijoz) ni har bir mavjud kalit bilan navbatma-navbat sinaydi.
@@ -75,22 +106,26 @@ def qidirish(savol: str, k: int = 3) -> list[str]:
     return natija["documents"][0] if natija["documents"] else []
 
 
-def _generatsiya(model: str, contents):
+def _generatsiya(model: str, contents, tizim_korsatmasi: str = SYSTEM_PROMPT):
     return _kalitlar_bilan_urin(
         lambda mijoz: mijoz.models.generate_content(
             model=model,
-            config={"system_instruction": SYSTEM_PROMPT},
+            config={"system_instruction": tizim_korsatmasi},
             contents=contents,
         )
     )
 
 
-def javob_olish(savol_yoki_tarix) -> str:
+def javob_olish(savol_yoki_tarix, til: str = "uz") -> str:
     """savol_yoki_tarix: yagona savol matni (eski interfeys) yoki suhbat
     tarixi — [{"rol": "fuqaro"|"bot", "matn": str}, ...] ro'yxati, oxirgi
     element fuqaroning eng so'nggi xabari bo'lishi kerak. Tarix orqali bot
     "suv chiqmayapti" kabi noaniq savollarda aniqlashtiruvchi savol berib,
     keyingi xabarlar bilan to'ldirilgan kontekst asosida yakuniy javob beradi.
+
+    til: veb interfeysda tanlangan javob tili ("uz"/"ru"/"en") — bazadagi
+    yozuvlar va fuqaro savoli qaysi tilda bo'lishidan qat'iy nazar, javob
+    shu tilga tarjima qilinadi.
 
     Asosiy model barcha kalitlarda limitga urilsa, zaxira model bilan qayta
     uriniladi. U ham limitga yetsa TokenlarTugadi ko'tariladi — chaqiruvchi
@@ -113,9 +148,19 @@ def javob_olish(savol_yoki_tarix) -> str:
         rol = "user" if xabar["rol"] == "fuqaro" else "model"
         contents.append({"role": rol, "parts": [{"text": matn}]})
 
+    til_nomi = TIL_NOMLARI.get(til, TIL_NOMLARI["uz"])
+    tizim_korsatmasi = SYSTEM_PROMPT + (
+        f"\n11. MUHIM — JAVOB TILI: Foydalanuvchi veb-interfeysda \"{til_nomi}\" "
+        "tilini tanlagan. Fuqaro savolini qaysi tilda/alifboda yozganidan yoki "
+        "ma'lumot bazasi yozuvlari qaysi tilda ekanidan qat'iy nazar, "
+        f"JAVOBNI FAQAT {til_nomi} TILIGA TARJIMA QILIB ber (6-qoidadagi "
+        "alifbo moslashtirish shu qoida bilan almashtiriladi). Emoji "
+        "sarlavhalar va struktura o'zgarishsiz qoladi, faqat matn tarjima qilinadi."
+    )
+
     try:
-        resp = _generatsiya(LLM_MODEL, contents)
+        resp = _generatsiya(LLM_MODEL, contents, tizim_korsatmasi)
     except TokenlarTugadi:
         # asosiy model barcha kalitlarda limitga urildi — zaxira model bilan urinamiz
-        resp = _generatsiya(LLM_ZAXIRA_MODEL, contents)
+        resp = _generatsiya(LLM_ZAXIRA_MODEL, contents, tizim_korsatmasi)
     return resp.text

@@ -2,7 +2,8 @@
 <html lang="uz">
 <head>
 <meta charset="utf-8">
-<title>Yo'naltiruvchi chat</title>
+<title>Compass chat</title>
+<link rel="icon" type="image/png" href="/static/images/logo_transparent.png">
 <style>
   * { box-sizing: border-box; }
   html, body {
@@ -19,11 +20,6 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-  }
-  .head {
-    padding: 14px 16px;
-    border-bottom: 1px solid rgba(127,127,127,0.25);
-    font-weight: 600;
   }
   .chat {
     flex: 1;
@@ -110,13 +106,12 @@
 </head>
 <body>
 <div class="wrap">
-  <div class="head">Yo'naltiruvchi</div>
   <div class="chat" id="chat"></div>
   <form id="form">
-    <textarea id="savol" placeholder="Muammoingizni yozing..." required></textarea>
-    <button type="submit" id="yuborBtn">Yubor</button>
+    <textarea id="savol" data-i18n-placeholder="widget_placeholder" placeholder="Muammoingizni yozing..." required></textarea>
+    <button type="submit" id="yuborBtn" data-i18n="widget_send">Yubor</button>
   </form>
-  <div class="disclaimer">Bu bot huquqiy maslahat bermaydi, faqat yo'naltiradi.</div>
+  <div class="disclaimer" data-i18n="disclaimer_short">Bu bot huquqiy maslahat bermaydi, faqat yo'naltiradi.</div>
 </div>
 
 <script>
@@ -125,6 +120,46 @@
   const savolInput = document.getElementById('savol');
   const yuborBtn = document.getElementById('yuborBtn');
   const sessionId = (crypto.randomUUID && crypto.randomUUID()) || String(Date.now()) + Math.random();
+
+  // ---------- til (uz/ru/en): bosh sahifadagi tanlov bilan bir xil localStorage
+  // kaliti orqali sinxronlashadi (bir xil origin bo'lgani uchun to'g'ridan-to'g'ri
+  // o'qiladi), shuningdek panel ochiq turgan holatda parentdan darhol yangilanadi.
+  const TIL_KALITI = 'yonaltiruvchi_til';
+  const TARJIMALAR = {
+    uz: {
+      widget_placeholder: "Muammoingizni yozing...", widget_send: "Yubor",
+      disclaimer_short: "Bu bot huquqiy maslahat bermaydi, faqat yo'naltiradi.",
+      widget_searching: "Qidiryapman... ⏳",
+      widget_error: "Kechirasiz, texnik xatolik yuz berdi. Birozdan keyin qayta urinib ko'ring.",
+    },
+    ru: {
+      widget_placeholder: "Опишите вашу проблему...", widget_send: "Отправить",
+      disclaimer_short: "Этот бот не даёт юридических консультаций, а только направляет.",
+      widget_searching: "Ищу... ⏳",
+      widget_error: "Извините, произошла техническая ошибка. Пожалуйста, попробуйте снова немного позже.",
+    },
+    en: {
+      widget_placeholder: "Describe your problem...", widget_send: "Send",
+      disclaimer_short: "This bot does not provide legal advice — it only points you in the right direction.",
+      widget_searching: "Searching... ⏳",
+      widget_error: "Sorry, a technical error occurred. Please try again shortly.",
+    },
+  };
+  let joriyTil = localStorage.getItem(TIL_KALITI) || 'uz';
+
+  function matnlarniYangila(til) {
+    const lugat = TARJIMALAR[til] || TARJIMALAR.uz;
+    document.querySelectorAll('[data-i18n]').forEach((el) => {
+      const kalit = el.getAttribute('data-i18n');
+      if (lugat[kalit]) el.textContent = lugat[kalit];
+    });
+    document.querySelectorAll('[data-i18n-placeholder]').forEach((el) => {
+      const kalit = el.getAttribute('data-i18n-placeholder');
+      if (lugat[kalit]) el.placeholder = lugat[kalit];
+    });
+    document.documentElement.lang = til;
+  }
+  matnlarniYangila(joriyTil);
 
   function xabarQosh(matn, rol) {
     const div = document.createElement('div');
@@ -173,25 +208,31 @@
     savol = savol.trim();
     if (!savol) return;
 
+    // localStorage'dan har safar yangilab o'qiymiz — postMessage/storage
+    // hodisasi biror sababdan kechikkan taqdirda ham bot javobi foydalanuvchi
+    // HOZIR tanlagan tilda kelishini kafolatlash uchun.
+    joriyTil = localStorage.getItem(TIL_KALITI) || 'uz';
+    const lugat = TARJIMALAR[joriyTil] || TARJIMALAR.uz;
+
     if (korsatilsinmi) {
       xabarQosh(savol, 'user');
     }
 
     yuborBtn.disabled = true;
-    const kutish = xabarQosh('Qidiryapman... ⏳', 'bot pending');
+    const kutish = xabarQosh(lugat.widget_searching, 'bot pending');
 
     try {
       const resp = await fetch('/api/savol', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ savol, session_id: sessionId }),
+        body: JSON.stringify({ savol, session_id: sessionId, til: joriyTil }),
       });
       const data = await resp.json();
       kutish.innerHTML = javobniChiroyliQil(data.javob);
       kutish.classList.remove('pending');
       kutish.classList.add('formatted');
     } catch (err) {
-      kutish.textContent = 'Kechirasiz, texnik xatolik yuz berdi. Birozdan keyin qayta urinib ko\'ring.';
+      kutish.textContent = lugat.widget_error;
       kutish.classList.remove('pending');
     } finally {
       yuborBtn.disabled = false;
@@ -222,6 +263,22 @@
     const data = event.data;
     if (data && data.type === 'yonaltiruvchi:hidden-savol' && data.savol) {
       savolYubor(data.savol, false);
+    }
+    if (data && data.type === 'yonaltiruvchi:til-changed' && data.til) {
+      joriyTil = data.til;
+      matnlarniYangila(joriyTil);
+    }
+  });
+
+  // postMessage'dan mustaqil, ishonchli sinxronizatsiya: bosh sahifa
+  // localStorage'ga til yozganda, shu origin'dagi boshqa hujjatlarda (shu
+  // jumladan bu iframe'da) "storage" hodisasi avtomatik ishga tushadi —
+  // "ready" xabari kech kelib qolgan holatlarda ham til yangilanishini
+  // kafolatlaydi.
+  window.addEventListener('storage', (event) => {
+    if (event.key === TIL_KALITI && event.newValue) {
+      joriyTil = event.newValue;
+      matnlarniYangila(joriyTil);
     }
   });
 

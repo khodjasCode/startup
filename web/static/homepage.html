@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Yo'naltiruvchi — Davlat xizmatlari navigatori</title>
+<title>Compass — Davlat xizmatlari navigatori</title>
+<link rel="icon" type="image/png" href="/static/images/logo_transparent.png">
 <style>
   :root {
     color-scheme: light dark;
@@ -90,14 +91,15 @@
   .logo-badge {
     width: 34px;
     height: 34px;
-    border-radius: 9px;
-    background: linear-gradient(135deg, #ffffff, #bfe0ff);
-    color: var(--primary);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 800;
+    border-radius: 14px;
+    overflow: hidden;
     flex-shrink: 0;
+  }
+  .logo-badge img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
   }
   .sidebar-section { margin-bottom: 22px; }
   .sidebar-title {
@@ -184,6 +186,7 @@
     align-items: center;
     gap: 10px;
   }
+  .lang-pill-wrap { position: relative; }
   .lang-pill {
     display: flex;
     align-items: center;
@@ -191,10 +194,44 @@
     padding: 7px 12px;
     border-radius: 999px;
     border: 1px solid var(--border);
+    background: transparent;
     font-size: 0.82rem;
     font-weight: 600;
     color: var(--muted);
+    cursor: pointer;
   }
+  .lang-pill:hover { border-color: var(--primary); color: var(--primary); }
+  .lang-pill svg { width: 14px; height: 14px; transition: transform 0.15s ease; }
+  .lang-pill-wrap.open .lang-pill svg { transform: rotate(180deg); }
+  .lang-menu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    min-width: 150px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+    overflow: hidden;
+    z-index: 50;
+  }
+  .lang-pill-wrap.open .lang-menu { display: block; }
+  .lang-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 9px 14px;
+    border: none;
+    background: transparent;
+    color: var(--text);
+    font-size: 0.85rem;
+    text-align: left;
+    cursor: pointer;
+  }
+  .lang-option:hover { background: color-mix(in srgb, var(--primary) 10%, transparent); }
+  .lang-option.active { color: var(--primary); font-weight: 700; }
   .icon-btn {
     width: 38px;
     height: 38px;
@@ -465,7 +502,6 @@
     .sidebar.open { transform: translateX(0); }
     .menu-toggle { display: flex; }
     .header-search { display: none; }
-    .lang-pill { display: none; }
   }
   @media (max-width: 600px) {
     header { padding: 12px 16px; }
@@ -480,24 +516,28 @@
   /* ---------- chat widget (functional part) ---------- */
   .chat-widget-toggle {
     position: fixed;
-    right: 24px;
+    right: 34px;
     bottom: 24px;
     z-index: 9999;
-    width: 56px;
-    height: 56px;
+    width: 66px;
+    height: 66px;
     border-radius: 50%;
     border: none;
-    background: var(--primary);
+    background:
+      radial-gradient(circle at 32% 26%, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0) 32%),
+      radial-gradient(circle at 35% 30%, #2f6b52 0%, #123526 45%, #071310 100%);
+    padding: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 2px 5px rgba(255, 255, 255, 0.1), 0 6px 20px rgba(0, 0, 0, 0.3);
   }
-  .chat-widget-toggle:hover { background: var(--primary-hover); }
-  .chat-widget-toggle svg { width: 26px; height: 26px; }
+  .chat-widget-toggle:hover { opacity: 0.9; }
+  .chat-widget-toggle img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; }
   #__chat_widget {
     display: none;
+    flex-direction: column;
     position: fixed;
     right: 24px;
     bottom: 92px;
@@ -509,16 +549,75 @@
     border-radius: 14px;
     overflow: hidden;
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+    background: var(--panel);
   }
-  #__chat_widget iframe { width: 100%; height: 100%; border: none; }
+  #__chat_widget.open { display: flex; }
+  #__chat_widget.chat-minimized { height: auto; max-height: none; }
+  #__chat_widget.chat-minimized iframe { display: none; }
+  .chat-widget-header {
+    flex-shrink: 0;
+    height: 44px;
+    background:
+      radial-gradient(circle at 32% 26%, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0) 32%),
+      radial-gradient(circle at 35% 30%, #2f6b52 0%, #123526 45%, #071310 100%);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px 0 12px;
+    cursor: move;
+    user-select: none;
+    touch-action: none;
+  }
+  .chat-widget-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.88rem;
+    font-weight: 700;
+  }
+  .chat-widget-title img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .chat-widget-controls {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .chat-widget-btn {
+    width: 28px;
+    height: 28px;
+    border: none;
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.16);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .chat-widget-btn:hover { background: rgba(255, 255, 255, 0.3); }
+  .chat-widget-btn svg { width: 14px; height: 14px; }
+  #__chat_widget iframe { width: 100%; height: 100%; border: none; flex: 1; min-height: 0; }
   @media (max-width: 600px) {
     .chat-widget-toggle { right: 16px; bottom: 16px; width: 50px; height: 50px; }
-    .chat-widget-toggle svg { width: 22px; height: 22px; }
     #__chat_widget {
-      right: 0; bottom: 0; top: 0; left: 0;
+      right: 0 !important; bottom: 0 !important; top: 0 !important; left: 0 !important;
       width: 100%; height: 100%; max-width: 100%; max-height: 100%;
       border-radius: 0;
     }
+    #__chat_widget.chat-minimized {
+      top: auto !important;
+      height: auto;
+      max-height: none;
+      width: 100%;
+      border-radius: 0;
+    }
+    #__chat_widget.chat-minimized iframe { display: none; }
+    .chat-widget-header { cursor: default; }
   }
   .sidebar-backdrop {
     display: none;
@@ -538,43 +637,43 @@
 
   <aside class="sidebar" id="sidebar">
     <div class="sidebar-logo">
-      <span class="logo-badge">Y</span>
-      Yo'naltiruvchi
+      <span class="logo-badge"><img src="/static/images/logo.png" alt="Compass logo"></span>
+      Compass
     </div>
 
     <nav class="sidebar-section">
-      <div class="sidebar-title">Xizmatlar</div>
+      <div class="sidebar-title" data-i18n="sidebar_xizmatlar">Xizmatlar</div>
       <a href="#" class="sidebar-link inert" onclick="return false">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M10.586 2.1a2 2 0 0 1 2.7-.116l3.028 2.53a2 2 0 0 0 1.28.463H18a2 2 0 0 1 2 2v1.686l1.9 1.9a2 2 0 0 1 0 2.83l-1.9 1.9V18a2 2 0 0 1-2 2h-2.685l-1.9 1.9a2 2 0 0 1-2.83 0l-1.9-1.9H6a2 2 0 0 1-2-2v-2.685l-1.9-1.9a2 2 0 0 1 0-2.83l1.9-1.9V6a2 2 0 0 1 2-2h1.686l1.9-1.9Z"></path></svg>
-        Kategoriyalar
+        <span data-i18n="sidebar_categories">Kategoriyalar</span>
       </a>
       <a href="#" class="sidebar-link inert" onclick="return false">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M12 6a3 3 0 1 1 0 6a3 3 0 0 1 0-6Zm0 8c4 0 7 2 7 4v2H5v-2c0-2 3-4 7-4Z"></path></svg>
-        Barcha bazalar
+        <span data-i18n="sidebar_all_db">Barcha bazalar</span>
       </a>
       <a href="#" class="sidebar-link inert" onclick="return false">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M4 4h16v2H4V4Zm0 7h16v2H4v-2Zm0 7h10v2H4v-2Z"></path></svg>
-        Manbalar (my.gov.uz, lex.uz)
+        <span data-i18n="sidebar_sources">Manbalar (my.gov.uz, lex.uz)</span>
       </a>
     </nav>
 
     <nav class="sidebar-section">
-      <div class="sidebar-title">Yordam</div>
+      <div class="sidebar-title" data-i18n="sidebar_yordam">Yordam</div>
       <a href="#" class="sidebar-link inert" onclick="return false">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20a10 10 0 0 0 0-20Zm.75 15h-1.5v-1.5h1.5V17Zm1.55-6.19c-.6.5-.8.7-.8 1.44v.25h-1.5v-.35c0-1.2.55-1.75 1.15-2.25c.5-.42.85-.72.85-1.35c0-.7-.55-1.2-1.4-1.2c-.75 0-1.35.45-1.5 1.15l-1.45-.3c.3-1.35 1.5-2.35 2.95-2.35c1.65 0 2.9 1.05 2.9 2.6c0 .95-.5 1.5-1.2 2.06Z"></path></svg>
-        Ko'p so'raladigan savollar
+        <span data-i18n="sidebar_faq">Ko'p so'raladigan savollar</span>
       </a>
       <a href="#" class="sidebar-link inert" onclick="return false">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M6.6 10.8c1.2 2.4 3.2 4.4 5.6 5.6l1.9-1.9c.3-.3.7-.4 1-.2c1 .3 2.1.5 3.2.5c.6 0 1 .4 1 1v3.4c0 .6-.4 1-1 1C10.6 20.2 3.8 13.4 3.8 5c0-.6.4-1 1-1H8.2c.6 0 1 .4 1 1c0 1.1.2 2.2.5 3.2c.1.3 0 .7-.2 1L6.6 10.8Z"></path></svg>
-        Bog'lanish
+        <span data-i18n="sidebar_contact">Bog'lanish</span>
       </a>
       <a href="#" class="sidebar-link inert" onclick="return false">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4l-8 5l-8-5V6l8 5l8-5v2Z"></path></svg>
-        Fikr-mulohaza
+        <span data-i18n="sidebar_feedback">Fikr-mulohaza</span>
       </a>
     </nav>
 
-    <div class="sidebar-foot">
+    <div class="sidebar-foot" data-i18n="disclaimer_short">
       Bu bot huquqiy maslahat bermaydi, faqat yo'naltiradi.
     </div>
   </aside>
@@ -588,47 +687,57 @@
 
       <div class="header-search inert">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M21.7 20.3 18 16.6a9 9 0 1 0-1.4 1.4l3.7 3.7a1 1 0 0 0 1.4-1.4ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z"></path></svg>
-        <input type="text" placeholder="Muammoingizni yozing — masalan: qo'shnim tomdan suv oqizyapti" readonly onclick="acWidgetniOch()">
+        <input type="text" data-i18n-placeholder="search_placeholder" placeholder="Muammoingizni yozing — masalan: qo'shnim tomdan suv oqizyapti" readonly onclick="acWidgetniOch()">
       </div>
 
       <div class="header-spacer"></div>
 
       <div class="header-actions">
-        <div class="lang-pill inert">O'z</div>
+        <div class="lang-pill-wrap" id="langWrap">
+          <button type="button" class="lang-pill" id="langBtn" aria-haspopup="true" aria-expanded="false">
+            <span id="langBtnLabel">O'z</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m6 9 6 6 6-6"></path></svg>
+          </button>
+          <div class="lang-menu" id="langMenu">
+            <button type="button" class="lang-option" data-lang="uz">O'zbekcha</button>
+            <button type="button" class="lang-option" data-lang="ru">Русский</button>
+            <button type="button" class="lang-option" data-lang="en">English</button>
+          </div>
+        </div>
         <button class="icon-btn inert" aria-label="Sozlamalar" onclick="return false">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M12 6a3 3 0 1 1 0 6a3 3 0 0 1 0-6Zm7.4 3a7.4 7.4 0 0 0-.13-1.36l1.98-1.55a.5.5 0 0 0 .12-.64l-1.88-3.26a.5.5 0 0 0-.6-.22l-2.33.94a7.6 7.6 0 0 0-1.18-.68l-.35-2.48a.5.5 0 0 0-.5-.43h-3.75a.5.5 0 0 0-.5.43l-.35 2.48a7.6 7.6 0 0 0-1.18.68l-2.33-.94a.5.5 0 0 0-.6.22L2.63 5.45a.5.5 0 0 0 .12.64L4.73 7.64A7.4 7.4 0 0 0 4.6 9a7.4 7.4 0 0 0 .13 1.36L2.75 11.9a.5.5 0 0 0-.12.64l1.88 3.26a.5.5 0 0 0 .6.22l2.33-.94c.36.28.76.5 1.18.68l.35 2.48a.5.5 0 0 0 .5.43h3.75a.5.5 0 0 0 .5-.43l.35-2.48c.42-.18.82-.4 1.18-.68l2.33.94a.5.5 0 0 0 .6-.22l1.88-3.26a.5.5 0 0 0-.12-.64L19.27 10.36c.08-.44.13-.9.13-1.36Z"></path></svg>
         </button>
-        <div class="login-pill inert">Kirish</div>
+        <div class="login-pill inert" data-i18n="login">Kirish</div>
       </div>
     </header>
 
     <section class="banner">
       <div class="banner-copy">
-        <h1>Muammoingizni oddiy tilda yozing — biz yo'naltiramiz</h1>
-        <p>Qaysi idoraga, qanday hujjatlar bilan, qanday tartibda murojaat qilishni aytib beramiz — rasmiy manbaga havola bilan birga.</p>
+        <h1 data-i18n="banner_h1">Muammoingizni oddiy tilda yozing — biz yo'naltiramiz</h1>
+        <p data-i18n="banner_p">Qaysi idoraga, qanday hujjatlar bilan, qanday tartibda murojaat qilishni aytib beramiz — rasmiy manbaga havola bilan birga.</p>
       </div>
-      <button class="banner-cta" onclick="acWidgetniOch()">Chatni ochish</button>
+      <button class="banner-cta" onclick="acWidgetniOch()" data-i18n="open_chat">Chatni ochish</button>
     </section>
 
     <main>
       <div class="section-head">
-        <h2 class="section-title">Kategoriyalar</h2>
+        <h2 class="section-title" data-i18n="sidebar_categories">Kategoriyalar</h2>
         <a href="#" class="section-more inert" onclick="return false">
-          Barchasi
+          <span data-i18n="section_more">Barchasi</span>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M5 13h11.17l-4.88 4.88a1 1 0 1 0 1.41 1.41l6.59-6.58a1 1 0 0 0 0-1.42l-6.58-6.6a1 1 0 1 0-1.42 1.42L16.17 11H5a1 1 0 0 0 0 2Z"></path></svg>
         </a>
       </div>
 
       <div class="cards">
         <div class="card">
-          <h3>Kommunal</h3>
-          <button class="card-example" onclick="kategoriyaBosildi(this)">
+          <h3 data-i18n="card_kommunal">Kommunal</h3>
+          <button class="card-example" onclick="kategoriyaBosildi(this)" data-savol="Svet yoki suv uzilib qoldi">
             <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
-            Svet yoki suv uzilib qoldi
+            <span data-i18n="ex_kommunal_1">Svet yoki suv uzilib qoldi</span>
           </button>
-          <button class="card-example" onclick="kategoriyaBosildi(this)">
+          <button class="card-example" onclick="kategoriyaBosildi(this)" data-savol="Chiqindi olib ketilmayapti">
             <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
-            Chiqindi olib ketilmayapti
+            <span data-i18n="ex_kommunal_2">Chiqindi olib ketilmayapti</span>
           </button>
           <div class="card-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M12 3 3 10v11h6v-6h6v6h6V10L12 3Z"></path></svg>
@@ -636,14 +745,14 @@
         </div>
 
         <div class="card">
-          <h3>Mehnat</h3>
-          <button class="card-example" onclick="kategoriyaBosildi(this)">
+          <h3 data-i18n="card_mehnat">Mehnat</h3>
+          <button class="card-example" onclick="kategoriyaBosildi(this)" data-savol="3 oydan beri ish haqi berilmayapti">
             <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
-            3 oydan beri ish haqi berilmayapti
+            <span data-i18n="ex_mehnat_1">3 oydan beri ish haqi berilmayapti</span>
           </button>
-          <button class="card-example" onclick="kategoriyaBosildi(this)">
+          <button class="card-example" onclick="kategoriyaBosildi(this)" data-savol="Asossiz ishdan bo'shatishdi">
             <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
-            Asossiz ishdan bo'shatishdi
+            <span data-i18n="ex_mehnat_2">Asossiz ishdan bo'shatishdi</span>
           </button>
           <div class="card-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M10 2h4a2 2 0 0 1 2 2v2h4a2 2 0 0 1 2 2v3H2V8a2 2 0 0 1 2-2h4V4a2 2 0 0 1 2-2Zm0 4h4V4h-4v2ZM2 13h20v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-7Z"></path></svg>
@@ -651,14 +760,14 @@
         </div>
 
         <div class="card">
-          <h3>Ijtimoiy himoya</h3>
-          <button class="card-example" onclick="kategoriyaBosildi(this)">
+          <h3 data-i18n="card_ijtimoiy">Ijtimoiy himoya</h3>
+          <button class="card-example" onclick="kategoriyaBosildi(this)" data-savol="Pensiya qanday hisoblanadi">
             <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
-            Pensiya qanday hisoblanadi
+            <span data-i18n="ex_ijtimoiy_1">Pensiya qanday hisoblanadi</span>
           </button>
-          <button class="card-example" onclick="kategoriyaBosildi(this)">
+          <button class="card-example" onclick="kategoriyaBosildi(this)" data-savol="Nafaqa olish tartibi">
             <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
-            Nafaqa olish tartibi
+            <span data-i18n="ex_ijtimoiy_2">Nafaqa olish tartibi</span>
           </button>
           <div class="card-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M12 21s-7-4.35-9.5-8.5C.7 8.9 2.6 5 6.2 5c1.9 0 3.3 1 4 2.4C10.9 6 12.3 5 14.2 5c3.6 0 5.5 3.9 3.7 7.5C19.5 16.65 12 21 12 21Z"></path></svg>
@@ -666,14 +775,14 @@
         </div>
 
         <div class="card">
-          <h3>Yer-mulk</h3>
-          <button class="card-example" onclick="kategoriyaBosildi(this)">
+          <h3 data-i18n="card_yermulk">Yer-mulk</h3>
+          <button class="card-example" onclick="kategoriyaBosildi(this)" data-savol="Qo'shni tomdan suv oqizyapti">
             <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
-            Qo'shni tomdan suv oqizyapti
+            <span data-i18n="ex_yermulk_1">Qo'shni tomdan suv oqizyapti</span>
           </button>
-          <button class="card-example" onclick="kategoriyaBosildi(this)">
+          <button class="card-example" onclick="kategoriyaBosildi(this)" data-savol="Yer chegarasi bo'yicha nizo">
             <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
-            Yer chegarasi bo'yicha nizo
+            <span data-i18n="ex_yermulk_2">Yer chegarasi bo'yicha nizo</span>
           </button>
           <div class="card-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M3 21V9l9-6l9 6v12h-6v-7H9v7H3Z"></path></svg>
@@ -681,14 +790,14 @@
         </div>
 
         <div class="card">
-          <h3>Tadbirkorlik</h3>
-          <button class="card-example" onclick="kategoriyaBosildi(this)">
+          <h3 data-i18n="card_tadbirkorlik">Tadbirkorlik</h3>
+          <button class="card-example" onclick="kategoriyaBosildi(this)" data-savol="YaTT qanday ochiladi">
             <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
-            YaTT qanday ochiladi
+            <span data-i18n="ex_tadbirkorlik_1">YaTT qanday ochiladi</span>
           </button>
-          <button class="card-example" onclick="kategoriyaBosildi(this)">
+          <button class="card-example" onclick="kategoriyaBosildi(this)" data-savol="Soliq ro'yxatidan o'tish">
             <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
-            Soliq ro'yxatidan o'tish
+            <span data-i18n="ex_tadbirkorlik_2">Soliq ro'yxatidan o'tish</span>
           </button>
           <div class="card-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M4 7h16v13H4V7Zm3-4h10a1 1 0 0 1 1 1v2H6V4a1 1 0 0 1 1-1Z"></path></svg>
@@ -696,14 +805,14 @@
         </div>
 
         <div class="card">
-          <h3>Boshqa</h3>
-          <button class="card-example" onclick="kategoriyaBosildi(this)">
+          <h3 data-i18n="card_boshqa">Boshqa</h3>
+          <button class="card-example" onclick="kategoriyaBosildi(this)" data-savol="Qayerga murojaat qilishni bilmayman">
             <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
-            Qayerga murojaat qilishni bilmayman
+            <span data-i18n="ex_boshqa_1">Qayerga murojaat qilishni bilmayman</span>
           </button>
-          <button class="card-example" onclick="kategoriyaBosildi(this)">
+          <button class="card-example" onclick="kategoriyaBosildi(this)" data-savol="Umumiy savol bermoqchiman">
             <svg viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2"></circle></svg>
-            Umumiy savol bermoqchiman
+            <span data-i18n="ex_boshqa_2">Umumiy savol bermoqchiman</span>
           </button>
           <div class="card-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20a10 10 0 0 0 0-20Zm.75 15h-1.5v-1.5h1.5V17Zm1.55-6.19c-.6.5-.8.7-.8 1.44v.25h-1.5v-.35c0-1.2.55-1.75 1.15-2.25c.5-.42.85-.72.85-1.35c0-.7-.55-1.2-1.4-1.2c-.75 0-1.35.45-1.5 1.15l-1.45-.3c.3-1.35 1.5-2.35 2.95-2.35c1.65 0 2.9 1.05 2.9 2.6c0 .95-.5 1.5-1.2 2.06Z"></path></svg>
@@ -713,27 +822,27 @@
 
       <div class="promo-row">
         <div class="promo">
-          <h3>Qanday ishlaydi?</h3>
-          <p>Savolingiz bazadagi tasdiqlangan yozuvlar bilan solishtiriladi va faqat bazada bor ma'lumot asosida javob beriladi — hech qachan o'ylab topilmaydi.</p>
+          <h3 data-i18n="promo1_title">Qanday ishlaydi?</h3>
+          <p data-i18n="promo1_p">Savolingiz bazadagi tasdiqlangan yozuvlar bilan solishtiriladi va faqat bazada bor ma'lumot asosida javob beriladi — hech qachan o'ylab topilmaydi.</p>
           <a href="#" class="promo-link inert" onclick="return false">
-            Batafsil
+            <span data-i18n="promo_more">Batafsil</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>
           </a>
         </div>
         <div class="promo">
-          <h3>Rasmiy manbalar</h3>
-          <p>Javoblar my.gov.uz, pm.gov.uz va lex.uz kabi rasmiy manbalarga havola bilan beriladi, shuning uchun ma'lumotni o'zingiz ham tekshirishingiz mumkin.</p>
+          <h3 data-i18n="promo2_title">Rasmiy manbalar</h3>
+          <p data-i18n="promo2_p">Javoblar my.gov.uz, pm.gov.uz va lex.uz kabi rasmiy manbalarga havola bilan beriladi, shuning uchun ma'lumotni o'zingiz ham tekshirishingiz mumkin.</p>
           <a href="#" class="promo-link inert" onclick="return false">
-            Batafsil
+            <span data-i18n="promo_more">Batafsil</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>
           </a>
         </div>
       </div>
 
       <div class="cta">
-        <h2>Savolingiz bormi?</h2>
-        <p>Pastki-o'ng burchakdagi chat tugmasini bosing va muammoingizni yozing.</p>
-        <button onclick="acWidgetniOch()">Chatni ochish</button>
+        <h2 data-i18n="cta_h2">Savolingiz bormi?</h2>
+        <p data-i18n="cta_p">Pastki-o'ng burchakdagi chat tugmasini bosing va muammoingizni yozing.</p>
+        <button onclick="acWidgetniOch()" data-i18n="open_chat">Chatni ochish</button>
       </div>
     </main>
 
@@ -741,25 +850,25 @@
       <div class="footer-inner">
         <div class="footer-cols">
           <div class="footer-col">
-            <h4>Ma'lumot</h4>
-            <a href="#" class="inert" onclick="return false">Loyiha haqida</a>
-            <a href="#" class="inert" onclick="return false">Bazadagi manbalar</a>
-            <a href="#" class="inert" onclick="return false">Ko'p so'raladigan savollar</a>
+            <h4 data-i18n="footer_info">Ma'lumot</h4>
+            <a href="#" class="inert" onclick="return false" data-i18n="footer_about">Loyiha haqida</a>
+            <a href="#" class="inert" onclick="return false" data-i18n="footer_db_sources">Bazadagi manbalar</a>
+            <a href="#" class="inert" onclick="return false" data-i18n="sidebar_faq">Ko'p so'raladigan savollar</a>
           </div>
           <div class="footer-col">
-            <h4>Foydalanuvchilar uchun</h4>
-            <a href="#" class="inert" onclick="return false">Kategoriyalar</a>
-            <a href="#" class="inert" onclick="return false">Qanday ishlaydi</a>
-            <a href="#" class="inert" onclick="return false">Fikr-mulohaza</a>
+            <h4 data-i18n="footer_users">Foydalanuvchilar uchun</h4>
+            <a href="#" class="inert" onclick="return false" data-i18n="sidebar_categories">Kategoriyalar</a>
+            <a href="#" class="inert" onclick="return false" data-i18n="footer_how">Qanday ishlaydi</a>
+            <a href="#" class="inert" onclick="return false" data-i18n="sidebar_feedback">Fikr-mulohaza</a>
           </div>
           <div class="footer-col">
-            <h4>Aloqa</h4>
-            <a href="#" class="inert" onclick="return false">Bog'lanish</a>
-            <a href="#" class="inert" onclick="return false">Telegram bot</a>
+            <h4 data-i18n="footer_contact_col">Aloqa</h4>
+            <a href="#" class="inert" onclick="return false" data-i18n="sidebar_contact">Bog'lanish</a>
+            <a href="#" class="inert" onclick="return false" data-i18n="footer_telegram">Telegram bot</a>
           </div>
         </div>
         <div class="footer-bottom">
-          <span>Yo'naltiruvchi — bu bot huquqiy maslahat bermaydi, faqat yo'naltiradi.</span>
+          <span data-i18n="footer_disclaimer">Compass — bu bot huquqiy maslahat bermaydi, faqat yo'naltiradi.</span>
           <div class="footer-social">
             <span class="inert"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M9.78 18.65l.28-4.23l7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3L3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"></path></svg></span>
             <span class="inert"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="M9.78 18.65l.28-4.23l7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3L3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"></path></svg></span>
@@ -772,16 +881,138 @@
 </div>
 
 <button id="__chat_widget_toggle" class="chat-widget-toggle" aria-label="Toggle chat">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" fill="none">
-    <path d="M53.0828 24.5002V29.1669C53.1048 30.3695 52.7883 31.5541 52.1695 32.5855C51.5506 33.6169 50.6543 34.4537 49.5828 35.0002V18.7835C50.6365 19.3212 51.521 20.1397 52.1386 21.1485C52.7563 22.1574 53.083 23.3173 53.0828 24.5002ZM2.91615 24.5002V29.1669C2.89416 30.3695 3.21065 31.5541 3.8295 32.5855C4.44836 33.6169 5.34466 34.4537 6.41615 35.0002V18.7835C5.36252 19.3212 4.47801 20.1397 3.86036 21.1485C3.2427 22.1574 2.91593 23.3173 2.91615 24.5002ZM46.0828 18.6669V39.6669C46.0828 41.3687 45.4068 43.0008 44.2034 44.2041C43.0001 45.4075 41.368 46.0835 39.6662 46.0835H28.1862L22.5162 50.9835C21.9938 51.4443 21.3227 51.7011 20.6262 51.7069C20.1985 51.677 19.7833 51.5492 19.4128 51.3335C18.9035 51.1069 18.4712 50.7369 18.1687 50.2687C17.8663 49.8005 17.7067 49.2543 17.7095 48.6969V46.0835H16.3328C14.631 46.0835 12.9989 45.4075 11.7956 44.2041C10.5922 43.0008 9.91615 41.3687 9.91615 39.6669V18.6669C9.91615 16.9651 10.5922 15.333 11.7956 14.1296C12.9989 12.9262 14.631 12.2502 16.3328 12.2502H33.2495V4.66686C33.2495 4.20274 33.4339 3.75762 33.7621 3.42943C34.0902 3.10124 34.5354 2.91686 34.9995 2.91686C35.4636 2.91686 35.9087 3.10124 36.2369 3.42943C36.5651 3.75762 36.7495 4.20274 36.7495 4.66686V12.2502H39.6662C41.368 12.2502 43.0001 12.9262 44.2034 14.1296C45.4068 15.333 46.0828 16.9651 46.0828 18.6669ZM36.7495 33.8335C36.7434 33.3713 36.5571 32.9297 36.2302 32.6028C35.9034 32.2759 35.4617 32.0896 34.9995 32.0835H20.9995C20.5354 32.0835 20.0902 32.2679 19.7621 32.5961C19.4339 32.9243 19.2495 33.3694 19.2495 33.8335C19.2495 34.2977 19.4339 34.7428 19.7621 35.071C20.0902 35.3992 20.5354 35.5835 20.9995 35.5835H34.9995C35.4617 35.5775 35.9034 35.3912 36.2302 35.0643C36.5571 34.7374 36.7434 34.2958 36.7495 33.8335ZM36.7495 24.5002C36.7434 24.0379 36.5571 23.5963 36.2302 23.2694C35.9034 22.9426 35.4617 22.7562 34.9995 22.7502H20.9995C20.5354 22.7502 20.0902 22.9346 19.7621 23.2628C19.4339 23.591 19.2495 24.0361 19.2495 24.5002C19.2495 24.9643 19.4339 25.4094 19.7621 25.7376C20.0902 26.0658 20.5354 26.2502 20.9995 26.2502H34.9995C35.4617 26.2442 35.9034 26.0578 36.2302 25.731C36.5571 25.4041 36.7434 24.9624 36.7495 24.5002Z" fill="#FFFFFF"></path>
-  </svg>
+  <img src="/static/images/bot_icon.png" alt="Chat">
 </button>
 <div id="__chat_widget">
-  <iframe id="__chat_widget_iframe" title="Yo'naltiruvchi chat widget" aria-label="Chat support widget" allow="clipboard-write; clipboard-read" src="/static/widget.html"></iframe>
+  <div class="chat-widget-header" id="chatWidgetHeader">
+    <span class="chat-widget-title"><img src="/static/images/bot_icon.png" alt="">Compass</span>
+    <div class="chat-widget-controls">
+      <button type="button" class="chat-widget-btn" id="chatMinimizeBtn" aria-label="Kichraytirish">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M5 12h14"></path></svg>
+      </button>
+      <button type="button" class="chat-widget-btn" id="chatCloseBtn" aria-label="Yopish">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M6 6l12 12M18 6L6 18"></path></svg>
+      </button>
+    </div>
+  </div>
+  <iframe id="__chat_widget_iframe" title="Compass chat widget" aria-label="Chat support widget" allow="clipboard-write; clipboard-read" src="/static/widget.html"></iframe>
 </div>
 
 <script>
   (function () {
+    // ---------- til (uz/ru/en) tanlash va sahifa matnlarini tarjima qilish ----------
+    var TIL_KALITI = 'yonaltiruvchi_til';
+    var TIL_YORLIQ = { uz: "O'z", ru: 'РУ', en: 'EN' };
+    var TARJIMALAR = {
+      uz: {
+        sidebar_xizmatlar: "Xizmatlar", sidebar_categories: "Kategoriyalar",
+        sidebar_all_db: "Barcha bazalar", sidebar_sources: "Manbalar (my.gov.uz, lex.uz)",
+        sidebar_yordam: "Yordam", sidebar_faq: "Ko'p so'raladigan savollar",
+        sidebar_contact: "Bog'lanish", sidebar_feedback: "Fikr-mulohaza",
+        disclaimer_short: "Bu bot huquqiy maslahat bermaydi, faqat yo'naltiradi.",
+        search_placeholder: "Muammoingizni yozing — masalan: qo'shnim tomdan suv oqizyapti",
+        login: "Kirish",
+        banner_h1: "Muammoingizni oddiy tilda yozing — biz yo'naltiramiz",
+        banner_p: "Qaysi idoraga, qanday hujjatlar bilan, qanday tartibda murojaat qilishni aytib beramiz — rasmiy manbaga havola bilan birga.",
+        open_chat: "Chatni ochish", section_more: "Barchasi",
+        card_kommunal: "Kommunal", card_mehnat: "Mehnat", card_ijtimoiy: "Ijtimoiy himoya",
+        card_yermulk: "Yer-mulk", card_tadbirkorlik: "Tadbirkorlik", card_boshqa: "Boshqa",
+        ex_kommunal_1: "Svet yoki suv uzilib qoldi", ex_kommunal_2: "Chiqindi olib ketilmayapti",
+        ex_mehnat_1: "3 oydan beri ish haqi berilmayapti", ex_mehnat_2: "Asossiz ishdan bo'shatishdi",
+        ex_ijtimoiy_1: "Pensiya qanday hisoblanadi", ex_ijtimoiy_2: "Nafaqa olish tartibi",
+        ex_yermulk_1: "Qo'shni tomdan suv oqizyapti", ex_yermulk_2: "Yer chegarasi bo'yicha nizo",
+        ex_tadbirkorlik_1: "YaTT qanday ochiladi", ex_tadbirkorlik_2: "Soliq ro'yxatidan o'tish",
+        ex_boshqa_1: "Qayerga murojaat qilishni bilmayman", ex_boshqa_2: "Umumiy savol bermoqchiman",
+        promo1_title: "Qanday ishlaydi?",
+        promo1_p: "Savolingiz bazadagi tasdiqlangan yozuvlar bilan solishtiriladi va faqat bazada bor ma'lumot asosida javob beriladi — hech qachan o'ylab topilmaydi.",
+        promo2_title: "Rasmiy manbalar",
+        promo2_p: "Javoblar my.gov.uz, pm.gov.uz va lex.uz kabi rasmiy manbalarga havola bilan beriladi, shuning uchun ma'lumotni o'zingiz ham tekshirishingiz mumkin.",
+        promo_more: "Batafsil",
+        cta_h2: "Savolingiz bormi?", cta_p: "Pastki-o'ng burchakdagi chat tugmasini bosing va muammoingizni yozing.",
+        footer_info: "Ma'lumot", footer_about: "Loyiha haqida", footer_db_sources: "Bazadagi manbalar",
+        footer_users: "Foydalanuvchilar uchun", footer_how: "Qanday ishlaydi",
+        footer_contact_col: "Aloqa", footer_telegram: "Telegram bot",
+        footer_disclaimer: "Compass — bu bot huquqiy maslahat bermaydi, faqat yo'naltiradi."
+      },
+      ru: {
+        sidebar_xizmatlar: "Услуги", sidebar_categories: "Категории",
+        sidebar_all_db: "Все базы", sidebar_sources: "Источники (my.gov.uz, lex.uz)",
+        sidebar_yordam: "Помощь", sidebar_faq: "Часто задаваемые вопросы",
+        sidebar_contact: "Связаться", sidebar_feedback: "Обратная связь",
+        disclaimer_short: "Этот бот не даёт юридических консультаций, а только направляет.",
+        search_placeholder: "Опишите проблему — например: сосед заливает воду с крыши",
+        login: "Войти",
+        banner_h1: "Опишите проблему простыми словами — мы подскажем, куда обратиться",
+        banner_p: "Мы расскажем, в какое учреждение, с какими документами и в каком порядке обращаться — со ссылкой на официальный источник.",
+        open_chat: "Открыть чат", section_more: "Все",
+        card_kommunal: "Коммунальные услуги", card_mehnat: "Трудовые вопросы", card_ijtimoiy: "Социальная защита",
+        card_yermulk: "Земля и имущество", card_tadbirkorlik: "Предпринимательство", card_boshqa: "Другое",
+        ex_kommunal_1: "Отключили свет или воду", ex_kommunal_2: "Мусор не вывозят",
+        ex_mehnat_1: "Зарплату не платят уже 3 месяца", ex_mehnat_2: "Уволили без основания",
+        ex_ijtimoiy_1: "Как рассчитывается пенсия", ex_ijtimoiy_2: "Порядок получения пособия",
+        ex_yermulk_1: "Сосед заливает воду с крыши", ex_yermulk_2: "Спор по земельной границе",
+        ex_tadbirkorlik_1: "Как открыть ИП", ex_tadbirkorlik_2: "Постановка на налоговый учёт",
+        ex_boshqa_1: "Не знаю, куда обратиться", ex_boshqa_2: "Хочу задать общий вопрос",
+        promo1_title: "Как это работает?",
+        promo1_p: "Ваш вопрос сравнивается с проверенными записями в базе, и ответ даётся только на основе имеющихся данных — без каких-либо выдумок.",
+        promo2_title: "Официальные источники",
+        promo2_p: "Ответы содержат ссылки на официальные источники, такие как my.gov.uz, pm.gov.uz и lex.uz, поэтому вы всегда можете проверить информацию сами.",
+        promo_more: "Подробнее",
+        cta_h2: "Остались вопросы?", cta_p: "Нажмите на кнопку чата в правом нижнем углу и опишите свою проблему.",
+        footer_info: "Информация", footer_about: "О проекте", footer_db_sources: "Источники базы данных",
+        footer_users: "Для пользователей", footer_how: "Как это работает",
+        footer_contact_col: "Контакты", footer_telegram: "Телеграм-бот",
+        footer_disclaimer: "Compass — этот бот не даёт юридических консультаций, а только направляет."
+      },
+      en: {
+        sidebar_xizmatlar: "Services", sidebar_categories: "Categories",
+        sidebar_all_db: "All databases", sidebar_sources: "Sources (my.gov.uz, lex.uz)",
+        sidebar_yordam: "Help", sidebar_faq: "Frequently asked questions",
+        sidebar_contact: "Contact", sidebar_feedback: "Feedback",
+        disclaimer_short: "This bot does not provide legal advice — it only points you in the right direction.",
+        search_placeholder: "Describe your problem — e.g., my neighbor's roof is leaking water onto my property",
+        login: "Log in",
+        banner_h1: "Describe your problem in plain words — we'll point you the right way",
+        banner_p: "We'll tell you which office to contact, with what documents, and in what order — along with a link to the official source.",
+        open_chat: "Open chat", section_more: "All",
+        card_kommunal: "Utilities", card_mehnat: "Labor", card_ijtimoiy: "Social protection",
+        card_yermulk: "Land & property", card_tadbirkorlik: "Business", card_boshqa: "Other",
+        ex_kommunal_1: "The power or water got cut off", ex_kommunal_2: "Garbage isn't being collected",
+        ex_mehnat_1: "Salary hasn't been paid for 3 months", ex_mehnat_2: "I was fired without cause",
+        ex_ijtimoiy_1: "How is a pension calculated", ex_ijtimoiy_2: "Procedure for receiving benefits",
+        ex_yermulk_1: "Neighbor's roof is leaking water", ex_yermulk_2: "Land boundary dispute",
+        ex_tadbirkorlik_1: "How to register as a sole proprietor", ex_tadbirkorlik_2: "Tax registration",
+        ex_boshqa_1: "I don't know where to turn", ex_boshqa_2: "I want to ask a general question",
+        promo1_title: "How it works",
+        promo1_p: "Your question is matched against verified entries in our database, and answers are based only on that data — never invented.",
+        promo2_title: "Official sources",
+        promo2_p: "Answers include links to official sources like my.gov.uz, pm.gov.uz, and lex.uz, so you can always verify the information yourself.",
+        promo_more: "Learn more",
+        cta_h2: "Have a question?", cta_p: "Click the chat button in the bottom-right corner and describe your problem.",
+        footer_info: "Information", footer_about: "About the project", footer_db_sources: "Database sources",
+        footer_users: "For users", footer_how: "How it works",
+        footer_contact_col: "Contact", footer_telegram: "Telegram bot",
+        footer_disclaimer: "Compass — this bot does not provide legal advice, it only points you in the right direction."
+      }
+    };
+
+    function tilniOlish() {
+      return localStorage.getItem(TIL_KALITI) || 'uz';
+    }
+
+    function matnlarniYangila(til) {
+      var lugat = TARJIMALAR[til] || TARJIMALAR.uz;
+      document.querySelectorAll('[data-i18n]').forEach(function (el) {
+        var kalit = el.getAttribute('data-i18n');
+        if (lugat[kalit]) el.textContent = lugat[kalit];
+      });
+      document.querySelectorAll('[data-i18n-placeholder]').forEach(function (el) {
+        var kalit = el.getAttribute('data-i18n-placeholder');
+        if (lugat[kalit]) el.placeholder = lugat[kalit];
+      });
+      document.documentElement.lang = til;
+    }
+
     var toggle = document.getElementById('__chat_widget_toggle');
     var panel = document.getElementById('__chat_widget');
     var iframe = document.getElementById('__chat_widget_iframe');
@@ -791,6 +1022,18 @@
     // uchun navbatga qo'yib turamiz.
     var widgetTayyor = false;
     var navbat = [];
+    var kutilayotganTil = null;
+
+    function tilXabarYubor(til) {
+      if (!widgetTayyor) {
+        kutilayotganTil = til;
+        return;
+      }
+      iframe.contentWindow.postMessage(
+        { type: 'yonaltiruvchi:til-changed', til: til },
+        window.location.origin
+      );
+    }
 
     window.addEventListener('message', function (event) {
       if (event.origin !== window.location.origin) return;
@@ -798,6 +1041,10 @@
         widgetTayyor = true;
         navbat.forEach(function (savol) { yashirinSavolYubor(savol); });
         navbat = [];
+        if (kutilayotganTil) {
+          tilXabarYubor(kutilayotganTil);
+          kutilayotganTil = null;
+        }
       }
     });
 
@@ -813,20 +1060,111 @@
     }
 
     function widgetniOch() {
-      panel.style.display = 'block';
+      panel.classList.add('open');
+      panel.classList.remove('chat-minimized');
+    }
+
+    function widgetniYop() {
+      panel.classList.remove('open');
     }
 
     toggle.addEventListener('click', function () {
-      panel.style.display = panel.style.display === 'none' || !panel.style.display ? 'block' : 'none';
+      if (panel.classList.contains('open')) {
+        widgetniYop();
+      } else {
+        widgetniOch();
+      }
     });
 
     window.acWidgetniOch = widgetniOch;
+
+    // Kichraytirish: panelni faqat sarlavha satrigacha yig'ib qo'yadi,
+    // yopmasdan (suhbat va joylashuv saqlanib qoladi).
+    var minimizeBtn = document.getElementById('chatMinimizeBtn');
+    minimizeBtn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      panel.classList.toggle('chat-minimized');
+    });
+
+    // Yopish: panelni butunlay yashiradi (pastki burchakdagi tugma orqali
+    // qayta ochish mumkin).
+    var closeBtn = document.getElementById('chatCloseBtn');
+    closeBtn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      widgetniYop();
+    });
+
+    // Sudrab ko'chirish: sarlavha satridan bosib turib panelni istalgan
+    // joyga surish mumkin (mobil to'liq ekranda o'chirilgan).
+    var header = document.getElementById('chatWidgetHeader');
+    var draganMi = false;
+    var boshX = 0, boshY = 0, boshLeft = 0, boshTop = 0;
+
+    function draglashMumkinmi() {
+      return window.innerWidth > 600;
+    }
+
+    function suriaBoshlash(x, y) {
+      if (!draglashMumkinmi()) return;
+      var rect = panel.getBoundingClientRect();
+      panel.style.left = rect.left + 'px';
+      panel.style.top = rect.top + 'px';
+      panel.style.right = 'auto';
+      panel.style.bottom = 'auto';
+      boshLeft = rect.left;
+      boshTop = rect.top;
+      boshX = x;
+      boshY = y;
+      draganMi = true;
+    }
+
+    function suriaHarakat(x, y) {
+      if (!draganMi) return;
+      var yangiLeft = boshLeft + (x - boshX);
+      var yangiTop = boshTop + (y - boshY);
+      var maxLeft = window.innerWidth - panel.offsetWidth;
+      var maxTop = window.innerHeight - panel.offsetHeight;
+      yangiLeft = Math.min(Math.max(yangiLeft, 0), Math.max(maxLeft, 0));
+      yangiTop = Math.min(Math.max(yangiTop, 0), Math.max(maxTop, 0));
+      panel.style.left = yangiLeft + 'px';
+      panel.style.top = yangiTop + 'px';
+    }
+
+    function suriaTugash() {
+      draganMi = false;
+    }
+
+    header.addEventListener('mousedown', function (e) {
+      if (e.target.closest('.chat-widget-btn')) return;
+      suriaBoshlash(e.clientX, e.clientY);
+      e.preventDefault();
+    });
+    window.addEventListener('mousemove', function (e) {
+      if (draganMi && e.buttons === 0) { suriaTugash(); return; }
+      suriaHarakat(e.clientX, e.clientY);
+    });
+    window.addEventListener('mouseup', suriaTugash);
+
+    header.addEventListener('touchstart', function (e) {
+      if (e.target.closest('.chat-widget-btn')) return;
+      var t = e.touches[0];
+      suriaBoshlash(t.clientX, t.clientY);
+    }, { passive: true });
+    window.addEventListener('touchmove', function (e) {
+      if (!draganMi) return;
+      var t = e.touches[0];
+      suriaHarakat(t.clientX, t.clientY);
+    }, { passive: true });
+    window.addEventListener('touchend', suriaTugash);
 
     // Kategoriya kartochkasidagi misol savolga bosilganda: chatni ochamiz,
     // savolni fuqaro xabari sifatida ko'rsatmasdan RAG'ga yuboramiz — javob
     // esa chatda chiroyli, qisqa formatda ko'rinadi.
     window.kategoriyaBosildi = function (tugma) {
-      var savol = tugma.textContent.trim();
+      // RAG qidiruvi doim asl (o'zbekcha) savol matni bilan yuboriladi —
+      // ko'rinadigan yorliq boshqa tilga tarjima qilingan bo'lsa ham, bazadagi
+      // yozuvlar o'zbek tilida bo'lgani uchun qidiruv sifati shu tarzda saqlanadi.
+      var savol = (tugma.dataset.savol || tugma.textContent).trim();
       if (!savol) return;
       widgetniOch();
       yashirinSavolYubor(savol);
@@ -848,6 +1186,45 @@
       backdrop.classList.toggle('open');
     });
     backdrop.addEventListener('click', sidebarniYop);
+
+    // ---------- til tanlash tugmasi ----------
+    var langWrap = document.getElementById('langWrap');
+    var langBtn = document.getElementById('langBtn');
+    var langBtnLabel = document.getElementById('langBtnLabel');
+    var langMenu = document.getElementById('langMenu');
+
+    function tilniOrnat(til) {
+      localStorage.setItem(TIL_KALITI, til);
+      matnlarniYangila(til);
+      tilXabarYubor(til);
+      langBtnLabel.textContent = TIL_YORLIQ[til] || TIL_YORLIQ.uz;
+      langMenu.querySelectorAll('.lang-option').forEach(function (btn) {
+        btn.classList.toggle('active', btn.dataset.lang === til);
+      });
+      langWrap.classList.remove('open');
+    }
+
+    langBtn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      langWrap.classList.toggle('open');
+    });
+    langMenu.querySelectorAll('.lang-option').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        tilniOrnat(btn.dataset.lang);
+      });
+    });
+    document.addEventListener('click', function (e) {
+      if (!langWrap.contains(e.target)) langWrap.classList.remove('open');
+    });
+
+    // Saqlangan (yoki standart) tilni sahifa yuklanishida qo'llaymiz.
+    var boshlangichTil = tilniOlish();
+    matnlarniYangila(boshlangichTil);
+    langBtnLabel.textContent = TIL_YORLIQ[boshlangichTil] || TIL_YORLIQ.uz;
+    langMenu.querySelectorAll('.lang-option').forEach(function (btn) {
+      btn.classList.toggle('active', btn.dataset.lang === boshlangichTil);
+    });
+    tilXabarYubor(boshlangichTil);
   })();
 </script>
 </body>

@@ -8,7 +8,12 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
-from bot.rag import javob_olish, TokenlarTugadi, TOKENLAR_TUGADI_XABARI
+from bot.rag import (
+    javob_olish,
+    TokenlarTugadi,
+    TOKENLAR_TUGADI_XABARI_TARJIMALARI,
+    XATOLIK_XABARI_TARJIMALARI,
+)
 
 STATIC_YOLI = Path(__file__).parent / "static"
 
@@ -24,6 +29,7 @@ TARIX_UZUNLIGI = 8  # so'nggi N ta xabar (fuqaro+bot) saqlanadi
 class SavolSorovi(BaseModel):
     savol: str
     session_id: str = "default"
+    til: str = "uz"
 
 
 class JavobNatijasi(BaseModel):
@@ -44,13 +50,15 @@ async def savol_sorash(sorov: SavolSorovi):
     tarix.append({"rol": "fuqaro", "matn": sorov.savol})
 
     try:
-        javob = javob_olish(tarix)
+        javob = javob_olish(tarix, sorov.til)
         tarix.append({"rol": "bot", "matn": javob})
         del tarix[:-TARIX_UZUNLIGI]
     except TokenlarTugadi:
-        javob = TOKENLAR_TUGADI_XABARI
+        javob = TOKENLAR_TUGADI_XABARI_TARJIMALARI.get(
+            sorov.til, TOKENLAR_TUGADI_XABARI_TARJIMALARI["uz"]
+        )
         tarix.pop()  # foydalanuvchi savoli javobsiz qoldi, tarixga qo'shilmasin
     except Exception:
-        javob = "Kechirasiz, texnik xatolik yuz berdi. Birozdan keyin qayta urinib ko'ring."
+        javob = XATOLIK_XABARI_TARJIMALARI.get(sorov.til, XATOLIK_XABARI_TARJIMALARI["uz"])
 
     return JavobNatijasi(javob=javob)
