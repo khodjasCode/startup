@@ -2,7 +2,8 @@
 <html lang="uz">
 <head>
 <meta charset="utf-8">
-<title>Yo'naltiruvchi chat</title>
+<title>Compass chat</title>
+<link rel="icon" type="image/png" href="/static/images/logo_transparent.png">
 <style>
   * { box-sizing: border-box; }
   html, body {
@@ -20,11 +21,6 @@
     display: flex;
     flex-direction: column;
   }
-  .head {
-    padding: 14px 16px;
-    border-bottom: 1px solid rgba(127,127,127,0.25);
-    font-weight: 600;
-  }
   .chat {
     flex: 1;
     overflow-y: auto;
@@ -39,7 +35,6 @@
     border-radius: 13px;
     line-height: 1.4;
     font-size: 0.9rem;
-    white-space: pre-wrap;
     word-wrap: break-word;
   }
   .msg.user {
@@ -47,13 +42,33 @@
     background: #2563eb;
     color: #fff;
     border-bottom-right-radius: 4px;
+    white-space: pre-wrap;
   }
   .msg.bot {
     align-self: flex-start;
     background: rgba(127,127,127,0.15);
     border-bottom-left-radius: 4px;
+    white-space: pre-wrap;
   }
   .msg.bot.pending { font-style: italic; opacity: 0.7; }
+
+  /* pretty/structured bot answer (replaces plain pre-wrap once formatted) */
+  .msg.bot.formatted { white-space: normal; }
+  .javob-bolim {
+    font-weight: 700;
+    margin-top: 8px;
+  }
+  .javob-bolim:first-child { margin-top: 0; }
+  .javob-band, .javob-qadam {
+    padding-left: 14px;
+    margin-top: 2px;
+    font-size: 0.87rem;
+    opacity: 0.92;
+  }
+  .javob-matn {
+    margin-top: 4px;
+  }
+
   form {
     display: flex;
     gap: 8px;
@@ -91,13 +106,12 @@
 </head>
 <body>
 <div class="wrap">
-  <div class="head">Yo'naltiruvchi</div>
   <div class="chat" id="chat"></div>
   <form id="form">
-    <textarea id="savol" placeholder="Muammoingizni yozing..." required></textarea>
-    <button type="submit" id="yuborBtn">Yubor</button>
+    <textarea id="savol" data-i18n-placeholder="widget_placeholder" placeholder="Muammoingizni yozing..." required></textarea>
+    <button type="submit" id="yuborBtn" data-i18n="widget_send">Yubor</button>
   </form>
-  <div class="disclaimer">Bu bot huquqiy maslahat bermaydi, faqat yo'naltiradi.</div>
+  <div class="disclaimer" data-i18n="disclaimer_short">Bu bot huquqiy maslahat bermaydi, faqat yo'naltiradi.</div>
 </div>
 
 <script>
@@ -106,6 +120,46 @@
   const savolInput = document.getElementById('savol');
   const yuborBtn = document.getElementById('yuborBtn');
   const sessionId = (crypto.randomUUID && crypto.randomUUID()) || String(Date.now()) + Math.random();
+
+  // ---------- til (uz/ru/en): bosh sahifadagi tanlov bilan bir xil localStorage
+  // kaliti orqali sinxronlashadi (bir xil origin bo'lgani uchun to'g'ridan-to'g'ri
+  // o'qiladi), shuningdek panel ochiq turgan holatda parentdan darhol yangilanadi.
+  const TIL_KALITI = 'yonaltiruvchi_til';
+  const TARJIMALAR = {
+    uz: {
+      widget_placeholder: "Muammoingizni yozing...", widget_send: "Yubor",
+      disclaimer_short: "Bu bot huquqiy maslahat bermaydi, faqat yo'naltiradi.",
+      widget_searching: "Qidiryapman... ⏳",
+      widget_error: "Kechirasiz, texnik xatolik yuz berdi. Birozdan keyin qayta urinib ko'ring.",
+    },
+    ru: {
+      widget_placeholder: "Опишите вашу проблему...", widget_send: "Отправить",
+      disclaimer_short: "Этот бот не даёт юридических консультаций, а только направляет.",
+      widget_searching: "Ищу... ⏳",
+      widget_error: "Извините, произошла техническая ошибка. Пожалуйста, попробуйте снова немного позже.",
+    },
+    en: {
+      widget_placeholder: "Describe your problem...", widget_send: "Send",
+      disclaimer_short: "This bot does not provide legal advice — it only points you in the right direction.",
+      widget_searching: "Searching... ⏳",
+      widget_error: "Sorry, a technical error occurred. Please try again shortly.",
+    },
+  };
+  let joriyTil = localStorage.getItem(TIL_KALITI) || 'uz';
+
+  function matnlarniYangila(til) {
+    const lugat = TARJIMALAR[til] || TARJIMALAR.uz;
+    document.querySelectorAll('[data-i18n]').forEach((el) => {
+      const kalit = el.getAttribute('data-i18n');
+      if (lugat[kalit]) el.textContent = lugat[kalit];
+    });
+    document.querySelectorAll('[data-i18n-placeholder]').forEach((el) => {
+      const kalit = el.getAttribute('data-i18n-placeholder');
+      if (lugat[kalit]) el.placeholder = lugat[kalit];
+    });
+    document.documentElement.lang = til;
+  }
+  matnlarniYangila(joriyTil);
 
   function xabarQosh(matn, rol) {
     const div = document.createElement('div');
@@ -116,33 +170,82 @@
     return div;
   }
 
-  form.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const savol = savolInput.value.trim();
+  function htmlChiqar(matn) {
+    const d = document.createElement('div');
+    d.textContent = matn;
+    return d.innerHTML;
+  }
+
+  // Bot javobini (emoji-sarlavhali, "•"/"1." bandli oddiy matn) o'qish uchun
+  // qulay, qisqa va tuzilgan ko'rinishga o'giradi.
+  const SARLAVHA_EMOJI = ['🏢', '📞', '📄', '📝', '🔗'];
+
+  function javobniChiroyliQil(matn) {
+    const qatorlar = matn.split('\n').map(q => q.trim()).filter(q => q.length > 0);
+    let html = '';
+    for (const qator of qatorlar) {
+      const emoji = SARLAVHA_EMOJI.find(e => qator.startsWith(e));
+      if (emoji) {
+        html += `<div class="javob-bolim">${htmlChiqar(qator)}</div>`;
+      } else if (qator.startsWith('•')) {
+        html += `<div class="javob-band">${htmlChiqar(qator)}</div>`;
+      } else if (/^\d+[.)]\s/.test(qator)) {
+        html += `<div class="javob-qadam">${htmlChiqar(qator)}</div>`;
+      } else {
+        html += `<div class="javob-matn">${htmlChiqar(qator)}</div>`;
+      }
+    }
+    return html || htmlChiqar(matn);
+  }
+
+  /**
+   * savol: yuboriladigan matn.
+   * korsatilsinmi: false bo'lsa, fuqaro xabari chatda ko'rsatilmaydi
+   * (masalan, kategoriya bosilganda) — lekin serverga xuddi shu tarzda,
+   * shu session_id bilan yuboriladi va suhbat tarixiga qo'shiladi.
+   */
+  async function savolYubor(savol, korsatilsinmi = true) {
+    savol = savol.trim();
     if (!savol) return;
 
-    xabarQosh(savol, 'user');
-    savolInput.value = '';
-    yuborBtn.disabled = true;
+    // localStorage'dan har safar yangilab o'qiymiz — postMessage/storage
+    // hodisasi biror sababdan kechikkan taqdirda ham bot javobi foydalanuvchi
+    // HOZIR tanlagan tilda kelishini kafolatlash uchun.
+    joriyTil = localStorage.getItem(TIL_KALITI) || 'uz';
+    const lugat = TARJIMALAR[joriyTil] || TARJIMALAR.uz;
 
-    const kutish = xabarQosh('Qidiryapman... ⏳', 'bot pending');
+    if (korsatilsinmi) {
+      xabarQosh(savol, 'user');
+    }
+
+    yuborBtn.disabled = true;
+    const kutish = xabarQosh(lugat.widget_searching, 'bot pending');
 
     try {
       const resp = await fetch('/api/savol', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ savol, session_id: sessionId }),
+        body: JSON.stringify({ savol, session_id: sessionId, til: joriyTil }),
       });
       const data = await resp.json();
-      kutish.textContent = data.javob;
+      kutish.innerHTML = javobniChiroyliQil(data.javob);
       kutish.classList.remove('pending');
+      kutish.classList.add('formatted');
     } catch (err) {
-      kutish.textContent = 'Kechirasiz, texnik xatolik yuz berdi. Birozdan keyin qayta urinib ko\'ring.';
+      kutish.textContent = lugat.widget_error;
       kutish.classList.remove('pending');
     } finally {
       yuborBtn.disabled = false;
-      savolInput.focus();
     }
+  }
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const savol = savolInput.value.trim();
+    if (!savol) return;
+    savolInput.value = '';
+    await savolYubor(savol, true);
+    savolInput.focus();
   });
 
   form.addEventListener('keydown', (e) => {
@@ -151,6 +254,39 @@
       form.requestSubmit();
     }
   });
+
+  // Bosh sahifadagi kategoriya bandlariga bosilganda (parent oyna) shu yerga
+  // "yashirin" savol keladi: chatda fuqaro xabari ko'rsatilmaydi, faqat
+  // botning javobi chiqadi.
+  window.addEventListener('message', (event) => {
+    if (event.origin !== window.location.origin) return;
+    const data = event.data;
+    if (data && data.type === 'yonaltiruvchi:hidden-savol' && data.savol) {
+      savolYubor(data.savol, false);
+    }
+    if (data && data.type === 'yonaltiruvchi:til-changed' && data.til) {
+      joriyTil = data.til;
+      matnlarniYangila(joriyTil);
+    }
+  });
+
+  // postMessage'dan mustaqil, ishonchli sinxronizatsiya: bosh sahifa
+  // localStorage'ga til yozganda, shu origin'dagi boshqa hujjatlarda (shu
+  // jumladan bu iframe'da) "storage" hodisasi avtomatik ishga tushadi —
+  // "ready" xabari kech kelib qolgan holatlarda ham til yangilanishini
+  // kafolatlaydi.
+  window.addEventListener('storage', (event) => {
+    if (event.key === TIL_KALITI && event.newValue) {
+      joriyTil = event.newValue;
+      matnlarniYangila(joriyTil);
+    }
+  });
+
+  // Parent oynaga tayyor ekanligini bildiramiz — parent hali yuklanmagan
+  // widget'ga xabar yuborib qo'ymasligi uchun.
+  if (window.parent !== window) {
+    window.parent.postMessage({ type: 'yonaltiruvchi:ready' }, window.location.origin);
+  }
 </script>
 </body>
 </html>
