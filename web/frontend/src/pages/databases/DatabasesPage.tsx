@@ -2,6 +2,7 @@ import { useCallback } from 'react'
 
 import { fetchStatistika } from '@features/catalog'
 import { useI18n } from '@shared/i18n'
+import { localizeManba } from '@shared/lib/localizeContent'
 import { useAsync } from '@shared/lib/useAsync'
 import { Loading, LoadError } from '@shared/ui/AsyncState'
 import { Page } from '@shared/ui/Page'
@@ -9,7 +10,7 @@ import { Page } from '@shared/ui/Page'
 import styles from './DatabasesPage.module.css'
 
 export function DatabasesPage() {
-  const { t } = useI18n()
+  const { t, locale } = useI18n()
   const fetcher = useCallback((signal: AbortSignal) => fetchStatistika(signal), [])
   const { data, loading, error } = useAsync(fetcher, [])
 
@@ -36,7 +37,9 @@ export function DatabasesPage() {
           </div>
 
           <ul className={styles.list}>
-            {data.manbalar.map((manba) => (
+            {data.manbalar.map((xom) => {
+              const manba = localizeManba(xom, locale)
+              return (
               <li key={manba.kalit} className={styles.item}>
                 <div className={styles.itemMain}>
                   <h2 className={styles.itemTitle}>{manba.nomi}</h2>
@@ -51,7 +54,8 @@ export function DatabasesPage() {
                   {manba.xizmatlar_soni} {t('records_count')}
                 </span>
               </li>
-            ))}
+              )
+            })}
           </ul>
         </>
       )}

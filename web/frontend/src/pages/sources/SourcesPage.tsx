@@ -2,6 +2,7 @@ import { useCallback } from 'react'
 
 import { fetchManbalar } from '@features/catalog'
 import { useI18n } from '@shared/i18n'
+import { localizeManba } from '@shared/lib/localizeContent'
 import { useAsync } from '@shared/lib/useAsync'
 import { Loading, LoadError } from '@shared/ui/AsyncState'
 import { Icon } from '@shared/ui/Icon'
@@ -15,7 +16,7 @@ import styles from './SourcesPage.module.css'
  * ochiladi, aks holda sahifa haddan tashqari uzun bo'lib ketardi.
  */
 export function SourcesPage() {
-  const { t } = useI18n()
+  const { t, locale } = useI18n()
   const fetcher = useCallback((signal: AbortSignal) => fetchManbalar(signal), [])
   const { data, loading, error } = useAsync(fetcher, [])
 
@@ -25,7 +26,9 @@ export function SourcesPage() {
       {error && <LoadError />}
 
       <div className={styles.grid}>
-        {(data ?? []).map((manba) => (
+        {(data ?? []).map((xom) => {
+          const manba = localizeManba(xom, locale)
+          return (
           <article key={manba.kalit} className={styles.card}>
             <h2 className={styles.title}>{manba.nomi}</h2>
             {manba.tavsif && <p className={styles.text}>{manba.tavsif}</p>}
@@ -67,7 +70,8 @@ export function SourcesPage() {
               )}
             </footer>
           </article>
-        ))}
+          )
+        })}
       </div>
     </Page>
   )

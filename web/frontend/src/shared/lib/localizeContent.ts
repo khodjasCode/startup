@@ -1,6 +1,6 @@
 import type { Locale } from '@shared/i18n'
 
-import type { SavolJavob, Xizmat, XizmatQisqa } from '@features/catalog'
+import type { Manba, SavolJavob, Xizmat, XizmatQisqa } from '@features/catalog'
 
 /**
  * Bazadagi asl matnlar faqat o'zbekcha (my.gov.uz, lex.uz va h.k. shu tilda
@@ -48,5 +48,18 @@ export function localizeSavolJavob(item: SavolJavob, locale: Locale): SavolJavob
     savol: tarjima.nomi || item.savol,
     javob: tarjima.tavsif || item.javob,
     izoh: tarjima.qoshimcha || item.izoh,
+  }
+}
+
+/** Manba (portal) kartochkalari: Barcha bazalar, Manbalar, Bog'lanish sahifalari. */
+export function localizeManba(manba: Manba, locale: Locale): Manba {
+  const tarjima = locale !== 'uz' ? manba.i18n?.[locale] : undefined
+  if (!tarjima) return manba
+  return {
+    ...manba,
+    nomi: tarjima.nomi || manba.nomi,
+    tavsif: tarjima.tavsif || manba.tavsif,
+    aloqa: tarjima.aloqa || manba.aloqa,
+    kirish_tartibi: tarjima.kirish_tartibi.length ? tarjima.kirish_tartibi : manba.kirish_tartibi,
   }
 }

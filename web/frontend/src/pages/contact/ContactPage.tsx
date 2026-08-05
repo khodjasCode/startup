@@ -5,6 +5,7 @@ import { ROUTES } from '@app/routes'
 import { useChat } from '@features/chat'
 import { fetchManbalar } from '@features/catalog'
 import { useI18n } from '@shared/i18n'
+import { localizeManba } from '@shared/lib/localizeContent'
 import { useAsync } from '@shared/lib/useAsync'
 import { Loading, LoadError } from '@shared/ui/AsyncState'
 import { Icon } from '@shared/ui/Icon'
@@ -26,12 +27,14 @@ function raqamlarniTopish(matn: string): string[] {
  * ko'zga tashlanadi, uzun "aloqa" matni takrorlanmaydi.
  */
 export function ContactPage() {
-  const { t } = useI18n()
+  const { t, locale } = useI18n()
   const { open } = useChat()
   const fetcher = useCallback((signal: AbortSignal) => fetchManbalar(signal), [])
   const { data, loading, error } = useAsync(fetcher, [])
 
-  const aloqali = (data ?? []).filter((manba) => manba.aloqa)
+  const aloqali = (data ?? [])
+    .map((manba) => localizeManba(manba, locale))
+    .filter((manba) => manba.aloqa)
 
   return (
     <Page title={t('contact_title')} subtitle={t('contact_subtitle')}>

@@ -118,6 +118,7 @@ class Manba:
             "kirish_tartibi": self.kirish_tartibi,
             "yigilgan_sana": self.yigilgan_sana,
             "xizmatlar_soni": self.xizmatlar_soni,
+            "i18n": tarjima_bazasi.manba_tarjimasi(self.kalit),
         }
 
 

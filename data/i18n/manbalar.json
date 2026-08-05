@@ -1,0 +1,102 @@
+{
+  "my-gov": {
+    "ru": {
+      "nomi": "Единый интерактивный портал государственных услуг (ЕИПГУ)",
+      "tavsif": "",
+      "aloqa": "1242 (по вопросам портала, 24/7); общая информация: 1148",
+      "kirish_tartibi": [
+        "Откройте сайт my.gov.uz и нажмите кнопку «Kirish» («Вход») — система работает через OneID (id.egov.uz)",
+        "Если вы не зарегистрированы: введите номер телефона, привязанный к паспорту, подтвердите код из SMS, затем придумайте логин и пароль для OneID",
+        "Если вы уже зарегистрированы: войдите с логином и паролем OneID",
+        "После входа в личном кабинете вы можете отслеживать статус заявлений, электронные документы и уведомления"
+      ]
+    },
+    "en": {
+      "nomi": "Unified Interactive Public Services Portal",
+      "tavsif": "",
+      "aloqa": "1242 (portal inquiries, 24/7); general information: 1148",
+      "kirish_tartibi": [
+        "Open my.gov.uz and click the \"Kirish\" (Sign in) button — the system works through OneID (id.egov.uz)",
+        "If you are not registered: enter the phone number linked to your passport, confirm the SMS code, then create a login and password for OneID",
+        "If you are already registered: sign in with your OneID login and password",
+        "Once signed in, you can track application status, electronic documents, and notifications in your personal account"
+      ]
+    }
+  },
+  "pm-gov": {
+    "ru": {
+      "nomi": "Виртуальная приёмная Президента Республики Узбекистан",
+      "tavsif": "",
+      "aloqa": "1000 (короткий номер), 0-800-210-00-00 (бесплатная линия)",
+      "kirish_tartibi": [
+        "Откройте сайт pm.gov.uz и нажмите кнопку «Отправить обращение» — вы перейдёте на платформу murojaat.gov.uz",
+        "Войдите через OneID (id.egov.uz); если аккаунта нет, зарегистрируйтесь по паспорту/ID-карте и ПИНФЛ",
+        "Выберите тип обращения (заявление/жалоба/предложение), ведомство и регион, напишите текст и отправьте",
+        "Сохраните присвоенный номер обращения и код проверки — по ним вы будете отслеживать статус"
+      ]
+    },
+    "en": {
+      "nomi": "Virtual Reception of the President of the Republic of Uzbekistan",
+      "tavsif": "",
+      "aloqa": "1000 (short number), 0-800-210-00-00 (toll-free line)",
+      "kirish_tartibi": [
+        "Open pm.gov.uz and click \"Submit an appeal\" — you'll be redirected to the murojaat.gov.uz platform",
+        "Sign in via OneID (id.egov.uz); if you don't have an account, register with your passport/ID card and PINFL",
+        "Choose the appeal type (application/complaint/suggestion), the agency and region, write your message, and submit it",
+        "Save the assigned appeal number and verification code — you'll use them to track the status"
+      ]
+    }
+  },
+  "lex": {
+    "ru": {
+      "nomi": "Национальная база данных законодательства (Lex.uz)",
+      "tavsif": "",
+      "aloqa": "Официальный Telegram: t.me/lexuzofficial; правовая информация: t.me/huquqiyaxborot",
+      "kirish_tartibi": [
+        "Откройте сайт lex.uz — регистрация для чтения документов не требуется, всё бесплатно",
+        "В строке поиска на главной странице введите название документа, номер или слово из текста",
+        "Используйте «Расширенный поиск», чтобы отфильтровать по типу документа, органу, дате и статусу",
+        "На странице документа выберите действующую редакцию в списке «Варианты», кнопками переключите язык на латиницу/кириллицу/русский"
+      ]
+    },
+    "en": {
+      "nomi": "National Database of Legislation (Lex.uz)",
+      "tavsif": "",
+      "aloqa": "Official Telegram: t.me/lexuzofficial; legal information: t.me/huquqiyaxborot",
+      "kirish_tartibi": [
+        "Open lex.uz — no registration is required to read documents, everything is free",
+        "In the search bar on the homepage, enter the document's name, number, or a word from its text",
+        "Use \"Advanced search\" to filter by document type, issuing authority, date, and status",
+        "On the document page, choose the current version from the \"Versions\" list; use the language buttons to switch between Latin script, Cyrillic, or Russian"
+      ]
+    }
+  },
+  "savol-javob": {
+    "ru": {
+      "nomi": "Advice.uz — портал юридических консультаций",
+      "tavsif": "Бесплатный портал юридических консультаций при Министерстве юстиции: вопросы и ответы по категориям (семья, гражданские вопросы, миграция, здравоохранение, социальная защита, труд и другие).",
+      "aloqa": "",
+      "kirish_tartibi": []
+    },
+    "en": {
+      "nomi": "Advice.uz — legal advice portal",
+      "tavsif": "A free legal advice portal run by the Ministry of Justice: questions and answers organized by category (family, civil matters, migration, healthcare, social protection, labor, and more).",
+      "aloqa": "",
+      "kirish_tartibi": []
+    }
+  },
+  "bilim-bazasi": {
+    "ru": {
+      "nomi": "База знаний Compass (записи, подготовленные вручную)",
+      "tavsif": "Вручную составленные инструкции по самым частым проблемам: в какое учреждение обратиться, какие документы нужны, какой порядок действий.",
+      "aloqa": "",
+      "kirish_tartibi": []
+    },
+    "en": {
+      "nomi": "Compass knowledge base (hand-curated entries)",
+      "tavsif": "Hand-written guides for the most common problems: which office to contact, what documents you need, and what the procedure is.",
+      "aloqa": "",
+      "kirish_tartibi": []
+    }
+  }
+}

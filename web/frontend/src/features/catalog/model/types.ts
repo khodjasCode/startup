@@ -49,6 +49,16 @@ export interface Xizmat extends XizmatQisqa {
   qoshimcha: string
 }
 
+/** Manba (portal) uchun tarjima qilingan maydonlar to'plami. */
+export interface ManbaI18n {
+  nomi: string
+  tavsif: string
+  aloqa: string
+  kirish_tartibi: string[]
+}
+
+export type ManbaTarjimasi = { ru: ManbaI18n; en: ManbaI18n } | null
+
 export interface Manba {
   kalit: string
   nomi: string
@@ -58,6 +68,7 @@ export interface Manba {
   kirish_tartibi: string[]
   yigilgan_sana: string
   xizmatlar_soni: number
+  i18n: ManbaTarjimasi
 }
 
 export interface SavolJavob {
