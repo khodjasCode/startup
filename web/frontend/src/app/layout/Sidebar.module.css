@@ -1,0 +1,226 @@
+/* Yon panel `position: fixed` — sahifa aylantirilganda joyida qoladi, faqat
+   o'rtadagi kontent siljiydi. Ikki holati bor:
+     · yoyilgan  — logotip + nom, bo'lim sarlavhalari va yozuvlar;
+     · yig'ilgan (rail) — faqat ikonkalar, yozuvlarsiz (ChatGPT uslubida). */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-sidebar);
+  display: flex;
+  flex-direction: column;
+  width: var(--sidebar-width);
+  height: 100vh;
+  height: 100dvh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 14px 0 16px;
+  border-right: 1px solid var(--sidebar-border);
+  background: var(--sidebar);
+  color: var(--sidebar-text);
+  transition:
+    width 0.2s ease,
+    transform 0.22s ease;
+}
+
+.rail {
+  width: var(--sidebar-rail);
+}
+
+/* ---------- yuqori qism: logotip + yig'ish tugmasi ---------- */
+.top {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 11px 18px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  min-width: 0;
+  color: inherit;
+  transition: opacity 0.15s ease;
+}
+
+.logo {
+  display: block;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  object-fit: contain;
+}
+
+.brandName {
+  font-family: var(--font-brand);
+  font-size: 1.36rem;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.toggle {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--sidebar-muted);
+  cursor: pointer;
+}
+
+.toggle:hover {
+  background: var(--sidebar-active);
+  color: var(--sidebar-text);
+}
+
+.toggle svg {
+  width: 19px;
+  height: 19px;
+}
+
+/* Rail: nom yashirinadi, tugma esa logotip ustiga kursor kelgandagina
+   uning o'rnida paydo bo'ladi. */
+.rail .brandName {
+  display: none;
+}
+
+.rail .top {
+  justify-content: center;
+  padding: 0 11px 18px;
+}
+
+.rail .toggle {
+  position: absolute;
+  top: 3px;
+  left: 11px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* `:focus-within` emas, `:has(:focus-visible)`: aks holda tugma bosilgandan
+   keyin unda fokus qolib, u ko'rinib turaverardi. Klaviatura bilan yurganda
+   esa (focus-visible) baribir ko'rinadi. */
+.rail .top:hover .toggle,
+.rail .top:has(:focus-visible) .toggle {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.rail .top:hover .brand,
+.rail .top:has(:focus-visible) .brand {
+  opacity: 0;
+}
+
+/* ---------- bo'limlar ---------- */
+.section {
+  margin-bottom: 18px;
+}
+
+.sectionTitle {
+  padding: 0 22px 8px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--sidebar-muted);
+}
+
+.rail .sectionTitle {
+  visibility: hidden;
+  height: 8px;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 8px;
+  padding: 9px 14px;
+  border-radius: var(--radius-md);
+  color: var(--sidebar-text);
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.item:hover {
+  background: var(--sidebar-active);
+}
+
+.itemActive {
+  background: var(--sidebar-active);
+  font-weight: 700;
+}
+
+.item svg {
+  flex-shrink: 0;
+  width: 19px;
+  height: 19px;
+}
+
+.rail .item {
+  justify-content: center;
+  margin: 0 11px;
+  padding: 9px 0;
+}
+
+.rail .label {
+  display: none;
+}
+
+.foot {
+  margin: auto 0 0;
+  padding: 16px 22px 0;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--sidebar-muted);
+}
+
+.rail .foot {
+  display: none;
+}
+
+.backdrop {
+  display: none;
+}
+
+/* ---------- kichik ekran: panel kontent ustidan chiqadi ---------- */
+@media (max-width: 960px) {
+  .sidebar {
+    width: var(--sidebar-width);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Bu yerda "yig'ilgan" degani — umuman ko'rinmaydi (tasma qolmaydi). */
+  .rail {
+    transform: translateX(-100%);
+    visibility: hidden;
+  }
+
+  .rail .brandName,
+  .rail .label,
+  .rail .foot {
+    display: revert;
+  }
+
+  .backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: var(--z-backdrop);
+    background: rgba(0, 0, 0, 0.4);
+  }
+}

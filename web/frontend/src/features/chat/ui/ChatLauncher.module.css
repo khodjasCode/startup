@@ -1,0 +1,37 @@
+.launcher {
+  position: fixed;
+  right: 34px;
+  bottom: 24px;
+  z-index: var(--z-chat-launcher);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 76px;
+  height: 76px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.28));
+  transition: transform 0.15s ease;
+}
+
+.launcher:hover {
+  transform: scale(1.05);
+}
+
+.launcher img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 600px) {
+  .launcher {
+    right: 16px;
+    bottom: 16px;
+    width: 60px;
+    height: 60px;
+  }
+}

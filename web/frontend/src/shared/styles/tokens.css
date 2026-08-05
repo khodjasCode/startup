@@ -1,0 +1,108 @@
+/*
+ * Dizayn tokenlari — butun ilova ranglari, radiuslari va o'lchamlari faqat shu
+ * yerda aniqlanadi. Komponentlar (*.module.css) hech qachon "xom" rang yozmaydi,
+ * doim var(--...) orqali murojaat qiladi.
+ *
+ * Mavzu (tema): <html data-theme="light|dark"> atributi orqali boshqariladi —
+ * uni shared/theme/applyTheme.ts React render'idan oldin qo'yadi. Atribut
+ * bo'lmagan qisqa lahzada tizim mavzusi ishlaydi (pastdagi media so'rov).
+ */
+:root {
+  /* sirtlar */
+  --bg: #f2f4f7;
+  --panel: #ffffff;
+  --panel-soft: #f7f9fc;
+  --footer-bg: #e9ebee;
+
+  /* matn */
+  --text: #1a1a1a;
+  --heading: #111827;
+  --muted: #64748b;
+  --footer-text: #454545;
+
+  /* chegara va urg'u */
+  --border: #e2e8f0;
+  --primary: #0068e0;
+  --primary-hover: #0153b2;
+  --on-primary: #ffffff;
+  --danger: #d92d20;
+  --success: #047857;
+
+  /* yon panel — logotip yaxshi o'tirishi uchun kulrang-oq (ilgari ko'k edi) */
+  --sidebar: #eef1f5;
+  --sidebar-active: #dfe4eb;
+  --sidebar-text: #1f2937;
+  --sidebar-muted: #6b7280;
+  --sidebar-border: #dde2e9;
+
+  /* soyalar */
+  --card-shadow: 0 2px 12px rgba(13, 60, 115, 0.08);
+  --popover-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  --overlay-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+
+  /* o'lchamlar */
+  --header-h: 65px;
+  --sidebar-width: 260px;
+  /* Yig'ilgan holat: faqat ikonkalar ko'rinadigan tor tasma. */
+  --sidebar-rail: 62px;
+  --content-max: 1180px;
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 16px;
+  --radius-pill: 999px;
+
+  /* qatlamlar */
+  --z-sidebar: 40;
+  --z-backdrop: 39;
+  --z-chat-panel: 9998;
+  --z-chat-launcher: 9999;
+  --z-modal: 10000;
+
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+  /* Brend nomi uchun geometrik shrift — logotipdagi yozuv uslubiga yaqin.
+     Tashqi shrift yuklanmaydi (offline ham ishlashi kerak). */
+  --font-brand: 'Century Gothic', 'Futura', 'Avenir Next', 'Poppins', 'Segoe UI', system-ui,
+    sans-serif;
+
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  --bg: #1b1e23;
+  --panel: #24282f;
+  --panel-soft: #1f232a;
+  --footer-bg: #202226;
+
+  --text: #e8e9ec;
+  --heading: #f5f6f8;
+  --muted: #9aa4b2;
+  --footer-text: #c7cad0;
+
+  --border: #333944;
+  --primary: #4a97f0;
+  --primary-hover: #6fb0ff;
+  --danger: #f97066;
+  --success: #34d399;
+
+  --sidebar: #232323;
+  --sidebar-active: #333333;
+  --sidebar-text: #f1f1f1;
+  --sidebar-muted: #a1a1aa;
+  --sidebar-border: #303030;
+
+  --card-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+  --popover-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+
+  color-scheme: dark;
+}
+
+/* JS hali data-theme qo'ymagan lahzada oq ekran "chaqnab" ketmasligi uchun. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --bg: #1b1e23;
+    --text: #e8e9ec;
+
+    color-scheme: dark;
+  }
+}

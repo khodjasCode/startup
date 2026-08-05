@@ -1,0 +1,163 @@
+/* Sahifa bitta urg'u rangida: qolgan hamma narsa neytral (matn/chegara/fon). */
+.quick {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+  margin-bottom: 34px;
+}
+
+.quickItem {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--panel);
+  color: var(--text);
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.15s ease;
+}
+
+.quickItem:hover {
+  border-color: var(--primary);
+}
+
+.quickItem > svg {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  color: var(--primary);
+}
+
+.quickText {
+  flex: 1;
+  min-width: 0;
+}
+
+.quickText b {
+  display: block;
+  margin-bottom: 3px;
+  color: var(--heading);
+  font-size: 0.95rem;
+}
+
+.quickText small {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.45;
+}
+
+.quickArrow {
+  flex-shrink: 0;
+  width: 15px;
+  height: 15px;
+  color: var(--muted);
+}
+
+.quickItem:hover .quickArrow {
+  color: var(--primary);
+}
+
+.sectionTitle {
+  margin: 0 0 4px;
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+
+/* Ixcham kartochkalar to'ri — har biri bir xil balandlikda, ortiqcha
+   matn takrorlanmaydi (yoki telefon chiplari, yoki qisqa matn — ikkalasi emas). */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--panel);
+}
+
+.name {
+  margin: 0;
+  color: var(--heading);
+  font-size: 0.92rem;
+  line-height: 1.35;
+}
+
+.detail {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.83rem;
+  line-height: 1.5;
+}
+
+.phones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.phone {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 11px;
+  border-radius: var(--radius-pill);
+  background: color-mix(in srgb, var(--primary) 10%, transparent);
+  color: var(--primary);
+  font-size: 0.84rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.phone svg {
+  width: 13px;
+  height: 13px;
+}
+
+.site {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: auto;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.78rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.site:hover {
+  color: var(--primary);
+}
+
+.site svg {
+  flex-shrink: 0;
+  width: 12px;
+  height: 12px;
+}
+
+.note {
+  margin: 22px 0 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+}

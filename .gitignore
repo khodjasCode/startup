@@ -6,3 +6,8 @@ __pycache__/
 venv/
 .idea/
 feedback.csv
+node_modules/
+web/frontend/dist/
+foydalanuvchilar.json
+foydalanuvchilar.json.tmp
+web/frontend/public/data/

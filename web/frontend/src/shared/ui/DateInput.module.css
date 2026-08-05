@@ -1,0 +1,68 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  /* `.field` — ustunli flex konteyner, shuning uchun standart holatda `.box`
+     uning to'liq kengligiga (butun kartochka kengligiga) cho'zilib ketardi —
+     mazmuni ("31 / 12 / 2005") esa tor. `align-self: flex-start` cho'zilishni
+     bekor qilib, quti faqat o'z mazmuniga mos kelishini ta'minlaydi. */
+  align-self: flex-start;
+  gap: 6px;
+  padding: 0 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--panel-soft);
+}
+
+.box:focus-within {
+  border-color: var(--primary);
+}
+
+.day,
+.year {
+  padding: 12px 0;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.98rem;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+
+/* Piksellarda, "ch" emas: "ch" raqam ("0") kengligiga tayanadi, lekin
+   placeholder harflardan iborat ("DD", "MM", "YYYY") — ular kengroq bo'lib,
+   "ch" bilan hisoblanganda kesilib qolardi (masalan "DD" "DС" ko'rinib qolgan). */
+.day {
+  width: 34px;
+}
+
+.year {
+  width: 58px;
+}
+
+.day:focus,
+.year:focus {
+  outline: none;
+}
+
+.day::placeholder,
+.year::placeholder {
+  color: var(--muted);
+  opacity: 0.6;
+}
+
+.sep {
+  color: var(--muted);
+}

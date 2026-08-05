@@ -1,0 +1,26 @@
+/* Yon panel `position: fixed` bo'lgani uchun kontent ustuni chetdan surib
+   qo'yiladi: yoyilganda panel kengligicha, yig'ilganda tor tasma kengligicha. */
+.layout {
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 0;
+  margin-left: var(--sidebar-rail);
+  transition: margin-left 0.2s ease;
+}
+
+.withSidebar .content {
+  margin-left: var(--sidebar-width);
+}
+
+/* Kichik ekranda panel kontent ustidan chiqadi — surish kerak emas. */
+@media (max-width: 960px) {
+  .content,
+  .withSidebar .content {
+    margin-left: 0;
+  }
+}

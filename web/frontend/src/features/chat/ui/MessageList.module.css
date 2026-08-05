@@ -1,0 +1,19 @@
+.list {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+  padding: 14px;
+}
+
+.greeting {
+  align-self: flex-start;
+  max-width: 88%;
+  padding: 9px 13px;
+  border-radius: 13px;
+  border-bottom-left-radius: 4px;
+  background: var(--panel-soft);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}

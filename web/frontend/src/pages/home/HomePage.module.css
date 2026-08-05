@@ -1,0 +1,45 @@
+.main {
+  width: 100%;
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 40px 28px 72px;
+}
+
+.sectionHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.sectionTitle {
+  margin: 0;
+  color: var(--heading);
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.sectionMore {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+
+.sectionMore:hover {
+  color: var(--primary);
+}
+
+.sectionMore svg {
+  width: 14px;
+  height: 14px;
+}
+
+@media (max-width: 600px) {
+  .main {
+    padding: 30px 16px 60px;
+  }
+}

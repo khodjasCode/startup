@@ -1,0 +1,44 @@
+@import './tokens.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100%;
+  /* `hidden` emas, `clip`: ikkalasi ham gorizontal scrollni yashiradi, lekin
+     `hidden` body'ni "scroll konteyner"ga aylantirib, ichkaridagi
+     `position: sticky` elementlar (masalan, katalogdagi yo'nalishlar
+     ustuni)ning ba'zi brauzerlarda joyida qolmay qolishiga sabab bo'lishi
+     mumkin — `clip` bunday nozik ta'sirga ega emas. */
+  overflow-x: clip;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 15px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+#root {
+  min-height: 100vh;
+}

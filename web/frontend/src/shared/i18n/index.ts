@@ -1,0 +1,5 @@
+export { DEFAULT_LOCALE, LOCALES, LOCALE_LABELS, isLocale } from './config'
+export type { Locale } from './config'
+export type { Dictionary, TranslationKey } from './dictionaries'
+export { I18nProvider } from './I18nProvider'
+export { useI18n } from './useI18n'

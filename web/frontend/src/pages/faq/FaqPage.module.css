@@ -1,0 +1,149 @@
+.search {
+  width: 100%;
+  max-width: 460px;
+  margin-bottom: 20px;
+  padding: 11px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--panel);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.92rem;
+}
+
+.search:focus {
+  border-color: var(--primary);
+  outline: none;
+}
+
+/* Mavzu bloklari — ikki ustunda, ochilganda butun kenglikni egallaydi. */
+.groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 12px;
+  align-items: start;
+}
+
+.group {
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--panel);
+  box-shadow: var(--card-shadow);
+}
+
+.groupOpen {
+  grid-column: 1 / -1;
+  border-color: var(--primary);
+}
+
+.groupHead {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  /* Barcha kartochkalar bir xil balandlikda bo'lishi uchun min-height qat'iy:
+     nom bitta yoki ikki qatorga cho'zilishidan qat'i nazar joy bir xil qoladi. */
+  min-height: 74px;
+  padding: 14px 18px;
+  border: none;
+  background: transparent;
+  color: var(--heading);
+  font-family: inherit;
+  font-size: 0.98rem;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+}
+
+.groupHead:hover {
+  background: var(--panel-soft);
+}
+
+.groupName {
+  display: -webkit-box;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  line-height: 1.35;
+}
+
+.count {
+  flex-shrink: 0;
+  padding: 2px 9px;
+  border-radius: var(--radius-pill);
+  background: color-mix(in srgb, var(--primary) 12%, transparent);
+  color: var(--primary);
+  font-size: 0.76rem;
+}
+
+.chevron {
+  flex-shrink: 0;
+  width: 15px;
+  height: 15px;
+  color: var(--muted);
+  transition: transform 0.15s ease;
+}
+
+.groupOpen .chevron {
+  transform: rotate(180deg);
+}
+
+.questions {
+  padding: 0 18px 12px;
+  border-top: 1px solid var(--border);
+}
+
+.item {
+  border-bottom: 1px solid var(--border);
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.question {
+  padding: 13px 2px;
+  color: var(--text);
+  font-size: 0.92rem;
+  font-weight: 500;
+  line-height: 1.45;
+  cursor: pointer;
+}
+
+.question::marker {
+  color: var(--primary);
+}
+
+.answer {
+  padding: 0 2px 14px;
+}
+
+.text {
+  margin: 0 0 10px;
+  max-width: 85ch;
+  color: var(--text);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.note {
+  margin: 0 0 10px;
+  max-width: 85ch;
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.55;
+}
+
+.link {
+  color: var(--primary);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

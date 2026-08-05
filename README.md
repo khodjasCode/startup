@@ -37,6 +37,11 @@ qa/
   demo_ssenariy.md      — demo ssenariy va slaydlar rejasi
 docs/
   ISH_REJA.md     — 4 haftalik ish reja
+web/
+  main.py         — FastAPI ilovasi (routerlar + yig'ilgan frontendni tarqatish)
+  api/            — HTTP: chat, katalog, avtorizatsiya, vaqt (soat)
+  xizmat/         — xizmat qatlami: katalog bazasi, foydalanuvchi hisoblari
+  frontend/       — React + TS ilova (app → pages → features → shared)
 ```
 
 ## Ishga tushirish
@@ -55,13 +60,24 @@ python3 -m bot.main          # botni ishga tushirish
 
 ## Web-versiya
 
-Bir xil `bot/rag.py` yadrosidan foydalanadigan oddiy web-chat interfeysi (`http://127.0.0.1:8000`):
+Bir xil `bot/rag.py` yadrosidan foydalanadigan sayt + chat widget. Interfeys —
+React + TypeScript (Vite), FastAPI uni yig'ilgan holda tarqatadi:
 
 ```bash
-uvicorn web.main:app --reload
+cd web/frontend && npm install && npm run build   # bir marta (Node.js 20+)
+cd ../.. && uvicorn web.main:app --reload         # http://127.0.0.1:8000
 ```
 
+Faqat interfeys ustida ishlaganda qayta yig'ish shart emas — `npm run dev`
+(5173-port) `/api` so'rovlarini uvicorn'ga proksilaydi.
+
+Saytda: kategoriyalar va xizmatlar katalogi (329 yozuv), manbalar, savol-javob
+bo'limi, hisob ochish/kirish, mavzu (yorug'/qorong'i) va til tanlash.
+Chat har sahifadan ochiladi va butun ekranga yoyiladi.
+
 `BOT_TOKEN`/`GEMINI_API_KEY` bot bilan bir xil environment variable'lardan o'qiladi — alohida sozlash shart emas, faqat baza avval indekslangan bo'lishi kerak (`python -m bot.index_qurish`).
+
+Batafsil (arxitektura va qatlam qoidalari): [instructions/WEB.md](instructions/WEB.md)
 
 ## Sifatni tekshirish (QA)
 

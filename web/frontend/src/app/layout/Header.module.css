@@ -1,0 +1,97 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 28px;
+  border-bottom: 1px solid var(--border);
+  background: var(--panel);
+}
+
+/* Katta ekranda panelni yig'ish tugmasi panelning o'zida turadi — bu yerdagi
+   tugma faqat kichik ekran uchun (panel kontent ustidan chiqadi). */
+.toggle {
+  display: none;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: var(--radius-md);
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.toggle:hover {
+  background: var(--panel-soft);
+}
+
+.toggle svg {
+  width: 18px;
+  height: 18px;
+}
+
+.search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 10px;
+  max-width: 480px;
+  height: 36px;
+  padding: 0 14px;
+  border: none;
+  border-radius: var(--radius-md);
+  background: var(--panel-soft);
+  color: var(--muted);
+  font-family: inherit;
+  font-size: 0.92rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.search:hover {
+  color: var(--text);
+}
+
+.search svg {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+}
+
+.searchText {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 960px) {
+  .toggle {
+    display: flex;
+  }
+
+  .search {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    gap: 10px;
+    padding: 12px 16px;
+  }
+}
