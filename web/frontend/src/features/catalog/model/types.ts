@@ -5,6 +5,24 @@ export interface Soha {
   soni: number
 }
 
+/** Bitta tildagi tarjima qilingan maydonlar to'plami (ru yoki en). */
+export interface XizmatI18n {
+  nomi: string
+  tavsif: string
+  muammolar: string[]
+  qadamlar: string[]
+  hujjatlar: string[]
+  muddat: string
+  narx: string
+  aloqa: string
+  kimlar_uchun: string
+  idora: string
+  qoshimcha: string
+}
+
+/** Rus/ingliz tarjimasi mavjud bo'lsa; bo'lmasa backend `null` qaytaradi. */
+export type XizmatTarjimasi = { ru: XizmatI18n; en: XizmatI18n } | null
+
 export interface XizmatQisqa {
   id: string
   manba: string
@@ -16,6 +34,7 @@ export interface XizmatQisqa {
   faq: boolean
   /** Savol-javoblar uchun mavzu guruhi. */
   kategoriya: string
+  i18n: XizmatTarjimasi
 }
 
 export interface Xizmat extends XizmatQisqa {
@@ -47,6 +66,7 @@ export interface SavolJavob {
   javob: string
   izoh: string
   url: string
+  i18n: XizmatTarjimasi
 }
 
 /** Savol-javoblar mavzu bloklariga guruhlangan holda keladi. */

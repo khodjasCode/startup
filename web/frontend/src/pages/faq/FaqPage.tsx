@@ -4,6 +4,7 @@ import { fetchSavolJavob } from '@features/catalog'
 import { useI18n } from '@shared/i18n'
 import { cx } from '@shared/lib/cx'
 import { dataLabel } from '@shared/lib/dataLabels'
+import { localizeSavolJavob } from '@shared/lib/localizeContent'
 import { useAsync } from '@shared/lib/useAsync'
 import { useDebounced } from '@shared/lib/useDebounced'
 import { Empty, Loading, LoadError } from '@shared/ui/AsyncState'
@@ -67,7 +68,9 @@ export function FaqPage() {
 
                   {ochiqmi && (
                     <div className={styles.questions}>
-                      {guruh.savollar.map((item) => (
+                      {guruh.savollar.map((xom) => {
+                        const item = localizeSavolJavob(xom, locale)
+                        return (
                         <details key={item.id} className={styles.item}>
                           <summary className={styles.question}>{item.savol}</summary>
                           <div className={styles.answer}>
@@ -85,7 +88,8 @@ export function FaqPage() {
                             )}
                           </div>
                         </details>
-                      ))}
+                        )
+                      })}
                     </div>
                   )}
                 </section>

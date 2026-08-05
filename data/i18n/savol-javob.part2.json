@@ -1,0 +1,2166 @@
+{
+  "savol-javob.ijara-shartnomasi-tuzish-645": {
+    "ru": {
+      "nomi": "Как заключается договор аренды жилья (квартиры)?",
+      "tavsif": "Договор аренды заключается в письменной форме, нотариальное удостоверение не требуется, срок может составлять до 5 лет. В договоре обязательно указываются граждане, постоянно проживающие вместе с арендатором. Постановка договора на государственный учёт осуществляется бесплатно через портал ijara.soliq.uz.",
+      "muammolar": [
+        "Нужен ли договор для сдачи квартиры в аренду?",
+        "Обязательно ли удостоверять договор аренды у нотариуса?",
+        "Как зарегистрировать договор аренды в налоговых органах?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Постановка на государственный учёт — ijara.soliq.uz (бесплатно) · не указано"
+    },
+    "en": {
+      "nomi": "How is a residential (apartment) lease agreement concluded?",
+      "tavsif": "A lease agreement is concluded in writing, notarization is not required, and it may run for up to 5 years. The agreement must list the citizens who will permanently reside with the tenant. Registering the agreement with the state is done free of charge through the ijara.soliq.uz portal.",
+      "muammolar": [
+        "Is a written agreement required to rent out an apartment?",
+        "Must a lease agreement be notarized?",
+        "How do I register a lease agreement with the tax authorities?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "State registration — ijara.soliq.uz (free) · not specified"
+    }
+  },
+  "savol-javob.ijara-uy-tamirlash": {
+    "ru": {
+      "nomi": "Кто обязан ремонтировать арендованное жильё?",
+      "tavsif": "Если договором не предусмотрено иное, текущий ремонт возлагается на арендатора, а капитальный — на арендодателя. Переустройство, существенно меняющее условия пользования жильём, без согласия арендатора не допускается.",
+      "muammolar": [
+        "Кто делает ремонт в арендованной квартире?",
+        "Обязан ли собственник жилья делать ремонт?",
+        "Должен ли арендатор оплачивать капитальный ремонт квартиры?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "не указано · Гражданский кодекс Республики Узбекистан"
+    },
+    "en": {
+      "nomi": "Who is responsible for repairing rented housing?",
+      "tavsif": "Unless the agreement provides otherwise, routine repairs are the tenant's responsibility, while major (capital) repairs are the landlord's. Alterations that significantly change the conditions of use of the housing are not permitted without the tenant's consent.",
+      "muammolar": [
+        "Who is responsible for repairs in a rented apartment?",
+        "Is the landlord required to carry out repairs?",
+        "Must the tenant pay for a major overhaul of the apartment?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "not specified · Civil Code of the Republic of Uzbekistan"
+    }
+  },
+  "savol-javob.ijara-haqi-tolash": {
+    "ru": {
+      "nomi": "Как устанавливается и вносится арендная плата?",
+      "tavsif": "Размер арендной платы определяется в договоре по соглашению сторон, и одностороннее её изменение не допускается (кроме случаев, предусмотренных законом или договором). Если срок оплаты в договоре не указан, плата вносится ежемесячно. Если плата не вносится в течение 6 месяцев (при краткосрочной аренде — просрочка более 2 раз), арендодатель вправе расторгнуть договор в судебном порядке.",
+      "muammolar": [
+        "Что делать, если собственник резко повысил арендную плату?",
+        "Когда нужно вносить арендную плату?",
+        "Можно ли выселить арендатора, если он не платит?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "не указано · не указано"
+    },
+    "en": {
+      "nomi": "How is rent set and paid?",
+      "tavsif": "The amount of rent is set in the agreement by mutual consent of the parties and may not be changed unilaterally (except as provided by law or the agreement). If the agreement does not specify a payment period, rent is paid monthly. If rent goes unpaid for 6 months (or, for short-term leases, is late more than twice), the landlord may terminate the agreement through the courts.",
+      "muammolar": [
+        "What should I do if the landlord suddenly raises the rent?",
+        "When is rent due?",
+        "Can a tenant be evicted for not paying rent?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "not specified · not specified"
+    }
+  },
+  "savol-javob.ijara-shartnoma-muddati": {
+    "ru": {
+      "nomi": "Каков срок договора аренды жилья?",
+      "tavsif": "Договор аренды заключается на срок не более 5 лет; если срок не указан, договор считается заключённым на 5 лет. Отдельные положения Гражданского кодекса (части 2-3 статьи 606, статья 609) не применяются к краткосрочной аренде до 1 года. Арендатор имеет преимущественное право на заключение договора на новый срок.",
+      "muammolar": [
+        "На сколько лет можно заключить договор аренды?",
+        "Что будет, если в договоре не указан срок?",
+        "Есть ли у меня право продлить договор после его окончания?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "не указано · Гражданский кодекс Республики Узбекистан (статьи 606, 609)"
+    },
+    "en": {
+      "nomi": "What is the term of a residential lease agreement?",
+      "tavsif": "A lease agreement is concluded for a term not exceeding 5 years; if no term is specified, it is deemed concluded for 5 years. Certain provisions of the Civil Code (parts 2-3 of Article 606, Article 609) do not apply to short-term leases of up to 1 year. The tenant has a preferential right to conclude the agreement for a new term.",
+      "muammolar": [
+        "For how many years can a lease agreement be signed?",
+        "What happens if the term is not stated in the agreement?",
+        "Do I have the right to extend the lease once it ends?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "not specified · Civil Code of the Republic of Uzbekistan (Articles 606, 609)"
+    }
+  },
+  "savol-javob.ikkilamchi-ijara": {
+    "ru": {
+      "nomi": "Можно ли пересдать арендованное жильё другому лицу (субаренда)?",
+      "tavsif": "Можно, но только с согласия арендодателя и за плату; при этом должны соблюдаться нормы площади жилья на человека. Субарендатор не приобретает права самостоятельного пользования жильём. Срок субаренды не может превышать срок основного договора, а при прекращении основного договора прекращается и субаренда.",
+      "muammolar": [
+        "Можно ли пересдать арендованную квартиру другому лицу?",
+        "Законна ли субаренда?",
+        "Можно ли сдать комнату в аренду без согласия собственника?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "не указано · Гражданский кодекс Республики Узбекистан"
+    },
+    "en": {
+      "nomi": "Can rented housing be sublet to another person?",
+      "tavsif": "Yes, but only with the landlord's consent and for payment; the per-person housing space norms must be observed. A subtenant does not acquire an independent right to use the housing. The sublease term may not exceed the term of the main agreement, and it terminates if the main agreement is terminated.",
+      "muammolar": [
+        "Can I sublet my rented apartment to someone else?",
+        "Is subletting legal?",
+        "Can I rent out a room without the owner's permission?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "not specified · Civil Code of the Republic of Uzbekistan"
+    }
+  },
+  "savol-javob.ijara-shartnomasini-bekor-qilish": {
+    "ru": {
+      "nomi": "Как расторгается договор аренды жилья?",
+      "tavsif": "Договор расторгается по соглашению сторон; арендатор с согласия совместно проживающих лиц вправе расторгнуть его в любое время, письменно предупредив арендодателя за 3 месяца. Арендодатель вправе расторгнуть договор через суд, если: плата не вносится 6 месяцев (при краткосрочной аренде — более 2 просрочек), жильё разрушается или используется не по назначению.",
+      "muammolar": [
+        "Я хочу съехать, когда нужно об этом предупредить?",
+        "Собственник хочет меня выселить, имеет ли он на это право?",
+        "Как расторгнуть договор, если арендатор портит жильё?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "не указано · Гражданский кодекс Республики Узбекистан, Жилищный кодекс"
+    },
+    "en": {
+      "nomi": "How is a residential lease agreement terminated?",
+      "tavsif": "The agreement is terminated by mutual consent; with the consent of persons living with them, the tenant may terminate it at any time by giving the landlord 3 months' written notice. The landlord may terminate the agreement through the courts if rent goes unpaid for 6 months (more than 2 late payments for short-term leases), or if the housing is being destroyed or used unlawfully.",
+      "muammolar": [
+        "I want to move out — when do I need to give notice?",
+        "The landlord wants to evict me — does he have the right to do so?",
+        "How do I terminate the agreement if the tenant is damaging the property?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "not specified · Civil Code of the Republic of Uzbekistan, Housing Code"
+    }
+  },
+  "savol-javob.gazga-ulash-tartibi": {
+    "ru": {
+      "nomi": "Каков порядок подключения дома к газу?",
+      "tavsif": "Потребитель подаёт заявление в организацию газоснабжения с копией кадастрового документа; специалисты в течение 3 рабочих дней выезжают на место и изучают техническую возможность, при положительном заключении дом газифицируется и договор заключается в 2 экземплярах. Если объект рассчитан на 2 и более потребителей, каждому устанавливается отдельный счётчик. Запрещается самовольная замена газового оборудования, отопление помещения газовой плитой и проверка утечки газа открытым огнём.",
+      "muammolar": [
+        "Куда обратиться, чтобы провести газ в новый дом?",
+        "В какой срок рассматривается заявка на подключение газа?",
+        "Кто устанавливает газовый счётчик?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Заявление — в территориальную организацию газоснабжения · Постановление Кабинета Министров от 31.05.2024 г. № 319"
+    },
+    "en": {
+      "nomi": "What is the procedure for connecting a house to gas supply?",
+      "tavsif": "The consumer submits an application to the gas supply organization together with a copy of the cadastral document; specialists visit the site within 3 working days to assess technical feasibility, and if the assessment is favorable the house is gasified and the agreement is signed in 2 copies. If the property is intended for 2 or more consumers, a separate meter is installed for each. It is prohibited to replace gas equipment without authorization, to heat a room with a gas stove, or to check for gas leaks with an open flame.",
+      "muammolar": [
+        "Where do I go to get gas connected to a new house?",
+        "How long does it take to review a gas connection application?",
+        "Who installs the gas meter?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Application — to the regional gas supply organization · Resolution of the Cabinet of Ministers of 31.05.2024 No. 319"
+    }
+  },
+  "savol-javob.gaz-tolovi-tartibi": {
+    "ru": {
+      "nomi": "Как и когда производится оплата за газ?",
+      "tavsif": "Объём поставленного газа определяется через биллинговую систему, и потребитель обязан произвести оплату в течение 10 дней после окончания месяца. При несвоевременной оплате начисляется пеня. Оплату можно произвести через Upay (fast.upay.uz/merchant/166) или Click.",
+      "muammolar": [
+        "До какого числа нужно оплатить газ?",
+        "Как оплатить газ онлайн?",
+        "Что будет, если задержать оплату за газ?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Upay: fast.upay.uz/merchant/166; Click: click.uz · Постановления Кабинета Министров от 15.09.2023 г. № 475 и от 31.05.2024 г. № 319"
+    },
+    "en": {
+      "nomi": "How and when is payment for gas made?",
+      "tavsif": "The volume of gas delivered is determined through the billing system, and the consumer must pay within 10 days after the end of the month. Late payment incurs a penalty. Payment can be made via Upay (fast.upay.uz/merchant/166) or Click.",
+      "muammolar": [
+        "By what date must the gas bill be paid?",
+        "How do I pay for gas online?",
+        "What happens if I pay for gas late?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Upay: fast.upay.uz/merchant/166; Click: click.uz · Resolutions of the Cabinet of Ministers of 15.09.2023 No. 475 and 31.05.2024 No. 319"
+    }
+  },
+  "savol-javob.elektr-tolovi-tartibi": {
+    "ru": {
+      "nomi": "Как производится оплата за электроэнергию?",
+      "tavsif": "Бытовой потребитель обязан рассчитаться за электроэнергию до 10-го числа каждого месяца; при наличии задолженности за каждый просроченный день начисляется пеня в размере 0,1 процента, а если долг не погашен, потребитель отключается от сети. Фактический расход определяется по показаниям счётчика; потребителям с прибором предоплаты электроэнергия отпускается в пределах оплаченной суммы.",
+      "muammolar": [
+        "До какого числа нужно оплатить электричество?",
+        "Какая пеня начисляется за долг по электроэнергии?",
+        "Могут ли отключить свет за долг?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Круглосуточная юридическая консультация: t.me/Odil_chat_bot · не указано"
+    },
+    "en": {
+      "nomi": "How is payment for electricity made?",
+      "tavsif": "A household consumer must settle the electricity bill by the 10th of each month; if there is an outstanding debt, a penalty of 0.1 percent is charged for each day of delay, and if the debt is not cleared the consumer is disconnected from the grid. Actual consumption is determined from meter readings; consumers with a prepayment device are supplied electricity within the amount paid.",
+      "muammolar": [
+        "By what date must the electricity bill be paid?",
+        "What penalty applies to an electricity debt?",
+        "Can electricity be cut off for unpaid debt?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "24/7 legal advice: t.me/Odil_chat_bot · not specified"
+    }
+  },
+  "savol-javob.kommunal-kompensatsiya-imtiyozlilar": {
+    "ru": {
+      "nomi": "Кому и в каком размере предоставляется компенсация за оплату коммунальных услуг?",
+      "tavsif": "Компенсация льготным категориям граждан выплачивается вместе с пенсией и пособиями: военным инвалидам, пенсионерам, нуждающимся в уходе, Героям и пострадавшим от чернобыльской катастрофы — 45 процентов от базовой расчётной величины пенсии, другим льготным категориям — 50 процентов, участникам трудового фронта — 25 процентов. Выплата назначается с 1-го числа месяца, следующего за месяцем подачи заявления; пенсионерам выплачивается по месту получения пенсии, работающим — по месту работы.",
+      "muammolar": [
+        "Кому положена льгота на коммунальные услуги?",
+        "Есть ли скидка на коммунальные услуги при инвалидности?",
+        "Куда подать заявление на получение компенсации?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "не указано · Указ Президента от 28.01.2022 г. № ПФ-58"
+    },
+    "en": {
+      "nomi": "Who receives compensation for utility payments, and how much?",
+      "tavsif": "Compensation for privileged categories of citizens is paid together with their pension and benefits: for disabled war veterans, pensioners needing care, Heroes, and Chernobyl victims — 45 percent of the base pension calculation unit; for other privileged categories — 50 percent; for labor-front participants — 25 percent. The payment is assigned from the 1st day of the month following the month the application was filed; pensioners receive it where they collect their pension, and working citizens receive it at their place of employment.",
+      "muammolar": [
+        "Who is eligible for a utilities benefit?",
+        "Is there a utilities discount for people with disabilities?",
+        "Where do I submit an application for compensation?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "not specified · Presidential Decree of 28.01.2022 No. PF-58"
+    }
+  },
+  "savol-javob.gaz-elektr-kompensatsiya-kambagal": {
+    "ru": {
+      "nomi": "Как выплачивается компенсация за газ и электроэнергию?",
+      "tavsif": "Компенсация выплачивается семьям, включённым в Единый реестр социальной защиты и Реестр малообеспеченных семей, у которых среднедушевой месячный доход менее 669 тысяч сумов (также малоимущим семьям с доходом менее 1 млн сумов). По электроэнергии компенсируется потребление свыше базовой нормы (200 кВт·ч) до 150 кВт·ч, по газу — в отопительный сезон до 250 м³, в остальное время — до 150 м³. Заявление подаётся в Центр социальных услуг «Инсон», социальному работнику в махалле или по короткому номеру 1140.",
+      "muammolar": [
+        "Есть ли помощь с оплатой газа зимой?",
+        "Как малообеспеченной семье получить компенсацию за свет и газ?",
+        "Дадут ли компенсацию, если позвонить по номеру 1140?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Короткий номер: 1140; социальный работник махалли; Центр социальных услуг «Инсон» · не указано"
+    },
+    "en": {
+      "nomi": "How is compensation for gas and electricity paid?",
+      "tavsif": "Compensation is paid to families included in the Unified Social Protection Registry and the Registry of Low-Income Families whose per-capita monthly income is below 669 thousand soum (also to low-income families with income below 1 million soum). For electricity, consumption above the base norm (200 kWh) is compensated up to 150 kWh; for gas, up to 250 m³ during the heating season and up to 150 m³ at other times. Applications are submitted to the Inson social services center, a mahalla social worker, or via short number 1140.",
+      "muammolar": [
+        "Is there help with gas payments in winter?",
+        "How does a low-income family get compensation for gas and electricity?",
+        "Will I get compensation if I call number 1140?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Short number: 1140; mahalla social worker; Inson social services center · not specified"
+    }
+  },
+  "savol-javob.jek-shikoyat-qilish": {
+    "ru": {
+      "nomi": "Как подать жалобу на «ЖЭК» (жилищно-эксплуатационную контору)?",
+      "tavsif": "Следует подготовить краткое, конкретное письменное обращение с доказательствами (фотографии, чеки, свидетели) и направить его руководству «ЖЭК» по электронной почте, через Telegram или в бумажном виде; обращение должно быть официально зарегистрировано. Срок ответа — 15 дней. Если ответа нет, следует обратиться в местный орган власти или прокуратуру.",
+      "muammolar": [
+        "ЖЭК не работает, кому жаловаться?",
+        "Что делать, если жилищная контора не отвечает?",
+        "Как написать заявление в ЖЭК на ремонт подъезда?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Если ответа нет — в хокимият или прокуратуру · не указано"
+    },
+    "en": {
+      "nomi": "How can I file a complaint against the housing maintenance office (ZhEK)?",
+      "tavsif": "Prepare a brief, specific written complaint supported by evidence (photos, receipts, witnesses) and send it to the ZhEK's management by email, Telegram, or on paper; the complaint must be officially registered. The response deadline is 15 days. If there is no response, escalate to local government authorities or the prosecutor's office.",
+      "muammolar": [
+        "The housing office (ZhEK) isn't doing its job — who do I complain to?",
+        "What should I do if the housing office doesn't respond?",
+        "How do I file a request with the housing office for stairwell repairs?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "If no response — escalate to local government or the prosecutor's office · not specified"
+    }
+  },
+  "savol-javob.eski-guvohnomani-almashtirish": {
+    "ru": {
+      "nomi": "Как заменить старое водительское удостоверение на новое?",
+      "tavsif": "Нужно обратиться в Центр государственных услуг с ID-картой/паспортом, старым удостоверением и талоном, а также квитанцией об оплате госпошлины; лицам, управлявшим транспортом в течение последних 12 месяцев, удостоверение заменяется без сдачи экзаменов, остальные сдают теоретический и практический экзамены. Новое удостоверение печатается примерно через 5 минут после фотографирования и подписи. Удостоверения старого образца недействительны с 1 января 2024 года.",
+      "muammolar": [
+        "Как заменить старые права на новые?",
+        "Можно ли ездить со старым удостоверением?",
+        "Нужно ли сдавать экзамен при замене прав?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Через центры государственных услуг · не указано"
+    },
+    "en": {
+      "nomi": "How can I exchange an old driver's license for a new one?",
+      "tavsif": "Apply at a Public Services Center with your ID card/passport, old license and coupon, and the state fee receipt; those who have driven within the last 12 months get the license replaced without exams, while others must pass the theory and practical exams. The new license is printed about 5 minutes after the photo and signature are taken. Old-format licenses became invalid as of January 1, 2024.",
+      "muammolar": [
+        "How do I exchange my old license for a new one?",
+        "Can I drive with an old-format license?",
+        "Do I need to pass an exam to exchange my license?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Through Public Services Centers · not specified"
+    }
+  },
+  "savol-javob.avtoni-royxatdan-otkazish": {
+    "ru": {
+      "nomi": "Каков порядок регистрации автотранспорта и получения государственного номера?",
+      "tavsif": "После заключения нотариально удостоверенного договора автомобиль в течение 10 дней должен быть зарегистрирован в органе БДД по месту постоянного жительства владельца, где также выдаётся государственный регистрационный знак. Регистрация проводится при покупке нового автомобиля, при импорте, при смене владельца или места жительства. С 2024 года пошлины: 1,5 БРВ для электромобилей и мототранспорта, 6,84 БРВ для остальных автомобилей.",
+      "muammolar": [
+        "Купил машину, как поставить на учёт?",
+        "Сколько дней даётся на регистрацию автомобиля?",
+        "Сколько стоит постановка машины на учёт?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Территориальные органы БДД · Постановление Кабинета Министров 2017 г. № 683; приказ министра ВД от 31.03.2024 г. № 2303-5"
+    },
+    "en": {
+      "nomi": "What is the procedure for registering a vehicle and obtaining license plates?",
+      "tavsif": "After a notarized purchase agreement is concluded, the vehicle must be registered within 10 days with the traffic safety authority (BDD) at the owner's place of permanent residence, where the license plate is also issued. Registration is required when buying a new car, importing a vehicle, or changing the owner or place of residence. As of 2024, the fees are 1.5 BCU for electric vehicles and motor vehicles, and 6.84 BCU for other cars.",
+      "muammolar": [
+        "I bought a car — how do I register it?",
+        "How many days do I have to register a vehicle?",
+        "How much does vehicle registration cost?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Regional traffic safety authorities (BDD) · Resolution of the Cabinet of Ministers of 2017 No. 683; Order of the Minister of Internal Affairs of 31.03.2024 No. 2303-5"
+    }
+  },
+  "savol-javob.qarindoshlar-ishonchnomasiz-boshqarish": {
+    "ru": {
+      "nomi": "Можно ли управлять автомобилем близкого родственника без доверенности?",
+      "tavsif": "С 1 октября 2019 года супруг(а), родители, дети, братья и сёстры вправе управлять транспортным средством родственника без нотариальной доверенности. Условие — этот родственник должен быть указан в полисе обязательного страхования (ОСАГО) владельца автомобиля.",
+      "muammolar": [
+        "Нужна ли доверенность, чтобы водить машину отца?",
+        "Оштрафуют ли меня, если я езжу на машине брата?",
+        "Можно ли водить машину без доверенности?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Родственник обязательно должен быть внесён в страховой полис · Указ Президента от 09.09.2019 г. № ПФ-5816"
+    },
+    "en": {
+      "nomi": "Can I drive a close relative's car without a power of attorney?",
+      "tavsif": "Since October 1, 2019, a spouse, parents, children, and siblings may drive a relative's vehicle without a notarized power of attorney. The condition is that this relative must be listed on the vehicle owner's compulsory motor insurance (OSAGO) policy.",
+      "muammolar": [
+        "Do I need a power of attorney to drive my father's car?",
+        "Will I be fined for driving my brother's car?",
+        "Can I drive a car without a power of attorney?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "The relative must be listed on the insurance policy · Presidential Decree of 09.09.2019 No. PF-5816"
+    }
+  },
+  "savol-javob.majburiy-texnik-korik": {
+    "ru": {
+      "nomi": "Когда легковые автомобили проходят обязательный техосмотр?",
+      "tavsif": "Легковые автомобили, автобусы и специальный транспорт, используемые для коммерческой перевозки пассажиров, проходят техосмотр дважды в год (1 марта — 30 июня и 1 сентября — 31 октября). Автомобили категории M1, принадлежащие физическим лицам, в возрасте 11-14 лет проходят техосмотр раз в два года, от 15 лет и старше — раз в год; остальной транспорт — в период с 1 января по 31 декабря.",
+      "muammolar": [
+        "Когда мне нужно пройти техосмотр?",
+        "Сколько раз в год старая машина проходит техосмотр?",
+        "Каковы сроки прохождения техосмотра?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "не указано · Приказ министра ВД от 21.12.2011 г. (регистрационный номер 2303)"
+    },
+    "en": {
+      "nomi": "When must passenger cars undergo mandatory technical inspection?",
+      "tavsif": "Passenger cars, buses, and special vehicles used for commercial passenger transport undergo technical inspection twice a year (March 1 - June 30 and September 1 - October 31). Category M1 vehicles owned by individuals aged 11-14 years undergo inspection once every two years, those 15 years and older once a year; other vehicles are inspected between January 1 and December 31.",
+      "muammolar": [
+        "When do I need to go for a technical inspection?",
+        "How many times a year does an old car need to be inspected?",
+        "What are the technical inspection deadlines?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "not specified · Order of the Minister of Internal Affairs of 21.12.2011 (registration No. 2303)"
+    }
+  },
+  "savol-javob.fotoradar-jarima-qayd-etish": {
+    "ru": {
+      "nomi": "Кто несёт ответственность за нарушение, зафиксированное фоторадаром (камерой)?",
+      "tavsif": "За нарушение, зафиксированное камерой, к административной ответственности привлекается собственник транспортного средства или лицо, пользовавшееся им. Если при рассмотрении жалобы будет доказано, что в момент нарушения автомобилем управляло другое лицо, либо транспортное средство выбыло из владения незаконным путём, собственник освобождается от ответственности. Если сведения о нарушении не направлены в течение 48 часов, дело прекращается; для скорой помощи и специальных служб действует исключение «крайней необходимости».",
+      "muammolar": [
+        "Пришёл штраф с камеры, но машиной управлял другой человек",
+        "Как обжаловать штраф с радара?",
+        "Нужно ли платить штраф, пришедший, пока машина была угнана?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "не указано · Кодекс об административной ответственности; инструкция от 05.07.2011 г. № 2240"
+    },
+    "en": {
+      "nomi": "Who is liable for a violation recorded by a speed camera (radar)?",
+      "tavsif": "For a violation recorded by a camera, the vehicle's owner or the person who was using it is held administratively liable. If, during review of a complaint, it is proven that another person was driving at the time of the violation, or that the vehicle left the owner's possession unlawfully, the owner is released from liability. If the violation record is not transmitted within 48 hours, the case is closed; an exception of \"extreme necessity\" applies to ambulances and special services.",
+      "muammolar": [
+        "I received a camera fine, but someone else was driving my car",
+        "How do I appeal a radar fine?",
+        "Do I have to pay a fine that arrived while my car was stolen?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "not specified · Code of Administrative Liability; Instruction of 05.07.2011 No. 2240"
+    }
+  },
+  "savol-javob.davlat-raqamini-saqlab-qolish": {
+    "ru": {
+      "nomi": "Можно ли сохранить государственный номер при продаже автомобиля?",
+      "tavsif": "Да: по заявлению прежнего владельца номер передаётся на хранение территориальному органу БДД сроком на 12 месяцев, плата за хранение не взимается. Впоследствии номер может быть повторно присвоен другому автомобилю того же лица либо его близких родственников (супруг(а), родители, дети, братья, сёстры, дед, бабушка, внуки, наследники). Номерной знак не является собственностью владельца и выдаётся для целевого использования.",
+      "muammolar": [
+        "Можно ли перенести мой номер на новую машину?",
+        "Сколько стоит сохранение номера?",
+        "Могу ли я передать номер проданной машины сыну?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Заявление — в территориальный орган БДД; срок хранения 12 месяцев, бесплатно · Постановление Кабинета Министров от 31.08.2017 г. № 683"
+    },
+    "en": {
+      "nomi": "Can I keep my license plate when selling a car?",
+      "tavsif": "Yes: at the former owner's request, the plate is held by the regional traffic safety authority (BDD) for 12 months, free of charge. It can later be reassigned to another vehicle belonging to the same person or their close relatives (spouse, parents, children, siblings, grandparents, grandchildren, heirs). The license plate is not the owner's property and is issued for designated use only.",
+      "muammolar": [
+        "Can I transfer my plate to my new car?",
+        "How much does it cost to keep a license plate on hold?",
+        "Can I give my sold car's plate to my son?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Application — to the regional traffic safety authority (BDD); 12-month hold period, free of charge · Resolution of the Cabinet of Ministers of 31.08.2017 No. 683"
+    }
+  },
+  "savol-javob.jarima-ballari-tizimi": {
+    "ru": {
+      "nomi": "Как начисляются штрафные баллы за нарушения правил дорожного движения?",
+      "tavsif": "С 1 июня 2025 года штрафные баллы начисляются автоматически через модуль «E-jarimaball» на основании решений по протоколам сотрудников ГУБДД; расчётный период — год со дня совершения нарушения. Баллы, не достигшие 12, на следующий период не переносятся; при достижении 8 баллов водителю направляется SMS. Водитель может в любой момент проверить свои баллы в системе «E-jarimaball».",
+      "muammolar": [
+        "Как узнать, сколько штрафных баллов у меня накопилось?",
+        "С какого момента действует балльная система?",
+        "Когда баллы аннулируются?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Проверить можно через систему «E-jarimaball» · Постановление Кабинета Министров от 06.05.2025 г. № 296"
+    },
+    "en": {
+      "nomi": "How are penalty points for traffic violations calculated?",
+      "tavsif": "Since June 1, 2025, penalty points are calculated automatically through the E-jarimaball module based on decisions issued from traffic police protocols; the calculation period is one year from the date of the violation. Points that do not reach 12 are not carried over to the next period; once a driver reaches 8 points, an SMS notification is sent. A driver can check their points at any time through the E-jarimaball system.",
+      "muammolar": [
+        "How do I find out how many penalty points I have?",
+        "Since when has the points system been in effect?",
+        "When do penalty points expire?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Can be checked through the E-jarimaball system · Resolution of the Cabinet of Ministers of 06.05.2025 No. 296"
+    }
+  },
+  "savol-javob.guvohnoma-yoqolganda": {
+    "ru": {
+      "nomi": "Что делать при утере водительского удостоверения?",
+      "tavsif": "Следует обратиться в орган ГУБДД, Центр государственных услуг или через Единый портал интерактивных государственных услуг (ЕПИГУ); лицам, управлявшим транспортом в течение последних 12 месяцев, удостоверение выдаётся без экзамена. Пошлина — 1 БРВ. В случае отказа в выдаче можно повторно обратиться в течение 30 рабочих дней.",
+      "muammolar": [
+        "Потерял права, куда обращаться?",
+        "Сколько стоит дубликат утерянного удостоверения?",
+        "Нужно ли пересдавать экзамен при утере прав?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "my.gov.uz (ЕПИГУ), Центр государственных услуг или ГУБДД · не указано"
+    },
+    "en": {
+      "nomi": "What should I do if I lose my driver's license?",
+      "tavsif": "Apply to the traffic police authority, a Public Services Center, or through the Unified Portal of Interactive Public Services (my.gov.uz); those who have driven within the last 12 months receive the license without an exam. The fee is 1 BCU. If issuance is refused, you have the right to reapply within 30 working days.",
+      "muammolar": [
+        "I lost my license — where do I go?",
+        "How much does a duplicate of a lost license cost?",
+        "Do I have to retake the exam if I lose my license?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "my.gov.uz (unified portal), Public Services Center, or traffic police authority · not specified"
+    }
+  },
+  "savol-javob.haydash-huquqidan-mahrum-qilish": {
+    "ru": {
+      "nomi": "За какие правонарушения предусмотрено лишение права управления транспортным средством?",
+      "tavsif": "Согласно статье 23 Кодекса об административной ответственности, лишение применяется как основное или дополнительное наказание: управление в состоянии опьянения (статья 131) и уклонение от освидетельствования (статья 136) — 3 года; дорожное хулиганство, дрифт (статья 128-10) — 1-2 года; оставление места ДТП (статья 137) — до 3 лет; передача управления лицу в состоянии опьянения (статья 140) — 2-3 года. Нарушение, повлёкшее лёгкий вред здоровью или ущерб (статья 133), может повлечь лишение на 1-3 года, повреждение имущества (статья 134) — на 6 месяцев-1 год.",
+      "muammolar": [
+        "На сколько лет лишат прав за вождение в нетрезвом виде?",
+        "В каких случаях изымают права?",
+        "Что будет, если скрыться с места ДТП?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "не указано · Кодекс об административной ответственности, статьи 23, 128-10, 131, 133, 134, 136, 137, 140, 194"
+    },
+    "en": {
+      "nomi": "For which offenses can the right to drive be revoked?",
+      "tavsif": "Under Article 23 of the Code of Administrative Liability, revocation is applied as a primary or additional penalty: driving under the influence (Article 131) and refusing to be tested (Article 136) — 3 years; road hooliganism, drifting (Article 128-10) — 1-2 years; fleeing the scene of an accident (Article 137) — up to 3 years; letting an intoxicated person drive (Article 140) — 2-3 years. A violation causing minor injury or damage (Article 133) can lead to revocation of 1-3 years, and property damage (Article 134) to 6 months-1 year.",
+      "muammolar": [
+        "How many years is a license revoked for drunk driving?",
+        "In what cases is a license confiscated?",
+        "What happens if I flee the scene of an accident?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "not specified · Code of Administrative Liability, Articles 23, 128-10, 131, 133, 134, 136, 137, 140, 194"
+    }
+  },
+  "savol-javob.birinchi-marta-qoidabuzarlik-ogohlantirish": {
+    "ru": {
+      "nomi": "Правда ли, что водителей, впервые нарушивших правила, не штрафуют?",
+      "tavsif": "Предлагается ввести в Кодекс об административной ответственности меру наказания «административное предупреждение»: за первое нарушение вместо штрафа выносится предупреждение. В перечень войдут неиспользование ремня безопасности, пользование телефоном/монитором, нарушение правил остановки, требований о страховании и нарушения правил пешеходами; предупреждение также будет применяться по 13 статьям, фиксируемым радарами. Если решение затягивается более чем на месяц, штраф не применяется; норма вступит в силу после утверждения Законодательной палатой.",
+      "muammolar": [
+        "Прощают ли первый штраф?",
+        "Оштрафуют ли за непристёгнутый ремень при первом нарушении?",
+        "Когда выносится предупреждение, а когда штраф?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "На стадии проекта — требуется утверждение Законодательной палаты · Предлагаемые изменения в Кодекс об административной ответственности"
+    },
+    "en": {
+      "nomi": "Is it true that drivers are not fined for a first-time violation?",
+      "tavsif": "It has been proposed to introduce an \"administrative warning\" penalty into the Code of Administrative Liability: for a first-time violation, a warning would be issued instead of a fine. The list would include failing to wear a seatbelt, using a phone/screen while driving, violating stopping rules, violating insurance requirements, and pedestrian violations; a warning would also apply to 13 articles recorded by radar. If a decision is delayed more than a month, no fine is applied; the rule takes effect once approved by the Legislative Chamber.",
+      "muammolar": [
+        "Is a first fine forgiven?",
+        "Will I be fined for not wearing a seatbelt the first time I'm caught?",
+        "When is a warning issued, and when is a fine issued?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Still at the draft stage — requires approval by the Legislative Chamber · Proposed amendments to the Code of Administrative Liability"
+    }
+  },
+  "savol-javob.avtoturargoh-bepul-toifalar": {
+    "ru": {
+      "nomi": "Какие категории граждан пользуются автостоянками бесплатно?",
+      "tavsif": "Лица с инвалидностью I и II группы, управляющие автомобилем со знаком «Транспорт, управляемый инвалидом» и имеющие справку, подтверждающую инвалидность, а также родители (опекуны) детей-инвалидов до 16 лет с соответствующим пенсионным удостоверением, бесплатно пользуются выделенными местами. На стоянке не менее 5 процентов мест (но не менее 2 мест) должно быть выделено для инвалидов, с установкой дорожных знаков 5.15 и 7.17.",
+      "muammolar": [
+        "Платят ли инвалиды за парковку?",
+        "Бесплатна ли стоянка для ребёнка-инвалида?",
+        "Сколько мест для инвалидов должно быть на парковке?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "не указано · Постановление Кабинета Министров от 07.03.2018 г. № 183"
+    },
+    "en": {
+      "nomi": "Which categories of citizens can use parking lots free of charge?",
+      "tavsif": "Persons with category I and II disabilities driving a vehicle marked \"Vehicle driven by a person with a disability\" and holding a certificate confirming their disability, as well as parents (guardians) of disabled children under 16 with the relevant pension certificate, may use designated spaces free of charge. At least 5 percent of a parking lot's spaces (but no fewer than 2) must be designated for people with disabilities, marked with road signs 5.15 and 7.17.",
+      "muammolar": [
+        "Do people with disabilities pay for parking?",
+        "Is parking free for a child with a disability?",
+        "How many parking spaces must be reserved for people with disabilities?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "not specified · Resolution of the Cabinet of Ministers of 07.03.2018 No. 183"
+    }
+  },
+  "savol-javob.yth-haydovchi-majburiyatlari": {
+    "ru": {
+      "nomi": "Что обязан сделать водитель при дорожно-транспортном происшествии?",
+      "tavsif": "Водитель обязан немедленно остановиться, включить аварийную сигнализацию и выставить знак аварийной остановки, не перемещая предметы. Он оказывает первую помощь пострадавшим и вызывает скорую медицинскую помощь; фиксирует место происшествия на фото/видео в присутствии свидетелей, записывает их данные и ожидает сотрудников органов внутренних дел. Если оформляется извещение по обязательному страхованию, сообщать в органы внутренних дел не обязательно.",
+      "muammolar": [
+        "Что делать в первую очередь при аварии?",
+        "Обязательно ли вызывать ГАИ при ДТП?",
+        "Можно ли перемещать машину с места аварии?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "не указано · Постановление Кабинета Министров от 12.04.2022 г. № 172 (пункт 51 Правил)"
+    },
+    "en": {
+      "nomi": "What must a driver do when a traffic accident occurs?",
+      "tavsif": "The driver must stop immediately, turn on hazard lights and set up a warning triangle, without moving objects at the scene. They must give first aid to the injured and call an ambulance; document the scene with photos/video in the presence of witnesses, record witnesses' details, and wait for police officers. If an insurance notification form is completed, notifying the police is not required.",
+      "muammolar": [
+        "What should I do first if there's an accident?",
+        "Is it mandatory to call the traffic police to an accident?",
+        "Can I move the car from the accident scene?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "not specified · Resolution of the Cabinet of Ministers of 12.04.2022 No. 172 (clause 51 of the Rules)"
+    }
+  },
+  "savol-javob.haydovchilik-guvohnomasi-olish": {
+    "ru": {
+      "nomi": "Каков порядок получения водительского удостоверения?",
+      "tavsif": "Удостоверение выдаётся на 10 лет; заявление вместе с паспортом/ID-картой, справкой формы 083 и свидетельством об окончании автошколы подаётся онлайн или офлайн в Единый экзаменационный центр (cabinet.yim.uz). Стоимость теоретического и практического экзаменов начинается от 1 млн сумов, пересдача — от 1,2 млн сумов за каждый экзамен. Успешно сдавшим выдаётся сертификат, действующий 1 год, после чего в органе БДД, Центре государственных услуг или через ЕПИГУ оформляется удостоверение с оплатой 0,7 БРВ.",
+      "muammolar": [
+        "Куда подать заявление на получение прав?",
+        "Сколько стоит экзамен на права?",
+        "Где получить удостоверение после сдачи экзамена?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "cabinet.yim.uz; Центр государственных услуг; my.gov.uz · не указано"
+    },
+    "en": {
+      "nomi": "What is the procedure for obtaining a driver's license?",
+      "tavsif": "The license is issued for a term of 10 years; the application, together with a passport/ID card, form 083 medical certificate, and driving school completion certificate, is submitted online or offline to the Unified Examination Center (cabinet.yim.uz). The theory and practical exams cost from 1 million soum, and retaking an exam costs from 1.2 million soum each. Those who pass receive a certificate valid for 1 year, after which the license itself is issued at a traffic police office, Public Services Center, or through my.gov.uz upon payment of 0.7 BCU.",
+      "muammolar": [
+        "Where do I apply to get a driver's license?",
+        "How much does the driving exam cost?",
+        "Where do I collect my license after passing the exam?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "cabinet.yim.uz; Public Services Center; my.gov.uz · not specified"
+    }
+  },
+  "savol-javob.xorijiy-guvohnoma-amal-qilishi": {
+    "ru": {
+      "nomi": "Действительно ли в Узбекистане водительское удостоверение, полученное за рубежом?",
+      "tavsif": "Национальные удостоверения, соответствующие требованиям Венской конвенции 1968 года, признаются действительными в Узбекистане. Для замены на национальное удостоверение иностранное удостоверение проверяется через Министерство иностранных дел, после чего его владелец проходит медицинский осмотр и сдаёт теоретический и практический экзамены. После замены иностранное удостоверение возвращается выдавшему его государственному органу.",
+      "muammolar": [
+        "Будут ли действовать в Узбекистане права, полученные в России?",
+        "Как заменить иностранное удостоверение на узбекское?",
+        "Нужно ли сдавать экзамен, имея иностранные права?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Проверка осуществляется через Министерство иностранных дел · Венская конвенция (1968); Постановление Кабинета Министров от 31.05.2018 г. № 408"
+    },
+    "en": {
+      "nomi": "Is a driver's license obtained abroad valid in Uzbekistan?",
+      "tavsif": "National licenses that meet the requirements of the 1968 Vienna Convention are recognized as valid in Uzbekistan. To exchange it for a national license, the foreign license is verified through the Ministry of Foreign Affairs, after which the holder undergoes a medical examination and passes the theory and practical exams. After the exchange, the foreign license is returned to the government body that issued it.",
+      "muammolar": [
+        "Will a license I got in Russia work here?",
+        "How do I exchange a foreign license for an Uzbek one?",
+        "Do I need to take an exam if I have a foreign license?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Verification is carried out through the Ministry of Foreign Affairs · Vienna Convention (1968); Resolution of the Cabinet of Ministers of 31.05.2018 No. 408"
+    }
+  },
+  "savol-javob.gai-toxtatish-asoslari": {
+    "ru": {
+      "nomi": "На каких основаниях сотрудник ГАИ (БДД) может остановить транспортное средство?",
+      "tavsif": "Основания для остановки: нарушение зафиксировано визуально или специальным устройством; транспортное средство, водитель или пассажир находятся в розыске либо причастны к ДТП; необходимо получить информацию от очевидца происшествия; имеются распоряжения уполномоченных органов об ограничении движения; требуется проверка документов или проведение специальных мероприятий. Остановка по иным основаниям запрещена, сигнал сотрудника должен быть понятным и подан своевременно.",
+      "muammolar": [
+        "Что делать, если ГАИ остановила без причины?",
+        "Имеет ли право инспектор проверять документы?",
+        "По каким причинам меня могут остановить?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "не указано · не указано"
+    },
+    "en": {
+      "nomi": "On what grounds may a traffic police (BDD) officer stop a vehicle?",
+      "tavsif": "Grounds for a stop include: a violation recorded visually or by a special device; the vehicle, driver, or passenger being sought or connected to an accident; the need to obtain information from a witness to an incident; orders from authorized bodies restricting traffic; the need to check documents; and special operations. Stops on other grounds are prohibited, and the officer's signal must be clear and given in a timely manner.",
+      "muammolar": [
+        "What should I do if the traffic police stop me without reason?",
+        "Is an officer entitled to check my documents?",
+        "For what reasons might I be stopped?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "not specified · not specified"
+    }
+  },
+  "savol-javob.piyodalar-majburiyatlari": {
+    "ru": {
+      "nomi": "Каковы обязанности пешеходов?",
+      "tavsif": "Пешеходы должны двигаться по тротуарам и пешеходным дорожкам, а при их отсутствии — по обочине; проезжую часть они переходят по пешеходным переходам, подземным/надземным переходам, а при их отсутствии — на перекрёстках. Организованная группа движется в один ряд не более чем по 4 человека с правой стороны, с сопровождающими впереди и сзади. Группу детей разрешается сопровождать только днём, по тротуару, под наблюдением взрослых.",
+      "muammolar": [
+        "Где пешеход должен переходить дорогу?",
+        "Где идти, если нет тротуара?",
+        "Каковы правила сопровождения детей группой?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "не указано · Постановление Кабинета Министров от 12.04.2022 г. № 172"
+    },
+    "en": {
+      "nomi": "What are the obligations of pedestrians?",
+      "tavsif": "Pedestrians must walk on sidewalks and pedestrian paths, and along the road shoulder if these are absent; they cross the roadway at pedestrian crossings, underground/overground crossings, or, if none are available, at intersections. An organized group walks in a single line of no more than 4 people on the right side, with escorts at the front and rear. A group of children may only be escorted during the day, on the sidewalk, under adult supervision.",
+      "muammolar": [
+        "Where should a pedestrian cross the road?",
+        "Where do I walk if there is no sidewalk?",
+        "What are the rules for escorting a group of children?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "not specified · Resolution of the Cabinet of Ministers of 12.04.2022 No. 172"
+    }
+  },
+  "savol-javob.yolovchilar-majburiyatlari": {
+    "ru": {
+      "nomi": "Каковы обязанности пассажиров?",
+      "tavsif": "Пассажиры должны садиться и выходить только со стороны тротуара или обочины после полной остановки транспорта, пристёгивать ремень безопасности перед началом движения, а на мотоцикле и скутере — надевать мотошлем. Во время движения запрещается отвлекать водителя, открывать дверь, высовывать части тела из транспорта и стоять в кузове грузового автомобиля; соблюдение этих требований контролирует водитель.",
+      "muammolar": [
+        "Обязательно ли пристёгиваться на заднем сиденье?",
+        "С какой стороны должен выходить пассажир?",
+        "Нужен ли шлем пассажиру на скутере?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "не указано · Постановление Кабинета Министров от 12.04.2022 г. № 172"
+    },
+    "en": {
+      "nomi": "What are the obligations of passengers?",
+      "tavsif": "Passengers must get in and out of the vehicle only from the sidewalk or shoulder side after the vehicle has come to a complete stop, must fasten their seatbelt before the vehicle starts moving, and must wear a motorcycle helmet on a motorcycle or scooter. While the vehicle is moving, it is prohibited to distract the driver, open the door, stick body parts out of the vehicle, or stand in the bed of a truck; the driver is responsible for ensuring these requirements are met.",
+      "muammolar": [
+        "Is it mandatory to wear a seatbelt in the back seat?",
+        "Which side should a passenger exit from?",
+        "Does a passenger on a scooter need a helmet?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "not specified · Resolution of the Cabinet of Ministers of 12.04.2022 No. 172"
+    }
+  },
+  "savol-javob.pensiya-ish-staji": {
+    "ru": {
+      "nomi": "Какие периоды засчитываются в трудовой стаж при назначении пенсии?",
+      "tavsif": "В трудовой стаж засчитываются периоды работы, за которые уплачены страховые взносы, военная служба, обучение в высшем учебном заведении, а также период ухода за ребёнком до 3 лет (в общей сложности не более 6 лет) за каждого ребёнка. Отдельные периоды учитываются в льготном порядке: период боевых действий — в тройном размере, работа в военное время и в учреждениях для инфекционных больных — в двойном размере. За справками можно обратиться по номеру Пенсионного фонда 1271 или на сайт pfru.uz.",
+      "muammolar": [
+        "Засчитываются ли годы учёбы в стаж?",
+        "Включается ли декретный период в стаж?",
+        "Засчитывается ли служба в армии в пенсионный стаж?",
+        "Мне сказали, что стажа недостаточно — что делать?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Телефон доверия: 1271; портал: pfru.uz · Закон «О государственном пенсионном обеспечении граждан»; постановление КМ от 13.10.2022 г. № 592"
+    },
+    "en": {
+      "nomi": "Which periods count toward work experience when a pension is assigned?",
+      "tavsif": "Work experience includes periods of employment for which insurance contributions were paid, military service, higher education, and up to 3 years of childcare per child (up to 6 years total). Certain periods are counted on preferential terms: time spent in combat operations counts triple, and work during wartime or at facilities for infectious patients counts double. For information, call the Pension Fund at 1271 or visit pfru.uz.",
+      "muammolar": [
+        "Do years spent studying count toward work experience?",
+        "Does maternity leave count toward work experience?",
+        "Does military service count toward pension experience?",
+        "I was told my work experience isn't enough — what should I do?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Helpline: 1271; portal: pfru.uz · Law \"On State Pension Provision for Citizens\"; Resolution of the Cabinet of Ministers of 13.10.2022 No. 592"
+    }
+  },
+  "savol-javob.pensiya-hisoblash-tartibi": {
+    "ru": {
+      "nomi": "Как рассчитывается пенсия и можно ли добиться её перерасчёта?",
+      "tavsif": "Пенсия рассчитывается исходя из заработка за любые последовательные 5 лет из последних 10 лет трудовой деятельности, этот период гражданин выбирает сам. Заявление на перерасчёт пенсии подаётся при изменении группы инвалидности, предоставлении дополнительных документов, изменении числа членов семьи на иждивении или базовой величины, и рассматривается отделением Пенсионного фонда в течение 5 дней. Гражданам, достигшим 100 лет, выплачивается ежемесячная надбавка в размере 100 процентов базовой величины.",
+      "muammolar": [
+        "За какие годы заработка рассчитывается моя пенсия?",
+        "Куда обратиться для перерасчёта пенсии?",
+        "Мне кажется, пенсию рассчитали заниженно"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Телефон доверия: 1271; портал: pfru.uz · Закон «О государственном пенсионном обеспечении граждан»; постановление КМ от 13.10.2022 г. № 592"
+    },
+    "en": {
+      "nomi": "How is a pension calculated, and can it be recalculated?",
+      "tavsif": "The pension is calculated based on earnings for any consecutive 5 years chosen by the citizen out of the last 10 years of employment. An application for pension recalculation is filed when the disability group changes, additional documents are submitted, the number of dependent family members changes, or the base calculation amount changes, and it is reviewed by the Pension Fund office within 5 days. Citizens who turn 100 receive a monthly supplement equal to 100 percent of the base amount.",
+      "muammolar": [
+        "Which years of earnings is my pension calculated from?",
+        "Where do I go to have my pension recalculated?",
+        "I think my pension was calculated too low"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Helpline: 1271; portal: pfru.uz · Law \"On State Pension Provision for Citizens\"; Resolution of the Cabinet of Ministers of 13.10.2022 No. 592"
+    }
+  },
+  "savol-javob.pensiya-tolash-tartibi": {
+    "ru": {
+      "nomi": "Как выплачиваются пенсии и сколько можно удерживать из пенсии?",
+      "tavsif": "Пенсия выплачивается наличными либо, по желанию пенсионера, переводится на банковскую карту; неработающие пенсионеры получают её через отделение Пенсионного фонда по месту жительства. Удержание из пенсии допускается только на основании решения суда, нотариального документа или решения Пенсионного фонда и не может превышать 50 процентов от размера пенсии в месяц. В случае смерти пенсионера выплачивается пособие на погребение в размере четырёхкратной базовой величины, за неполученной пенсией нужно обратиться в течение 60 дней.",
+      "muammolar": [
+        "Сколько могут удержать из моей пенсии?",
+        "Кто получает неполученную пенсию умершего отца?",
+        "Что будет с моей пенсией, если я перееду за границу?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Пенсионный фонд: 1140, pfru.uz; Народный банк: 1106 · Закон «О государственном пенсионном обеспечении граждан»"
+    },
+    "en": {
+      "nomi": "How are pensions paid, and how much can be withheld from a pension?",
+      "tavsif": "Pensions are paid in cash or, at the pensioner's request, transferred to a bank card; non-working pensioners collect it through the Pension Fund office at their place of residence. Deductions from a pension are permitted only on the basis of a court decision, a notarized document, or a Pension Fund decision, and may not exceed 50 percent of the pension amount per month. Upon a pensioner's death, a burial benefit equal to four times the base amount is paid; a claim for an unpaid pension must be filed within 60 days.",
+      "muammolar": [
+        "How much can be withheld from my pension?",
+        "Who receives a deceased father's unpaid pension?",
+        "What happens to my pension if I move abroad?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Pension Fund: 1140, pfru.uz; People's Bank (Xalq banki): 1106 · Law \"On State Pension Provision for Citizens\""
+    }
+  },
+  "savol-javob.chet-elda-pensiya-ishonchnoma": {
+    "ru": {
+      "nomi": "Как выплачивается пенсия пенсионеру за рубежом по доверенности?",
+      "tavsif": "Пенсионер, находящийся за рубежом, должен оформить доверенность в соответствии с законодательством, проставить на ней апостиль и передать оригинал своему доверенному представителю в Узбекистане; представитель предъявляет её в банк, где выплачивается пенсия. Это необходимо сделать в течение 3 месяцев со дня выезда за границу, иначе выплата пенсии может быть временно приостановлена. Пенсионер обязан не реже одного раза в год лично являться в отделение Пенсионного фонда для подтверждения права на пенсию.",
+      "muammolar": [
+        "Я работаю в России, может ли моя пенсия получать мама?",
+        "Моя пенсия остановилась, пока я был за границей",
+        "Как оформить доверенность на получение пенсии?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "На доверенности требуется апостиль · Конвенция о правовой помощи по гражданским, семейным и уголовным делам (lex.uz/docs/2741647)"
+    },
+    "en": {
+      "nomi": "How is a pension paid by power of attorney to a pensioner abroad?",
+      "tavsif": "A pensioner residing abroad must execute a power of attorney in accordance with the law, have it apostilled, and give the original to their trusted representative in Uzbekistan; the representative presents it to the bank where the pension is paid. This must be done within 3 months of leaving the country, otherwise pension payments may be temporarily suspended. The pensioner must appear in person at the Pension Fund office at least once a year to confirm their entitlement to the pension.",
+      "muammolar": [
+        "I work in Russia — can my mother collect my pension?",
+        "My pension payments stopped while I was abroad",
+        "How do I draw up a power of attorney for collecting a pension?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "The power of attorney must be apostilled · Convention on Legal Assistance in Civil, Family, and Criminal Matters (lex.uz/docs/2741647)"
+    }
+  },
+  "savol-javob.yoshga-doir-pensiya-6-savol": {
+    "ru": {
+      "nomi": "Кому, когда и как назначается пенсия по возрасту?",
+      "tavsif": "Пенсия по возрасту назначается пожизненно мужчинам в 60 лет при стаже не менее 25 лет, женщинам в 55 лет при стаже не менее 20 лет; лицам со стажем не менее 7 лет пенсия также назначается, но не ниже 50 процентов минимальной пенсии. Пенсия рассчитывается как 55 процентов от среднемесячной заработной платы за любые последовательные 5 лет из последних 10 лет. При обращении в течение 60 дней со дня возникновения права пенсия назначается со дня достижения соответствующего возраста; с 1 марта 2025 года пенсия назначается проактивно, без подачи документов.",
+      "muammolar": [
+        "В каком возрасте я выхожу на пенсию?",
+        "Какой стаж нужен для получения пенсии?",
+        "Куда подавать заявление на оформление пенсии?",
+        "Получу ли я пенсию, если мой стаж 10 лет?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Обращение — в отделения Пенсионного фонда, Центры государственных услуг, через my.gov.uz · Закон «О государственном пенсионном обеспечении граждан»"
+    },
+    "en": {
+      "nomi": "Who is entitled to an old-age pension, and when and how is it assigned?",
+      "tavsif": "An old-age pension is assigned for life to men at age 60 with at least 25 years of work experience, and to women at age 55 with at least 20 years of work experience; those with at least 7 years of experience also receive a pension, though not less than 50 percent of the minimum pension. The pension is calculated as 55 percent of the average monthly wage for any consecutive 5 years out of the last 10. If application is made within 60 days of becoming eligible, the pension is assigned from the date the relevant age is reached; since March 1, 2025, pensions are assigned proactively, without the need to submit documents.",
+      "muammolar": [
+        "At what age can I retire?",
+        "How much work experience is required to receive a pension?",
+        "Where do I submit an application for a pension?",
+        "Will I get a pension if I have 10 years of work experience?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Apply at Pension Fund offices, Public Services Centers, or through my.gov.uz · Law \"On State Pension Provision for Citizens\""
+    }
+  },
+  "savol-javob.bolalar-nafaqasi-tolash-toxtatish": {
+    "ru": {
+      "nomi": "Как выплачивается пособие на детей и когда его выплата прекращается?",
+      "tavsif": "Пособие на детей и материальная помощь выплачиваются через отделения Народного банка наличными или на пластиковую карту с 4-го по 27-е число каждого месяца. Выплата прекращается по истечении установленного законодательством срока, по заявлению гражданина, при переезде на постоянное жительство за рубеж или при выявлении недостоверных сведений. Если излишне выплаченная сумма не возмещена в течение 12 месяцев, она взыскивается в судебном порядке.",
+      "muammolar": [
+        "Пособие на ребёнка перестало приходить, в чём причина?",
+        "Какого числа каждый месяц выплачивается пособие?",
+        "Должен ли я вернуть излишне выплаченное пособие?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "По этим вопросам обращаться в центры социальных услуг «Инсон» · постановление КМ от 21.10.2021 г. № 654"
+    },
+    "en": {
+      "nomi": "How are child benefits paid, and when is payment stopped?",
+      "tavsif": "Child benefits and material assistance are paid through People's Bank (Xalq banki) branches, in cash or to a bank card, between the 4th and 27th of each month. Payment is stopped when the statutory period expires, at the citizen's request, upon permanent relocation abroad, or when inaccurate information is discovered. If an overpayment is not repaid within 12 months, it is recovered through the courts.",
+      "muammolar": [
+        "My child benefit payments stopped — why?",
+        "On which dates each month is the benefit paid?",
+        "Do I have to repay an overpaid benefit?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Contact the Inson social services centers on these matters · Resolution of the Cabinet of Ministers of 21.10.2021 No. 654"
+    }
+  },
+  "savol-javob.talaba-ijara-kompensatsiya": {
+    "ru": {
+      "nomi": "Как студентам частично компенсируется плата за аренду жилья?",
+      "tavsif": "Студентам очной формы обучения государственных вузов часть расходов на аренду жилья компенсируется из бюджета: в Ташкенте — в размере одной базовой расчётной величины, в других регионах — в размере половины. Студент подаёт анкету и копию договора аренды заместителю декана факультета или в отдел по студенческому жилью до 7-го числа каждого месяца; заявления, поданные позже, не рассматриваются. Компенсация действует ежегодно с 1 сентября по 1 июля и прекращается при академическом отпуске или отчислении.",
+      "muammolar": [
+        "Я студент — государство компенсирует плату за аренду?",
+        "Какие документы нужны для получения компенсации за аренду?",
+        "Можно ли получить субсидию на аренду квартиры?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Заявление подаётся до 7-го числа каждого месяца · постановления КМ от 24.09.2021 г. № 605 и от 14.08.2023 г. № 376"
+    },
+    "en": {
+      "nomi": "How is part of the rent compensated for students?",
+      "tavsif": "Full-time students of state higher education institutions have part of their housing rental costs covered from the budget: in Tashkent, one base calculation unit (BCU); in other regions, half a BCU. The student submits an application form and a copy of the lease agreement to the deputy dean of the faculty or the student housing office by the 7th of each month; late applications are not considered. The compensation runs each year from September 1 to July 1 and is suspended during academic leave or upon expulsion.",
+      "muammolar": [
+        "I'm a student — does the state compensate rent?",
+        "What documents are needed to get rent compensation?",
+        "Can I get a subsidy for renting an apartment?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Application must be submitted by the 7th of each month · Resolutions of the Cabinet of Ministers of 24.09.2021 No. 605 and 14.08.2023 No. 376"
+    }
+  },
+  "savol-javob.shahar-transport-bepul": {
+    "ru": {
+      "nomi": "Кто пользуется городским общественным транспортом бесплатно?",
+      "tavsif": "Городским пассажирским транспортом (кроме такси) бесплатно пользуются участники и инвалиды войны и их сопровождающие, участники афганской войны, пострадавшие от чернобыльской катастрофы, обладатели нагрудного знака «Почётный донор», одинокие пожилые люди, лица с инвалидностью и сопровождающие незрячих. С 1 апреля 2023 года пенсионеры также бесплатно пользуются ташкентским метро — предъявив пенсионное удостоверение, они получают один бесплатный жетон, который предназначен только для самого пенсионера.",
+      "muammolar": [
+        "Пенсионеры ездят в метро бесплатно?",
+        "Я инвалид — должен ли я платить за автобус?",
+        "Кому предоставляется льгота на транспорт?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Льгота не распространяется на такси · Постановление Президента от 15.03.2023 г. № ПП-94; lex.uz/docs/39646"
+    },
+    "en": {
+      "nomi": "Who is entitled to free travel on city public transport?",
+      "tavsif": "War participants and disabled war veterans and their companions, participants of the Afghan war, victims of the Chernobyl disaster, holders of the \"Honorary Donor\" badge, lonely elderly persons, people with disabilities, and companions of the visually impaired travel free on city passenger transport (excluding taxis). Since April 1, 2023, pensioners have also been able to ride the Tashkent metro for free — by presenting their pension certificate, they receive one free token, which is for their personal use only.",
+      "muammolar": [
+        "Do pensioners ride the metro for free?",
+        "I have a disability — do I have to pay for the bus?",
+        "Who is eligible for the transport benefit?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "The benefit does not apply to taxis · Presidential Resolution of 15.03.2023 No. PP-94; lex.uz/docs/39646"
+    }
+  },
+  "savol-javob.sanatoriy-yollanma": {
+    "ru": {
+      "nomi": "Как пожилые люди и лица с инвалидностью получают бесплатную путёвку в санаторий?",
+      "tavsif": "С 1 июля 2022 года путёвки на санаторно-курортное лечение оформляются бесплатно через Центры государственных услуг или портал my.gov.uz. Путёвка выдаётся на 12-дневный курс лечения и подаётся не позднее чем за 10 дней до начала срока её действия. К числу лиц, имеющих право, относятся инвалиды I-II группы, получатели пенсии по возрасту, лица, приравненные к инвалидам войны, пострадавшие от чернобыльской катастрофы и одинокие пожилые люди; путёвкой может воспользоваться только указанное в ней лицо.",
+      "muammolar": [
+        "Как получить бесплатную путёвку в санаторий?",
+        "Положена ли пенсионерам путёвка в санаторий?",
+        "Куда обращаться за санаторной путёвкой для матери-инвалида?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Обращение: Центр государственных услуг или my.gov.uz · постановление КМ от 19.11.2021 г. № 693"
+    },
+    "en": {
+      "nomi": "How do elderly people and people with disabilities get a free sanatorium voucher?",
+      "tavsif": "Since July 1, 2022, sanatorium treatment vouchers are issued free of charge through Public Services Centers or the my.gov.uz portal. The voucher is issued for a 12-day course of treatment and must be applied for at least 10 days before its validity period begins. Eligible categories include people with category I-II disabilities, old-age pensioners, persons equated to disabled war veterans, Chernobyl disaster victims, and lonely elderly people; the voucher may only be used by the named recipient.",
+      "muammolar": [
+        "How do I get a free sanatorium voucher?",
+        "Are pensioners entitled to a sanatorium voucher?",
+        "Where do I apply for a sanatorium voucher for my disabled mother?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Apply at: Public Services Center or my.gov.uz · Resolution of the Cabinet of Ministers of 19.11.2021 No. 693"
+    }
+  },
+  "savol-javob.kop-bolali-oila-himoya": {
+    "ru": {
+      "nomi": "Какие государственные гарантии предоставляются многодетным семьям?",
+      "tavsif": "Согласно статье 41 Семейного кодекса, многодетной считается семья с четырьмя и более детьми в возрасте до 18 лет (до 22 лет, если ребёнок обучается очно). Таким семьям предоставляются гарантии занятости согласно статье 96 Трудового кодекса, а многодетные семьи, потерявшие кормильца, освобождаются от налога на доходы физических лиц согласно статье 436 Налогового кодекса. Кроме того, они ставятся на государственный жилищный учёт для улучшения жилищных условий.",
+      "muammolar": [
+        "У меня 4 детей, какие льготы мне положены?",
+        "Как оформляется статус многодетной семьи?",
+        "Есть ли налоговые льготы многодетным матерям?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "не указано · Семейный кодекс, статья 41; Трудовой кодекс, статья 96; Налоговый кодекс, статья 436"
+    },
+    "en": {
+      "nomi": "What state guarantees are provided to large families?",
+      "tavsif": "Under Article 41 of the Family Code, a family with four or more children under 18 (or under 22 if studying full-time) is considered large. Such families are granted employment guarantees under Article 96 of the Labor Code, and large families that have lost their breadwinner are exempt from personal income tax under Article 436 of the Tax Code. They are also placed on the state housing register to improve their living conditions.",
+      "muammolar": [
+        "I have 4 children — what benefits am I entitled to?",
+        "How is large-family status granted?",
+        "Are there tax benefits for mothers of large families?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "not specified · Family Code, Article 41; Labor Code, Article 96; Tax Code, Article 436"
+    }
+  },
+  "savol-javob.kambagallik-rangli-toifalar": {
+    "ru": {
+      "nomi": "Что означают Красная, Жёлтая и Зелёная категории в системе борьбы с бедностью?",
+      "tavsif": "С 15 мая 2025 года малообеспеченные семьи и семьи, подверженные риску бедности, распределяются в реестре по трём категориям. Красная категория — самые нуждающиеся семьи, чей среднедушевой доход ниже минимального прожиточного уровня и не имеющие трудоспособных членов; им социальная помощь оказывается в первую очередь. Жёлтая категория — семьи с низким доходом, но имеющие трудоспособных членов (им оказывается поддержка в трудоустройстве и профобучении); Зелёная категория — семьи с доходом в 1-1,5 раза выше минимального прожиточного уровня (мониторинг и профилактическая помощь).",
+      "muammolar": [
+        "Попадёт ли наша семья в красный список?",
+        "Какая помощь оказывается семьям жёлтой категории?",
+        "Как попасть в реестр малообеспеченных семей?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Система введена с 15 мая 2025 года · не указано"
+    },
+    "en": {
+      "nomi": "What do the Red, Yellow, and Green categories in the anti-poverty system mean?",
+      "tavsif": "Since May 15, 2025, low-income families and families at risk of poverty are sorted in the registry into three categories. The Red category covers the most destitute families, whose per-capita income is below the minimum subsistence level and who have no able-bodied members; they receive social assistance first. The Yellow category covers low-income families that do have able-bodied members (supported through job placement and vocational training); the Green category covers families with income 1-1.5 times the minimum subsistence level (monitoring and preventive assistance).",
+      "muammolar": [
+        "Will our family be placed in the red category?",
+        "What assistance is given to families in the yellow category?",
+        "How does a family get added to the low-income families registry?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "The system has been in effect since May 15, 2025 · not specified"
+    }
+  },
+  "savol-javob.temir-daftar-nima": {
+    "ru": {
+      "nomi": "Что такое «Железная тетрадь» и какие семьи в неё включаются?",
+      "tavsif": "«Железная тетрадь» — это база данных, которая ведётся для учёта семей, живущих в тяжёлых социально-бытовых условиях, выявления и решения их проблем. В неё включаются семьи без трудоспособных членов или в которых единственный кормилец тяжело болен/имеет инвалидность, семьи с тяжёлым материальным положением и плохими жилищными условиями, а также родители, в одиночку воспитывающие 3 и более несовершеннолетних детей. Постановка на учёт осуществляется через систему «Единая национальная социальная защита» или центры социальных услуг «Инсон», ситуация изучается в течение 2 рабочих дней; членам семей предоставляются субсидии и благотворительная помощь.",
+      "muammolar": [
+        "Как попасть в «Железную тетрадь»?",
+        "Наша семья в тяжёлом положении, какую помощь можно получить от государства?",
+        "Что получают семьи, включённые в «Железную тетрадь»?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Обращение: центры социальных услуг «Инсон» · постановление КМ от 31.05.2024 г. № 313"
+    },
+    "en": {
+      "nomi": "What is the \"Iron Notebook\" and which families are entered into it?",
+      "tavsif": "The \"Iron Notebook\" is a database maintained to keep track of families living in severe socio-economic conditions, identify their problems, and resolve them. It includes families with no able-bodied members, or whose sole breadwinner is seriously ill or disabled, families in dire financial straits and poor housing conditions, and parents raising 3 or more minor children alone. Registration is carried out through the \"Unified National Social Protection\" system or the Inson social services centers, and the situation is reviewed within 2 working days; registered families receive subsidies and charitable assistance.",
+      "muammolar": [
+        "How does a family get added to the Iron Notebook?",
+        "Our family is in a difficult situation — what help can we get from the state?",
+        "What do families in the Iron Notebook receive?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Apply at: Inson social services centers · Resolution of the Cabinet of Ministers of 31.05.2024 No. 313"
+    }
+  },
+  "savol-javob.nogironlik-yagona-imtiyozlar": {
+    "ru": {
+      "nomi": "Какие льготы существуют для людей с инвалидностью и лиц, ухаживающих за ними?",
+      "tavsif": "Законодательством предусмотрено более 80 льгот: налоговые льготы (по статьям 337, 380, 383, 405, 421, 436, 467 Налогового кодекса — по налогу на имущество, землю и доходы), гарантия трудоустройства по квоте, сокращённая рабочая неделя 30-36 часов и удлинённый отпуск для инвалидов I-II группы, 2-процентная квота при поступлении в вузы, бесплатные лекарства при амбулаторном лечении, бесплатный проезд в городском транспорте, компенсация коммунальных услуг и санаторные путёвки. Ответственные органы — Национальное агентство социальной защиты, Налоговый комитет и соответствующие министерства.",
+      "muammolar": [
+        "У меня установлена группа инвалидности, на какие льготы я имею право?",
+        "Я ухаживаю за ребёнком-инвалидом, положена ли мне льгота?",
+        "Какие налоговые льготы есть у инвалидов?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Ответственный орган — Национальное агентство социальной защиты · Налоговый кодекс (статьи 337, 380, 383, 405, 421, 436, 467); Трудовой кодекс; указы Президента и постановления Кабинета Министров"
+    },
+    "en": {
+      "nomi": "What benefits are available to people with disabilities and their caregivers?",
+      "tavsif": "The law establishes more than 80 dedicated benefits: tax benefits (under Articles 337, 380, 383, 405, 421, 436, and 467 of the Tax Code — for property, land, and income tax), a guaranteed job placement quota, a reduced 30-36 hour work week and extended leave for people with category I-II disabilities, a 2 percent admission quota for higher education, free medication for outpatient treatment, free travel on city transport, utility compensation, and sanatorium vouchers. The responsible bodies are the National Social Protection Agency, the Tax Committee, and the relevant ministries.",
+      "muammolar": [
+        "I have a disability group — what benefits am I entitled to?",
+        "I care for a disabled child — am I entitled to a benefit?",
+        "What tax benefits exist for people with disabilities?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "The National Social Protection Agency is responsible · Tax Code (Articles 337, 380, 383, 405, 421, 436, 467); Labor Code; presidential decrees and Cabinet of Ministers resolutions"
+    }
+  },
+  "savol-javob.nogironlik-elektron-belgilash": {
+    "ru": {
+      "nomi": "Как устанавливается инвалидность в электронном виде?",
+      "tavsif": "Согласно Постановлению Президента от 16.07.2024 г. № ПП-257, электронное установление инвалидности введено с 1 сентября 2024 года в Ташкенте и Навоийской области, а с 1 июля 2025 года — во всех регионах. Гражданин обращается через портал my.gov.uz, центры «Инсон» или семейного врача — медицинские документы врач сам направляет в электронном виде в медико-социальную экспертную комиссию. С 1 января 2027 года инвалидность будет полностью устанавливаться на основании результатов функциональной оценки по шкале ВОЗ, а срок и потребности в реабилитации будут формироваться системой автоматически.",
+      "muammolar": [
+        "Куда теперь обращаться для получения группы инвалидности?",
+        "Изменился ли порядок прохождения ВТЭК?",
+        "Можно ли оформить инвалидность онлайн?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Обращение: my.gov.uz, центры «Инсон» или семейный врач · Постановление Президента от 16.07.2024 г. № ПП-257"
+    },
+    "en": {
+      "nomi": "How is disability determined electronically?",
+      "tavsif": "Under Presidential Resolution No. PP-257 of 16.07.2024, electronic disability determination was introduced on September 1, 2024 in Tashkent city and Navoiy region, and from July 1, 2025 in all regions. Citizens apply through the my.gov.uz portal, Inson centers, or their family doctor — the doctor sends the medical documents electronically to the medical-social expert commission. From January 1, 2027, disability will be determined entirely based on results of the WHO functional assessment scale, with the duration and rehabilitation needs generated automatically by the system.",
+      "muammolar": [
+        "Where do I go now to get a disability group assigned?",
+        "Has the procedure for the medical-social expert commission (VTEK) changed?",
+        "Can disability be processed online?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Apply at: my.gov.uz, Inson centers, or your family doctor · Presidential Resolution of 16.07.2024 No. PP-257"
+    }
+  },
+  "savol-javob.nogironlik-pensiyasi": {
+    "ru": {
+      "nomi": "Кому и на каких условиях назначается пенсия по инвалидности?",
+      "tavsif": "Пенсия по инвалидности назначается лицам с инвалидностью I и II группы, а также лицам с инвалидностью III группы вследствие чернобыльской катастрофы. При инвалидности вследствие трудового увечья или профессионального заболевания пенсия назначается независимо от стажа, а при инвалидности от общего заболевания требуется стаж от 2 лет (в 20-23 года) до 20 лет (после 56 лет), в зависимости от возраста. Пенсия назначается проактивно, без подачи заявления; каждые 2 года производится перерасчёт с учётом стажа и заработной платы.",
+      "muammolar": [
+        "У меня 2-я группа инвалидности, положена ли мне пенсия?",
+        "Какой стаж нужен для пенсии по инвалидности?",
+        "Стал инвалидом во время работы — как назначается пенсия?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Обращение: отделение Пенсионного фонда, Центр государственных услуг или my.gov.uz · Закон «О государственном пенсионном обеспечении граждан» (статьи 15-18, 28, 47, 49); постановление КМ от 13.10.2022 г. № 592"
+    },
+    "en": {
+      "nomi": "Who is eligible for a disability pension, and under what conditions?",
+      "tavsif": "A disability pension is assigned to people with category I and II disabilities, as well as to those with category III disability resulting from the Chernobyl disaster. If the disability results from a workplace injury or occupational disease, the pension is assigned regardless of work experience; if it results from a general illness, the required work experience ranges from 2 years (at age 20-23) to 20 years (after age 56), depending on age. The pension is assigned proactively, without an application; it is recalculated every 2 years based on work experience and wages.",
+      "muammolar": [
+        "I have category 2 disability — am I entitled to a pension?",
+        "How much work experience is needed for a disability pension?",
+        "I became disabled while working — how is my pension assigned?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Apply at: Pension Fund office, Public Services Center, or my.gov.uz · Law \"On State Pension Provision for Citizens\" (Articles 15-18, 28, 47, 49); Resolution of the Cabinet of Ministers of 13.10.2022 No. 592"
+    }
+  },
+  "savol-javob.chipta-50-foiz-imtiyoz": {
+    "ru": {
+      "nomi": "Кому предоставляется 50-процентная льгота на железнодорожные и авиабилеты?",
+      "tavsif": "С 15 сентября 2022 года постоянные жители Республики Каракалпакстан и Хорезмской области, получающие пенсию по возрасту или пособие, а также лица с инвалидностью, приобретают железнодорожные и авиабилеты по льготному тарифу со скидкой 50 процентов. Для этого предъявляется документ, подтверждающий постоянное проживание и право на льготу. Расходы перевозчиков компенсируются из государственного бюджета.",
+      "muammolar": [
+        "Живу в Нукусе, есть ли скидка на авиабилет?",
+        "Продаётся ли пенсионерам билет на поезд со скидкой?",
+        "Как получить льготу 50 процентов на билет?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Только для постоянных жителей Каракалпакстана и Хорезмской области · Указ Президента от 31.08.2022 г. № УП-213, пункт 11"
+    },
+    "en": {
+      "nomi": "Who is entitled to a 50 percent discount on rail and air tickets?",
+      "tavsif": "Since September 15, 2022, permanent residents of the Republic of Karakalpakstan and Khorezm region who receive an old-age pension or benefit, as well as people with disabilities, can purchase rail and air tickets at a 50 percent discounted rate. To do so, they must present a document confirming permanent residence and eligibility for the benefit. Carriers' costs are compensated from the state budget.",
+      "muammolar": [
+        "I live in Nukus — is there a discount on air tickets?",
+        "Are discounted train tickets sold to pensioners?",
+        "How do I get the 50 percent ticket discount?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Only for permanent residents of Karakalpakstan and Khorezm region · Presidential Decree of 31.08.2022 No. UP-213, clause 11"
+    }
+  },
+  "savol-javob.benzin-kompensatsiya": {
+    "ru": {
+      "nomi": "Кому выплачивается ежемесячная компенсация расходов на бензин для автомобиля?",
+      "tavsif": "Ежемесячная денежная компенсация выплачивается участникам войны и приравненным к ним лицам, лицам, ставшим инвалидами вследствие войны, лицам с инвалидностью I-II группы вследствие трудового увечья или с детства, являющимся владельцами легкового автомобиля, мотоцикла или мотоколяски. Размер определяется ежеквартально исходя из стоимости 20 литров бензина. Заявление вместе с паспортом и удостоверением льготника подаётся в отделение Пенсионного фонда по месту жительства и рассматривается в течение 5 рабочих дней.",
+      "muammolar": [
+        "Я инвалид, есть машина — положена ли компенсация на бензин?",
+        "Сколько составляет компенсация на бензин и где её получить?",
+        "Есть ли льгота на топливо для инвалида войны?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Автомобиль должен пройти государственный техосмотр · постановление КМ от 30.10.2006 г. № 223"
+    },
+    "en": {
+      "nomi": "Who receives a monthly compensation for car fuel expenses?",
+      "tavsif": "A monthly cash compensation is paid to war veterans and persons equated to them, persons disabled as a result of war, and persons with category I-II disabilities due to workplace injury or from childhood, who own a passenger car, motorcycle, or motor scooter. The amount is set quarterly based on the cost of 20 liters of gasoline. An application, together with a passport and benefit certificate, is submitted to the Pension Fund office at the place of residence and reviewed within 5 working days.",
+      "muammolar": [
+        "I have a disability and own a car — am I entitled to fuel compensation?",
+        "How much is the fuel compensation, and where do I get it?",
+        "Is there a fuel benefit for disabled war veterans?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "The car must have passed the state technical inspection · Resolution of the Cabinet of Ministers of 30.10.2006 No. 223"
+    }
+  },
+  "savol-javob.shifokor-chaqirish": {
+    "ru": {
+      "nomi": "Как вызвать врача на дом и платно ли это?",
+      "tavsif": "Больной, который не может самостоятельно добраться до поликлиники, может позвонить в закреплённую за ним семейную поликлинику, сообщить о своём состоянии и адресе и вызвать врача на дом — вызов врача семейной поликлиники бесплатен. В экстренных случаях скорая медицинская помощь вызывается по номеру 103. Вызов врача из частной клиники может быть платным.",
+      "muammolar": [
+        "Заплачу ли я, если вызову врача на дом?",
+        "Заболел — как вызвать врача?",
+        "Какой номер у скорой помощи?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Скорая медицинская помощь: 103 · Постановление Президента от 06.06.2017 г. № ПП-3039"
+    },
+    "en": {
+      "nomi": "How do I call a doctor to my home, and is it free?",
+      "tavsif": "A patient who cannot get to the clinic on their own can call their assigned family clinic, describe their condition and give their address, and request a home visit — a visit from a family clinic doctor is free. In emergencies, an ambulance can be called at 103. A visit from a private clinic doctor may be a paid service.",
+      "muammolar": [
+        "Will I have to pay if I call a doctor to my home?",
+        "I'm sick — how do I call a doctor?",
+        "What is the ambulance phone number?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Ambulance: 103 · Presidential Resolution of 06.06.2017 No. PP-3039"
+    }
+  },
+  "savol-javob.bepul-tibbiy-yordam-hajmi": {
+    "ru": {
+      "nomi": "Что входит в объём бесплатной медицинской помощи, гарантированной государством?",
+      "tavsif": "В государственных учреждениях бесплатно оказываются экстренная и скорая медицинская помощь, первичная медико-санитарная помощь, вакцинация, а также специализированная помощь по социально значимым заболеваниям (туберкулёз, онкология, психические расстройства, наркология, эндокринология, профессиональные заболевания). Бесплатны также обследование и лечение детей, подростков 15-17 лет и призывников 18-27 лет, а также родовспоможение (за исключением частных клиник). Льготные категории — люди с инвалидностью, ветераны войны, сироты — лечатся в государственных учреждениях бесплатно.",
+      "muammolar": [
+        "Какие медицинские услуги должны быть бесплатными?",
+        "Имею ли я право на бесплатное лечение в больнице?",
+        "С меня требуют деньги за обследование ребёнка — это правомерно?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "не указано · Указ Президента от 10.11.1998 г. № УП-2107"
+    },
+    "en": {
+      "nomi": "What does the state-guaranteed free medical care package include?",
+      "tavsif": "Public healthcare facilities provide free emergency care, primary healthcare, vaccinations, and specialized care for socially significant diseases (tuberculosis, oncology, psychiatric disorders, narcology, endocrinology, occupational diseases). Examination and treatment of children, adolescents aged 15-17, and conscripts aged 18-27, as well as maternity care, are also free (except at private clinics). Privileged categories — people with disabilities, war veterans, and orphans — receive free treatment at public facilities.",
+      "muammolar": [
+        "Which medical services are supposed to be free?",
+        "Am I entitled to free treatment at a hospital?",
+        "I'm being asked to pay for my child's examination — is that lawful?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "not specified · Presidential Decree of 10.11.1998 No. UP-2107"
+    }
+  },
+  "savol-javob.davlat-tibbiy-sugurta": {
+    "ru": {
+      "nomi": "Какие бесплатные услуги и лекарства предоставляются в рамках государственного медицинского страхования?",
+      "tavsif": "Согласно Постановлению Президента от 05.09.2024 г. № ПП-311, с сентября 2024 года поэтапно вводится государственное медицинское страхование: пакет гарантированных медицинских услуг предоставляется за счёт бюджета, без дополнительной оплаты со стороны граждан. По электронному рецепту врача в аптеках бесплатно выдаются лекарства, а расходы аптек компенсируются через программу реимбурсации из страхового фонда. В районных, областных и республиканских больницах по установленным заболеваниям действуют протоколы бесплатного лечения, льготные категории лечатся бесплатно по направлению врача.",
+      "muammolar": [
+        "Какие лекарства бесплатны по медицинской страховке?",
+        "Как получить лекарство по электронному рецепту?",
+        "Когда и где начинает действовать государственное медицинское страхование?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Задействованы государственные и частные медицинские учреждения · Постановление Президента от 05.09.2024 г. № ПП-311"
+    },
+    "en": {
+      "nomi": "What free services and medications are provided under state medical insurance?",
+      "tavsif": "Under Presidential Resolution No. PP-311 of 05.09.2024, state medical insurance is being introduced in stages starting September 2024: the guaranteed package of medical services is provided from the budget, with no extra charge to citizens. Medications are dispensed free of charge at pharmacies against a doctor's electronic prescription, with pharmacies' costs compensated through the insurance fund's reimbursement program. District, regional, and national hospitals follow free-treatment protocols for specified conditions, and privileged categories receive free treatment on a doctor's referral.",
+      "muammolar": [
+        "Which medications are free under medical insurance?",
+        "How do I get medication with an electronic prescription?",
+        "When and where does state medical insurance take effect?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Both public and private medical facilities are involved · Presidential Resolution of 05.09.2024 No. PP-311"
+    }
+  },
+  "savol-javob.ixtisoslashgan-tibbiy-yordam": {
+    "ru": {
+      "nomi": "Как получить специализированную медицинскую помощь?",
+      "tavsif": "Чтобы получить специализированную медицинскую помощь, нужно обратиться в сельский врачебный пункт или семейную поликлинику по месту жительства и получить направление — лечение по направлению бесплатно, а без направления оказывается платно на договорной основе. Направление оформляется льготным категориям (люди с инвалидностью, ветераны войны, сироты), лицам с социально значимыми заболеваниями (туберкулёз, онкология, психиатрия, наркология, эндокринология), а также при необходимости государственно гарантированных бесплатных услуг.",
+      "muammolar": [
+        "Что нужно для бесплатного лечения в республиканском центре?",
+        "Можно ли обратиться в специализированную клинику без направления?",
+        "Как проходит бесплатное лечение по онкологии?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Обращение: семейная поликлиника или сельский врачебный пункт · постановление КМ от 05.09.2017 г. № 696"
+    },
+    "en": {
+      "nomi": "How can I get specialized medical care?",
+      "tavsif": "To obtain specialized medical care, you must apply to your local rural medical station or family clinic and get a referral — treatment on referral is free, while without one it is provided on a paid, contractual basis. Referrals are issued to privileged categories (people with disabilities, war veterans, orphans), people with socially significant diseases (tuberculosis, oncology, psychiatry, narcology, endocrinology), and whenever state-guaranteed free services are needed.",
+      "muammolar": [
+        "What do I need for free treatment at a national medical center?",
+        "Can I go to a specialized clinic without a referral?",
+        "How does free oncology treatment work?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Apply at: your family clinic or rural medical station · Resolution of the Cabinet of Ministers of 05.09.2017 No. 696"
+    }
+  },
+  "savol-javob.yollanma-shifoxonaga-yotqizish": {
+    "ru": {
+      "nomi": "Как оформляется направление и как проходит госпитализация?",
+      "tavsif": "Направление выдаётся поэтапно: сельские врачебные пункты и семейные поликлиники направляют в центральную многопрофильную поликлинику, та — в отделения больницы или областные медицинские учреждения, а областные учреждения — в учреждения республиканского уровня. В Ташкенте семейные поликлиники направляют в центральные поликлиники, а те — в городские или республиканские учреждения. Для госпитализации пациентов льготных категорий оформляется ордер на основании заключения врачебно-отборочной комиссии.",
+      "muammolar": [
+        "Кто выдаёт направление в областную больницу?",
+        "Какой документ нужен для госпитализации?",
+        "Как оформляется ордер?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "не указано · постановление КМ от 05.09.2017 г. № 696"
+    },
+    "en": {
+      "nomi": "How is a referral issued, and how does hospitalization work?",
+      "tavsif": "Referrals are issued in stages: rural medical stations and family clinics refer to the central multidisciplinary polyclinic, which refers to hospital departments or regional medical institutions, and regional institutions refer to national-level institutions. In Tashkent, family clinics refer to central polyclinics, which refer to city or national institutions. For hospitalizing patients in privileged categories, an admission order is issued based on the conclusion of a medical selection commission.",
+      "muammolar": [
+        "Who issues a referral to a regional hospital?",
+        "What document is required for hospitalization?",
+        "How is an admission order issued?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "not specified · Resolution of the Cabinet of Ministers of 05.09.2017 No. 696"
+    }
+  },
+  "savol-javob.reimbursatsiya-dori": {
+    "ru": {
+      "nomi": "Как выдаются бесплатные лекарства по программе реимбурсации?",
+      "tavsif": "Врачи первичных медицинских учреждений, заключивших договор с государственным фондом медицинского страхования, назначают лекарства для амбулаторного лечения через программу реимбурсации: электронный рецепт формируется в медицинской информационной системе, на каждый диагноз выписывается не более 3 лекарств, срок действия рецепта — 7 календарных дней. Пациенту автоматически приходит SMS с данными рецепта, аптека выдаёт лекарство и получает возмещение его стоимости из страхового фонда.",
+      "muammolar": [
+        "Где бесплатно получить лекарство, выписанное врачом?",
+        "Сколько времени действует электронный рецепт?",
+        "Возмещает ли государство стоимость лекарств?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "О рецепте приходит SMS-уведомление; рецепт действует 7 дней · постановление КМ от 02.10.2024 г. № 619"
+    },
+    "en": {
+      "nomi": "How are free medications provided under the reimbursement program?",
+      "tavsif": "Doctors at primary care facilities under contract with the state medical insurance fund prescribe medications for outpatient treatment through the reimbursement program: the electronic prescription is generated in the medical information system, no more than 3 medications may be prescribed per diagnosis, and the prescription is valid for 7 calendar days. The patient automatically receives an SMS with the prescription details, the pharmacy dispenses the medication, and its cost is reimbursed from the insurance fund.",
+      "muammolar": [
+        "Where can I get medication a doctor prescribed for free?",
+        "How long is an electronic prescription valid?",
+        "Does the state reimburse the cost of medication?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "An SMS notification is sent about the prescription; it is valid for 7 days · Resolution of the Cabinet of Ministers of 02.10.2024 No. 619"
+    }
+  },
+  "savol-javob.davlat-yuridik-yordam": {
+    "ru": {
+      "nomi": "Что такое юридическая помощь за счёт государства и кому она предоставляется?",
+      "tavsif": "Юридическая помощь за счёт государства — это квалифицированная юридическая помощь, оказываемая физическим лицам для защиты их прав и интересов полностью или частично за счёт государства. На неё имеют право малообеспеченные граждане (истцы/ответчики по гражданским делам, лица, которым грозит административный арест, подозреваемые и подсудимые по уголовным делам), получатели психиатрической помощи, лица, обратившиеся в суд по фактам нарушения гендерного равенства, а также участники уголовных дел, где участие адвоката обязательно. Помощь оказывают только адвокаты, включённые в реестр лиц, оказывающих юридическую помощь за счёт государства.",
+      "muammolar": [
+        "У меня нет денег на адвоката — предоставит ли государство защитника?",
+        "Что нужно сделать, чтобы получить бесплатного адвоката?",
+        "Положена ли малообеспеченным юридическая помощь?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Круглосуточная бесплатная консультация: @Odil_chat_bot (Telegram), advice.uz · Закон Республики Узбекистан от 16.06.2023 г. № ЗРУ-848"
+    },
+    "en": {
+      "nomi": "What is state-funded legal aid, and who is entitled to it?",
+      "tavsif": "State-funded legal aid is qualified legal assistance provided to individuals to protect their rights and interests, fully or partially at the state's expense. It is available to low-income citizens (plaintiffs/defendants in civil cases, persons facing administrative detention, suspects and defendants in criminal cases), recipients of psychiatric care, persons who have gone to court over gender equality violations, and participants in criminal cases where a defense lawyer's presence is mandatory. This assistance is provided only by lawyers included in the registry of state-funded legal aid providers.",
+      "muammolar": [
+        "I can't afford a lawyer — will the state provide a defense attorney?",
+        "What do I need to do to get a free lawyer?",
+        "Are low-income citizens entitled to legal aid?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "24/7 free consultation: @Odil_chat_bot (Telegram), advice.uz · Law of the Republic of Uzbekistan of 16.06.2023 No. ZRU-848"
+    }
+  },
+  "savol-javob.yuridik-yordam-ishlar": {
+    "ru": {
+      "nomi": "По каким делам оказывается юридическая помощь за счёт государства?",
+      "tavsif": "Юридическая помощь за счёт государства оказывается по гражданским делам о назначении социального пособия и материальной помощи, восстановлении на работе, взыскании заработной платы, алиментов, выселении из жилья, возмещении вреда вследствие увечья на производстве или потери кормильца. Также она охватывает возмещение вреда, причинённого незаконными действиями органов следствия, прокуратуры и суда, дела с риском административного ареста, дела, связанные с психиатрической помощью, дела о гендерном равенстве и уголовные дела в соответствии с Уголовно-процессуальным кодексом.",
+      "muammolar": [
+        "Предоставляется ли бесплатный адвокат по делу об алиментах?",
+        "Меня незаконно уволили — могу ли я получить бесплатного юриста?",
+        "Меня хотят выселить из дома — поможет ли государство?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "не указано · Закон Республики Узбекистан от 16.06.2023 г. № ЗРУ-848"
+    },
+    "en": {
+      "nomi": "For which cases is state-funded legal aid provided?",
+      "tavsif": "State-funded legal aid is provided in civil cases concerning the award of social benefits and material assistance, reinstatement at work, recovery of wages, alimony, eviction from housing, and compensation for harm from a workplace injury or loss of a breadwinner. It also covers compensation for harm caused by unlawful actions of investigative, prosecutorial, and judicial bodies, cases with a risk of administrative detention, cases involving psychiatric care, gender equality cases, and criminal cases under the Criminal Procedure Code.",
+      "muammolar": [
+        "Is a free lawyer provided in an alimony case?",
+        "I was unlawfully dismissed — can I get a free lawyer?",
+        "I'm being evicted from my home — will the state help?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "not specified · Law of the Republic of Uzbekistan of 16.06.2023 No. ZRU-848"
+    }
+  },
+  "savol-javob.advokat-tanlash-tizim": {
+    "ru": {
+      "nomi": "Как выбирается адвокат через информационную систему «Юридическая помощь»?",
+      "tavsif": "Когда государственный орган, следователь, прокурор или суд принимает решение о юридической помощи за счёт государства, дело регистрируется в информационной системе «Юридическая помощь», и система автоматически подбирает адвоката. При выборе учитываются специализация адвоката, обслуживаемый им регион и язык судопроизводства; если адвокат отказывается, он немедленно вносит причину отказа в систему, и подбирается другой адвокат. Сведения о выбранном адвокате направляются лицу, обратившемуся за помощью, либо органу, направившему запрос.",
+      "muammolar": [
+        "Кто назначает бесплатного адвоката?",
+        "Что происходит, если адвокат отказывается вести моё дело?",
+        "Как закрепляется государственный адвокат?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "не указано · Закон Республики Узбекистан от 16.06.2023 г. № ЗРУ-848"
+    },
+    "en": {
+      "nomi": "How is a lawyer selected through the 'Legal Aid' information system?",
+      "tavsif": "When a state body, investigator, prosecutor, or court issues a decision on state-funded legal aid, the case is registered in the 'Legal Aid' information system, which automatically selects a lawyer. The selection takes into account the lawyer's specialization, service area, and the language of the proceedings; if a lawyer declines, they must immediately enter the reason into the system, and another lawyer is selected. Information about the assigned lawyer is sent to the person who requested assistance or to the body that made the request.",
+      "muammolar": [
+        "Who assigns a free lawyer?",
+        "What happens if a lawyer refuses to take my case?",
+        "How is a state-appointed lawyer assigned?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "not specified · Law of the Republic of Uzbekistan of 16.06.2023 No. ZRU-848"
+    }
+  },
+  "savol-javob.bepul-birlamchi-yuridik-yordam": {
+    "ru": {
+      "nomi": "Как оказывается гражданам бесплатная первичная юридическая помощь?",
+      "tavsif": "С 1 июля 2024 года Министерство юстиции совместно с организацией «Мадад» оказывает населению бесплатные юридические консультации, помогает готовить процессуальные документы при разрешении споров и содействует решению повседневных правовых проблем. В рамках проекта «Юрист махалли» организуются краткосрочные бесплатные учебные курсы, каждую среду проводится день правовой пропаганды. Для консультаций круглосуточно работает Telegram-бот @Odil_chat_bot, адреса бюро указаны на странице advice.uz/uz/offices.",
+      "muammolar": [
+        "Где можно получить бесплатную юридическую консультацию?",
+        "Кто поможет составить заявление или жалобу?",
+        "Где находится бюро «Мадад»?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Круглосуточно: t.me/Odil_chat_bot; бюро: advice.uz/uz/offices · Указ Президента от 24.05.2024 г. № УП-80"
+    },
+    "en": {
+      "nomi": "How is free primary legal aid provided to citizens?",
+      "tavsif": "Since July 1, 2024, the Ministry of Justice, in partnership with the \"Madad\" organization, provides the public with free legal consultations, helps prepare procedural documents for dispute resolution, and assists with resolving everyday legal problems. Under the \"Mahalla Lawyer\" project, short free training courses are organized, and a legal outreach day is held every Wednesday. The @Odil_chat_bot Telegram bot operates 24/7 for consultations, and office addresses are listed at advice.uz/uz/offices.",
+      "muammolar": [
+        "Where can I get a free legal consultation?",
+        "Who can help me draft a request or complaint?",
+        "Where is the Madad office located?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "24/7: t.me/Odil_chat_bot; offices: advice.uz/uz/offices · Presidential Decree of 24.05.2024 No. UP-80"
+    }
+  },
+  "savol-javob.xalq-qabulxonasi-murojaat": {
+    "ru": {
+      "nomi": "Как подать обращение в народные приёмные?",
+      "tavsif": "В народные приёмные можно обратиться лично или по телефону бесплатно; те, кто не может прийти лично, могут позвонить в виртуальную приёмную Президента по короткому номеру 1000. В обращении указываются Ф.И.О. и место жительства, требуется документ, удостоверяющий личность, письменное обращение подписывается; подать можно на государственном или другом языке. Обращения рассматриваются в срок от 15 дней до 1 месяца.",
+      "muammolar": [
+        "Как написать жалобу в народную приёмную?",
+        "Как обратиться в приёмную Президента?",
+        "В какой срок рассматривается моё обращение?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Виртуальная приёмная: 1000 · не указано"
+    },
+    "en": {
+      "nomi": "How do I file a request with a people's reception office?",
+      "tavsif": "You can apply to a people's reception office in person or by phone free of charge; those unable to attend in person can call the President's virtual reception office at short number 1000. The request must state your full name and address, requires an identity document, and a written request must be signed; it can be submitted in the state language or another language. Requests are reviewed within 15 days to 1 month.",
+      "muammolar": [
+        "How do I write a complaint to a people's reception office?",
+        "How do I contact the President's reception office?",
+        "How long will it take to review my request?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Virtual reception office: 1000 · not specified"
+    }
+  },
+  "savol-javob.ishonch-telefonlari-respublika": {
+    "ru": {
+      "nomi": "Какие телефоны доверия у основных государственных органов и министерств?",
+      "tavsif": "Основные короткие номера: виртуальная приёмная Президента — 1000, Генеральная прокуратура — 1007, Министерство юстиции — 1008, Министерство внутренних дел — 1102, Министерство здравоохранения — 1003, Министерство по чрезвычайным ситуациям — 1050/1101, Министерство высшего образования — 1006, Бюро принудительного исполнения — 1107, Государственный налоговый комитет — 1198, Таможенный комитет — 1108, Министерство транспорта — 1167, Министерство строительства и ЖКХ — 1298. Министерство занятости и сокращения бедности: (71) 203-01-30; Кабинет Министров: (71) 239-82-60; Верховный суд: (71) 239-02-13.",
+      "muammolar": [
+        "На какой номер звонить, чтобы пожаловаться в министерство?",
+        "Какой телефон доверия у налоговой службы?",
+        "Какой номер горячей линии прокуратуры?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Полный перечень (министерства, комитеты, агентства) приведён на странице документа · не указано"
+    },
+    "en": {
+      "nomi": "What are the hotline numbers for the main government bodies and ministries?",
+      "tavsif": "Main short numbers: President's virtual reception office — 1000, Prosecutor General's Office — 1007, Ministry of Justice — 1008, Ministry of Internal Affairs — 1102, Ministry of Health — 1003, Ministry of Emergency Situations — 1050/1101, Ministry of Higher Education — 1006, Bureau of Compulsory Enforcement — 1107, State Tax Committee — 1198, Customs Committee — 1108, Ministry of Transport — 1167, Ministry of Construction and Housing & Communal Services — 1298. Ministry of Employment and Poverty Reduction: (71) 203-01-30; Cabinet of Ministers: (71) 239-82-60; Supreme Court: (71) 239-02-13.",
+      "muammolar": [
+        "What number do I call to file a complaint with a ministry?",
+        "What is the tax authority's hotline number?",
+        "What is the prosecutor's office hotline number?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "The full list (ministries, committees, agencies) is provided on the source document page · not specified"
+    }
+  },
+  "savol-javob.ishonch-telefonlari-hokimliklar": {
+    "ru": {
+      "nomi": "Какие телефоны доверия у областных хокимиятов?",
+      "tavsif": "Хокимият города Ташкента: (71) 210-03-36; Ташкентская область: (71) 232-80-73; Совет Министров Каракалпакстана: (61) 222-26-14; Андижан: (74) 225-80-00; Бухара: (65) 222-22-22; Джизак: (72) 226-00-11; Кашкадарья: (75) 221-07-60; Навои: (79) 220-10-20; Наманган: 1056; Самарканд: 1177, (66) 230-47-77; Сурхандарья: 1088; Сырдарья: (67) 225-29-82; Фергана: (73) 244-05-23; Хорезм: (62) 223-00-54. По местным вопросам (дороги, коммунальные услуги, документы) можно сначала обратиться на телефон доверия хокимията.",
+      "muammolar": [
+        "Как позвонить в хокимият?",
+        "Какой номер приёмной областного хокима?",
+        "Кому сообщить о местной проблеме?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Номера всех регионов приведены на странице документа · не указано"
+    },
+    "en": {
+      "nomi": "What are the hotline numbers for regional governor's offices (hokimiyats)?",
+      "tavsif": "Tashkent city hokimiyat: (71) 210-03-36; Tashkent region: (71) 232-80-73; Council of Ministers of Karakalpakstan: (61) 222-26-14; Andijan: (74) 225-80-00; Bukhara: (65) 222-22-22; Jizzakh: (72) 226-00-11; Kashkadarya: (75) 221-07-60; Navoiy: (79) 220-10-20; Namangan: 1056; Samarkand: 1177, (66) 230-47-77; Surkhandarya: 1088; Syrdarya: (67) 225-29-82; Fergana: (73) 244-05-23; Khorezm: (62) 223-00-54. For local issues (roads, utilities, documents), you can first contact the regional hokimiyat's hotline.",
+      "muammolar": [
+        "How do I call the hokimiyat (governor's office)?",
+        "What is the reception number for a regional governor?",
+        "Who do I report a local issue to?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Numbers for all regions are listed on the source document page · not specified"
+    }
+  },
+  "savol-javob.zoravonlik-ishonch-telefoni": {
+    "ru": {
+      "nomi": "По каким номерам звонить для защиты от давления и насилия?",
+      "tavsif": "В случаях давления и насилия следует обращаться в единую диспетчерскую службу 112 или на телефон доверия по короткому номеру 1146. При поступлении обращения специалисты консультируют женщин по социальным, психологическим, юридическим и другим вопросам и предоставляют необходимую информацию.",
+      "muammolar": [
+        "Куда звонить по поводу домашнего насилия?",
+        "Какой номер для защиты женщин?",
+        "Я столкнулась с насилием, у кого просить помощи?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Номера: 112 и 1146 (круглосуточно) · не указано"
+    },
+    "en": {
+      "nomi": "Which numbers should I call for protection from coercion and violence?",
+      "tavsif": "In cases of coercion and violence, contact the unified dispatch service at 112 or the hotline at short number 1146. Upon receiving a request, specialists advise women on social, psychological, legal, and other matters and provide the necessary information.",
+      "muammolar": [
+        "Who do I call about domestic violence?",
+        "What is the number for protecting women?",
+        "I've experienced violence — who can I ask for help?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Numbers: 112 and 1146 (24 hours) · not specified"
+    }
+  }
+}

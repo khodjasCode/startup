@@ -1,0 +1,2166 @@
+{
+  "savol-javob.aliment-xorijga-chiqish-taqiqini-bekor-qilish": {
+    "ru": {
+      "nomi": "Если плательщику алиментов запрещён выезд за рубеж, как можно отменить этот запрет?",
+      "tavsif": "Есть три способа отмены запрета: заявление взыскателя (бывшего супруга) о прекращении исполнительного производства — на основании статьи 40 Закона «Об исполнении судебных актов и актов других органов»; досрочная выплата алиментов или заключение договора залога стоимостью не менее 250 БРВ; либо обжалование в суде решения государственного исполнителя об ограничении выезда.",
+      "muammolar": [
+        "У меня долг по алиментам, не могу выехать за границу, что делать?",
+        "Как снять запрет на выезд за рубеж?",
+        "Из-за алиментов не выпускают через границу"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Стоимость залога должна быть не менее 250-кратного размера БРВ · Закон «Об исполнении судебных актов и актов других органов», статья 40"
+    },
+    "en": {
+      "nomi": "If a person who owes alimony has been barred from leaving the country, how can that ban be lifted?",
+      "tavsif": "There are three ways to lift the ban: a petition from the claimant (the former spouse) to terminate enforcement proceedings — under Article 40 of the Law \"On Enforcement of Judicial Acts and Acts of Other Bodies\"; prepaying the alimony in full or entering into a pledge agreement worth at least 250 times the base calculation unit (BCU); or appealing the state enforcement officer's exit-restriction decision in court.",
+      "muammolar": [
+        "I have alimony debt and can't travel abroad, what should I do?",
+        "How can I remove a travel ban imposed for alimony debt?",
+        "I'm not being let through the border because of alimony debt"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "The pledge value must be no less than 250 times the BCU · Law \"On Enforcement of Judicial Acts and Acts of Other Bodies\", Article 40"
+    }
+  },
+  "savol-javob.ijara-haqini-bir-tomonlama-oshirish": {
+    "ru": {
+      "nomi": "Может ли собственник жилья в одностороннем порядке изменить размер платы за наём?",
+      "tavsif": "Нет. Согласно статье 611 Гражданского кодекса размер платы за жильё устанавливается в договоре найма по взаимному согласию сторон, одностороннее изменение условий договора не допускается. Если собственник выдвигает незаконное требование, наниматель вправе обратиться в суд по гражданским делам для восстановления нарушенного права.",
+      "muammolar": [
+        "Хозяин квартиры резко поднял арендную плату, законно ли это?",
+        "Что делать, если хозяин самовольно повышает арендную плату?",
+        "Может ли собственник изменить цену, указанную в договоре найма жилья?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "При споре следует обратиться в суд по гражданским делам · Гражданский кодекс Республики Узбекистан, статья 611"
+    },
+    "en": {
+      "nomi": "Can a landlord unilaterally change the amount of rent for housing?",
+      "tavsif": "No. Under Article 611 of the Civil Code, the rent for housing is set in the lease agreement by mutual agreement of the parties, and unilateral changes to the contract terms are not allowed. If the landlord makes an unlawful demand, the tenant may go to a civil court to have the violated right restored.",
+      "muammolar": [
+        "The landlord suddenly raised the rent — is that legal?",
+        "What should I do if the landlord arbitrarily raises the rent?",
+        "Can the owner change the price stated in the lease agreement?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Disputes are resolved in a civil court · Civil Code of the Republic of Uzbekistan, Article 611"
+    }
+  },
+  "savol-javob.tolov-kontrakt-qisman-tolab-berish": {
+    "ru": {
+      "nomi": "Каков порядок частичной оплаты суммы платного контракта за обучение в профессиональных и высших учебных заведениях?",
+      "tavsif": "Лицам, включённым в «Железную тетрадь» и «Молодёжную тетрадь», за счёт фонда «Молодёжная тетрадь» оплачивается до 50 процентов суммы контракта, но не более 50-кратного размера базовой расчётной величины. Для этого подаются заявление, контракт с указанием срока обучения и годовой суммы оплаты, а также документы, подтверждающие возможность оплаты оставшейся суммы; средства перечисляются на счёт учебного заведения.",
+      "muammolar": [
+        "Оплатят ли контракт из средств «Молодёжной тетради»?",
+        "Есть ли помощь по контракту для включённых в «Железную тетрадь»?",
+        "Оплатит ли государство часть моего контракта?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Лимит: до 50% контракта и не более 50 БРВ · не указано"
+    },
+    "en": {
+      "nomi": "What is the procedure for partial payment of tuition contract fees at vocational and higher education institutions?",
+      "tavsif": "For persons listed in the \"Iron Notebook\" and \"Youth Notebook\" registers, up to 50 percent of the contract fee — but no more than 50 times the base calculation unit (BCU) — is paid from the \"Youth Notebook\" fund. To apply, one submits an application, the contract stating the study term and annual fee, and documents proving the ability to pay the remaining amount; the funds are transferred to the educational institution's account.",
+      "muammolar": [
+        "Will the Youth Notebook fund pay part of my contract fee?",
+        "Is there contract assistance for people on the Iron Notebook register?",
+        "Will the state pay part of my tuition contract?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Limit: up to 50% of the contract fee and no more than 50 BCU · not specified"
+    }
+  },
+  "savol-javob.xususiy-klinikada-bepul-tibbiy-xizmat": {
+    "ru": {
+      "nomi": "Какие категории граждан могут получать медицинские услуги бесплатно в частных платных медицинских учреждениях?",
+      "tavsif": "Частные медицинские учреждения (кроме стоматологии и косметологии) оказывают бесплатные услуги одиноким пожилым людям, инвалидам I–II групп и детям-инвалидам, недееспособным гражданам, лицам с социально значимыми заболеваниями, детям-сиротам, а также инвалидам и участникам войны 1941–1945 годов. Для этого требуется документ, удостоверяющий личность и принадлежность к соответствующей социальной категории; при необоснованном отказе можно обратиться по номеру доверия 1003 Министерства здравоохранения.",
+      "muammolar": [
+        "Я инвалид, могу ли я лечиться бесплатно в частной клинике?",
+        "Кому положены льготы в платной больнице?",
+        "Можно ли пройти бесплатный осмотр в частной поликлинике?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Номер доверия: 1003 (Министерство здравоохранения) · не указано"
+    },
+    "en": {
+      "nomi": "Which categories of citizens are entitled to free medical care at private paid healthcare facilities?",
+      "tavsif": "Private medical institutions (except dental and cosmetology clinics) provide free services to lonely elderly people, persons with disability groups I–II and children with disabilities, legally incapacitated citizens, people with socially significant diseases, orphaned children, and disabled persons and participants of the 1941–1945 war. This requires a document confirming identity and membership in the relevant social category; if unjustifiably refused, one may contact the Ministry of Health's trust line at 1003.",
+      "muammolar": [
+        "I have a disability — can I get free treatment at a private clinic?",
+        "Who is entitled to benefits at a paid hospital?",
+        "Can I get a free checkup at a private polyclinic?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Trust line: 1003 (Ministry of Health) · not specified"
+    }
+  },
+  "savol-javob.uy-joy-subsidiya-olish-tartibi": {
+    "ru": {
+      "nomi": "Каков порядок предоставления гражданам субсидии на приобретение жилья?",
+      "tavsif": "Субсидия — это средства из государственного бюджета, перечисляемые на открытый на имя гражданина банковский счёт для покрытия первоначального взноса по ипотеке и части процентов по кредиту. Заявление подают граждане Узбекистана в возрасте 18–60 лет в течение года через 325-ю услугу на портале my.gov.uz; доход семьи должен находиться в пределах 2,7–9,2 размера установленной минимальной заработной платы, оценка проводится автоматически в системе subsidiya.idm.uz.",
+      "muammolar": [
+        "Как получить государственную субсидию на ипотеку?",
+        "Кто может подать заявку на субсидию для покупки жилья?",
+        "Куда подаётся заявление на субсидию?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Заявление: https://my.gov.uz/uz/service/325 · не указано"
+    },
+    "en": {
+      "nomi": "What is the procedure for paying citizens a subsidy toward purchasing housing?",
+      "tavsif": "The subsidy consists of state budget funds transferred to a bank account opened in the citizen's name to cover the down payment on a mortgage and part of the loan interest. Citizens of Uzbekistan aged 18–60 submit an application during the year via service No. 325 on the my.gov.uz portal; household income must fall within 2.7–9.2 times the established minimum wage, and eligibility is assessed automatically through the subsidiya.idm.uz system.",
+      "muammolar": [
+        "How can I get a state subsidy for a mortgage?",
+        "Who can apply for a housing purchase subsidy?",
+        "Where is the subsidy application submitted?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Application: https://my.gov.uz/uz/service/325 · not specified"
+    }
+  },
+  "savol-javob.ayollar-daftari-kontrakt-imtiyozi": {
+    "ru": {
+      "nomi": "Могут ли нуждающиеся женщины, включённые в «Женскую тетрадь», или их дети, обучающиеся в вузах, воспользоваться льготами по оплате контракта?",
+      "tavsif": "Да. Согласно постановлению Кабинета Министров от 31 марта 2022 года № 145, нуждающимся женщинам, включённым в «Женскую тетрадь», либо одному из их двух и более детей, обучающихся в высших учебных заведениях, единовременно оплачивается контракт в размере до 15-кратной базовой расчётной величины. Обращение оформляется через помощника хокима.",
+      "muammolar": [
+        "Какая льгота по контракту предусмотрена для включённых в «Женскую тетрадь»?",
+        "Моя мать в «Женской тетради», оплатят ли мой контракт?",
+        "Как получить льготу по контракту для нуждающихся женщин?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Единовременно, до 15 БРВ · Постановление Кабинета Министров от 31.03.2022 № 145"
+    },
+    "en": {
+      "nomi": "Can needy women listed in the \"Women's Notebook\" register, or their children studying at higher education institutions, use tuition contract benefits?",
+      "tavsif": "Yes. Under Cabinet of Ministers Resolution No. 145 of 31 March 2022, needy women listed in the \"Women's Notebook\" register, or one of their two or more children enrolled in higher education, receive a one-time contract fee payment of up to 15 times the base calculation unit (BCU). The application is submitted through the khokim's assistant.",
+      "muammolar": [
+        "What tuition contract benefit exists for women listed in the Women's Notebook?",
+        "My mother is in the Women's Notebook register — will my contract be paid?",
+        "How do needy women apply for the contract fee benefit?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "One-time payment, up to 15 BCU · Cabinet of Ministers Resolution No. 145 of 31.03.2022"
+    }
+  },
+  "savol-javob.otm-hujjat-topshirish-hujjatlari": {
+    "ru": {
+      "nomi": "Какие документы абитуриенты подают в центр государственных услуг для поступления в вуз?",
+      "tavsif": "Согласно пункту 8 административного регламента абитуриент подаёт паспорт (или справку по форме № 09 для лиц, не достигших паспортного возраста), свидетельство о рождении для лиц младше паспортного возраста, а также документ об окончании общего среднего или среднего специального образования (с приложением). Абитуриенты, имеющие льготы, дополнительно представляют документ, подтверждающий право на льготу.",
+      "muammolar": [
+        "Что нужно при подаче документов в университет?",
+        "Какие документы нужно собрать для поступления в вуз?",
+        "Что требуют от абитуриента в центре государственных услуг?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Административный регламент по приёму документов на поступление в высшие учебные заведения, пункт 8"
+    },
+    "en": {
+      "nomi": "What documents do applicants submit to the public services center to apply to a higher education institution?",
+      "tavsif": "Under paragraph 8 of the administrative regulation, an applicant submits a passport (or a Form No. 09 certificate for those not yet of passport age), a birth certificate for those under passport age, and a document confirming completion of general secondary or secondary specialized education (with its appendix). Applicants entitled to benefits additionally submit a document confirming their right to the benefit.",
+      "muammolar": [
+        "What's needed when submitting documents to a university?",
+        "What documents must be gathered to apply to a higher education institution?",
+        "What does the public services center require from an applicant?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Administrative Regulation on Accepting Documents for Admission to Higher Education Institutions, paragraph 8"
+    }
+  },
+  "savol-javob.sirtqi-talim-oqish-tatili": {
+    "ru": {
+      "nomi": "Предоставляется ли работнику, обучающемуся заочно, отпуск с сохранением заработной платы?",
+      "tavsif": "Да, согласно статье 385 Трудового кодекса работникам-студентам заочной формы обучения предоставляется отпуск с сохранением среднего заработка продолжительностью не менее 30 календарных дней (на старших курсах — 40 календарных дней). Кроме того, работодатель раз в год оплачивает не менее 50 процентов стоимости проезда к месту прохождения экзаменационной сессии.",
+      "muammolar": [
+        "Учусь заочно, дадут ли учебный отпуск на сессию?",
+        "Оплачивается ли отпуск на сессию работающим студентам?",
+        "Какие льготы по месту работы положены заочникам?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Расходы на проезд компенсируются также для государственной аттестации · Трудовой кодекс Республики Узбекистан, статья 385"
+    },
+    "en": {
+      "nomi": "Is a correspondence-course (distance) student-employee entitled to leave with pay preserved?",
+      "tavsif": "Yes, under Article 385 of the Labor Code, correspondence-course student-employees are granted leave with average earnings preserved for at least 30 calendar days (40 calendar days in senior years). In addition, the employer covers at least 50 percent of travel costs to the examination session site once a year.",
+      "muammolar": [
+        "I study by correspondence — will I get study leave for the exam session?",
+        "Is session leave paid for working students?",
+        "What workplace benefits are correspondence students entitled to?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Travel expenses are also covered for the state final certification · Labor Code of the Republic of Uzbekistan, Article 385"
+    }
+  },
+  "savol-javob.nikohni-sud-tartibida-bekor-qilish": {
+    "ru": {
+      "nomi": "Как можно расторгнуть брак в судебном порядке?",
+      "tavsif": "При наличии общих детей исковое заявление подаётся в межрайонный суд по гражданским делам; представляются копии паспортов, свидетельства о рождении детей, оригинал свидетельства о браке и квитанция об уплате государственной пошлины (2 БРВ, при повторном расторжении — 4 БРВ). Суд вправе предоставить срок для примирения до шести месяцев; после вступления решения в законную силу расторжение брака регистрируется в органе ЗАГС.",
+      "muammolar": [
+        "Какое заявление подаётся в суд для развода?",
+        "Как проходит расторжение брака в семье с детьми?",
+        "Какая пошлина уплачивается при разводе через суд?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Суд вправе назначить супругам срок для примирения до 6 месяцев · Государственная пошлина: 2 БРВ, при повторном расторжении брака — 4 БРВ"
+    },
+    "en": {
+      "nomi": "How can a marriage be dissolved through the courts?",
+      "tavsif": "If there are common children, a statement of claim is filed with the intermunicipal civil court; copies of passports, the children's birth certificates, the original marriage certificate, and a receipt for the state fee (2 BCU, or 4 BCU for a repeat divorce) must be submitted. The court may grant up to six months for reconciliation; once the judgment takes effect, the divorce is registered with the civil registry office (ZAGS).",
+      "muammolar": [
+        "What kind of application is filed in court for a divorce?",
+        "What is the divorce procedure for a family with children?",
+        "What fee is paid for a court divorce?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "The court may grant the spouses up to 6 months for reconciliation · State fee: 2 BCU, 4 BCU for a repeat divorce"
+    }
+  },
+  "savol-javob.birinchi-kurs-akademik-tatil": {
+    "ru": {
+      "nomi": "Могут ли первокурсники также взять академический отпуск?",
+      "tavsif": "Да. Согласно Положению, утверждённому постановлением Кабинета Министров от 3 июня 2021 года № 344, при предоставлении академического отпуска нет ограничений по курсу, на котором учится студент — прежнее правило «только по болезни на 1-м курсе» отменено начиная с 2021/2022 учебного года. Отпуск предоставляется в случаях военной службы, восстановления здоровья, беременности и родов, ухода за ребёнком или тяжелобольным членом семьи.",
+      "muammolar": [
+        "Можно ли взять академический отпуск на первом курсе?",
+        "В каких случаях предоставляется академический отпуск?",
+        "Разрешён ли академический отпуск студенту 1-го курса?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Постановление Кабинета Министров от 03.06.2021 № 344"
+    },
+    "en": {
+      "nomi": "Can first-year students also take academic leave?",
+      "tavsif": "Yes. Under the Regulation approved by Cabinet of Ministers Resolution No. 344 of 3 June 2021, there is no restriction on the student's year of study when granting academic leave — the former rule limiting first-year leave to illness only was abolished starting with the 2021/2022 academic year. Leave is granted for military service, recovery of health, pregnancy and childbirth, or caring for a child or a seriously ill family member.",
+      "muammolar": [
+        "Can a first-year student take academic leave?",
+        "In which cases is academic leave granted?",
+        "Is academic leave allowed for a first-year student?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Cabinet of Ministers Resolution No. 344 of 03.06.2021"
+    }
+  },
+  "savol-javob.sifatli-tovarni-qaytarish-10-kun": {
+    "ru": {
+      "nomi": "Сколько времени даётся потребителю для возврата или обмена качественного товара?",
+      "tavsif": "Потребитель вправе в течение 10 дней со дня покупки обменять качественный товар или вернуть за него деньги. Условие — товар не был в употреблении, не повреждён, сохранена упаковка и потребительские свойства; в этом случае продавец обязан удовлетворить требование.",
+      "muammolar": [
+        "В течение скольких дней я могу вернуть купленный товар?",
+        "Можно ли вернуть в магазин не понравившийся товар?",
+        "Каков законный срок для обмена товара?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Деньги возвращаются в той же форме, в какой была произведена оплата · Закон «О защите прав потребителей» от 26.04.1996 № 221-I"
+    },
+    "en": {
+      "nomi": "How much time does a consumer have to return or exchange a good-quality product?",
+      "tavsif": "A consumer has the right, within 10 days of the purchase, to exchange a good-quality product or get a refund for it. The condition is that the product has not been used or damaged, and its packaging and consumer properties are intact; in that case the seller is obliged to satisfy the request.",
+      "muammolar": [
+        "Within how many days can I return a purchased item?",
+        "Can I return an item I don't like to the store?",
+        "What is the legal deadline for exchanging goods?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "The refund is made in the same form the payment was made · Law \"On Protection of Consumer Rights\" of 26.04.1996 No. 221-I"
+    }
+  },
+  "savol-javob.nuqsonli-tovar-istemolchi-huquqlari": {
+    "ru": {
+      "nomi": "Какими правами обладает потребитель при продаже некачественного товара?",
+      "tavsif": "Потребитель вправе по своему выбору потребовать замены товара на такой же или другой марки (с перерасчётом цены), безвозмездного устранения недостатков или возмещения расходов на их устранение, уменьшения цены, либо расторжения договора и возмещения убытков. Эти права действуют в течение гарантийного срока, а для товаров без установленного гарантийного срока — в отношении недостатков, обнаруженных в течение 6 месяцев.",
+      "muammolar": [
+        "Продали бракованный товар, что я могу потребовать?",
+        "Что делать, если товар с гарантией вышел из строя?",
+        "Можно ли вернуть деньги за некачественный товар?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "При отсутствии гарантии срок предъявления претензии — 6 месяцев · Закон «О защите прав потребителей»"
+    },
+    "en": {
+      "nomi": "What rights does a consumer have when a defective product is sold?",
+      "tavsif": "A consumer may choose to demand replacement of the product with the same or a different make (with price recalculation), free repair of the defects or reimbursement of repair costs, a price reduction, or termination of the contract with compensation for damages. These rights apply during the warranty period, and for products without an established warranty period, to defects discovered within 6 months.",
+      "muammolar": [
+        "I was sold a defective product — what can I demand?",
+        "What should I do if a product under warranty stops working?",
+        "Can I get a refund for a defective product?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Without a warranty, the claim period is 6 months · Law \"On Protection of Consumer Rights\""
+    }
+  },
+  "savol-javob.biometrik-pasport-yoqolganda": {
+    "ru": {
+      "nomi": "Что должен делать гражданин, потерявший биометрический паспорт?",
+      "tavsif": "Гражданин, потерявший паспорт, должен незамедлительно сообщить об этом в удобный для него пункт сбора данных, после чего в порядке и сроки, установленные законодательством, ему оформят новую ID-карту. Граждане, потерявшие паспорт за рубежом, обращаются в консульское учреждение для получения свидетельства на возвращение в Узбекистан.",
+      "muammolar": [
+        "Потерял паспорт, куда обращаться?",
+        "Как восстановить утерянную ID-карту?",
+        "Что делать, если потерял паспорт за границей?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "За рубежом: свидетельство на возвращение оформляется через консульство · Закон «О гражданстве Республики Узбекистан»; Кодекс об административной ответственности"
+    },
+    "en": {
+      "nomi": "What should a citizen do if they lose their biometric passport?",
+      "tavsif": "A citizen who has lost their passport must immediately report it to the nearest data collection point, after which a new ID card will be issued to them in the manner and within the timeframe established by law. Citizens who lose their passport abroad apply to a consular office to obtain a certificate for returning to Uzbekistan.",
+      "muammolar": [
+        "I lost my passport, where should I go?",
+        "How is a lost ID card restored?",
+        "What should I do if I lose my passport abroad?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Abroad: the return certificate is issued through the consulate · Law \"On Citizenship of the Republic of Uzbekistan\"; Code of Administrative Liability"
+    }
+  },
+  "savol-javob.voyaga-yetmaganni-xorijga-olib-chiqish": {
+    "ru": {
+      "nomi": "Какие условия требуются для выезда несовершеннолетнего (до 18 лет) гражданина за рубеж?",
+      "tavsif": "Для выезда несовершеннолетнего требуется нотариально удостоверенное согласие родителей или опекунов (при подаче электронного заявления через ЕПИГУ — с электронной подписью). Необходимо нотариально удостоверенное обязательство сопровождающего лица, за исключением случаев, когда сопровождают сами родители или опекун; лица 15–18 лет могут выезжать самостоятельно при наличии нотариального согласия родителей.",
+      "muammolar": [
+        "Какое разрешение нужно для вывоза ребёнка за границу?",
+        "Может ли подросток выехать за рубеж один?",
+        "Обязательно ли нотариальное согласие при вывозе ребёнка за границу?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Указ Президента от 16.08.2017 № ПФ-5156; Постановление от 26.12.2018 № ПП-4079"
+    },
+    "en": {
+      "nomi": "What conditions are required for a minor (under 18) citizen to travel abroad?",
+      "tavsif": "A minor's travel abroad requires the notarized consent of the parents or guardians (if the application is submitted electronically via the Unified Portal of Interactive Public Services, an electronic signature is used). A notarized undertaking from the accompanying person is required, except when the parents or guardian themselves accompany the child; those aged 15–18 may travel independently with notarized parental consent.",
+      "muammolar": [
+        "What permission is needed to take a child abroad?",
+        "Can a teenager travel abroad alone?",
+        "Is notarized consent mandatory to take a child abroad?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Presidential Decree No. PF-5156 of 16.08.2017; Resolution No. PP-4079 of 26.12.2018"
+    }
+  },
+  "savol-javob.ayollar-54-yosh-imtiyozli-pensiya": {
+    "ru": {
+      "nomi": "Когда женщины могут выйти на льготную пенсию с 54 лет?",
+      "tavsif": "Для этого требуется полный 20-летний трудовой стаж по видам деятельности, указанным в статье 37 Закона «О государственном пенсионном обеспечении граждан» (работа с социальным страхованием, военная служба и служба в органах внутренних дел, военизированная охрана, индивидуальный труд или дехканское хозяйство). Периоды ухода за детьми (декретный отпуск) в этот стаж не входят — если фактический стаж составляет менее 20 лет, пенсия назначается с 55 лет.",
+      "muammolar": [
+        "Какой стаж нужен для выхода на пенсию в 54 года?",
+        "Как предоставляется льготная пенсия женщинам?",
+        "Входит ли декретный период в пенсионный стаж?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Закон «О государственном пенсионном обеспечении граждан», статья 37"
+    },
+    "en": {
+      "nomi": "When can women retire on preferential pension terms from age 54?",
+      "tavsif": "This requires a full 20 years of work experience in the categories listed in Article 37 of the Law \"On State Pension Provision for Citizens\" (socially insured work, military and internal affairs service, paramilitary guard duty, individual labor, or dekhkan farming). Periods of child care (maternity leave) do not count toward this length of service — if the actual service is less than 20 years, the pension is granted from age 55.",
+      "muammolar": [
+        "How much work experience is needed to retire at 54?",
+        "How is the preferential pension granted to women?",
+        "Does maternity leave count toward pension service length?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Law \"On State Pension Provision for Citizens\", Article 37"
+    }
+  },
+  "savol-javob.pensiya-kechiksa-kimga-murojaat": {
+    "ru": {
+      "nomi": "Куда обращаться, если пенсия не поступает вовремя?",
+      "tavsif": "На банковскую карту пенсия поступает до 5-го числа каждого месяца, получателям наличными — с 4-го по 27-е число. При задержке пенсии следует обращаться по номеру доверия Пенсионного фонда 1271, через Telegram-бот @pensiyauzbot, страницы в соцсетях pensiyauzb или на сайт pfru.uz — обращения рассматриваются незамедлительно.",
+      "muammolar": [
+        "Пенсия не поступила на карту, куда звонить?",
+        "Пенсия задерживается, кто отвечает за это?",
+        "Что делать, если выплата пенсии задержана?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Номер доверия: 1271; Telegram: @pensiyauzbot · не указано"
+    },
+    "en": {
+      "nomi": "Who should be contacted if a pension is not paid on time?",
+      "tavsif": "Pension payments to bank cards arrive by the 5th of each month, and cash recipients are paid between the 4th and 27th. If a pension is delayed, contact the Pension Fund's trust line at 1271, the @pensiyauzbot Telegram bot, the pensiyauzb social media pages, or the pfru.uz website — inquiries are reviewed immediately.",
+      "muammolar": [
+        "My pension didn't arrive on my card, who should I call?",
+        "My pension is delayed, who is responsible?",
+        "What should I do if my pension payment has been held up?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Trust line: 1271; Telegram: @pensiyauzbot · not specified"
+    }
+  },
+  "savol-javob.bola-puli-olish-tartibi": {
+    "ru": {
+      "nomi": "Кому положено детское пособие и как его оформить?",
+      "tavsif": "Пособие выплачивается малообеспеченным семьям с детьми в возрасте 3–18 лет до достижения младшим ребёнком 18 лет; действующие размеры: на одного ребёнка 3–18 лет — 275 000 сум, на ребёнка до 3 лет — 360 000 сум, на второго ребёнка дополнительно 165 000 сум, на последующих — по 110 000 сум, материальная помощь — 420 000 сум. Заявление с необходимыми документами подаётся в орган самоуправления граждан (махаллю) до 16-го числа месяца, предшествующего месяцу назначения пособия.",
+      "muammolar": [
+        "Как оформить детское пособие?",
+        "Каков размер пособия на детей?",
+        "Какая помощь положена малообеспеченной семье?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "При рождении близнецов один считается младшим ребёнком, остальные — вторым/третьим/четвёртым · Постановления Кабинета Министров от 05.03.2021 № 122 и от 21.10.2021 № 654"
+    },
+    "en": {
+      "nomi": "Who is entitled to child allowance and how is it arranged?",
+      "tavsif": "The allowance is paid to low-income families with children aged 3–18 until the youngest child turns 18; current amounts: 275,000 soums for one child aged 3–18, 360,000 soums for a child under 3, an additional 165,000 soums for a second child, 110,000 soums for each subsequent child, and 420,000 soums in material assistance. The application, with the required documents, is submitted to the citizens' self-governance body (mahalla) by the 16th of the month preceding the payment month.",
+      "muammolar": [
+        "How do I arrange child allowance?",
+        "How much is the child allowance?",
+        "What assistance is available to a low-income family?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "For twins, one is counted as the youngest child, the others as the second/third/fourth child · Cabinet of Ministers Resolutions No. 122 of 05.03.2021 and No. 654 of 21.10.2021"
+    }
+  },
+  "savol-javob.ishsizlik-nafaqasi-olish-shartlari": {
+    "ru": {
+      "nomi": "Кто и на какой срок получает пособие по безработице?",
+      "tavsif": "Согласно Закону от 20.10.2020 № ЗРУ-642, право на пособие по безработице имеют лица, официально признанные безработными в установленном порядке. Пособие начисляется с первого дня постановки на учёт в местном органе занятости, выплачивается не более 26 календарных недель в течение 12-месячного периода и не облагается налогом; заявление подаётся онлайн через портал государственных услуг.",
+      "muammolar": [
+        "Остался без работы, как получить пособие?",
+        "Сколько месяцев выплачивается пособие по безработице?",
+        "Что положено при постановке на учёт в центре занятости?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Пособие не облагается налогом · Закон Республики Узбекистан от 20.10.2020 № ЗРУ-642"
+    },
+    "en": {
+      "nomi": "Who receives unemployment benefits and for how long?",
+      "tavsif": "Under Law No. ZRU-642 of 20.10.2020, persons officially recognized as unemployed in the established manner are entitled to unemployment benefits. The benefit accrues from the first day of registration with the local employment office, is paid for no more than 26 calendar weeks within a 12-month period, and is not subject to tax; the application is submitted online via the public services portal.",
+      "muammolar": [
+        "I lost my job, how do I get benefits?",
+        "For how many months is unemployment benefit paid?",
+        "What benefits apply upon registering at the employment center?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "The benefit is not taxed · Law of the Republic of Uzbekistan No. ZRU-642 of 20.10.2020"
+    }
+  },
+  "savol-javob.ortiqcha-tolangan-soliqni-qaytarish": {
+    "ru": {
+      "nomi": "Как можно вернуть излишне уплаченный налог?",
+      "tavsif": "Согласно Налоговому кодексу излишне уплаченная сумма сначала засчитывается в счёт налоговой задолженности, затем других налогов, пеней и штрафов; решение о зачёте принимается в течение 10 дней. Если у налогоплательщика нет задолженности по другим налогам, излишняя сумма возвращается с процентами в течение 15 дней со дня получения заявления; заявление подаётся в налоговый орган или через портал my.soliq.uz, срок для требования возврата — 5 лет.",
+      "muammolar": [
+        "Переплатил налог, можно ли вернуть деньги?",
+        "Как засчитывается излишне уплаченная сумма налога?",
+        "Куда подать заявление на возврат налога?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Электронное заявление: my.soliq.uz · Налоговый кодекс Республики Узбекистан"
+    },
+    "en": {
+      "nomi": "How can an overpaid tax be refunded?",
+      "tavsif": "Under the Tax Code, an overpaid amount is first applied to outstanding tax debt, then to other taxes, penalties and fines; the offset decision is made within 10 days. If the taxpayer has no debt on other taxes, the excess amount is refunded with interest within 15 days of receiving the application; the application is submitted to the tax authority or via the my.soliq.uz portal, and the claim period for a refund is 5 years.",
+      "muammolar": [
+        "I overpaid my tax, can I get the money back?",
+        "How is an overpaid tax amount offset?",
+        "Where do I submit an application for a tax refund?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Electronic application: my.soliq.uz · Tax Code of the Republic of Uzbekistan"
+    }
+  },
+  "savol-javob.ijara-daromadi-soliqqa-tortilishi": {
+    "ru": {
+      "nomi": "Как облагается налогом доход от сдачи жилья в аренду?",
+      "tavsif": "Согласно Налоговому кодексу предварительная декларация подаётся в течение 5 дней по окончании первого месяца получения арендного дохода; если договор аренды зарегистрирован в налоговом органе, предварительная декларация не требуется. Налог уплачивается ежемесячно до 15-го числа, годовая декларация о совокупном доходе подаётся до 1 февраля, а окончательный расчёт производится до 1 июня следующего года.",
+      "muammolar": [
+        "Если сдам квартиру в аренду, нужно ли платить налог?",
+        "Как зарегистрировать договор аренды в налоговом органе?",
+        "Когда подаётся декларация о доходе от аренды?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Если договор зарегистрирован в налоговом органе, предварительная декларация не требуется · Налоговый кодекс Республики Узбекистан"
+    },
+    "en": {
+      "nomi": "How is income from leasing out housing taxed?",
+      "tavsif": "Under the Tax Code, a preliminary declaration is filed within 5 days after the end of the first month rental income is received; if the lease agreement is registered with the tax authority, a preliminary declaration is not required. Tax is paid monthly by the 15th, the annual total-income declaration is filed by 1 February, and the final settlement is made by 1 June of the following year.",
+      "muammolar": [
+        "If I rent out my apartment, do I need to pay tax?",
+        "How do I register a lease agreement with the tax authority?",
+        "When is the rental income declaration filed?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "If the agreement is registered with the tax authority, a preliminary declaration is not required · Tax Code of the Republic of Uzbekistan"
+    }
+  },
+  "savol-javob.nikoh-tuzish-tartibi": {
+    "ru": {
+      "nomi": "Каков порядок заключения брака: когда и где он регистрируется?",
+      "tavsif": "Брак регистрируется в присутствии вступающих в брак лично через месяц после подачи заявления в орган ЗАГС; при наличии уважительных причин (беременность, рождение ребёнка) брак может быть зарегистрирован до истечения месяца, даже в день подачи заявления, а срок может быть продлён до трёх месяцев. Брачный возраст для мужчин и женщин — 18 лет, при уважительной причине хоким может снизить возраст не более чем на один год. Вступающие в брак проходят бесплатный медицинский осмотр у психиатра, нарколога и дерматовенеролога (лица старше 50 лет — только с согласия), при регистрации брака взимается государственная пошлина.",
+      "muammolar": [
+        "Подали заявление на брак, когда нас распишут?",
+        "Какие документы подаются в ЗАГС?",
+        "Можно ли зарегистрировать брак с девушкой младше 18 лет?",
+        "Обязателен ли медосмотр перед вступлением в брак?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Онлайн-заявление: my.gov.uz/uz/marriage-registration-v1/passport; запись в очередь ЗАГС: my.gov.uz/uz/zags-queue/passport · Семейный кодекс Республики Узбекистан"
+    },
+    "en": {
+      "nomi": "What is the procedure for marriage registration: when and where does it take place?",
+      "tavsif": "A marriage is registered in the personal presence of the parties one month after the application is filed with the civil registry office (ZAGS); with valid reasons (pregnancy, birth of a child), it may be registered before that month elapses, even on the day of application, and the period may be extended up to three months. The marriageable age for men and women is 18; for valid reasons, the khokim may reduce this by up to one year. Parties undergo a free medical examination by a psychiatrist, a narcologist, and a dermato-venereologist (those over 50 only with their consent); a state fee is charged upon registration.",
+      "muammolar": [
+        "We applied to get married, when will the registration take place?",
+        "What documents are submitted to ZAGS?",
+        "Can a girl under 18 be registered in marriage?",
+        "Is a medical exam mandatory before marriage?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Online application: my.gov.uz/uz/marriage-registration-v1/passport; ZAGS queue registration: my.gov.uz/uz/zags-queue/passport · Family Code of the Republic of Uzbekistan"
+    }
+  },
+  "savol-javob.tugilishni-qayd-etish": {
+    "ru": {
+      "nomi": "Каков порядок и срок регистрации рождения ребёнка?",
+      "tavsif": "Рождение регистрируется в органе ЗАГС по месту рождения ребёнка либо по постоянному месту жительства одного из родителей; заявление подаётся в течение 1 месяца со дня рождения ребёнка. Требуются медицинская справка, паспорта родителей и свидетельство о браке (либо заявление об установлении отцовства). За выдачу свидетельства уплачивается 10 процентов БРВ, за повторную выдачу — 15 процентов; рождение лица старше 16 лет регистрируется только по решению суда.",
+      "muammolar": [
+        "Куда обращаться, чтобы получить свидетельство о рождении ребёнка?",
+        "Сколько стоит свидетельство о рождении?",
+        "Что будет, если поздно зарегистрировать рождение ребёнка?",
+        "Порядок получения метрики"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Онлайн: my.gov.uz; бесплатная юридическая консультация 24/7: t.me/Odil_chat_bot · Семейный кодекс Республики Узбекистан"
+    },
+    "en": {
+      "nomi": "What is the procedure and deadline for registering a child's birth?",
+      "tavsif": "Birth is registered with the ZAGS office at the child's place of birth or at the permanent residence of one of the parents; the application must be filed within 1 month of the child's birth. A medical certificate, the parents' passports, and a marriage certificate (or a paternity acknowledgment application) are required. The certificate fee is 10 percent of the BCU, and 15 percent for a duplicate certificate; the birth of a person over 16 years old is registered only by court decision.",
+      "muammolar": [
+        "Where do I go to get my child's birth certificate?",
+        "How much does a birth certificate cost?",
+        "What happens if a child's birth is registered late?",
+        "Procedure for obtaining a birth certificate"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Online: my.gov.uz; 24/7 legal advice: t.me/Odil_chat_bot · Family Code of the Republic of Uzbekistan"
+    }
+  },
+  "savol-javob.familiya-ism-ozgartirish": {
+    "ru": {
+      "nomi": "Каков порядок изменения фамилии, имени и отчества?",
+      "tavsif": "Гражданин, достигший 16 лет, подаёт заявление в орган ЗАГС по месту жительства или через портал my.gov.uz; заявление рассматривается в течение 2 месяцев, при наличии уважительной причины срок может быть продлён ещё на 1 месяц. Требуются свидетельства о рождении и браке, свидетельства о рождении детей, копия паспорта и фотография 3x4, уплачивается государственная пошлина. При отказе решение ЗАГС можно обжаловать в суде.",
+      "muammolar": [
+        "Хочу поменять имя, куда обращаться?",
+        "Сколько времени занимает смена фамилии?",
+        "Какие документы нужны для смены отчества?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Онлайн-заявление: my.gov.uz · Семейный кодекс Республики Узбекистан"
+    },
+    "en": {
+      "nomi": "What is the procedure for changing one's surname, first name, and patronymic?",
+      "tavsif": "A citizen who has turned 16 files an application with the ZAGS office at their place of residence or via the my.gov.uz portal; the application is reviewed within 2 months, and for a valid reason the period may be extended by another 1 month. Birth and marriage certificates, children's birth certificates, a passport copy, and a 3x4 photo are required, and a state fee is paid. If refused, the ZAGS decision may be appealed in court.",
+      "muammolar": [
+        "I want to change my name, where do I apply?",
+        "How long does a surname change take?",
+        "What documents are needed to change a patronymic?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Online application: my.gov.uz · Family Code of the Republic of Uzbekistan"
+    }
+  },
+  "savol-javob.nikoh-shartnomasi-tuzish": {
+    "ru": {
+      "nomi": "Как заключается брачный договор и что в нём устанавливается?",
+      "tavsif": "Брачный договор определяет имущественные права и обязанности супругов в период брака и на случай его расторжения; он заключается в письменной форме и удостоверяется нотариусом как до регистрации брака, так и в период брака (государственная пошлина не взимается). В договоре может быть установлен режим общей собственности, порядок взаимного содержания и раздела имущества при расторжении брака, однако запрещены условия, ограничивающие правоспособность или право на содержание нетрудоспособного супруга. Договор может быть изменён или расторгнут в любое время по соглашению сторон, односторонний отказ не допускается.",
+      "muammolar": [
+        "Как заключить брачный контракт?",
+        "Можно ли заключить брачный договор уже после свадьбы?",
+        "Что запрещено указывать в брачном договоре?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Список нотариусов: minjust.uz/uz/interactive/notarius_list; запись в очередь: my.gov.uz/uz/notaries-queue/passport · Семейный кодекс Республики Узбекистан"
+    },
+    "en": {
+      "nomi": "How is a marriage (prenuptial) contract concluded and what does it set out?",
+      "tavsif": "A marriage contract defines the spouses' property rights and obligations during the marriage and in the event of its dissolution; it is concluded in writing and notarized either before the marriage is registered or during the marriage (no state fee is charged). The contract may set out the regime for joint property, mutual maintenance arrangements, and property division upon dissolution, but terms limiting a person's legal capacity or a disabled spouse's right to maintenance are prohibited. The contract may be amended or terminated at any time by mutual agreement of the parties; unilateral withdrawal is not permitted.",
+      "muammolar": [
+        "How is a prenuptial agreement drawn up?",
+        "Can a marriage contract be concluded after the wedding?",
+        "What terms are prohibited in a marriage contract?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "List of notaries: minjust.uz/uz/interactive/notarius_list; queue registration: my.gov.uz/uz/notaries-queue/passport · Family Code of the Republic of Uzbekistan"
+    }
+  },
+  "savol-javob.farzandlikka-olish-tartibi": {
+    "ru": {
+      "nomi": "В каком порядке производится усыновление (удочерение) и его отмена?",
+      "tavsif": "Усыновление производится судом на основании заключения органа опеки и попечительства об обоснованности усыновления; требуется разница в возрасте между усыновителем и ребёнком не менее 15 лет, а также согласие ребёнка, достигшего 10 лет. Лица, лишённые родительских прав, недееспособные, состоящие на учёте в связи с наркологическими/нервными заболеваниями, а также судимые не могут быть усыновителями. Усыновлённый ребёнок приравнивается в правах к родным детям усыновителя; отмена усыновления производится только в судебном порядке.",
+      "muammolar": [
+        "Что нужно для усыновления ребёнка?",
+        "Кому запрещено усыновлять детей?",
+        "Можно ли вернуть усыновлённого ребёнка?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Обращение подаётся в органы опеки и попечительства, прокуратуру или суд · Семейный кодекс Республики Узбекистан; Постановление Кабинета Министров от 21.11.2020 № 739"
+    },
+    "en": {
+      "nomi": "How is adoption and its annulment carried out?",
+      "tavsif": "Adoption is carried out by the court based on the guardianship and custodial authority's opinion on the validity of the adoption; an age gap of at least 15 years between the adopter and the child is required, as is the consent of a child who has turned 10. Persons deprived of parental rights, legally incapacitated persons, those registered with narcological/neurological conditions, and those with a criminal record may not adopt. An adopted child is given equal rights to the adopter's own children; annulment of adoption is carried out only through the courts.",
+      "muammolar": [
+        "What is required to adopt a child?",
+        "Who is prohibited from adopting children?",
+        "Can an adopted child be returned?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Applications are filed with the guardianship and custodial authorities, the prosecutor's office, or the court · Family Code of the Republic of Uzbekistan; Cabinet of Ministers Resolution No. 739 of 21.11.2020"
+    }
+  },
+  "savol-javob.ota-onalik-huquqidan-mahrum-qilish": {
+    "ru": {
+      "nomi": "Как производится лишение и восстановление родительских прав?",
+      "tavsif": "Если родитель уклоняется от уплаты алиментов, жестоко обращается с ребёнком, систематически злоупотребляет алкоголем или наркотиками, либо умышленно совершил преступление против жизни ребёнка/супруга, суд лишает его родительских прав; одновременно суд разрешает вопрос о взыскании алиментов. Восстановление в правах также производится судом, если поведение родителя изменилось, при этом требуется согласие ребёнка, достигшего 10 лет; если ребёнок был усыновлён, восстановление не допускается.",
+      "muammolar": [
+        "Куда обращаться, чтобы лишить отца родительских прав?",
+        "Изъятие ребёнка у родителя, злоупотребляющего алкоголем",
+        "Можно ли восстановить родительские права?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "С иском можно обратиться в суд, а также в органы прокуратуры · Семейный кодекс Республики Узбекистан"
+    },
+    "en": {
+      "nomi": "How is deprivation and restoration of parental rights carried out?",
+      "tavsif": "If a parent evades paying alimony, treats the child cruelly, is systematically abusing alcohol or drugs, or has intentionally committed a crime against the life of the child or spouse, the court deprives them of parental rights; the court simultaneously resolves the question of collecting alimony. Restoration of rights is also carried out by the court, when the parent's conduct has changed, and requires the consent of a child who has turned 10; if the child has been adopted, restoration is not allowed.",
+      "muammolar": [
+        "Where do I go to have a father deprived of parental rights?",
+        "Removing a child from a parent who abuses alcohol",
+        "Can parental rights be restored?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "A claim may be filed with the court, or with the prosecutor's office · Family Code of the Republic of Uzbekistan"
+    }
+  },
+  "savol-javob.nikohni-bekor-qilish-fhdyo": {
+    "ru": {
+      "nomi": "Каков порядок расторжения брака в органе ЗАГС по взаимному согласию?",
+      "tavsif": "Согласно статье 42 Семейного кодекса супруги, не имеющие имущественных споров и несовершеннолетних детей, могут расторгнуть брак по взаимному согласию в органе ЗАГС; если жена беременна, заявление не принимается. Заявление можно подать в электронном виде через ЕПИГУ (my.gov.uz) с использованием Face-ID/MyID, ЗАГС в течение 3 дней уведомляет комиссию по семейным ценностям при махалле. Государственная пошлина при первом расторжении брака — 2-кратный размер БРВ, при повторном — 4-кратный; при наличии имущественного спора или спора о содержании вопрос решается в суде.",
+      "muammolar": [
+        "Мы с супругом договорились развестись, куда обращаться?",
+        "Сколько стоит развод через ЗАГС?",
+        "Можно ли подать заявление на развод онлайн?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Очередь ЗАГС: my.gov.uz/uz/zags-queue/passport · Семейный кодекс, статьи 42, 218; Постановление Кабинета Министров от 20.10.2023 № 550"
+    },
+    "en": {
+      "nomi": "What is the procedure for divorce by mutual consent through the civil registry office (ZAGS)?",
+      "tavsif": "Under Article 42 of the Family Code, spouses with no property dispute and no minor children may divorce by mutual consent at the ZAGS office; if the wife is pregnant, the application is not accepted. The application may be filed electronically via the Unified Portal of Interactive Public Services (my.gov.uz) using Face-ID/MyID, and ZAGS notifies the mahalla's family values commission within 3 days. The state fee for a first divorce is 2 times the BCU, and 4 times for a repeat divorce; if there is a property or maintenance dispute, the matter is resolved in court.",
+      "muammolar": [
+        "My spouse and I agreed to divorce, where do we go?",
+        "How much does a ZAGS divorce cost?",
+        "Can a divorce application be submitted online?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "ZAGS queue: my.gov.uz/uz/zags-queue/passport · Family Code, Articles 42, 218; Cabinet of Ministers Resolution No. 550 of 20.10.2023"
+    }
+  },
+  "savol-javob.nikohdan-sudsiz-ajrashish": {
+    "ru": {
+      "nomi": "Можно ли развестись без обращения в суд?",
+      "tavsif": "Можно: согласно статье 42 Семейного кодекса супруги без несовершеннолетних детей и имущественных споров разводятся по взаимному согласию в органе ЗАГС; согласно статье 43, если супруг признан безвестно отсутствующим, недееспособным или лишён свободы на срок свыше 3 лет, развод возможен по заявлению одного из супругов, независимо от наличия детей. Заявление подаётся через my.gov.uz с использованием Face-ID/MyID, для примирения предоставляется срок 3 месяца, государственная пошлина составляет 1,5-кратный размер БРВ.",
+      "muammolar": [
+        "Муж в тюрьме, можно ли развестись без обращения в суд?",
+        "Способы получить развод без суда",
+        "Каковы условия развода через ЗАГС?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Электронное заявление: my.gov.uz · Семейный кодекс, статьи 38, 42, 43"
+    },
+    "en": {
+      "nomi": "Is it possible to get divorced without going to court?",
+      "tavsif": "Yes: under Article 42 of the Family Code, spouses without minor children or property disputes may divorce by mutual consent at the ZAGS office; under Article 43, if a spouse has been declared missing, legally incapacitated, or imprisoned for more than 3 years, a divorce may be granted on the application of just one spouse, regardless of whether there are children. The application is filed via my.gov.uz using Face-ID/MyID, a 3-month reconciliation period is allowed, and the state fee is 1.5 times the BCU.",
+      "muammolar": [
+        "My husband is in prison, can I get divorced without going to court?",
+        "Ways to get a divorce without a court hearing",
+        "What are the conditions for a ZAGS divorce?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Electronic application: my.gov.uz · Family Code, Articles 38, 42, 43"
+    }
+  },
+  "savol-javob.aliment-miqdori-voyaga-yetmagan-bolalar": {
+    "ru": {
+      "nomi": "Какой размер алиментов на несовершеннолетних детей?",
+      "tavsif": "При отсутствии соглашения суд взыскивает алименты в размере 1/4 месячного заработка/дохода на одного ребёнка, 1/3 на двух детей, 1/2 на трёх и более детей. Размер алиментов на каждого ребёнка не может быть менее 26,5 процента минимальной заработной платы. При добровольной невыплате алименты взыскиваются принудительно на основании судебного приказа.",
+      "muammolar": [
+        "Сколько алиментов платится на одного ребёнка?",
+        "Какой процент от зарплаты удерживается на алименты?",
+        "Каков минимальный размер алиментов?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Калькулятор алиментов: mib.uz/calculator; консультация 24/7: t.me/Odil_chat_bot · Семейный кодекс, статья 99 и другие; Постановление Пленума Верховного суда от 29.07.2016 № 11"
+    },
+    "en": {
+      "nomi": "What is the amount of alimony for minor children?",
+      "tavsif": "In the absence of an agreement, the court awards alimony amounting to 1/4 of monthly wages/income for one child, 1/3 for two children, and 1/2 for three or more children. The amount of alimony per child may not be less than 26.5 percent of the minimum wage. If not paid voluntarily, alimony is collected compulsorily under a court order.",
+      "muammolar": [
+        "How much alimony is paid for one child?",
+        "What percentage of a salary is withheld for alimony?",
+        "What is the minimum amount of alimony?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Alimony calculator: mib.uz/calculator; 24/7 advice: t.me/Odil_chat_bot · Family Code, Article 99 and others; Supreme Court Plenum Resolution No. 11 of 29.07.2016"
+    }
+  },
+  "savol-javob.alimentni-sud-orqali-undirish": {
+    "ru": {
+      "nomi": "Как взыскать алименты в судебном порядке?",
+      "tavsif": "Лицо, имеющее право на получение алиментов, может обратиться в суд в любое время; алименты взыскиваются с момента обращения в суд. Если суд установит, что до обращения в суд предпринимались попытки получить содержание, но плательщик отказывался, алименты за прошлый период могут быть взысканы в пределах трёхлетнего срока. Для исполнения решения следует обратиться в Бюро принудительного исполнения.",
+      "muammolar": [
+        "Муж не платит алименты, как подать в суд?",
+        "Можно ли взыскать алименты за прошлые годы?",
+        "Куда подавать заявление на алименты?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Онлайн-обращение в БПИ: pm.gov.uz (раздел «Бюро принудительного исполнения») · Семейный кодекс Республики Узбекистан"
+    },
+    "en": {
+      "nomi": "How can alimony be collected through the courts?",
+      "tavsif": "A person entitled to receive alimony may apply to the court at any time; alimony is collected from the moment of applying to court. If the court finds that attempts were made to obtain support before going to court but the payer refused, alimony for the past period may be recovered within a three-year period. For enforcement, one should contact the Bureau of Compulsory Enforcement.",
+      "muammolar": [
+        "My husband doesn't pay alimony, how do I file in court?",
+        "Can alimony for past years be recovered?",
+        "Where do I submit an alimony application?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Online application to the Bureau of Compulsory Enforcement: pm.gov.uz (\"Bureau of Compulsory Enforcement\" section) · Family Code of the Republic of Uzbekistan"
+    }
+  },
+  "savol-javob.aliment-tolamaslik-javobgarlik": {
+    "ru": {
+      "nomi": "Какая ответственность предусмотрена за неуплату алиментов?",
+      "tavsif": "Если алименты по решению суда не выплачиваются вовремя, за каждый день просрочки начисляется неустойка в размере 0,1 процента невыплаченной суммы, при этом получатель вправе также взыскать убытки, не покрытые неустойкой. При продолжающемся уклонении применяется административное наказание, а неуплата алиментов на несовершеннолетних детей может повлечь лишение родительских прав или уголовную ответственность. Должник освобождается от ответственности при полном исполнении обязательства.",
+      "muammolar": [
+        "Бывший муж не платит алименты, что делать?",
+        "Могут ли посадить за долг по алиментам?",
+        "Какая пеня начисляется неплательщику алиментов?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Онлайн-обращение в прокуратуру: pm.gov.uz · Семейный кодекс; Кодекс об административной ответственности; Уголовный кодекс"
+    },
+    "en": {
+      "nomi": "What liability applies for failing to pay alimony?",
+      "tavsif": "If court-ordered alimony is not paid on time, a penalty of 0.1 percent of the unpaid amount accrues for each day of delay, and the recipient may also recover losses not covered by the penalty. Continued evasion is subject to administrative punishment, and failure to pay alimony for minor children may lead to deprivation of parental rights or criminal liability. A debtor is released from liability upon fully performing the obligation.",
+      "muammolar": [
+        "My ex-husband isn't paying alimony, what should I do?",
+        "Can someone be jailed for alimony debt?",
+        "What penalty applies to an alimony defaulter?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Online complaint to the prosecutor's office: pm.gov.uz · Family Code; Code of Administrative Liability; Criminal Code"
+    }
+  },
+  "savol-javob.aliment-chet-elga-ketishda": {
+    "ru": {
+      "nomi": "Как обеспечивается выплата алиментов, если плательщик уезжает за рубеж?",
+      "tavsif": "Плательщик алиментов, выезжающий за рубеж на постоянное жительство или на срок свыше 3 месяцев, обязан заключить соглашение с получателем алиментов об условиях выплаты; при отсутствии соглашения получатель вправе подать в суд иск об установлении алиментов в твёрдой денежной сумме. Если алименты на несовершеннолетних детей выплачены заранее либо заключён договор залога, плательщик освобождается от обязанности заключать соглашение, а временное ограничение на выезд снимается.",
+      "muammolar": [
+        "Еду работать в Россию, есть долг по алиментам — выпустят ли меня?",
+        "Что нужно сделать плательщику алиментов перед выездом за рубеж?",
+        "Что такое договор залога по алиментам?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Оформляется через Бюро принудительного исполнения · Семейный кодекс; Постановление Кабинета Министров от 06.10.2018 № 808"
+    },
+    "en": {
+      "nomi": "How is alimony payment secured when the payer moves abroad?",
+      "tavsif": "An alimony payer moving abroad permanently or for more than 3 months is required to enter into an agreement with the recipient on the terms of payment; absent such an agreement, the recipient may file a court claim to have the alimony set as a fixed monetary sum. If alimony for minor children has been prepaid or a pledge agreement has been concluded, the payer is released from the obligation to enter into an agreement, and the temporary travel restriction is lifted.",
+      "muammolar": [
+        "I'm going to work in Russia and have alimony debt — will I be let out?",
+        "What must an alimony payer do before traveling abroad?",
+        "What is a pledge agreement for alimony?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Arranged through the Bureau of Compulsory Enforcement · Family Code; Cabinet of Ministers Resolution No. 808 of 06.10.2018"
+    }
+  },
+  "savol-javob.fuqarolikni-olish": {
+    "ru": {
+      "nomi": "Каковы условия приобретения гражданства Узбекистана?",
+      "tavsif": "Гражданство приобретается по рождению, при усыновлении, путём приёма в гражданство или его восстановления. Для приёма требуется выход из гражданства другого государства, непрерывное проживание в течение 5 лет со дня получения вида на жительство, законный источник существования, обязательство соблюдать Конституцию и владение государственным языком в необходимой степени. Заявление, паспорт/ID-карта, свидетельство о рождении, документы об источнике дохода и об отсутствии судимости подаются в органы внутренних дел.",
+      "muammolar": [
+        "Сколько лет нужно прожить, чтобы получить гражданство?",
+        "Условия получения узбекского паспорта",
+        "Какие документы подаются для получения гражданства?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Обращение в органы внутренних дел (районный/городской отдел) · Закон Республики Узбекистан «О гражданстве Республики Узбекистан»"
+    },
+    "en": {
+      "nomi": "What are the conditions for acquiring citizenship of Uzbekistan?",
+      "tavsif": "Citizenship is acquired by birth, through adoption, or through admission to or restoration of citizenship. Admission requires renouncing citizenship of another state, 5 years of continuous residence from the date of obtaining a residence permit, a lawful source of livelihood, an undertaking to observe the Constitution, and adequate command of the state language. An application, passport/ID card, birth certificate, documents on income source, and a certificate of no criminal record are submitted to the internal affairs authorities.",
+      "muammolar": [
+        "How many years must one live in the country to obtain citizenship?",
+        "Conditions for obtaining an Uzbekistan passport",
+        "What documents are submitted to obtain citizenship?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Applications are filed with the internal affairs authorities (district/city department) · Law of the Republic of Uzbekistan \"On Citizenship of the Republic of Uzbekistan\""
+    }
+  },
+  "savol-javob.id-karta-olish": {
+    "ru": {
+      "nomi": "Каков порядок и срок получения ID-карты (паспорта)?",
+      "tavsif": "ID-карта выдаётся по достижении 16 лет, по истечении срока действия, при изменении личных данных, при непригодности документа или его утрате; детям она оформляется с рождения по желанию родителей. Подаются анкета-заявление, прежний паспорт/ID-карта, свидетельство о рождении (при первом оформлении) и квитанция об уплате государственной пошлины. После полного приёма документов ID-карта выдаётся в течение 1 рабочего дня; при изменении данных нужно обратиться в течение 1 месяца, инвалидам и пожилым людям услуга на дому оказывается в течение 15 дней без дополнительной оплаты.",
+      "muammolar": [
+        "За сколько дней готова ID-карта?",
+        "Что нужно для получения паспорта в 16 лет?",
+        "Как восстановить утерянную ID-карту?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Оформляется через центры государственных услуг · Закон «О гражданстве Республики Узбекистан»; Указ Президента от 22.09.2020 № ПФ-6065; Постановление Кабинета Министров от 30.01.2020 № 49"
+    },
+    "en": {
+      "nomi": "What is the procedure and timeframe for obtaining an ID card (passport)?",
+      "tavsif": "An ID card is issued upon reaching age 16, upon expiration, when personal data changes, when the document becomes unusable, or when it is lost; for children it may be issued from birth at the parents' wish. An application form, the previous passport/ID card, a birth certificate (for first issuance), and a state fee receipt are submitted. Once documents are fully accepted, the ID card is issued within 1 business day; in case of a data change, one must apply within 1 month, and disabled persons and the elderly are served at home within 15 days at no extra charge.",
+      "muammolar": [
+        "How many days does it take to get an ID card?",
+        "What is needed to get a passport at age 16?",
+        "How is a lost ID card restored?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Issued through public services centers · Law \"On Citizenship of the Republic of Uzbekistan\"; Presidential Decree No. PF-6065 of 22.09.2020; Cabinet of Ministers Resolution No. 49 of 30.01.2020"
+    }
+  },
+  "savol-javob.pasport-id-karta-almashtirish": {
+    "ru": {
+      "nomi": "Когда и как производится замена паспорта/ID-карты?",
+      "tavsif": "ID-карта заменяется при изменении фамилии, имени, отчества, даты рождения или пола, при обнаружении неточности в данных или техническом дефекте, а также при утрате документа; новая ID-карта выдаётся в течение одного рабочего дня после приёма документов. Требуются анкета-заявление, старый документ и квитанция об уплате государственной пошлины. Национальность в чипе указывается в соответствии с национальностью родителей, при смешанном браке — по выбору гражданина при первом оформлении, изменить её впоследствии можно лишь один раз.",
+      "muammolar": [
+        "Вышла замуж и сменила фамилию, как заменить паспорт",
+        "Исправление ошибки в ID-карте",
+        "Сколько дней занимает замена паспорта?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Центры государственных услуг; при электронной оплате квитанция не обязательна · Законы «О гражданстве» и «О государственной пошлине»; Указ Президента (реформа паспортной системы)"
+    },
+    "en": {
+      "nomi": "When and how is a passport/ID card replaced?",
+      "tavsif": "An ID card is replaced when a surname, first name, patronymic, date of birth, or gender changes, when an inaccuracy or technical defect in the data is found, or when the document is lost; the new ID card is issued within one business day after the documents are accepted. An application form, the old document, and a state fee receipt are required. The nationality recorded in the chip follows the parents' nationality; in a mixed marriage, it is chosen by the citizen upon first issuance and may thereafter be changed only once.",
+      "muammolar": [
+        "I got married and changed my surname, how do I replace my passport",
+        "Correcting an error in an ID card",
+        "How many days does a passport replacement take?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Public services centers; a receipt is not required for electronic payment · Laws \"On Citizenship\" and \"On the State Fee\"; Presidential decree (passport system reform)"
+    }
+  },
+  "savol-javob.chet-elga-chiqish-pasporti": {
+    "ru": {
+      "nomi": "Как получить заграничный (выездной) паспорт?",
+      "tavsif": "Для выезда за рубеж биометрический заграничный паспорт оформляется через my.gov.uz/uz/service/418 либо путём непосредственного обращения в пункт сбора данных. Срок действия: для детей до 1 года — 2 года, с 1 до 25 лет — 5 лет, после 25 лет — 10 лет. Граждане 15–18 лет могут выехать самостоятельно с письменного согласия родителей; о лицах 18–27 лет, подлежащих призыву на военную службу, органы обороны уведомляются через электронную систему.",
+      "muammolar": [
+        "Где оформить загранпаспорт?",
+        "На сколько лет выдаётся загранпаспорт?",
+        "Как оформить загранпаспорт ребёнку?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Онлайн-заявление: my.gov.uz/uz/service/418 · Постановления Президента от 16.06.2022 № ПП-282 и от 26.12.2018 № ПП-4079"
+    },
+    "en": {
+      "nomi": "How can a foreign travel passport be obtained?",
+      "tavsif": "A biometric foreign travel passport is issued via my.gov.uz/uz/service/418 or by applying directly at a data collection point. Validity: 2 years for children under 1, 5 years for ages 1–25, and 10 years after age 25. Citizens aged 15–18 may travel abroad independently with the written consent of their parents; the defense authorities are notified through an electronic system about persons aged 18–27 subject to military conscription.",
+      "muammolar": [
+        "Where is a foreign travel passport issued?",
+        "How many years is a foreign passport valid for?",
+        "How is a foreign passport issued for a child?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Online application: my.gov.uz/uz/service/418 · Presidential Resolutions No. PP-282 of 16.06.2022 and No. PP-4079 of 26.12.2018"
+    }
+  },
+  "savol-javob.doimiy-royxatga-olish-propiska": {
+    "ru": {
+      "nomi": "Как оформляется регистрация (прописка) по постоянному месту жительства?",
+      "tavsif": "Заявление о постановке на учёт по постоянному месту жительства подаётся в электронном виде через портал государственных услуг my.gov.uz/uz/service/363. Порядок установлен законами «О гражданстве» и «О государственной пошлине», а также указами Президента о реформировании системы постоянной прописки.",
+      "muammolar": [
+        "Куда обращаться для оформления прописки?",
+        "Можно ли оформить прописку в новом доме онлайн?",
+        "Порядок временной регистрации"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Онлайн-заявление: my.gov.uz/uz/service/363; консультация 24/7: t.me/Odil_chat_bot · Закон № ЗРУ-296 (14.09.2011); Закон «О государственной пошлине»; указы Президента"
+    },
+    "en": {
+      "nomi": "How is registration (propiska) at a permanent place of residence arranged?",
+      "tavsif": "An application for registration at a permanent place of residence is filed electronically through the my.gov.uz/uz/service/363 public services portal. The procedure is established by the Laws \"On Citizenship\" and \"On the State Fee\", as well as by presidential decrees on reforming the permanent registration system.",
+      "muammolar": [
+        "Where do I apply to arrange propiska?",
+        "Can registration at a new home be arranged online?",
+        "Procedure for temporary registration"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Online application: my.gov.uz/uz/service/363; 24/7 advice: t.me/Odil_chat_bot · Law No. ZRU-296 (14.09.2011); Law \"On the State Fee\"; presidential decrees"
+    }
+  },
+  "savol-javob.chiqish-cheklovini-olib-tashlash": {
+    "ru": {
+      "nomi": "Можно ли снять ограничение на выезд из Узбекистана?",
+      "tavsif": "Можно: по завершении исполнительного производства ограничения, наложенные на должника, включая запрет на выезд, отменяются. В части алиментов, если алименты выплачены заранее или заключён договор залога стоимостью не менее 250 БРВ, государственный исполнитель не позднее следующего дня уведомляет МВД и Пограничные войска о снятии ограничения. По судебному определению досрочная выплата и передача имущества производятся в срок не более 10 рабочих дней.",
+      "muammolar": [
+        "Не выпускают через границу, у меня долг — что делать?",
+        "Как снять запрет на выезд, если это не визовый вопрос?",
+        "Выезд за границу при наличии долга по алиментам"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Решается через Бюро принудительного исполнения (государственный исполнитель) · Закон «Об исполнении судебных актов и актов других органов»; Постановление Кабинета Министров от 06.10.2018 № 808"
+    },
+    "en": {
+      "nomi": "Can a travel ban out of Uzbekistan be lifted?",
+      "tavsif": "Yes: restrictions imposed on a debtor, including the exit ban, are lifted upon completion of enforcement proceedings. Regarding alimony, if it has been prepaid or a pledge agreement worth at least 250 times the BCU has been concluded, the state enforcement officer notifies the Ministry of Internal Affairs and the Border Troops of the lifted restriction no later than the following day. Under a court ruling, prepayment and property transfer are carried out within no more than 10 business days.",
+      "muammolar": [
+        "I'm not being let through the border because of debt — what should I do?",
+        "How do I lift an exit ban that isn't a visa issue?",
+        "Traveling abroad with outstanding alimony debt"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Resolved through the Bureau of Compulsory Enforcement (state enforcement officer) · Law \"On Enforcement of Judicial Acts and Acts of Other Bodies\"; Cabinet of Ministers Resolution No. 808 of 06.10.2018"
+    }
+  },
+  "savol-javob.ishonchnoma-tasdiqlash": {
+    "ru": {
+      "nomi": "Как удостоверяется доверенность и на какой срок она выдаётся?",
+      "tavsif": "Доверенность выдаётся на срок не более 3 лет, а если срок не указан — действует 1 год; доверенности на распоряжение недвижимостью и транспортом удостоверяются нотариусом, присутствие доверенного лица не обязательно. Некоторые доверенности — на получение заработной платы, пенсии, пособия, корреспонденции — могут удостоверять также организация, сход граждан махалли или администрация больницы. В удостоверении отказывается, если доверенность противоречит закону или документы не соответствуют требованиям.",
+      "muammolar": [
+        "На сколько лет выдаётся доверенность?",
+        "Где оформить доверенность на автомобиль?",
+        "Кто может удостоверить доверенность на получение пенсии?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Портал e-notarius.uz; телефон доверия Министерства юстиции: 1008 · Гражданский кодекс; Закон «О нотариате»"
+    },
+    "en": {
+      "nomi": "How is a power of attorney notarized and for what term is it issued?",
+      "tavsif": "A power of attorney is issued for a term of no more than 3 years, and if no term is specified it is valid for 1 year; powers of attorney to dispose of real estate and vehicles are notarized, and the presence of the authorized representative is not required. Certain powers of attorney — for receiving wages, pension, benefits, or correspondence — may also be certified by an organization, a mahalla citizens' assembly, or hospital administration. Certification is refused if the power of attorney violates the law or the documents do not meet the requirements.",
+      "muammolar": [
+        "For how many years is a power of attorney issued?",
+        "Where is a power of attorney for a vehicle drawn up?",
+        "Who can certify a power of attorney to collect a pension?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Portal: e-notarius.uz; Ministry of Justice trust line: 1008 · Civil Code; Law \"On Notaries\""
+    }
+  },
+  "savol-javob.avto-sotish-notariusga-bormasdan": {
+    "ru": {
+      "nomi": "Можно ли продать автомобиль онлайн без обращения в нотариальную контору?",
+      "tavsif": "Можно: на портале e-notarius.uz продавец выбирает автомобиль и указывает цену, вводит ПИНФЛ покупателя, серию документа и телефон; покупатель проходит верификацию Face-ID по SMS-ссылке и даёт согласие. Выбранный нотариус в назначенное время оформляет сделку по видеоконференцсвязи, оригиналы договора направляются сторонам курьером или почтой.",
+      "muammolar": [
+        "Можно ли продать машину онлайн?",
+        "Как переоформить автомобиль на покупателя из другой области?",
+        "Порядок продажи автомобиля через e-notarius"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Портал: e-notarius.uz · не указано"
+    },
+    "en": {
+      "nomi": "Can a car be sold online without visiting a notary office?",
+      "tavsif": "Yes: on the e-notarius.uz portal, the seller selects the car and sets a price, then enters the buyer's PINFL, document series, and phone number; the buyer completes Face-ID verification via an SMS link and gives consent. The chosen notary finalizes the deal by videoconference at a set time, and the original contracts are sent to the parties by courier or mail.",
+      "muammolar": [
+        "Can a car be sold online?",
+        "How do I transfer a car to a buyer from another region?",
+        "Procedure for selling a car via e-notarius"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Portal: e-notarius.uz · not specified"
+    }
+  },
+  "savol-javob.notarial-davlat-boji-miqdorlari": {
+    "ru": {
+      "nomi": "Какая государственная пошлина уплачивается при переоформлении жилья и автотранспорта?",
+      "tavsif": "За удостоверение договоров о недвижимости в Ташкенте, Нукусе и областных центрах уплачивается размер БРВ, в остальных населённых пунктах — 50 процентов. За договор купли-продажи автомобиля — 3-кратный размер БРВ, за мототранспорт — 25 процентов; за доверенность на управление автомобилем близким родственникам — 50 процентов БРВ, иным лицам — 2-кратный размер. За договор аренды близким родственникам — 10 процентов БРВ, физическим лицам — 25 процентов, юридическим — 50 процентов; за залог/ипотеку физическим лицам — размер БРВ, юридическим — 2-кратный.",
+      "muammolar": [
+        "Сколько платится нотариусу при купле-продаже квартиры?",
+        "Какая госпошлина при переоформлении машины?",
+        "Стоимость удостоверения договора аренды квартиры"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Платежи исчисляются от БРВ (базовой расчётной величины) · Закон Республики Узбекистан от 06.12.2022 № ЗРУ-808 (О государственной пошлине)"
+    },
+    "en": {
+      "nomi": "How much state fee is charged for transferring housing and vehicles?",
+      "tavsif": "For certifying real estate contracts in Tashkent, Nukus, and regional centers, the fee equals the BCU; in other localities, 50 percent of the BCU. For a car sale contract, the fee is 3 times the BCU, and 25 percent of the BCU for mopeds/motorcycles; a power of attorney for driving a car costs 50 percent of the BCU for close relatives and 2 times the BCU for others. A lease agreement costs 10 percent of the BCU for close relatives, 25 percent for individuals, and 50 percent for legal entities; a pledge/mortgage costs 1 times the BCU for individuals and 2 times for legal entities.",
+      "muammolar": [
+        "How much is paid to the notary for a home sale?",
+        "What is the state fee for transferring a car?",
+        "Cost of certifying an apartment lease agreement"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Fees are calculated based on the base calculation unit (BCU) · Law of the Republic of Uzbekistan No. ZRU-808 of 06.12.2022 (On the State Fee)"
+    }
+  },
+  "savol-javob.qonun-boyicha-meros-guvohnomasi": {
+    "ru": {
+      "nomi": "Как получить свидетельство о праве на наследство по закону?",
+      "tavsif": "Свидетельство выдаётся нотариальной конторой по истечении 6 месяцев со дня открытия наследства. Требуются паспорт, свидетельство о смерти наследодателя, справка о его постоянном месте жительства, документы, подтверждающие состав наследственного имущества, а также свидетельства о рождении/браке наследников. Согласно Налоговому кодексу в отдельных случаях может быть предоставлено освобождение от государственной пошлины.",
+      "muammolar": [
+        "Умер отец, как оформить наследство?",
+        "Когда выдаётся свидетельство о наследстве?",
+        "Какие документы нести нотариусу для оформления наследства?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Портал: e-notarius.uz · Гражданский кодекс; Семейный кодекс; законы «О нотариате» и «О государственной пошлине»"
+    },
+    "en": {
+      "nomi": "How is a certificate of the right to inherit by law obtained?",
+      "tavsif": "The certificate is issued by a notary office once 6 months have passed since the inheritance was opened. Required documents include a passport, the decedent's death certificate, a certificate of their permanent residence, documents confirming the composition of the estate, and the heirs' birth/marriage certificates. Under the Tax Code, exemption from the state fee may be available in certain cases.",
+      "muammolar": [
+        "My father died, how do I arrange the inheritance?",
+        "When is an inheritance certificate issued?",
+        "What documents should be brought to the notary for inheritance?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Portal: e-notarius.uz · Civil Code; Family Code; Laws \"On Notaries\" and \"On the State Fee\""
+    }
+  },
+  "savol-javob.chet-eldan-notarial-bitim": {
+    "ru": {
+      "nomi": "Можно ли оформить нотариальные сделки, находясь за границей?",
+      "tavsif": "С 1 марта 2024 года лица, находящиеся за рубежом, могут оформлять сделки, связанные с имуществом (кроме передачи права собственности), без личной явки в нотариальную контору — с использованием электронной цифровой подписи и видеоконференцсвязи. Запрашивать у заявителей дополнительные документы через автоматизированную информационную систему «Нотариус» запрещено.",
+      "muammolar": [
+        "Работаю в России, нужно оформить доверенность по делам в Узбекистане",
+        "Как воспользоваться услугами нотариуса, находясь за границей",
+        "Можно ли оформить документ без визита в консульство?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Через АИС «Нотариус» и видеоконференцсвязь; требуется ЭЦП · Указ Президента от 11.09.2023 № ПФ-158"
+    },
+    "en": {
+      "nomi": "Can notarized transactions be arranged while staying abroad?",
+      "tavsif": "As of 1 March 2024, persons abroad may arrange property-related transactions (other than transfer of title) without a personal visit to a notary office, using an electronic digital signature and videoconferencing. Requesting additional documents from applicants through the \"Notarius\" automated information system is prohibited.",
+      "muammolar": [
+        "I work in Russia and need a power of attorney for matters in Uzbekistan",
+        "How to use notary services while staying abroad",
+        "Can a document be issued without visiting the consulate?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Via the \"Notarius\" AIS and videoconferencing; a digital signature is required · Presidential Decree No. PF-158 of 11.09.2023"
+    }
+  },
+  "savol-javob.meros-imtiyozli-huquq": {
+    "ru": {
+      "nomi": "Кто имеет преимущественное право при получении наследства?",
+      "tavsif": "Согласно статье 1153 Гражданского кодекса, при разделе неделимого имущества в составе наследства (например, дома, автомобиля) преимущественное право имеют наследники, постоянно проживавшие совместно с наследодателем на момент его смерти и желающие продолжать проживать там же.",
+      "muammolar": [
+        "Жил вместе с отцом в доме, есть ли у меня преимущество при разделе наследства?",
+        "Кто первым получает наследственный дом?",
+        "Как делится неделимое имущество в наследстве?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Следует обратиться в нотариальную контору · Гражданский кодекс, статья 1153"
+    },
+    "en": {
+      "nomi": "Who has priority rights when receiving an inheritance?",
+      "tavsif": "Under Article 1153 of the Civil Code, when indivisible property in an estate (such as a house or a car) is being divided, priority goes to heirs who permanently lived with the decedent at the time of death and wish to continue living there.",
+      "muammolar": [
+        "I lived with my father in his house — do I have priority in dividing the inheritance?",
+        "Who receives the inherited house first?",
+        "How is indivisible property in an inheritance divided?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Application is made to the notary office · Civil Code, Article 1153"
+    }
+  },
+  "savol-javob.muddatli-harbiy-xizmat": {
+    "ru": {
+      "nomi": "Что такое срочная военная служба и сколько она длится?",
+      "tavsif": "Срочная военная служба — обязательная служба граждан призывного возраста на должностях рядовых и сержантов в Вооружённых Силах, продолжительностью 12 месяцев в календарном исчислении. Порядок определяется Законом «О всеобщей воинской обязанности и военной службе».",
+      "muammolar": [
+        "Сколько месяцев длится армейская служба?",
+        "Какова продолжительность срочной службы?",
+        "Кто призывается на военную службу?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Текст нормативных документов: lex.uz · Закон Республики Узбекистан от 12.12.2002 № 436-II"
+    },
+    "en": {
+      "nomi": "What is mandatory fixed-term military service and how long does it last?",
+      "tavsif": "Fixed-term military service is the mandatory service of citizens of conscription age in enlisted and sergeant positions in the Armed Forces, lasting 12 calendar months. It is governed by the Law \"On Universal Military Duty and Military Service\".",
+      "muammolar": [
+        "How many months does army service last?",
+        "What is the duration of fixed-term service?",
+        "Who is conscripted into military service?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Legislative texts: lex.uz · Law of the Republic of Uzbekistan No. 436-II of 12.12.2002"
+    }
+  },
+  "savol-javob.harbiy-xizmatga-chaqirilish": {
+    "ru": {
+      "nomi": "Когда и как проводится призыв на срочную военную службу?",
+      "tavsif": "Призыв проводится один раз в год в марте-апреле в соответствии с постановлением Президента, которое публикуется в СМИ не менее чем за месяц до начала призыва. Призывник обязан явиться на призывной пункт в срок, указанный в повестке; болезнь, смерть или тяжёлая болезнь близкого родственника, стихийное бедствие признаются уважительными причинами. Лица, имеющие право на отсрочку/освобождение, а также находящиеся под следствием или по уголовному делу, не призываются.",
+      "muammolar": [
+        "Когда начинается призыв?",
+        "Что делать, если пришла повестка?",
+        "Каковы последствия неявки в военкомат?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Обращение в орган по делам обороны по месту жительства · Закон «О всеобщей воинской обязанности и военной службе»; Постановление Кабинета Министров от 22.02.2003 № 99"
+    },
+    "en": {
+      "nomi": "When and how is conscription for fixed-term military service carried out?",
+      "tavsif": "Conscription is carried out once a year in March-April in accordance with a presidential resolution, published in the media at least one month before it begins. A conscript must report to the recruitment center by the time stated in the summons; illness, the death or serious illness of a close relative, and natural disaster are recognized as valid reasons. Persons entitled to deferment/exemption, as well as those under investigation or facing criminal charges, are not conscripted.",
+      "muammolar": [
+        "When does conscription begin?",
+        "What should I do if I receive a summons?",
+        "What are the consequences of failing to appear at the recruitment office?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Application is made to the defense affairs office at the place of residence · Law \"On Universal Military Duty and Military Service\"; Cabinet of Ministers Resolution No. 99 of 22.02.2003"
+    }
+  },
+  "savol-javob.harbiy-xizmatni-kechiktirish": {
+    "ru": {
+      "nomi": "Кому предоставляется отсрочка от призыва на военную службу?",
+      "tavsif": "Отсрочка предоставляется решением территориальной комиссии на основании семейных обстоятельств, состояния здоровья или продолжения обучения: если родители нетрудоспособны, один из братьев/сестёр уже проходит службу, есть ребёнок, воспитываемый без матери, либо жена-инвалид и двое и более несовершеннолетних детей. Учащиеся среднего специального/профессионального образования и студенты очной формы вузов получают отсрочку до окончания учёбы. Лица, признанные негодными к военной службе, братья/сёстры которых погибли на службе, а также руководители зарегистрированных религиозных организаций освобождаются от службы в мирное время.",
+      "muammolar": [
+        "Учусь, заберут ли меня в армию?",
+        "Каковы условия получения отсрочки от службы?",
+        "Можно ли получить отсрочку из-за больного родителя?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Решение принимает территориальная призывная комиссия · Закон «О всеобщей воинской обязанности и военной службе»; Постановление Кабинета Министров от 22.02.2003 № 99"
+    },
+    "en": {
+      "nomi": "Who is granted a deferment from conscription into military service?",
+      "tavsif": "A deferment is granted by decision of the territorial commission based on family circumstances, health, or continuing education: if a conscript's parents are unable to work, a sibling is already serving, they have a child being raised without a mother, or a disabled wife and two or more minor children. Students of secondary specialized/vocational education and full-time university students are deferred until they finish their studies. Persons found unfit for military service, those whose siblings died in service, and heads of registered religious organizations are exempt from service in peacetime.",
+      "muammolar": [
+        "I'm studying, will I be drafted into the army?",
+        "What are the conditions for getting a service deferment?",
+        "Can I get a deferment because of a sick parent?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "The decision is made by the territorial conscription commission · Law \"On Universal Military Duty and Military Service\"; Cabinet of Ministers Resolution No. 99 of 22.02.2003"
+    }
+  },
+  "savol-javob.kontrakt-harbiy-xizmat": {
+    "ru": {
+      "nomi": "Каковы требования для поступления на военную службу по контракту?",
+      "tavsif": "На должности рядового и сержантского состава принимаются военнообязанные и женщины в возрасте до 30 лет, в офицерский состав — офицеры запаса/резерва в возрасте до 40 лет; в военные высшие учебные заведения на должности курсантов принимаются лица 17-23 лет. При поступлении проходится обязательный медицинский осмотр и заключается контракт с государством.",
+      "muammolar": [
+        "До какого возраста принимают на контрактную службу?",
+        "Могут ли женщины служить в армии по контракту?",
+        "Какой возраст для поступления в военный институт?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Обращение в орган по делам обороны по месту жительства · Закон «О всеобщей воинской обязанности и военной службе»"
+    },
+    "en": {
+      "nomi": "What are the requirements for entering contract-based military service?",
+      "tavsif": "Persons liable for military duty and women up to age 30 are admitted to enlisted and sergeant positions, while reserve officers up to age 40 are admitted to the officer corps; military higher education institutions admit cadets aged 17–23. Admission involves a mandatory medical examination and the signing of a contract with the state.",
+      "muammolar": [
+        "Up to what age are people admitted to contract service?",
+        "Can women serve in the army under contract?",
+        "What is the admission age for a military institute?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Application is made to the defense affairs office at the place of residence · Law \"On Universal Military Duty and Military Service\""
+    }
+  },
+  "savol-javob.muqobil-xizmat": {
+    "ru": {
+      "nomi": "Что такое альтернативная служба и кто её проходит?",
+      "tavsif": "Альтернативная служба — это выполнение гражданами в возрасте 18-27 лет, состоящими на воинском учёте, чья религия не допускает применения оружия, работы в экономической и социальной сферах вместо военной службы. Срок службы для лиц без высшего образования — 24 месяца, для лиц с высшим образованием — 18 месяцев; 80 процентов заработной платы выплачивается служащему, 20 процентов перечисляется в республиканский бюджет.",
+      "muammolar": [
+        "Моя религия не позволяет держать оружие, чем заменить армию?",
+        "Сколько месяцев длится альтернативная служба?",
+        "Выплачивается ли зарплата на альтернативной службе?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Порядок прохождения устанавливается Президентом · Закон № 436-II (12.12.2002); Постановление Президента от 12.09.2019 № ПП-4447"
+    },
+    "en": {
+      "nomi": "What is alternative service and who performs it?",
+      "tavsif": "Alternative service is work in the economic and social sphere performed instead of military service by citizens aged 18–27 on the military register whose religious beliefs do not permit bearing arms. The term is 24 months for those without higher education and 18 months for those with higher education; 80 percent of the wage is paid to the servant, and 20 percent is transferred to the republican budget.",
+      "muammolar": [
+        "My religion doesn't allow me to bear arms, what can I do instead of the army?",
+        "How many months does alternative service last?",
+        "Is a salary paid during alternative service?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "The procedure for performing it is established by the President · Law No. 436-II (12.12.2002); Presidential Resolution No. PP-4447 of 12.09.2019"
+    }
+  },
+  "savol-javob.migrant-yol-chiptasi-kompensatsiya": {
+    "ru": {
+      "nomi": "Какие компенсации предоставляются гражданам, выезжающим на трудовую миграцию?",
+      "tavsif": "Организованным трудовым мигрантам, зарегистрированным в программе «Работа за рубежом», предоставляются компенсации: до 3-кратного размера БРВ на экзамены по языку/профессии (при условии получения сертификата), до 5-кратного размера БРВ на оформление рабочей визы и до 2-кратного размера БРВ на проезд. Для граждан, включённых в социальный реестр, предусмотрена субсидия на страхование жизни до 300 тысяч сум в год, а для тех, чьи права нарушены за рубежом, — компенсация расходов на адвокатские услуги.",
+      "muammolar": [
+        "Еду на заработки за границу, компенсирует ли государство авиабилет?",
+        "Кто оплачивает расходы на рабочую визу?",
+        "Какие льготы предусмотрены для мигрантов?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Оформляется через Агентство по вопросам внешней трудовой миграции и программу «Работа за рубежом» · Указ Президента от 04.04.2024 № ПФ-59"
+    },
+    "en": {
+      "nomi": "What compensation is available to citizens leaving for labor migration?",
+      "tavsif": "Organized labor migrants registered in the \"Work Abroad\" program receive compensation of up to 3 times the BCU for language/profession exams (subject to obtaining a certificate), up to 5 times the BCU for arranging a work visa, and up to 2 times the BCU for travel. Citizens listed in the social register are entitled to a life-insurance subsidy of up to 300,000 soums per year, and those whose rights have been violated abroad may receive compensation for legal counsel expenses.",
+      "muammolar": [
+        "I'm going abroad to work — will the state cover my airfare?",
+        "Who pays for work visa costs?",
+        "What benefits are available for migrants?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Arranged through the Agency for External Labor Migration and the \"Work Abroad\" program · Presidential Decree No. PF-59 of 04.04.2024"
+    }
+  },
+  "savol-javob.rossiyada-patent-olish": {
+    "ru": {
+      "nomi": "Как оформить патент для работы в России?",
+      "tavsif": "Патент даёт иностранному гражданину право работать у физического или юридического лица и действует только в указанном регионе и по указанной профессии; в миграционной карте цель въезда должна быть указана как «РАБОТА». Патент выдаётся на срок от 1 до 12 месяцев, оплата производится авансом, по истечении 12 месяцев его можно однократно переоформить, не выезжая из России. За работу без патента или за пределами указанного региона предусмотрен штраф до 7 тысяч рублей, депортация и запрет на въезд на срок 5-10 лет.",
+      "muammolar": [
+        "Что будет, если работать в России без патента?",
+        "На сколько месяцев выдаётся патент и сколько он стоит?",
+        "Какой документ нужен для работы в Москве?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Оформляется в миграционных подразделениях МВД России · Миграционное законодательство Российской Федерации"
+    },
+    "en": {
+      "nomi": "How is a patent obtained to work in Russia?",
+      "tavsif": "A patent gives a foreign citizen the right to work for an individual or a legal entity and is valid only in the specified region and profession; the entry purpose on the migration card must be marked \"RABOTA\" (work). The patent is issued for 1 to 12 months, paid in advance, and after 12 months it may be renewed once without leaving Russia. Working without a patent or outside the specified region carries a fine of up to 7,000 rubles, deportation, and an entry ban of 5–10 years.",
+      "muammolar": [
+        "What happens if I work in Russia without a patent?",
+        "For how many months is a patent issued and how much does it cost?",
+        "What document is needed to work in Moscow?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Issued by the migration departments of the Russian Ministry of Internal Affairs · Migration legislation of the Russian Federation"
+    }
+  },
+  "savol-javob.koreya-ish-vizasi": {
+    "ru": {
+      "nomi": "Как получить рабочую визу в Республику Корея?",
+      "tavsif": "Основной вид — многократная виза H-2, по которой можно работать в Корее 3 года и оставаться в общей сложности до 4 лет 10 месяцев; для работы в сельском хозяйстве, рыболовстве и на производстве требуется специальное обучение. Заявление, фотография, государственная пошлина, свидетельство о рождении, заграничный паспорт и документы, подтверждающие семейные связи, подаются в посольство Республики Корея в Узбекистане.",
+      "muammolar": [
+        "Как поехать работать в Корею?",
+        "Что такое виза H-2 и на сколько лет она выдаётся?",
+        "Какие документы подаются для получения корейской визы?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Через посольство Республики Корея в Ташкенте · не указано"
+    },
+    "en": {
+      "nomi": "How can a South Korean work visa be obtained?",
+      "tavsif": "The main type is the H-2 multiple-entry visa, which allows working in Korea for 3 years and staying for up to 4 years and 10 months in total; special training is required to work in agriculture, fishing, and manufacturing. An application, photo, state fee, birth certificate, foreign travel passport, and documents confirming family ties are submitted to the Embassy of the Republic of Korea in Uzbekistan.",
+      "muammolar": [
+        "How do I go to work in Korea?",
+        "What is the H-2 visa and how many years is it valid for?",
+        "What documents are submitted for a Korean visa?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Through the Embassy of the Republic of Korea in Tashkent · not specified"
+    }
+  },
+  "savol-javob.qaytish-guvohnomasi-olish": {
+    "ru": {
+      "nomi": "Как получить свидетельство на возвращение в Узбекистан, если паспорт утерян за рубежом?",
+      "tavsif": "Свидетельство на возвращение выдаётся дипломатическими и консульскими учреждениями Узбекистана за рубежом гражданам, чей паспорт непригоден, просрочен или утерян, и действует от 1 до 3 месяцев. Требуются старый паспорт или его копия, 2 цветные фотографии (35x45 мм), электронная анкета-заявление и квитанция об оплате; консульский сбор для взрослых составляет 50 долларов США плюс 5 долларов административных расходов, дети от оплаты освобождены.",
+      "muammolar": [
+        "Потерял паспорт в России, как вернуться домой?",
+        "Сколько стоит сертификат на возвращение на родину?",
+        "Как получить временный документ в консульстве?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Консульские учреждения МИД; тел.: +74992300076, +74992383620 · не указано"
+    },
+    "en": {
+      "nomi": "How is a certificate for return to Uzbekistan obtained if a passport is lost abroad?",
+      "tavsif": "A return certificate is issued by Uzbekistan's diplomatic and consular offices abroad to citizens whose passport is unusable, expired, or lost, and is valid for 1 to 3 months. Required documents: the old passport or a copy, 2 color photos (35x45 mm), an electronic application form, and a payment receipt; the consular fee for adults is $50 plus $5 in administrative costs, and children are exempt from payment.",
+      "muammolar": [
+        "I lost my passport in Russia, how do I get back home?",
+        "How much does a return-to-homeland certificate cost?",
+        "How do I get a temporary document at the consulate?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Ministry of Foreign Affairs consular offices; tel: +74992300076, +74992383620 · not specified"
+    }
+  },
+  "savol-javob.rossiya-kirish-taqiqini-bekor-qilish": {
+    "ru": {
+      "nomi": "Как можно отменить запрет на въезд в Россию?",
+      "tavsif": "Запрет устанавливается на 3 года за 2 и более случаев привлечения к административной ответственности, за пребывание свыше 90 дней в течение каждых 180 дней, либо за невыезд в течение 30 дней после окончания срока пребывания; за депортацию — на 5-10 лет. Для отмены запрета обращаются в Департамент по вопросам миграции МВД России или в суд; серьёзным основанием считаются супруг(а)-гражданин(ка) России, проживающие там дети, постоянное место жительства, социально значимая работа или действующее разрешение.",
+      "muammolar": [
+        "Мне запрещён въезд в Россию, как его снять?",
+        "Как проверить наличие запрета?",
+        "Когда можно въехать после депортации?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Онлайн-обращение: mvd.rf (МВД России) · Миграционное законодательство Российской Федерации"
+    },
+    "en": {
+      "nomi": "How can an entry ban to Russia be lifted?",
+      "tavsif": "A 3-year ban is imposed for 2 or more administrative offenses, for staying more than 90 days within any 180-day period, or for failing to leave within 30 days after the stay expires; deportation carries a 5–10 year ban. To lift the ban, one applies to the Migration Department of the Russian Ministry of Internal Affairs or to a court; a serious ground includes having a Russian-citizen spouse, children residing there, permanent residence, socially significant employment, or a valid permit.",
+      "muammolar": [
+        "I'm banned from entering Russia, how do I get it lifted?",
+        "How do I check whether a ban is in place?",
+        "When can I enter again after deportation?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Online application: mvd.rf (Russian Ministry of Internal Affairs) · Migration legislation of the Russian Federation"
+    }
+  },
+  "savol-javob.qozogistonda-ishlash-ruxsatnomasi": {
+    "ru": {
+      "nomi": "Как оформить разрешение на работу в Казахстане?",
+      "tavsif": "Гражданин Узбекистана может въехать по национальному паспорту и находиться без разрешения до 30 дней; для трудоустройства заключается трудовой договор с работодателем и подаётся обращение в Центр государственных услуг (ЦОН) по месту временного проживания, а также оформляется РНН (налоговый номер). Требуются паспорт, заявление, квитанция об уплате подоходного налога, справка о медицинском осмотре, отпечатки пальцев/фотография и медицинская страховка; разрешение выдаётся на срок до 3 месяцев и может быть продлено до 1 года.",
+      "muammolar": [
+        "Какие документы нужны для работы в Казахстане?",
+        "Сколько дней можно находиться в Казахстане без регистрации?",
+        "Как оформить рабочий патент в Казахстане?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Портал государственных услуг Казахстана: egov.kz · Миграционное законодательство Республики Казахстан"
+    },
+    "en": {
+      "nomi": "How is a work permit obtained in Kazakhstan?",
+      "tavsif": "A citizen of Uzbekistan may enter with a national passport and stay up to 30 days without a permit; to work, one signs an employment contract with the employer, applies to the Public Service Center at the temporary place of residence, and obtains an RNN (taxpayer number). Required documents: passport, application, income tax payment receipt, medical examination certificate, fingerprints/photo, and health insurance; the permit is issued for up to 3 months and may be extended up to 1 year.",
+      "muammolar": [
+        "What documents are needed to work in Kazakhstan?",
+        "How many days can I stay in Kazakhstan without registration?",
+        "How is a work patent obtained in Kazakhstan?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Kazakhstan public services portal: egov.kz · Migration legislation of the Republic of Kazakhstan"
+    }
+  },
+  "savol-javob.uy-joy-sotib-olish-tartibi": {
+    "ru": {
+      "nomi": "Каков порядок приобретения жилья гражданами?",
+      "tavsif": "Договор купли-продажи жилья должен быть нотариально удостоверен, для чего следует обратиться в государственную нотариальную контору. Порядок оформления, необходимые документы и подлежащие уплате сборы уточняются непосредственно в нотариальной конторе. Отношения регулируются Гражданским, Жилищным, Земельным кодексами и Кодексом о градостроительстве.",
+      "muammolar": [
+        "Хочу купить дом, с чего начать?",
+        "Как оформить куплю-продажу квартиры?",
+        "Обязательно ли обращаться к нотариусу при покупке жилья?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Подробности нотариального оформления: advice.uz/uz/document/1966 · Гражданский, Жилищный, Земельный кодексы и Кодекс о градостроительстве Республики Узбекистан"
+    },
+    "en": {
+      "nomi": "What is the procedure for citizens to purchase housing?",
+      "tavsif": "A housing sale-purchase contract must be notarized, requiring an application to a state notary office. The registration procedure, required documents, and applicable fees are clarified directly at the notary office. These relations are governed by the Civil, Housing, and Land Codes and the Urban Planning Code.",
+      "muammolar": [
+        "I want to buy a house, where do I start?",
+        "How do I arrange the sale-purchase of an apartment?",
+        "Is a notary visit mandatory when buying housing?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Details on notarization: advice.uz/uz/document/1966 · Civil Code, Housing Code, Land Code and Urban Planning Code of the Republic of Uzbekistan"
+    }
+  },
+  "savol-javob.uy-joy-subsidiya-olish": {
+    "ru": {
+      "nomi": "Как получить государственную субсидию на приобретение жилья?",
+      "tavsif": "Субсидия — это бюджетные средства для покрытия части первоначального взноса по ипотеке и процентов по кредиту; её получают граждане в возрасте 18-60 лет с доходом, не превышающим установленный порог (в областях — 2,7-8-кратный размер минимальной заработной платы, в Ташкенте — 2,7-9,2-кратный). Заявление подаётся в Центр государственных услуг или через my.gov.uz (услуга № 325). Первоначальный взнос покрывается на сумму до 32 млн сум, часть процентной ставки свыше 10 процентных пунктов компенсируется в течение первых 5 лет; оценка занимает 7 рабочих дней, решение комиссии — 3 дня.",
+      "muammolar": [
+        "Как получить субсидию на ипотеку?",
+        "Есть ли государственная помощь в покупке жилья?",
+        "Не хватает денег на первоначальный взнос, можно ли получить субсидию?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "my.gov.uz/uz/service/325 или любой Центр государственных услуг · не указано"
+    },
+    "en": {
+      "nomi": "How can a state subsidy for purchasing housing be obtained?",
+      "tavsif": "The subsidy is budget funding to cover part of the mortgage down payment and loan interest; it is available to citizens aged 18–60 whose income does not exceed the set threshold (2.7–8 times the minimum wage in the regions, 2.7–9.2 times in Tashkent). The application is submitted to a Public Services Center or via my.gov.uz (service No. 325). Up to 32 million soums of the down payment is covered, and the portion of the interest rate exceeding 10 percentage points is compensated for the first 5 years; the assessment takes 7 business days, and the commission's decision takes 3 days.",
+      "muammolar": [
+        "How do I get a mortgage subsidy?",
+        "Is there state assistance for buying housing?",
+        "I don't have enough for the down payment, can I get a subsidy?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "my.gov.uz/uz/service/325 or any Public Services Center · not specified"
+    }
+  },
+  "savol-javob.kvartirani-xususiylashtirish": {
+    "ru": {
+      "nomi": "Каков порядок приватизации квартиры из государственного жилищного фонда?",
+      "tavsif": "Приватизация происходит двумя способами: бесплатная передача квартиры отдельным категориям граждан или продажа государственных квартир; заявление подаётся в районный (городской) хокимият или организацию-владельца жилья и рассматривается до 2 месяцев. Право на приватизацию предоставляется каждому лицу только один раз. Служебные квартиры, жильё в военных городках и дома-музеи приватизации не подлежат; требуются копия решения, паспорт, домовая книга, справка о льготе.",
+      "muammolar": [
+        "Можно ли переоформить государственную квартиру на своё имя?",
+        "Куда обращаться для приватизации квартиры?",
+        "Какие документы нужны для приватизации?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Заявление — в хокимият района (города) или администрацию организации-владельца · не указано"
+    },
+    "en": {
+      "nomi": "What is the procedure for privatizing an apartment from the state housing fund?",
+      "tavsif": "Privatization takes place in two ways: free transfer of an apartment to certain categories of citizens, or purchase of state apartments; the application is submitted to the district (city) khokimiyat or the organization that owns the housing and is reviewed within up to 2 months. The right to privatize is granted to each person only once. Service apartments, housing in military settlements, and house-museums are not subject to privatization; required documents include a copy of the decision, passport, house register, and benefit certificate.",
+      "muammolar": [
+        "Can a state apartment be transferred to my own name?",
+        "Where do I apply to privatize an apartment?",
+        "What documents are needed for privatization?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Application is submitted to the district (city) khokimiyat or to the administration of the owning organization · not specified"
+    }
+  },
+  "savol-javob.davlat-ehtiyoji-uchun-yer-ajratish": {
+    "ru": {
+      "nomi": "Как выделяется земельный участок для государственных и общественных нужд?",
+      "tavsif": "Заказчик подаёт заявку на выделение земли в Совет Министров Каракалпакстана, хокимият области или города Ташкента; в комплект материалов входят сведения об участке, топографический план размещения (М 1:500-1:1000), схема смежных участков и заключение о воздействии на окружающую среду. После согласования с уполномоченными организациями решение принимается в течение 2 дней через систему «Электронное решение».",
+      "muammolar": [
+        "Мою землю хотят изъять для государственных нужд, каков порядок?",
+        "Как оформляется выделение земельного участка?",
+        "Как решается земельный вопрос через систему «Электронное решение»?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "Решение принимается через систему «Электронное решение» · Постановление Кабинета Министров от 27.08.2021 № 543"
+    },
+    "en": {
+      "nomi": "How is a land plot allocated for state and public needs?",
+      "tavsif": "The applicant submits a request for land allocation to the Council of Ministers of Karakalpakstan, a regional khokimiyat, or the Tashkent city khokimiyat; the materials include information about the plot, a topographic siting plan (scale 1:500–1:1000), a plan of adjacent plots, and an environmental impact statement. After coordination with the authorized organizations, the decision is made within 2 days through the \"E-Qaror\" (electronic decision) system.",
+      "muammolar": [
+        "My land is being taken for state needs, what is the procedure?",
+        "How is land plot allocation arranged?",
+        "How is a land issue resolved through the E-Qaror system?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "The decision is made through the \"E-Qaror\" (electronic decision) system · Cabinet of Ministers Resolution No. 543 of 27.08.2021"
+    }
+  },
+  "savol-javob.mol-mulk-davlat-boji": {
+    "ru": {
+      "nomi": "Какая государственная пошлина уплачивается при приобретении недвижимого имущества?",
+      "tavsif": "При переоформлении недвижимости на близких родственников (супруг(а), родители, дети, внуки, бабушка-дедушка, братья-сёстры) государственная пошлина взимается в размере 50 процентов от установленной ставки. При покупке иностранными гражданами вновь построенного жилья в городе Ташкенте и Ташкентской области (стоимостью не менее 3300-кратного размера БРВ) пошлина составляет 10 процентов от суммы договора.",
+      "muammolar": [
+        "Сколько составляет пошлина при переоформлении дома от отца?",
+        "Сколько стоит переоформление квартиры на родственника?",
+        "Какую пошлину платит иностранец при покупке жилья?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "не указано · Закон Республики Узбекистан «О государственной пошлине»"
+    },
+    "en": {
+      "nomi": "How much is the state fee for purchasing real estate?",
+      "tavsif": "When real estate is transferred to close relatives (spouse, parents, children, grandchildren, grandparents, siblings), the state fee is charged at 50 percent of the established rate. When foreign citizens purchase newly built housing in Tashkent city and Tashkent region (valued at no less than 3,300 times the BCU), the fee is 10 percent of the contract amount.",
+      "muammolar": [
+        "How much is the fee for transferring a house from a father?",
+        "How much does transferring an apartment to a relative cost?",
+        "What fee does a foreigner pay when buying housing?"
+      ],
+      "qadamlar": [],
+      "hujjatlar": [],
+      "muddat": "",
+      "narx": "",
+      "aloqa": "",
+      "kimlar_uchun": "",
+      "idora": "",
+      "qoshimcha": "not specified · Law of the Republic of Uzbekistan \"On the State Fee\""
+    }
+  }
+}

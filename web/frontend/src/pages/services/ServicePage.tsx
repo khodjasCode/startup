@@ -1,4 +1,4 @@
-import { useCallback } from 'react'
+import { useCallback, useMemo } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 
 import { useChat } from '@features/chat'
@@ -6,6 +6,7 @@ import { fetchXizmat } from '@features/catalog'
 import { useI18n } from '@shared/i18n'
 import type { TranslationKey } from '@shared/i18n'
 import { dataLabel } from '@shared/lib/dataLabels'
+import { localizeXizmat } from '@shared/lib/localizeContent'
 import { useAsync } from '@shared/lib/useAsync'
 import { Loading, LoadError } from '@shared/ui/AsyncState'
 import { Icon } from '@shared/ui/Icon'
@@ -29,7 +30,9 @@ export function ServicePage() {
   const navigate = useNavigate()
 
   const fetcher = useCallback((signal: AbortSignal) => fetchXizmat(id, signal), [id])
-  const { data, loading, error } = useAsync(fetcher, [id])
+  const { data: xom, loading, error } = useAsync(fetcher, [id])
+  // Ru/en tanlanganda backend tayyorlagan tarjima ko'rsatiladi (bo'lsa).
+  const data = useMemo(() => (xom ? localizeXizmat(xom, locale) : null), [xom, locale])
 
   // Qaysi yo'ldan kelgan bo'lsa (kategoriya, qidiruv, chat) — o'sha yerga
   // qaytaradi; tarix bo'lmasa (havola to'g'ridan-to'g'ri ochilgan bo'lsa)

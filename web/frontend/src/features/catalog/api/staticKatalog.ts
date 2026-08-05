@@ -100,6 +100,7 @@ export const staticKatalog = {
           javob: y.tavsif,
           izoh: y.qoshimcha,
           url: y.url,
+          i18n: y.i18n,
         })),
       }))
 

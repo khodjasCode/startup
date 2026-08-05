@@ -1,0 +1,602 @@
+{
+  "bilim-bazasi.elektr-uzilishi": {
+    "ru": {
+      "nomi": "Дома или в махалле часто отключается электроэнергия, нет света, электричество пропадает, низкое напряжение…",
+      "tavsif": "Дома или в махалле часто отключается электроэнергия, нет света, электричество пропадает, низкое напряжение",
+      "muammolar": [
+        "свет",
+        "электричество",
+        "ток",
+        "свет отключился",
+        "света нет",
+        "перебои с электричеством",
+        "напряжение",
+        "напряжения"
+      ],
+      "qadamlar": [
+        "Сначала позвоните в call-центр и уточните, не является ли это аварийным или плановым отключением",
+        "Если проблема повторяется — оставьте письменное/онлайн-обращение и сохраните номер обращения",
+        "Если ответа нет — эскалируйте обращение в хокимият или на pm.gov.uz"
+      ],
+      "hujjatlar": [
+        "Номер абонента (лицевого счёта)",
+        "адрес"
+      ],
+      "muddat": "Согласно закону об обращениях граждан — 15–30 дней (уточняется)",
+      "narx": "",
+      "aloqa": "телефон: 1000 (единый call-центр) — ТРЕБУЕТ УТОЧНЕНИЯ; онлайн: обращение через my.gov.uz или официальный Telegram-бот предприятия; лично: абонентский отдел районных электросетей",
+      "kimlar_uchun": "",
+      "idora": "Территориальное предприятие электрических сетей (районные/городские электросети)",
+      "qoshimcha": "Хокимият района → Министерство энергетики → Виртуальная приёмная Президента (pm.gov.uz, тел.: 1000)"
+    },
+    "en": {
+      "nomi": "Frequent power outages at home or in the neighborhood, no electricity, power supply interrupted, low voltage…",
+      "tavsif": "Frequent power outages at home or in the neighborhood, no electricity, power supply interrupted, low voltage",
+      "muammolar": [
+        "power",
+        "electricity",
+        "current",
+        "lights out",
+        "no electricity",
+        "power outage",
+        "voltage",
+        "low voltage"
+      ],
+      "qadamlar": [
+        "First call the call center to check whether this is an emergency or a scheduled outage",
+        "If the problem recurs, file a written/online complaint and keep the reference number",
+        "If there is no response, escalate to the local administration (khokimiyat) or pm.gov.uz"
+      ],
+      "hujjatlar": [
+        "Subscriber (account) number",
+        "address"
+      ],
+      "muddat": "15–30 days under the Law on Citizens' Appeals (to be confirmed)",
+      "narx": "",
+      "aloqa": "phone: 1000 (unified call center) — TO BE VERIFIED; online: submit a request via my.gov.uz or the company's official Telegram bot; in person: district electric network's subscriber department",
+      "kimlar_uchun": "",
+      "idora": "Territorial electric network enterprise (district/city electric network)",
+      "qoshimcha": "District administration (khokimiyat) → Ministry of Energy → Presidential Virtual Reception (pm.gov.uz, tel.: 1000)"
+    }
+  },
+  "bilim-bazasi.gaz-taminoti": {
+    "ru": {
+      "nomi": "Природный газ не поступает, низкое давление газа, чувствуется запах газа, подача газа прервана",
+      "tavsif": "Природный газ не поступает, низкое давление газа, чувствуется запах газа, подача газа прервана",
+      "muammolar": [
+        "газ",
+        "нет газа",
+        "запах газа",
+        "низкое давление",
+        "газ",
+        "перебои с газом",
+        "метан"
+      ],
+      "qadamlar": [
+        "ВНИМАНИЕ: при запахе газа — сначала проветрите помещение, не зажигая огонь и не включая электроприборы, и позвоните по номеру 104",
+        "При перебоях с подачей газа обратитесь письменно в абонентский отдел",
+        "Если проблема не решена — эскалируйте обращение в хокимият/на pm.gov.uz"
+      ],
+      "hujjatlar": [
+        "Номер абонента",
+        "адрес"
+      ],
+      "muddat": "Авария — немедленно; письменное обращение — 15–30 дней (уточняется)",
+      "narx": "",
+      "aloqa": "телефон: 104 (аварийная газовая служба — при запахе газа звонить НЕМЕДЛЕННО по этому номеру) — ТРЕБУЕТ УТОЧНЕНИЯ; онлайн: my.gov.uz или официальные каналы предприятия; лично: абонентский отдел районной газовой службы",
+      "kimlar_uchun": "",
+      "idora": "Районный/городской филиал газоснабжения («Худудгазтаъминот»)",
+      "qoshimcha": "Хокимият района → Министерство энергетики → pm.gov.uz"
+    },
+    "en": {
+      "nomi": "No natural gas supply, low gas pressure, smell of gas, gas supply interrupted",
+      "tavsif": "No natural gas supply, low gas pressure, smell of gas, gas supply interrupted",
+      "muammolar": [
+        "gas",
+        "no gas",
+        "gas smell",
+        "low pressure",
+        "gas",
+        "gas outage",
+        "methane"
+      ],
+      "qadamlar": [
+        "WARNING: if you smell gas — first ventilate the room without lighting a flame or switching on electrical devices, then call 104",
+        "For supply issues, submit a written request to the subscriber department",
+        "If unresolved, escalate to the local administration (khokimiyat) or pm.gov.uz"
+      ],
+      "hujjatlar": [
+        "Subscriber number",
+        "address"
+      ],
+      "muddat": "Emergency — immediate; written request — 15–30 days (to be confirmed)",
+      "narx": "",
+      "aloqa": "phone: 104 (gas emergency service — call this number IMMEDIATELY if you smell gas) — TO BE VERIFIED; online: my.gov.uz or the company's official channels; in person: district gas supply subscriber department",
+      "kimlar_uchun": "",
+      "idora": "District/city gas supply branch (\"Hududgazta'minot\")",
+      "qoshimcha": "District administration (khokimiyat) → Ministry of Energy → pm.gov.uz"
+    }
+  },
+  "bilim-bazasi.ichimlik-suvi": {
+    "ru": {
+      "nomi": "Не поступает питьевая вода, низкое давление воды, плохое качество воды, прорвало трубу, переполнена канализация",
+      "tavsif": "Не поступает питьевая вода, низкое давление воды, плохое качество воды, прорвало трубу, переполнена канализация",
+      "muammolar": [
+        "вода",
+        "нет воды",
+        "водопровод",
+        "канализация",
+        "труба",
+        "вода",
+        "давление воды",
+        "сточные воды"
+      ],
+      "qadamlar": [
+        "Позвоните диспетчеру и уточните, не является ли это аварией",
+        "При постоянной проблеме подайте письменное обращение и сохраните номер",
+        "По вопросам качества воды можно параллельно обратиться в санитарно-эпидемиологическую службу"
+      ],
+      "hujjatlar": [
+        "Номер абонента",
+        "адрес"
+      ],
+      "muddat": "15–30 дней (уточняется)",
+      "narx": "",
+      "aloqa": "телефон: 1055 или территориальный диспетчер — ТРЕБУЕТ УТОЧНЕНИЯ; онлайн: my.gov.uz; лично: абонентский отдел территориального предприятия водоснабжения",
+      "kimlar_uchun": "",
+      "idora": "Районное/городское предприятие водоснабжения (территориальный филиал «Сувсоз»/«Сувоқава»)",
+      "qoshimcha": "Хокимият района → «Ўзсувтаъминот» → pm.gov.uz"
+    },
+    "en": {
+      "nomi": "No drinking water supply, low water pressure, poor water quality, burst pipe, sewage overflow",
+      "tavsif": "No drinking water supply, low water pressure, poor water quality, burst pipe, sewage overflow",
+      "muammolar": [
+        "water",
+        "no water",
+        "water supply",
+        "sewage",
+        "pipe",
+        "water",
+        "water pressure",
+        "wastewater"
+      ],
+      "qadamlar": [
+        "Call the dispatcher to check whether this is an emergency",
+        "For a persistent problem, file a written complaint and keep the reference number",
+        "For water quality issues, you may also file a parallel complaint with the sanitary-epidemiological service"
+      ],
+      "hujjatlar": [
+        "Subscriber number",
+        "address"
+      ],
+      "muddat": "15–30 days (to be confirmed)",
+      "narx": "",
+      "aloqa": "phone: 1055 or the local dispatcher — TO BE VERIFIED; online: my.gov.uz; in person: subscriber department of the territorial water supply enterprise",
+      "kimlar_uchun": "",
+      "idora": "District/city water supply enterprise (territorial branch of \"Suvsoz\"/\"Suvoqava\")",
+      "qoshimcha": "District administration (khokimiyat) → \"O'zsuvta'minot\" → pm.gov.uz"
+    }
+  },
+  "bilim-bazasi.chiqindi-olib-ketilmayapti": {
+    "ru": {
+      "nomi": "Не вывозятся бытовые отходы, мусорные контейнеры переполнены, в махалле образовалась стихийная свалка",
+      "tavsif": "Не вывозятся бытовые отходы, мусорные контейнеры переполнены, в махалле образовалась стихийная свалка",
+      "muammolar": [
+        "мусор",
+        "отходы",
+        "мусор",
+        "контейнер",
+        "мусор",
+        "свалка",
+        "чистота"
+      ],
+      "qadamlar": [
+        "Сообщите председателю махалли (во многих случаях вопрос решается уже на этом этапе)",
+        "Если не решено — обратитесь к диспетчеру предприятия, затем подайте письменное обращение",
+        "Онлайн-обращение с фотографией более эффективно"
+      ],
+      "hujjatlar": [
+        "Адрес",
+        "фото (по возможности)"
+      ],
+      "muddat": "15–30 дней (уточняется)",
+      "narx": "",
+      "aloqa": "телефон: диспетчер территориального предприятия — ТРЕБУЕТ УТОЧНЕНИЯ; онлайн: my.gov.uz; каналы обращений Министерства экологии; лично: возможно также коллективное обращение через сход граждан махалли",
+      "kimlar_uchun": "",
+      "idora": "Территориальное предприятие санитарной очистки («Тоза худуд» / «Махсустранс» и подобные)",
+      "qoshimcha": "Хокимият района → Министерство экологии → pm.gov.uz"
+    },
+    "en": {
+      "nomi": "Household waste is not collected, garbage containers are overflowing, an illegal dump has formed in the neighborhood",
+      "tavsif": "Household waste is not collected, garbage containers are overflowing, an illegal dump has formed in the neighborhood",
+      "muammolar": [
+        "garbage",
+        "waste",
+        "trash",
+        "container",
+        "garbage",
+        "dump",
+        "cleanliness"
+      ],
+      "qadamlar": [
+        "Notify the mahalla chairman (in many cases this resolves the issue at this stage)",
+        "If unresolved, contact the enterprise dispatcher, then file a written complaint",
+        "An online complaint with a photo is more effective"
+      ],
+      "hujjatlar": [
+        "Address",
+        "photo (if possible)"
+      ],
+      "muddat": "15–30 days (to be confirmed)",
+      "narx": "",
+      "aloqa": "phone: territorial enterprise dispatcher — TO BE VERIFIED; online: my.gov.uz; Ministry of Ecology complaint channels; in person: a collective complaint via the mahalla citizens' assembly is also possible",
+      "kimlar_uchun": "",
+      "idora": "Territorial sanitary cleaning enterprise (\"Toza hudud\" / \"Maxsustrans\" and similar)",
+      "qoshimcha": "District administration (khokimiyat) → Ministry of Ecology → pm.gov.uz"
+    }
+  },
+  "bilim-bazasi.ish-haqi-tolanmayapti": {
+    "ru": {
+      "nomi": "Работодатель задерживает или не выплачивает зарплату, использует труд без трудового договора, незаконное…",
+      "tavsif": "Работодатель задерживает или не выплачивает зарплату, использует труд без трудового договора, незаконное увольнение",
+      "muammolar": [
+        "зарплата",
+        "оклад",
+        "заработная плата",
+        "зарплата",
+        "увольнение",
+        "трудовой договор",
+        "работодатель",
+        "увольнения"
+      ],
+      "qadamlar": [
+        "Сначала направьте работодателю письменное требование (сохраните копию)",
+        "Подайте онлайн/письменную жалобу в трудовую инспекцию",
+        "При крупной сумме или споре — исковое заявление в гражданский суд (по трудовым спорам предусмотрены льготы по госпошлине — уточняется)"
+      ],
+      "hujjatlar": [
+        "Трудовой договор (если есть)",
+        "расчётные листки по зарплате",
+        "доказательства трудоустройства (свидетели, переписка)"
+      ],
+      "muddat": "Проверка инспекцией — 15–30 дней (уточняется)",
+      "narx": "",
+      "aloqa": "телефон: телефон доверия министерства — ТРЕБУЕТ УТОЧНЕНИЯ; онлайн: обращение в трудовую инспекцию через my.gov.uz; mehnat.uz — ТРЕБУЕТ УТОЧНЕНИЯ; лично: территориальная трудовая инспекция",
+      "kimlar_uchun": "",
+      "idora": "Трудовая инспекция (территориальное управление Министерства занятости и сокращения бедности)",
+      "qoshimcha": "Центральный аппарат министерства → Прокуратура → Суд"
+    },
+    "en": {
+      "nomi": "Employer delays or fails to pay wages, employs without a labor contract, unlawful dismissal…",
+      "tavsif": "Employer delays or fails to pay wages, employs without a labor contract, unlawful dismissal",
+      "muammolar": [
+        "wages",
+        "salary",
+        "pay",
+        "salary",
+        "dismissal",
+        "labor contract",
+        "employer",
+        "unlawful dismissal"
+      ],
+      "qadamlar": [
+        "First send the employer a written demand (keep a copy)",
+        "File an online/written complaint with the labor inspectorate",
+        "For a large sum or dispute, file a claim with the civil court (labor disputes may have state duty exemptions — to be confirmed)"
+      ],
+      "hujjatlar": [
+        "Labor contract (if any)",
+        "payroll statements",
+        "evidence of employment (witnesses, messages)"
+      ],
+      "muddat": "Inspectorate review — 15–30 days (to be confirmed)",
+      "narx": "",
+      "aloqa": "phone: ministry hotline — TO BE VERIFIED; online: submit a request to the labor inspectorate via my.gov.uz; mehnat.uz — TO BE VERIFIED; in person: territorial labor inspectorate",
+      "kimlar_uchun": "",
+      "idora": "Labor inspectorate (territorial department of the Ministry of Employment and Poverty Reduction)",
+      "qoshimcha": "Ministry central office → Prosecutor's office → Court"
+    }
+  },
+  "bilim-bazasi.pensiya-nafaqa": {
+    "ru": {
+      "nomi": "Оформление пенсии, неверно рассчитан размер пенсии, порядок получения пособия (детского, по инвалидности)",
+      "tavsif": "Оформление пенсии, неверно рассчитан размер пенсии, порядок получения пособия (детского, по инвалидности)",
+      "muammolar": [
+        "пенсия",
+        "пособие",
+        "пенсия",
+        "пособие",
+        "пособие по инвалидности",
+        "детское пособие",
+        "социальная выплата"
+      ],
+      "qadamlar": [
+        "Найдите нужную услугу на my.gov.uz — многие услуги доступны онлайн",
+        "Если онлайн недоступно, обратитесь в районное отделение с документами",
+        "При несогласии с расчётом подайте письменный запрос на перерасчёт"
+      ],
+      "hujjatlar": [
+        "Паспорт/ID-карта",
+        "трудовая книжка",
+        "дополнительные документы в зависимости от вида пособия (по ситуации)"
+      ],
+      "muddat": "В зависимости от вида услуги, обычно 10–30 дней (уточняется)",
+      "narx": "",
+      "aloqa": "телефон: call-центр агентства — ТРЕБУЕТ УТОЧНЕНИЯ; онлайн: my.gov.uz (услуга назначения пенсии доступна онлайн — ТРЕБУЕТ УТОЧНЕНИЯ); лично: районный центр «Инсон» / центр государственных услуг",
+      "kimlar_uchun": "",
+      "idora": "Территориальное отделение Национального агентства социальной защиты (центр социальных услуг «Инсон») — СТРУКТУРА ТРЕБУЕТ УТОЧНЕНИЯ",
+      "qoshimcha": "Центральный аппарат агентства → pm.gov.uz → Суд"
+    },
+    "en": {
+      "nomi": "Applying for a pension, incorrectly calculated pension amount, procedure for receiving benefits (child, disability)",
+      "tavsif": "Applying for a pension, incorrectly calculated pension amount, procedure for receiving benefits (child, disability)",
+      "muammolar": [
+        "pension",
+        "benefit",
+        "pension",
+        "benefit",
+        "disability benefit",
+        "child benefit",
+        "social payment"
+      ],
+      "qadamlar": [
+        "Search for the relevant service on my.gov.uz — many services are available online",
+        "If not available online, visit the district office with your documents",
+        "If you disagree with the calculation, submit a written request for recalculation"
+      ],
+      "hujjatlar": [
+        "Passport/ID card",
+        "employment record book",
+        "additional documents depending on the benefit type (case-specific)"
+      ],
+      "muddat": "Depending on the service, usually 10–30 days (to be confirmed)",
+      "narx": "",
+      "aloqa": "phone: agency call center — TO BE VERIFIED; online: my.gov.uz (pension assignment service available online — TO BE VERIFIED); in person: district \"Inson\" center / public service center",
+      "kimlar_uchun": "",
+      "idora": "Territorial department of the National Social Protection Agency (\"Inson\" social services center) — STRUCTURE TO BE VERIFIED",
+      "qoshimcha": "Agency central office → pm.gov.uz → Court"
+    }
+  },
+  "bilim-bazasi.yer-kadastr": {
+    "ru": {
+      "nomi": "Оформление документов на дом/землю, получение кадастрового паспорта, регистрация собственности, спор с соседом…",
+      "tavsif": "Оформление документов на дом/землю, получение кадастрового паспорта, регистрация собственности, спор с соседом о границе",
+      "muammolar": [
+        "кадастр",
+        "земельный документ",
+        "кадастровый паспорт",
+        "имущество",
+        "госреестр",
+        "спор о границе",
+        "документ на дом",
+        "ордер"
+      ],
+      "qadamlar": [
+        "Обратитесь в центр государственных услуг с документами или подайте онлайн-заявление",
+        "Если требуются кадастровые замеры, назначается очередь",
+        "Если спор о границе доходит до суда, сначала получите кадастровое заключение"
+      ],
+      "hujjatlar": [
+        "Паспорт/ID-карта",
+        "документ, подтверждающий право собственности (ордер, договор купли-продажи, свидетельство о наследстве)"
+      ],
+      "muddat": "1–15 рабочих дней в зависимости от услуги (уточняется)",
+      "narx": "",
+      "aloqa": "телефон: call-центр агентства — ТРЕБУЕТ УТОЧНЕНИЯ; онлайн: davreestr.uz — ТРЕБУЕТ УТОЧНЕНИЯ; my.gov.uz; лично: центр государственных услуг (большинство кадастровых услуг оказывается через ЦГУ)",
+      "kimlar_uchun": "",
+      "idora": "Районное отделение кадастрового агентства",
+      "qoshimcha": "Центральный аппарат агентства → Суд"
+    },
+    "en": {
+      "nomi": "Registering documents for a house/land, obtaining a cadastral passport, registering property, boundary dispute with a neighbor…",
+      "tavsif": "Registering documents for a house/land, obtaining a cadastral passport, registering property, boundary dispute with a neighbor",
+      "muammolar": [
+        "cadastre",
+        "land document",
+        "cadastral passport",
+        "property",
+        "state register",
+        "boundary dispute",
+        "house document",
+        "order (title deed)"
+      ],
+      "qadamlar": [
+        "Apply at the public service center with your documents or submit an online application",
+        "If cadastral survey work is required, an appointment slot is assigned",
+        "If a boundary dispute goes to court, first obtain the cadastral conclusion"
+      ],
+      "hujjatlar": [
+        "Passport/ID card",
+        "document confirming ownership (title deed/order, purchase agreement, inheritance certificate)"
+      ],
+      "muddat": "1–15 business days depending on the service (to be confirmed)",
+      "narx": "",
+      "aloqa": "phone: agency call center — TO BE VERIFIED; online: davreestr.uz — TO BE VERIFIED; my.gov.uz; in person: public service center (most cadastral services are handled through it)",
+      "kimlar_uchun": "",
+      "idora": "District office of the cadastre agency",
+      "qoshimcha": "Agency central office → Court"
+    }
+  },
+  "bilim-bazasi.tadbirkorlik-royxat": {
+    "ru": {
+      "nomi": "Открытие индивидуального предпринимателя (ИП) или ООО, регистрация в качестве самозанятого, прекращение…",
+      "tavsif": "Открытие индивидуального предпринимателя (ИП) или ООО, регистрация в качестве самозанятого, прекращение деятельности",
+      "muammolar": [
+        "ИП",
+        "ООО",
+        "открытие бизнеса",
+        "предприниматель",
+        "самозанятый",
+        "самозанятый",
+        "ИП",
+        "налог"
+      ],
+      "qadamlar": [
+        "Выберите вид деятельности (самозанятый / ИП / ООО — налоговый режим отличается)",
+        "Подайте онлайн-заявку — регистрация обычно занимает от 30 минут до 1 дня",
+        "Оформите банковский счёт и (при необходимости) онлайн-кассу"
+      ],
+      "hujjatlar": [
+        "Паспорт/ID-карта",
+        "для ООО: устав, решение об учреждении, юридический адрес"
+      ],
+      "muddat": "Обычно до 1 рабочего дня (уточняется)",
+      "narx": "",
+      "aloqa": "телефон: call-центр ЦГУ 1008 — ТРЕБУЕТ УТОЧНЕНИЯ; онлайн: онлайн-регистрация через fo.birdarcha.uz / my.gov.uz — ТРЕБУЕТ УТОЧНЕНИЯ; для самозанятых — через мобильное приложение налоговой службы; лично: любой центр государственных услуг",
+      "kimlar_uchun": "",
+      "idora": "Центр государственных услуг (регистрация) и Налоговый комитет (постановка на учёт)",
+      "qoshimcha": "Call-центры Министерства юстиции / Налогового комитета → бизнес-омбудсмен"
+    },
+    "en": {
+      "nomi": "Registering as an individual entrepreneur (sole proprietor) or LLC, registering as self-employed, terminating…",
+      "tavsif": "Registering as an individual entrepreneur (sole proprietor) or LLC, registering as self-employed, terminating business activity",
+      "muammolar": [
+        "sole proprietor",
+        "LLC",
+        "starting a business",
+        "entrepreneur",
+        "self-employed",
+        "self-employed",
+        "individual entrepreneur",
+        "tax"
+      ],
+      "qadamlar": [
+        "Choose the type of activity (self-employed / sole proprietor / LLC — tax regimes differ)",
+        "Submit an online application — registration usually takes from 30 minutes to 1 day",
+        "Set up a bank account and, if needed, an online cash register"
+      ],
+      "hujjatlar": [
+        "Passport/ID card",
+        "for an LLC: charter, founding resolution, legal address"
+      ],
+      "muddat": "Usually up to 1 business day (to be confirmed)",
+      "narx": "",
+      "aloqa": "phone: public service center call center 1008 — TO BE VERIFIED; online: online registration via fo.birdarcha.uz / my.gov.uz — TO BE VERIFIED; self-employed individuals via the Tax Committee's mobile app; in person: any public service center",
+      "kimlar_uchun": "",
+      "idora": "Public service center (registration) and Tax Committee (tax registration)",
+      "qoshimcha": "Ministry of Justice / Tax Committee call centers → business ombudsman"
+    }
+  },
+  "bilim-bazasi.istemolchi-huquqlari": {
+    "ru": {
+      "nomi": "Продан некачественный товар, магазин отказывается принять товар обратно, услуга оказана некачественно, отказ…",
+      "tavsif": "Продан некачественный товар, магазин отказывается принять товар обратно, услуга оказана некачественно, отказ в гарантийном обслуживании",
+      "muammolar": [
+        "возврат",
+        "некачественный товар",
+        "гарантия",
+        "возврат",
+        "магазин",
+        "обман",
+        "защита прав потребителей",
+        "чек"
+      ],
+      "qadamlar": [
+        "Сначала направьте продавцу письменную претензию — срок ответа 10 дней (уточняется)",
+        "Если получен отказ или ответа нет, подайте жалобу в комитет",
+        "При крупном ущербе — исковое заявление в суд (потребители освобождаются от госпошлины — ТРЕБУЕТ УТОЧНЕНИЯ)"
+      ],
+      "hujjatlar": [
+        "Чек или иной документ, подтверждающий оплату",
+        "гарантийный талон (если есть)",
+        "копия письменной претензии продавцу"
+      ],
+      "muddat": "В комитете — 15–30 дней (уточняется)",
+      "narx": "",
+      "aloqa": "телефон: телефон доверия комитета — ТРЕБУЕТ УТОЧНЕНИЯ; онлайн: my.gov.uz; официальный сайт комитета; лично: территориальное управление",
+      "kimlar_uchun": "",
+      "idora": "Территориальное управление Комитета по развитию конкуренции и защите прав потребителей — НАЗВАНИЕ ТРЕБУЕТ УТОЧНЕНИЯ",
+      "qoshimcha": "Центральный аппарат комитета → Суд"
+    },
+    "en": {
+      "nomi": "A defective product was sold, the store refuses to accept a return, service was provided poorly, warranty claim…",
+      "tavsif": "A defective product was sold, the store refuses to accept a return, service was provided poorly, warranty claim refused",
+      "muammolar": [
+        "return",
+        "defective product",
+        "warranty",
+        "refund",
+        "store",
+        "fraud",
+        "consumer rights protection",
+        "receipt"
+      ],
+      "qadamlar": [
+        "First send the seller a written claim (pretenziya) — response deadline is 10 days (to be confirmed)",
+        "If refused or there is no response, file a complaint with the committee",
+        "For significant damages, file a claim in court (consumers may be exempt from the state duty — TO BE VERIFIED)"
+      ],
+      "hujjatlar": [
+        "Receipt or other proof of payment",
+        "warranty card (if any)",
+        "copy of the written claim sent to the seller"
+      ],
+      "muddat": "15–30 days at the committee (to be confirmed)",
+      "narx": "",
+      "aloqa": "phone: committee hotline — TO BE VERIFIED; online: my.gov.uz; committee's official website; in person: territorial department",
+      "kimlar_uchun": "",
+      "idora": "Territorial department of the Committee for the Development of Competition and Consumer Protection — NAME TO BE VERIFIED",
+      "qoshimcha": "Committee central office → Court"
+    }
+  },
+  "bilim-bazasi.yol-holati": {
+    "ru": {
+      "nomi": "На улице ямы, дорога разбита, не работает светофор, нет уличного освещения, нужен пешеходный переход",
+      "tavsif": "На улице ямы, дорога разбита, не работает светофор, нет уличного освещения, нужен пешеходный переход",
+      "muammolar": [
+        "дорога",
+        "яма",
+        "асфальт",
+        "светофор",
+        "освещение",
+        "дорога",
+        "яма",
+        "пешеходный переход"
+      ],
+      "qadamlar": [
+        "Оставьте онлайн-обращение с фотографией (укажите точный адрес)",
+        "По вопросам светофора/дорожных знаков параллельно обратитесь в службу безопасности дорожного движения",
+        "Если ответа нет, эскалируйте обращение на pm.gov.uz"
+      ],
+      "hujjatlar": [
+        "Точный адрес/ориентир",
+        "фото — весомое доказательство"
+      ],
+      "muddat": "15–30 дней (уточняется)",
+      "narx": "",
+      "aloqa": "телефон: телефон доверия хокимията — ТРЕБУЕТ УТОЧНЕНИЯ; онлайн: my.gov.uz; по светофорам/знакам — каналы службы безопасности дорожного движения; лично: приёмная районного хокимията, коллективное обращение через махаллю",
+      "kimlar_uchun": "",
+      "idora": "Хокимият района (отдел благоустройства) и территориальное дорожное хозяйство",
+      "qoshimcha": "Хокимият области → Министерство транспорта → pm.gov.uz"
+    },
+    "en": {
+      "nomi": "Potholes on the street, damaged road surface, traffic light not working, no street lighting, need for a pedestrian crossing",
+      "tavsif": "Potholes on the street, damaged road surface, traffic light not working, no street lighting, need for a pedestrian crossing",
+      "muammolar": [
+        "road",
+        "pothole",
+        "asphalt",
+        "traffic light",
+        "lighting",
+        "road",
+        "pothole",
+        "pedestrian crossing"
+      ],
+      "qadamlar": [
+        "Submit an online complaint with a photo (specify the exact address)",
+        "For traffic light/sign issues, also notify the road traffic safety service",
+        "If there is no response, escalate to pm.gov.uz"
+      ],
+      "hujjatlar": [
+        "Exact address/landmark",
+        "photo — strong evidence"
+      ],
+      "muddat": "15–30 days (to be confirmed)",
+      "narx": "",
+      "aloqa": "phone: khokimiyat hotline — TO BE VERIFIED; online: my.gov.uz; for traffic lights/signs — road traffic safety service channels; in person: district khokimiyat reception, collective complaint via the mahalla",
+      "kimlar_uchun": "",
+      "idora": "District administration (khokimiyat) - improvement department and territorial road maintenance enterprise",
+      "qoshimcha": "Regional administration (khokimiyat) → Ministry of Transport → pm.gov.uz"
+    }
+  }
+}

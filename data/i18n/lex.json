@@ -1,0 +1,1368 @@
+{
+ "lex.lex-uz-qonun-hujjatini-qidirish": {
+  "ru": {
+   "nomi": "Поиск нормативно-правового документа по названию, номеру или дате (Lex.uz)",
+   "tavsif": "Lex.uz — национальная база данных законодательства Республики Узбекистан, содержащая официальные тексты всех законов, указов, постановлений и кодексов. Любой документ можно бесплатно найти по названию, номеру, дате принятия или слову в тексте. Регистрация не требуется.",
+   "muammolar": [
+    "где найти текст закона",
+    "хочу найти указ президента по номеру",
+    "хочу узнать, в каком законе это написано",
+    "хочу прочитать постановление Кабинета Министров",
+    "нужен официальный текст закона",
+    "знаю номер документа, но не могу найти текст"
+   ],
+   "qadamlar": [
+    "Откройте браузер (Chrome, Safari и т.д.) на телефоне или компьютере, введите в адресной строке https://lex.uz/uz/ и нажмите Enter — сайт откроется на узбекском языке (латиница).",
+    "В центре главной страницы находится большая панель поиска. На ней расположены поля «Номер документа», «Название документа» и дата.",
+    "Если вы знаете НАЗВАНИЕ документа: введите одно-два слова из названия в поле «Название документа» (например, «трудовой кодекс» или «об образовании») — по мере ввода сайт сам предложит список подходящих документов, выберите нужный.",
+    "Если вы знаете НОМЕР документа (например, ПФ-60 или № 149): введите номер в поле «Номер документа» и нажмите кнопку поиска («Izlash»).",
+    "Если вы знаете только тему: введите ключевое слово в поле «Слово или фраза в тексте» — сайт выдаст все документы, в тексте которых встречается это слово.",
+    "Для более точного поиска нажмите на ссылку «Расширенный поиск» под панелью поиска. Там можно выбрать фильтры по «Типу документа» (закон, указ, постановление, кодекс, положение), «Органу» (Президент, Олий Мажлис, Кабинет Министров и т.д.), «Дате принятия» и «Статусу документа» (действует, утратил силу).",
+    "В списке результатов поиска отображаются название, номер и дата документа — нажмите на название нужного документа, чтобы открыть его полный текст.",
+    "Над результатами есть вкладки разделов, такие как «Все», «Олий Мажлис», «Местные органы власти», «Международные», «Судебная практика» — при необходимости выберите одну из них, чтобы сузить результаты.",
+    "Также можно воспользоваться голосовым поиском через значок микрофона — нажмите на значок и произнесите название документа."
+   ],
+   "hujjatlar": [
+    "Не требуется"
+   ],
+   "muddat": "Сразу (просмотр онлайн)",
+   "narx": "Бесплатно",
+   "aloqa": "Официальный Telegram: t.me/lexuzofficial; канал правовой информации: t.me/huquqiyaxborot; телефон/e-mail на сайте не указаны",
+   "kimlar_uchun": "Все пользователи (регистрация не обязательна)",
+   "idora": "Министерство юстиции Республики Узбекистан (Национальный центр правовой информации «Адолат», Национальная база данных законодательства)",
+   "qoshimcha": "На сайте есть кнопка «Войти», но она нужна только для дополнительных возможностей (списка избранного) — для чтения документов вход в систему не требуется. ИИ-помощник работает по адресу ai.lex.uz. Подробная информация о параметрах поиска: https://lex.uz/uz/search"
+  },
+  "en": {
+   "nomi": "Searching for a legal document by title, number, or date (Lex.uz)",
+   "tavsif": "Lex.uz is the National Database of Legislation of the Republic of Uzbekistan, containing the official texts of all laws, decrees, resolutions, and codes. Any document can be searched free of charge by title, number, date of adoption, or a word in the text. No registration is required.",
+   "muammolar": [
+    "where can I find the text of a law",
+    "I want to find a presidential decree by its number",
+    "I want to know which law this is written in",
+    "I want to read a Cabinet of Ministers resolution",
+    "I need the official text of a law",
+    "I know the document number but can't find the text"
+   ],
+   "qadamlar": [
+    "Open a browser (Chrome, Safari, etc.) on your phone or computer, type https://lex.uz/uz/ into the address bar, and press Enter — the site will open in Uzbek (Latin script).",
+    "In the middle of the homepage there is a large search panel with fields for \"Document number,\" \"Document title,\" and date.",
+    "If you know the document's TITLE: type one or two words from the title into the \"Document title\" field (for example, \"labor code\" or \"on education\") — as you type, the site will suggest a list of matching documents; click the one you need.",
+    "If you know the document's NUMBER (for example, PF-60 or No. 149): enter the number in the \"Document number\" field and click the search (\"Izlash\") button.",
+    "If you only know the topic: type a keyword into the \"Word or phrase in the text\" field — the site will display all documents containing that word.",
+    "For a more precise search, click the \"Advanced search\" link below the search panel. There you can filter by \"Document type\" (law, decree, resolution, code, regulation), \"Body\" (President, Oliy Majlis, Cabinet of Ministers, etc.), \"Date of adoption,\" and \"Document status\" (in force, no longer in force).",
+    "The search results list shows the document's title, number, and date — click the title of the document you need to open its full text.",
+    "Above the results there are section tabs such as \"All,\" \"Oliy Majlis,\" \"Local government,\" \"International,\" \"Judicial practice\" — select one of them if needed to narrow down the results.",
+    "You can also use voice search via the microphone icon — tap the icon and say the document's title aloud."
+   ],
+   "hujjatlar": [
+    "Not required"
+   ],
+   "muddat": "Immediately (online viewing)",
+   "narx": "Free",
+   "aloqa": "Official Telegram: t.me/lexuzofficial; legal information channel: t.me/huquqiyaxborot; phone/e-mail not listed on the site",
+   "kimlar_uchun": "All users (registration not required)",
+   "idora": "Ministry of Justice of the Republic of Uzbekistan (\"Adolat\" National Center for Legal Information, National Database of Legislation)",
+   "qoshimcha": "The site has a \"Log in\" button, but it is only needed for additional features (the favorites list) — no login is required to read documents. The AI assistant is available at ai.lex.uz. Detailed information about search parameters: https://lex.uz/uz/search"
+  }
+ },
+ "lex.lex-uz-kodekslarni-topish-oqish": {
+  "ru": {
+   "nomi": "Поиск и чтение кодексов (Трудовой, Налоговый, Семейный кодексы)",
+   "tavsif": "На сайте Lex.uz размещены полные официальные тексты всех кодексов Узбекистана (Трудового, Налогового, Семейного, Уголовного, Гражданского и других). Каждый кодекс открывается с оглавлением, разделённым на разделы и главы, внутри можно искать по словам. Всё бесплатно и без регистрации.",
+   "muammolar": [
+    "хочу прочитать трудовой кодекс",
+    "где найти налоговый кодекс",
+    "хочу посмотреть статью семейного кодекса",
+    "как найти нужную статью внутри кодекса",
+    "нужен полный текст уголовного кодекса"
+   ],
+   "qadamlar": [
+    "Откройте сайт https://lex.uz/uz/ в браузере.",
+    "В поле «Название документа» панели поиска на главной странице введите название кодекса, например: «Трудовой кодекс», «Налоговый кодекс» или «Семейный кодекс» — сайт сразу предложит подходящий документ.",
+    "Для большей точности откройте «Расширенный поиск», выберите «Кодекс» в списке «Тип документа» и нажмите поиск — появится список всех кодексов.",
+    "Нажмите на название нужного кодекса — например, откроется страница Трудового кодекса (https://lex.uz/uz/docs/6257288).",
+    "В левой части страницы находится панель «Оглавление»: в ней показаны ОБЩАЯ ЧАСТЬ, ОСОБЕННАЯ ЧАСТЬ, разделы и главы. При нажатии на название главы вы переходите к соответствующему месту текста.",
+    "Чтобы быстро найти нужную статью, введите номер статьи или ключевое слово в поле «Поиск» над оглавлением.",
+    "С помощью языковых кнопок над текстом («O'zb», «Ўзб», «Рус») можно читать кодекс на латинице, кириллице или русском языке.",
+    "Документ всегда остаётся для вас открытым — не требуется никакой оплаты или регистрации."
+   ],
+   "hujjatlar": [
+    "Не требуется"
+   ],
+   "muddat": "Сразу (просмотр онлайн)",
+   "narx": "Бесплатно",
+   "aloqa": "Официальный Telegram: t.me/lexuzofficial; другие контактные данные на сайте не указаны",
+   "kimlar_uchun": "Все пользователи (регистрация не обязательна)",
+   "idora": "Министерство юстиции Республики Узбекистан (Национальный центр правовой информации «Адолат»)",
+   "qoshimcha": "На странице кодекса есть кнопка «Комментарий LexUZ» — включив её, вы увидите комментарии к статьям. Кнопка «Добавить в избранное» сохраняет документ в закладки (для этого может потребоваться вход в систему). Сборник Конституции и законов: https://lex.uz/uz/law_collection"
+  },
+  "en": {
+   "nomi": "Finding and reading codes (Labor, Tax, Family codes)",
+   "tavsif": "The Lex.uz website hosts the full official texts of all of Uzbekistan's codes (Labor, Tax, Family, Criminal, Civil, and others). Each code opens with a table of contents divided into sections and chapters, and you can search within it by keyword. Everything is free and requires no registration.",
+   "muammolar": [
+    "I want to read the Labor Code",
+    "where can I find the Tax Code",
+    "I want to view an article of the Family Code",
+    "how do I find the article I need within a code",
+    "I need the full text of the Criminal Code"
+   ],
+   "qadamlar": [
+    "Open the website https://lex.uz/uz/ in your browser.",
+    "In the \"Document title\" field of the search panel on the homepage, type the name of the code, for example \"Labor Code,\" \"Tax Code,\" or \"Family Code\" — the site will immediately suggest the matching document.",
+    "For greater precision, open \"Advanced search,\" select \"Code\" from the \"Document type\" list, and click search — a list of all codes will appear.",
+    "Click the title of the code you need — for example, the Labor Code page will open (https://lex.uz/uz/docs/6257288).",
+    "On the left side of the page there is a \"Table of contents\" panel showing the GENERAL PART, SPECIAL PART, sections, and chapters. Clicking a chapter title takes you to that part of the text.",
+    "To quickly find the article you need, type the article number or a keyword into the \"Search\" field above the table of contents.",
+    "Using the language buttons above the text (\"O'zb,\" \"Ўзб,\" \"Рус\") you can read the code in Latin script, Cyrillic script, or Russian.",
+    "The document always remains open to you — no payment or registration is ever requested."
+   ],
+   "hujjatlar": [
+    "Not required"
+   ],
+   "muddat": "Immediately (online viewing)",
+   "narx": "Free",
+   "aloqa": "Official Telegram: t.me/lexuzofficial; no other contact details listed on the site",
+   "kimlar_uchun": "All users (registration not required)",
+   "idora": "Ministry of Justice of the Republic of Uzbekistan (\"Adolat\" National Center for Legal Information)",
+   "qoshimcha": "The code page has a \"LexUZ commentary\" button — turning it on shows commentary on the articles. The \"Add to favorites\" button saves the document to bookmarks (this may require logging in). Collection of the Constitution and laws: https://lex.uz/uz/law_collection"
+  }
+ },
+ "lex.lex-uz-amaldagi-tahrirni-aniqlash": {
+  "ru": {
+   "nomi": "Определение действующей (последней) редакции документа и сравнение редакций",
+   "tavsif": "В законы часто вносятся изменения, поэтому важно читать именно действующую редакцию документа. Lex.uz хранит все редакции каждого документа по датам и позволяет их сравнивать. При открытии документа обычно показывается вариант, действующий на текущий день.",
+   "muammolar": [
+    "хочу прочитать последнюю редакцию трудового кодекса",
+    "как узнать, изменился ли закон",
+    "хочу сравнить старую редакцию с новой",
+    "действует ли эта статья сейчас",
+    "какой вариант закона действует"
+   ],
+   "qadamlar": [
+    "Откройте сайт https://lex.uz/uz/ в браузере и найдите нужный документ через поиск (например, введя «Трудовой кодекс»).",
+    "После открытия страницы документа найдите раскрывающийся список «Варианты» над текстом — в нём показаны все редакции документа с датами (например, 01.01.2026, 30.12.2025, 30.04.2023 и т.д.).",
+    "Редакция, действующая на данный момент, отмечена (выбрана) в списке — по умолчанию сайт открывает именно её. Действующей считается редакция с датой, ближайшей к сегодняшней, но не позднее неё.",
+    "Варианты с будущими датами (например, 12.09.2026) — это будущие редакции с уже принятыми, но ещё не вступившими в силу изменениями. Варианты со старыми датами — это предыдущие редакции.",
+    "Чтобы посмотреть старую редакцию, выберите нужную дату из списка «Варианты» — текст откроется в том виде, в каком он был на эту дату.",
+    "Чтобы сравнить две редакции, нажмите кнопку «Сравнить варианты» и выберите две даты — сайт покажет изменённые места.",
+    "Внизу документа или в информационном разделе указаны дата принятия, дата вступления в силу и список документов, вносивших изменения — отсюда вы узнаете, каким законом были внесены изменения."
+   ],
+   "hujjatlar": [
+    "Не требуется"
+   ],
+   "muddat": "Сразу (просмотр онлайн)",
+   "narx": "Бесплатно",
+   "aloqa": "Официальный Telegram: t.me/lexuzofficial; другие контактные данные на сайте не указаны",
+   "kimlar_uchun": "Все пользователи (регистрация не обязательна)",
+   "idora": "Министерство юстиции Республики Узбекистан (Национальный центр правовой информации «Адолат»)",
+   "qoshimcha": "В расширенном поиске есть фильтр «Статус документа»: «Действует», «Утратил силу» и «Не вступил в силу» — обращайте внимание на этот статус, чтобы не принять недействующий документ за действующий."
+  },
+  "en": {
+   "nomi": "Determining a document's current (latest) version and comparing revisions",
+   "tavsif": "Laws are frequently amended, so it is important to read the document's actual current version. Lex.uz stores all revisions of each document by date and allows you to compare them. When a document is opened, the version currently in force is usually displayed by default.",
+   "muammolar": [
+    "I want to read the latest revision of the Labor Code",
+    "how do I know whether a law has changed",
+    "I want to compare an old revision with the new one",
+    "is this article currently in force",
+    "which version of the law is in force"
+   ],
+   "qadamlar": [
+    "Open https://lex.uz/uz/ in your browser and find the document you need using search (for example, by typing \"Labor Code\").",
+    "Once the document page opens, find the \"Variants\" drop-down list above the text — it shows all revisions of the document with their dates (for example, 01.01.2026, 30.12.2025, 30.04.2023, etc.).",
+    "The currently effective revision is marked (selected) in the list — the site opens this version by default. The revision considered current is the one dated closest to today's date without being later than it.",
+    "Versions dated in the future (for example, 12.09.2026) are upcoming revisions containing changes that have already been adopted but have not yet taken effect. Versions with older dates are previous revisions.",
+    "To view an old revision, select the date you need from the \"Variants\" list — the text will open as it stood on that date.",
+    "To compare two revisions, click the \"Compare variants\" button and select two dates — the site will highlight the changes.",
+    "At the bottom of the document or in the information section, you will find the date of adoption, the effective date, and a list of the documents that introduced amendments — this tells you which law made the changes."
+   ],
+   "hujjatlar": [
+    "Not required"
+   ],
+   "muddat": "Immediately (online viewing)",
+   "narx": "Free",
+   "aloqa": "Official Telegram: t.me/lexuzofficial; no other contact details listed on the site",
+   "kimlar_uchun": "All users (registration not required)",
+   "idora": "Ministry of Justice of the Republic of Uzbekistan (\"Adolat\" National Center for Legal Information)",
+   "qoshimcha": "Advanced search has a \"Document status\" filter: \"In force,\" \"No longer in force,\" and \"Not yet in force\" — pay attention to this status so you don't mistake a repealed document for a current one."
+  }
+ },
+ "lex.lex-uz-yangi-hujjatlarni-kuzatish": {
+  "ru": {
+   "nomi": "Отслеживание новых официальных документов (за сегодня / за неделю / за месяц)",
+   "tavsif": "На сайте Lex.uz можно просматривать новые опубликованные официальные документы в разрезе дня, недели и месяца. Раздел «Официальные документы» является источником официального опубликования нормативно-правовых актов. Отсюда же можно проверить, вышел ли новый указ или постановление.",
+   "muammolar": [
+    "вышло ли новое постановление",
+    "какие указы были опубликованы сегодня",
+    "где отслеживать новые законы",
+    "нужен список документов, принятых на этой неделе",
+    "хочу быть в курсе новостей"
+   ],
+   "qadamlar": [
+    "Откройте сайт https://lex.uz/uz/ в браузере.",
+    "В верхнем меню нажмите на раздел «Официальные документы» — в открывшемся списке будет четыре подраздела: «Сегодня», «За неделю», «За месяц» и «Календарь».",
+    "Чтобы увидеть документы, опубликованные сегодня, выберите «Сегодня» (прямая ссылка: https://lex.uz/uz/search/official?lang=4&pub_date=today).",
+    "Для документов за последнюю неделю или месяц откройте раздел «За неделю» (pub_date=week) или «За месяц» (pub_date=month).",
+    "Чтобы посмотреть документы, опубликованные в конкретную дату, откройте раздел «Календарь» (https://lex.uz/uz/search/calendar) и нажмите на нужный день в календаре.",
+    "В списке отображаются название, номер, дата принятия и принявший орган каждого документа — нажав на название, вы откроете его полный текст.",
+    "С помощью вкладок («Все», «Олий Мажлис», «Местные органы власти», «Международные» и т.д.) можно увидеть документы только нужного органа.",
+    "Для оперативных уведомлений на телефон подпишитесь на официальные Telegram-каналы: t.me/lexuzofficial и t.me/huquqiyaxborot — объявления о новых документах публикуются именно там."
+   ],
+   "hujjatlar": [
+    "Не требуется"
+   ],
+   "muddat": "Сразу (просмотр онлайн)",
+   "narx": "Бесплатно",
+   "aloqa": "Официальный Telegram: t.me/lexuzofficial; канал правовой информации: t.me/huquqiyaxborot",
+   "kimlar_uchun": "Все пользователи (регистрация не обязательна)",
+   "idora": "Министерство юстиции Республики Узбекистан (Национальный центр правовой информации «Адолат»)",
+   "qoshimcha": "Некоторые документы сначала публикуются на кириллице или русском языке, а перевод на латиницу добавляется позже — если документ не находится, проверьте версию на другом языке с помощью языковой кнопки."
+  },
+  "en": {
+   "nomi": "Tracking newly adopted official documents (Today / Weekly / Monthly)",
+   "tavsif": "On Lex.uz you can view newly published official documents on a daily, weekly, and monthly basis. The \"Official Documents\" section serves as the official publication source for legal acts. You can use it to check whether a new decree or resolution has been issued.",
+   "muammolar": [
+    "has a new resolution been issued",
+    "which decrees were published today",
+    "where can I track new laws",
+    "I need a list of documents adopted this week",
+    "I want to stay informed about updates"
+   ],
+   "qadamlar": [
+    "Open the website https://lex.uz/uz/ in your browser.",
+    "In the top menu, click \"Official Documents\" — the list that opens has four sections: \"Today,\" \"Weekly,\" \"Monthly,\" and \"Calendar.\"",
+    "To see documents published today, select \"Today\" (direct link: https://lex.uz/uz/search/official?lang=4&pub_date=today).",
+    "For documents from the past week or month, open the \"Weekly\" (pub_date=week) or \"Monthly\" (pub_date=month) section.",
+    "To view documents published on a specific date, open the \"Calendar\" section (https://lex.uz/uz/search/calendar) and click the day you need.",
+    "The list shows each document's title, number, date of adoption, and adopting body — click the title to open the full text.",
+    "Using the tabs (\"All,\" \"Oliy Majlis,\" \"Local government,\" \"International,\" etc.) you can view documents from only the body you need.",
+    "For instant notifications on your phone, subscribe to the official Telegram channels: t.me/lexuzofficial and t.me/huquqiyaxborot — announcements about new documents are posted there."
+   ],
+   "hujjatlar": [
+    "Not required"
+   ],
+   "muddat": "Immediately (online viewing)",
+   "narx": "Free",
+   "aloqa": "Official Telegram: t.me/lexuzofficial; legal information channel: t.me/huquqiyaxborot",
+   "kimlar_uchun": "All users (registration not required)",
+   "idora": "Ministry of Justice of the Republic of Uzbekistan (\"Adolat\" National Center for Legal Information)",
+   "qoshimcha": "Some documents are first published in Cyrillic or Russian, with the Latin-script translation added later — if you can't find a document, check the version in another language using the language button."
+  }
+ },
+ "lex.lex-uz-hujjatni-yuklab-olish-chop-etish": {
+  "ru": {
+   "nomi": "Скачивание документа (PDF, Word) и печать",
+   "tavsif": "Любой документ на сайте Lex.uz можно бесплатно скачать в формате PDF или MS Word, а также распечатать напрямую. Это удобно для приложения текста закона к заявлению или жалобе, чтения офлайн или получения бумажной копии.",
+   "muammolar": [
+    "хочу скачать закон в формате PDF",
+    "нужно распечатать документ на принтере",
+    "можно ли сохранить кодекс на телефон",
+    "нужен текст закона в формате Word",
+    "хочу сохранить для чтения без интернета"
+   ],
+   "qadamlar": [
+    "Откройте сайт https://lex.uz/uz/ в браузере, найдите нужный документ через поиск и откройте его страницу, нажав на название.",
+    "Перед скачиванием выберите нужную языковую версию с помощью языковых кнопок («O'zb», «Ўзб», «Рус») и нужную редакцию из списка «Варианты» — файл сохранится именно в том виде, который открыт на экране.",
+    "Чтобы получить PDF, нажмите кнопку «Скачать в формате PDF» на странице документа — файл загрузится на ваш телефон или компьютер.",
+    "Если нужен файл Word, нажмите кнопку «Сохранить в MS Word» — документ загрузится в формате .doc, и его можно будет редактировать.",
+    "Для печати нажмите кнопку «Печать» — откроется окно печати браузера, выберите принтер и нажмите кнопку «Print».",
+    "На телефоне загруженный файл сохраняется в папке «Downloads» (Загрузки) — его можно открыть и читать без интернета.",
+    "Внимание: скачанный файл представляет собой редакцию на день скачивания; закон может измениться в дальнейшем, поэтому для важных дел всегда перепроверяйте действующую редакцию на сайте."
+   ],
+   "hujjatlar": [
+    "Не требуется"
+   ],
+   "muddat": "Сразу (просмотр онлайн)",
+   "narx": "Бесплатно",
+   "aloqa": "Официальный Telegram: t.me/lexuzofficial; другие контактные данные на сайте не указаны",
+   "kimlar_uchun": "Все пользователи (регистрация не обязательна)",
+   "idora": "Министерство юстиции Республики Узбекистан (Национальный центр правовой информации «Адолат»)",
+   "qoshimcha": "В разделе «О системе» (https://lex.uz/uz/lexuz) также есть информация об офлайн-версии базы. На сайте доступны режимы отображения (белый, серый, чёрный фон) — удобный для глаз режим можно выбрать через кнопку «Вид»."
+  },
+  "en": {
+   "nomi": "Downloading a document (PDF, Word) and printing it",
+   "tavsif": "Any document on Lex.uz can be downloaded free of charge in PDF or MS Word format, or printed directly. This is convenient for attaching the text of a law to an application or complaint, reading offline, or obtaining a paper copy.",
+   "muammolar": [
+    "I want to download a law as a PDF",
+    "I need to print the document",
+    "can I save the code to my phone",
+    "I need the text of the law in Word format",
+    "I want to save it for reading without internet access"
+   ],
+   "qadamlar": [
+    "Open https://lex.uz/uz/ in your browser, find the document you need using search, and open its page by clicking the title.",
+    "Before downloading, select the language version you need using the language buttons (\"O'zb,\" \"Ўзб,\" \"Рус\") and the revision you need from the \"Variants\" list — the file will be saved exactly as it appears on screen.",
+    "To get a PDF, click the \"Download as PDF\" button on the document page — the file will download to your phone or computer.",
+    "If you need a Word file, click \"Save to MS Word\" — the document will download in .doc format and can be edited.",
+    "To print, click the \"Print\" button — the browser's print dialog will open; select your printer and click \"Print.\"",
+    "On a phone, the downloaded file is saved in the \"Downloads\" folder — you can open and read it without an internet connection.",
+    "Note: the downloaded file reflects the revision as of the day of downloading; the law may change later, so for important matters always re-check the current revision on the website."
+   ],
+   "hujjatlar": [
+    "Not required"
+   ],
+   "muddat": "Immediately (online viewing)",
+   "narx": "Free",
+   "aloqa": "Official Telegram: t.me/lexuzofficial; no other contact details listed on the site",
+   "kimlar_uchun": "All users (registration not required)",
+   "idora": "Ministry of Justice of the Republic of Uzbekistan (\"Adolat\" National Center for Legal Information)",
+   "qoshimcha": "The \"About the system\" section (https://lex.uz/uz/lexuz) also has information about an offline version of the database. The site offers display modes (white, gray, black background) — you can select a mode that's comfortable for your eyes via the \"View\" button."
+  }
+ },
+ "lex.lex-uz-til-versiyalari-tarjima": {
+  "ru": {
+   "nomi": "Чтение документов на разных языках (латиница, кириллица, русский) и двуязычный вид",
+   "tavsif": "Сайт Lex.uz и размещённые на нём документы доступны на узбекском (латиница и кириллица), русском, а отдельные разделы — на английском языке. На странице документа язык можно переключить одной кнопкой и даже просмотреть два языка рядом. Это очень удобно для сравнения русского текста с оригиналом.",
+   "muammolar": [
+    "хочу прочитать закон на русском языке",
+    "написано на кириллице, есть ли вариант на латинице",
+    "хочу сравнить русский и узбекский текст документа",
+    "переключить сайт на узбекский язык",
+    "есть ли перевод закона на английский язык"
+   ],
+   "qadamlar": [
+    "Откройте сайт https://lex.uz/uz/ в браузере.",
+    "Чтобы сменить язык сайта, нажмите на кнопку «O'ZB» в верхнем углу — выберите из списка «ЎЗБ» (кириллица), «РУС» (русский), «ENG» (английский) или «O'ZB» (латиница); страница откроется заново на выбранном языке.",
+    "Найдите и откройте нужный документ с помощью поиска.",
+    "В верхней части страницы документа есть отдельные языковые кнопки именно для этого документа: «O'zb» (латиница), «Ўзб» (кириллица), «Рус» (русский) — при нажатии текст документа переключается на выбранный язык.",
+    "Чтобы увидеть два языка рядом, нажмите кнопку «Ўзб|Рус» — экран разделится на две части, и узбекский и русский тексты будут показаны параллельно.",
+    "Обратите внимание: официальным (имеющим юридическую силу) является текст на языке, на котором документ был принят изначально; перевод может носить лишь ознакомительный характер.",
+    "Если версии документа на нужном языке нет, воспользуйтесь встроенным онлайн-переводчиком сайта или откройте версию на другом языке."
+   ],
+   "hujjatlar": [
+    "Не требуется"
+   ],
+   "muddat": "Сразу (просмотр онлайн)",
+   "narx": "Бесплатно",
+   "aloqa": "Официальный Telegram: t.me/lexuzofficial; другие контактные данные на сайте не указаны",
+   "kimlar_uchun": "Все пользователи (регистрация не обязательна)",
+   "idora": "Министерство юстиции Республики Узбекистан (Национальный центр правовой информации «Адолат»)",
+   "qoshimcha": "В расширенном поиске есть фильтр «Язык документа» — можно искать документы только на определённом языке. Английская версия охватывает в основном интерфейс сайта и некоторые переведённые документы."
+  },
+  "en": {
+   "nomi": "Reading documents in different languages (Latin, Cyrillic, Russian) and bilingual view",
+   "tavsif": "The Lex.uz website and the documents on it are available in Uzbek (Latin and Cyrillic script), Russian, and, in some sections, English. On a document page, you can switch the language with a single button and even view two languages side by side. This is very convenient for comparing a Russian text with the original.",
+   "muammolar": [
+    "I want to read the law in Russian",
+    "it's written in Cyrillic — is there a Latin-script version",
+    "I want to compare the Russian and Uzbek texts of the document",
+    "switch the site to Uzbek",
+    "is there an English translation of the law"
+   ],
+   "qadamlar": [
+    "Open the website https://lex.uz/uz/ in your browser.",
+    "To change the site language, click the \"O'ZB\" button in the top corner — choose \"ЎЗБ\" (Cyrillic), \"РУС\" (Russian), \"ENG\" (English), or \"O'ZB\" (Latin) from the list; the page will reload in the selected language.",
+    "Find and open the document you need using search.",
+    "At the top of the document page there are separate language buttons specifically for that document: \"O'zb\" (Latin), \"Ўзб\" (Cyrillic), \"Рус\" (Russian) — clicking one switches the document text to that language.",
+    "To view two languages side by side, click the \"Ўзб|Рус\" button — the screen will split in two, showing the Uzbek and Russian texts in parallel.",
+    "Please note: the official text (with legal force) is the text in the language in which the document was originally adopted; a translation may be provided for reference only.",
+    "If a version of the document in the language you need doesn't exist, use the site's built-in online translation tool or open the version in another language."
+   ],
+   "hujjatlar": [
+    "Not required"
+   ],
+   "muddat": "Immediately (online viewing)",
+   "narx": "Free",
+   "aloqa": "Official Telegram: t.me/lexuzofficial; no other contact details listed on the site",
+   "kimlar_uchun": "All users (registration not required)",
+   "idora": "Ministry of Justice of the Republic of Uzbekistan (\"Adolat\" National Center for Legal Information)",
+   "qoshimcha": "Advanced search also has a \"Document language\" filter — you can search for documents in a specific language only. The English version mainly covers the site interface and a limited number of translated documents."
+  }
+ },
+ "lex.lex-uz-malumotnomalar-yordamchi-xizmatlar": {
+  "ru": {
+   "nomi": "Справочная информация и вспомогательные сервисы (классификатор, калькулятор БРВ, правовые разъяснения)",
+   "tavsif": "Помимо текстов законов, на сайте Lex.uz есть и другие полезные справочные материалы: классификатор отраслей законодательства, калькулятор БРВ (базовой расчётной величины), правовые разъяснения и руководства для пользователей. Всё это доступно бесплатно и без регистрации.",
+   "muammolar": [
+    "как рассчитать сумму БРВ",
+    "хочу посмотреть законы по отрасли в сводном виде",
+    "не понял закон, есть ли разъяснение",
+    "хочу научиться пользоваться сайтом",
+    "нужна официальная информация о государственных символах"
+   ],
+   "qadamlar": [
+    "Откройте сайт https://lex.uz/uz/ в браузере.",
+    "В верхнем меню нажмите на раздел «Справочная информация» — в открывшемся списке будет несколько сервисов.",
+    "Чтобы посмотреть законы по отрасли, выберите «Общеправовой классификатор отраслей законодательства» (https://lex.uz/uz/klassifkator) — нажмите на отрасль (например, труд, налоги, семья) и откройте список относящихся к ней документов.",
+    "Чтобы рассчитать штраф или платёж, откройте «Калькулятор БРВ» (https://lex.uz/uz/bhm) — введите количество БРВ, и калькулятор покажет сумму в сумах.",
+    "Для официальных разъяснений к законам откройте раздел «Правовые разъяснения» в верхнем меню (https://lex.uz/uz/explanation).",
+    "Чтобы научиться пользоваться сайтом, откройте «Руководство пользователя» в разделе «О системе» (https://lex.uz/uz/lexuz) — там объяснены поиск и другие возможности.",
+    "Официальные тексты о государственных символах (флаг, герб, гимн) размещены в разделе «Государственные символы Республики Узбекистан» (https://lex.uz/uz/symbols), а словарь юридических терминов — на странице https://lex.uz/uz/dictionary."
+   ],
+   "hujjatlar": [
+    "Не требуется"
+   ],
+   "muddat": "Сразу (просмотр онлайн)",
+   "narx": "Бесплатно",
+   "aloqa": "Официальный Telegram: t.me/lexuzofficial; канал правовой информации: t.me/huquqiyaxborot; телефон/e-mail на сайте не указаны",
+   "kimlar_uchun": "Все пользователи (регистрация не обязательна)",
+   "idora": "Министерство юстиции Республики Узбекистан (Национальный центр правовой информации «Адолат»)",
+   "qoshimcha": "На сайте также работает ИИ-помощник ai.lex.uz — можно написать вопрос простым языком и получить ссылки на соответствующие нормативно-правовые акты. В разделе «Издания» (https://lex.uz/uz/publication) собраны сборники законов и международные договоры."
+  },
+  "en": {
+   "nomi": "Reference information and supporting services (classifier, BCU calculator, legal explanations)",
+   "tavsif": "In addition to the texts of laws, the Lex.uz website also offers other useful reference materials: a classifier of branches of legislation, a base calculation unit (BCU) calculator, legal explanations, and user guides. All of this is available free of charge and without registration.",
+   "muammolar": [
+    "how do I calculate the BCU amount",
+    "I want to see laws grouped by branch/field",
+    "I didn't understand the law — is there an explanation",
+    "I want to learn how to use the site",
+    "I need official information about state symbols"
+   ],
+   "qadamlar": [
+    "Open the website https://lex.uz/uz/ in your browser.",
+    "In the top menu, click \"Reference Information\" — the list that opens contains several services.",
+    "To view laws by branch, select \"General Legal Classifier of Branches of Legislation\" (https://lex.uz/uz/klassifkator) — click a branch (for example, labor, taxes, family) to open the list of documents related to it.",
+    "To calculate a fine or payment, open the \"BCU Calculator\" (https://lex.uz/uz/bhm) — enter the number of BCU, and the calculator will display the amount in soum.",
+    "For official explanations of laws, open the \"Legal Explanations\" section in the top menu (https://lex.uz/uz/explanation).",
+    "To learn how to use the site, open the \"User Guide\" in the \"About the System\" section (https://lex.uz/uz/lexuz) — it explains search and other features.",
+    "Official texts on state symbols (flag, emblem, anthem) are located in the \"State Symbols of the Republic of Uzbekistan\" section (https://lex.uz/uz/symbols), and the dictionary of legal terms is at https://lex.uz/uz/dictionary."
+   ],
+   "hujjatlar": [
+    "Not required"
+   ],
+   "muddat": "Immediately (online viewing)",
+   "narx": "Free",
+   "aloqa": "Official Telegram: t.me/lexuzofficial; legal information channel: t.me/huquqiyaxborot; phone/e-mail not listed on the site",
+   "kimlar_uchun": "All users (registration not required)",
+   "idora": "Ministry of Justice of the Republic of Uzbekistan (\"Adolat\" National Center for Legal Information)",
+   "qoshimcha": "The site also has an AI assistant at ai.lex.uz — you can type a question in plain language and receive links to the relevant legal acts. The \"Publications\" section (https://lex.uz/uz/publication) contains collections of laws and international treaties."
+  }
+ },
+ "lex.ish-haqi-kechiktirilishi": {
+  "ru": {
+   "nomi": "Работодатель не платит мою зарплату вовремя",
+   "tavsif": "Это незаконно. Согласно статье 21 Трудового кодекса, работник имеет право на своевременную и полную оплату труда, а согласно статье 25 работодатель обязан выплачивать заработную плату в установленные сроки и в полном объёме. Потребуйте от работодателя погашения задолженности в письменной форме; при отказе обратитесь с жалобой в Инспекцию труда или в суд — невыплаченная заработная плата взыскивается в принудительном порядке. Полную информацию см. в документе на lex.uz: https://lex.uz/uz/docs/6257288",
+   "muammolar": [
+    "моя зарплата задерживается",
+    "мне не выплачивают зарплату",
+    "зарплату не платят уже два месяца",
+    "работодатель удерживает мои деньги"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Сохраняйте в качестве доказательств трудовой договор, расчётные листы и банковские выписки. Сначала направьте письменную претензию работодателю, затем обратитесь в Инспекцию труда, а если вопрос не решится — в суд. Вопрос компенсации за период задержки также урегулирован кодексом — точные условия проверьте по тексту на lex.uz. · Трудовой кодекс Республики Узбекистан (28.10.2022), статьи 21 и 25"
+  },
+  "en": {
+   "nomi": "My employer is not paying my salary on time",
+   "tavsif": "This is unlawful. Under Article 21 of the Labor Code, an employee has the right to timely and full payment of wages, and under Article 25 the employer is obliged to pay wages in full within the established time limits. Demand payment of the debt from your employer in writing; if refused, file a complaint with the Labor Inspectorate or go to court — unpaid wages are recovered through compulsory enforcement. For full details, see the document on lex.uz: https://lex.uz/uz/docs/6257288",
+   "muammolar": [
+    "my monthly salary is being delayed",
+    "they are not paying my wages",
+    "I haven't been paid for two months",
+    "my employer is withholding my money"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Keep your employment contract, pay slips, and bank statements as evidence. First send a written demand to your employer, then file a complaint with the Labor Inspectorate, and if the matter remains unresolved, go to court. The Code also regulates compensation for the delayed period — check the exact terms in the text on lex.uz. · Labor Code of the Republic of Uzbekistan (28.10.2022), Articles 21 and 25"
+  }
+ },
+ "lex.noqonuniy-ishdan-boshatish": {
+  "ru": {
+   "nomi": "Меня уволили без каких-либо оснований",
+   "tavsif": "Работодатель может уволить работника только по основаниям, предусмотренным статьёй 155 Трудового кодекса, — увольнение без основания незаконно. Статья 174 кодекса устанавливает правовые последствия незаконного расторжения трудового договора: работник вправе требовать восстановления на работе и соответствующих выплат. При увольнении работодатель обязан произвести с вами полный расчёт в соответствии со статьёй 172. Получите копию приказа и обратитесь в суд или в Инспекцию труда. Полную информацию см. в документе на lex.uz: https://lex.uz/uz/docs/6257288",
+   "muammolar": [
+    "меня выгнали с работы",
+    "уволили без причины",
+    "отстранили от работы без заявления",
+    "мой трудовой договор расторгли незаконно"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Не откладывайте обращение в суд — по трудовым спорам установлены короткие сроки исковой давности, точный срок проверьте по тексту на lex.uz. Последствия незаконного отстранения от работы отдельно предусмотрены статьёй 154. · Трудовой кодекс Республики Узбекистан (28.10.2022), статьи 155, 172 и 174"
+  },
+  "en": {
+   "nomi": "I was dismissed without any grounds",
+   "tavsif": "An employer may dismiss an employee only on the grounds provided for in Article 155 of the Labor Code — dismissal without grounds is unlawful. Article 174 of the Code establishes the legal consequences of unlawful termination of an employment contract: the employee is entitled to demand reinstatement and corresponding payments. Upon dismissal, the employer is obliged to settle full payment with you in accordance with Article 172. Obtain a copy of the order and go to court or the Labor Inspectorate. For full details, see the document on lex.uz: https://lex.uz/uz/docs/6257288",
+   "muammolar": [
+    "I was kicked out of my job",
+    "I was fired without a reason",
+    "I was removed from work without an application",
+    "my employment contract was terminated unlawfully"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Do not delay going to court — labor disputes are subject to short limitation periods; check the exact period in the text on lex.uz. The consequences of unlawful suspension from work are separately addressed in Article 154. · Labor Code of the Republic of Uzbekistan (28.10.2022), Articles 155, 172, and 174"
+  }
+ },
+ "lex.mehnat-shartnomasisiz-ishlatish": {
+  "ru": {
+   "nomi": "Работодатель заставляет меня работать без трудового договора",
+   "tavsif": "Это незаконно. Статья 106 Трудового кодекса определяет форму трудового договора, а статья 107 — его обязательные реквизиты: трудовые отношения должны быть оформлены письменным договором. Работа без договора лишает вас защиты в отношении заработной платы, отпуска, социального страхования и пенсионного стажа. Потребуйте от работодателя оформления договора в письменной форме; при отказе обратитесь с жалобой в Инспекцию труда. Полную информацию см. в документе на lex.uz: https://lex.uz/uz/docs/6257288",
+   "muammolar": [
+    "работаю неофициально",
+    "меня приняли на работу без договора",
+    "работодатель не оформляет документы",
+    "меня используют как неофициального работника"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Сохраняйте доказательства фактической работы (переписку, денежные переводы, свидетелей) — они помогут доказать наличие трудовых отношений в Инспекции труда и в суде. · Трудовой кодекс Республики Узбекистан (28.10.2022), статьи 106 и 107"
+  },
+  "en": {
+   "nomi": "My employer is making me work without an employment contract",
+   "tavsif": "This is unlawful. Article 106 of the Labor Code establishes the form of an employment contract, and Article 107 sets out its mandatory particulars — an employment relationship must be formalized by a written contract. Working without a contract leaves you unprotected regarding wages, leave, social insurance, and pension record. Demand in writing that your employer formalize the contract; if refused, file a complaint with the Labor Inspectorate. For full details, see the document on lex.uz: https://lex.uz/uz/docs/6257288",
+   "muammolar": [
+    "I'm working informally",
+    "I was hired without a contract",
+    "my employer won't formalize the paperwork",
+    "I'm being used as undocumented labor"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Keep evidence that you actually worked (correspondence, money transfers, witnesses) — it will help prove the existence of an employment relationship before the Labor Inspectorate and in court. · Labor Code of the Republic of Uzbekistan (28.10.2022), Articles 106 and 107"
+  }
+ },
+ "lex.mehnat-tatili-berilmasligi": {
+  "ru": {
+   "nomi": "Работодатель не предоставляет мне трудовой отпуск",
+   "tavsif": "Это незаконно. Статья 216 Трудового кодекса определяет понятие и виды ежегодного трудового отпуска — каждый работник имеет право на ежегодный оплачиваемый отпуск, а статья 217 устанавливает минимальную продолжительность ежегодного основного трудового отпуска. Потребуйте предоставления отпуска в письменной форме; при отказе обратитесь с жалобой в Инспекцию труда или в суд. Полную информацию см. в документе на lex.uz: https://lex.uz/uz/docs/6257288",
+   "muammolar": [
+    "не дают отпуск",
+    "уже два года не был в отпуске",
+    "не выплачивают отпускные",
+    "у меня нет отпуска для отдыха"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Вопрос выплат за неиспользованный отпуск при увольнении также отдельно урегулирован кодексом (предоставление отпуска или компенсация). Минимальную продолжительность и условия разделения отпуска на части проверьте по тексту на lex.uz. · Трудовой кодекс Республики Узбекистан (28.10.2022), статьи 216 и 217"
+  },
+  "en": {
+   "nomi": "My employer is not granting me annual leave",
+   "tavsif": "This is unlawful. Article 216 of the Labor Code defines the concept and types of annual leave — every employee has the right to annual paid leave, and Article 217 establishes the minimum duration of the basic annual leave. Demand the leave in writing; if refused, file a complaint with the Labor Inspectorate or go to court. For full details, see the document on lex.uz: https://lex.uz/uz/docs/6257288",
+   "muammolar": [
+    "they won't give me leave",
+    "I haven't had a vacation in two years",
+    "they aren't paying my vacation pay",
+    "I have no leave for rest"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Payment for unused leave upon dismissal is also separately regulated by the Code (granting leave or compensation). Check the minimum duration and the conditions for splitting leave into parts in the text on lex.uz. · Labor Code of the Republic of Uzbekistan (28.10.2022), Articles 216 and 217"
+  }
+ },
+ "lex.sifatsiz-tovarni-qaytarish": {
+  "ru": {
+   "nomi": "Магазин отказывается принимать обратно некачественный (бракованный) товар",
+   "tavsif": "Это незаконно. Статья 13 Закона «О защите прав потребителей» определяет права потребителя при продаже товара с недостатками: согласно статье 14 вы можете потребовать замены бракованного товара, согласно статье 15 — безвозмездного устранения недостатков, а согласно статье 16 — уменьшения цены или расторжения договора. Направьте продавцу письменную претензию; при отказе обратитесь с жалобой в Агентство по защите прав потребителей или защищайте свои права в суде в соответствии со статьёй 29. Полную информацию см. в документе на lex.uz: https://lex.uz/docs/-4704",
+   "muammolar": [
+    "продали бракованный товар, деньги не возвращают",
+    "не меняют товар с дефектом",
+    "хочу вернуть деньги за некачественный товар",
+    "товар на гарантии сломался, магазин не признаёт"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Сохраняйте чек или иной документ, подтверждающий оплату. Точные сроки замены и удовлетворения требований установлены законом — количество дней проверьте по тексту на lex.uz. · Закон Республики Узбекистан «О защите прав потребителей» (26.04.1996, № 221-I), статьи 13, 14, 15, 16 и 29"
+  },
+  "en": {
+   "nomi": "The store refuses to take back defective (faulty) goods",
+   "tavsif": "This is unlawful. Article 13 of the Law \"On Protection of Consumer Rights\" defines the consumer's rights when a defective product is sold: under Article 14 you may demand replacement of the defective product, under Article 15 free elimination of the defects, and under Article 16 a price reduction or termination of the contract. Send a written claim to the seller; if refused, file a complaint with the Consumer Rights Protection Agency or protect your rights in court under Article 29. For full details, see the document on lex.uz: https://lex.uz/docs/-4704",
+   "muammolar": [
+    "they sold me a faulty product and won't refund my money",
+    "they won't replace the defective product",
+    "I want my money back for a low-quality product",
+    "the warrantied product broke and the store won't acknowledge it"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Keep the receipt or other proof of payment. The law sets exact time limits for replacement and for satisfying claims — check the number of days in the text on lex.uz. · Law of the Republic of Uzbekistan \"On Protection of Consumer Rights\" (26.04.1996, No. 221-I), Articles 13, 14, 15, 16, and 29"
+  }
+ },
+ "lex.sifatli-tovarni-almashtirish": {
+  "ru": {
+   "nomi": "Товар не подошёл, магазин отказывается его менять",
+   "tavsif": "Статья 18 Закона «О защите прав потребителей» устанавливает право потребителя на обмен и качественного (не имеющего недостатков) товара — непродовольственный товар, не подошедший по размеру, фасону или иным причинам, можно потребовать обменять в установленный законом срок и при соблюдении определённых условий. Направьте продавцу письменное обращение; при отказе обратитесь в Агентство по защите прав потребителей или в суд (статья 29). Полную информацию см. в документе на lex.uz: https://lex.uz/docs/-4704",
+   "muammolar": [
+    "не подошёл размер одежды, отказываются принимать обратно",
+    "не меняют товар",
+    "купленная вещь не понравилась, магазин отказывает"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Срок обмена и перечень товаров, не подлежащих обмену, установлены законодательством — точный срок и список исключений проверьте по тексту на lex.uz. Сохраняйте чек. · Закон Республики Узбекистан «О защите прав потребителей» (26.04.1996, № 221-I), статья 18"
+  },
+  "en": {
+   "nomi": "The item doesn't fit/suit me, and the store refuses to exchange it",
+   "tavsif": "Article 18 of the Law \"On Protection of Consumer Rights\" establishes the consumer's right to exchange goods of proper (non-defective) quality — for a non-food item that does not fit in size, style, or for other reasons, you may demand an exchange within the period established by law and subject to certain conditions. Send a written request to the seller; if refused, contact the Consumer Rights Protection Agency or go to court (Article 29). For full details, see the document on lex.uz: https://lex.uz/docs/-4704",
+   "muammolar": [
+    "the clothing size didn't fit and they won't take it back",
+    "they won't exchange the item",
+    "I didn't like the item I bought, and the store is refusing"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "The exchange period and the list of goods not subject to exchange are established by legislation — check the exact period and the list of exceptions in the text on lex.uz. Keep your receipt. · Law of the Republic of Uzbekistan \"On Protection of Consumer Rights\" (26.04.1996, No. 221-I), Article 18"
+  }
+ },
+ "lex.sifatsiz-xizmat-davo": {
+  "ru": {
+   "nomi": "Услуга оказана некачественно (ремонт, пошив, сервис), деньги не возвращают",
+   "tavsif": "Вы правы. Статья 19 Закона «О защите прав потребителей» определяет права потребителя в случае нарушения условий договора о выполнении работ или оказании услуг — вы можете потребовать устранения недостатков или выдвинуть иные законные требования. Направьте исполнителю письменную претензию; если она не будет удовлетворена, обратитесь с жалобой в Агентство по защите прав потребителей или в суд в соответствии со статьёй 29 — через суд можно взыскать также убытки и моральный вред. Полную информацию см. в документе на lex.uz: https://lex.uz/docs/-4704",
+   "muammolar": [
+    "мастер выполнил работу некачественно",
+    "взял деньги за услугу, но не выполнил работу",
+    "ремонт получился некачественным, не отвечают",
+    "нарушен договор оказания услуг"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Сохраняйте в качестве доказательств договор, квитанцию и фотографии результата работы. Законом предусмотрены сроки удовлетворения претензии и ответственность за просрочку — точные условия проверьте по тексту на lex.uz. · Закон Республики Узбекистан «О защите прав потребителей» (26.04.1996, № 221-I), статьи 19 и 29"
+  },
+  "en": {
+   "nomi": "A service was performed poorly (repair, tailoring, service), and I'm not getting my money back",
+   "tavsif": "You are right. Article 19 of the Law \"On Protection of Consumer Rights\" defines the consumer's rights when the terms of a contract for work or services are violated — you may demand that the defects be remedied or make other lawful claims. Send a written claim to the service provider; if it is not satisfied, file a complaint with the Consumer Rights Protection Agency or go to court under Article 29 — through the court you can also recover damages and moral harm. For full details, see the document on lex.uz: https://lex.uz/docs/-4704",
+   "muammolar": [
+    "the technician did poor-quality work",
+    "they took money for the service but didn't do the work",
+    "the repair was done poorly and they won't respond",
+    "the service contract was violated"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Keep the contract, receipt, and photos of the work result as evidence. The law provides for deadlines to satisfy a claim and liability for delay — check the exact terms in the text on lex.uz. · Law of the Republic of Uzbekistan \"On Protection of Consumer Rights\" (26.04.1996, No. 221-I), Articles 19 and 29"
+  }
+ },
+ "lex.kommunal-xizmat-sifatsiz-qayta-hisob": {
+  "ru": {
+   "nomi": "Коммунальная услуга не оказывается или оказывается некачественно, но оплата начисляется полностью",
+   "tavsif": "Вы вправе требовать перерасчёта. Статья 133 Жилищного кодекса устанавливает обязательные платежи за коммунальные услуги, а статья 134 — сроки их оплаты: оплата производится за фактически оказанную услугу. Если услуга не оказывалась или была оказана некачественно, вы как потребитель можете, опираясь на статью 19 Закона «О защите прав потребителей», требовать устранения недостатков и перерасчёта. Направьте поставщику письменную претензию (укажите даты отключений); если вопрос не решится, обратитесь с жалобой в Агентство по защите прав потребителей — согласно статье 140 Жилищного кодекса жилищные споры также рассматриваются в судебном порядке. Полную информацию см. в документе на lex.uz: https://lex.uz/docs/-106136",
+   "muammolar": [
+    "нет горячей воды, но оплата начисляется",
+    "не делают перерасчёт коммунальных платежей",
+    "свет часто отключают, компенсации нет",
+    "отопление не работает, но оплата взимается полностью"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Чтобы зафиксировать факт отключения, узнайте номер обращения в диспетчерскую службу или потребуйте составления акта. Расходы на содержание общего имущества многоквартирного дома урегулированы статьёй 126. · Жилищный кодекс Республики Узбекистан, статьи 133, 134 и 140; Закон «О защите прав потребителей», статья 19 (https://lex.uz/docs/-4704)"
+  },
+  "en": {
+   "nomi": "A utility service is not provided or is of poor quality, but I'm still being billed in full",
+   "tavsif": "You are entitled to demand a recalculation. Article 133 of the Housing Code establishes mandatory payments for utility services, and Article 134 sets the payment deadlines — payment is made for the service actually provided. If the service was not provided or was of poor quality, you, as a consumer, may rely on Article 19 of the Law \"On Protection of Consumer Rights\" to demand that the deficiencies be remedied and a recalculation made. Send a written claim to the provider (noting the dates of interruptions); if the matter is not resolved, file a complaint with the Consumer Rights Protection Agency — under Article 140 of the Housing Code, housing disputes may also be resolved through the courts. For full details, see the document on lex.uz: https://lex.uz/docs/-106136",
+   "muammolar": [
+    "there's no hot water, but I'm still being billed",
+    "they won't recalculate my utility bill",
+    "the electricity is often cut off, with no compensation",
+    "the heating doesn't work, but I'm billed in full"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "To document the interruption, obtain a reference number from the dispatch service or demand that a report be drawn up. Expenses for maintaining common property in an apartment building are regulated by Article 126. · Housing Code of the Republic of Uzbekistan, Articles 133, 134, and 140; Law \"On Protection of Consumer Rights,\" Article 19 (https://lex.uz/docs/-4704)"
+  }
+ },
+ "lex.aliment-tolanmayapti": {
+  "ru": {
+   "nomi": "Бывший супруг(а) не платит алименты на ребёнка, что делать?",
+   "tavsif": "Это правонарушение: согласно статье 96 Семейного кодекса родители обязаны содержать несовершеннолетних детей, а при отсутствии соглашения алименты взыскиваются в судебном порядке (размер определён статьёй 99). Подайте в суд по гражданским делам по месту жительства заявление о взыскании алиментов — такие заявления принимаются без уплаты государственной пошлины. Передайте решение суда или судебный приказ в Бюро принудительного исполнения (БПИ): БПИ принудительно взыщет средства из заработной платы и имущества должника. Если умышленная неуплата продолжается, потребуйте через БПИ привлечения должника к ответственности. Полную информацию см. в документе на lex.uz: https://lex.uz/uz/docs/104720",
+   "muammolar": [
+    "мой бывший муж не платит алименты",
+    "как взыскать алименты на ребёнка",
+    "накопился долг по алиментам",
+    "отец не даёт денег ребёнку",
+    "куда обращаться для взыскания алиментов"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Процедура судебного приказа быстрее: в бесспорных случаях выдаётся судебный приказ. Если решение не исполняется, можно обжаловать бездействие БПИ в вышестоящий орган, в суд, а также в прокуратуру. Алименты могут быть взысканы и за прошедший период (в пределах, установленных законом). · Семейный кодекс Республики Узбекистан, статья 96 (обязанность родителей по содержанию несовершеннолетних детей), статья 99 (размер алиментов)"
+  },
+  "en": {
+   "nomi": "My ex-spouse isn't paying child support — what should I do?",
+   "tavsif": "This is a legal violation: under Article 96 of the Family Code, parents are obliged to support their minor children, and in the absence of an agreement, child support is recovered through the courts (the amount is determined by Article 99). File an application for recovery of child support with the civil court at your place of residence — such applications are accepted without a state fee. Submit the court decision or court order to the Bureau of Compulsory Enforcement (BCE): the BCE will compulsorily recover the funds from the debtor's wages and property. If deliberate non-payment continues, request through the BCE that the debtor be held liable. For full details, see the document on lex.uz: https://lex.uz/uz/docs/104720",
+   "muammolar": [
+    "my ex-husband isn't paying child support",
+    "how is child support recovered",
+    "child support arrears have built up",
+    "the father isn't giving money to the child",
+    "where do I apply to recover child support"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "The court-order procedure is faster: in uncontested cases, a court order is issued. If it is not enforced, you can complain about the BCE's inaction to a higher authority, to the court, or to the prosecutor's office. Child support may also be recovered for a past period (within the limits established by law). · Family Code of the Republic of Uzbekistan, Article 96 (parents' duty to support minor children), Article 99 (amount of child support)"
+  }
+ },
+ "lex.ajrashish-tartibi": {
+  "ru": {
+   "nomi": "Хочу развестись, как это происходит?",
+   "tavsif": "Порядок расторжения брака установлен статьёй 38 Семейного кодекса: если у сторон есть общие несовершеннолетние дети или одна из сторон не согласна на развод, брак расторгается в судебном порядке в соответствии со статьёй 40. Для этого подайте заявление в суд по гражданским делам по месту жительства; суд также решит вопрос о том, с кем останутся дети, и вопрос об алиментах. При взаимном согласии и отсутствии несовершеннолетних детей развод можно оформить в органах ЗАГС. Полную информацию см. в документе на lex.uz: https://lex.uz/uz/docs/104720",
+   "muammolar": [
+    "хочу развестись с мужем",
+    "порядок расторжения брака",
+    "сколько длится развод через суд",
+    "с кем останется ребёнок после развода"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Суд может предоставить срок для примирения. Требования о взыскании алиментов и об определении места жительства ребёнка можно заявить в том же исковом заявлении, что и о разводе. · Семейный кодекс Республики Узбекистан, статья 38 (порядок расторжения брака), статья 40 (расторжение брака в судебном порядке)"
+  },
+  "en": {
+   "nomi": "I want to get a divorce — what is the procedure?",
+   "tavsif": "The divorce procedure is set out in Article 38 of the Family Code: if the spouses have common minor children or one party does not consent to the divorce, the marriage is dissolved through the courts under Article 40. To do this, file an application with the civil court at your place of residence; the court will also decide who the children will live with and the child support issue. If both parties consent and there are no minor children, the divorce can be registered with the civil registry office (ZAGS). For full details, see the document on lex.uz: https://lex.uz/uz/docs/104720",
+   "muammolar": [
+    "I want to divorce my husband",
+    "the procedure for dissolving a marriage",
+    "how long does a court divorce take",
+    "who will the child stay with after the divorce"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "The court may grant a period for reconciliation. Claims for child support and for determining the child's place of residence can be included in the same application as the divorce claim. · Family Code of the Republic of Uzbekistan, Article 38 (divorce procedure), Article 40 (judicial dissolution of marriage)"
+  }
+ },
+ "lex.bola-bilan-korishish-huquqi": {
+  "ru": {
+   "nomi": "Мы развелись, бывший супруг(а) не даёт видеться с ребёнком",
+   "tavsif": "Это противоречит закону: согласно статье 66 Семейного кодекса ребёнок имеет право на общение с родителями и другими родственниками, а другая сторона не вправе ограничивать право отдельно проживающего родителя на общение с ребёнком. Сначала обратитесь в орган опеки и попечительства при хокимияте района (города) с просьбой определить порядок общения. Если договориться не удаётся, подайте заявление в суд — суд в принудительном порядке установит график общения. Если решение суда не исполняется, требуйте исполнения через Бюро принудительного исполнения. Полную информацию см. в документе на lex.uz: https://lex.uz/uz/docs/104720",
+   "muammolar": [
+    "мне не дают разрешения видеться с ребёнком",
+    "бывшая жена не даёт видеться с ребёнком",
+    "есть ли у меня как у отца право видеться с ребёнком",
+    "может ли бабушка видеться с внуком"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Бабушки, дедушки и другие близкие родственники также имеют право на общение согласно статье 77. Заключение органа опеки является важным доказательством в суде. · Семейный кодекс Республики Узбекистан, статья 66 (право ребёнка на общение с родителями и другими родственниками), статья 77 (право дедушки, бабушки, братьев, сестёр и других близких родственников на общение с ребёнком)"
+  },
+  "en": {
+   "nomi": "We are divorced, and my ex-spouse won't let me see our child",
+   "tavsif": "This is unlawful: under Article 66 of the Family Code, a child has the right to communicate with parents and other relatives, and the other party may not restrict the separately residing parent's right to communicate with the child. First contact the guardianship and trusteeship authority at the district (city) hokimiyat to request that a schedule of contact be established. If agreement cannot be reached, file an application with the court — the court will compulsorily establish a contact schedule. If the court's decision is not enforced, demand enforcement through the Bureau of Compulsory Enforcement. For full details, see the document on lex.uz: https://lex.uz/uz/docs/104720",
+   "muammolar": [
+    "I'm not being allowed to see my child",
+    "my ex-wife won't let me see the child",
+    "do I, as the father, have the right to see the child",
+    "can the grandmother see her grandchild"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Grandparents and other close relatives also have the right to contact under Article 77. The guardianship authority's opinion serves as important evidence in court. · Family Code of the Republic of Uzbekistan, Article 66 (child's right to communicate with parents and other relatives), Article 77 (right of grandparents, siblings, and other close relatives to maintain contact with the child)"
+  }
+ },
+ "lex.nikoh-yoshi-majburiy-nikoh": {
+  "ru": {
+   "nomi": "Нашу дочь хотят выдать замуж насильно, законно ли это?",
+   "tavsif": "Принудительный брак противоречит закону: брак заключается только по добровольному согласию обеих сторон и по достижении брачного возраста (18 лет), установленного статьёй 15 Семейного кодекса. Брак, заключённый без согласия или под принуждением, может быть признан недействительным. В случае принуждения незамедлительно обратитесь в орган опеки и попечительства, в органы внутренних дел или в прокуратуру — за принуждение к вступлению в брак законом предусмотрена ответственность. Полную информацию см. в документе на lex.uz: https://lex.uz/uz/docs/104720",
+   "muammolar": [
+    "с какого возраста можно вступать в брак",
+    "хотят выдать замуж насильно",
+    "можно ли женить/выдать замуж несовершеннолетнего",
+    "какой брачный возраст"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Религиозный обряд бракосочетания (никох) с лицом, не достигшим 18 лет, также влечёт ответственность. Можно обратиться на телефоны доверия и к советнику по делам женщин в махалле; в серьёзных случаях подайте письменное заявление в прокуратуру. · Семейный кодекс Республики Узбекистан, статья 15 (брачный возраст)"
+  },
+  "en": {
+   "nomi": "They want to force our daughter into marriage — is this legal?",
+   "tavsif": "Forced marriage is unlawful: a marriage may be concluded only with the voluntary consent of both parties and upon reaching the marriageable age (18 years) established by Article 15 of the Family Code. A marriage concluded without consent or under duress may be declared invalid. In cases of coercion, immediately contact the guardianship and trusteeship authority, the internal affairs bodies, or the prosecutor's office — the law provides for liability for forcing someone into marriage. For full details, see the document on lex.uz: https://lex.uz/uz/docs/104720",
+   "muammolar": [
+    "at what age can one get married",
+    "they want to force her into marriage",
+    "can a minor be married off",
+    "what is the marriageable age"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "A religious marriage ceremony (nikoh) with a person under 18 also entails liability. You can contact trust hotlines and the women's affairs advisor at the mahalla; in serious cases, file a written application with the prosecutor's office. · Family Code of the Republic of Uzbekistan, Article 15 (marriageable age)"
+  }
+ },
+ "lex.jarima-notogri-yozilgan": {
+  "ru": {
+   "nomi": "Мне неправильно выписали штраф, как обжаловать?",
+   "tavsif": "Согласно Кодексу об административной ответственности, вы имеете право обжаловать постановление по делу об административном правонарушении: жалоба подаётся вышестоящему органу (должностному лицу) по отношению к органу, вынесшему постановление, либо в суд. В жалобе укажите номер и дату постановления, а также причины, по которым вы считаете его неправильным (с доказательствами). Важно: срок подачи жалобы исчисляется со дня вручения вам копии постановления и является коротким, поэтому не откладывайте её подачу — исполнение постановления при подаче жалобы приостанавливается в случаях, предусмотренных законом. Также можно обратиться в прокуратуру с просьбой опротестовать постановление. Полную информацию см. в документе на lex.uz: https://lex.uz/uz/docs/97664",
+   "muammolar": [
+    "ГАИ неправильно выписала штраф",
+    "куда подавать жалобу на штраф",
+    "штраф с радара несправедлив",
+    "пришёл штраф за нарушение, которого я не совершал",
+    "порядок отмены штрафа"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Если срок обжалования пропущен по уважительной причине, можно попросить его восстановить. Для штрафов, зафиксированных автоматической фото-видеофиксацией, действует тот же порядок: жалоба в вынесший орган или в суд. Если ответ вас не устраивает, обращайтесь в суд. · Кодекс Республики Узбекистан об административной ответственности"
+  },
+  "en": {
+   "nomi": "I was wrongly fined — how do I file an appeal?",
+   "tavsif": "Under the Code of Administrative Liability, you have the right to appeal a decision in an administrative offense case: the appeal is filed with the authority (official) superior to the one that issued the decision, or with the court. In your appeal, state the decision's number and date, as well as the reasons you consider it incorrect (with supporting evidence). Important: the appeal period runs from the day you were handed a copy of the decision and is short, so do not delay filing — enforcement of the decision is suspended upon filing an appeal in cases provided for by law. You can also ask the prosecutor's office to protest the decision. For full details, see the document on lex.uz: https://lex.uz/uz/docs/97664",
+   "muammolar": [
+    "the traffic police wrote up the fine incorrectly",
+    "where do I file a complaint about the fine",
+    "the radar fine is unfair",
+    "I received a fine for a violation I did not commit",
+    "the procedure for canceling a fine"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "If the appeal deadline was missed for a valid reason, you can request that it be reinstated. The same procedure applies to fines recorded by automatic photo-video cameras: appeal to the issuing authority or to the court. If you are not satisfied with the response, go to court. · Code of the Republic of Uzbekistan on Administrative Liability"
+  }
+ },
+ "lex.murojaatga-javob-berilmadi": {
+  "ru": {
+   "nomi": "Я подавал(а) заявление в государственный орган, ответ в срок не дали",
+   "tavsif": "Это правонарушение: статья 28 Закона «Об обращениях физических и юридических лиц» устанавливает сроки рассмотрения обращений — обращения, не требующие дополнительного изучения, должны быть рассмотрены в течение 15 дней, остальные — в течение месяца, а ответ должен предоставляться в письменной (или электронной) форме (статья 27). Если срок нарушен, направьте письменную жалобу руководителю данного органа, а затем в вышестоящий орган. Если результата нет — обратитесь в прокуратуру или в суд: должностные лица привлекаются к ответственности за нарушение законодательства об обращениях. Полную информацию см. в документе на lex.uz: https://lex.uz/uz/docs/3336171",
+   "muammolar": [
+    "ответ на моё заявление не пришёл",
+    "хокимият не рассмотрел моё обращение",
+    "за сколько дней они обязаны дать ответ",
+    "моё обращение осталось без ответа",
+    "срок ожидания ответа от ведомства"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Если требуется дополнительная проверка, срок может быть продлён в порядке, установленном законом, о чём вас обязаны уведомить. Обратиться также можно через приёмные народа при Президенте; нарушение сроков влечёт административную ответственность. · Закон Республики Узбекистан «Об обращениях физических и юридических лиц» (новая редакция, 11.09.2017, № ЗРУ-445), статья 27 (ответы на обращения), статья 28 (сроки рассмотрения обращений)"
+  },
+  "en": {
+   "nomi": "I filed an application with a government agency, and I didn't receive a response on time",
+   "tavsif": "This is a violation of the law: Article 28 of the Law \"On Appeals of Individuals and Legal Entities\" establishes the deadlines for reviewing appeals — appeals that do not require further study must be reviewed within 15 days, others within one month, and the response must be provided in writing (or electronically) (Article 27). If the deadline is violated, send a written complaint to the head of that agency, and then to a higher authority. If there is no result, contact the prosecutor's office or the court — officials are held liable for violating legislation on appeals. For full details, see the document on lex.uz: https://lex.uz/uz/docs/3336171",
+   "muammolar": [
+    "I haven't received a response to my application",
+    "the hokimiyat did not review my appeal",
+    "within how many days must they respond",
+    "my appeal was left unanswered",
+    "the waiting period for a response from the agency"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "If additional verification is required, the deadline may be extended in the manner established by law, and you must be notified of this. You can also apply through the President's public reception offices; violating the deadlines entails administrative liability. · Law of the Republic of Uzbekistan \"On Appeals of Individuals and Legal Entities\" (new edition, 11.09.2017, No. ZRU-445), Article 27 (responses to appeals), Article 28 (deadlines for reviewing appeals)"
+  }
+ },
+ "lex.pensiya-notogri-hisoblangan": {
+  "ru": {
+   "nomi": "Мне неправильно начислили пенсию или отказали в её назначении",
+   "tavsif": "Согласно статье 48 Закона «О государственном пенсионном обеспечении граждан», вы имеете право обжаловать решения о назначении пенсии. Сначала письменно запросите в районном (городском) отделении Пенсионного фонда расчёт вашей пенсии — проверьте, правильно ли учтён трудовой стаж (статья 27 закона) и средняя месячная заработная плата (статьи 31–32). Если обнаружена ошибка, письменно потребуйте перерасчёта; при отказе обратитесь с жалобой в вышестоящий орган Пенсионного фонда, а затем в суд. Можно представить документы, подтверждающие недостающий стаж (трудовую книжку, архивные справки). Полную информацию см. в документе на lex.uz: https://lex.uz/uz/docs/112312",
+   "muammolar": [
+    "моя пенсия рассчитана заниженно",
+    "мне отказали в назначении пенсии",
+    "мой трудовой стаж не учли",
+    "хочу, чтобы пенсию пересчитали",
+    "жалоба на отделение Пенсионного фонда"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Основания расчёта установлены статьями 25–32 закона (размер пенсии, надбавки за стаж, порядок определения средней месячной заработной платы). Прокуратура также может проверить решение пенсионного органа. · Закон Республики Узбекистан «О государственном пенсионном обеспечении граждан» (03.09.1993, № 938-XII), статья 48 (обжалование решений о назначении пенсии)"
+  },
+  "en": {
+   "nomi": "My pension was calculated incorrectly, or I was denied a pension",
+   "tavsif": "Under Article 48 of the Law \"On State Pension Provision for Citizens,\" you have the right to appeal decisions on pension awards. First, submit a written request to your district (city) branch of the Pension Fund for the calculation of your pension — check whether your length of service (Article 27 of the law) and average monthly wage (Articles 31–32) were calculated correctly. If an error is found, demand a recalculation in writing; if refused, file a complaint with a higher Pension Fund authority, and then with the court. You may submit documents confirming missing service periods (work record book, archival records). For full details, see the document on lex.uz: https://lex.uz/uz/docs/112312",
+   "muammolar": [
+    "my pension was calculated too low",
+    "I was denied a pension award",
+    "my length of service was not taken into account",
+    "I want my pension recalculated",
+    "a complaint against the Pension Fund branch"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "The basis for the calculation is set out in Articles 25–32 of the law (pension amount, service-length increments, procedure for determining average monthly wage). The prosecutor's office can also review the pension authority's decision. · Law of the Republic of Uzbekistan \"On State Pension Provision for Citizens\" (03.09.1993, No. 938-XII), Article 48 (appealing decisions on pension awards)"
+  }
+ },
+ "lex.maktabda-pul-yigish": {
+  "ru": {
+   "nomi": "В школе собирают обязательные деньги на ремонт, это законно?",
+   "tavsif": "Принудительный сбор денег незаконен: согласно статье 5 Закона «Об образовании» каждый имеет право на получение образования, и общее среднее образование в государственных образовательных учреждениях гарантируется бесплатно за счёт государства; статья 4 закрепляет доступность образования для всех как основной принцип. Родители могут оказывать помощь только на добровольной основе — принуждение, увязывание с оценками или давление на ребёнка недопустимы. Если с вас требуют деньги, обратитесь письменно к директору школы, а при отсутствии результата — в районный отдел народного образования, на телефон доверия или в прокуратуру. Полную информацию см. в документе на lex.uz: https://lex.uz/uz/docs/5013007",
+   "muammolar": [
+    "в школе собирают деньги",
+    "учитель просит деньги на ремонт",
+    "обязателен ли классный фонд",
+    "в детском саду требуют дополнительные деньги",
+    "разве школа не бесплатная"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Жалобу можно подать и анонимно через телефоны доверия. Сохраняйте доказательства принудительного сбора (переписку, объявления) — они пригодятся при проверке прокуратурой. Отстранение ребёнка от занятий или оказание на него давления рассматривается как отдельное правонарушение. · Закон Республики Узбекистан «Об образовании» (23.09.2020, № ЗРУ-637), статья 4 (основные принципы в сфере образования), статья 5 (право на получение образования)"
+  },
+  "en": {
+   "nomi": "The school is collecting mandatory money for repairs — is this legal?",
+   "tavsif": "Compulsory fundraising is unlawful: under Article 5 of the Law \"On Education,\" everyone has the right to receive an education, and general secondary education in state educational institutions is guaranteed free of charge at the state's expense; Article 4 establishes accessibility of education for all as a fundamental principle. Parents may only provide assistance voluntarily — coercion, linking it to grades, or pressuring a child is not permitted. If money is demanded from you, submit a written complaint to the school principal, and if there is no result, contact the district public education department, a trust hotline, or the prosecutor's office. For full details, see the document on lex.uz: https://lex.uz/uz/docs/5013007",
+   "muammolar": [
+    "the school is collecting money",
+    "the teacher is asking for repair money",
+    "is the class fund mandatory",
+    "the kindergarten is demanding extra money",
+    "isn't school supposed to be free"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "A complaint can also be filed anonymously through trust hotlines. Keep evidence of the compulsory collection (correspondence, notices) — it will be useful during a prosecutor's investigation. Excluding a child from classes or putting pressure on them is treated as a separate offense. · Law of the Republic of Uzbekistan \"On Education\" (23.09.2020, No. ZRU-637), Article 4 (fundamental principles in education), Article 5 (right to education)"
+  }
+ },
+ "lex.meros-qabul-qilish": {
+  "ru": {
+   "nomi": "Отец умер, мне нужно принять в наследство дом. Сколько у меня времени и куда обращаться?",
+   "tavsif": "Согласно разделу V Гражданского кодекса (право наследования), наследство открывается в день смерти гражданина (статья 1112). Для принятия наследства обратитесь с заявлением к нотариусу по месту открытия наследства в течение ШЕСТИ МЕСЯЦЕВ со дня открытия наследства — свидетельство о праве на наследство выдаётся нотариусом по истечении шести месяцев (статья 1146). Возьмите с собой паспорт, свидетельство о смерти наследодателя и документы, подтверждающие родство. При наличии завещания наследство распределяется по завещанию, при его отсутствии — по закону в порядке очередности. Если срок пропущен, его можно восстановить через суд при наличии уважительной причины. Полную информацию см. в документе на lex.uz: https://lex.uz/docs/180552",
+   "muammolar": [
+    "кому достанется дом после смерти отца",
+    "куда обращаться для получения наследства",
+    "каков срок принятия наследства",
+    "какое заявление подаётся нотариусу для наследства",
+    "как делится наследство при наличии завещания"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Срок: 6 месяцев со дня открытия наследства. Если срок пропущен — заявление в суд о его восстановлении при наличии уважительной причины. При наличии спора — гражданский суд. · Гражданский кодекс Республики Узбекистан (часть вторая), раздел V — право наследования; статья 1112 (открытие наследства), статья 1146 (шестимесячный срок, свидетельство нотариуса)"
+  },
+  "en": {
+   "nomi": "My father passed away and I need to inherit the house. How much time do I have, and where should I go?",
+   "tavsif": "Under Section V of the Civil Code (law of inheritance), the inheritance opens on the day of the citizen's death (Article 1112). To accept the inheritance, apply to a notary at the place where the inheritance was opened within SIX MONTHS from the date it opened — the certificate of the right to inheritance is issued by the notary after six months (Article 1146). Bring your passport, the deceased's death certificate, and documents proving kinship. If there is a will, the inheritance is distributed according to it; if not, it is distributed by law in order of priority. If the deadline is missed, it can be reinstated through the courts for a valid reason. For full details, see the document on lex.uz: https://lex.uz/docs/180552",
+   "muammolar": [
+    "who will get the house after my father's death",
+    "where should I go to receive an inheritance",
+    "what is the deadline for accepting an inheritance",
+    "what kind of application is submitted to a notary for inheritance",
+    "how is inheritance divided if there is a will"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Deadline: 6 months from the date the inheritance opened. If the deadline is missed — an application to the court for its reinstatement, provided there is a valid reason. In case of a dispute — the civil court. · Civil Code of the Republic of Uzbekistan (Part Two), Section V — law of inheritance; Article 1112 (opening of the inheritance), Article 1146 (six-month period, notary's certificate)"
+  }
+ },
+ "lex.kredit-tolay-olmaslik-qarz": {
+  "ru": {
+   "nomi": "Не могу выплатить банковский кредит, коллекторы звонят и запугивают. Что мне делать?",
+   "tavsif": "Кредитные и долговые отношения регулируются Гражданским кодексом (частью второй) — долг взыскивается только на основании условий договора и закона, никто не вправе запугивать, угрожать вам или самовольно изымать ваше имущество. Прежде всего направьте банку письменное обращение с просьбой о реструктуризации или продлении срока платежа — банки обязаны его рассмотреть. Принудительное взыскание долга возможно только на основании решения суда и исполнительного документа. При угрозах и запугивании обратитесь в ОВД (102). Полную информацию см. в документе на lex.uz: https://lex.uz/docs/180552",
+   "muammolar": [
+    "не могу платить кредит, что будет",
+    "коллекторы запугивают",
+    "могут ли забрать мой дом за долг",
+    "я был поручителем, теперь взыскивают с меня",
+    "что будет, если я просрочу банковский кредит"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Письменное обращение в банк → Центральный банк (банковский омбудсмен) → суд. Принудительное взыскание возможно только через решение суда и исполнительный документ. При угрозах — ОВД (102). · Гражданский кодекс Республики Узбекистан (часть вторая) — обязательства по договорам займа и кредита"
+  },
+  "en": {
+   "nomi": "I can't repay my bank loan, and debt collectors are calling and intimidating me. What should I do?",
+   "tavsif": "Credit and debt relations are regulated by the Civil Code (Part Two) — a debt may be recovered only on the basis of the contract's terms and the law; no one has the right to intimidate you, threaten you, or arbitrarily seize your property. First, send the bank a written request for restructuring or an extension of the payment deadline — banks are required to review it. Compulsory debt recovery is possible only on the basis of a court decision and an enforcement document. If you are threatened or intimidated, report it to the internal affairs department (102). For full details, see the document on lex.uz: https://lex.uz/docs/180552",
+   "muammolar": [
+    "I can't pay my loan — what happens",
+    "debt collectors are intimidating me",
+    "can they take my house for the debt",
+    "I was a guarantor and now they're collecting from me",
+    "what happens if I'm late on my bank loan"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Written request to the bank → Central Bank (banking ombudsman) → court. Compulsory recovery is possible only through a court decision and an enforcement document. If threatened — internal affairs department (102). · Civil Code of the Republic of Uzbekistan (Part Two) — obligations under loan and credit agreements"
+  }
+ },
+ "lex.yer-chegara-nizosi": {
+  "ru": {
+   "nomi": "Сосед нарушил границу моего приусадебного участка и захватил часть моей земли. Как мне защититься?",
+   "tavsif": "Земельные отношения регулируются Земельным кодексом — ваше право на земельный участок подтверждается кадастровыми документами и защищается законом, никто не вправе самовольно его захватывать. Прежде всего подготовьте кадастровые документы на свой участок (кадастровый паспорт, план границ). Обратитесь в районный отдел кадастра для установления границы на местности (вынос в натуру). Если сосед добровольно не освобождает участок, подайте иск в хокимият района, а затем в суд с требованием о возврате земли и устранении препятствий. Полную информацию см. в документе на lex.uz: https://lex.uz/docs/149947",
+   "muammolar": [
+    "сосед нарушил границу",
+    "захватили мой приусадебный участок",
+    "у меня есть документы на землю, но сосед не отдаёт",
+    "спор по кадастровой границе",
+    "построил забор на моей земле"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Порядок действий: отдел кадастра (установление границы) → хокимият района → гражданский суд. Кадастровые документы являются основным доказательством. · Земельный кодекс Республики Узбекистан (30.04.1998)"
+  },
+  "en": {
+   "nomi": "My neighbor encroached on the boundary of my household plot and seized part of my land. How can I protect myself?",
+   "tavsif": "Land relations are regulated by the Land Code — your right to a land plot is confirmed by cadastral documents and is protected by law; no one has the right to seize it arbitrarily. First, prepare the cadastral documents for your plot (cadastral passport, boundary plan). Contact the district cadastre office to have the boundary marked on the ground. If the neighbor does not voluntarily vacate the land, file a claim with the district hokimiyat, and then with the court, demanding the return of the land and removal of the obstruction. For full details, see the document on lex.uz: https://lex.uz/docs/149947",
+   "muammolar": [
+    "the neighbor violated the boundary",
+    "they seized my household plot",
+    "I have documents for the land, but the neighbor won't give it back",
+    "a dispute over the cadastral boundary",
+    "he built a wall on my land"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Procedure: cadastre office (boundary determination) → district hokimiyat → civil court. Cadastral documents serve as the primary evidence. · Land Code of the Republic of Uzbekistan (30.04.1998)"
+  }
+ },
+ "lex.xorijda-ishlash-rasmiy-tartib": {
+  "ru": {
+   "nomi": "Фирма, которая хочет отправить меня на работу за границу, просит деньги. Боюсь, что меня обманут. Каков официальный порядок?",
+   "tavsif": "Согласно Закону «О частных агентствах занятости» (16.10.2018, № ЗРУ-501), трудоустройством граждан за рубежом вправе заниматься только агентства, имеющие ЛИЦЕНЗИЮ (статья 23 — лицензия на деятельность по трудоустройству за рубежом). Перед сотрудничеством с фирмой запросите её лицензию и проверьте её через Министерство занятости и трудовых отношений (или Агентство по вопросам внешней трудовой миграции). Не пользуйтесь услугами посредников без лицензии — это риск мошенничества. Если вас уже обманули, обратитесь в ОВД (102) и в прокуратуру. Полную информацию см. в документе на lex.uz: https://lex.uz/docs/-3992869",
+   "muammolar": [
+    "как официально уехать работать за границу",
+    "фирма, нанимающая на работу, просит деньги",
+    "меня обманули, обещав отправить на работу в Россию",
+    "лицензия агентства по трудоустройству за рубежом",
+    "куда обращаться для работы за границей"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Проверяйте лицензию через Министерство занятости / Агентство по вопросам внешней трудовой миграции. При обмане: ОВД (102), прокуратура. Деньги можно вернуть через гражданский суд. · Закон Республики Узбекистан «О частных агентствах занятости» (16.10.2018, № ЗРУ-501), статья 23 — лицензия на трудоустройство за рубежом"
+  },
+  "en": {
+   "nomi": "A firm that wants to send me to work abroad is asking for money. I'm afraid of being scammed. What is the official procedure?",
+   "tavsif": "Under the Law \"On Private Employment Agencies\" (16.10.2018, No. ZRU-501), only agencies holding a LICENSE may engage in placing citizens in jobs abroad (Article 23 — license for overseas employment placement activity). Before working with a firm, ask for its license and verify it through the Ministry of Employment and Labor Relations (or the Agency for External Labor Migration). Do not use the services of unlicensed intermediaries — this poses a risk of fraud. If you have already been defrauded, report it to the internal affairs department (102) and to the prosecutor's office. For full details, see the document on lex.uz: https://lex.uz/docs/-3992869",
+   "muammolar": [
+    "how do I officially go abroad to work",
+    "the hiring firm is asking for money",
+    "I was scammed with a promise to send me to work in Russia",
+    "the license of an agency for overseas job placement",
+    "where should I apply to work abroad"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Verify the license through the Ministry of Employment / Agency for External Labor Migration. If defrauded: internal affairs department (102), prosecutor's office. Money can be recovered through the civil court. · Law of the Republic of Uzbekistan \"On Private Employment Agencies\" (16.10.2018, No. ZRU-501), Article 23 — license for overseas employment placement"
+  }
+ },
+ "lex.harbiy-xizmat-kechiktirish": {
+  "ru": {
+   "nomi": "Моя учёба ещё не закончена, но меня призывают на военную службу. Имею ли я право на отсрочку?",
+   "tavsif": "Статья 21 Закона «О всеобщем воинском обязательстве и военной службе» (12.12.2002, № 436-II) устанавливает право на отсрочку от призыва на срочную военную службу, в том числе в связи с обучением в образовательном учреждении, состоянием здоровья и семейным положением. Для получения отсрочки обратитесь в районный отдел по делам обороны (военный комиссариат) со справкой из места учёбы и другими подтверждающими документами. Если вы не согласны с решением призывной комиссии, вы можете обжаловать его в вышестоящей комиссии или в суде. Полную информацию см. в документе на lex.uz: https://lex.uz/docs/-78717",
+   "muammolar": [
+    "заберут ли в армию, если я учусь",
+    "можно ли отсрочить военную службу",
+    "обжалование решения призывной комиссии",
+    "как получить отсрочку",
+    "отсрочка от военной службы по семейным обстоятельствам"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Подайте документы до начала призыва. Обжалование: районная призывная комиссия → областная комиссия → суд. · Закон Республики Узбекистан «О всеобщем воинском обязательстве и военной службе» (12.12.2002, № 436-II), статья 21 — отсрочка от призыва"
+  },
+  "en": {
+   "nomi": "I haven't finished my studies yet, but I'm being called up for military service. Do I have the right to a deferment?",
+   "tavsif": "Article 21 of the Law \"On Universal Military Duty and Military Service\" (12.12.2002, No. 436-II) establishes the right to a deferment from conscription for compulsory military service, including on grounds of study at an educational institution, health condition, and family circumstances. To obtain a deferment, apply to the district defense affairs department (military commissariat) with a certificate from your place of study and other supporting documents. If you disagree with the conscription commission's decision, you may appeal it to a higher commission or to the court. For full details, see the document on lex.uz: https://lex.uz/docs/-78717",
+   "muammolar": [
+    "will I be drafted into the army if I'm still studying",
+    "can military service be deferred",
+    "appealing a decision of the conscription commission",
+    "how do I obtain a deferment",
+    "deferment from military service due to family circumstances"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Submit your documents before the call-up begins. Appeal route: district conscription commission → regional commission → court. · Law of the Republic of Uzbekistan \"On Universal Military Duty and Military Service\" (12.12.2002, No. 436-II), Article 21 — deferment from conscription"
+  }
+ },
+ "lex.kvartira-royxatdan-otkazish": {
+  "ru": {
+   "nomi": "Купил(а) квартиру, но документы не оформил(а). Обязательна ли регистрация?",
+   "tavsif": "Да, обязательна. Согласно статье 6 Закона «О государственной регистрации прав на недвижимое имущество» (28.11.2022, № ЗРУ-803), право собственности и иные вещные права на недвижимое имущество подлежат государственной регистрации — зарегистрированное право считается приоритетным и защищает вас от споров. Заверьте договор купли-продажи нотариально, а затем зарегистрируйте право в органе кадастра (через Центр государственных услуг). Незарегистрированную квартиру нельзя продать, передать по наследству или заложить. Полную информацию см. в документе на lex.uz: https://lex.uz/docs/-6297080",
+   "muammolar": [
+    "купил квартиру, но не оформил документы",
+    "как оформить документы на дом",
+    "обязательна ли регистрация в кадастре",
+    "купил дом по расписке/неофициальному договору",
+    "какие документы нужны при покупке дома"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Порядок: нотариальный договор → Центр государственных услуг / орган кадастра. Если продавец уклоняется от оформления, право можно признать через суд. · Закон Республики Узбекистан «О государственной регистрации прав на недвижимое имущество» (28.11.2022, № ЗРУ-803), статья 6 — обязанность государственной регистрации"
+  },
+  "en": {
+   "nomi": "I bought an apartment but haven't formalized the paperwork. Is registration mandatory?",
+   "tavsif": "Yes, it is mandatory. Under Article 6 of the Law \"On State Registration of Rights to Immovable Property\" (28.11.2022, No. ZRU-803), ownership and other real rights to immovable property are subject to state registration — a registered right is deemed to take priority and protects you from disputes. Have the sale and purchase agreement notarized, and then register the right with the cadastre authority (through the Public Services Center). An unregistered apartment cannot be sold, inherited, or pledged. For full details, see the document on lex.uz: https://lex.uz/docs/-6297080",
+   "muammolar": [
+    "I bought an apartment but didn't formalize the documents",
+    "how do I formalize the documents for the house",
+    "is cadastral registration mandatory",
+    "I bought the house with an informal handwritten agreement",
+    "what documents are needed when buying a house"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Procedure: notarized agreement → Public Services Center / cadastre authority. If the seller avoids formalizing the sale, the right can be recognized through the court. · Law of the Republic of Uzbekistan \"On State Registration of Rights to Immovable Property\" (28.11.2022, No. ZRU-803), Article 6 — obligation of state registration"
+  }
+ },
+ "lex.firibgarlik-pul-aldab-olindi": {
+  "ru": {
+   "nomi": "Человек взял у меня деньги и исчез, не выполнив обещанного. Куда обращаться по факту мошенничества?",
+   "tavsif": "Завладение чужим имуществом путём обмана или злоупотребления доверием — мошенничество, которое влечёт уголовную ответственность по статье 168 Уголовного кодекса. Немедленно подайте письменное заявление в ОВД (милицию) по месту жительства или позвоните по номеру 102 — ваше заявление обязаны зарегистрировать и проверить. Сохраняйте доказательства: переписку, чеки о переводах, свидетелей. Деньги можно также вернуть через гражданский иск в рамках уголовного дела. Полную информацию см. в документе на lex.uz: https://lex.uz/docs/-111453",
+   "muammolar": [
+    "у меня выманили деньги обманом",
+    "как подать заявление на мошенника",
+    "меня обманули в интернете, и я перевёл деньги",
+    "милиция не принимает моё заявление",
+    "как вернуть обманом отнятые деньги"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Порядок обращения: ОВД (102) → если заявление не принимают, прокуратура. Заявление обязательно должно быть зарегистрировано. Возмещение ущерба — через гражданский иск в рамках уголовного дела. · Уголовный кодекс Республики Узбекистан, статья 168 (мошенничество)"
+  },
+  "en": {
+   "nomi": "Someone took money from me and disappeared without fulfilling their promise. Where do I report fraud?",
+   "tavsif": "Obtaining another person's property through deception or breach of trust constitutes fraud, punishable under Article 168 of the Criminal Code. Immediately file a written application with the internal affairs department (police) at your place of residence or call 102 — your application must be registered and investigated. Keep evidence: correspondence, transfer receipts, witnesses. You can also recover the money through a civil claim within the criminal case. For full details, see the document on lex.uz: https://lex.uz/docs/-111453",
+   "muammolar": [
+    "my money was taken from me by deception",
+    "how do I file a report against a fraudster",
+    "I was scammed online and transferred money",
+    "the police won't accept my report",
+    "how to get back money taken through fraud"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Procedure: internal affairs department (102) → if the report is not accepted, the prosecutor's office. The report must be registered. Damages can be recovered through a civil claim within the criminal case. · Criminal Code of the Republic of Uzbekistan, Article 168 (fraud)"
+  }
+ },
+ "lex.kasallik-varaqasi-tolanmayapti": {
+  "ru": {
+   "nomi": "Я заболел(а) и получил(а) больничный лист, но работодатель его не оплачивает. Это законно?",
+   "tavsif": "Нет, это незаконно. Согласно Трудовому кодексу (28.10.2022), работнику, временно нетрудоспособному по болезни, гарантируется выплата пособия — выданный медицинским учреждением листок нетрудоспособности является основанием для выплаты. Подайте работодателю письменное требование и приложите копию листка нетрудоспособности. Если оплата не произведена, обратитесь с жалобой в Инспекцию труда — она вправе обязать работодателя произвести выплату и привлечь его к ответственности. После этого вы вправе обратиться в суд и взыскать через него пособие и просроченные выплаты. Полную информацию см. в документе на lex.uz: https://lex.uz/uz/docs/6257288",
+   "muammolar": [
+    "больничный не оплачивают",
+    "работодатель не принимает больничный лист",
+    "мне не заплатили за дни болезни",
+    "как выплачивается пособие по временной нетрудоспособности",
+    "работодатель не признаёт больничный"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Порядок: письменное требование работодателю → Инспекция труда → суд. Не пропускайте сроки обращения в суд по трудовым спорам. · Трудовой кодекс Республики Узбекистан (28.10.2022) — гарантия пособия по временной нетрудоспособности"
+  },
+  "en": {
+   "nomi": "I got sick and received a sick-leave certificate, but my employer isn't paying it. Is this legal?",
+   "tavsif": "No, this is unlawful. Under the Labor Code (28.10.2022), an employee who is temporarily unable to work due to illness is guaranteed payment of a benefit — the certificate of incapacity for work issued by a medical institution is the basis for payment. Submit a written demand to your employer and attach a copy of the certificate. If payment is not made, file a complaint with the Labor Inspectorate — it has the authority to compel the employer to make the payment and to hold them liable. After that, you have the right to go to court and recover the benefit and overdue payments through it. For full details, see the document on lex.uz: https://lex.uz/uz/docs/6257288",
+   "muammolar": [
+    "my sick leave isn't being paid",
+    "my employer won't accept the sick-leave certificate",
+    "I wasn't paid for my sick days",
+    "how is the temporary disability benefit paid",
+    "my employer doesn't acknowledge the sick leave"
+   ],
+   "qadamlar": [],
+   "hujjatlar": [],
+   "muddat": "",
+   "narx": "",
+   "aloqa": "",
+   "kimlar_uchun": "",
+   "idora": "",
+   "qoshimcha": "Procedure: written demand to the employer → Labor Inspectorate → court. Do not miss the deadlines for filing labor disputes in court. · Labor Code of the Republic of Uzbekistan (28.10.2022) — guarantee of the temporary disability benefit"
+  }
+ }
+}

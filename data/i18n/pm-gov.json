@@ -1,0 +1,504 @@
+{
+  "pm-gov.pm-onlayn-murojaat-yuborish": {
+    "ru": {
+      "nomi": "Отправка онлайн-обращения в виртуальную приёмную Президента (заявление, жалоба, предложение)",
+      "tavsif": "Через виртуальную приёмную Президента Республики Узбекистан (pm.gov.uz) любой гражданин может направить заявление, жалобу или предложение по проблеме, связанной с деятельностью государственных органов. Обращение принимается через единую платформу murojaat.gov.uz и направляется в соответствующее министерство, ведомство или местный хокимият. Это высший уровень канала обращений на случай, если ни один орган не решил проблему.",
+      "muammolar": [
+        "ни один орган не решает мою проблему",
+        "моя жалоба осталась без ответа",
+        "как написать обращение Президенту",
+        "хокимият не принимает моё заявление",
+        "мои права нарушены, куда писать",
+        "местные органы не отвечают"
+      ],
+      "qadamlar": [
+        "Откройте браузер на телефоне или компьютере, введите в адресной строке pm.gov.uz и зайдите на сайт.",
+        "Нажмите кнопку «Отправить обращение» на главной странице сайта — она перенаправит вас на единую платформу обращений https://murojaat.gov.uz/.",
+        "Нажмите кнопку «Войти через OneID». OneID (id.egov.uz) — единая система входа для государственных услуг: если у вас нет учётной записи, зарегистрируйтесь, указав серию и номер паспорта (или ID-карты) и ПИНФЛ (JSHSHIR), и подтвердите номер телефона SMS-кодом.",
+        "После входа в систему откройте раздел «Отправить обращение» и выберите тип обращения: «Заявление» (просьба о реализации какого-либо права), «Жалоба» (требование восстановить нарушенное право) или «Предложение» (идея по улучшению деятельности государства).",
+        "Выберите организацию, куда будет направлено обращение: в списке есть министерства, агентства, комитеты и местные хокимияты. Если не знаете, какой именно орган нужен, выберите ближайшую по теме сферу — операторы направят обращение в нужный орган.",
+        "Выберите свой регион (область, район), напишите текст обращения чётко и кратко: что произошло, когда, в какой орган вы обращались ранее и какой ответ получили. При необходимости приложите подтверждающие документы (фотографии, PDF и т.д.).",
+        "Проверьте введённые данные и нажмите кнопку «Отправить». Система выдаст вам номер обращения и код проверки статуса — обязательно запишите или сфотографируйте их.",
+        "Согласно закону, ответ на заявления и жалобы поступает в течение 15 дней (до 1 месяца, если требуется дополнительное изучение) в ваш личный кабинет, на электронную почту или в письменном виде.",
+        "Если возникли вопросы или нет доступа к интернету, позвоните по номеру 1000 (или на бесплатный номер 0-800-210-00-00)."
+      ],
+      "hujjatlar": [
+        "Учётная запись OneID (создаётся на основании паспорта/ID-карты и ПИНФЛ)",
+        "Личный номер телефона для получения SMS-кода",
+        "Копии документов, подтверждающих проблему (необязательно, прикладываются в электронном виде)"
+      ],
+      "muddat": "Согласно закону об обращениях: 15 дней, если не требуется дополнительное изучение, иначе до 1 месяца; при необходимости срок может быть продлён ещё максимум на 1 месяц",
+      "narx": "Бесплатно (обращения рассматриваются бесплатно)",
+      "aloqa": "1000 (колл-центр), 0-800-210-00-00 (бесплатная линия)",
+      "kimlar_uchun": "Все граждане Узбекистана, а также физические и юридические лица; граждане, находящиеся за рубежом, также могут отправлять обращения онлайн",
+      "idora": "Народные приёмные / виртуальная приёмная Президента Республики Узбекистан",
+      "qoshimcha": "Анонимные обращения (без указания ФИО и адреса) не рассматриваются. Повторное обращение по одному и тому же вопросу без новых доказательств может не рассматриваться повторно. Споры, относящиеся к компетенции суда, решаются в судебном порядке. Попытка решить проблему в нижестоящем органе до отправки обращения ускоряет получение ответа, но не является обязательной."
+    },
+    "en": {
+      "nomi": "Submitting an online appeal to the President's Virtual Reception Office (application, complaint, suggestion)",
+      "tavsif": "Through the Virtual Reception Office of the President of the Republic of Uzbekistan (pm.gov.uz), any citizen can submit an application, complaint, or suggestion regarding a problem related to government agencies. Appeals are accepted through the unified platform murojaat.gov.uz and forwarded to the relevant ministry, agency, or local administration (khokimiyat). This is the highest-level appeal channel for cases where no agency has resolved the problem.",
+      "muammolar": [
+        "no agency is solving my problem",
+        "my complaint went unanswered",
+        "how can I write an appeal to the President",
+        "the local administration won't accept my application",
+        "my rights were violated, where do I write",
+        "local agencies are not responding"
+      ],
+      "qadamlar": [
+        "Open a browser on your phone or computer, type pm.gov.uz in the address bar, and visit the site.",
+        "Click the \"Submit Appeal\" button on the homepage — it will redirect you to the unified appeals platform at https://murojaat.gov.uz/.",
+        "Click the \"Log in via OneID\" button. OneID (id.egov.uz) is the unified login system for government services: if you don't have an account, register using your passport (or ID card) series and number and your PINFL (JSHSHIR), and confirm your phone number with an SMS code.",
+        "After logging in, open the \"Submit Appeal\" section and select the type of appeal: \"Application\" (a request to exercise a right), \"Complaint\" (a demand to restore a violated right), or \"Suggestion\" (an idea for improving government activity).",
+        "Select the organization the appeal should be routed to: the list includes ministries, agencies, committees, and local administrations. If you don't know which agency is responsible, choose the area closest to your issue — operators will forward the appeal to the correct agency.",
+        "Select your region (province, district) and write the text of the appeal clearly and concisely: what happened, when, which agency you contacted before, and what response you received. Attach supporting documents (photos, PDFs, etc.) if needed.",
+        "Review the information and click \"Submit\". The system will give you an appeal number and a status-check code — be sure to write them down or take a screenshot.",
+        "By law, a response to applications and complaints arrives within 15 days (up to 1 month if additional review is required) in your personal account, by email, or in writing.",
+        "If you have questions or no internet access, call 1000 (or the toll-free number 0-800-210-00-00)."
+      ],
+      "hujjatlar": [
+        "OneID account (created using passport/ID card and PINFL)",
+        "Personal phone number to receive the SMS code",
+        "Copies of documents confirming the problem (optional, attached electronically)"
+      ],
+      "muddat": "Under the Law on Appeals: 15 days if no additional review is needed, otherwise up to 1 month; the deadline may be extended by up to 1 further month if necessary",
+      "narx": "Free (appeals are reviewed free of charge)",
+      "aloqa": "1000 (call center), 0-800-210-00-00 (toll-free line)",
+      "kimlar_uchun": "All citizens of Uzbekistan, as well as individuals and legal entities; citizens abroad may also submit appeals online",
+      "idora": "People's Reception Offices / Virtual Reception Office of the President of the Republic of Uzbekistan",
+      "qoshimcha": "Anonymous appeals (without full name and address) are not reviewed. A repeat appeal on the same issue without new evidence may not be reconsidered. Disputes falling under judicial jurisdiction are resolved in court. Trying to resolve the problem with a lower-level agency before submitting an appeal can speed up the response, but it is not mandatory."
+    }
+  },
+  "pm-gov.pm-murojaat-holatini-tekshirish": {
+    "ru": {
+      "nomi": "Проверка статуса обращения",
+      "tavsif": "Онлайн-сервис отслеживания стадии рассмотрения обращения, отправленного в виртуальную приёмную Президента (принято, рассматривается, рассмотрено). Для этого потребуется номер обращения и код проверки статуса, выданные при подаче обращения.",
+      "muammolar": [
+        "не знаю, куда дошло моё обращение",
+        "ответа на заявление нет",
+        "как посмотреть статус по номеру обращения",
+        "рассматривается ли моя жалоба"
+      ],
+      "qadamlar": [
+        "Подготовьте номер обращения и код проверки статуса, выданные системой при подаче обращения (они присылаются в SMS/электронном сообщении или отображаются в личном кабинете).",
+        "Откройте в браузере сайт pm.gov.uz (главная страница: https://pm.gov.uz/uz).",
+        "Найдите на главной странице раздел «Проверка статуса обращения» (такой же раздел есть и на сайте murojaat.gov.uz).",
+        "В поле «Номер обращения» введите номер вашего обращения.",
+        "В поле «Код проверки статуса» введите проверочный код.",
+        "В поле «Введите ответ на пример, изображённый на картинке» впишите ответ на показанный пример (капчу) и нажмите кнопку проверки.",
+        "На экране появится статус вашего обращения: в каком органе оно находится и на какой стадии. Если вы вошли через OneID, в личном кабинете можно увидеть историю всех ваших обращений.",
+        "Если статус долго не меняется или истёк установленный законом срок (15 дней / 1 месяц), позвоните по номеру 1000 и назовите номер своего обращения."
+      ],
+      "hujjatlar": [
+        "Номер обращения",
+        "Код проверки статуса"
+      ],
+      "muddat": "Статус отображается в реальном времени; установленный законом срок ответа — 15 дней, в сложных случаях до 1 месяца",
+      "narx": "Бесплатно",
+      "aloqa": "1000 (колл-центр), 0-800-210-00-00",
+      "kimlar_uchun": "Все лица, направившие обращение в виртуальную приёмную",
+      "idora": "Народные приёмные / виртуальная приёмная Президента Республики Узбекистан",
+      "qoshimcha": "Если вы потеряли номер обращения и код, вы можете войти в личный кабинет через OneID и найти обращение в списке, либо позвонить по номеру 1000 и уточнить данные по паспорту."
+    },
+    "en": {
+      "nomi": "Checking the status of an appeal",
+      "tavsif": "An online service for tracking the review stage of an appeal submitted to the President's Virtual Reception Office (received, under review, reviewed). This requires the appeal number and status-check code issued when the appeal was submitted.",
+      "muammolar": [
+        "I don't know where my appeal ended up",
+        "no response has come for my application",
+        "how do I check status using my appeal number",
+        "is my complaint being reviewed or not"
+      ],
+      "qadamlar": [
+        "Have ready the appeal number and status-check code issued by the system when you submitted the appeal (sent by SMS/email or found in your personal account).",
+        "Open pm.gov.uz in a browser (homepage: https://pm.gov.uz/uz).",
+        "Find the \"Check Appeal Status\" section on the homepage (the same section also exists on murojaat.gov.uz).",
+        "Enter your appeal number in the \"Appeal number\" field.",
+        "Enter the verification code in the \"Status-check code\" field.",
+        "In the \"Enter the answer to the example shown in the image\" field, type the answer to the displayed example (captcha) and click the check button.",
+        "The status of your appeal will appear on screen: which agency it is with and at what stage. If you logged in via OneID, you can also view the history of all your appeals in your personal account.",
+        "If the status hasn't changed for a long time or the legally set deadline (15 days / 1 month) has passed, call 1000 and give your appeal number."
+      ],
+      "hujjatlar": [
+        "Appeal number",
+        "Status-check code"
+      ],
+      "muddat": "Status is shown in real time; the legal deadline for a response is 15 days, up to 1 month in complex cases",
+      "narx": "Free",
+      "aloqa": "1000 (call center), 0-800-210-00-00",
+      "kimlar_uchun": "Anyone who has submitted an appeal to the virtual reception office",
+      "idora": "People's Reception Offices / Virtual Reception Office of the President of the Republic of Uzbekistan",
+      "qoshimcha": "If you lose your appeal number and code, you can log into your personal account via OneID and find it in the list of appeals, or call 1000 and verify your details using your passport information."
+    }
+  },
+  "pm-gov.pm-1000-call-markaz": {
+    "ru": {
+      "nomi": "Устное обращение через колл-центр «1000»",
+      "tavsif": "Телефон доверия виртуальной приёмной Президента — короткий номер 1000 (или бесплатный 0-800-210-00-00). Граждане, не имеющие доступа к интернету или испытывающие трудности с письмом, могут подать обращение устно по телефону. Это самый востребованный канал — через телефон доверия принято более 6,8 миллиона обращений.",
+      "muammolar": [
+        "нет интернета, как мне обратиться",
+        "не умею писать, хочу пожаловаться по телефону",
+        "какой номер телефона приёмной Президента",
+        "я пожилой человек, не могу пользоваться сайтом"
+      ],
+      "qadamlar": [
+        "Наберите с телефона номер 1000 (у любого оператора связи в Узбекистане) или позвоните на бесплатный номер 0-800-210-00-00.",
+        "Когда ответит оператор, назовите ФИО, адрес проживания и номер телефона — анонимные обращения не принимаются.",
+        "Чётко и кратко изложите свою проблему: что произошло, к какому органу это относится, куда вы обращались ранее.",
+        "Оператор внесёт ваше обращение в систему и назовёт номер обращения — запишите его.",
+        "По этому номеру и коду проверки вы сможете позже отслеживать статус обращения в разделе «Проверка статуса обращения» на сайте pm.gov.uz.",
+        "Ответ поступит на указанный вами канал связи (телефон, почтовый адрес) в установленный законом срок — 15 дней, в сложных случаях до 1 месяца."
+      ],
+      "hujjatlar": [
+        "Документы не требуются — достаточно устно назвать ФИО, адрес и номер телефона"
+      ],
+      "muddat": "Звонок принимается немедленно; ответ на обращение — 15 дней, в сложных случаях до 1 месяца",
+      "narx": "Бесплатно (звонок на номер 0-800-210-00-00 также бесплатный)",
+      "aloqa": "1000 (колл-центр), 0-800-210-00-00",
+      "kimlar_uchun": "Все граждане, особенно те, кто не имеет доступа к интернету, пожилые люди или лица с ограниченными возможностями",
+      "idora": "Народные приёмные / виртуальная приёмная Президента Республики Узбекистан",
+      "qoshimcha": "Разговор записывается. Звонки оскорбительного или угрожающего характера не рассматриваются. Если содержание обращения сложное, оператор может порекомендовать направить письменное (онлайн) обращение с приложением документов."
+    },
+    "en": {
+      "nomi": "Making a verbal appeal through the \"1000\" call center",
+      "tavsif": "The trust hotline of the President's Virtual Reception Office — the short number 1000 (or the toll-free 0-800-210-00-00). Citizens who cannot use the internet or find it difficult to write can submit an appeal verbally by phone. This is the most widely used channel — more than 6.8 million appeals have been received through the trust hotline.",
+      "muammolar": [
+        "I have no internet, how do I file an appeal",
+        "I can't write, I want to complain by phone",
+        "what is the phone number of the President's reception office",
+        "I'm elderly and can't use the website"
+      ],
+      "qadamlar": [
+        "Dial 1000 from your phone (through any mobile operator in Uzbekistan) or call the toll-free number 0-800-210-00-00.",
+        "When the operator answers, state your full name, home address, and phone number — anonymous appeals are not accepted.",
+        "Explain your problem clearly and briefly: what happened, which agency it concerns, and where you have applied before.",
+        "The operator will enter your appeal into the system and give you an appeal number — write it down.",
+        "You can later use this number and the verification code to track the status of your appeal in the \"Check Appeal Status\" section on pm.gov.uz.",
+        "The response will be delivered through your indicated contact channel (phone, postal address) within the legal deadline — 15 days, up to 1 month in complex cases."
+      ],
+      "hujjatlar": [
+        "No documents required — stating your full name, address, and phone number verbally is enough"
+      ],
+      "muddat": "The call is answered immediately; a response to the appeal takes 15 days, up to 1 month in complex cases",
+      "narx": "Free (calling 0-800-210-00-00 is also free)",
+      "aloqa": "1000 (call center), 0-800-210-00-00",
+      "kimlar_uchun": "All citizens, especially those without internet access, elderly people, or persons with limited abilities",
+      "idora": "People's Reception Offices / Virtual Reception Office of the President of the Republic of Uzbekistan",
+      "qoshimcha": "Calls are recorded. Abusive or threatening calls are not reviewed. If the matter is complex, the operator may recommend submitting a written (online) appeal with supporting documents."
+    }
+  },
+  "pm-gov.pm-xalq-qabulxonasiga-borish": {
+    "ru": {
+      "nomi": "Личное посещение Народной приёмной (очный приём)",
+      "tavsif": "Народные приёмные Президента — это сеть из 222 офисов по всей республике, представленных в каждом районе и городе. Граждане могут лично прийти туда, подать обращение устно или письменно и встретиться с ответственными сотрудниками на очном приёме. В Ташкенте работает 13 приёмных, в Ташкентской области — 23, в Ферганской — 20, в Каракалпакстане — 18, в остальных областях — от 12 до 17.",
+      "muammolar": [
+        "не могу изложить проблему письменно, хочу поговорить лично",
+        "где находится Народная приёмная",
+        "хочу пожаловаться, показав документы",
+        "как добраться до приёмной Президента в моём районе"
+      ],
+      "qadamlar": [
+        "Откройте сайт pm.gov.uz и перейдите в раздел «Народные приёмные» на главной странице (https://pm.gov.uz/uz#public-receptions) — там вы можете выбрать свою область и увидеть список приёмных по районам/городам.",
+        "Если вы не знаете точный адрес, позвоните по номеру 1000 и уточните адрес и часы работы Народной приёмной в вашем районе.",
+        "Возьмите с собой паспорт или ID-карту и копии всех документов, относящихся к проблеме (договоры, ранее полученные ответы, справки).",
+        "Придите в приёмную в рабочий день, запишитесь в очередь и изложите проблему сотруднику приёмной.",
+        "Ваше обращение будет оформлено в письменном виде и внесено в систему — вам выдадут номер обращения; при необходимости вас запишут на очный приём к ответственным руководителям.",
+        "Отслеживайте статус обращения по его номеру на сайте pm.gov.uz или по телефону 1000.",
+        "Ответ будет дан в письменной или устной форме (на очном приёме) в течение 15 дней (до 1 месяца в сложных случаях)."
+      ],
+      "hujjatlar": [
+        "Паспорт или ID-карта",
+        "Копии документов по проблеме (ответы на предыдущие обращения, договоры и т.д.)"
+      ],
+      "muddat": "Приём — по живой очереди/предварительной записи; ответ на обращение — 15 дней, в сложных случаях до 1 месяца",
+      "narx": "Бесплатно",
+      "aloqa": "1000 (колл-центр), 0-800-210-00-00; адреса указаны в разделе «Народные приёмные» на сайте pm.gov.uz",
+      "kimlar_uchun": "Все граждане; особенно удобно для сложных вопросов, требующих документов и личных разъяснений",
+      "idora": "Народные приёмные / виртуальная приёмная Президента Республики Узбекистан",
+      "qoshimcha": "Через Народные приёмные принято более 1,3 миллиона обращений. Также проводятся выездные приёмы — ответственные руководители выезжают в махалли и отдалённые районы и принимают граждан на месте (через выездные приёмы принято более 258 тысяч обращений); график выездного приёма можно узнать в районной приёмной или по номеру 1000."
+    },
+    "en": {
+      "nomi": "Visiting a People's Reception Office in person (in-person appointment)",
+      "tavsif": "The President's People's Reception Offices are a network of 222 offices across the republic, present in every district and city. Citizens can visit in person, submit an appeal verbally or in writing, and meet with responsible staff during an in-person appointment. Tashkent city has 13 reception offices, Tashkent region has 23, Fergana has 20, Karakalpakstan has 18, and other regions have between 12 and 17 each.",
+      "muammolar": [
+        "I can't explain my problem in writing, I want to talk in person",
+        "where is the People's Reception Office located",
+        "I want to complain and show documents in person",
+        "how do I get to the President's reception office in my district"
+      ],
+      "qadamlar": [
+        "Open pm.gov.uz and go to the \"People's Reception Offices\" section on the homepage (https://pm.gov.uz/uz#public-receptions) — there you can select your region and see the list of district/city reception offices.",
+        "If you don't know the exact address, call 1000 and ask for the address and working hours of the People's Reception Office in your district.",
+        "Bring your passport or ID card and copies of all documents related to the problem (contracts, previous response letters, certificates).",
+        "Visit the reception office on a working day, join the queue, and explain your problem to the staff member.",
+        "Your appeal will be formalized in writing and entered into the system — you will be given an appeal number; if necessary, you will be scheduled for an in-person meeting with responsible officials.",
+        "Track the status of your appeal by its number on pm.gov.uz or by calling 1000.",
+        "A response will be given in writing or verbally (during the in-person appointment) within 15 days (up to 1 month for complex cases)."
+      ],
+      "hujjatlar": [
+        "Passport or ID card",
+        "Copies of documents related to the problem (responses to previous appeals, contracts, etc.)"
+      ],
+      "muddat": "Reception — based on walk-in queue/appointment; response to the appeal — 15 days, up to 1 month in complex cases",
+      "narx": "Free",
+      "aloqa": "1000 (call center), 0-800-210-00-00; addresses are listed in the \"People's Reception Offices\" section on pm.gov.uz",
+      "kimlar_uchun": "All citizens; especially convenient for complex matters requiring documents and in-person explanation",
+      "idora": "People's Reception Offices / Virtual Reception Office of the President of the Republic of Uzbekistan",
+      "qoshimcha": "More than 1.3 million appeals have been received through the People's Reception Offices. Mobile reception sessions are also held — responsible officials travel to mahallas and remote areas to receive citizens on site (more than 258,000 appeals have been received through mobile receptions); ask your district reception office or call 1000 for the mobile reception schedule."
+    }
+  },
+  "pm-gov.pm-korib-chiqish-tartibi-muddatlari": {
+    "ru": {
+      "nomi": "Порядок и сроки рассмотрения обращений",
+      "tavsif": "Обращения, поступающие в виртуальную приёмную Президента, рассматриваются на основании Закона «Об обращениях физических и юридических лиц». В зависимости от содержания обращение направляется в соответствующее министерство, ведомство или хокимият, и в установленный законом срок обязательно даётся мотивированный ответ. Некоторые виды обращений (анонимные, оскорбительные, относящиеся к компетенции суда) не рассматриваются.",
+      "muammolar": [
+        "когда должен прийти ответ на моё обращение",
+        "срок ответа истёк, что делать",
+        "почему моё заявление не рассмотрели",
+        "моё обращение перенаправили в другой орган",
+        "я не согласен с ответом, кому ещё написать"
+      ],
+      "qadamlar": [
+        "После отправки обращение регистрируется, и вам выдаются номер обращения и код проверки статуса.",
+        "В зависимости от содержания обращение направляется в компетентный орган (министерство, агентство, хокимият) для решения вопроса — вас уведомят об этом.",
+        "Узнайте сроки: заявления и жалобы рассматриваются в течение 15 дней, если не требуется дополнительное изучение, иначе до 1 месяца; предложения рассматриваются до 1 месяца.",
+        "В отдельных случаях (когда требуется дополнительная проверка или экспертиза) срок может быть продлён ещё максимум на 1 месяц — об этом вам обязаны сообщить.",
+        "Ответ поступает в письменной или электронной форме по указанному вами каналу связи; отслеживайте статус в разделе «Проверка статуса обращения» на сайте pm.gov.uz.",
+        "Если срок истёк, а ответа нет, позвоните по номеру 1000 и уточните информацию по номеру обращения, либо повторно направьте жалобу на орган, нарушивший срок.",
+        "Если вы не согласны с ответом, у вас есть право обратиться в вышестоящий орган или в суд — порядок обжалования указывается в ответном письме."
+      ],
+      "hujjatlar": [
+        "Номер обращения (для отслеживания)",
+        "При жалобе на нарушение срока — данные предыдущего обращения"
+      ],
+      "muddat": "Заявление/жалоба: 15 дней; при необходимости дополнительного изучения — до 1 месяца; предложение: до 1 месяца; срок может быть продлён ещё максимум на 1 месяц",
+      "narx": "Бесплатно",
+      "aloqa": "1000 (колл-центр), 0-800-210-00-00",
+      "kimlar_uchun": "Все физические и юридические лица, направившие или планирующие направить обращение",
+      "idora": "Народные приёмные / виртуальная приёмная Президента Республики Узбекистан",
+      "qoshimcha": "Не рассматриваются: анонимные обращения (без ФИО и адреса); обращения оскорбительного или угрожающего содержания; споры, подлежащие разрешению судом; повторные обращения по одному вопросу без новых доказательств. Для обращения от имени другого лица требуется доверенность (полномочие)."
+    },
+    "en": {
+      "nomi": "Procedure and deadlines for reviewing appeals",
+      "tavsif": "Appeals submitted to the President's Virtual Reception Office are reviewed under the Law \"On Appeals of Individuals and Legal Entities\". Depending on its content, an appeal is forwarded to the relevant ministry, agency, or administration, and a reasoned response must be given within the legally established deadline. Certain types of appeals (anonymous, abusive, or falling under judicial jurisdiction) are not reviewed.",
+      "muammolar": [
+        "when should the response to my appeal arrive",
+        "the response deadline has passed, what should I do",
+        "why wasn't my application reviewed",
+        "my appeal was forwarded to another agency",
+        "I'm not satisfied with the response, who else can I write to"
+      ],
+      "qadamlar": [
+        "Once submitted, the appeal is registered and you are given an appeal number and a status-check code.",
+        "Depending on its content, the appeal is forwarded to the authorized agency (ministry, agency, administration) to resolve the matter — you will be notified of this.",
+        "Learn the deadlines: applications and complaints are reviewed within 15 days if no additional study is needed, otherwise up to 1 month; suggestions are reviewed within up to 1 month.",
+        "In certain cases (when additional verification or expert review is needed), the deadline may be extended by up to 1 further month — you must be notified of this.",
+        "The response arrives in writing or electronically through the contact channel you specified; track the status in the \"Check Appeal Status\" section on pm.gov.uz.",
+        "If the deadline has passed with no response, call 1000 and ask about your appeal number, or submit a new complaint about the agency that missed the deadline.",
+        "If you disagree with the response, you have the right to appeal to a higher authority or to court — the appeal procedure is stated in the response letter."
+      ],
+      "hujjatlar": [
+        "Appeal number (for tracking)",
+        "For a complaint about a missed deadline — details of the previous appeal"
+      ],
+      "muddat": "Application/complaint: 15 days; up to 1 month if additional review is needed; suggestion: up to 1 month; the deadline may be extended by up to 1 further month",
+      "narx": "Free",
+      "aloqa": "1000 (call center), 0-800-210-00-00",
+      "kimlar_uchun": "All individuals and legal entities who have submitted or plan to submit an appeal",
+      "idora": "People's Reception Offices / Virtual Reception Office of the President of the Republic of Uzbekistan",
+      "qoshimcha": "Not reviewed: anonymous appeals (without full name and address); appeals containing abuse or threats; disputes that must be resolved by a court; repeat appeals on the same matter without new evidence. A power of attorney is required to submit an appeal on behalf of another person."
+    }
+  },
+  "pm-gov.pm-idoralar-ishonch-telefonlari": {
+    "ru": {
+      "nomi": "Справочник государственных органов и их телефонов доверия",
+      "tavsif": "Справочный раздел на сайте pm.gov.uz — перечень всех государственных организаций (министерств, комитетов, агентств, инспекций, хокимиятов, банков, вузов и других) с их контактными данными и телефонами доверия. Полезен для того, чтобы обратиться напрямую в ответственный орган до направления обращения в приёмную Президента.",
+      "muammolar": [
+        "не знаю, к какому органу относится моя проблема",
+        "где найти телефон доверия министерства",
+        "в какую организацию обратиться в первую очередь",
+        "хочу связаться напрямую с самим органом"
+      ],
+      "qadamlar": [
+        "Откройте в браузере страницу https://pm.gov.uz/uz/authority-categories.",
+        "Выберите нужную категорию: «Министерства», «Комитеты», «Агентства», «Инспекции», «Местные хокимияты», «Банки» и другие.",
+        "Найдите в списке организацию, ответственную за вашу проблему, откройте её страницу и посмотрите телефон доверия и контактные данные.",
+        "Сначала попробуйте обратиться непосредственно в этот орган (через телефон доверия или его приёмную) — многие вопросы решаются на месте.",
+        "Если орган не решил проблему или не ответил, направьте обращение в виртуальную приёмную Президента через pm.gov.uz, указав в тексте результат предыдущего обращения.",
+        "Если не можете определить ответственный орган, позвоните по номеру 1000 — оператор поможет с направлением."
+      ],
+      "hujjatlar": [
+        "Документы не требуются — открытый справочник"
+      ],
+      "muddat": "Справочник доступен постоянно",
+      "narx": "Бесплатно",
+      "aloqa": "1000 (колл-центр), 0-800-210-00-00",
+      "kimlar_uchun": "Все граждане, не знающие, в какой орган обратиться",
+      "idora": "Народные приёмные / виртуальная приёмная Президента Республики Узбекистан",
+      "qoshimcha": "На главной странице pm.gov.uz также есть более 40 тематических разделов-инструкций (семья, жильё, пенсия, налоги, миграция и т.д.) — можно открыть подходящую тему и прочитать готовые разъяснения. Полезные ссылки: my.gov.uz (государственные услуги), lex.uz (законодательство), xalqnazorati.uz (общественный контроль)."
+    },
+    "en": {
+      "nomi": "Directory of government agencies and their trust hotlines",
+      "tavsif": "A reference section on pm.gov.uz — a list of all government organizations (ministries, committees, agencies, inspectorates, local administrations, banks, universities, and others) along with their contact information and trust hotlines. Useful for contacting the responsible agency directly before submitting an appeal to the President's reception office.",
+      "muammolar": [
+        "I don't know which agency my problem belongs to",
+        "where can I find a ministry's trust hotline",
+        "which organization should I contact first",
+        "I want to contact the agency itself directly"
+      ],
+      "qadamlar": [
+        "Open https://pm.gov.uz/uz/authority-categories in your browser.",
+        "Select the relevant category: \"Ministries\", \"Committees\", \"Agencies\", \"Inspectorates\", \"Local Administrations\", \"Banks\", and others.",
+        "Find the organization responsible for your problem in the list, open its page, and view its trust hotline and contact information.",
+        "First, try contacting that agency directly (through its trust hotline or reception office) — many issues are resolved on the spot.",
+        "If the agency does not resolve the problem or does not respond, submit an appeal to the President's Virtual Reception Office via pm.gov.uz, mentioning the outcome of your previous appeal in the text.",
+        "If you cannot determine the responsible agency, call 1000 — the operator will help direct you."
+      ],
+      "hujjatlar": [
+        "No documents required — open reference directory"
+      ],
+      "muddat": "The directory is always available",
+      "narx": "Free",
+      "aloqa": "1000 (call center), 0-800-210-00-00",
+      "kimlar_uchun": "All citizens who don't know which agency to contact",
+      "idora": "People's Reception Offices / Virtual Reception Office of the President of the Republic of Uzbekistan",
+      "qoshimcha": "The pm.gov.uz homepage also features more than 40 topic-based guidance sections (family, housing, pension, taxes, migration, etc.) — you can open the relevant topic and read ready-made explanations. Useful links: my.gov.uz (government services), lex.uz (legislation), xalqnazorati.uz (public oversight)."
+    }
+  },
+  "pm-gov.pm-mobil-ilova-halq-bilan-muloqot": {
+    "ru": {
+      "nomi": "Отправка обращения через мобильное приложение «Xalq bilan muloqot» («Диалог с народом»)",
+      "tavsif": "«Xalq bilan muloqot» («Диалог с народом») — официальное мобильное приложение единой онлайн-платформы работы с обращениями. Через него можно отправить обращение в виртуальную приёмную Президента и отслеживать его статус прямо с телефона. В приложении персональные данные (ФИО, паспорт, адрес, телефон) обрабатываются на основании закона.",
+      "muammolar": [
+        "можно ли отправить обращение с телефона",
+        "у меня нет компьютера, только смартфон",
+        "как называется приложение для обращений"
+      ],
+      "qadamlar": [
+        "Откройте на своём телефоне магазин приложений Play Market (Android) или App Store (iPhone).",
+        "Введите в поиске «Xalq bilan muloqot» и установите официальное приложение.",
+        "Откройте приложение и войдите в систему с учётной записью OneID (если её нет, зарегистрируйтесь на id.egov.uz по паспорту/ID-карте и ПИНФЛ).",
+        "В разделе «Отправить обращение» выберите тип обращения (заявление, жалоба, предложение), организацию и регион, напишите текст, при необходимости приложите файл.",
+        "После отправки сохраните номер обращения и код проверки статуса — по ним вы будете отслеживать статус в приложении или на сайте pm.gov.uz.",
+        "Если приложение не работает, отправьте обращение через сайт murojaat.gov.uz или по номеру 1000."
+      ],
+      "hujjatlar": [
+        "Учётная запись OneID",
+        "ФИО, серия и номер паспорта, адрес проживания, номер телефона (требуются при регистрации)"
+      ],
+      "muddat": "Срок ответа такой же, как на сайте: 15 дней, в сложных случаях до 1 месяца",
+      "narx": "Бесплатно",
+      "aloqa": "1000 (колл-центр), 0-800-210-00-00",
+      "kimlar_uchun": "Все граждане, пользующиеся смартфоном",
+      "idora": "Народные приёмные / виртуальная приёмная Президента Республики Узбекистан",
+      "qoshimcha": "Персональные данные защищаются на основании Закона «О персональных данных» (ЗРУ-547 от 02.07.2019). Приложение и сайт — единая система: независимо от того, через какой канал отправлено обращение, оно регистрируется в единой базе данных."
+    },
+    "en": {
+      "nomi": "Submitting an appeal via the \"Xalq bilan muloqot\" (\"Dialogue with the People\") mobile app",
+      "tavsif": "\"Xalq bilan muloqot\" (\"Dialogue with the People\") is the official mobile app of the unified online platform for handling appeals. Through it, you can submit an appeal to the President's Virtual Reception Office and track its status directly from your phone. Within the app, personal data (full name, passport, address, phone number) is processed in accordance with the law.",
+      "muammolar": [
+        "can I submit an appeal from my phone",
+        "I don't have a computer, only a smartphone",
+        "what is the name of the appeals app"
+      ],
+      "qadamlar": [
+        "Open Play Market (Android) or the App Store (iPhone) on your phone.",
+        "Search for \"Xalq bilan muloqot\" and install the official app.",
+        "Open the app and log in with your OneID account (if you don't have one, register at id.egov.uz using your passport/ID card and PINFL).",
+        "In the \"Submit Appeal\" section, select the type of appeal (application, complaint, suggestion), the organization, and the region, write the text, and attach a file if needed.",
+        "After submitting, save the appeal number and status-check code — you will use them to track status in the app or on pm.gov.uz.",
+        "If the app doesn't work, submit your appeal through murojaat.gov.uz or by calling 1000."
+      ],
+      "hujjatlar": [
+        "OneID account",
+        "Full name, passport series and number, home address, phone number (required during registration)"
+      ],
+      "muddat": "The response deadline is the same as on the website: 15 days, up to 1 month in complex cases",
+      "narx": "Free",
+      "aloqa": "1000 (call center), 0-800-210-00-00",
+      "kimlar_uchun": "All citizens who use a smartphone",
+      "idora": "People's Reception Offices / Virtual Reception Office of the President of the Republic of Uzbekistan",
+      "qoshimcha": "Personal data is protected under the Law \"On Personal Data\" (LRU-547, dated 02.07.2019). The app and the website form a single system — regardless of which channel an appeal is submitted through, it is registered in a unified database."
+    }
+  },
+  "pm-gov.xalq-qabulxonalari-manzillari": {
+    "ru": {
+      "nomi": "Адреса и телефоны областных Народных приёмных",
+      "tavsif": "Адреса и телефоны всех 14 региональных (областного уровня) отделений Народных приёмных Президента. Гражданин может лично прийти в приёмную своей области и подать обращение; адрес районной приёмной можно уточнить по номеру 1000.",
+      "muammolar": [
+        "где находится Народная приёмная в нашей области",
+        "нужен адрес приёмной Президента",
+        "какой телефон у приёмной",
+        "как добраться до Народной приёмной"
+      ],
+      "qadamlar": [
+        "Найдите в списке ниже свою область и посмотрите адрес/телефон:",
+        "город Ташкент: г. Ташкент, проспект Амира Темура, дом 14, тел.: 0(371) 232-30-12",
+        "Ташкентская область: Уртачирчикский район, СГК Кумовул, улица Янги-хаёт, тел.: 0(371) 230-24-27",
+        "Андижанская область: г. Андижан, улица Миллий тикланиш, дом 24, тел.: 0(374) 223-10-00",
+        "Бухарская область: г. Бухара, улица И.Муминова, дом 1а, тел.: 0(365) 220-10-00",
+        "Ферганская область: г. Фергана, улица Сайилгох, дом 27, тел.: 0(373) 244-10-00",
+        "Джизакская область: г. Джизак, проспект Ш.Рашидова, дом 117, тел.: 0(372) 226-30-22",
+        "Хорезмская область: г. Ургенч, 1-й переулок Г.Гуляма, дом 6, тел.: 0(362) 224-10-10",
+        "Наманганская область: г. Наманган, 3-й микрорайон, улица Кукумбой, дом 7, тел.: 0(369) 226-10-00",
+        "Навоийская область: г. Навои, улица Навои, дом 48а, тел.: 0(336) 223-10-00",
+        "Кашкадарьинская область: г. Карши, улица Узбекистан, дом 249, тел.: 0(375) 226-06-20",
+        "Республика Каракалпакстан: г. Нукус, улица Татибаева, дом 9, тел.: 0(361) 223-10-00",
+        "Самаркандская область: г. Самарканд, улица Заргарон, дом 32, тел.: 0(366) 229-10-00",
+        "Сырдарьинская область: г. Гулистан, улица Хальклар Дустлиги, дом 31, тел.: 0(367) 240-10-01",
+        "Сурхандарьинская область: г. Термез, улица Ат-Термизий, дом 2, тел.: 0(376) 226-10-00",
+        "Для уточнения точных часов работы и адреса районной приёмной звоните по номеру 1000 (или на бесплатный номер 0-800-210-00-00).",
+        "Перед визитом подготовьте паспорт/ID-карту и документы по своей проблеме."
+      ],
+      "hujjatlar": [
+        "Паспорт или ID-карта",
+        "Копии документов по проблеме"
+      ],
+      "muddat": "Приём — в рабочие дни (по г. Ташкенту 09:00–18:00, обед 13:00–14:00; в других регионах уточняйте)",
+      "narx": "Бесплатно",
+      "aloqa": "1000 (колл-центр), 0-800-210-00-00; региональные номера указаны в списке",
+      "kimlar_uchun": "Все граждане",
+      "idora": "Народные приёмные Президента Республики Узбекистан",
+      "qoshimcha": "Адреса взяты со страницы контактов официального сайта president.uz (по состоянию на 24.07.2026). Всего насчитывается 222 приёмные (включая районный уровень); перечень районных приёмных доступен в наборе данных data.gov.uz/uz/datasets/3956."
+    },
+    "en": {
+      "nomi": "Addresses and phone numbers of regional People's Reception Offices",
+      "tavsif": "Addresses and phone numbers of all 14 regional (province-level) branches of the President's People's Reception Offices. A citizen may visit the reception office of their region in person to submit an appeal; the address of the district-level reception office can be confirmed by calling 1000.",
+      "muammolar": [
+        "where is the People's Reception Office in our region",
+        "I need the address of the President's reception office",
+        "what is the reception office's phone number",
+        "how do I get to the People's Reception Office"
+      ],
+      "qadamlar": [
+        "Find your region in the list below and check the address/phone number:",
+        "Tashkent city: Tashkent, Amir Temur Avenue, building 14, tel.: 0(371) 232-30-12",
+        "Tashkent region: Urtachirchiq district, Qumovul rural citizens' assembly, Yangi-hayot street, tel.: 0(371) 230-24-27",
+        "Andijan region: Andijan, Milliy Tiklanish street, building 24, tel.: 0(374) 223-10-00",
+        "Bukhara region: Bukhara, I. Muminov street, building 1a, tel.: 0(365) 220-10-00",
+        "Fergana region: Fergana, Sayilgoh street, building 27, tel.: 0(373) 244-10-00",
+        "Jizzakh region: Jizzakh, Sh. Rashidov Avenue, building 117, tel.: 0(372) 226-30-22",
+        "Khorezm region: Urgench, G. Gulom 1st lane, building 6, tel.: 0(362) 224-10-10",
+        "Namangan region: Namangan, 3rd micro-district, Ququmboy street, building 7, tel.: 0(369) 226-10-00",
+        "Navoi region: Navoi, Navoi street, building 48a, tel.: 0(336) 223-10-00",
+        "Kashkadarya region: Karshi, Uzbekistan street, building 249, tel.: 0(375) 226-06-20",
+        "Republic of Karakalpakstan: Nukus, Tatibayev street, building 9, tel.: 0(361) 223-10-00",
+        "Samarkand region: Samarkand, Zargaron street, building 32, tel.: 0(366) 229-10-00",
+        "Syrdarya region: Gulistan, Khalqlar Dustligi street, building 31, tel.: 0(367) 240-10-01",
+        "Surkhandarya region: Termez, At-Termiziy street, building 2, tel.: 0(376) 226-10-00",
+        "For exact working hours and the address of a district reception office, call 1000 (or the toll-free number 0-800-210-00-00).",
+        "Before visiting, prepare your passport/ID card and documents related to your problem."
+      ],
+      "hujjatlar": [
+        "Passport or ID card",
+        "Copies of documents related to the problem"
+      ],
+      "muddat": "Reception — on working days (in Tashkent city 09:00–18:00, lunch break 13:00–14:00; confirm for other regions)",
+      "narx": "Free",
+      "aloqa": "1000 (call center), 0-800-210-00-00; regional numbers are listed above",
+      "kimlar_uchun": "All citizens",
+      "idora": "People's Reception Offices of the President of the Republic of Uzbekistan",
+      "qoshimcha": "Addresses were taken from the contacts page of the official website president.uz (as of 24.07.2026). There are 222 reception offices in total (including the district level); the list of district-level offices is available in the dataset data.gov.uz/uz/datasets/3956."
+    }
+  }
+}

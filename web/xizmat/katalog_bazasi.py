@@ -19,6 +19,7 @@ from web.config import (
     PM_GOV_YOLI,
     SAVOL_JAVOB_YOLI,
 )
+from web.xizmat import tarjima_bazasi
 
 # Manba kaliti → (fayl yo'li, ko'rinadigan nom)
 MANBA_FAYLLARI: dict[str, Path] = {
@@ -67,6 +68,8 @@ class Xizmat:
             "url": self.url,
             "faq": self.faq,
             "kategoriya": self.kategoriya,
+            # Rus/ingliz tarjimasi (bo'lsa) — frontend joriy tilga qarab tanlaydi.
+            "i18n": tarjima_bazasi.xizmat_tarjimasi(self.id),
         }
 
     def toliq(self) -> dict:
@@ -88,6 +91,7 @@ class Xizmat:
             "qoshimcha": self.qoshimcha,
             "faq": self.faq,
             "kategoriya": self.kategoriya,
+            "i18n": tarjima_bazasi.xizmat_tarjimasi(self.id),
         }
 
 
@@ -323,6 +327,7 @@ def faq_guruhlari(matn: str = "") -> list[dict]:
                     "javob": y.tavsif,
                     "izoh": y.qoshimcha,
                     "url": y.url,
+                    "i18n": tarjima_bazasi.xizmat_tarjimasi(y.id),
                 }
                 for y in yozuvlar
             ],
