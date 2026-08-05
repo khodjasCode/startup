@@ -141,7 +141,7 @@ export const en: Dictionary = {
   clock_live: 'Time is served by the backend',
   clock_local: 'No server connection — browser time',
 
-  chat_title: 'Compass',
+  chat_title: 'Compass AI',
   chat_open: 'Open chat',
   chat_history: 'History',
   chat_new: 'New chat',

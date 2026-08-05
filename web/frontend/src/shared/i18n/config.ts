@@ -9,7 +9,7 @@ export const LOCALE_STORAGE_KEY = 'compass:locale'
 
 /** Til tugmasidagi qisqa yorliq va menyudagi to'liq nom. */
 export const LOCALE_LABELS: Record<Locale, { short: string; full: string }> = {
-  uz: { short: 'UZB', full: "O'zbekcha" },
+  uz: { short: 'UZ', full: "O'zbekcha" },
   ru: { short: 'RU', full: 'Русский' },
   en: { short: 'EN', full: 'English' },
 }

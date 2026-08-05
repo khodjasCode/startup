@@ -30,9 +30,9 @@ export function ChatSessions() {
 
   const royxat = useMemo(() => {
     const kalit = qidiruv.trim().toLowerCase()
-    // Faol suhbat hali bo'sh bo'lsa ham ro'yxatda ko'rinadi — foydalanuvchi
-    // savol yozmasdan turib ham "hozir shu yerdaman" deb bilib turishi kerak.
-    const bor = chats.filter((chat) => chat.xabarlar.length > 0 || chat.id === activeId)
+    // Hali bitta ham savol yozilmagan bo'sh suhbat ro'yxatda ko'rinmaydi —
+    // faqat haqiqiy (kamida bitta xabari bor) suhbatlar tarixga chiqadi.
+    const bor = chats.filter((chat) => chat.xabarlar.length > 0)
     if (!kalit) return bor
     return bor.filter(
       (chat) =>

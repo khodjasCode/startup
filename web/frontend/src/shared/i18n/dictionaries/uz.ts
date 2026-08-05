@@ -155,7 +155,7 @@ export const uz = {
   clock_local: 'Server bilan aloqa yo‘q — brauzer vaqti',
 
   // ---------- chat ----------
-  chat_title: 'Compass',
+  chat_title: 'Compass AI',
   chat_open: 'Chatni ochish',
   chat_history: 'Tarix',
   chat_new: 'Yangi suhbat',

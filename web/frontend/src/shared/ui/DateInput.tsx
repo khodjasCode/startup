@@ -59,6 +59,7 @@ export function DateInput({ value, onChange, label }: DateInputProps) {
           inputMode="numeric"
           placeholder="DD"
           maxLength={2}
+          size={2}
           aria-label="DD"
           required
         />
@@ -71,6 +72,7 @@ export function DateInput({ value, onChange, label }: DateInputProps) {
           inputMode="numeric"
           placeholder="MM"
           maxLength={2}
+          size={2}
           aria-label="MM"
           required
         />
@@ -83,6 +85,7 @@ export function DateInput({ value, onChange, label }: DateInputProps) {
           inputMode="numeric"
           placeholder="YYYY"
           maxLength={4}
+          size={4}
           aria-label="YYYY"
           required
         />

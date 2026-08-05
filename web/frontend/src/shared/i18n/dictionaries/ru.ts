@@ -140,7 +140,7 @@ export const ru: Dictionary = {
   clock_live: 'Время приходит с сервера',
   clock_local: 'Нет связи с сервером — время браузера',
 
-  chat_title: 'Compass',
+  chat_title: 'Compass AI',
   chat_open: 'Открыть чат',
   chat_history: 'История',
   chat_new: 'Новый чат',

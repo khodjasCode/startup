@@ -18,8 +18,8 @@
      mazmuni ("31 / 12 / 2005") esa tor. `align-self: flex-start` cho'zilishni
      bekor qilib, quti faqat o'z mazmuniga mos kelishini ta'minlaydi. */
   align-self: flex-start;
-  gap: 6px;
-  padding: 0 14px;
+  gap: 2px;
+  padding: 0 10px;
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
   background: var(--panel-soft);
@@ -31,7 +31,11 @@
 
 .day,
 .year {
-  padding: 12px 0;
+  /* Kenglik CSS'da emas, JSX'dagi `size` atributi orqali beriladi — brauzer
+     uni shrift metrikasiga qarab hisoblaydi, shuning uchun "DD"/"YYYY"
+     placeholder'i aniq sig'adi, ortiqcha bo'sh joy qolmaydi. */
+  min-width: 0;
+  padding: 10px 2px;
   border: none;
   background: transparent;
   color: var(--text);
@@ -39,17 +43,6 @@
   font-size: 0.98rem;
   font-variant-numeric: tabular-nums;
   text-align: center;
-}
-
-/* Piksellarda, "ch" emas: "ch" raqam ("0") kengligiga tayanadi, lekin
-   placeholder harflardan iborat ("DD", "MM", "YYYY") — ular kengroq bo'lib,
-   "ch" bilan hisoblanganda kesilib qolardi (masalan "DD" "DС" ko'rinib qolgan). */
-.day {
-  width: 34px;
-}
-
-.year {
-  width: 58px;
 }
 
 .day:focus,
