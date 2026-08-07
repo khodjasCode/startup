@@ -90,6 +90,10 @@ Katalog kamdan-kam o'zgaradi, shuning uchun u xotirada keshlanadi
 (`COMPASS_KATALOG_KESH_SONIYA`, standart 300 soniya; `0` — keshsiz).
 Ulanishni tekshirish: `curl http://127.0.0.1:8000/api/salomatlik`.
 
+Baza shuningdek Render'dagi backendni uxlab qolishdan saqlaydi: `pg_cron`
+har 10 daqiqada `/api/salomatlik` ga so'rov yuboradi — qarang
+[baza/uygotish.sql](baza/uygotish.sql).
+
 ## Web-versiya
 
 Bir xil `bot/rag.py` yadrosidan foydalanadigan sayt + chat widget. Interfeys —
