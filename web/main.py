@@ -18,7 +18,7 @@ from fastapi.responses import FileResponse, HTMLResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 
 import baza
-from web.api import auth, chat, katalog, vaqt
+from web.api import auth, chat, katalog, telegram, vaqt
 from web.config import FRONTEND_DIST_YOLI as FRONTEND_YOLI
 from web.config import RUXSAT_ETILGAN_MANBALAR
 from web.xizmat import katalog_bazasi
@@ -57,6 +57,7 @@ async def umr(_: FastAPI):
     except Exception as xato:
         logger.warning("Katalogni oldindan yuklab bo'lmadi: %s", xato)
     yield
+    await telegram.yopish()
     baza.hovuzni_yopish()
 
 
@@ -77,6 +78,7 @@ app.include_router(chat.router)
 app.include_router(katalog.router)
 app.include_router(auth.router)
 app.include_router(vaqt.router)
+app.include_router(telegram.router)
 
 
 @app.get("/api/salomatlik")

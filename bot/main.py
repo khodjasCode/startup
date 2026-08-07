@@ -1,5 +1,12 @@
-# Telegram qismi (aiogram 3, long polling)
-# Ishga tushirish:  python -m bot.main
+# Telegram qismi (aiogram 3).
+#
+# Ikki rejimda ishlaydi va ikkalasida ham shu fayldagi `dp` ishlatiladi:
+#   · long polling — mahalliy ishlab chiqish uchun:  python3 -m bot.main
+#   · webhook      — serverda: Telegram yangilanishlarni web servisidagi
+#                    POST /telegram/webhook ga yuboradi (web/api/telegram.py).
+#
+# Shuning uchun modul darajasida hech narsa ishga tushirilmaydi — faqat
+# `bot` va `dp` tayyorlanadi, polling esa `__main__` blokida boshlanadi.
 
 import asyncio
 
@@ -74,7 +81,11 @@ async def savol(msg: types.Message):
     tarix.append({"rol": "fuqaro", "matn": msg.text})
 
     try:
-        javob = javob_olish(tarix, til)
+        # `javob_olish` bloklovchi (Gemini'ga sinxron so'rov, 10–25 soniya).
+        # Webhook rejimida bot web servisi bilan bitta jarayonda ishlaydi,
+        # shuning uchun uni alohida oqimga chiqarish shart — aks holda javob
+        # kutilayotganda butun sayt javob bermay qolardi.
+        javob = await asyncio.to_thread(javob_olish, tarix, til)
         await asyncio.to_thread(
             suhbat.saqlash, msg.chat.id, msg.text, javob, til, suhbat.TELEGRAM
         )

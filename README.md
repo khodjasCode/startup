@@ -63,8 +63,21 @@ cp .env.example .env         # so'ng .env ichiga kalitlarni yozing:
 
 python3 -m baza.kochirish    # jadvallar + katalogni bazaga yuklash (bir marta)
 python3 -m bot.index_qurish  # vektor indeksni qurish (bir marta / baza yangilanganda)
-python3 -m bot.main          # botni ishga tushirish
+python3 -m bot.main          # botni ishga tushirish (long polling, mahalliy)
 ```
+
+Serverda bot alohida jarayon sifatida emas, **webhook** orqali ishlaydi:
+Telegram yangilanishlarni web servisidagi `POST /telegram/webhook` ga yuboradi
+(bepul hostingda doimiy ishlaydigan worker yo'q). Ro'yxatdan o'tkazish:
+
+```bash
+python3 -m web.telegram_webhook --ornatish   # webhook'ni o'rnatish
+python3 -m web.telegram_webhook              # holatini ko'rish
+python3 -m web.telegram_webhook --ochirish   # polling'ga qaytish
+```
+
+⚠️ Telegram bir vaqtda faqat bitta usulni qo'llaydi: webhook o'rnatilgan bo'lsa
+`python3 -m bot.main` yangilanish olmaydi.
 
 ## Ma'lumotlar bazasi (PostgreSQL / Supabase)
 

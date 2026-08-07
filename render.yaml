@@ -49,3 +49,9 @@ services:
         value: "1"
       - key: COMPASS_KATALOG_KESH_SONIYA
         value: "600"
+      # Telegram webhook: bot alohida jarayon sifatida emas, shu servis ichida
+      # ishlaydi (bepul tarifda doimiy worker yo'q) — web/api/telegram.py.
+      - key: TELEGRAM_WEBHOOK_SECRET
+        sync: false
+      - key: COMPASS_PUBLIC_URL
+        sync: false
