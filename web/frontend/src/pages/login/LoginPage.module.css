@@ -57,6 +57,18 @@
   line-height: 1.5;
 }
 
+/* Chat kirishni talab qilib yuborganda ko'rinadi — nega bu yerdaligini tushuntiradi. */
+.chatNotice {
+  margin: 0 0 18px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--primary);
+  background: var(--panel-soft);
+  color: var(--text);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
 .form {
   display: flex;
   flex-direction: column;

@@ -99,6 +99,7 @@ export const ru: Dictionary = {
   login_welcome_sub: 'Вход в навигатор государственных услуг',
   login_card_title: 'Вход в систему',
   login_card_hint: 'Введите номер телефона и дату рождения — отправим SMS-код.',
+  login_chat_required: 'Чтобы пользоваться ИИ-помощником, сначала войдите в систему.',
   login_phone: 'Номер телефона',
   login_birthdate: 'Дата рождения',
   login_region: 'Ваш регион',

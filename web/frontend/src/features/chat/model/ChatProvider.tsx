@@ -1,6 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import type { ReactNode } from 'react'
+import { useLocation, useNavigate } from 'react-router-dom'
 
+import { useAuth } from '@features/auth'
 import { useI18n } from '@shared/i18n'
 import { readStorage, writeStorage } from '@shared/lib/storage'
 
@@ -50,8 +52,20 @@ function chatlarniYozish(chats: Chat[]): void {
   writeStorage(CHATS_KEY, JSON.stringify(saqlanadigan))
 }
 
-export function ChatProvider({ children }: { children: ReactNode }) {
+interface ChatProviderProps {
+  children: ReactNode
+  /**
+   * Kirish sahifasining yo'li. Prop orqali beriladi, chunki yo'llar ro'yxati
+   * `app` qatlamida (`app/routes.ts`), feature esa undan yuqoriga bog'lanmaydi.
+   */
+  loginPath: string
+}
+
+export function ChatProvider({ children, loginPath }: ChatProviderProps) {
   const { locale } = useI18n()
+  const { user, loading: authLoading } = useAuth()
+  const navigate = useNavigate()
+  const location = useLocation()
 
   const [chats, setChats] = useState<Chat[]>(() => {
     const saqlangan = chatlarniOqish()
@@ -79,10 +93,42 @@ export function ChatProvider({ children }: { children: ReactNode }) {
     return `m${idRef.current}`
   }, [])
 
-  const open = useCallback(() => setIsOpen(true), [])
+  /**
+   * AI yordamchisi faqat ro'yxatdan o'tganlar uchun: kirmagan foydalanuvchi
+   * kirish sahifasiga yo'naltiriladi. Qaysi sahifadan kelgani `state` da
+   * saqlanadi — kirgandan so'ng LoginPage uni o'sha yerga qaytaradi va chatni
+   * qayta ochadi (`pages/login/LoginPage.tsx` ga qarang).
+   */
+  const kirishgaYonaltirish = useCallback(() => {
+    setIsOpen(false)
+    // Kirish sahifasining o'zidan yo'naltirmaymiz: aks holda `qaytish` ga shu
+    // sahifaning yo'li tushib qolardi va kirgandan keyin sahifa o'zini o'ziga
+    // qaytarib, aylanib qolardi.
+    if (location.pathname === loginPath) return
+    navigate(loginPath, {
+      state: { qaytish: `${location.pathname}${location.search}`, chat: true },
+    })
+  }, [navigate, loginPath, location.pathname, location.search])
+
   const close = useCallback(() => setIsOpen(false), [])
-  const toggle = useCallback(() => setIsOpen((value) => !value), [])
+
+  const open = useCallback(() => {
+    // `authLoading` — sessiya hali tekshirilmoqda: bu paytda yo'naltirmaymiz,
+    // aks holda sahifa yangilangach kirgan foydalanuvchi ham chetga uchardi.
+    if (!user && !authLoading) {
+      kirishgaYonaltirish()
+      return
+    }
+    setIsOpen(true)
+  }, [user, authLoading, kirishgaYonaltirish])
+
+  const toggle = useCallback(() => (isOpen ? close() : open()), [isOpen, close, open])
   const toggleExpanded = useCallback(() => setIsExpanded((value) => !value), [])
+
+  // Sessiya tekshiruvi tugagach yoki muddati o'tib ketgach chat ochiq qolmasin.
+  useEffect(() => {
+    if (isOpen && !authLoading && !user) kirishgaYonaltirish()
+  }, [isOpen, authLoading, user, kirishgaYonaltirish])
 
   /** Ochiq suhbat xabarlarini yangilaydi va uni ro'yxat boshiga chiqaradi. */
   const suhbatniYangilash = useCallback(
@@ -130,6 +176,13 @@ export function ChatProvider({ children }: { children: ReactNode }) {
     (rawQuestion: string, { showQuestion = true }: AskOptions = {}) => {
       const question = rawQuestion.trim()
       if (!question || isBusy) return
+
+      // Xizmat sahifasidan to'g'ridan-to'g'ri ham chaqiriladi, shuning uchun
+      // tekshiruv shu yerda ham kerak (sessiya muddati o'tgan bo'lishi mumkin).
+      if (!user && !authLoading) {
+        kirishgaYonaltirish()
+        return
+      }
 
       const chatId = activeId || chats[0]?.id
       if (!chatId) return
@@ -179,7 +232,17 @@ export function ChatProvider({ children }: { children: ReactNode }) {
           if (abortRef.current === controller) abortRef.current = null
         })
     },
-    [activeId, chats, isBusy, locale, nextMessageId, suhbatniYangilash],
+    [
+      activeId,
+      chats,
+      isBusy,
+      locale,
+      nextMessageId,
+      suhbatniYangilash,
+      user,
+      authLoading,
+      kirishgaYonaltirish,
+    ],
   )
 
   const tartiblangan = useMemo(

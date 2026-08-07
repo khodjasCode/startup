@@ -13,19 +13,62 @@ export class ApiError extends Error {
 
 const API_BASE = '/api'
 
+/** Vaqt chegarasi tugaganda beriladigan xato kodi (zaxira manbaga o'tish belgisi). */
+export const VAQT_TUGADI = 'vaqt_tugadi'
+
 async function sorov<TResponse>(
   yol: string,
   init: RequestInit,
   signal?: AbortSignal,
+  kutishMs?: number,
+): Promise<TResponse> {
+  // O'z boshqaruvimiz: unga ham chaqiruvchining signali, ham vaqt chegarasi
+  // ulanadi. Shu tufayli "komponent uzdi" va "server javob bermadi" holatlarini
+  // bir-biridan ajratib bo'ladi — birinchisida so'rovni takrorlash kerak emas,
+  // ikkinchisida esa zaxira manbaga o'tiladi.
+  const boshqaruv = new AbortController()
+  let vaqtTugadi = false
+  const soat = kutishMs
+    ? setTimeout(() => {
+        vaqtTugadi = true
+        boshqaruv.abort()
+      }, kutishMs)
+    : undefined
+  const uzish = () => boshqaruv.abort()
+  signal?.addEventListener('abort', uzish)
+
+  try {
+    return await bajarish<TResponse>(yol, init, boshqaruv.signal, () => vaqtTugadi, kutishMs)
+  } catch (xato) {
+    // Chaqiruvchi bekor qilgan bo'lsa (komponent yo'q qilindi, deps o'zgardi)
+    // asl uzilish xatosi qaytariladi — chaqiruvchilar uni `AbortError` bo'yicha
+    // taniydi va bekor qilingan so'rovni "xato" deb hisoblamaydi.
+    if (signal?.aborted) throw new DOMException("So'rov bekor qilindi", 'AbortError')
+    throw xato
+  } finally {
+    clearTimeout(soat)
+    signal?.removeEventListener('abort', uzish)
+  }
+}
+
+async function bajarish<TResponse>(
+  yol: string,
+  init: RequestInit,
+  signal: AbortSignal,
+  vaqtTugadimi: () => boolean,
+  kutishMs?: number,
 ): Promise<TResponse> {
   let response: Response
   try {
     response = await fetch(`${API_BASE}${yol}`, {
       credentials: 'same-origin', // sessiya cookie'si yuborilishi uchun
       ...init,
-      ...(signal ? { signal } : {}),
+      signal,
     })
   } catch (cause) {
+    if (vaqtTugadimi()) {
+      throw new ApiError(`Server ${kutishMs} ms ichida javob bermadi`, undefined, VAQT_TUGADI)
+    }
     throw new ApiError(`Serverga ulanib bo'lmadi: ${String(cause)}`)
   }
 
@@ -55,8 +98,17 @@ async function sorov<TResponse>(
  * fetch bilan bevosita ishlamaydi, shuning uchun xatoliklar bir joyda
  * tipizatsiya qilinadi.
  */
-export function getJson<TResponse>(yol: string, signal?: AbortSignal): Promise<TResponse> {
-  return sorov<TResponse>(yol, { method: 'GET' }, signal)
+/**
+ * `kutishMs` berilsa, shu vaqt ichida javob kelmasa so'rov uziladi va
+ * `ApiError` (kod `vaqt_tugadi`) ko'tariladi — chaqiruvchi zaxira manbaga
+ * o'tishi mumkin. Bermaslik — cheksiz kutish (chat, kirish uchun shunday).
+ */
+export function getJson<TResponse>(
+  yol: string,
+  signal?: AbortSignal,
+  kutishMs?: number,
+): Promise<TResponse> {
+  return sorov<TResponse>(yol, { method: 'GET' }, signal, kutishMs)
 }
 
 export function postJson<TResponse>(

@@ -111,6 +111,7 @@ export const uz = {
   login_welcome_sub: 'Davlat xizmatlari navigatoriga kirish',
   login_card_title: 'Tizimga kirish',
   login_card_hint: 'Telefon raqamingiz va tug‘ilgan sanangizni kiriting — SMS kod yuboramiz.',
+  login_chat_required: 'AI yordamchidan foydalanish uchun avval tizimga kiring.',
   login_phone: 'Telefon raqami',
   login_birthdate: 'Tug‘ilgan sana',
   login_region: 'Hududingiz',

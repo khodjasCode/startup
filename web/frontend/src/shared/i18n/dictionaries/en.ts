@@ -100,6 +100,7 @@ export const en: Dictionary = {
   login_welcome_sub: 'Sign in to the public services navigator',
   login_card_title: 'Sign in',
   login_card_hint: 'Enter your phone number and date of birth — we will send an SMS code.',
+  login_chat_required: 'Sign in first to use the AI assistant.',
   login_phone: 'Phone number',
   login_birthdate: 'Date of birth',
   login_region: 'Your region',

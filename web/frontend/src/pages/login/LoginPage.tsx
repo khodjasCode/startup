@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
 import type { FormEvent } from 'react'
-import { Link, Navigate, useNavigate } from 'react-router-dom'
+import { Link, Navigate, useLocation, useNavigate } from 'react-router-dom'
 
 import { useAuth } from '@features/auth'
+import { useChat } from '@features/chat'
 import { ROUTES } from '@app/routes'
 import { ApiError } from '@shared/api/httpClient'
 import { useI18n } from '@shared/i18n'
@@ -36,7 +37,16 @@ function raqamniFormatlash(xom: string): string {
 export function LoginPage() {
   const { t, locale } = useI18n()
   const { user, loading, requestCode, confirmCode } = useAuth()
+  const { open: chatniOchish } = useChat()
   const navigate = useNavigate()
+  const location = useLocation()
+
+  // Chat kirishni talab qilib shu yerga yuborgan bo'lsa, qayerdan kelgani va
+  // kirgandan keyin chatni qayta ochish kerakligi `state` da keladi
+  // (`features/chat/model/ChatProvider.tsx`).
+  const holat = location.state as { qaytish?: string; chat?: boolean } | null
+  const qaytishYoli = holat?.qaytish || ROUTES.home
+  const chatniQaytaOchish = holat?.chat === true
 
   const [qadam, setQadam] = useState<'telefon' | 'kod'>('telefon')
   const [telefon, setTelefon] = useState('')
@@ -55,7 +65,7 @@ export function LoginPage() {
     return () => clearTimeout(timer)
   }, [kutish])
 
-  if (!loading && user) return <Navigate to={ROUTES.home} replace />
+  if (!loading && user) return <Navigate to={qaytishYoli} replace />
 
   const xatoniKorsatish = (error: unknown) => {
     const kodi = error instanceof ApiError ? error.kod : undefined
@@ -89,7 +99,8 @@ export function LoginPage() {
     setBand(true)
     try {
       await confirmCode(`998${telefon.replace(/\D/g, '')}`, kod, hudud)
-      navigate(ROUTES.home, { replace: true })
+      navigate(qaytishYoli, { replace: true })
+      if (chatniQaytaOchish) chatniOchish()
     } catch (error) {
       xatoniKorsatish(error)
     } finally {
@@ -111,6 +122,10 @@ export function LoginPage() {
             <p className={styles.cardHint}>
               {qadam === 'telefon' ? t('login_card_hint') : t('login_mock_notice')}
             </p>
+
+            {chatniQaytaOchish && qadam === 'telefon' && (
+              <p className={styles.chatNotice}>{t('login_chat_required')}</p>
+            )}
 
             {qadam === 'telefon' ? (
               <form className={styles.form} onSubmit={kodSorash}>
