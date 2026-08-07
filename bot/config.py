@@ -4,16 +4,12 @@
 import os
 from pathlib import Path
 
+from baza.muhit import env_yuklash
+
 LOYIHA_ILDIZI = Path(__file__).resolve().parent.parent
 
 # .env faylini (bo'lsa) avtomatik yuklash — export qilingan o'zgaruvchilar ustun turadi
-_env_fayl = LOYIHA_ILDIZI / ".env"
-if _env_fayl.exists():
-    for _qator in _env_fayl.read_text(encoding="utf-8").splitlines():
-        _qator = _qator.strip()
-        if _qator and not _qator.startswith("#") and "=" in _qator:
-            _nom, _, _qiymat = _qator.partition("=")
-            os.environ.setdefault(_nom.strip(), _qiymat.strip().strip("'\""))
+env_yuklash()
 
 
 def _kalit(nom: str) -> str:
@@ -36,7 +32,6 @@ MY_GOV_YOLI = LOYIHA_ILDIZI / "data" / "my-gov.json"
 PM_GOV_YOLI = LOYIHA_ILDIZI / "data" / "pm-gov.json"
 LEX_YOLI = LOYIHA_ILDIZI / "data" / "lex.json"
 SAVOL_JAVOB_YOLI = LOYIHA_ILDIZI / "data" / "savol-javob.json"
-VEKTOR_BAZA_YOLI = LOYIHA_ILDIZI / "vektor_baza"
 
 EMBEDDING_MODEL = "gemini-embedding-001"  # 2026-07-22: tekshirildi, hali mavjud
 LLM_MODEL = "gemini-flash-latest"  # 2026-07-22: gemini-2.5-flash yangi kalitlarga yopilgan, shuning uchun doim joriy flash modelga ishora qiluvchi alias ishlatilmoqda

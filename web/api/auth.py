@@ -5,11 +5,15 @@ shuning uchun XSS holatida ham token o'g'irlanmaydi.
 
 ⚠️ SMS hozircha yuborilmaydi (mock): kod javobda qaytariladi va interfeysda
 ko'rsatiladi. Provayder ulangach `mock_kod` maydonini olib tashlash kifoya.
+
+Hisoblar, sessiyalar va kodlar Postgres'da saqlanadi. Marshrutlar `async def`
+emas: baza chaqiruvi bloklovchi, FastAPI ularni alohida oqimda bajaradi.
 """
 
 from fastapi import APIRouter, Cookie, HTTPException, Response
 from pydantic import BaseModel, Field
 
+from web.config import COOKIE_SAMESITE, COOKIE_SECURE
 from web.xizmat import foydalanuvchilar_bazasi as baza
 
 router = APIRouter(prefix="/api/auth", tags=["auth"])
@@ -30,7 +34,7 @@ class TasdiqSorovi(BaseModel):
 
 
 @router.post("/sms")
-async def sms_yuborish(sorov: SmsSorovi) -> dict:
+def sms_yuborish(sorov: SmsSorovi) -> dict:
     try:
         kod, muddat = baza.sms_yuborish(sorov.telefon, sorov.tugilgan_sana)
     except baza.KirishXatosi as xato:
@@ -44,7 +48,7 @@ async def sms_yuborish(sorov: SmsSorovi) -> dict:
 
 
 @router.post("/tasdiqlash")
-async def tasdiqlash(sorov: TasdiqSorovi, javob: Response) -> dict:
+def tasdiqlash(sorov: TasdiqSorovi, javob: Response) -> dict:
     try:
         foydalanuvchi, token = baza.tasdiqlash(sorov.telefon, sorov.kod, sorov.hudud)
     except baza.KirishXatosi as xato:
@@ -55,20 +59,25 @@ async def tasdiqlash(sorov: TasdiqSorovi, javob: Response) -> dict:
         token,
         max_age=COOKIE_UMRI,
         httponly=True,
-        samesite="lax",
+        # Frontend alohida domenda bo'lsa "none" + secure kerak (web/config.py).
+        samesite=COOKIE_SAMESITE,
+        secure=COOKIE_SECURE,
         path="/",
     )
     return {"foydalanuvchi": foydalanuvchi.dict()}
 
 
 @router.post("/chiqish")
-async def chiqish(javob: Response, compass_sessiya: str | None = Cookie(default=None)) -> dict:
+def chiqish(javob: Response, compass_sessiya: str | None = Cookie(default=None)) -> dict:
     baza.chiqish(compass_sessiya)
-    javob.delete_cookie(COOKIE_NOMI, path="/")
+    # O'chirish uchun cookie'ning barcha belgilari o'rnatilgandagi bilan bir xil bo'lishi kerak.
+    javob.delete_cookie(
+        COOKIE_NOMI, path="/", httponly=True, samesite=COOKIE_SAMESITE, secure=COOKIE_SECURE
+    )
     return {"holat": "ok"}
 
 
 @router.get("/men")
-async def men(compass_sessiya: str | None = Cookie(default=None)) -> dict:
+def men(compass_sessiya: str | None = Cookie(default=None)) -> dict:
     foydalanuvchi = baza.sessiya_boyicha(compass_sessiya)
     return {"foydalanuvchi": foydalanuvchi.dict() if foydalanuvchi else None}

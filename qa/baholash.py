@@ -23,7 +23,7 @@ from datetime import date
 os.environ.setdefault("BOT_TOKEN", "qa-baholash-uchun-kerak-emas")
 
 from bot.config import LOYIHA_ILDIZI
-from bot.rag import qidirish, javob_olish, collection
+from bot.rag import qidirish, javob_olish, vektorlar_soni
 
 SAVOLLAR_YOLI = LOYIHA_ILDIZI / "qa" / "test_savollar.json"
 
@@ -53,7 +53,7 @@ def limit_bilan(fn, *args, urinishlar: int = 4):
 
 
 def indeks_tayyorlash():
-    if collection.count() == 0:
+    if vektorlar_soni() == 0:
         print("Vektor baza bo'sh — indekslanmoqda...")
         from bot.index_qurish import bazani_yuklash
         bazani_yuklash()

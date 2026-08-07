@@ -1,0 +1,42 @@
+# Render — FastAPI backend (API: katalog, chat, avtorizatsiya, soat).
+#
+# Frontend bu yerda emas: u Netlify'da (netlify.toml), va u yerdan `/api/*`
+# so'rovlari shu servisga proksilanadi — sayt bitta domendan ko'rinadi.
+#
+# Ma'lumotlar Supabase Postgres'da, shuning uchun Render'da saqlanadigan disk
+# kerak emas (RAG vektorlari ham `vektorlar` jadvalida).
+#
+# ⚠️ Bepul tarif: 15 daqiqa murojaat bo'lmasa servis uxlaydi va keyingi so'rov
+# ~50 soniya kutadi. Doimiy tezlik kerak bo'lsa — pullik tarif.
+
+services:
+  - type: web
+    name: compass-api
+    runtime: python
+    plan: free
+    # Supabase ap-southeast-2 (Sidney) da — Render'ning eng yaqin mintaqasi.
+    region: singapore
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn web.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/salomatlik
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.7"
+      # Qiymatlar Render panelida qo'lda kiritiladi (git'ga tushmaydi).
+      - key: DATABASE_URL
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_API_KEY_ZAXIRA
+        sync: false
+      # bot.rag import qilinishi uchun kerak (botning o'zi bu yerda ishlamaydi).
+      - key: BOT_TOKEN
+        sync: false
+      # Frontend Netlify'dan /api ni proksilaydi, ya'ni so'rov bir xil domendan
+      # keladi — CORS ham, SameSite=None ham kerak emas. Agar to'g'ridan-to'g'ri
+      # Render manziliga murojaat qilinsa, quyidagilarni yoqing:
+      #   COMPASS_RUXSAT_MANBALAR=https://compass-uzb.netlify.app
+      #   COMPASS_COOKIE_SAMESITE=none
+      #   COMPASS_COOKIE_SECURE=1
+      - key: COMPASS_KATALOG_KESH_SONIYA
+        value: "600"

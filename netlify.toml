@@ -1,0 +1,52 @@
+# Netlify — faqat frontend (React SPA) uchun.
+#
+# ⚠️ Netlify Python funksiyalarini qo'llab-quvvatlamaydi, shuning uchun FastAPI
+# backend bu yerda ishlamaydi — u alohida xostda turadi (Render/Railway/Fly).
+#
+# Sayt: https://compass-uzb.netlify.app  (project id a0da2899-05b2-451c-a094-a1a735187634)
+# "compass" nomi Netlify'da band edi, shuning uchun "compass-uzb".
+#
+# Sayt **mahalliy yig'ilgan** `web/frontend/dist` papkasidan yuklanadi:
+#
+#     python3 -m baza.kochirish          # baza yangi bo'lsa
+#     cd web/frontend && npm run build   # dist + public/data/katalog.json
+#     npx netlify deploy --prod --dir=web/frontend/dist --site=compass-uzb
+#
+# Nega Netlify'ning o'zida yig'ilmaydi: `npm run build` oldidan
+# `python -m web.eksport_katalog` ishlaydi va u Postgres'ga ulanadi
+# (Netlify build muhitida psycopg2 ham, DATABASE_URL ham yo'q).
+
+[build]
+  publish = "web/frontend/dist"
+
+# Backend manzili ma'lum bo'lgach shu qatorlarni yoqing: /api va /ws so'rovlari
+# backendga proksilanadi va sayt bitta domendan ko'rinadi — u holda CORS ham,
+# `SameSite=None` cookie ham kerak emas (sessiya odatdagidek ishlaydi).
+#
+# [[redirects]]
+#   from = "/api/*"
+#   to = "https://BACKEND-MANZILI/api/:splat"
+#   status = 200
+#   force = true
+#
+# [[redirects]]
+#   from = "/ws/*"
+#   to = "wss://BACKEND-MANZILI/ws/:splat"
+#   status = 200
+#   force = true
+
+# Backend ulanmaguncha /api/* so'rovlariga aniq 404 qaytariladi. Aks holda
+# pastdagi SPA qoidasi ularga index.html ni 200 bilan beradi va frontend
+# javobni JSON deb o'qishga urinadi. 404 bo'lsa u darhol zaxira manbaga
+# (/data/katalog.json) o'tadi — katalog, manbalar va savol-javob ishlaydi.
+[[redirects]]
+  from = "/api/*"
+  to = "/index.html"
+  status = 404
+
+# SPA: barcha noma'lum yo'llar index.html ga (client-side routing).
+# Bu qoida oxirida turishi kerak — undan yuqoridagilar ustun bo'ladi.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

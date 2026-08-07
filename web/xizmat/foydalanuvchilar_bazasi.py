@@ -4,20 +4,19 @@ Hozircha SMS **yuborilmaydi**: kod javobning o'zida qaytariladi va interfeysda
 ko'rsatiladi (mock). Haqiqiy SMS-provayder ulangach, `sms_yuborish()` dagi
 qaytariladigan kodni olib tashlash kifoya — qolgan mantiq o'zgarmaydi.
 
-Ma'lumotlar JSON faylda saqlanadi (MVP). Yuklama ortsa haqiqiy bazaga
-ko'chirilishi kerak.
+Ma'lumotlar Postgres'da: `foydalanuvchilar`, `sessiyalar`, `kirish_kodlari`
+jadvallari (`baza/sxema.sql`). Bir telefon uchun bir vaqtda bitta amaldagi kod
+bo'ladi, shuning uchun kod jadvalining kaliti — telefon raqami.
 """
 
 from __future__ import annotations
 
-import json
 import re
 import secrets
-import threading
 from dataclasses import dataclass
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, datetime, timezone
 
-from web.config import FOYDALANUVCHILAR_YOLI as BAZA_YOLI
+import baza
 
 SESSIYA_KUNI = 30  # sessiya tokenining amal qilish muddati
 KOD_MUDDATI_SONIYA = 300  # SMS kod 5 daqiqa amal qiladi
@@ -27,8 +26,6 @@ KOD_URINISHLARI = 5  # noto'g'ri kod kiritishga ruxsat etilgan urinishlar
 # O'zbekiston raqami: 998 + 9 raqam.
 TELEFON_SHABLONI = re.compile(r"^998\d{9}$")
 ENG_KICHIK_YOSH = 14
-
-_qulf = threading.Lock()
 
 
 class KirishXatosi(Exception):
@@ -98,50 +95,28 @@ def _hozir() -> datetime:
     return datetime.now(timezone.utc)
 
 
-def _bazani_oqish() -> dict:
-    if not BAZA_YOLI.is_file():
-        return {"foydalanuvchilar": {}, "sessiyalar": {}, "kodlar": {}}
-    try:
-        xom = json.loads(BAZA_YOLI.read_text(encoding="utf-8"))
-    except (json.JSONDecodeError, OSError):
-        return {"foydalanuvchilar": {}, "sessiyalar": {}, "kodlar": {}}
-    for kalit in ("foydalanuvchilar", "sessiyalar", "kodlar"):
-        xom.setdefault(kalit, {})
-    return xom
+def _sana_matni(qiymat) -> str:
+    """`date`/`datetime` → ISO satr (dataclass maydonlari matn saqlaydi)."""
+    if qiymat is None:
+        return ""
+    if isinstance(qiymat, (date, datetime)):
+        return qiymat.isoformat()
+    return str(qiymat)
 
 
-def _bazani_yozish(baza: dict) -> None:
-    # Avval vaqtinchalik faylga yozib, so'ng o'rniga qo'yamiz — yozish yarim
-    # yo'lda uzilib qolsa ham mavjud fayl buzilmaydi.
-    vaqtinchalik = BAZA_YOLI.with_suffix(".json.tmp")
-    vaqtinchalik.write_text(json.dumps(baza, ensure_ascii=False, indent=1), encoding="utf-8")
-    vaqtinchalik.replace(BAZA_YOLI)
-
-
-def _tozalash(baza: dict) -> None:
-    """Muddati o'tgan sessiya va kodlarni olib tashlaydi."""
-    hozir = _hozir()
-    for token in [
-        t
-        for t, s in baza["sessiyalar"].items()
-        if datetime.fromisoformat(s["muddat"]) < hozir
-    ]:
-        del baza["sessiyalar"][token]
-    for telefon in [
-        t
-        for t, k in baza["kodlar"].items()
-        if datetime.fromisoformat(k["muddat"]) < hozir
-    ]:
-        del baza["kodlar"][telefon]
-
-
-def _foydalanuvchi(yozuv: dict) -> Foydalanuvchi:
+def _foydalanuvchi(qator: dict) -> Foydalanuvchi:
     return Foydalanuvchi(
-        telefon=yozuv["telefon"],
-        tugilgan_sana=yozuv["tugilgan_sana"],
-        yaratilgan=yozuv["yaratilgan"],
-        hudud=yozuv.get("hudud", ""),
+        telefon=qator["telefon"],
+        tugilgan_sana=_sana_matni(qator["tugilgan_sana"]),
+        yaratilgan=_sana_matni(qator["yaratilgan"]),
+        hudud=qator.get("hudud") or "",
     )
+
+
+def _eskirganlarni_tozalash(cur) -> None:
+    """Muddati o'tgan sessiya va kodlarni olib tashlaydi."""
+    cur.execute("delete from sessiyalar where muddat < now()")
+    cur.execute("delete from kirish_kodlari where muddat < now()")
 
 
 def sms_yuborish(xom_telefon: str, xom_sana: str) -> tuple[str, int]:
@@ -152,32 +127,42 @@ def sms_yuborish(xom_telefon: str, xom_sana: str) -> tuple[str, int]:
     """
     telefon = telefonni_tozalash(xom_telefon)
     sana = sanani_tozalash(xom_sana)
+    kod = f"{secrets.randbelow(1_000_000):06d}"
 
-    with _qulf:
-        baza = _bazani_oqish()
-        _tozalash(baza)
+    with baza.ulanish() as conn:
+        with baza.kursor(conn) as cur:
+            _eskirganlarni_tozalash(cur)
 
-        mavjud = baza["kodlar"].get(telefon)
-        if mavjud:
-            yuborilgan = datetime.fromisoformat(mavjud["yuborilgan"])
-            kutish = KOD_QAYTA_YUBORISH_SONIYA - (_hozir() - yuborilgan).total_seconds()
-            if kutish > 0:
-                raise KirishXatosi("tez_tez")
+            cur.execute(
+                "select yuborilgan from kirish_kodlari where telefon = %s for update",
+                (telefon,),
+            )
+            mavjud = cur.fetchone()
+            if mavjud:
+                kutish = (
+                    KOD_QAYTA_YUBORISH_SONIYA
+                    - (_hozir() - mavjud["yuborilgan"]).total_seconds()
+                )
+                if kutish > 0:
+                    raise KirishXatosi("tez_tez")
 
-        # Ro'yxatdan o'tgan foydalanuvchi boshqa tug'ilgan sana kiritsa — kiritmaymiz.
-        hisob = baza["foydalanuvchilar"].get(telefon)
-        if hisob and hisob["tugilgan_sana"] != sana:
-            raise KirishXatosi("sana_mos_emas")
+            # Ro'yxatdan o'tgan foydalanuvchi boshqa tug'ilgan sana kiritsa — kiritmaymiz.
+            cur.execute(
+                "select tugilgan_sana from foydalanuvchilar where telefon = %s", (telefon,)
+            )
+            hisob = cur.fetchone()
+            if hisob and _sana_matni(hisob["tugilgan_sana"]) != sana:
+                raise KirishXatosi("sana_mos_emas")
 
-        kod = f"{secrets.randbelow(1_000_000):06d}"
-        baza["kodlar"][telefon] = {
-            "kod": kod,
-            "tugilgan_sana": sana,
-            "yuborilgan": _hozir().isoformat(),
-            "muddat": (_hozir() + timedelta(seconds=KOD_MUDDATI_SONIYA)).isoformat(),
-            "urinishlar": 0,
-        }
-        _bazani_yozish(baza)
+            cur.execute(
+                "insert into kirish_kodlari "
+                "(telefon, kod, tugilgan_sana, yuborilgan, muddat, urinishlar) "
+                "values (%s, %s, %s, now(), now() + make_interval(secs => %s), 0) "
+                "on conflict (telefon) do update set "
+                "kod = excluded.kod, tugilgan_sana = excluded.tugilgan_sana, "
+                "yuborilgan = excluded.yuborilgan, muddat = excluded.muddat, urinishlar = 0",
+                (telefon, kod, sana, KOD_MUDDATI_SONIYA),
+            )
 
     return kod, KOD_MUDDATI_SONIYA
 
@@ -189,64 +174,71 @@ def tasdiqlash(xom_telefon: str, kod: str, hudud: str = "") -> tuple[Foydalanuvc
     """
     telefon = telefonni_tozalash(xom_telefon)
     kod = re.sub(r"\D", "", kod or "")
+    token = secrets.token_urlsafe(32)
 
-    with _qulf:
-        baza = _bazani_oqish()
-        _tozalash(baza)
+    with baza.ulanish() as conn:
+        with baza.kursor(conn) as cur:
+            _eskirganlarni_tozalash(cur)
 
-        yozuv = baza["kodlar"].get(telefon)
-        if not yozuv:
-            raise KirishXatosi("kod_eskirgan")
+            # `for update` — bir vaqtda kelgan ikkita urinish bir-birini bosmasligi uchun.
+            cur.execute(
+                "select kod, tugilgan_sana, urinishlar from kirish_kodlari "
+                "where telefon = %s for update",
+                (telefon,),
+            )
+            yozuv = cur.fetchone()
+            if not yozuv:
+                raise KirishXatosi("kod_eskirgan")
 
-        if yozuv["urinishlar"] >= KOD_URINISHLARI:
-            del baza["kodlar"][telefon]
-            _bazani_yozish(baza)
-            raise KirishXatosi("urinishlar_tugadi")
+            if yozuv["urinishlar"] >= KOD_URINISHLARI:
+                cur.execute("delete from kirish_kodlari where telefon = %s", (telefon,))
+                # Xatolik ko'tarilsa tranzaksiya orqaga qaytadi, shuning uchun
+                # o'chirishni alohida saqlaymiz.
+                conn.commit()
+                raise KirishXatosi("urinishlar_tugadi")
 
-        if not secrets.compare_digest(kod, yozuv["kod"]):
-            yozuv["urinishlar"] += 1
-            _bazani_yozish(baza)
-            raise KirishXatosi("kod_notogri")
+            if not secrets.compare_digest(kod, yozuv["kod"]):
+                cur.execute(
+                    "update kirish_kodlari set urinishlar = urinishlar + 1 where telefon = %s",
+                    (telefon,),
+                )
+                conn.commit()
+                raise KirishXatosi("kod_notogri")
 
-        hisob = baza["foydalanuvchilar"].get(telefon)
-        if not hisob:
-            hisob = {
-                "telefon": telefon,
-                "tugilgan_sana": yozuv["tugilgan_sana"],
-                "yaratilgan": _hozir().isoformat(),
-                "hudud": hudud,
-            }
-            baza["foydalanuvchilar"][telefon] = hisob
-        elif hudud:
-            hisob["hudud"] = hudud
+            cur.execute(
+                "insert into foydalanuvchilar (telefon, tugilgan_sana, hudud) "
+                "values (%s, %s, %s) "
+                # Mavjud hisobda hudud faqat yangisi berilgandagina yangilanadi.
+                "on conflict (telefon) do update set "
+                "hudud = case when %s <> '' then excluded.hudud else foydalanuvchilar.hudud end "
+                "returning telefon, tugilgan_sana, hudud, yaratilgan",
+                (telefon, _sana_matni(yozuv["tugilgan_sana"]), hudud, hudud),
+            )
+            hisob = cur.fetchone()
 
-        del baza["kodlar"][telefon]
-        token = secrets.token_urlsafe(32)
-        baza["sessiyalar"][token] = {
-            "telefon": telefon,
-            "muddat": (_hozir() + timedelta(days=SESSIYA_KUNI)).isoformat(),
-        }
-        _bazani_yozish(baza)
-        return _foydalanuvchi(hisob), token
+            cur.execute("delete from kirish_kodlari where telefon = %s", (telefon,))
+            cur.execute(
+                "insert into sessiyalar (token, telefon, muddat) "
+                "values (%s, %s, now() + make_interval(days => %s))",
+                (token, telefon, SESSIYA_KUNI),
+            )
+
+    return _foydalanuvchi(hisob), token
 
 
 def sessiya_boyicha(token: str | None) -> Foydalanuvchi | None:
     if not token:
         return None
-    baza = _bazani_oqish()
-    sessiya = baza["sessiyalar"].get(token)
-    if not sessiya:
-        return None
-    if datetime.fromisoformat(sessiya["muddat"]) < _hozir():
-        return None
-    yozuv = baza["foydalanuvchilar"].get(sessiya["telefon"])
-    return _foydalanuvchi(yozuv) if yozuv else None
+    qator = baza.bitta(
+        "select f.telefon, f.tugilgan_sana, f.hudud, f.yaratilgan "
+        "from sessiyalar s join foydalanuvchilar f on f.telefon = s.telefon "
+        "where s.token = %s and s.muddat > now()",
+        (token,),
+    )
+    return _foydalanuvchi(qator) if qator else None
 
 
 def chiqish(token: str | None) -> None:
     if not token:
         return
-    with _qulf:
-        baza = _bazani_oqish()
-        if baza["sessiyalar"].pop(token, None) is not None:
-            _bazani_yozish(baza)
+    baza.bajarish("delete from sessiyalar where token = %s", (token,))

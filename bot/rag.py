@@ -1,13 +1,16 @@
-# RAG yadro: savol → embedding → ChromaDB top-3 → Gemini Flash javobi
+# RAG yadro: savol → embedding → PostgreSQL (pgvector) top-3 → Gemini Flash javobi
+#
+# Vektorlar `vektorlar` jadvalida (ilgari ChromaDB fayli edi): bulutdagi server
+# uchun saqlanadigan disk kerak emas, bot va web bir xil bazadan qidiradi.
+# Indeksni qurish: python3 -m bot.index_qurish
 
 from google import genai
 from google.genai import errors
-import chromadb
 
+import baza
 from bot.config import (
     GEMINI_API_KEY,
     GEMINI_API_KEY_ZAXIRA,
-    VEKTOR_BAZA_YOLI,
     EMBEDDING_MODEL,
     LLM_MODEL,
     LLM_ZAXIRA_MODEL,
@@ -18,9 +21,6 @@ from bot.prompt import SYSTEM_PROMPT
 # biri 429 (limit) qaytarsa, ikkinchisiga o'tiladi.
 _KALITLAR = [k for k in (GEMINI_API_KEY, GEMINI_API_KEY_ZAXIRA) if k]
 _MIJOZLAR = [genai.Client(api_key=kalit) for kalit in _KALITLAR]
-
-chroma = chromadb.PersistentClient(path=str(VEKTOR_BAZA_YOLI))
-collection = chroma.get_or_create_collection("idoralar")
 
 
 class TokenlarTugadi(Exception):
@@ -100,10 +100,29 @@ def embed(matn: str) -> list[float]:
     return natija.embeddings[0].values
 
 
+def vektor_matni(emb: list[float]) -> str:
+    """Python ro'yxatini pgvector kutadigan '[0.1,0.2,...]' ko'rinishiga keltiradi."""
+    return "[" + ",".join(repr(float(x)) for x in emb) + "]"
+
+
+def vektorlar_soni() -> int:
+    """Indeksdagi yozuvlar soni (0 bo'lsa — indeks hali qurilmagan)."""
+    qator = baza.bitta("select count(*) as soni from vektorlar")
+    return qator["soni"] if qator else 0
+
+
 def qidirish(savol: str, k: int = 3) -> list[str]:
+    """Savolga eng yaqin k ta yozuvni qaytaradi (kosinus masofasi bo'yicha).
+
+    Embedding'lar normallashtirilgan, shuning uchun `<=>` (kosinus) va L2 bir
+    xil tartib beradi — Chroma'dagi natija bilan mos tushadi.
+    """
     emb = embed(savol)
-    natija = collection.query(query_embeddings=[emb], n_results=k)
-    return natija["documents"][0] if natija["documents"] else []
+    qatorlar = baza.sorov(
+        "select hujjat from vektorlar order by embedding <=> %s::vector limit %s",
+        (vektor_matni(emb), k),
+    )
+    return [q["hujjat"] for q in qatorlar]
 
 
 def _generatsiya(model: str, contents, tizim_korsatmasi: str = SYSTEM_PROMPT):

@@ -14,7 +14,7 @@ Foydalanuvchi (Telegram)
      aiogram bot          → bot/main.py
         │
  1) savol → embedding      → bot/rag.py (Gemini)
- 2) ChromaDB'dan top-3     → bot/rag.py
+ 2) Postgres'dan top-3     → bot/rag.py (pgvector)
  3) yozuvlar + savol → LLM → bot/rag.py + bot/prompt.py
  4) javob + manba          → foydalanuvchiga
 ```
@@ -24,8 +24,8 @@ Foydalanuvchi (Telegram)
 ```
 bot/
   main.py         — Telegram bot (aiogram 3, long polling), kirish nuqtasi
-  rag.py          — RAG yadro: qidirish + javob olish (Gemini, ChromaDB)
-  index_qurish.py — bilim bazasini ChromaDB ga indekslash skripti
+  rag.py          — RAG yadro: qidirish + javob olish (Gemini, pgvector)
+  index_qurish.py — bilim bazasini vektor jadvaliga indekslash skripti
   prompt.py       — qat'iy system prompt (gallyutsinatsiyaga qarshi)
   config.py       — kalitlar (env), yo'llar, model nomlari
 data/
@@ -37,6 +37,12 @@ qa/
   demo_ssenariy.md      — demo ssenariy va slaydlar rejasi
 docs/
   ISH_REJA.md     — 4 haftalik ish reja
+baza/
+  __init__.py     — PostgreSQL ulanishi (hovuz, so'rov yordamchilari)
+  sxema.sql       — jadvallar
+  kochirish.py    — sxema + data/*.json dan katalogni bazaga yuklash
+  json_manba.py   — data/*.json → bazaga yoziladigan qatorlar
+  suhbat.py       — suhbat tarixi (web va Telegram uchun umumiy)
 web/
   main.py         — FastAPI ilovasi (routerlar + yig'ilgan frontendni tarqatish)
   api/            — HTTP: chat, katalog, avtorizatsiya, vaqt (soat)
@@ -52,11 +58,37 @@ pip3 install -r requirements.txt
 cp .env.example .env         # so'ng .env ichiga kalitlarni yozing:
                              #   BOT_TOKEN — BotFather'dan
                              #   GEMINI_API_KEY — https://ai.google.dev dan
+                             #   DATABASE_URL — PostgreSQL (Supabase) manzili
                              # (.env o'zi yuklanadi, export shart emas)
 
-python3 -m bot.index_qurish  # bazani indekslash (bir marta / baza yangilanganda)
+python3 -m baza.kochirish    # jadvallar + katalogni bazaga yuklash (bir marta)
+python3 -m bot.index_qurish  # vektor indeksni qurish (bir marta / baza yangilanganda)
 python3 -m bot.main          # botni ishga tushirish
 ```
+
+## Ma'lumotlar bazasi (PostgreSQL / Supabase)
+
+Katalog, foydalanuvchi hisoblari, sessiyalar va suhbat tarixi Postgres'da
+saqlanadi. `data/*.json` fayllari manba (source of truth) bo'lib qoladi:
+ular o'zgargach baza qayta yuklanadi.
+
+```bash
+python3 -m baza.kochirish            # sxema + katalog + tarjimalar + eski hisoblar
+python3 -m baza.kochirish --sxema    # faqat jadvallarni yaratish
+python3 -m baza.kochirish --holat    # jadvallardagi yozuvlar soni
+```
+
+| Jadval | Nima saqlanadi |
+|---|---|
+| `xizmatlar`, `manbalar` | katalog: xizmatlar, savol-javoblar, portallar |
+| `tarjimalar` | ru/en tarjimalari (`data/i18n/*.json` dan) |
+| `foydalanuvchilar`, `sessiyalar`, `kirish_kodlari` | telefon orqali kirish |
+| `suhbat_xabarlari`, `telegram_foydalanuvchilari` | chat tarixi va tanlangan til |
+| `vektorlar` | RAG qidiruvi uchun embedding'lar (pgvector) |
+
+Katalog kamdan-kam o'zgaradi, shuning uchun u xotirada keshlanadi
+(`COMPASS_KATALOG_KESH_SONIYA`, standart 300 soniya; `0` — keshsiz).
+Ulanishni tekshirish: `curl http://127.0.0.1:8000/api/salomatlik`.
 
 ## Web-versiya
 
@@ -64,6 +96,7 @@ Bir xil `bot/rag.py` yadrosidan foydalanadigan sayt + chat widget. Interfeys —
 React + TypeScript (Vite), FastAPI uni yig'ilgan holda tarqatadi:
 
 ```bash
+python3 -m baza.kochirish                         # bir marta: bazani to'ldirish
 cd web/frontend && npm install && npm run build   # bir marta (Node.js 20+)
 cd ../.. && uvicorn web.main:app --reload         # http://127.0.0.1:8000
 ```

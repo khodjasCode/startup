@@ -11,3 +11,4 @@ web/frontend/dist/
 foydalanuvchilar.json
 foydalanuvchilar.json.tmp
 web/frontend/public/data/
+.netlify/

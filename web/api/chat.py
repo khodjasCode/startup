@@ -1,9 +1,13 @@
 """Chat: /api/savol — bot/rag.py yadrosini HTTP orqali ochib beradi.
 
-RAG yadrosi (chromadb, Gemini kaliti, indekslangan baza) o'rnatilmagan bo'lsa
+RAG yadrosi (Gemini kaliti, indekslangan vektor bazasi) sozlanmagan bo'lsa
 ham sayt ishlashi kerak: katalog, savol-javob, manbalar va avtorizatsiya
 bularsiz ham to'liq ishlaydi. Shuning uchun `bot.rag` faqat birinchi savol
 kelganda import qilinadi va import qilib bo'lmasa — tushunarli xabar qaytadi.
+
+Marshrutlar `async def` emas: ular ichida bloklovchi chaqiruvlar bor (Postgres
+va Gemini) — FastAPI oddiy `def` marshrutini alohida oqimda bajaradi, shuning
+uchun hodisa halqasi (soat WebSocket'i va boshqa so'rovlar) to'xtab qolmaydi.
 """
 
 import logging
@@ -11,6 +15,8 @@ from typing import Any
 
 from fastapi import APIRouter
 from pydantic import BaseModel, Field
+
+from baza import suhbat
 
 router = APIRouter(prefix="/api", tags=["chat"])
 
@@ -37,11 +43,6 @@ YADRO_YOQ_XABARI = {
     ),
 }
 
-# Har bir brauzer sessiyasi uchun suhbat tarixi (aniqlashtiruvchi savol-javob
-# oqimi uchun). MVP uchun xotirada saqlanadi; server qayta tushsa yo'qoladi.
-SUHBATLAR: dict[str, list[dict]] = {}
-TARIX_UZUNLIGI = 8  # so'nggi N ta xabar (fuqaro+bot) saqlanadi
-
 _yadro: Any | None = None
 _yadro_tekshirildi = False
 
@@ -55,7 +56,9 @@ def _rag_yadrosi() -> Any | None:
             from bot import rag
 
             _yadro = rag
-        except Exception as xato:  # ImportError, SystemExit (kalit yo'q) va h.k.
+        # `bot.config` kalit topilmasa SystemExit ko'taradi — u Exception emas,
+        # shuning uchun alohida sanab o'tiladi (aks holda so'rov 500 bilan tugaydi).
+        except (Exception, SystemExit) as xato:
             logger.warning("RAG yadrosi mavjud emas, chat o'chirilgan holatda: %s", xato)
             _yadro = None
     return _yadro
@@ -72,7 +75,7 @@ class JavobNatijasi(BaseModel):
 
 
 @router.post("/savol", response_model=JavobNatijasi)
-async def savol_sorash(sorov: SavolSorovi) -> JavobNatijasi:
+def savol_sorash(sorov: SavolSorovi) -> JavobNatijasi:
     if not sorov.savol.strip():
         return JavobNatijasi(javob="Iltimos, savolingizni matn ko'rinishida yozing.")
 
@@ -82,26 +85,25 @@ async def savol_sorash(sorov: SavolSorovi) -> JavobNatijasi:
     if yadro is None:
         return JavobNatijasi(javob=YADRO_YOQ_XABARI[til])
 
-    tarix = SUHBATLAR.setdefault(sorov.session_id, [])
+    # Bazadagi tarix + shu savol: yadroga to'liq oqim beriladi, lekin bazaga
+    # savol javob bilan birga (muvaffaqiyatli bo'lsagina) yoziladi.
+    tarix = suhbat.tarix(sorov.session_id)
     tarix.append({"rol": "fuqaro", "matn": sorov.savol})
 
     try:
         javob = yadro.javob_olish(tarix, til)
-        tarix.append({"rol": "bot", "matn": javob})
-        del tarix[:-TARIX_UZUNLIGI]
+        suhbat.saqlash(sorov.session_id, sorov.savol, javob, til)
     except yadro.TokenlarTugadi:
         javob = yadro.TOKENLAR_TUGADI_XABARI_TARJIMALARI[til]
-        tarix.pop()  # foydalanuvchi savoli javobsiz qoldi, tarixga qo'shilmasin
     except Exception:
         logger.exception("Javob olishda kutilmagan xatolik")
         javob = yadro.XATOLIK_XABARI_TARJIMALARI[til]
-        tarix.pop()
 
     return JavobNatijasi(javob=javob)
 
 
 @router.post("/suhbatni-tozalash")
-async def suhbatni_tozalash(sorov: dict) -> dict:
+def suhbatni_tozalash(sorov: dict) -> dict:
     """Chat sarlavhasidagi "tozalash" tugmasi uchun: server tarixini o'chiradi."""
-    SUHBATLAR.pop(str(sorov.get("session_id", "")), None)
+    suhbat.tozalash(str(sorov.get("session_id", "")))
     return {"holat": "ok"}

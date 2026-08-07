@@ -1,33 +1,23 @@
-"""Bilim bazasi fayllarini (data/*.json) yagona ko'rinishga keltirib o'qish.
+"""Katalog: sohalar, xizmatlar, manbalar, savol-javob — Postgres'dan.
 
-RAG uchun ChromaDB ishlatiladi, lekin saytdagi "Kategoriyalar", "Barcha bazalar",
-"Manbalar" va "Savol-javob" bo'limlari to'g'ridan-to'g'ri shu JSON fayllardan
-oziqlanadi — qo'shimcha baza ham, indekslash ham talab qilinmaydi.
+Yozuvlar `xizmatlar` va `manbalar` jadvallarida turadi (ular `data/*.json` dan
+`python3 -m baza.kochirish` orqali to'ldiriladi). Baza bir marta o'qilib
+xotirada keshlanadi (`web.xizmat.kesh`), filtrlash va guruhlash esa shu
+ro'yxat ustida bajariladi — katalog kichik (~300 yozuv) va deyarli o'zgarmaydi,
+shuning uchun har bir so'rov uchun bazaga borish keraksiz kechikish beradi.
+
+RAG uchun ChromaDB ishlatiladi; saytdagi bo'limlar esa faqat shu jadvallardan
+oziqlanadi.
 """
 
 from __future__ import annotations
 
-import json
 from dataclasses import dataclass, field
-from functools import lru_cache
-from pathlib import Path
 
-from web.config import (
-    BILIM_BAZASI_YOLI,
-    LEX_YOLI,
-    MY_GOV_YOLI,
-    PM_GOV_YOLI,
-    SAVOL_JAVOB_YOLI,
-)
+import baza
+from baza.matn import qirqish
 from web.xizmat import tarjima_bazasi
-
-# Manba kaliti → (fayl yo'li, ko'rinadigan nom)
-MANBA_FAYLLARI: dict[str, Path] = {
-    "my-gov": MY_GOV_YOLI,
-    "pm-gov": PM_GOV_YOLI,
-    "lex": LEX_YOLI,
-    "savol-javob": SAVOL_JAVOB_YOLI,
-}
+from web.xizmat.kesh import Kesh
 
 # Kategoriyasiz savol-javoblar shu guruhga tushadi.
 FAQ_BOSHQA = "Boshqa savollar"
@@ -64,7 +54,7 @@ class Xizmat:
             "manba": self.manba,
             "soha": self.soha,
             "nomi": self.nomi,
-            "tavsif": _qirqish(self.tavsif, 220),
+            "tavsif": qirqish(self.tavsif, 220),
             "url": self.url,
             "faq": self.faq,
             "kategoriya": self.kategoriya,
@@ -122,164 +112,73 @@ class Manba:
         }
 
 
-def _qirqish(matn: str, uzunlik: int) -> str:
-    matn = (matn or "").strip()
-    if len(matn) <= uzunlik:
-        return matn
-    return matn[:uzunlik].rsplit(" ", 1)[0] + "…"
+XIZMAT_MAYDONLARI = (
+    "id",
+    "manba",
+    "soha",
+    "nomi",
+    "tavsif",
+    "url",
+    "faq",
+    "kategoriya",
+    "muammolar",
+    "qadamlar",
+    "hujjatlar",
+    "muddat",
+    "narx",
+    "aloqa",
+    "kimlar_uchun",
+    "idora",
+    "qoshimcha",
+)
 
 
-def _matn(qiymat) -> str:
-    """Qiymat lug'at yoki ro'yxat bo'lsa ham o'qiladigan matnga aylantiradi."""
-    if not qiymat:
-        return ""
-    if isinstance(qiymat, str):
-        return qiymat.strip()
-    if isinstance(qiymat, list):
-        return "; ".join(_matn(x) for x in qiymat if x)
-    if isinstance(qiymat, dict):
-        return "; ".join(f"{k}: {_matn(v)}" for k, v in qiymat.items() if v)
-    return str(qiymat)
+def _xizmat(qator: dict) -> Xizmat:
+    return Xizmat(**{maydon: qator[maydon] for maydon in XIZMAT_MAYDONLARI})
 
 
-def _royxat(qiymat) -> list[str]:
-    if not qiymat:
-        return []
-    if isinstance(qiymat, list):
-        return [_matn(x) for x in qiymat if x]
-    return [_matn(qiymat)]
-
-
-def _json_oqish(yol: Path) -> dict:
-    if not yol.is_file():
-        return {}
-    return json.loads(yol.read_text(encoding="utf-8"))
-
-
-def _portal_yozuvi(kalit: str, yozuv: dict) -> Xizmat:
-    """Bitta yozuv. Fayllarda ikki xil shakl uchraydi:
-
-    · xizmat: `xizmat_nomi` + `tavsif` + `qadamlar` (my.gov.uz, pm.gov.uz, lex xizmatlari)
-    · savol-javob: `savol` + `qisqa_javob` + `huquqiy_asos` (advice.uz, lex huquqiy javoblari)
-    """
-    savol = _matn(yozuv.get("savol"))
-    faq = bool(savol)
-
-    qoshimcha = [_matn(yozuv.get("qoshimcha"))]
-    if yozuv.get("huquqiy_asos"):
-        qoshimcha.append(_matn(yozuv.get("huquqiy_asos")))
-
-    return Xizmat(
-        id=f"{kalit}.{yozuv.get('id', '')}",
-        manba=kalit,
-        soha=_matn(yozuv.get("soha")) or "Boshqa",
-        nomi=savol or _matn(yozuv.get("xizmat_nomi")),
-        tavsif=_matn(yozuv.get("qisqa_javob")) or _matn(yozuv.get("tavsif")),
-        url=_matn(yozuv.get("url")),
-        faq=faq,
-        kategoriya=_matn(yozuv.get("kategoriya")),
-        muammolar=_royxat(yozuv.get("muammolar")),
-        qadamlar=_royxat(yozuv.get("qadamlar")),
-        hujjatlar=_royxat(yozuv.get("kerakli_hujjatlar")),
-        muddat=_matn(yozuv.get("muddat")),
-        narx=_matn(yozuv.get("narx")),
-        aloqa=_matn(yozuv.get("aloqa")),
-        kimlar_uchun=_matn(yozuv.get("kimlar_uchun")),
-        idora=_matn(yozuv.get("korsatuvchi_idora")),
-        qoshimcha=" · ".join(q for q in qoshimcha if q),
+def _manba(qator: dict) -> Manba:
+    return Manba(
+        kalit=qator["kalit"],
+        nomi=qator["nomi"],
+        url=qator["url"],
+        tavsif=qator["tavsif"],
+        aloqa=qator["aloqa"],
+        kirish_tartibi=qator["kirish_tartibi"],
+        yigilgan_sana=qator["yigilgan_sana"],
+        xizmatlar_soni=qator["xizmatlar_soni"],
     )
 
 
-def _portal_xizmatlarini_oqish(kalit: str, xom: dict) -> list[Xizmat]:
-    return [
-        _portal_yozuvi(kalit, yozuv) for yozuv in xom.get("xizmatlar", []) if yozuv.get("id")
-    ]
-
-
-def _bilim_bazasini_oqish() -> list[Xizmat]:
-    """bilim_bazasi.json boshqa sxemada — uni ham yagona shaklga keltiramiz."""
-    xom = _json_oqish(BILIM_BAZASI_YOLI)
-    xizmatlar = []
-    for yozuv in xom.get("yozuvlar", []):
-        if not yozuv.get("id"):
-            continue
-        idora = yozuv.get("masul_idora") or {}
-        xizmatlar.append(
-            Xizmat(
-                id=f"bilim-bazasi.{yozuv['id']}",
-                manba="bilim-bazasi",
-                soha=_matn(yozuv.get("kategoriya")) or "Boshqa",
-                nomi=_qirqish(_matn(yozuv.get("muammo")), 110),
-                tavsif=_matn(yozuv.get("muammo")),
-                url="",
-                muammolar=_royxat(yozuv.get("kalit_sozlar")),
-                qadamlar=_royxat(yozuv.get("murojaat_tartibi")),
-                hujjatlar=_royxat(yozuv.get("kerakli_hujjatlar")),
-                muddat=_matn(yozuv.get("korish_muddati")),
-                aloqa=_matn(yozuv.get("murojaat_kanallari")),
-                idora=_matn(idora.get("nomi")),
-                qoshimcha=_matn(yozuv.get("eskalatsiya")),
-            )
-        )
-    return xizmatlar
-
-
-@lru_cache(maxsize=1)
 def _yuklash() -> tuple[list[Xizmat], list[Manba]]:
-    xizmatlar: list[Xizmat] = []
-    manbalar: list[Manba] = []
-
-    for kalit, yol in MANBA_FAYLLARI.items():
-        xom = _json_oqish(yol)
-        if not xom:
-            continue
-        portal_xizmatlari = _portal_xizmatlarini_oqish(kalit, xom)
-        xizmatlar.extend(portal_xizmatlari)
-
-        portal = xom.get("portal") or {}
-        manbalar.append(
-            Manba(
-                kalit=kalit,
-                nomi=_matn(portal.get("nomi")) or kalit,
-                url=_matn(portal.get("url")),
-                tavsif=_matn(portal.get("tavsif")),
-                aloqa=_matn(
-                    portal.get("aloqa_markazi") or portal.get("aloqa") or portal.get("qidiruv")
-                ),
-                kirish_tartibi=_royxat(portal.get("kirish_tartibi")),
-                yigilgan_sana=_matn(xom.get("yigilgan_sana")),
-                xizmatlar_soni=len(portal_xizmatlari),
-            )
+    """Butun katalogni bazadan o'qiydi (`tartib` — manba fayllaridagi asl ketma-ketlik)."""
+    xizmatlar = [
+        _xizmat(q)
+        for q in baza.sorov(
+            f"select {', '.join(XIZMAT_MAYDONLARI)} from xizmatlar order by tartib, id"
         )
-
-    bilim = _bilim_bazasini_oqish()
-    if bilim:
-        xizmatlar.extend(bilim)
-        manbalar.append(
-            Manba(
-                kalit="bilim-bazasi",
-                nomi="Compass bilim bazasi (qo'lda tayyorlangan yozuvlar)",
-                url="",
-                tavsif=(
-                    "Eng ko'p uchraydigan muammolar bo'yicha qo'lda yozilgan yo'riqnomalar: "
-                    "qaysi idora, qanday hujjat, qanday tartib."
-                ),
-                aloqa="",
-                kirish_tartibi=[],
-                yigilgan_sana="",
-                xizmatlar_soni=len(bilim),
-            )
-        )
-
+    ]
+    manbalar = [
+        _manba(q) for q in baza.sorov("select * from manbalar order by tartib, kalit")
+    ]
     return xizmatlar, manbalar
 
 
+_kesh: Kesh[tuple[list[Xizmat], list[Manba]]] = Kesh(_yuklash)
+
+
+def keshni_tozalash() -> None:
+    """Baza yangilangach chaqiriladi — keyingi so'rov yangi ma'lumotni oladi."""
+    _kesh.tozalash()
+    tarjima_bazasi.keshni_tozalash()
+
+
 def barcha_xizmatlar() -> list[Xizmat]:
-    return _yuklash()[0]
+    return _kesh.olish()[0]
 
 
 def barcha_manbalar() -> list[Manba]:
-    return _yuklash()[1]
+    return _kesh.olish()[1]
 
 
 def xizmat_topish(xizmat_id: str) -> Xizmat | None:

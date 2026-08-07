@@ -25,12 +25,18 @@ xabar orqali so'raydi.
 | `GEMINI_API_KEY` | Ha | Web sahifadagi javoblar ham xuddi bot bilan bir xil `bot/rag.py` orqali ishlaydi |
 | `GEMINI_API_KEY_ZAXIRA` | Ixtiyoriy | 429 (limit) bo'lganda avtomatik zaxira kalitga o'tish uchun |
 | `BOT_TOKEN` | Ha (garchi ishlatilmasa ham!) | Pastdagi eslatmaga qarang |
+| `DATABASE_URL` | Ha | Katalog, hisoblar va suhbat tarixi PostgreSQL'da (Supabase) |
 
-> **Eslatma:** kalitlar faqat **chat** uchun kerak. Sayt (katalog, manbalar,
-> savol-javob, kirish/ro'yxat, soat) ularsiz ham to'liq ishlaydi — `bot.rag`
-> birinchi savol kelgandagina import qilinadi. `BOT_TOKEN` esa faqat shu
-> importda talab qilinadi, shuning uchun chatni sinamoqchi bo'lsangiz unga
+> **Eslatma:** Gemini kalitlari faqat **chat** uchun kerak. Sayt (katalog,
+> manbalar, savol-javob, kirish/ro'yxat, soat) ularsiz ham to'liq ishlaydi —
+> `bot.rag` birinchi savol kelgandagina import qilinadi. `BOT_TOKEN` esa faqat
+> shu importda talab qilinadi, shuning uchun chatni sinamoqchi bo'lsangiz unga
 > istalgan bo'sh bo'lmagan qiymat (masalan `test`) qo'yish kifoya.
+> `DATABASE_URL` esa **doim** kerak: katalogning o'zi ham bazadan o'qiladi.
+
+`DATABASE_URL` — Supabase → Project Settings → Database → Connection string →
+**Transaction pooler** (6543-port). Paroldagi maxsus belgilarni URL-kodlang
+(`@` → `%40`). Namuna `.env.example` da.
 
 ### Qanday o'rnatish (Windows)
 
@@ -58,15 +64,34 @@ terminal/IDE oynalarini yopib qaytadan oching.
 
 O'rnatgandan keyin barcha ochiq terminal/IDE oynalarini yopib, qaytadan oching.
 
-## 3. Bazani indekslash
+## 3. Bazalarni tayyorlash
 
-Web ham bot bilan **bir xil** ChromaDB bazasidan foydalanadi, shuning uchun
-avval baza indekslangan bo'lishi kerak (bot tomondan bir marta qilingan
-bo'lsa, qayta qilish shart emas):
+Ikkita alohida baza bor va ikkalasi ham bir marta tayyorlanadi:
+
+**a) PostgreSQL (Supabase)** — katalog, hisoblar, suhbat tarixi. Jadvallarni
+yaratadi va `data/*.json` dagi yozuvlarni yuklaydi:
 
 ```powershell
-python -m bot.index_qurish
+python -m baza.kochirish            # sxema + katalog + tarjimalar
+python -m baza.kochirish --holat    # jadvallardagi yozuvlar sonini ko'rish
 ```
+
+`data/*.json` o'zgargach shu buyruqni qayta ishga tushiring — yozuvlar id
+bo'yicha yangilanadi, o'chirilganlari bazadan ham ketadi.
+
+**b) Vektor indeks (pgvector)** — faqat chat (RAG) uchun. U ham xuddi shu
+Postgres'da, `vektorlar` jadvalida (ilgari diskdagi ChromaDB fayli edi).
+Web ham bot bilan **bir xil** indeksdan foydalanadi, shuning uchun bir marta
+qilingan bo'lsa, qayta qilish shart emas:
+
+```powershell
+python -m bot.index_qurish                # hammasini qaytadan indekslash
+python -m bot.index_qurish --yangilarini  # faqat bazada yo'q yozuvlarni
+```
+
+Har bir yozuv uchun Gemini'ga embedding so'rovi ketadi (329 ta yozuv —
+bir necha daqiqa), shuning uchun uzilib qolsa `--yangilarini` bilan davom
+ettiring: allaqachon indekslangan yozuvlar uchun qayta so'ralmaydi.
 
 ## 4. Frontendni yig'ish (Node.js 20+ kerak)
 
@@ -130,34 +155,55 @@ web/
       auth.py             — POST /api/auth/{royxat,kirish,chiqish}, GET /api/auth/men
       vaqt.py             — GET /api/vaqt, WS /ws/vaqt (Toshkent soati)
   config.py               — yo'llar va sozlamalar (kalitsiz, bot.config'dan mustaqil)
-  eksport_katalog.py      — data/*.json → frontend/public/data/katalog.json
+  eksport_katalog.py      — katalog → frontend/public/data/katalog.json
   xizmat/                 — xizmat qatlami (HTTP'dan mustaqil)
-      katalog_bazasi.py   — data/*.json ni yagona shaklga keltirib o'qish
-      foydalanuvchilar_bazasi.py — hisoblar, parol hash'i, sessiyalar
+      katalog_bazasi.py   — katalogni bazadan o'qish + keshlash
+      tarjima_bazasi.py   — ru/en tarjimalari (tarjimalar jadvali)
+      foydalanuvchilar_bazasi.py — hisoblar, SMS kodlar, sessiyalar
+      kesh.py             — vaqt bilan cheklangan xotira keshi
+```
+
+Baza qatlami `web/` dan tashqarida, chunki uni bot ham ishlatadi:
+
+```
+baza/
+  __init__.py     — ulanishlar hovuzi va so'rov yordamchilari (sorov/bitta/bajarish)
+  sxema.sql       — jadvallar (create table if not exists)
+  kochirish.py    — sxema + data/*.json → baza
+  json_manba.py   — JSON fayllarni bazaga yoziladigan qatorlarga aylantirish
+  suhbat.py       — suhbat tarixi va Telegram tili (web + bot uchun umumiy)
+  muhit.py        — .env yuklash
 ```
 
 `bot.rag` (RAG yadrosi) **faqat birinchi savol kelganda** import qilinadi:
-`chromadb` o'rnatilmagan yoki Gemini kaliti yo'q bo'lsa sayt baribir to'liq
-ishlaydi, chat esa "hozircha sozlanmagan" degan tushunarli xabar qaytaradi.
-Chatni yoqish uchun: `pip install -r requirements.txt` va
-`python -m bot.index_qurish`.
+Gemini kaliti yo'q bo'lsa sayt baribir to'liq ishlaydi, chat esa "hozircha
+sozlanmagan" degan tushunarli xabar qaytaradi. Chatni yoqish uchun:
+`pip install -r requirements.txt` va `python -m bot.index_qurish`.
 
 Muhim: sayt bo'limlari (Kategoriyalar, Barcha bazalar, Manbalar, Savol-javob)
-**bir xil `data/*.json`** fayllardan oziqlanadi — RAG uchun ishlatiladigan
-ChromaDB indeksi bu yerda kerak emas, shuning uchun bu sahifalar
-`python -m bot.index_qurish` qilinmagan holatda ham ishlaydi.
+`xizmatlar` jadvalidan oziqlanadi, RAG esa alohida `vektorlar` jadvalidan —
+shuning uchun bu sahifalar `python -m bot.index_qurish` qilinmagan holatda
+ham ishlaydi.
+
+Katalog ~330 yozuv va deyarli o'zgarmaydi, shuning uchun u bir marta o'qilib
+xotirada keshlanadi (`web/xizmat/kesh.py`); filtrlash va guruhlash shu ro'yxat
+ustida bajariladi. Kesh muddati — `COMPASS_KATALOG_KESH_SONIYA` (standart 300
+soniya, `0` — keshsiz). Baza yangilangach darhol ko'rish uchun serverni qayta
+ishga tushiring yoki `katalog_bazasi.keshni_tozalash()` ni chaqiring.
 
 ### Avtorizatsiya
 
-- Parollar PBKDF2-HMAC-SHA256 (200 000 iteratsiya) + har foydalanuvchiga alohida
-  "tuz" bilan saqlanadi, ochiq matnda hech qachon yozilmaydi.
+- Kirish telefon raqami + tug'ilgan sana orqali: raqamga tasdiqlash kodi
+  yuboriladi (⚠️ hozircha **mock** — kod javobda qaytariladi).
 - Sessiya tokeni **httpOnly cookie**da (`compass_sessiya`) yuriladi — JavaScript
   uni o'qiy olmaydi.
-- Hisoblar `foydalanuvchilar.json` faylida (repo ildizida, `.gitignore`da).
-  Yo'lni `COMPASS_FOYDALANUVCHILAR` env bilan almashtirish mumkin (testlarda shunday).
-- ⚠️ Bu MVP darajasidagi yechim: bitta server nusxasi uchun. Yuklama ortsa yoki
-  bir nechta nusxa ishlasa — haqiqiy bazaga (PostgreSQL) ko'chirish kerak.
-  Ishlab chiqarishda cookie'ga `secure=True` ham qo'yiladi (HTTPS ostida).
+- Hisoblar, sessiyalar va kodlar PostgreSQL'da: `foydalanuvchilar`,
+  `sessiyalar`, `kirish_kodlari` jadvallari. Muddati o'tgan sessiya va kodlar
+  har kirish urinishida tozalanadi.
+- Frontend alohida domenda bo'lsa (masalan Netlify, API boshqa xostda) cookie
+  kross-domen bo'ladi: `COMPASS_COOKIE_SAMESITE=none`, `COMPASS_COOKIE_SECURE=1`
+  va `COMPASS_RUXSAT_MANBALAR=https://...` (CORS) qo'yiladi. Netlify'da
+  `/api/*` ni backendga proksilash ham mumkin — u holda bular kerak emas.
 
 ### Frontend (`web/frontend/`)
 
@@ -202,8 +248,16 @@ Qoidalar:
 - Ilova `crypto.randomUUID()` bilan `session_id` yaratadi va uni
   `sessionStorage`da saqlaydi (tab yopilguncha), har bir `/api/savol`
   so'roviga qo'shib yuboradi.
-- Server (`web/main.py`) `session_id` bo'yicha suhbat tarixini xotirada (`SUHBATLAR` lug'ati) saqlaydi — shu tufayli bot "suv chiqmayapti" kabi noaniq savolga aniqlashtiruvchi savol berib, keyingi xabarlar bilan to'ldirilgan javob bera oladi.
-- Server qayta ishga tushsa (`--reload` bilan kod o'zgarganda ham) barcha suhbatlar tarixi yo'qoladi — MVP uchun bu normal.
+- Server tarixni `session_id` bo'yicha `suhbat_xabarlari` jadvalida saqlaydi
+  (`baza/suhbat.py`) — shu tufayli bot "suv chiqmayapti" kabi noaniq savolga
+  aniqlashtiruvchi savol berib, keyingi xabarlar bilan to'ldirilgan javob bera oladi.
+- Tarix bazada bo'lgani uchun server qayta ishga tushsa ham (yoki bir nechta
+  nusxa ishlasa ham) yo'qolmaydi. Modelga so'nggi 8 ta xabar beriladi
+  (`baza.suhbat.TARIX_UZUNLIGI`).
+- Javob olinmagan savol bazaga yozilmaydi: savol va javob bitta tranzaksiyada
+  birga saqlanadi, aks holda keyingi so'rovga kontekst noto'g'ri yig'ilardi.
+- Telegram bot ham xuddi shu jadvaldan foydalanadi (`kanal = 'telegram'`,
+  `sessiya_id` — chat id), tanlangan til esa `telegram_foydalanuvchilari` da.
 
 ## 8. Bilish kerak bo'lgan narsalar
 
