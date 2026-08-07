@@ -1,5 +1,11 @@
 # Render — FastAPI backend (API: katalog, chat, avtorizatsiya, soat).
 #
+# ⚠️ Joriy servis bu blueprint'dan EMAS, Docker obrazidan qurilgan (repo
+# xususiy va Render'ning GitHub ulanishi yo'q edi). Bu fayl repo Render'ga
+# ulangach ishlatiladi. Hozirgi holat — Dockerfile'ga qarang:
+#     https://dashboard.render.com/web/srv-d9qskh9t0dsc738l7mj0
+#     https://compass-api-x8uy.onrender.com
+#
 # Frontend bu yerda emas: u Netlify'da (netlify.toml), va u yerdan `/api/*`
 # so'rovlari shu servisga proksilanadi — sayt bitta domendan ko'rinadi.
 #
@@ -38,5 +44,8 @@ services:
       #   COMPASS_RUXSAT_MANBALAR=https://compass-uzb.netlify.app
       #   COMPASS_COOKIE_SAMESITE=none
       #   COMPASS_COOKIE_SECURE=1
+      # Sayt to'liq HTTPS'da — sessiya cookie'si Secure bo'lsin.
+      - key: COMPASS_COOKIE_SECURE
+        value: "1"
       - key: COMPASS_KATALOG_KESH_SONIYA
         value: "600"

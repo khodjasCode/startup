@@ -19,30 +19,25 @@
 [build]
   publish = "web/frontend/dist"
 
-# Backend manzili ma'lum bo'lgach shu qatorlarni yoqing: /api va /ws so'rovlari
-# backendga proksilanadi va sayt bitta domendan ko'rinadi — u holda CORS ham,
-# `SameSite=None` cookie ham kerak emas (sessiya odatdagidek ishlaydi).
+# /api va /ws Render'dagi backendga proksilanadi. Shu tufayli brauzer uchun
+# hammasi bitta domen (compass-uzb.netlify.app) — CORS ham, `SameSite=None`
+# cookie ham kerak emas, sessiya odatdagidek ishlaydi.
 #
-# [[redirects]]
-#   from = "/api/*"
-#   to = "https://BACKEND-MANZILI/api/:splat"
-#   status = 200
-#   force = true
-#
-# [[redirects]]
-#   from = "/ws/*"
-#   to = "wss://BACKEND-MANZILI/ws/:splat"
-#   status = 200
-#   force = true
-
-# Backend ulanmaguncha /api/* so'rovlariga aniq 404 qaytariladi. Aks holda
-# pastdagi SPA qoidasi ularga index.html ni 200 bilan beradi va frontend
-# javobni JSON deb o'qishga urinadi. 404 bo'lsa u darhol zaxira manbaga
-# (/data/katalog.json) o'tadi — katalog, manbalar va savol-javob ishlaydi.
+# ⚠️ Backend bepul tarifda: 15 daqiqa murojaat bo'lmasa uxlaydi va birinchi
+# so'rov ~50 soniya kutadi. Katalog bu vaqtda ham ko'rinadi — frontend
+# javobni kutmay /data/katalog.json zaxirasiga o'tadi; chat va kirish esa
+# backend uyg'onishini kutadi.
 [[redirects]]
   from = "/api/*"
-  to = "/index.html"
-  status = 404
+  to = "https://compass-api-x8uy.onrender.com/api/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/ws/*"
+  to = "wss://compass-api-x8uy.onrender.com/ws/:splat"
+  status = 200
+  force = true
 
 # SPA: barcha noma'lum yo'llar index.html ga (client-side routing).
 # Bu qoida oxirida turishi kerak — undan yuqoridagilar ustun bo'ladi.

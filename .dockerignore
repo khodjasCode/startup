@@ -1,0 +1,28 @@
+# ⚠️ Sirlar obrazga tushmasligi kerak — Render'da ular environment orqali beriladi.
+.env
+.env.*
+foydalanuvchilar.json
+foydalanuvchilar.json.tmp
+
+# Frontend Netlify'da yig'iladi va tarqatiladi, backend obraziga kerak emas.
+web/frontend
+
+.git
+.github
+.idea
+.netlify
+__pycache__
+**/__pycache__
+*.pyc
+.venv
+venv
+vektor_baza
+
+# Faqat hujjat va sinov materiallari.
+qa
+docs
+instructions
+assets
+*.md
+LICENSE
+LOYIHA_HOLATI.txt
