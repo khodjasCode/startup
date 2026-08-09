@@ -22,8 +22,9 @@ services:
     mem_limit: 400m
 
   # Faqat API (/api, /ws) — frontend Cloudflare Workers'da, bu yerga
-  # kirmaydi. Cloudflare Worker so'rovlarni origin.yonaltiruvchi.uz orqali
-  # shu servisga proksilaydi (batafsil: CLOUDFLARE.md).
+  # kirmaydi. Serverda boshqa saytlar uchun allaqachon nginx bor edi, shuning
+  # uchun Caddy o'rniga: bu port faqat 127.0.0.1'da ochiladi, tashqi TLS va
+  # origin.yonaltiruvchi.uz marshrutini host'dagi nginx qiladi.
   web:
     <<: *log
     build: .
@@ -34,6 +35,8 @@ services:
     volumes:
       - vektor_baza:/app/vektor_baza
       - users_data:/app/persist
+    ports:
+      - "127.0.0.1:8000:8000"
     depends_on:
       index-init:
         condition: service_completed_successfully
@@ -62,24 +65,6 @@ services:
     mem_limit: 400m
     cpus: 1.0
 
-  caddy:
-    <<: *log
-    image: caddy:2-alpine
-    env_file: .env
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile:ro
-      - caddy_data:/data
-      - caddy_config:/config
-    depends_on:
-      - web
-    restart: unless-stopped
-    mem_limit: 128m
-
 volumes:
   vektor_baza:
   users_data:
-  caddy_data:
-  caddy_config:
