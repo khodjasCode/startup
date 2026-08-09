@@ -79,9 +79,6 @@ Chat har sahifadan ochiladi va butun ekranga yoyiladi.
 
 Batafsil (arxitektura va qatlam qoidalari): [instructions/WEB.md](instructions/WEB.md)
 
-Serverga deploy: backend — Docker Compose + avtomatik HTTPS ([DEPLOY.md](DEPLOY.md)),
-frontend — Cloudflare Workers ([CLOUDFLARE.md](CLOUDFLARE.md))
-
 ## Sifatni tekshirish (QA)
 
 ```bash

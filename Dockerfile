@@ -2,8 +2,9 @@
 #
 # Frontend endi shu image ichida QURILMAYDI — u alohida Cloudflare Workers'ga
 # deploy qilinadi (web/frontend/wrangler.toml). Bu konteyner faqat API'ni
-# beradi, uni Cloudflare Worker /api va /ws yo'llari uchun proksilaydi
-# (batafsil: CLOUDFLARE.md).
+# beradi (127.0.0.1:8000), uni serverdagi nginx origin.yonaltiruvchi.uz
+# sifatida tashqariga chiqaradi, Cloudflare Worker esa /api va /ws'ni
+# shu nginx'ga proksilaydi.
 FROM python:3.12-slim
 WORKDIR /app
 # docker/index_init.py skript sifatida ishga tushadi (`python docker/index_init.py`),
