@@ -1,0 +1,85 @@
+x-log: &log
+  logging:
+    driver: json-file
+    options:
+      max-size: "10m"
+      max-file: "3"
+
+services:
+  # Vektor bazani (ChromaDB) bir marta quradi va chiqadi. bot/web faqat shu
+  # tugagach ishga tushadi — ikkalasi ham bir vaqtda bazaga yozmasin deb.
+  # Baza allaqachon tayyor bo'lsa (vektor_baza volume saqlanib qolgan), tez
+  # o'tib ketadi va qayta indekslamaydi.
+  index-init:
+    <<: *log
+    build: .
+    image: compass:latest
+    env_file: .env
+    volumes:
+      - vektor_baza:/app/vektor_baza
+    command: ["python", "docker/index_init.py"]
+    restart: "no"
+    mem_limit: 400m
+
+  # Faqat API (/api, /ws) — frontend Cloudflare Workers'da, bu yerga
+  # kirmaydi. Cloudflare Worker so'rovlarni origin.yonaltiruvchi.uz orqali
+  # shu servisga proksilaydi (batafsil: CLOUDFLARE.md).
+  web:
+    <<: *log
+    build: .
+    image: compass:latest
+    env_file: .env
+    environment:
+      - COMPASS_FOYDALANUVCHILAR=/app/persist/foydalanuvchilar.json
+    volumes:
+      - vektor_baza:/app/vektor_baza
+      - users_data:/app/persist
+    depends_on:
+      index-init:
+        condition: service_completed_successfully
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    mem_limit: 400m
+    cpus: 1.0
+
+  bot:
+    <<: *log
+    build: .
+    image: compass:latest
+    env_file: .env
+    command: ["python", "-m", "bot.main"]
+    volumes:
+      - vektor_baza:/app/vektor_baza
+    depends_on:
+      index-init:
+        condition: service_completed_successfully
+    restart: unless-stopped
+    mem_limit: 400m
+    cpus: 1.0
+
+  caddy:
+    <<: *log
+    image: caddy:2-alpine
+    env_file: .env
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - web
+    restart: unless-stopped
+    mem_limit: 128m
+
+volumes:
+  vektor_baza:
+  users_data:
+  caddy_data:
+  caddy_config:

@@ -1,0 +1,19 @@
+# Cloudflare Workers'ga deploy: statik frontend (dist/) + /api va /ws uchun
+# proksi-skript (worker.js), shu bilan sayt bitta domenda ishlaydi
+# (yonaltiruvchi.uz) — cookie'lar va nisbiy /api so'rovlari o'zgarishsiz
+# ishlayveradi. Batafsil: CLOUDFLARE.md (repo ildizida).
+
+name = "compass-web"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+[assets]
+directory = "./dist"
+not_found_handling = "single-page-application"
+binding = "ASSETS"
+run_worker_first = ["/api/*", "/ws/*"]
+
+[vars]
+# Backend server manzili — Caddy shu hostga origin.yonaltiruvchi.uz sifatida
+# sertifikat olib xizmat qiladi (CLOUDFLARE.md'da DNS sozlamasi bilan birga).
+BACKEND_ORIGIN = "https://origin.yonaltiruvchi.uz"
