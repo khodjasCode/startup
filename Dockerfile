@@ -6,6 +6,10 @@
 # (batafsil: CLOUDFLARE.md).
 FROM python:3.12-slim
 WORKDIR /app
+# docker/index_init.py skript sifatida ishga tushadi (`python docker/index_init.py`),
+# shu holatda Python faqat skript papkasini sys.path'ga qo'shadi — /app'dagi
+# bot/web paketlarini topolmay qoladi. PYTHONPATH bilan buni tuzatamiz.
+ENV PYTHONPATH=/app
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends curl \
