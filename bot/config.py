@@ -28,8 +28,11 @@ def _kalit(nom: str) -> str:
 
 BOT_TOKEN = _kalit("BOT_TOKEN")
 GEMINI_API_KEY = _kalit("GEMINI_API_KEY")
-# Zaxira kalit (ixtiyoriy) — asosiy kalit 429 (limit) qaytarsa shunga o'tiladi
+# Zaxira kalitlar (ixtiyoriy) — asosiy kalit 429 (limit) qaytarsa, navbat
+# bilan keyingisiga o'tiladi (bot/rag.py dagi _kalitlar_bilan_urin)
 GEMINI_API_KEY_ZAXIRA = os.environ.get("GEMINI_API_KEY_ZAXIRA")
+GEMINI_API_KEY_ZAXIRA_2 = os.environ.get("GEMINI_API_KEY_ZAXIRA_2")
+GEMINI_API_KEY_ZAXIRA_3 = os.environ.get("GEMINI_API_KEY_ZAXIRA_3")
 
 BILIM_BAZASI_YOLI = LOYIHA_ILDIZI / "data" / "bilim_bazasi.json"
 MY_GOV_YOLI = LOYIHA_ILDIZI / "data" / "my-gov.json"
