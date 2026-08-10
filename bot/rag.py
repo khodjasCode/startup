@@ -7,6 +7,8 @@ import chromadb
 from bot.config import (
     GEMINI_API_KEY,
     GEMINI_API_KEY_ZAXIRA,
+    GEMINI_API_KEY_ZAXIRA_2,
+    GEMINI_API_KEY_ZAXIRA_3,
     VEKTOR_BAZA_YOLI,
     EMBEDDING_MODEL,
     LLM_MODEL,
@@ -14,9 +16,18 @@ from bot.config import (
 )
 from bot.prompt import SYSTEM_PROMPT
 
-# Asosiy va (bor bo'lsa) zaxira kalit bilan ikkita mijoz tayyorlab qo'yamiz —
-# biri 429 (limit) qaytarsa, ikkinchisiga o'tiladi.
-_KALITLAR = [k for k in (GEMINI_API_KEY, GEMINI_API_KEY_ZAXIRA) if k]
+# Asosiy va (bor bo'lsa) zaxira kalitlar bilan mijozlar tayyorlab qo'yamiz —
+# biri 429 (limit) qaytarsa, navbat bilan keyingisiga o'tiladi.
+_KALITLAR = [
+    k
+    for k in (
+        GEMINI_API_KEY,
+        GEMINI_API_KEY_ZAXIRA,
+        GEMINI_API_KEY_ZAXIRA_2,
+        GEMINI_API_KEY_ZAXIRA_3,
+    )
+    if k
+]
 _MIJOZLAR = [genai.Client(api_key=kalit) for kalit in _KALITLAR]
 
 chroma = chromadb.PersistentClient(path=str(VEKTOR_BAZA_YOLI))
