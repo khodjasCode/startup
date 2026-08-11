@@ -12,11 +12,11 @@ FAQAT `.env` faylida saqlanadi (u `.gitignore`da, git'ga tushmaydi).
 
 | Env o'zgaruvchi | Qiymat |
 |---|---|
-| `GEMINI_API_KEY` | `.env` faylida (mahalliy yoki serverda) |
-| `GEMINI_API_KEY_ZAXIRA` | `.env` faylida |
-| `GEMINI_API_KEY_ZAXIRA_2` | `.env` faylida (ixtiyoriy) |
-| `GEMINI_API_KEY_ZAXIRA_3` | `.env` faylida (ixtiyoriy) |
-| `GEMINI_API_KEY_ZAXIRA_4` | `.env` faylida (ixtiyoriy) |
+| `GEMINI_API_KEY` | `.env` faylida (mahalliy yoki serverda) — ishlatilmoqda |
+| `GEMINI_API_KEY_ZAXIRA` | `.env` faylida — ishlatilmoqda |
+| `GEMINI_API_KEY_ZAXIRA_2` | `.env` faylida — ishlatilmoqda |
+| `GEMINI_API_KEY_ZAXIRA_3` | `.env` faylida (ixtiyoriy, hozircha bo'sh) |
+| `GEMINI_API_KEY_ZAXIRA_4` | `.env` faylida (ixtiyoriy, hozircha bo'sh) |
 
 Haqiqiy qiymatlarni kim bilishi kerak bo'lsa, ularni git'dan tashqari bir
 kanal orqali (masalan to'g'ridan-to'g'ri xabar) yuboring — hech qachon
