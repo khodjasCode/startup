@@ -84,20 +84,28 @@ XATOLIK_XABARI_TARJIMALARI = {
 TIL_NOMLARI = {"uz": "o'zbek", "ru": "rus", "en": "ingliz"}
 
 
+# Kalitga xos xatolar — shu kalit ishlamayapti (limit, bekor qilingan,
+# noto'g'ri sozlangan), keyingi kalitni sinab ko'rish mantiqan. 400 kabi
+# so'rovning o'zidagi xatolar bunga kirmaydi — ular boshqa kalit bilan ham
+# takrorlanadi, shuning uchun darhol ko'tariladi.
+_KALITGA_XOS_XATOLAR = {401, 403, 429}
+
+
 def _kalitlar_bilan_urin(vazifa):
     """vazifa(mijoz) ni har bir mavjud kalit bilan navbatma-navbat sinaydi.
-    429 (limit) bo'lsa keyingi kalitga o'tadi; boshqa xato bo'lsa darhol
-    ko'taradi; barcha kalitlar 429 bersa TokenlarTugadi ko'taradi."""
-    oxirgi_429 = None
+    Kalitga xos xato (401/403/429) bo'lsa keyingi kalitga o'tadi; boshqa
+    xato bo'lsa darhol ko'taradi; barcha kalitlar shunday xato bersa
+    TokenlarTugadi ko'taradi."""
+    oxirgi_xato = None
     for mijoz in _MIJOZLAR:
         try:
             return vazifa(mijoz)
         except errors.ClientError as xato:
-            if xato.code == 429:
-                oxirgi_429 = xato
+            if xato.code in _KALITGA_XOS_XATOLAR:
+                oxirgi_xato = xato
                 continue
             raise
-    raise TokenlarTugadi() from oxirgi_429
+    raise TokenlarTugadi() from oxirgi_xato
 
 
 def embed(matn: str) -> list[float]:
