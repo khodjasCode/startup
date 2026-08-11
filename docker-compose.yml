@@ -42,7 +42,9 @@ services:
         condition: service_completed_successfully
     restart: unless-stopped
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/"]
+      # "/" har doim 503 qaytaradi (frontend endi shu image'da yo'q, bu
+      # dizayn bo'yicha to'g'ri) — shuning uchun haqiqiy API yo'lini tekshiramiz.
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/sohalar"]
       interval: 30s
       timeout: 5s
       retries: 3
