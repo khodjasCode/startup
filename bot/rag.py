@@ -93,9 +93,10 @@ _KALITGA_XOS_XATOLAR = {401, 403, 429}
 
 def _kalitlar_bilan_urin(vazifa):
     """vazifa(mijoz) ni har bir mavjud kalit bilan navbatma-navbat sinaydi.
-    Kalitga xos xato (401/403/429) bo'lsa keyingi kalitga o'tadi; boshqa
-    xato bo'lsa darhol ko'taradi; barcha kalitlar shunday xato bersa
-    TokenlarTugadi ko'taradi."""
+    Kalitga xos xato (401/403/429) yoki 503 (server vaqtincha band) bo'lsa
+    keyingi kalitga o'tadi; boshqa xato bo'lsa darhol ko'taradi; barcha
+    kalitlar shunday xato bersa TokenlarTugadi ko'taradi (javob_olish buni
+    zaxira modelga o'tish uchun ushlaydi)."""
     oxirgi_xato = None
     for mijoz in _MIJOZLAR:
         try:
@@ -105,6 +106,9 @@ def _kalitlar_bilan_urin(vazifa):
                 oxirgi_xato = xato
                 continue
             raise
+        except errors.ServerError as xato:
+            oxirgi_xato = xato
+            continue
     raise TokenlarTugadi() from oxirgi_xato
 
 
