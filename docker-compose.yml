@@ -1,0 +1,72 @@
+x-log: &log
+  logging:
+    driver: json-file
+    options:
+      max-size: "10m"
+      max-file: "3"
+
+services:
+  # Vektor bazani (ChromaDB) bir marta quradi va chiqadi. bot/web faqat shu
+  # tugagach ishga tushadi — ikkalasi ham bir vaqtda bazaga yozmasin deb.
+  # Baza allaqachon tayyor bo'lsa (vektor_baza volume saqlanib qolgan), tez
+  # o'tib ketadi va qayta indekslamaydi.
+  index-init:
+    <<: *log
+    build: .
+    image: compass:latest
+    env_file: .env
+    volumes:
+      - vektor_baza:/app/vektor_baza
+    command: ["python", "docker/index_init.py"]
+    restart: "no"
+    mem_limit: 400m
+
+  # Faqat API (/api, /ws) — frontend Cloudflare Workers'da, bu yerga
+  # kirmaydi. Serverda boshqa saytlar uchun allaqachon nginx bor edi, shuning
+  # uchun Caddy o'rniga: bu port faqat 127.0.0.1'da ochiladi, tashqi TLS va
+  # origin.yonaltiruvchi.uz marshrutini host'dagi nginx qiladi.
+  web:
+    <<: *log
+    build: .
+    image: compass:latest
+    env_file: .env
+    environment:
+      - COMPASS_FOYDALANUVCHILAR=/app/persist/foydalanuvchilar.json
+    volumes:
+      - vektor_baza:/app/vektor_baza
+      - users_data:/app/persist
+    ports:
+      - "127.0.0.1:8000:8000"
+    depends_on:
+      index-init:
+        condition: service_completed_successfully
+    restart: unless-stopped
+    healthcheck:
+      # "/" har doim 503 qaytaradi (frontend endi shu image'da yo'q, bu
+      # dizayn bo'yicha to'g'ri) — shuning uchun haqiqiy API yo'lini tekshiramiz.
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/sohalar"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    mem_limit: 400m
+    cpus: 1.0
+
+  bot:
+    <<: *log
+    build: .
+    image: compass:latest
+    env_file: .env
+    command: ["python", "-m", "bot.main"]
+    volumes:
+      - vektor_baza:/app/vektor_baza
+    depends_on:
+      index-init:
+        condition: service_completed_successfully
+    restart: unless-stopped
+    mem_limit: 400m
+    cpus: 1.0
+
+volumes:
+  vektor_baza:
+  users_data:
