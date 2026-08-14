@@ -86,18 +86,23 @@ TIL_NOMLARI = {"uz": "o'zbek", "ru": "rus", "en": "ingliz"}
 
 def _kalitlar_bilan_urin(vazifa):
     """vazifa(mijoz) ni har bir mavjud kalit bilan navbatma-navbat sinaydi.
-    429 (limit) bo'lsa keyingi kalitga o'tadi; boshqa xato bo'lsa darhol
-    ko'taradi; barcha kalitlar 429 bersa TokenlarTugadi ko'taradi."""
-    oxirgi_429 = None
+    429 (limit) yoki 503 (server vaqtincha band) bo'lsa keyingi kalitga
+    o'tadi; boshqa xato bo'lsa darhol ko'taradi; barcha kalitlar shu
+    ikkalasidan birini bersa TokenlarTugadi ko'taradi (javob_olish buni
+    zaxira modelga o'tish uchun ushlaydi)."""
+    oxirgi_xato = None
     for mijoz in _MIJOZLAR:
         try:
             return vazifa(mijoz)
         except errors.ClientError as xato:
             if xato.code == 429:
-                oxirgi_429 = xato
+                oxirgi_xato = xato
                 continue
             raise
-    raise TokenlarTugadi() from oxirgi_429
+        except errors.ServerError as xato:
+            oxirgi_xato = xato
+            continue
+    raise TokenlarTugadi() from oxirgi_xato
 
 
 def embed(matn: str) -> list[float]:
